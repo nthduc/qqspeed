@@ -1,0 +1,337 @@
+ FastTraceLog
+
+ Timestamp is 3e4e5916 (Sat Feb 15 10:13:26 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000eacH .text                   CODE
+ 0001:00000eac 0000002bH .text$x                 CODE
+ 0002:00000000 000000f4H .idata$5                DATA
+ 0002:00000100 000001a0H .rdata                  DATA
+ 0002:000002a0 00000045H .rdata$debug            DATA
+ 0002:000002f0 00000008H .rdata$sxdata           DATA
+ 0002:000002f8 00000004H .rtc$IAA                DATA
+ 0002:000002fc 00000004H .rtc$IZZ                DATA
+ 0002:00000300 00000004H .rtc$TAA                DATA
+ 0002:00000304 00000004H .rtc$TZZ                DATA
+ 0002:00000308 00000034H .xdata$x                DATA
+ 0002:0000033c 0000003cH .idata$2                DATA
+ 0002:00000378 00000014H .idata$3                DATA
+ 0002:0000038c 000000f4H .idata$4                DATA
+ 0002:00000480 000003a0H .idata$6                DATA
+ 0002:00000820 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCAA               DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000010H .data                   DATA
+ 0003:00000030 00000020H .bss                    DATA
+ 0004:00000000 00000100H .rsrc$01                DATA
+ 0004:00000100 000009c8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000002       ___safe_se_handler_count   00000002     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0001:00000000       ??0CMappedLogFile@@QAE@XZ  00401000 f i FastTraceLog.obj
+ 0001:00000021       ??1CMappedLogFile@@UAE@XZ  00401021 f i FastTraceLog.obj
+ 0001:00000037       ?ThreadID@CMappedLogFile@@QAEJXZ 00401037 f i FastTraceLog.obj
+ 0001:0000004a       ?StringCount@CMappedLogFile@@QAEJXZ 0040104a f i FastTraceLog.obj
+ 0001:0000005d       ??_ECMappedLogFile@@UAEPAXI@Z 0040105d f i FastTraceLog.obj
+ 0001:0000005d       ??_GCMappedLogFile@@UAEPAXI@Z 0040105d f i FastTraceLog.obj
+ 0001:00000079       _wmain                     00401079 f   FastTraceLog.obj
+ 0001:000003b7       ?ParseCommandLine@@YAHHQAPAGAAUtag_CMDOPTS@@@Z 004013b7 f   FastTraceLog.obj
+ 0001:0000046f       ?ShowHelp@@YAXXZ           0040146f f   FastTraceLog.obj
+ 0001:000004cf       ?EnumerateFilenames@@YAHPBGAAV?$JSimpleArray@VJString@@V?$JSimpleArrayEqualHelper@VJString@@@@@@@Z 004014cf f   FastTraceLog.obj
+ 0001:0000057c       ?MergeFiles@@YAHPBGAAV?$JSimpleArray@PAVCMappedLogFile@@V?$JSimpleArrayEqualHelper@PAVCMappedLogFile@@@@@@@Z 0040157c f   FastTraceLog.obj
+ 0001:00000760       ??1?$JSimpleArray@VJString@@V?$JSimpleArrayEqualHelper@VJString@@@@@@QAE@XZ 00401760 f i FastTraceLog.obj
+ 0001:00000765       ?Add@?$JSimpleArray@VJString@@V?$JSimpleArrayEqualHelper@VJString@@@@@@QAEHABVJString@@@Z 00401765 f i FastTraceLog.obj
+ 0001:000007af       ??1?$JSimpleArray@PAVCMappedLogFile@@V?$JSimpleArrayEqualHelper@PAVCMappedLogFile@@@@@@QAE@XZ 004017af f i FastTraceLog.obj
+ 0001:000007b4       ?Add@?$JSimpleArray@PAVCMappedLogFile@@V?$JSimpleArrayEqualHelper@PAVCMappedLogFile@@@@@@QAEHABQAVCMappedLogFile@@@Z 004017b4 f i FastTraceLog.obj
+ 0001:000007ff       ?RemoveAt@?$JSimpleArray@PAVCMappedLogFile@@V?$JSimpleArrayEqualHelper@PAVCMappedLogFile@@@@@@QAEHH@Z 004017ff f i FastTraceLog.obj
+ 0001:00000838       ?RemoveAll@?$JSimpleArray@VJString@@V?$JSimpleArrayEqualHelper@VJString@@@@@@QAEXXZ 00401838 f i FastTraceLog.obj
+ 0001:00000871       ?InternalSetAtIndex@?$JSimpleArray@VJString@@V?$JSimpleArrayEqualHelper@VJString@@@@@@QAEXHABVJString@@@Z 00401871 f i FastTraceLog.obj
+ 0001:00000885       ?RemoveAll@?$JSimpleArray@PAVCMappedLogFile@@V?$JSimpleArrayEqualHelper@PAVCMappedLogFile@@@@@@QAEXXZ 00401885 f i FastTraceLog.obj
+ 0001:0000089f       ?InternalSetAtIndex@?$JSimpleArray@PAVCMappedLogFile@@V?$JSimpleArrayEqualHelper@PAVCMappedLogFile@@@@@@QAEXHABQAVCMappedLogFile@@@Z 0040189f f i FastTraceLog.obj
+ 0001:000008b3       ?LoadStringW@CResString@@QAEPBGI@Z 004018b3 f i FastTraceLog.obj
+ 0001:000008d4       ??1CResString@@UAE@XZ      004018d4 f i FastTraceLog.obj
+ 0001:000008db       ??_ECResString@@UAEPAXI@Z  004018db f i FastTraceLog.obj
+ 0001:000008db       ??_GCResString@@UAEPAXI@Z  004018db f i FastTraceLog.obj
+ 0001:00000920       ??0JString@@QAE@PBG@Z      00401920 f   JString.obj
+ 0001:00000968       ??0JString@@QAE@ABV0@@Z    00401968 f   JString.obj
+ 0001:000009bb       ??1JString@@QAE@XZ         004019bb f   JString.obj
+ 0001:000009d4       ?Open@CMappedLogFile@@QAE?AW4eOpenRes@@PBG@Z 004019d4 f   MappedLogFile.obj
+ 0001:00000a73       ?GetFirstString@CMappedLogFile@@QAEPAUtag_FTDATA@@XZ 00401a73 f   MappedLogFile.obj
+ 0001:00000a87       ?GetNextString@CMappedLogFile@@QAEPAUtag_FTDATA@@XZ 00401a87 f   MappedLogFile.obj
+ 0001:00000aa3       ?Close@CMappedLogFile@@QAEXXZ 00401aa3 f   MappedLogFile.obj
+ 0001:00000adc       ??3@YAXPAX@Z               00401adc f   MSVCRT:MSVCR71.dll
+ 0001:00000ae2       ??2@YAPAXI@Z               00401ae2 f   MSVCRT:MSVCR71.dll
+ 0001:00000ae8       _memset                    00401ae8 f   MSVCRT:MSVCR71.dll
+ 0001:00000aee       _wmainCRTStartup           00401aee f   MSVCRT:wcrtexe.obj
+ 0001:00000c86       __XcptFilter               00401c86 f   MSVCRT:MSVCR71.dll
+ 0001:00000c8c       __amsg_exit                00401c8c f   MSVCRT:MSVCR71.dll
+ 0001:00000c92       __onexit                   00401c92 f   MSVCRT:atonexit.obj
+ 0001:00000cb8       _atexit                    00401cb8 f   MSVCRT:atonexit.obj
+ 0001:00000cca       __RTC_Initialize           00401cca f   MSVCRT:initsect.obj
+ 0001:00000d0e       __RTC_Terminate            00401d0e f   MSVCRT:initsect.obj
+ 0001:00000d52       __initterm                 00401d52 f   MSVCRT:MSVCR71.dll
+ 0001:00000d58       __setdefaultprecision      00401d58 f   MSVCRT:fp8.obj
+ 0001:00000d6a       __wsetargv                 00401d6a f   MSVCRT:wdllargv.obj
+ 0001:00000d6a       __matherr                  00401d6a f   MSVCRT:merr.obj
+ 0001:00000d70       __SEH_prolog               00401d70 f   MSVCRT:sehprolg.obj
+ 0001:00000dab       __SEH_epilog               00401dab f   MSVCRT:sehprolg.obj
+ 0001:00000dbc       __except_handler3          00401dbc f   MSVCRT:MSVCR71.dll
+ 0001:00000dc2       ___dllonexit               00401dc2 f   MSVCRT:MSVCR71.dll
+ 0001:00000dc8       __controlfp                00401dc8 f   MSVCRT:MSVCR71.dll
+ 0001:00000dff       @__security_check_cookie@4 00401dff f   MSVCRT:secchk.obj
+ 0001:00000e0e       ___CxxFrameHandler         00401e0e f   MSVCRT:MSVCR71.dll
+ 0001:00000e20       __EH_prolog                00401e20 f   MSVCRT:ehprolog.obj
+ 0001:00000e3f       ___security_init_cookie    00401e3f f   MSVCRT:seccinit.obj
+ 0001:00000ea6       ___security_error_handler  00401ea6 f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__GetModuleHandleW@4  00402000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__FileTimeToLocalFileTime@8 00402004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__FileTimeToSystemTime@8 00402008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetDateFormatW@24   0040200c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__FindFirstFileW@8    00402010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__FindNextFileW@8     00402014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__FindClose@4         00402018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__HeapAlloc@12        0040201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetProcessHeap@0    00402020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__HeapFree@12         00402024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__CreateFileW@28      00402028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__CreateFileMappingW@24 0040202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__MapViewOfFile@20    00402030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__UnmapViewOfFile@4   00402034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__CloseHandle@4       00402038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetCurrentProcessId@0 0040203c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetCurrentThreadId@0 00402040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetTickCount@0      00402044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__QueryPerformanceCounter@4 00402048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__ExitProcess@4       0040204c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetModuleHandleA@4  00402050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__GetSystemTimeAsFileTime@4 00402054     kernel32:KERNEL32.dll
+ 0002:00000058       \177KERNEL32_NULL_THUNK_DATA 00402058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__towupper            0040205c     MSVCRT:MSVCR71.dll
+ 0002:00000060       __imp___wcsicmp            00402060     MSVCRT:MSVCR71.dll
+ 0002:00000064       __imp__wcscpy              00402064     MSVCRT:MSVCR71.dll
+ 0002:00000068       __imp___wfopen             00402068     MSVCRT:MSVCR71.dll
+ 0002:0000006c       __imp__fwprintf            0040206c     MSVCRT:MSVCR71.dll
+ 0002:00000070       __imp__fclose              00402070     MSVCRT:MSVCR71.dll
+ 0002:00000074       __imp__realloc             00402074     MSVCRT:MSVCR71.dll
+ 0002:00000078       __imp__memmove             00402078     MSVCRT:MSVCR71.dll
+ 0002:0000007c       __imp__free                0040207c     MSVCRT:MSVCR71.dll
+ 0002:00000080       __imp__memset              00402080     MSVCRT:MSVCR71.dll
+ 0002:00000084       __imp___c_exit             00402084     MSVCRT:MSVCR71.dll
+ 0002:00000088       __imp___exit               00402088     MSVCRT:MSVCR71.dll
+ 0002:0000008c       __imp___XcptFilter         0040208c     MSVCRT:MSVCR71.dll
+ 0002:00000090       __imp___cexit              00402090     MSVCRT:MSVCR71.dll
+ 0002:00000094       __imp__exit                00402094     MSVCRT:MSVCR71.dll
+ 0002:00000098       __imp____p___winitenv      00402098     MSVCRT:MSVCR71.dll
+ 0002:0000009c       __imp___amsg_exit          0040209c     MSVCRT:MSVCR71.dll
+ 0002:000000a0       __imp____wgetmainargs      004020a0     MSVCRT:MSVCR71.dll
+ 0002:000000a4       __imp___initterm           004020a4     MSVCRT:MSVCR71.dll
+ 0002:000000a8       __imp____setusermatherr    004020a8     MSVCRT:MSVCR71.dll
+ 0002:000000ac       __imp___adjust_fdiv        004020ac     MSVCRT:MSVCR71.dll
+ 0002:000000b0       __imp____p__commode        004020b0     MSVCRT:MSVCR71.dll
+ 0002:000000b4       __imp____p__fmode          004020b4     MSVCRT:MSVCR71.dll
+ 0002:000000b8       __imp____set_app_type      004020b8     MSVCRT:MSVCR71.dll
+ 0002:000000bc       __imp___except_handler3    004020bc     MSVCRT:MSVCR71.dll
+ 0002:000000c0       __imp____dllonexit         004020c0     MSVCRT:MSVCR71.dll
+ 0002:000000c4       __imp___onexit             004020c4     MSVCRT:MSVCR71.dll
+ 0002:000000c8       __imp___controlfp          004020c8     MSVCRT:MSVCR71.dll
+ 0002:000000cc       __imp_??2@YAPAXI@Z         004020cc     MSVCRT:MSVCR71.dll
+ 0002:000000d0       __imp____CxxFrameHandler   004020d0     MSVCRT:MSVCR71.dll
+ 0002:000000d4       __imp____security_error_handler 004020d4     MSVCRT:MSVCR71.dll
+ 0002:000000d8       __imp__wprintf             004020d8     MSVCRT:MSVCR71.dll
+ 0002:000000dc       __imp_??3@YAXPAX@Z         004020dc     MSVCRT:MSVCR71.dll
+ 0002:000000e0       __imp__wcslen              004020e0     MSVCRT:MSVCR71.dll
+ 0002:000000e4       \177MSVCR71_NULL_THUNK_DATA 004020e4     MSVCRT:MSVCR71.dll
+ 0002:000000e8       __imp__LoadStringW@16      004020e8     user32:USER32.dll
+ 0002:000000ec       __imp__wsprintfW           004020ec     user32:USER32.dll
+ 0002:000000f0       \177USER32_NULL_THUNK_DATA 004020f0     user32:USER32.dll
+ 0002:0000014c       ??_7CResString@@6B@        0040214c     FastTraceLog.obj
+ 0002:00000150       ??_7CMappedLogFile@@6B@    00402150     FastTraceLog.obj
+ 0002:00000158       ??_C@_1EI@EALDLBDL@?$AA?$FL?$AA0?$AAx?$AA?$CF?$AA0?$AA4?$AAX?$AA?5?$AA?$CF?$AAd?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF@ 00402158     FastTraceLog.obj
+ 0002:000001a0       ??_C@_1BK@DJMBPED@?$AA?$FL?$AA0?$AAx?$AA?$CF?$AA0?$AA4?$AAX?$AA?5?$AA?$CF?$AAd?$AA?$FN?$AA?6?$AA?$AA@ 004021a0     FastTraceLog.obj
+ 0002:000001bc       ??_C@_15LMEHFEOO@?$AAw?$AAt?$AA?$AA@ 004021bc     FastTraceLog.obj
+ 0002:000001c4       ??_C@_1O@BABNBPLJ@?$AA?$CF?$AAs?$AA?4?$AAT?$AAX?$AAT?$AA?$AA@ 004021c4     FastTraceLog.obj
+ 0002:000001d4       ??_C@_1BC@KMNEPHBB@?$AA?$CF?$AAs?$AA_?$AA?$CK?$AA?4?$AAF?$AAT?$AAL?$AA?$AA@ 004021d4     FastTraceLog.obj
+ 0002:000001e8       ??_C@_1O@IHGACBLG@?$AAn?$AAo?$AAl?$AAo?$AAg?$AAo?$AA?$AA@ 004021e8     FastTraceLog.obj
+ 0002:000001f8       ??_C@_17MJEANDKP@?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 004021f8     FastTraceLog.obj
+ 0002:00000200       ??_C@_1DK@CEPDKHNF@?$AA?$FL?$AA?$CF?$AAd?$AA?5?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2@ 00402200     FastTraceLog.obj
+ 0002:0000023c       ??_C@_1M@OLLLFKAK@?$AA?$FL?$AA?$CF?$AAd?$AA?$FN?$AA?6?$AA?$AA@ 0040223c     FastTraceLog.obj
+ 0002:00000258       __load_config_used         00402258     MSVCRT:loadcfg.obj
+ 0002:000002f0       ___safe_se_handler_table   004022f0     <linker-defined>
+ 0002:000002f8       ___rtc_iaa                 004022f8     MSVCRT:initsect.obj
+ 0002:000002fc       ___rtc_izz                 004022fc     MSVCRT:initsect.obj
+ 0002:00000300       ___rtc_taa                 00402300     MSVCRT:initsect.obj
+ 0002:00000304       ___rtc_tzz                 00402304     MSVCRT:initsect.obj
+ 0002:0000033c       __IMPORT_DESCRIPTOR_KERNEL32 0040233c     kernel32:KERNEL32.dll
+ 0002:00000350       __IMPORT_DESCRIPTOR_USER32 00402350     user32:USER32.dll
+ 0002:00000364       __IMPORT_DESCRIPTOR_MSVCR71 00402364     MSVCRT:MSVCR71.dll
+ 0002:00000378       __NULL_IMPORT_DESCRIPTOR   00402378     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    00403000     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xc_z                    00403008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_a                    0040300c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xi_z                    00403010     MSVCRT:cinitexe.obj
+ 0003:00000020       ___defaultmatherr          00403020     MSVCRT:merr.obj
+ 0003:00000024       ___security_cookie         00403024     MSVCRT:seccook.obj
+ 0003:00000030       __dowildcard               00403030     MSVCRT:wildcard.obj
+ 0003:00000034       __newmode                  00403034     MSVCRT:_newmode.obj
+ 0003:00000038       __commode                  00403038     MSVCRT:xncommod.obj
+ 0003:0000003c       __fmode                    0040303c     MSVCRT:xtxtmode.obj
+ 0003:00000044       __adjust_fdiv              00403044     <common>
+ 0003:00000048       ___onexitend               00403048     <common>
+ 0003:0000004c       ___onexitbegin             0040304c     <common>
+
+ entry point at        0001:00000aee
+
+ Static symbols
+
+ 0001:000008f8       ?Allocate@@YAPAGI@Z        004018f8 f   JString.obj
+ 0001:0000090c       ?Deallocate@@YAHPAX@Z      0040190c f   JString.obj
+ 0001:00000dce       _report_failure            00401dce f   MSVCRT:secchk.obj
+ 0001:00000eac       $L30989                    00401eac f    CIL library: CIL module
+ 0001:00000eb7       $L30991                    00401eb7 f    CIL library: CIL module
+ 0001:00000ec2       $L30992                    00401ec2 f    CIL library: CIL module
+ 0001:00000ecd       __ehhandler$_wmain         00401ecd f    CIL library: CIL module
+
+Line numbers for .\Release\MappedLogFile.obj(d:\dev\booktwo\disk\fasttrace\fasttracelog\mappedlogfile.cpp) segment .text
+
+    16 0001:000009d4    21 0001:000009d6    23 0001:000009e0    26 0001:000009e8
+    28 0001:000009ee    38 0001:000009f2    40 0001:00000a0c    48 0001:00000a14
+    50 0001:00000a21    57 0001:00000a28    59 0001:00000a34    64 0001:00000a3b
+    66 0001:00000a43    67 0001:00000a49    68 0001:00000a4c    70 0001:00000a4e
+    72 0001:00000a50    73 0001:00000a55    76 0001:00000a57    78 0001:00000a59
+    79 0001:00000a5e    82 0001:00000a60    84 0001:00000a62    85 0001:00000a67
+    88 0001:00000a69    90 0001:00000a6b    93 0001:00000a70    98 0001:00000a73
+    97 0001:00000a73   100 0001:00000a79   105 0001:00000a7b   102 0001:00000a7c
+   104 0001:00000a80   105 0001:00000a86   110 0001:00000a87   111 0001:00000a87
+   112 0001:00000a8d   114 0001:00000a92   118 0001:00000a94   117 0001:00000a95
+   118 0001:00000aa2   131 0001:00000aa3   130 0001:00000aa3   133 0001:00000aaa
+   134 0001:00000ab1   136 0001:00000ab5   138 0001:00000ac3   139 0001:00000ac6
+   141 0001:00000aca   143 0001:00000ad2   144 0001:00000ad5   146 0001:00000ada
+
+Line numbers for .\Release\JString.obj(d:\dev\booktwo\disk\jfx\jstring.cpp) segment .text
+
+    17 0001:000008f8    21 0001:000008f8    23 0001:0000090b    27 0001:0000090c
+    26 0001:0000090c    29 0001:0000091f    43 0001:00000920    47 0001:00000921
+    49 0001:00000934    51 0001:0000093e    53 0001:00000946    55 0001:00000953
+    57 0001:0000095e    58 0001:00000962    73 0001:00000968    74 0001:00000968
+    75 0001:0000096e    77 0001:00000974    78 0001:00000976    80 0001:00000979
+    82 0001:0000097c    83 0001:00000985    84 0001:0000098f    85 0001:00000999
+    86 0001:000009a2    88 0001:000009a8    90 0001:000009b8    95 0001:000009bb
+    94 0001:000009bb    97 0001:000009c1    98 0001:000009c8    99 0001:000009cd
+   100 0001:000009d0   102 0001:000009d3
+
+Line numbers for .\Release\FastTraceLog.obj(d:\dev\booktwo\disk\fasttrace\fasttracelog\mappedlogfile.h) segment .text
+
+    33 0001:00000000    31 0001:00000000    35 0001:00000003    36 0001:00000014
+    37 0001:00000017    39 0001:0000001a    40 0001:0000001d    41 0001:00000020
+    45 0001:00000021    44 0001:00000021    47 0001:0000002e    49 0001:00000036
+    73 0001:00000037    72 0001:00000037    76 0001:0000003d    78 0001:00000046
+    79 0001:00000049    96 0001:0000004a    95 0001:0000004a    99 0001:00000050
+   101 0001:00000059   102 0001:0000005c
+
+Line numbers for .\Release\FastTraceLog.obj(d:\dev\booktwo\disk\fasttrace\fasttracelog\fasttracelog.cpp) segment .text
+
+    56 0001:00000079    60 0001:00000090    63 0001:000000b3    64 0001:000000c7
+    66 0001:000000cd    67 0001:000000d2    69 0001:000000da    71 0001:000000e8
+    72 0001:000000f5    75 0001:000000ff    77 0001:0000010d    80 0001:00000118
+    82 0001:0000012a    85 0001:00000132    89 0001:00000142    91 0001:0000014c
+    93 0001:00000157    97 0001:00000159   102 0001:0000016a   111 0001:0000017e
+   120 0001:00000199   123 0001:000001c9   125 0001:000001d6   127 0001:000001eb
+   135 0001:000001f6   136 0001:000001fd   131 0001:00000202   132 0001:00000211
+   133 0001:0000021b   139 0001:0000022e   140 0001:00000240   141 0001:00000252
+   146 0001:0000025c   147 0001:00000274   146 0001:00000286   149 0001:0000028c
+   150 0001:000002a3   152 0001:000002b2   157 0001:000002b6   159 0001:000002c1
+   161 0001:000002d3   163 0001:000002d5   164 0001:000002da   175 0001:000002fd
+   177 0001:00000306   179 0001:00000318   181 0001:0000031a   182 0001:00000327
+   186 0001:00000331   188 0001:00000344   189 0001:0000034b   191 0001:00000360
+   192 0001:0000036b   194 0001:0000036d   195 0001:0000037d   197 0001:0000038f
+   199 0001:0000039e   200 0001:000003a1   215 0001:000003b7   217 0001:000003b7
+   219 0001:000003be   288 0001:000003c0   222 0001:000003c4   224 0001:000003d1
+   226 0001:000003df   228 0001:000003e6   272 0001:000003f2   276 0001:000003fb
+   278 0001:00000405   233 0001:00000407   259 0001:00000430   260 0001:00000436
+   247 0001:00000438   249 0001:0000044a   256 0001:0000044c   242 0001:0000044e
+   243 0001:00000451   239 0001:00000453   224 0001:00000457   283 0001:0000045e
+   288 0001:0000046a   274 0001:0000046b   300 0001:0000046f   301 0001:0000047e
+   302 0001:0000049b   304 0001:000004a4   305 0001:000004b0   307 0001:000004c4
+   322 0001:000004cf   328 0001:000004de   331 0001:000004f6   333 0001:0000050c
+   334 0001:00000522   338 0001:00000528   339 0001:0000054f   340 0001:00000561
+   351 0001:00000569   367 0001:0000057c   369 0001:0000058f   372 0001:00000594
+   374 0001:000005b5   376 0001:000005c7   389 0001:000005d8   393 0001:000005f0
+   395 0001:00000600   398 0001:00000615   401 0001:0000061b   403 0001:0000061d
+   410 0001:0000062f   414 0001:0000063d   419 0001:0000064c   421 0001:00000660
+   427 0001:00000662   430 0001:00000670   439 0001:0000067e   450 0001:0000069a
+   454 0001:000006cb   456 0001:000006e0   460 0001:000006ee   464 0001:000006f8
+   467 0001:000006fc   469 0001:00000706   471 0001:00000715   474 0001:00000721
+   476 0001:00000726   479 0001:0000072d   481 0001:0000072f   482 0001:00000732
+   381 0001:00000735   487 0001:0000073e   489 0001:00000747   490 0001:0000074c
+
+Line numbers for .\Release\FastTraceLog.obj(d:\dev\booktwo\disk\include\jsimplecoll.h) segment .text
+
+    98 0001:00000760    99 0001:00000760   137 0001:00000765   138 0001:00000765
+   141 0001:00000770   142 0001:0000077c   143 0001:0000078b   145 0001:00000791
+   146 0001:00000794   148 0001:00000796   149 0001:0000079c   150 0001:000007a8
+   151 0001:000007ac    99 0001:000007af    98 0001:000007af   137 0001:000007b4
+   138 0001:000007b4   141 0001:000007bf   142 0001:000007cb   143 0001:000007d9
+   145 0001:000007df   146 0001:000007e2   148 0001:000007e4   149 0001:000007ea
+   150 0001:000007f8   151 0001:000007fc   160 0001:000007ff   162 0001:000007ff
+   165 0001:0000080a   166 0001:00000811   167 0001:0000082e   168 0001:00000831
+   169 0001:00000834   163 0001:00000835   169 0001:00000837   171 0001:00000838
+   172 0001:00000839   174 0001:0000083f   175 0001:00000848   176 0001:0000085e
+   177 0001:00000867   179 0001:00000869   180 0001:0000086c   181 0001:00000870
+   238 0001:00000871   236 0001:00000871   239 0001:00000884   171 0001:00000885
+   172 0001:00000885   176 0001:0000088b   177 0001:00000892   179 0001:00000896
+   180 0001:0000089a   181 0001:0000089e   238 0001:0000089f   236 0001:0000089f
+   239 0001:000008b0
+
+Line numbers for .\Release\FastTraceLog.obj(d:\dev\booktwo\disk\include\resstring.h) segment .text
+
+    59 0001:000008b3    64 0001:000008b4    69 0001:000008d1    51 0001:000008d4
+    52 0001:000008da
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:00000c92    76 0001:00000c92    90 0001:00000cb7    96 0001:00000cb8
+    95 0001:00000cb8    97 0001:00000cc9
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\merr.c) segment .text
+
+    33 0001:00000d6a    32 0001:00000d6a    34 0001:00000d6c
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\crtexe.c) segment .text
+
+   202 0001:00000aee   222 0001:00000afa   229 0001:00000b55   236 0001:00000b58
+   244 0001:00000b61   249 0001:00000b6f   250 0001:00000b7d   257 0001:00000b8b
+   264 0001:00000b97   273 0001:00000b9c   282 0001:00000ba1   283 0001:00000ba9
+   286 0001:00000bb5   305 0001:00000bba   308 0001:00000bc9   319 0001:00000bd3
+   322 0001:00000bdb   329 0001:00000bfd   330 0001:00000c01   336 0001:00000c09
+   394 0001:00000c18   395 0001:00000c23   403 0001:00000c39   404 0001:00000c3e
+   406 0001:00000c45   409 0001:00000c4d   415 0001:00000c64   417 0001:00000c67
+   418 0001:00000c6d   420 0001:00000c74   424 0001:00000c7e   425 0001:00000c80
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\dllargv.c) segment .text
+
+    49 0001:00000d6a    48 0001:00000d6a    50 0001:00000d6c
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\intel\fp8.c) segment .text
+
+    19 0001:00000d58    18 0001:00000d58    20 0001:00000d69
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\secchk.c) segment .text
+
+   114 0001:00000dce   116 0001:00000dda   117 0001:00000dde   119 0001:00000deb
+   123 0001:00000df6   100 0001:00000dff   103 0001:00000dff   104 0001:00000e05
+   105 0001:00000e07   107 0001:00000e08
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\seccinit.c) segment .text
+
+    49 0001:00000e3f    58 0001:00000e45    67 0001:00000e56    70 0001:00000e60
+    75 0001:00000e66    76 0001:00000e6e    77 0001:00000e76    79 0001:00000e7e
+    93 0001:00000e88    94 0001:00000ea3

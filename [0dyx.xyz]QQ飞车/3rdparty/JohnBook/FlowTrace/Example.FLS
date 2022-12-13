@@ -1,0 +1,20 @@
+;-----------------------------------------------------------------------
+; Debugging Applications for Microsoft .NET and Windows Applications
+; Copyright © 2002-2003 John Robbins
+; ----------------------------------------------------------------------
+; This is an example .FLS configuration file.  Name this file
+; the same name as the executable and put it in the same
+; directory as the EXE.
+
+; All general options are here.  All values shown are the defaults
+; if no .FLS file is present for the executable.
+[General Options]
+; Turns off inlining if set to 1.  This will lead to much
+; larger trace flows.
+TurnOffInlining=0
+
+; Does not process anything in the finalizer thread.
+IgnoreFinalizerThread=1
+
+; Skips all AppDomain startup calls on the main thread.
+SkipStartupCodeOnMainThread=1

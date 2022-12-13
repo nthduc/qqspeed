@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OCommandExample", "OCommandExample.vcproj", "{D2FEE7EE-D649-459F-A13D-6D660EAF1136}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D2FEE7EE-D649-459F-A13D-6D660EAF1136}.Debug.ActiveCfg = Debug|Win32
+		{D2FEE7EE-D649-459F-A13D-6D660EAF1136}.Debug.Build.0 = Debug|Win32
+		{D2FEE7EE-D649-459F-A13D-6D660EAF1136}.Release.ActiveCfg = Release|Win32
+		{D2FEE7EE-D649-459F-A13D-6D660EAF1136}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+EndGlobal

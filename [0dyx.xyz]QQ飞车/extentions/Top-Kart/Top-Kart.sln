@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Top-Kart", "Top-Kart.vcproj", "{75081350-0715-4347-A716-7078E1295FF3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = Top-Kart.vcproj
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug DLL = Debug DLL
+		Debug Miles Sound = Debug Miles Sound
+		Debug NiWebMetrics = Debug NiWebMetrics
+		Debug NiWebMetrics Miles Sound = Debug NiWebMetrics Miles Sound
+		Release = Release
+		Release DLL = Release DLL
+		Release Miles Sound = Release Miles Sound
+		Release NiWebMetrics = Release NiWebMetrics
+		Release NiWebMetrics Miles Sound = Release NiWebMetrics Miles Sound
+		Shipping = Shipping
+		Shipping DLL = Shipping DLL
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug.ActiveCfg = Debug|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug.Build.0 = Debug|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug DLL.ActiveCfg = Debug NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug DLL.Build.0 = Debug NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug Miles Sound.ActiveCfg = Debug Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug Miles Sound.Build.0 = Debug Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug NiWebMetrics.ActiveCfg = Debug NiWebMetrics|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug NiWebMetrics.Build.0 = Debug NiWebMetrics|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug NiWebMetrics Miles Sound.ActiveCfg = Debug NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Debug NiWebMetrics Miles Sound.Build.0 = Debug NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release.ActiveCfg = Release|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release.Build.0 = Release|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release DLL.ActiveCfg = Release NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release DLL.Build.0 = Release NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release Miles Sound.ActiveCfg = Release Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release Miles Sound.Build.0 = Release Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release NiWebMetrics.ActiveCfg = Release NiWebMetrics|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release NiWebMetrics.Build.0 = Release NiWebMetrics|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release NiWebMetrics Miles Sound.ActiveCfg = Release NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Release NiWebMetrics Miles Sound.Build.0 = Release NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Shipping.ActiveCfg = Release NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Shipping.Build.0 = Release NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Shipping DLL.ActiveCfg = Release NiWebMetrics Miles Sound|Win32
+		{75081350-0715-4347-A716-7078E1295FF3}.Shipping DLL.Build.0 = Release NiWebMetrics Miles Sound|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

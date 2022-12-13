@@ -1,0 +1,26 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\AGEIA Technologies]
+"PhysX Version"=dword:000111e0
+"PhysX BuildCL"=dword:00000000
+"CPanelDoc"="AGEIA_PhysX_Help.mht"
+"PhysXCore Path"=".\\AGEIA Technologies"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\AGEIA Technologies\PhysX_A32_Engines]
+"2.3.1"=dword:00000002
+"2.3.2"=dword:00000005
+"2.3.3"=dword:00000004
+"2.4.0"=dword:00000003
+"2.4.1"=dword:00000004
+"2.4.4"=dword:00000004
+"2.5.0"=dword:00000010
+"2.5.1"=dword:00000005
+"2.5.2"=dword:00000000
+"2.5.3"=dword:00000002
+"2.5.4"=dword:00000004
+"2.6.0"=dword:00000005
+"2.6.1"=dword:00000006
+"2.6.2"=dword:00000006
+"2.6.3"=dword:00000006
+"2.7.0"=dword:00000004
+

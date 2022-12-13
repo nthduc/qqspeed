@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+ 	<String id="CloseWindow">
+		关闭
+	</String>
+	<String id="LoginPanel_TimeOut">
+    登录超时，请检查您的网络是否受限或者网络设置是否正确。
+  </String>	
+	<String id="LoginFail_DetailInfo">
+		尊敬的用户，由于您使用的$CON$版本太旧，将不能继续使用了，请您下载并安装最新的$CON$版本。
+	</String>
+	<String id="TitlePrompt">
+		提示
+	</String>
+	<String id="LoginPanel_PwdGuardPrompt">
+		为保护您的帐号安全，登录前需要进行身份验证。
+	</String>
+	<String id="CF_TEMPSESSION_EXCEPTION">
+		异常原因:
+	</String>
+	<String id="CF_TEMPSESSION_CODE">
+		验证字符:
+	</String>
+	<String id="SYS_MESSAGEBOX_CANCEL">
+		取消
+	</String>
+	<String id="SYS_MESSAGEBOX_OK">
+		确定
+	</String>
+	<String id="CF_TEMPSESSION_CODE_NEXT">
+		看不清，换一张
+	</String>
+	<String id="SSO_PG_or_VC_TimeOut">
+		输入图片验证码或登录密保超时，请重试
+	</String>
+	<String id="SSO_Internal_Error_Please_Reinstall">
+		登录遇到内部错误，请重新安装[$CON$]或退出[$CON$]重试
+	</String>
+	<String id="Input_VerifyCode_Tips">
+		以下验证码字符不区分大小写，请输入
+	</String>
+	<String id="SSO_You_Should_Enter_Pwd_To_Continue">
+		为了您的帐号安全，需要您重新输入密码进行身份验证继续登录
+	</String>
+  <String id="SSO_VerifyPic_Error">
+    验证码输入错误
+  </String>
+</StringBundle>

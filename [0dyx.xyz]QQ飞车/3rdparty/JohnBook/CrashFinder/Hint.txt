@@ -1,0 +1,63 @@
+Helpful Hints for Maximizing Your CrashFinder Pleasure
+
+- This version has wondeful updates from Scott Bloom,
+Ching Ming Kwok, Jeff Shanholtz, and Pablo Presedo!
+They added the code to add all dependencies, the ignore
+image list, and the much improved Find dialog.  Thanks
+to all of them for the great code.
+
+- Please read my book, "Debugging Applications" from 
+Microsoft Press for a complete discussion of CrashFinder.
+
+- In a nutshell, CrashFinder can help you find the source, line,
+and function where a crash occured when you only are given
+the a hexadecimal address from a beta tester, or worse yet,
+your boss!  CrashFinder works with both Visual Basic and
+Visual C++ programs.
+
+- A CrashFinder Project is an EXE and it's associated DLLs
+and OCX's.  Create a new CrashFinder Project and add the
+main EXE with all the DLLs/OCXs it loads by pressing Ctrl+A
+to insert them.  After all the binaries are loaded, press
+Ctrl+F to find the source, line and function of any
+hexadecimal crash address.
+
+- CrashFinder works best with DBGHELP.DLL from Windows
+2000.  Additionally, to build the CrashFinder sources you 
+will need to install the latest Platform SDK.
+
+- You need to make your release builds with debug symbols
+by setting the options in your VB project or VC makefile.
+A program compiled without debug symbols should never
+leave your shop.
+CL.EXE -> /Zi
+LINK.EXE -> /DEBUG /OPT:REF
+
+- TURNING ON DEBUG SYMBOLS DOES NOT MEAN 
+THAT YOU ARE DOING A DEBUG BUILD.  THE 
+DEBUG SYMBOLS ARE IN YOUR PDB FILES SO 
+UNLESS YOU ARE GIVING THOSE TO YOUR 
+CUSTOMERS, YOU ARE NOT GIVING AWAY ANY 
+SECRETS.
+
+- You need to either use REBASE on you DLLs so that they
+all load at a unique address space or set the base address
+for each DLL manually in your IDE.  If you ever see the
+statement below, when running your release build under a
+debugger, you should be very worried.  Not only is this
+making it impossible to figure out where your application
+crashed, you are slowing down the DLL load time
+considerably.  The offending statement: (The XXX and YYY
+are the two DLLs with a conflict)
+
+LDR: Dll xxx base 10000000 relocated due to collision with
+YYY
+
+- You should keep copies of the binaries that you send out in
+a very safe place.  This way CrashFinder will find any
+addresses correctly with exactly what is out in the field.
+You should put your .PDB files with the binaries as well.
+
+- To keep your relationship from crashing, you should give
+your partner a big hug and tell him or her that you love
+them every day.

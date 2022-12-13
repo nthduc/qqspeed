@@ -1,0 +1,16 @@
+// QQTPing.odl : type library source for QQTPing.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (QQTPing.tlb).
+
+[ uuid(8B1F0A86-D41F-496B-B59F-04D056D7C7A5), version(1.0) ]
+library QQTPing
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

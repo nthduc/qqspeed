@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110223" ColorLib="">
+    <UIObject Type="Button" Name="btnGame">
+        <Properties>
+            <Property Name="XOffset" Value="0" />
+            <Property Name="YOffset" Value="0" />
+            <Property Name="Width" Value="100" />
+            <Property Name="Height" Value="70" />
+            <Property Name="Background" Value="NONE:" />
+            <Property Name="BackgroundHover" Value="COLOR:RGB:213,213,213;" />
+        </Properties>
+        <Children>
+            <UIObject Type="Button" Name="ctnGame">
+                <Properties>
+                    <Property Name="XOffset" Value="28" />
+                    <Property Name="YOffset" Value="3" />
+                    <Property Name="Width" Value="44" />
+                    <Property Name="Height" Value="44" />
+                    <Property Name="Transparent" Value="true" />
+                    <Property Name="Background" Value="ONEIMAGE:GameImages\AccCenter\6.PNG;Tile;null;" />
+                    <Property Name="BackgroundHover" Value="COLOR:RGB:137,177,238;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="txtName">
+                <Properties>
+                    <Property Name="XOffset" Value="17" />
+                    <Property Name="YOffset" Value="55" />
+                    <Property Name="Width" Value="68" />
+                    <Property Name="Height" Value="14" />
+                    <Property Name="Caption" Value="QQ飞车" />
+                    <Property Name="AlignMode" Value="CENTER" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

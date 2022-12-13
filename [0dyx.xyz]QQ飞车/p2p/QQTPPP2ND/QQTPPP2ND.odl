@@ -1,0 +1,16 @@
+// QQTPPP2ND.odl : type library source for QQTPPP2ND.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (QQTPPP2ND.tlb).
+
+[ uuid(DB777F4E-8652-495C-ABCE-6666176C33B4), version(1.0) ]
+library QQTPPP2ND
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

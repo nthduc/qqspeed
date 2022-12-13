@@ -1,0 +1,12 @@
+;-----------------------------------------------------------------------
+; Debugging Applications for Microsoft .NET and Windows Applications
+; Copyright © 2002-2003 John Robbins
+;-----------------------------------------------------------------------
+
+LIBRARY         FlowTrace
+
+EXPORTS
+    ; GetGUIDAsString private
+    DllGetClassObject private
+    DllRegisterServer private
+    DllUnregisterServer private

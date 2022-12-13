@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceSwitchy", "TraceSwitchy.csproj", "{BEABE48F-A0B1-48B1-B23A-771DDD459033}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BEABE48F-A0B1-48B1-B23A-771DDD459033}.Debug.ActiveCfg = Debug|.NET
+		{BEABE48F-A0B1-48B1-B23A-771DDD459033}.Debug.Build.0 = Debug|.NET
+		{BEABE48F-A0B1-48B1-B23A-771DDD459033}.Release.ActiveCfg = Release|.NET
+		{BEABE48F-A0B1-48B1-B23A-771DDD459033}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

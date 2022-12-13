@@ -1,0 +1,10 @@
+; Parenthesis error examples.
+; Gotta have %, +, or ^ before parens.
+(A)
+; Mismatched parens.
++((A)
+; Missing paren
++(A
+; Mismatched parens
++(B))
+

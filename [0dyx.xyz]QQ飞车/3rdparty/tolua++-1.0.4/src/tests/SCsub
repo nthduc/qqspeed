@@ -1,0 +1,9 @@
+Import('env')
+env_tests = env.Copy()
+
+env_tests.LuaBinding('tclassbind.cpp', 'tclass.pkg', 'tclass', use_own=1)
+
+test_class = env_tests.Program('tclass', ['tclass.cpp', 'tclassbind.cpp'],
+			LIBS=env['LIBS']+['tolua++'], )
+
+env.test_targets = [test_class]

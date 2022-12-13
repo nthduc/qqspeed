@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameApp", "GameApp.vcproj", "{20D86AC2-EF83-4A40-A7AC-0EF578E41265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		ReleasePhysX27|Win32 = ReleasePhysX27|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20D86AC2-EF83-4A40-A7AC-0EF578E41265}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20D86AC2-EF83-4A40-A7AC-0EF578E41265}.Debug|Win32.Build.0 = Debug|Win32
+		{20D86AC2-EF83-4A40-A7AC-0EF578E41265}.Release|Win32.ActiveCfg = Release|Win32
+		{20D86AC2-EF83-4A40-A7AC-0EF578E41265}.Release|Win32.Build.0 = Release|Win32
+		{20D86AC2-EF83-4A40-A7AC-0EF578E41265}.ReleasePhysX27|Win32.ActiveCfg = ReleasePhysX27|Win32
+		{20D86AC2-EF83-4A40-A7AC-0EF578E41265}.ReleasePhysX27|Win32.Build.0 = ReleasePhysX27|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

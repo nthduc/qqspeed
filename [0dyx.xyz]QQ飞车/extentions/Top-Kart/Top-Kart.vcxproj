@@ -1,0 +1,2066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Miles Sound|Win32">
+      <Configuration>Debug Miles Sound</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug NiWebMetrics Miles Sound|Win32">
+      <Configuration>Debug NiWebMetrics Miles Sound</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug NiWebMetrics|Win32">
+      <Configuration>Debug NiWebMetrics</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Miles Sound|Win32">
+      <Configuration>Release Miles Sound</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release NiWebMetrics Miles Sound|Win32">
+      <Configuration>Release NiWebMetrics Miles Sound</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release NiWebMetrics|Win32">
+      <Configuration>Release NiWebMetrics</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleasePhysX27|Win32">
+      <Configuration>ReleasePhysX27</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{75081350-0715-4347-A716-7078E1295FF3}</ProjectGuid>
+    <RootNamespace>Lenguins</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>Dynamic</UseOfAtl>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../../intermediates/$(ProjectName)/$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../../intermediates/$(ProjectName)/$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../intermediates/$(ProjectName)/$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../intermediates/$(ProjectName)/$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../../intermediates/$(ProjectName)/$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../../intermediates/$(ProjectName)/$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../../intermediates/$(ProjectName)/$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../../intermediates/$(ProjectName)/$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">../../bin/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">true</IgnoreImportLibrary>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../include;../../include/idl;../../enginesdk/GameBryo/SDK/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Cooking/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NI_USE_PCH;NIRELEASE;NDEBUG;WIN32;_WINDOWS;STRICT;DYNAQUAD;MILES_AUDIO_SYSTEM;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>$(ProjectName)PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;mss32.lib;NiMilesAudio.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/lib/win32;../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../3rdparty/tolua++-1.0.4/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../include;../../include/idl;../../enginesdk/GameBryo/SDK/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Cooking/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NI_USE_PCH;NIDEBUG;_DEBUG;WIN32;_WINDOWS;STRICT;DYNAQUAD;MILES_AUDIO_SYSTEM;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>$(ProjectName)PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>mss32.lib;NiMilesAudio.lib;NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/lib/win32;../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../3rdparty/tolua++-1.0.4/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/NxExtensions/include;../../include;../../include/idl;../../enginesdk/GameBryo/SDK/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Cooking/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/NxCharacter/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;../../include/freetype;../../include/freetype/freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ZLIB_WINAPI;NDEBUG;NI_USE_PCH;NIRELEASE;NOMINMAX;WIN32;_WINDOWS;STRICT;DYNAQUAD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;Winmm.lib;NiMilesAudio.lib;mss32.lib;NxCharacter.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/lib/win32;../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../3rdparty/tolua++-1.0.4/lib;../../enginesdk/FMod/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>Top-Kart.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../include;../../include/idl;../../enginesdk/GameBryo/SDK/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Cooking/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/NxExtensions/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/NxCharacter/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;../../include/freetype/;../../include/freetype/freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NI_USE_PCH;NOMINMAX;NIDEBUG;_DEBUG;WIN32;_WINDOWS;STRICT;DYNAQUAD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Top-KartPCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;Winmm.lib;NiMilesAudio.lib;mss32.lib;NxCharacter.lib;kernel.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>F:\QQKART\05 程序\5.1 Client源代码\lib;../../lib;../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/lib/win32;../../enginesdk/FMod/Lib;../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../3rdparty/tolua++-1.0.4/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>Top-Kart.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../include;../../include/idl;../../enginesdk/GameBryo/SDK/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Cooking/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NI_USE_PCH;NOMINMAX;NIDEBUG;_DEBUG;WIN32;_WINDOWS;STRICT;DYNAQUAD;NO_SOUND;OUTPUT_METRICS;ENABLE_NIWEBMETRICS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>$(ProjectName)PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;NiMetricsOutput.lib;NiWebMetricsOutput.lib;MetricsProbe.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/lib/win32;../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../3rdparty/tolua++-1.0.4/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../include;../../include/idl;../../enginesdk/GameBryo/SDK/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Cooking/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NI_USE_PCH;NIRELEASE;NOMINMAX;WIN32;_WINDOWS;STRICT;DYNAQUAD;NO_SOUND;OUTPUT_METRICS;ENABLE_NIWEBMETRICS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>$(ProjectName)PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;NiMetricsOutput.lib;NiWebMetricsOutput.lib;MetricsProbe.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/lib/win32;../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../3rdparty/tolua++-1.0.4/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../include;../../include/idl;../../enginesdk/GameBryo/SDK/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Cooking/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NI_USE_PCH;NOMINMAX;NIDEBUG;_DEBUG;WIN32;_WINDOWS;STRICT;DYNAQUAD;MILES_AUDIO_SYSTEM;OUTPUT_METRICS;ENABLE_NIWEBMETRICS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>$(ProjectName)PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>mss32.lib;NiMilesAudio.lib;NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;NiMetricsOutput.lib;NiWebMetricsOutput.lib;MetricsProbe.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/lib/win32;../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../3rdparty/tolua++-1.0.4/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../include;../../include/idl;../../enginesdk/GameBryo/SDK/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/Cooking/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NI_USE_PCH;NIRELEASE;NOMINMAX;WIN32;_WINDOWS;STRICT;DYNAQUAD;MILES_AUDIO_SYSTEM;OUTPUT_METRICS;ENABLE_NIWEBMETRICS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>$(ProjectName)PCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>mss32.lib;NiMilesAudio.lib;NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;NiMetricsOutput.lib;NiWebMetricsOutput.lib;MetricsProbe.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.3.3/SDKs/lib/win32;../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../3rdparty/tolua++-1.0.4/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../enginesdk/AGEIA PhysX SDK/v2.7.0/SDKs/NxExtensions/include;../../include;../../include/idl;../../enginesdk/GameBryo/SDK27/Win32/Include;../../enginesdk/AGEIA PhysX SDK/v2.7.0/SDKs/Physics/include;../../enginesdk/sdk/Win32;../../enginesdk/AGEIA PhysX SDK/v2.7.0/SDKs/Foundation/include;../../enginesdk/AGEIA PhysX SDK/v2.7.0/SDKs/PhysXLoader/include;../../enginesdk/AGEIA PhysX SDK/v2.7.0/SDKs/Cooking/include;../../enginesdk/AGEIA PhysX SDK/v2.7.0/SDKs/NxCharacter/include;../../3rdparty/tolua++-1.0.4/include;../../3rdparty/lua-5.0.2/include;../../include/tenio/include;../../include/tenio/template;../../include/freetype;../../include/freetype/freetype2;../../enginesdk\AudioEditor\TenioSource\Include\AudioEditor;../../enginesdk\AudioEditor\TenioSource\Template;../../enginesdk\FMOD\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ZLIB_WINAPI;_PHYSX_2_7_0;NDEBUG;NI_USE_PCH;NIRELEASE;NOMINMAX;WIN32;_WINDOWS;STRICT;DYNAQUAD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>NiBuildConfiguration.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>NiCollision.lib;NiPhysX.lib;PhysXLoader.lib;NxCooking.lib;NiApplication.lib;NiMain.lib;NiInput.lib;NiAnimation.lib;NiParticle.lib;NiSystem.lib;NiFont.lib;Winmm.lib;NiMilesAudio.lib;mss32.lib;NxCharacter.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/$(Configuration);../../enginesdk/AGEIA PhysX SDK/v2.7.0/SDKs/lib/win32;../../enginesdk/GameBryo/SDK27/Win32/Lib/VC71/releaseLib;../../enginesdk/GameBryo/SDK27/sdk/win32/lib/vc71/releaseLib;../../3rdparty/tolua++-1.0.4/lib;../../enginesdk\FMOD\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>Top-Kart.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(OutDir)pdb/$(ProjectName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)map/$(ProjectName).map</MapFileName>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AcceleratePanel.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\AminEventMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\BarItem.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\BaseTerrainEffect.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\BlinkItem.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\CameraBase.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\CameraController.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CarAccel.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\changeColor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Clock.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ConsServer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ConsSocket.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\DataCollecter.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\DescConstant.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\EffectManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\EventContainer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\EventViewer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\FenceManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\GameEffectMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\GameStatusManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\GPFlyingCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\GPLiftCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\GPLockKeyAffact.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\GPMagnetCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\GPReverseKeyAffact.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\JointCloth.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\KartCrack.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\KeyEventManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\l_ScripFunctions.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\MirrorManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\MommaTasks.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Monster.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\NifAnimationInfo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\NO2Controller.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEffect.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\PerspectiveMirror.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysUtility.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysXManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\PlayerPosUpdateTask.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerRank.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PowerController.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PowerUpManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Profiling.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ProilingController.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Scheduler.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ScreenOverlay.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ScreenTextManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ScriptVM .cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderHelper.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\ShadowGeometry.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\SoundManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\SoundSystemSpecificInitialization.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\SpeedLine.cpp" />
+    <ClCompile Include="Source\statistics.cpp" />
+    <ClCompile Include="Source\Swoosh.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Task.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\TCSence.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainEffectMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Top-KartPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Win32SoundManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\MenuManager.cpp" />
+    <ClCompile Include="Source\NiMenu\NiMenu.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItem.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItemBooleanData.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItemFloatData.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItemIntData.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItemScaleData.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiScreenText.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CarCarCollision.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CarFenceCollision.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CarMotorControl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\ChassisSimulator.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CollisionBase.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\DriftCenter.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\DriftMath.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\kart.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\NitoNxTools.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\Stream.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\Suspension.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\TencentCar.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\TencentCarCollision.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\3DLines.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\3DLinesManager.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\CheckEditor.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\CountDownTask.cpp" />
+    <ClCompile Include="Source\Track\EagleEye.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\GlobalMap.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\KartPlayback.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\KartStatusManager.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Track\StopElement.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">top-kartpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Setting.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\d3d9warpper.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\d3dmath.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\d3dutil.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\Display.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\FlashRenderer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\FlashScreen.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\IDisplayD3D9.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\IDisplayD3D91.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\IShockwaveFlash.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\RenderD3D9.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\Texture9.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XBmp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFont.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFontGl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFontInf.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFontLib.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFontTex.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Ui\BubbleMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Ui\GUIImpl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Ui\ImageEx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Actor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\customculler.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GameAward.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GameMain.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GameOverCDTast.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\levelmanager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\MessageHouse.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\MovePkgMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\NifAlloc.cpp" />
+    <ClCompile Include="Source\nifop.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\NxPlayMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\NxSceneMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Play.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\RMOperator.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\roadmap.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\scene.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\screenobjects.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Module.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Top-Kart.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\AntibotImpl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\GlobalInterface.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\LoginLogic.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\MsgDataCache.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\RenderBase.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\RoomLogic.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\sc.cpp" />
+    <ClCompile Include="Source\Platform\sc_uicallback.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\ScriptEvent.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\UIMiscMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPColumnMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gpcontrol.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gpcreate.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gpeffect.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPEvilCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPJetAffect.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPMissileCtrl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPNetIntercommn.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPNo2Affect.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPPoint.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gprender.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\GPSettings.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gptarget.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\play_gptarget.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\soundmgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\UIFace.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\UIFaceElement.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ATAlgorithmBase.cpp" />
+    <ClCompile Include="Source\Avatar\ATAnimBehave.cpp" />
+    <ClCompile Include="Source\Avatar\ATBehaveBase.cpp" />
+    <ClCompile Include="Source\Avatar\ATEffectBehave.cpp" />
+    <ClCompile Include="Source\Avatar\ATSoundBehave.cpp" />
+    <ClCompile Include="Source\Avatar\ATTransferAlg.cpp" />
+    <ClCompile Include="Source\Avatar\ATWearer.cpp" />
+    <ClCompile Include="Source\Avatar\AvatarBase.cpp" />
+    <ClCompile Include="Source\Avatar\AvatarMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\AvatarNet.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ItemDataMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ItemDefine.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ItemUpdateMgr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ShopMgr.cpp" />
+    <ClCompile Include="Source\fmod\csound.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\fmod\FMODSystem.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Task\AtomBase.cpp" />
+    <ClCompile Include="Source\Task\AtomLevel.cpp" />
+    <ClCompile Include="Source\Task\AtomProducer.cpp" />
+    <ClCompile Include="Source\Task\AwardMgr.cpp" />
+    <ClCompile Include="Source\Task\BlinkTex_Atom.cpp" />
+    <ClCompile Include="Source\Task\BNPress_Det.cpp" />
+    <ClCompile Include="Source\Task\BnPressTime_Det.cpp" />
+    <ClCompile Include="Source\Task\CDTime_Det.cpp" />
+    <ClCompile Include="Source\Task\CDTimerShow_Atom.cpp" />
+    <ClCompile Include="Source\Task\DetectorBase.cpp" />
+    <ClCompile Include="Source\Task\DetectorProducer.cpp" />
+    <ClCompile Include="Source\Task\Drift_Det.cpp" />
+    <ClCompile Include="Source\Task\Esc_Atom.cpp" />
+    <ClCompile Include="Source\Task\ExecuteCount_Det.cpp" />
+    <ClCompile Include="Source\Task\Executor.cpp" />
+    <ClCompile Include="Source\Task\GarbagePool.cpp" />
+    <ClCompile Include="Source\Task\KeyBlink_Atom.cpp" />
+    <ClCompile Include="Source\Task\LockKey_Atom.cpp" />
+    <ClCompile Include="Source\Task\Observer.cpp" />
+    <ClCompile Include="Source\Task\ScreenEff_Atom.cpp" />
+    <ClCompile Include="Source\Task\ScreenFont_Atom.cpp" />
+    <ClCompile Include="Source\Task\ScreenFontMgr.cpp" />
+    <ClCompile Include="Source\Task\ScreenTex_Atom.cpp" />
+    <ClCompile Include="Source\Task\ScreenTexMgr.cpp" />
+    <ClCompile Include="Source\Task\Sound_Atom.cpp" />
+    <ClCompile Include="Source\Task\StartNo2_Atom.cpp" />
+    <ClCompile Include="Source\Task\SubTask.cpp" />
+    <ClCompile Include="Source\Task\SwitchTex_Atom.cpp" />
+    <ClCompile Include="Source\Task\TaskDefine.cpp" />
+    <ClCompile Include="Source\Task\TaskMgr.cpp" />
+    <ClCompile Include="Source\Task\TaskNet.cpp" />
+    <ClCompile Include="Source\Task\TaskSys.cpp" />
+    <ClCompile Include="Source\Task\Timer_Det.cpp" />
+    <ClCompile Include="Source\CallbackStream.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Source\NifLoader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Top-KartPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)Top-Kart.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\BarItem.h" />
+    <ClInclude Include="Source\BaseTerrainEffect.h" />
+    <ClInclude Include="Source\BlinkItem.h" />
+    <ClInclude Include="Source\DataCollecter.h" />
+    <ClInclude Include="Source\GPMagnetCtrl.h" />
+    <ClInclude Include="Source\ITerrainEffect.h" />
+    <ClInclude Include="Source\JointCloth.h" />
+    <ClInclude Include="Source\PlayerRank.h" />
+    <ClInclude Include="Source\statistics.h" />
+    <ClInclude Include="Source\TerrainEffectDef.h" />
+    <ClInclude Include="Source\TerrainEffectMgr.h" />
+    <ClInclude Include="Source\AcceleratePanel.h" />
+    <ClInclude Include="Source\PhysKart\AccelTask.h" />
+    <ClInclude Include="Source\Actor.h" />
+    <ClInclude Include="Source\BaseItem.h" />
+    <ClInclude Include="Source\CameraController.h" />
+    <ClInclude Include="Source\PhysKart\CarAccel.h" />
+    <ClInclude Include="Source\Clock.h" />
+    <ClInclude Include="Source\CollisionManager.h" />
+    <ClInclude Include="Source\ConsServer.h" />
+    <ClInclude Include="Source\ConsSocket.h" />
+    <ClInclude Include="Source\EffectAccumulator.h" />
+    <ClInclude Include="Source\EffectManager.h" />
+    <ClInclude Include="Source\EventContainer.h" />
+    <ClInclude Include="Source\EventViewer.h" />
+    <ClInclude Include="Source\FenceManager.h" />
+    <ClInclude Include="Source\GameMain.h" />
+    <ClInclude Include="Source\GameStatusManager.h" />
+    <ClInclude Include="Source\HUDTasks.h" />
+    <ClInclude Include="Source\InputManager.h" />
+    <ClInclude Include="Source\left_Anim.h" />
+    <ClInclude Include="Source\LevelTasks.h" />
+    <ClInclude Include="Source\MommaTasks.h" />
+    <ClInclude Include="Source\Monster.h" />
+    <ClInclude Include="Source\NifAnimationInfo.h" />
+    <ClInclude Include="Source\one_Anim.h" />
+    <ClInclude Include="Source\ParticleEffect.h" />
+    <ClInclude Include="Source\PhysXManager.h" />
+    <ClInclude Include="Source\PhysXUserData.h" />
+    <ClInclude Include="Source\Play.h" />
+    <ClInclude Include="Source\PowerController.h" />
+    <ClInclude Include="Source\PowerUp.h" />
+    <ClInclude Include="Source\PowerUpManager.h" />
+    <ClInclude Include="Source\PowerUpTasks.h" />
+    <ClInclude Include="Source\Profiling.h" />
+    <ClInclude Include="Source\ProilingController.h" />
+    <ClInclude Include="Source\resource.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\Scheduler.h" />
+    <ClInclude Include="Source\ScreenElementsManager.h" />
+    <ClInclude Include="Source\ScreenOverlay.h" />
+    <ClInclude Include="Source\ScreenOverlayTask.h" />
+    <ClInclude Include="Source\ScreenTextManager.h" />
+    <ClInclude Include="Source\ScriptVM.h" />
+    <ClInclude Include="Source\ShaderHelper.h" />
+    <ClInclude Include="Source\ShadowGeometry.h" />
+    <ClInclude Include="Source\SoundManager.h" />
+    <ClInclude Include="Source\SoundSystemSpecificInitialization.h" />
+    <ClInclude Include="Source\SoundTasks.h" />
+    <ClInclude Include="Source\SpeedLine.h" />
+    <ClInclude Include="Source\Task.h" />
+    <ClInclude Include="TCSence.h" />
+    <ClInclude Include="Source\TerrainManager.h" />
+    <ClInclude Include="Top-Kart.h" />
+    <ClInclude Include="Source\Top-KartPCH.h" />
+    <ClInclude Include="Source\Utility.h" />
+    <ClInclude Include="Source\Win32SoundManager.h" />
+    <ClInclude Include="Source\NiMenu\MenuManager.h" />
+    <ClInclude Include="Source\NiMenu\NiMenu.h" />
+    <ClInclude Include="Source\NiMenu\NiMenuDefs.h" />
+    <ClInclude Include="Source\NiMenu\NiMenuItem.h" />
+    <ClInclude Include="Source\NiMenu\NiMenuItemBooleanData.h" />
+    <ClInclude Include="Source\NiMenu\NiMenuItemFloatData.h" />
+    <ClInclude Include="Source\NiMenu\NiMenuItemIntData.h" />
+    <ClInclude Include="Source\NiMenu\NiMenuItemScaleData.h" />
+    <ClInclude Include="Source\NiMenu\NiScreenText.h" />
+    <ClInclude Include="Source\PhysKart\ChassisSimulator.h" />
+    <ClInclude Include="Source\PhysKart\DriftMath.h" />
+    <ClInclude Include="Source\PhysKart\NitoNxTools.h" />
+    <ClInclude Include="Source\PhysKart\Stream.h" />
+    <ClInclude Include="Source\PhysKart\Suspension.h" />
+    <ClInclude Include="Source\Track\3DLines.h" />
+    <ClInclude Include="Source\Track\3DLinesManager.h" />
+    <ClInclude Include="Source\Track\CheckEditor.h" />
+    <ClInclude Include="Source\Track\CountDownTask.h" />
+    <ClInclude Include="Source\Track\EagleEye.h" />
+    <ClInclude Include="Source\Track\GlobalMap.h" />
+    <ClInclude Include="Source\Track\KartPlayback.h" />
+    <ClInclude Include="Source\Track\KartStatusManager.h" />
+    <ClInclude Include="Source\Track\PlayerPosUpdateTask.h" />
+    <ClInclude Include="Source\Track\StopElement.h" />
+    <ClInclude Include="Source\Script\Setting.h" />
+    <ClInclude Include="Scripts\TrackResource.h" />
+    <ClInclude Include="Source\IDisplayD3D9\FlashRenderer.h" />
+    <ClInclude Include="Source\IDisplayD3D9\FlashScreen.h" />
+    <ClInclude Include="Source\IDisplayD3D9\IShockwaveFlash.h" />
+    <ClInclude Include="Source\Ui\BubbleMgr.h" />
+    <ClInclude Include="..\..\include\framework\gui_i.h" />
+    <ClInclude Include="Source\Ui\GUIImpl.h" />
+    <ClInclude Include="Source\Ui\ImageEx.h" />
+    <ClInclude Include="Source\customculler.h" />
+    <ClInclude Include="Source\levelmanager.h" />
+    <ClInclude Include="Source\MovePkgMgr.h" />
+    <ClInclude Include="Source\NifAlloc.h" />
+    <ClInclude Include="Source\nifop.h" />
+    <ClInclude Include="Source\NxSceneMgr.h" />
+    <ClInclude Include="Source\physxtask.h" />
+    <ClInclude Include="Source\RMOperator.h" />
+    <ClInclude Include="Source\roadmap.h" />
+    <ClInclude Include="Source\scene.h" />
+    <ClInclude Include="Source\screenobjects.h" />
+    <ClInclude Include="Source\Swoosh.h" />
+    <ClInclude Include="Source\Platform\datadef.h" />
+    <ClInclude Include="Source\Platform\GlobalInterface.h" />
+    <ClInclude Include="Source\Platform\MsgToLua.h" />
+    <ClInclude Include="Source\Platform\sc_err.h" />
+    <ClInclude Include="Source\gpaffectbase.h" />
+    <ClInclude Include="Source\GPColumnMgr.h" />
+    <ClInclude Include="Source\gpcontrol.h" />
+    <ClInclude Include="Source\gpcreate.h" />
+    <ClInclude Include="Source\gpdefine.h" />
+    <ClInclude Include="Source\gpeffect.h" />
+    <ClInclude Include="Source\GPEvilCtrl.h" />
+    <ClInclude Include="Source\gpmath.h" />
+    <ClInclude Include="Source\GPNo2Affect.h" />
+    <ClInclude Include="Source\GPPoint.h" />
+    <ClInclude Include="Source\gprender.h" />
+    <ClInclude Include="Source\gpscript.h" />
+    <ClInclude Include="Source\GPSettings.h" />
+    <ClInclude Include="Source\gptarget.h" />
+    <ClInclude Include="Source\idgen.h" />
+    <ClInclude Include="Source\soundmgr.h" />
+    <ClInclude Include="Source\Avatar\AavatarScript.h" />
+    <ClInclude Include="Source\Avatar\ATAlgorithmBase.h" />
+    <ClInclude Include="Source\Avatar\ATAnimBehave.h" />
+    <ClInclude Include="Source\Avatar\ATBehaveBase.h" />
+    <ClInclude Include="Source\Avatar\ATEffectBehave.h" />
+    <ClInclude Include="Source\Avatar\ATSoundBehave.h" />
+    <ClInclude Include="Source\Avatar\ATTransferAlg.h" />
+    <ClInclude Include="Source\Avatar\ATWearer.h" />
+    <ClInclude Include="Source\Avatar\AvatarBase.h" />
+    <ClInclude Include="Source\Avatar\AvatarMgr.h" />
+    <ClInclude Include="Source\Avatar\AvatarNet.h" />
+    <ClInclude Include="Source\Avatar\ItemDataMgr.h" />
+    <ClInclude Include="Source\Avatar\ItemDefine.h" />
+    <ClInclude Include="Source\Avatar\ItemUpdateMgr.h" />
+    <ClInclude Include="Source\Avatar\ShopMgr.h" />
+    <ClInclude Include="Source\fmod\csound.h" />
+    <ClInclude Include="Source\fmod\FMODSystem.h" />
+    <ClInclude Include="Source\Task\AtomBase.h" />
+    <ClInclude Include="Source\Task\AtomLevel.h" />
+    <ClInclude Include="Source\Task\AtomProducer.h" />
+    <ClInclude Include="Source\Task\AwardMgr.h" />
+    <ClInclude Include="Source\Task\BlinkTex_Atom.h" />
+    <ClInclude Include="Source\Task\BNPress_Det.h" />
+    <ClInclude Include="Source\Task\BnPressTime_Det.h" />
+    <ClInclude Include="Source\Task\CDTime_Det.h" />
+    <ClInclude Include="Source\Task\CDTimerShow_Atom.h" />
+    <ClInclude Include="Source\Task\DetectorBase.h" />
+    <ClInclude Include="Source\Task\DetectorProducer.h" />
+    <ClInclude Include="Source\Task\Drift_Det.h" />
+    <ClInclude Include="Source\Task\Esc_Atom.h" />
+    <ClInclude Include="Source\Task\ExecuteCount_Det.h" />
+    <ClInclude Include="Source\Task\Executor.h" />
+    <ClInclude Include="Source\Task\GarbagePool.h" />
+    <ClInclude Include="Source\Task\KeyBlink_Atom.h" />
+    <ClInclude Include="Source\Task\LockKey_Atom.h" />
+    <ClInclude Include="Source\Task\Observer.h" />
+    <ClInclude Include="Source\Task\ScreenEff_Atom.h" />
+    <ClInclude Include="Source\Task\ScreenFont_Atom.h" />
+    <ClInclude Include="Source\Task\ScreenFontMgr.h" />
+    <ClInclude Include="Source\Task\ScreenTex_Atom.h" />
+    <ClInclude Include="Source\Task\ScreenTexMgr.h" />
+    <ClInclude Include="Source\Task\Sound_Atom.h" />
+    <ClInclude Include="Source\Task\StartNo2_Atom.h" />
+    <ClInclude Include="Source\Task\SubTask.h" />
+    <ClInclude Include="Source\Task\SwitchTex_Atom.h" />
+    <ClInclude Include="Source\Task\TaskDefine.h" />
+    <ClInclude Include="Source\Task\TaskMgr.h" />
+    <ClInclude Include="Source\Task\TaskNet.h" />
+    <ClInclude Include="Source\Task\TaskScript.h" />
+    <ClInclude Include="Source\Task\TaskSys.h" />
+    <ClInclude Include="Source\Task\Timer_Det.h" />
+    <ClInclude Include="Source\CallbackStream.h" />
+    <ClInclude Include="Source\NifLoader.h" />
+    <ClInclude Include="..\..\include\strhash.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Actor.inl" />
+    <None Include="Source\CameraController.inl" />
+    <None Include="Source\Clock.inl" />
+    <None Include="Source\CollisionManager.inl" />
+    <None Include="Source\EventContainer.inl" />
+    <None Include="Source\GameMain.inl" />
+    <None Include="Source\GameStatusManager.inl" />
+    <None Include="Source\HUDTasks.inl" />
+    <None Include="Source\InputManager.inl" />
+    <None Include="Source\LevelManager.inl" />
+    <None Include="Source\LevelTasks.inl" />
+    <None Include="Source\MommaTasks.inl" />
+    <None Include="Source\ParticleEffect.inl" />
+    <None Include="Source\PhysXUserData.inl" />
+    <None Include="Source\Play.inl" />
+    <None Include="Source\PowerUpTasks.inl" />
+    <None Include="Source\Scheduler.inl" />
+    <None Include="Source\ScreenOverlay.inl" />
+    <None Include="Source\ScreenOverlayTask.inl" />
+    <None Include="Source\ShadowGeometry.inl" />
+    <None Include="Source\SoundTasks.inl" />
+    <None Include="Source\Task.inl" />
+    <None Include="Source\TerrainManager.inl" />
+    <None Include="Source\NiMenu\MenuManager.inl" />
+    <None Include="Source\Track\CheckEditor.inl" />
+    <None Include="Source\Track\PlayerPosUpdateTask.inl" />
+    <None Include="Top-Kart.def" />
+    <None Include="gui.rgs" />
+    <None Include="VTune\Top-Kart.vpj" />
+    <None Include="TopKart.rgs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\..\include\network\PingMgr.idl">
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(Filename)_i.h</HeaderFileName>
+    </Midl>
+    <Midl Include="..\..\include\network\QQTppp.idl">
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">%(Filename)_i.h</HeaderFileName>
+      <MkTypLibCompatible Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</MkTypLibCompatible>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(Filename)_i.h</HeaderFileName>
+    </Midl>
+    <Midl Include="TopKart.idl">
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug NiWebMetrics|Win32'">%(Filename)_i.h</HeaderFileName>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(Filename)_i.h</HeaderFileName>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics Miles Sound|Win32'">%(Filename)_i.h</HeaderFileName>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release NiWebMetrics|Win32'">%(Filename)_i.h</HeaderFileName>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">%(Filename)_i.h</HeaderFileName>
+      <OutputDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../include/idl</OutputDirectory>
+      <HeaderFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(Filename)_i.h</HeaderFileName>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Top-Kart.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

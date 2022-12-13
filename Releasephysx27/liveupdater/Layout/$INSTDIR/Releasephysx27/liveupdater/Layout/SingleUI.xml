@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110107" ColorLib="">
+    <UIObject Type="Dialog" Name="Main_Dlg">
+        <Properties>
+            <Property Name="XOffset" Value="122" />
+            <Property Name="YOffset" Value="117" />
+            <Property Name="Width" Value="548" />
+            <Property Name="Height" Value="335" />
+            <Property Name="Background" Value="ONEIMAGE:更新界面底图.tga;Center;" />
+            <Property Name="RegionSet" Value="FROMBGIMAGES:0x0000ff" />
+            <Property Name="Caption" Value="在线升级" />
+            <Property Name="InitPosition" Value="center" />
+            <Property Name="MoveWith" Value="Main_Dlg" />
+        </Properties>
+        <Children>
+            <UIObject Type="Button" Name="Exit_Btn">
+                <Properties>
+                    <Property Name="XOffset" Value="506" />
+                    <Property Name="YOffset" Value="8" />
+                    <Property Name="Width" Value="25" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:关闭-正常.tga;Center;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:关闭-经过.tga;Center;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:关闭-按下.tga;Center;" />
+                    <Property Name="Tip" Value="关闭" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="LiveUpdateVersion_Stc">
+                <Properties>
+                    <Property Name="XOffset" Value="16" />
+                    <Property Name="YOffset" Value="14" />
+                    <Property Name="Width" Value="210" />
+                    <Property Name="Height" Value="22" />
+                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                    <Property Name="Caption" Value="QQ飞车客户端更新程序 V 2.07.011" />
+                    <Property Name="LogFont" Value="-12;0;0;0;700;0;0;0;0;3;2;1;2;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Level" Name="TotalProgress_Lel">
+                <Properties>
+                    <Property Name="XOffset" Value="95" />
+                    <Property Name="YOffset" Value="295" />
+                    <Property Name="Width" Value="431" />
+                    <Property Name="Height" Value="16" />
+                    <Property Name="LevelTopImage" Value="ONEIMAGE:进度条(满).tga;Center;" />
+                    <Property Name="LevelBottomImage" Value="ONEIMAGE:进度条底图.tga;Center;" />
+                    <Property Name="LevelWidth" Value="431" />
+                    <Property Name="LevelHeight" Value="17" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Level" Name="SingleProgress_Lel">
+                <Properties>
+                    <Property Name="XOffset" Value="95" />
+                    <Property Name="YOffset" Value="271" />
+                    <Property Name="Width" Value="431" />
+                    <Property Name="Height" Value="16" />
+                    <Property Name="LevelTopImage" Value="ONEIMAGE:进度条(满).tga;Center;" />
+                    <Property Name="LevelBottomImage" Value="ONEIMAGE:进度条底图.tga;Center;" />
+                    <Property Name="LevelWidth" Value="431" />
+                    <Property Name="LevelHeight" Value="17" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="CurrentFileName_Stc">
+                <Properties>
+                    <Property Name="XOffset" Value="110" />
+                    <Property Name="YOffset" Value="245" />
+                    <Property Name="Width" Value="342" />
+                    <Property Name="Height" Value="19" />
+                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                    <Property Name="Caption" Value="正在准备下载，请稍候……" />
+                    <Property Name="LogFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="CurrentStep_Stc">
+                <Properties>
+                    <Property Name="XOffset" Value="20" />
+                    <Property Name="YOffset" Value="248" />
+                    <Property Name="Width" Value="85" />
+                    <Property Name="Height" Value="14" />
+                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                    <Property Name="Caption" Value="当前下载文件" />
+                    <Property Name="LogFont" Value="-12;0;0;0;700;0;0;0;0;3;2;1;2;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="StateInfo_Stc">
+                <Properties>
+                    <Property Name="XOffset" Value="20" />
+                    <Property Name="YOffset" Value="225" />
+                    <Property Name="Width" Value="74" />
+                    <Property Name="Height" Value="14" />
+                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                    <Property Name="Caption" Value="更新状态说明" />
+                    <Property Name="LogFont" Value="-12;0;0;0;700;0;0;0;0;3;2;1;2;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="DetaileStateInfo_Stc">
+                <Properties>
+                    <Property Name="XOffset" Value="110" />
+                    <Property Name="YOffset" Value="223" />
+                    <Property Name="Width" Value="342" />
+                    <Property Name="Height" Value="17" />
+                    <Property Name="CustomID" Value="8" />
+                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                    <Property Name="LogFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="SingleProgress_Stc">
+                <Properties>
+                    <Property Name="XOffset" Value="20" />
+                    <Property Name="YOffset" Value="270" />
+                    <Property Name="Width" Value="52" />
+                    <Property Name="Height" Value="17" />
+                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                    <Property Name="Caption" Value="当前进度" />
+                    <Property Name="LogFont" Value="-12;0;0;0;700;0;0;0;0;3;2;1;2;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="TotalProgress_Stc">
+                <Properties>
+                    <Property Name="XOffset" Value="20" />
+                    <Property Name="YOffset" Value="293" />
+                    <Property Name="Width" Value="49" />
+                    <Property Name="Height" Value="16" />
+                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                    <Property Name="Caption" Value="总 进 度" />
+                    <Property Name="LogFont" Value="-12;0;0;0;700;0;0;0;0;3;2;1;2;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Minimize_Btn">
+                <Properties>
+                    <Property Name="XOffset" Value="478" />
+                    <Property Name="YOffset" Value="7" />
+                    <Property Name="Width" Value="25" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:最小化按钮-3-正常.tga;Tile;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:最小化按钮-2-经过.tga;Tile;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:最小化按钮-1-按下.tga;Tile;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="WebBrowser" Name="WebBrowser">
+                <Properties>
+                    <Property Name="XOffset" Value="15" />
+                    <Property Name="YOffset" Value="36" />
+                    <Property Name="Width" Value="520" />
+                    <Property Name="Height" Value="174" />
+                    <Property Name="URL" Value="http://speed.qq.com/home/client_txtbox.html" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Button1">
+                <Properties>
+                    <Property Name="XOffset" Value="456" />
+                    <Property Name="YOffset" Value="243" />
+                    <Property Name="Width" Value="71" />
+                    <Property Name="Height" Value="21" />
+                    <Property Name="CustomID" Value="10" />
+                    <Property Name="Background" Value="ONEIMAGE:Button-3-正常.TGA;Tile;null;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Button-2-经过.tga;Tile;null;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Button-1-按下.tga;Tile;null;" />
+                    <Property Name="BackgroundDisable" Value="ONEIMAGE:Button-4-禁用.TGA;Tile;null;" />
+                    <Property Name="Caption" Value="手动下载" />
+                    <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextColor" Value="RGB:200,210,210" />
+                    <Property Name="TextColorHover" Value="RGB:224,223,238" />
+                    <Property Name="TextColorPressed" Value="RGB:157,147,157" />
+                    <Property Name="TextColorDisable" Value="RGB:192,192,192" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Button2">
+                <Properties>
+                    <Property Name="XOffset" Value="456" />
+                    <Property Name="YOffset" Value="221" />
+                    <Property Name="Width" Value="71" />
+                    <Property Name="Height" Value="21" />
+                    <Property Name="CustomID" Value="9" />
+                    <Property Name="Background" Value="ONEIMAGE:Button-3-正常.TGA;Tile;null;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Button-2-经过.tga;Tile;null;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Button-1-按下.tga;Tile;null;" />
+                    <Property Name="BackgroundDisable" Value="ONEIMAGE:Button-4-禁用.TGA;Tile;null;" />
+                    <Property Name="Caption" Value="重   试" />
+                    <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextColor" Value="RGB:200,210,210" />
+                    <Property Name="TextColorHover" Value="RGB:224,223,238" />
+                    <Property Name="TextColorPressed" Value="RGB:157,147,157" />
+                    <Property Name="TextColorDisable" Value="RGB:192,192,192" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="ClientVersion_Stc">
+                <Properties>
+                    <Property Name="XOffset" Value="338" />
+                    <Property Name="YOffset" Value="14" />
+                    <Property Name="Width" Value="149" />
+                    <Property Name="Height" Value="22" />
+                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                    <Property Name="LogFont" Value="-12;0;0;0;700;0;0;0;0;3;2;1;2;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Dialog" Name="Dialog1">
+                <Properties>
+                    <Property Name="XOffset" Value="64" />
+                    <Property Name="YOffset" Value="36" />
+                    <Property Name="Width" Value="419" />
+                    <Property Name="Height" Value="263" />
+                    <Property Name="Background" Value="ONEIMAGE:手动下载底图.tga;Tile;0;" />
+                    <Property Name="InitPosition" Value="center" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Button" Name="Exit_Btn">
+                        <Properties>
+                            <Property Name="XOffset" Value="380" />
+                            <Property Name="YOffset" Value="8" />
+                            <Property Name="Width" Value="25" />
+                            <Property Name="Height" Value="25" />
+                            <Property Name="CustomID" Value="11" />
+                            <Property Name="Background" Value="ONEIMAGE:关闭-正常.tga;Center;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:关闭-经过.tga;Center;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:关闭-按下.tga;Center;" />
+                            <Property Name="Tip" Value="关闭" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Container" Name="Container1">
+                        <Properties>
+                            <Property Name="XOffset" Value="17" />
+                            <Property Name="YOffset" Value="36" />
+                            <Property Name="Width" Value="384" />
+                            <Property Name="Height" Value="187" />
+                        </Properties>
+                        <Children>
+                            <UIObject Type="Static" Name="LiveUpdateVersion_Stc">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="8" />
+                                    <Property Name="Width" Value="400" />
+                                    <Property Name="Height" Value="16" />
+                                    <Property Name="CustomID" Value="12" />
+                                    <Property Name="TextColor" Value="RGB:210,210,210" />
+                                    <Property Name="Caption" Value="     请依次下载并安装下列更新文件：" />
+                                    <Property Name="LogFont" Value="-14;0;0;0;700;0;0;0;0;3;2;1;2;微软雅黑" />
+                                </Properties>
+                                <Children />
+                            </UIObject>
+                            <UIObject Type="Container" Name="Container_Line">
+                                <Properties>
+                                    <Property Name="XOffset" Value="10" />
+                                    <Property Name="YOffset" Value="29" />
+                                    <Property Name="Width" Value="365" />
+                                    <Property Name="Height" Value="2" />
+                                    <Property Name="Alpha" Value="250" />
+                                    <Property Name="Background" Value="COLOR:RGB:210,210,210;" />
+                                </Properties>
+                                <Children />
+                            </UIObject>
+                            <UIObject Type="ScrollView" Name="ScrollView1">
+                                <Properties>
+                                    <Property Name="XOffset" Value="-1" />
+                                    <Property Name="YOffset" Value="36" />
+                                    <Property Name="Width" Value="384" />
+                                    <Property Name="Height" Value="120" />
+                                    <Property Name="Background" Value="" />
+                                    <Property Name="VScrollImagePath" Value="ScrollBar\v\" />
+                                    <Property Name="HasHScroll" Value="false" />
+                                    <Property Name="ScrollBarImagePostfixName" Value="bmp" />
+                                    <Property Name="VScrollStep" Value="15" />
+                                </Properties>
+                                <Children>
+                                    <UIObject Type="Container" Name="Background_MB">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="0" />
+                                            <Property Name="YOffset" Value="0" />
+                                            <Property Name="Width" Value="384" />
+                                            <Property Name="Height" Value="0" />
+                                            <Property Name="CustomID" Value="14" />
+                                            <Property Name="Background" Value="" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                </Children>
+                            </UIObject>
+                            <UIObject Type="Container" Name="Container1">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="154" />
+                                    <Property Name="Width" Value="400" />
+                                    <Property Name="Height" Value="33" />
+                                    <Property Name="LayoutMode" Value="Bottom" />
+                                </Properties>
+                                <Children>
+                                    <UIObject Type="Button" Name="Button1">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="139" />
+                                            <Property Name="YOffset" Value="0" />
+                                            <Property Name="Width" Value="106" />
+                                            <Property Name="Height" Value="25" />
+                                            <Property Name="CustomID" Value="13" />
+                                            <Property Name="Background" Value="" />
+                                            <Property Name="BackgroundHover" Value="" />
+                                            <Property Name="BackgroundPressed" Value="" />
+                                            <Property Name="BackgroundDisable" Value="" />
+                                            <Property Name="Caption" Value="去官网查看详细" />
+                                            <Property Name="TextFont" Value="-14;0;0;0;400;0;1;0;134;3;2;1;34;微软雅黑" />
+                                            <Property Name="TextFontHover" Value="-14;0;0;0;400;0;1;0;134;3;2;1;34;微软雅黑" />
+                                            <Property Name="TextFontPressed" Value="-14;0;0;0;400;0;1;0;134;3;2;1;2;微软雅黑" />
+                                            <Property Name="TextFontDisable" Value="-14;0;0;0;400;0;1;0;134;3;2;1;2;微软雅黑" />
+                                            <Property Name="TextColor" Value="RGB:210,210,210" />
+                                            <Property Name="TextColorHover" Value="RGB:238,198,10" />
+                                            <Property Name="TextColorPressed" Value="RGB:200,50,50" />
+                                            <Property Name="TextColorDisable" Value="RGB:192,192,192" />
+                                            <Property Name="AutoSize" Value="true" />
+                                            <Property Name="URL" Value="http://speed.qq.com/" />
+                                            <Property Name="LayoutMode" Value="Post" />
+                                            <Property Name="PostType" Value="TopMiddle" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                </Children>
+                            </UIObject>
+                        </Children>
+                    </UIObject>
+                </Children>
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientBinReader", "ClientBinReader.vcproj", "{49323130-19D6-4B79-B121-04CA317708B0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kernel", "..\Kernel\kernel.vcproj", "{21A37E7E-D987-43A0-A834-EC4FB92786C7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua5", "..\lua5\lua5.vcproj", "{23B29C8A-4787-44FF-A904-AA29C77AB4FC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testdemo", "..\test\test\testdemo\testdemo.vcproj", "{27098CB3-B255-47D4-817C-25D65E2984F1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = ..\\Kernel\\kernel.vcproj
+		SccProjectName0 = \u0022$/³ÌÐò/Client/Client/libsrc/kernel\u0022,\u0020VKBAAAAA
+		SccLocalPath0 = ..\\Kernel
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = ..\\lua5\\lua5.vcproj
+		SccProjectName1 = \u0022$/³ÌÐò/Client/Client/libsrc/lua5\u0022,\u0020WKBAAAAA
+		SccLocalPath1 = ..\\lua5
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{49323130-19D6-4B79-B121-04CA317708B0}.Debug.ActiveCfg = Debug|Win32
+		{49323130-19D6-4B79-B121-04CA317708B0}.Debug.Build.0 = Debug|Win32
+		{49323130-19D6-4B79-B121-04CA317708B0}.Release.ActiveCfg = Release|Win32
+		{49323130-19D6-4B79-B121-04CA317708B0}.Release.Build.0 = Release|Win32
+		{21A37E7E-D987-43A0-A834-EC4FB92786C7}.Debug.ActiveCfg = Debug|Win32
+		{21A37E7E-D987-43A0-A834-EC4FB92786C7}.Debug.Build.0 = Debug|Win32
+		{21A37E7E-D987-43A0-A834-EC4FB92786C7}.Release.ActiveCfg = Release|Win32
+		{21A37E7E-D987-43A0-A834-EC4FB92786C7}.Release.Build.0 = Release|Win32
+		{23B29C8A-4787-44FF-A904-AA29C77AB4FC}.Debug.ActiveCfg = Debug|Win32
+		{23B29C8A-4787-44FF-A904-AA29C77AB4FC}.Debug.Build.0 = Debug|Win32
+		{23B29C8A-4787-44FF-A904-AA29C77AB4FC}.Release.ActiveCfg = Release|Win32
+		{23B29C8A-4787-44FF-A904-AA29C77AB4FC}.Release.Build.0 = Release|Win32
+		{27098CB3-B255-47D4-817C-25D65E2984F1}.Debug.ActiveCfg = Debug|Win32
+		{27098CB3-B255-47D4-817C-25D65E2984F1}.Debug.Build.0 = Debug|Win32
+		{27098CB3-B255-47D4-817C-25D65E2984F1}.Release.ActiveCfg = Release|Win32
+		{27098CB3-B255-47D4-817C-25D65E2984F1}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110223" ColorLib="">
+    <UIObject Type="Dialog" Name="DlgMain">
+        <Properties>
+            <Property Name="XOffset" Value="489" />
+            <Property Name="YOffset" Value="410" />
+            <Property Name="Width" Value="302" />
+            <Property Name="Height" Value="174" />
+            <Property Name="Background" Value="9IMAGES:Common\1.png;Common\2.png;Common\3.png;Common\4.png;Common\5.png;Common\6.png;Common\7.png;Common\8.png;Common\9.png;Tile;null;" />
+            <Property Name="AlwaysOnTop" Value="true" />
+            <Property Name="InitPosition" Value="center" />
+        </Properties>
+        <Children>
+            <UIObject Type="TinyStatic" Name="Caption">
+                <Properties>
+                    <Property Name="XOffset" Value="13" />
+                    <Property Name="YOffset" Value="7" />
+                    <Property Name="Width" Value="179" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="TextColor" Value="0xFFFFFF" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="Msg">
+                <Properties>
+                    <Property Name="XOffset" Value="76" />
+                    <Property Name="YOffset" Value="62" />
+                    <Property Name="Width" Value="193" />
+                    <Property Name="Height" Value="54" />
+                    <Property Name="AlignMode" Value="CENTER" />
+                    <Property Name="AutoChangeLine" Value="true" />
+                    <Property Name="MultiLine" Value="true" />
+                    <Property Name="LineSpacing" Value="5" />
+                    <Property Name="PostType" Value="MiddleMiddle" />
+                    <Property Name="WordBreak" Value="true" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyButton" Name="btnOK">
+                <Properties>
+                    <Property Name="XOffset" Value="138" />
+                    <Property Name="YOffset" Value="142" />
+                    <Property Name="Width" Value="76" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:Login\btn_norm.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Login\btn_hover.png;Tile;0;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Login\btn_press.png;Tile;0;" />
+                    <Property Name="Caption" Value="确 定" />
+                    <Property Name="TextColor" Value="RGB:24,87,78" />
+                    <Property Name="TextColorHover" Value="RGB:36,84,108" />
+                    <Property Name="TextColorPressed" Value="RGB:28,20,185" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Container" Name="Icon">
+                <Properties>
+                    <Property Name="XOffset" Value="29" />
+                    <Property Name="YOffset" Value="51" />
+                    <Property Name="Width" Value="65" />
+                    <Property Name="Height" Value="62" />
+                    <Property Name="AutoSize" Value="true" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyButton" Name="btnCancel">
+                <Properties>
+                    <Property Name="XOffset" Value="220" />
+                    <Property Name="YOffset" Value="142" />
+                    <Property Name="Width" Value="76" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:Login\btn_norm.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Login\btn_hover.png;Tile;0;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Login\btn_press.png;Tile;0;" />
+                    <Property Name="Caption" Value="取 消" />
+                    <Property Name="TextColor" Value="RGB:24,87,78" />
+                    <Property Name="TextColorHover" Value="RGB:36,84,108" />
+                    <Property Name="TextColorPressed" Value="RGB:28,20,185" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="btnClose">
+                <Properties>
+                    <Property Name="XOffset" Value="276" />
+                    <Property Name="YOffset" Value="1" />
+                    <Property Name="Width" Value="24" />
+                    <Property Name="Height" Value="16" />
+                    <Property Name="Background" Value="ONEIMAGE:Login\close.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Login\close_hover.png;Tile;0;" />
+                    <Property Name="TextFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextFontHover" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextFontPressed" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextFontDisable" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextColor" Value="RGB:24,87,78" />
+                    <Property Name="TextColorHover" Value="RGB:76,128,18" />
+                    <Property Name="TextColorPressed" Value="RGB:28,20,185" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="ctnClient">
+                <Properties>
+                    <Property Name="XOffset" Value="9" />
+                    <Property Name="YOffset" Value="45" />
+                    <Property Name="Width" Value="286" />
+                    <Property Name="Height" Value="78" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

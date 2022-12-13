@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XPExceptMon", "XPExceptMon.vcproj", "{FB843546-7CA6-417F-B386-F4E2AC4B9503}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A} = {D4CB82B1-7291-478E-A8C3-AE93CB634F0A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BugslayerUtil", "..\BugslayerUtil\BugslayerUtil.vcproj", "{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FB843546-7CA6-417F-B386-F4E2AC4B9503}.Debug.ActiveCfg = Debug|Win32
+		{FB843546-7CA6-417F-B386-F4E2AC4B9503}.Debug.Build.0 = Debug|Win32
+		{FB843546-7CA6-417F-B386-F4E2AC4B9503}.Release.ActiveCfg = Release|Win32
+		{FB843546-7CA6-417F-B386-F4E2AC4B9503}.Release.Build.0 = Release|Win32
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}.Debug.ActiveCfg = Debug|Win32
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}.Debug.Build.0 = Debug|Win32
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}.Release.ActiveCfg = Release|Win32
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

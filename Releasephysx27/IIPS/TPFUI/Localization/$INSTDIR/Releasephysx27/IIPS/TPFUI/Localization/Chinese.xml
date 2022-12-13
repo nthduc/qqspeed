@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TPFLocalization>
+    <ItemSet>
+        <Item ID="1" Translation="请选择语言" />
+        <Item ID="2" Translation="中文" />
+        <Item ID="3" Translation="英语" />
+        <Item ID="4" Translation="继续..." />
+        <Item ID="5" Translation="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+        <Item ID="6" Translation="-16;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+        <Item ID="7" Translation="账号：" />
+        <Item ID="8" Translation="密码：" />
+        <Item ID="9" Translation="登录" />
+        <Item ID="10" Translation="取消" />
+        <Item ID="11" Translation="记住账号" />
+        <Item ID="12" Translation="请先输入账号！" />
+        <Item ID="13" Translation="密码不能为空！" />
+        <Item ID="15" Translation="No TransLation" />
+    </ItemSet>
+</TPFLocalization>

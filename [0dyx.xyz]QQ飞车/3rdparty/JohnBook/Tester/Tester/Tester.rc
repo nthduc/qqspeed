@@ -1,0 +1,142 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,0,0
+ PRODUCTVERSION 3,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "De Oppresso Liber"
+            VALUE "CompanyName", "Debugging Applications for Microsoft .NET and Microsoft Windows"
+            VALUE "FileDescription", "Tester"
+            VALUE "FileVersion", "3.1.000"
+            VALUE "InternalName", "Tester.dll"
+            VALUE "LegalCopyright", "Copyright © 1997-2003 by John Robbins"
+            VALUE "OriginalFilename", "Tester.dll"
+            VALUE "ProductName", "TestRec & Tester"
+            VALUE "ProductVersion", "3.1.000"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_TESTER              REGISTRY                "Tester.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PROJNAME            "Tester"
+    IDS_INVALIDARGUMENT     "Invalid argument"
+    IDS_UNEXPECTEDERROR     "Tester encountered an unexpected error"
+    IDS_SIZEFAILED          "Resizing the window failed"
+    IDS_ATTACHTHREADFAILED  "Attaching to the thread queue failed: unable to set foreground window"
+    IDS_HWNDNOTVALID        "The HWND passed to TWindows.Add is not from an active window"
+    IDS_DISPATCHNOTVALID    "The object passsed to TWindows.Add is not a TWindow object"
+    IDS_SCREENMISMATCH      "Current screen resolution does not match specified values"
+    IDS_NOTOPWIN            "Unable to find top level window requested"
+    IDS_NOFINDPARENT        "Unable to find the specified parent window"
+    IDS_NOFINDKID           "Unable to find the specified child window to set focus on"
+    IDS_NOATTACHTHREADINPUT "Unable to attach to the requested window thread"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SETFOCUSFAILED      "Setting the child window focus failed"
+    IDS_NOSETFOREGROUNDWINDOW "Unable to set the foreground window"
+    IDS_PIINVALIDPARAMS     "The PlayInput string parameter is invalid"
+    IDS_PIPARSEERROR        "The PlayInput string parameter has a parse error in it"
+    IDS_PIUNKERROR          "PlayInput had an unknown error"
+    IDS_PICRASH             "PlayInput had an access violation"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

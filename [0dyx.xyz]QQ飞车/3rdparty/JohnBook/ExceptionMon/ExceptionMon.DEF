@@ -1,0 +1,12 @@
+;///////////////////////////////////////////////////////////////////////
+; Debugging Applications for Microsoft .NET and Microsoft Windows
+; Copyright (c) 1997-2003 John Robbins -- All rights reserved.
+;///////////////////////////////////////////////////////////////////////
+
+LIBRARY         ExceptionMon
+
+EXPORTS
+    ; GetGUIDAsString private
+    DllGetClassObject private
+    DllRegisterServer private
+    DllUnregisterServer private

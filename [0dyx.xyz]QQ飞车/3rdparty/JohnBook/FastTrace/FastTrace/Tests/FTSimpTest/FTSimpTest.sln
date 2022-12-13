@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FTSimpTest", "FTSimpTest.vcproj", "{BA688E67-3441-4FE8-9A84-79F0BE01E5CC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BA688E67-3441-4FE8-9A84-79F0BE01E5CC}.Debug.ActiveCfg = Debug|Win32
+		{BA688E67-3441-4FE8-9A84-79F0BE01E5CC}.Debug.Build.0 = Debug|Win32
+		{BA688E67-3441-4FE8-9A84-79F0BE01E5CC}.Release.ActiveCfg = Release|Win32
+		{BA688E67-3441-4FE8-9A84-79F0BE01E5CC}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VSNetToolHostShim", "VSNetToolHostShim\VSNetToolHostShim.vcproj", "{2E40836C-FDE1-47C7-ADF2-E4C51D1C3D9B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToolWindow", "SimpleToolWindow\SimpleToolWindow.csproj", "{AF836FD7-1A49-4ED1-9FD7-F1F9C24E3D4D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E40836C-FDE1-47C7-ADF2-E4C51D1C3D9B} = {2E40836C-FDE1-47C7-ADF2-E4C51D1C3D9B}
+		{617C0042-8C21-4E22-98E1-48AC3C8451D1} = {617C0042-8C21-4E22-98E1-48AC3C8451D1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleToolWindowResources", "SimpleToolWindowResources\SimpleToolWindowResources.vcproj", "{617C0042-8C21-4E22-98E1-48AC3C8451D1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2E40836C-FDE1-47C7-ADF2-E4C51D1C3D9B}.Debug.ActiveCfg = Debug|Win32
+		{2E40836C-FDE1-47C7-ADF2-E4C51D1C3D9B}.Debug.Build.0 = Debug|Win32
+		{2E40836C-FDE1-47C7-ADF2-E4C51D1C3D9B}.Release.ActiveCfg = Release|Win32
+		{2E40836C-FDE1-47C7-ADF2-E4C51D1C3D9B}.Release.Build.0 = Release|Win32
+		{AF836FD7-1A49-4ED1-9FD7-F1F9C24E3D4D}.Debug.ActiveCfg = Debug|.NET
+		{AF836FD7-1A49-4ED1-9FD7-F1F9C24E3D4D}.Debug.Build.0 = Debug|.NET
+		{AF836FD7-1A49-4ED1-9FD7-F1F9C24E3D4D}.Release.ActiveCfg = Release|.NET
+		{AF836FD7-1A49-4ED1-9FD7-F1F9C24E3D4D}.Release.Build.0 = Release|.NET
+		{617C0042-8C21-4E22-98E1-48AC3C8451D1}.Debug.ActiveCfg = Debug|Win32
+		{617C0042-8C21-4E22-98E1-48AC3C8451D1}.Debug.Build.0 = Debug|Win32
+		{617C0042-8C21-4E22-98E1-48AC3C8451D1}.Release.ActiveCfg = Release|Win32
+		{617C0042-8C21-4E22-98E1-48AC3C8451D1}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

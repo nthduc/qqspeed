@@ -1,0 +1,28 @@
+----------------------------------------------------------------------
+ Debugging Applications for Microsoft .NET and Microsoft Windows
+ Copyright © 1997 - 2003 John Robbins
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+How to install and use SimpleToolWindow
+-----------------------------------------------------------------------
+1.  Build the project.  The debug output goes to ..\..\Output and
+    the release output goes to ..\..\Release.
+2.  Shut down the IDE.
+3.  Run the following command:
+    
+    regedit SimpleToolWindow.AddIn.REG
+4.  Restart the IDE and you'll see a new window with an edit control
+    in it.
+    
+-----------------------------------------------------------------------
+How to Uninstall SimpleToolWindow
+-----------------------------------------------------------------------
+1.  In the AddIns dialog, uncheck all checks on the SettingsMaster line.
+2.  Close DEVENV.EXE.
+3.  Remove the registry key
+    HKCU\SOFTWARE\Microsoft\VisualStudio\7.1\AddIns\SimpleToolWindow
+4.  Run the following command to unregister the DLL.  (You may need to
+    run VSVARS.BAT to get REGASM.EXE in your path.)
+
+    regasm /unregister SimpleToolWindow.dll
+

@@ -1,0 +1,16 @@
+正在为您加载游戏模块...
+LoadServices vfilesys.dll cost 0.000000
+
+LoadServices Network.dll cost 0.875000
+
+LoadServices P2PAdapter.dll cost 0.000000
+
+LoadServices Top-Kart.dll cost 0.031000
+
+游戏模块加载完毕!
+[#loading#]LoadServices  cost 0.953000 s
+
+正在为您初始化游戏模块...
+游戏模块加载完毕!
+[#loading#]InitServiceWithoutQQInfo  cost 2.922000 s
+

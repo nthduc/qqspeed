@@ -1,0 +1,159 @@
+ LocalAssist
+
+ Timestamp is 3e4e57cd (Sat Feb 15 10:07:57 2003)
+
+ Preferred load address is 63100000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000348H .text                   CODE
+ 0002:00000000 00000058H .idata$5                DATA
+ 0002:00000060 00000098H .rdata                  DATA
+ 0002:000000f8 00000044H .rdata$debug            DATA
+ 0002:00000140 00000004H .rdata$sxdata           DATA
+ 0002:00000144 00000004H .rtc$IAA                DATA
+ 0002:00000148 00000004H .rtc$IZZ                DATA
+ 0002:0000014c 00000004H .rtc$TAA                DATA
+ 0002:00000150 00000004H .rtc$TZZ                DATA
+ 0002:00000154 00000028H .idata$2                DATA
+ 0002:0000017c 00000014H .idata$3                DATA
+ 0002:00000190 00000058H .idata$4                DATA
+ 0002:000001e8 00000176H .idata$6                DATA
+ 0002:00000360 0000017cH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 00000004H .data                   DATA
+ 0003:00000014 00000014H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000003d0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0001:00000000       _DBG_ReadProcessMemory@20  63101000 f   Wrappers.obj
+ 0001:0000000a       _DBG_WriteProcessMemory@20 6310100a f   Wrappers.obj
+ 0001:00000014       _DBG_GetThreadContext@8    63101014 f   Wrappers.obj
+ 0001:0000001a       _DBG_SetThreadContext@8    6310101a f   Wrappers.obj
+ 0001:00000020       _DBG_SuspendThread@4       63101020 f   Wrappers.obj
+ 0001:00000026       _DBG_ResumeThread@4        63101026 f   Wrappers.obj
+ 0001:0000002c       _DBG_FlushInstructionCache@12 6310102c f   Wrappers.obj
+ 0001:00000032       _DBG_VirtualQueryEx@16     63101032 f   Wrappers.obj
+ 0001:00000038       _DBG_VirtualProtectEx@20   63101038 f   Wrappers.obj
+ 0001:00000042       _DBG_CreateRemoteBreakpointThread@8 63101042 f   Wrappers.obj
+ 0001:0000005f       __CRT_INIT@12              6310105f f   MSVCRT:crtdll.obj
+ 0001:0000011d       __DllMainCRTStartup@12     6310111d f   MSVCRT:crtdll.obj
+ 0001:00000202       __initterm                 63101202 f   MSVCRT:MSVCR71.dll
+ 0001:00000208       __onexit                   63101208 f   MSVCRT:atonexit.obj
+ 0001:0000022e       _atexit                    6310122e f   MSVCRT:atonexit.obj
+ 0001:00000240       __RTC_Initialize           63101240 f   MSVCRT:initsect.obj
+ 0001:00000284       __RTC_Terminate            63101284 f   MSVCRT:initsect.obj
+ 0001:000002c8       ___CppXcptFilter           631012c8 f   MSVCRT:MSVCR71.dll
+ 0001:000002ce       _DllMain@12                631012ce f   MSVCRT:dllmain.obj
+ 0001:000002f0       __SEH_prolog               631012f0 f   MSVCRT:sehprolg.obj
+ 0001:0000032b       __SEH_epilog               6310132b f   MSVCRT:sehprolg.obj
+ 0001:0000033c       __except_handler3          6310133c f   MSVCRT:MSVCR71.dll
+ 0001:00000342       ___dllonexit               63101342 f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__ReadProcessMemory@20 63102000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__WriteProcessMemory@20 63102004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetThreadContext@8  63102008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__SetThreadContext@8  6310200c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__SuspendThread@4     63102010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__ResumeThread@4      63102014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__FlushInstructionCache@12 63102018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__VirtualQueryEx@16   6310201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__VirtualProtectEx@20 63102020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__CreateRemoteThread@28 63102024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__DebugBreak@0        63102028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__DisableThreadLibraryCalls@4 6310202c     kernel32:KERNEL32.dll
+ 0002:00000030       \177KERNEL32_NULL_THUNK_DATA 63102030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp___initterm           63102034     MSVCRT:MSVCR71.dll
+ 0002:00000038       __imp__malloc              63102038     MSVCRT:MSVCR71.dll
+ 0002:0000003c       __imp___adjust_fdiv        6310203c     MSVCRT:MSVCR71.dll
+ 0002:00000040       __imp____CppXcptFilter     63102040     MSVCRT:MSVCR71.dll
+ 0002:00000044       __imp___except_handler3    63102044     MSVCRT:MSVCR71.dll
+ 0002:00000048       __imp____dllonexit         63102048     MSVCRT:MSVCR71.dll
+ 0002:0000004c       __imp___onexit             6310204c     MSVCRT:MSVCR71.dll
+ 0002:00000050       __imp__free                63102050     MSVCRT:MSVCR71.dll
+ 0002:00000054       \177MSVCR71_NULL_THUNK_DATA 63102054     MSVCRT:MSVCR71.dll
+ 0002:000000b0       __load_config_used         631020b0     MSVCRT:loadcfg.obj
+ 0002:00000140       ___safe_se_handler_table   63102140     <linker-defined>
+ 0002:00000144       ___rtc_iaa                 63102144     MSVCRT:initsect.obj
+ 0002:00000148       ___rtc_izz                 63102148     MSVCRT:initsect.obj
+ 0002:0000014c       ___rtc_taa                 6310214c     MSVCRT:initsect.obj
+ 0002:00000150       ___rtc_tzz                 63102150     MSVCRT:initsect.obj
+ 0002:00000154       __IMPORT_DESCRIPTOR_KERNEL32 63102154     kernel32:KERNEL32.dll
+ 0002:00000168       __IMPORT_DESCRIPTOR_MSVCR71 63102168     MSVCRT:MSVCR71.dll
+ 0002:0000017c       __NULL_IMPORT_DESCRIPTOR   6310217c     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    63103000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    63103004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    63103008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    6310300c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___security_cookie         63103010     MSVCRT:seccook.obj
+ 0003:00000018       __adjust_fdiv              63103018     <common>
+ 0003:0000001c       ___onexitend               6310301c     <common>
+ 0003:00000020       ___onexitbegin             63103020     <common>
+ 0003:00000024       __pRawDllMain              63103024     <common>
+
+ entry point at        0001:0000011d
+
+ Static symbols
+
+
+Line numbers for .\WinRel\Wrappers.obj(d:\dev\booktwo\disk\wdbg\localassist\wrappers.cpp) segment .text
+
+    15 0001:00000000    21 0001:00000003    20 0001:00000004    30 0001:0000000a
+    36 0001:0000000d    35 0001:0000000e    41 0001:00000014    42 0001:00000014
+    48 0001:0000001a    49 0001:0000001a    55 0001:00000020    54 0001:00000020
+    60 0001:00000026    61 0001:00000026    68 0001:0000002c    71 0001:0000002c
+    83 0001:00000032    79 0001:00000032    92 0001:00000038    98 0001:0000003b
+    97 0001:0000003c   110 0001:00000042   103 0001:00000042   112 0001:0000005c
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:00000208    76 0001:00000208    90 0001:0000022d    96 0001:0000022e
+    95 0001:0000022e    97 0001:0000023f
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\crtdll.c) segment .text
+
+   134 0001:0000005f   129 0001:0000005f   135 0001:00000067   136 0001:0000006f
+   158 0001:00000075   163 0001:00000088   168 0001:0000009d   170 0001:000000a1
+   172 0001:000000a4   178 0001:000000ae   179 0001:000000b3   184 0001:000000bd
+   189 0001:000000ce   192 0001:000000d5   219 0001:000000db   220 0001:000000e4
+   225 0001:000000e6   226 0001:000000f2   234 0001:00000108   236 0001:0000010f
+   234 0001:00000116   240 0001:00000117   241 0001:0000011a   249 0001:0000011d
+   250 0001:00000129   252 0001:0000012f   257 0001:00000134   258 0001:00000141
+   260 0001:00000147   262 0001:00000150   263 0001:00000159   265 0001:00000165
+   266 0001:0000016e   268 0001:0000017d   269 0001:0000017f   272 0001:00000181
+   275 0001:00000191   283 0001:0000019a   286 0001:000001a4   288 0001:000001ad
+   289 0001:000001bb   291 0001:000001be   292 0001:000001cc   298 0001:000001da
+   294 0001:000001df   295 0001:000001f7   299 0001:000001f9
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\dllmain.c) segment .text
+
+    45 0001:000002ce    43 0001:000002ce    46 0001:000002de    48 0001:000002e8
+    49 0001:000002eb
+
+ Exports
+
+  ordinal    name
+
+        1    _DBG_CreateRemoteBreakpointThread@8
+        2    _DBG_FlushInstructionCache@12
+               exported name: DBG_FlushInstructionCache
+        3    _DBG_GetThreadContext@8
+               exported name: DBG_GetThreadContext
+        4    _DBG_ReadProcessMemory@20
+               exported name: DBG_ReadProcessMemory
+        5    _DBG_ResumeThread@4
+               exported name: DBG_ResumeThread
+        6    _DBG_SetThreadContext@8
+               exported name: DBG_SetThreadContext
+        7    _DBG_SuspendThread@4
+               exported name: DBG_SuspendThread
+        8    _DBG_VirtualProtectEx@20
+               exported name: DBG_VirtualProtectEx
+        9    _DBG_VirtualQueryEx@16
+               exported name: DBG_VirtualQueryEx
+       10    _DBG_WriteProcessMemory@20
+               exported name: DBG_WriteProcessMemory

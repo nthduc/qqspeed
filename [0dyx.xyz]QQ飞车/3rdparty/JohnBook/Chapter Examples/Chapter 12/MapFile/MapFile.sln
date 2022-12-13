@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapDLL", "MapDLL\MapDLL.vcproj", "{0540D660-C18C-4A93-BD20-1D311CC5C827}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapEXE", "MapEXE\MapEXE.vcproj", "{B45F8671-3BD7-446F-B28F-E9EDCD404532}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0540D660-C18C-4A93-BD20-1D311CC5C827} = {0540D660-C18C-4A93-BD20-1D311CC5C827}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0540D660-C18C-4A93-BD20-1D311CC5C827}.Release.ActiveCfg = Release|Win32
+		{0540D660-C18C-4A93-BD20-1D311CC5C827}.Release.Build.0 = Release|Win32
+		{B45F8671-3BD7-446F-B28F-E9EDCD404532}.Release.ActiveCfg = Release|Win32
+		{B45F8671-3BD7-446F-B28F-E9EDCD404532}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

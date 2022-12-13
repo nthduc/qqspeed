@@ -1,0 +1,8 @@
+[CustomFont]
+Texture=Textures/网络状况.tga
+CellX=8
+CellY=12
+m0=6
+m1=6
+m2=6
+Text="快中慢断线"

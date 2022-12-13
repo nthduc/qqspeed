@@ -1,0 +1,17 @@
+;-----------------------------------------------------------------------
+; Debugging Applications for Microsoft .NET and Microsoft Windows
+; Copyright © 1997-2003 John Robbins -- All rights reserved.
+;-----------------------------------------------------------------------
+LIBRARY         i386CPUHelp.dll
+; DESCRIPTION     'A helper file for WDBG'
+
+EXPORTS
+
+    ClearBreakpoint
+    ClearSingleStep
+    DisplayRegisters
+    InitializeStackFrameWithContext
+    ReturnInstructionPointer
+    SetBreakpoint
+    SetSingleStep
+    disasm

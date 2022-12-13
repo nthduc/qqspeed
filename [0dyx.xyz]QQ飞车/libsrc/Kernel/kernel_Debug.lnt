@@ -1,0 +1,1312 @@
+
+--- Module:   E:\work\IQ\libsrc\Kernel\kernel.vcproj 
+_
+<?xml version="1.0" encoding="gb2312"?>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  1  Error 10: Expecting *
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  1  Error 129: declaration expected,
+    identifier 'xml' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  1  Error 129: declaration expected,
+    identifier 'version' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  1  Error 129: declaration expected,
+    identifier 'encoding' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  1  Error 10: Expecting identifier or
+    other declarator
+        _
+	ProjectType="Visual C++"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  3  Error 129: declaration expected,
+    identifier 'VisualStudioProject' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  3  Error 129: declaration expected,
+    identifier 'ProjectType' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  3  Error 10: Expecting identifier or
+    other declarator
+               _
+	Version="7.10"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  4  Error 129: declaration expected,
+    identifier 'Version' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  4  Error 10: Expecting identifier or
+    other declarator
+            _
+	Name="kernel"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  5  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  5  Error 10: Expecting identifier or
+    other declarator
+                   _
+	ProjectGUID="{B63D29E3-2949-4A70-B2D4-9A4D295ED4C6}"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  6  Error 129: declaration expected,
+    identifier 'ProjectGUID' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  6  Error 10: Expecting identifier or
+    other declarator
+                     _
+	RootNamespace="kernel"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  7  Error 129: declaration expected,
+    identifier 'RootNamespace' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  7  Error 10: Expecting identifier or
+    other declarator
+                      _
+	SccProjectName="&quot;$/程序/Client/Client/libsrc/kernel&quot;, VKBAAAAA"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  8  Error 129: declaration expected,
+    identifier 'SccProjectName' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  8  Error 10: Expecting identifier or
+    other declarator
+                  _
+	SccAuxPath=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  9  Error 129: declaration expected,
+    identifier 'SccAuxPath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  9  Error 10: Expecting identifier or
+    other declarator
+                    _
+	SccLocalPath="."
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  10  Error 129: declaration expected,
+    identifier 'SccLocalPath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  10  Error 10: Expecting identifier or
+    other declarator
+                   _
+	SccProvider="MSSCCI:Microsoft Visual SourceSafe">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  11  Error 129: declaration expected,
+    identifier 'SccProvider' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  11  Error 10: Expecting identifier or
+    other declarator
+                  _
+	<Platforms>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  12  Error 129: declaration expected,
+    identifier 'Platforms' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  12  Error 10: Expecting *
+                        _
+			Name="Win32"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  14  Error 129: declaration expected,
+    identifier 'Platform' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  14  Error 129: declaration expected,
+    identifier 'Name' ignored
+                   _
+	</Platforms>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  15  Error 129: declaration expected,
+    identifier 'Platforms' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  15  Error 10: Expecting *
+                       _
+	<Configurations>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  16  Error 129: declaration expected,
+    identifier 'Configurations' ignored
+                 _
+#...        Debug|Win32
+		<Configuration
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  17  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                        _
+			Name="Debug|Win32"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  18  Error 129: declaration expected,
+    identifier 'Win32' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  18  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                       _
+			OutputDirectory="../../lib"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  19  Error 129: declaration expected,
+    identifier 'OutputDirectory' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  19  Error 10: Expecting identifier or
+    other declarator
+                                             _
+			IntermediateDirectory="Debug"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  20  Error 129: declaration expected,
+    identifier 'IntermediateDirectory' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  20  Error 10: Expecting identifier or
+    other declarator
+                                         _
+			ConfigurationType="4"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  21  Error 129: declaration expected,
+    identifier 'ConfigurationType' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  21  Error 10: Expecting identifier or
+    other declarator
+                                _
+			UseOfMFC="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  22  Error 129: declaration expected,
+    identifier 'UseOfMFC' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  22  Error 10: Expecting identifier or
+    other declarator
+                                                        _
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  23  Error 129: declaration expected,
+    identifier 'ATLMinimizesCRunTimeLibraryUsage' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  23  Error 10: Expecting identifier or
+    other declarator
+                                    _
+			CharacterSet="2">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  24  Error 129: declaration expected,
+    identifier 'CharacterSet' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  24  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  26  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  26  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  26  Error 10: Expecting identifier or
+    other declarator
+                                            _
+				Optimization="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  27  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  27  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+				AdditionalIncludeDirectories="../../include"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  28  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  28  Error 10: Expecting identifier or
+    other declarator
+                                                       _
+				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  29  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  29  Error 10: Expecting identifier or
+    other declarator
+                                                  _
+				BasicRuntimeChecks="3"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  30  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  30  Error 10: Expecting identifier or
+    other declarator
+                                              _
+				RuntimeLibrary="3"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  31  Error 129: declaration expected,
+    identifier 'RuntimeLibrary' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  31  Error 10: Expecting identifier or
+    other declarator
+                                                     _
+				PrecompiledHeaderFile=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  32  Error 129: declaration expected,
+    identifier 'PrecompiledHeaderFile' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  32  Error 10: Expecting identifier or
+    other declarator
+                                                        _
+				AssemblerListingLocation="kernel/"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  33  Error 129: declaration expected,
+    identifier 'AssemblerListingLocation' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  33  Error 10: Expecting identifier or
+    other declarator
+                                          _
+				ObjectFile="kernel/"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  34  Error 129: declaration expected,
+    identifier 'ObjectFile' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  34  Error 10: Expecting identifier or
+    other declarator
+                                                       _
+				ProgramDataBaseFileName="kernel/"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  35  Error 129: declaration expected,
+    identifier 'ProgramDataBaseFileName' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  35  Error 10: Expecting identifier or
+    other declarator
+                                            _
+				WarningLevel="3"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  36  Error 129: declaration expected,
+    identifier 'WarningLevel' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  36  Error 10: Expecting identifier or
+    other declarator
+                                                     _
+				SuppressStartupBanner="TRUE"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  37  Error 129: declaration expected,
+    identifier 'SuppressStartupBanner' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  37  Error 10: Expecting identifier or
+    other declarator
+                                                      _
+				DebugInformationFormat="4"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  38  Error 129: declaration expected,
+    identifier 'DebugInformationFormat' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  38  Error 10: Expecting identifier or
+    other declarator
+                                         _
+				CompileAs="0"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  39  Error 129: declaration expected,
+    identifier 'CompileAs' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  39  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCCustomBuildTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  41  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  41  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  41  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCLibrarianTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  43  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  43  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  43  Error 10: Expecting identifier or
+    other declarator
+                                          _
+				OutputFile="../../lib/kernel_d.lib"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  44  Error 129: declaration expected,
+    identifier 'OutputFile' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  44  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+				AdditionalLibraryDirectories="../../lib"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  45  Error 129: declaration expected,
+    identifier 'AdditionalLibraryDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  45  Error 10: Expecting identifier or
+    other declarator
+                                                     _
+				SuppressStartupBanner="TRUE"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  46  Error 129: declaration expected,
+    identifier 'SuppressStartupBanner' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  46  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCMIDLTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  48  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  48  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  48  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPostBuildEventTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  50  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  50  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  50  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPreBuildEventTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  52  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  52  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  52  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPreLinkEventTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  54  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  54  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  54  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCResourceCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  56  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  56  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  56  Error 10: Expecting identifier or
+    other declarator
+                                                       _
+				PreprocessorDefinitions="_DEBUG"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  57  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  57  Error 10: Expecting identifier or
+    other declarator
+                                       _
+				Culture="2052"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  58  Error 129: declaration expected,
+    identifier 'Culture' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  58  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCWebServiceProxyGeneratorTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  60  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  60  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  60  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCXMLDataGeneratorTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  62  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  62  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  62  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCManagedWrapperGeneratorTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  64  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  64  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  64  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  66  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  66  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  66  Error 10: Expecting identifier or
+    other declarator
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  67  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  67  Error 10: Expecting *
+                  _
+		</Configuration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  67  Error 129: declaration expected,
+    identifier 'Win32' ignored
+                 _
+#...        Debug|Win32
+		<Configuration
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  68  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                        _
+			Name="Release|Win32"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  69  Error 129: declaration expected,
+    identifier 'Win32' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  69  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                       _
+			OutputDirectory="../../lib"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  70  Error 129: declaration expected,
+    identifier 'OutputDirectory' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  70  Error 10: Expecting identifier or
+    other declarator
+                                             _
+			IntermediateDirectory="Release"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  71  Error 129: declaration expected,
+    identifier 'IntermediateDirectory' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  71  Error 10: Expecting identifier or
+    other declarator
+                                         _
+			ConfigurationType="4"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  72  Error 129: declaration expected,
+    identifier 'ConfigurationType' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  72  Error 10: Expecting identifier or
+    other declarator
+                                _
+			UseOfMFC="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  73  Error 129: declaration expected,
+    identifier 'UseOfMFC' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  73  Error 10: Expecting identifier or
+    other declarator
+                                                        _
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  74  Error 129: declaration expected,
+    identifier 'ATLMinimizesCRunTimeLibraryUsage' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  74  Error 10: Expecting identifier or
+    other declarator
+                                    _
+			CharacterSet="2">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  75  Error 129: declaration expected,
+    identifier 'CharacterSet' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  75  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  77  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  77  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  77  Error 10: Expecting identifier or
+    other declarator
+                                                 _
+				AdditionalOptions="/MAPINFO:EXPORTS /MAPINFO:LINES "
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  78  Error 129: declaration expected,
+    identifier 'AdditionalOptions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  78  Error 10: Expecting identifier or
+    other declarator
+                                            _
+				Optimization="4"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  79  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  79  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+				AdditionalIncludeDirectories="../../include"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  80  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  80  Error 10: Expecting identifier or
+    other declarator
+                                                       _
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;GAMEVER_PUBLIC"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  81  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  81  Error 10: Expecting identifier or
+    other declarator
+                                              _
+				RuntimeLibrary="2"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  82  Error 129: declaration expected,
+    identifier 'RuntimeLibrary' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  82  Error 10: Expecting identifier or
+    other declarator
+                                                    _
+				UsePrecompiledHeader="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  83  Error 129: declaration expected,
+    identifier 'UsePrecompiledHeader' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  83  Error 10: Expecting identifier or
+    other declarator
+                                                     _
+				PrecompiledHeaderFile=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  84  Error 129: declaration expected,
+    identifier 'PrecompiledHeaderFile' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  84  Error 10: Expecting identifier or
+    other declarator
+                                                        _
+				AssemblerListingLocation=".\../../__Release/libSrc/kernel/"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  85  Error 129: declaration expected,
+    identifier 'AssemblerListingLocation' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  85  Error 10: Expecting identifier or
+    other declarator
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  85  Warning 606: Non-ANSI escape
+    sequence: '\.'
+                                          _
+				ObjectFile=".\../../__Release/libSrc/kernel/"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  86  Error 129: declaration expected,
+    identifier 'ObjectFile' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  86  Error 10: Expecting identifier or
+    other declarator
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  86  Warning 606: Non-ANSI escape
+    sequence: '\.'
+                                                       _
+				ProgramDataBaseFileName=".\../../__Release/libSrc/kernel/"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  87  Error 129: declaration expected,
+    identifier 'ProgramDataBaseFileName' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  87  Error 10: Expecting identifier or
+    other declarator
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  87  Warning 606: Non-ANSI escape
+    sequence: '\.'
+                                            _
+				WarningLevel="3"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  88  Error 129: declaration expected,
+    identifier 'WarningLevel' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  88  Error 10: Expecting identifier or
+    other declarator
+                                                     _
+				SuppressStartupBanner="TRUE"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  89  Error 129: declaration expected,
+    identifier 'SuppressStartupBanner' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  89  Error 10: Expecting identifier or
+    other declarator
+                                                      _
+				DebugInformationFormat="2"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  90  Error 129: declaration expected,
+    identifier 'DebugInformationFormat' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  90  Error 10: Expecting identifier or
+    other declarator
+                                         _
+				CompileAs="0"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  91  Error 129: declaration expected,
+    identifier 'CompileAs' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  91  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCCustomBuildTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  93  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  93  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  93  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCLibrarianTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  95  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  95  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  95  Error 10: Expecting identifier or
+    other declarator
+                                          _
+				OutputFile="..\..\lib\kernel.lib"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  96  Error 129: declaration expected,
+    identifier 'OutputFile' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  96  Error 10: Expecting identifier or
+    other declarator
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  96  Warning 606: Non-ANSI escape
+    sequence: '\.'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  96  Warning 606: Non-ANSI escape
+    sequence: '\l'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  96  Warning 606: Non-ANSI escape
+    sequence: '\k'
+                                                     _
+				SuppressStartupBanner="TRUE"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  97  Error 129: declaration expected,
+    identifier 'SuppressStartupBanner' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  97  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCMIDLTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  99  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  99  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  99  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPostBuildEventTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  101  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  101  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  101  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPreBuildEventTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  103  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  103  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  103  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPreLinkEventTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  105  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  105  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  105  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCResourceCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  107  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  107  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  107  Error 10: Expecting identifier or
+    other declarator
+                                                       _
+				PreprocessorDefinitions="NDEBUG"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  108  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  108  Error 10: Expecting identifier or
+    other declarator
+                                       _
+				Culture="2052"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  109  Error 129: declaration expected,
+    identifier 'Culture' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  109  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCWebServiceProxyGeneratorTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  111  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  111  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  111  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCXMLDataGeneratorTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  113  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  113  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  113  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCManagedWrapperGeneratorTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  115  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  115  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  115  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  117  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  117  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  117  Error 10: Expecting identifier or
+    other declarator
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  118  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  118  Error 10: Expecting *
+                  _
+		</Configuration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  118  Error 129: declaration expected,
+    identifier 'Win32' ignored
+                        _
+	</Configurations>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  119  Error 129: declaration expected,
+    identifier 'Configurations' ignored
+                   _
+	<References>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  120  Error 129: declaration expected,
+    identifier 'References' ignored
+                    _
+	</References>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  121  Error 129: declaration expected,
+    identifier 'References' ignored
+              _
+	<Files>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  122  Error 129: declaration expected,
+    identifier 'Files' ignored
+                        _
+			Name="Source Files"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  124  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  124  Error 129: declaration expected,
+    identifier 'Name' ignored
+                              _
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  125  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  125  Error 10: Expecting identifier or
+    other declarator
+                                _
+				RelativePath="charstr.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  127  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  127  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  127  Error 10: Expecting identifier or
+    other declarator
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  129  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  129  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  129  Error 10: Expecting identifier or
+    other declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  131  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  131  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  131  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  132  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  132  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  133  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  133  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  134  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  134  Error 10: Expecting identifier or
+    other declarator
+                                                                  _
+						BasicRuntimeChecks="3"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  135  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  135  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  136  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  136  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  138  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  138  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  140  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  140  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  140  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  141  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  141  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  142  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  142  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  143  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  143  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  144  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath="k_debug.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  146  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  146  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  148  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  148  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  148  Error 10: Expecting identifier or
+    other declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  150  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  150  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  150  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  151  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  151  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  152  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  152  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  153  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  153  Error 10: Expecting identifier or
+    other declarator
+                                                                  _
+						BasicRuntimeChecks="3"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  154  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  154  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  155  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  155  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  157  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  157  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  159  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  159  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  159  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  160  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  160  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  161  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  161  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  162  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  162  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  163  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath="kernel.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  165  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  165  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  167  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  167  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  167  Error 10: Expecting identifier or
+    other declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  169  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  169  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  169  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  170  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  170  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  171  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  171  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  172  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  172  Error 10: Expecting identifier or
+    other declarator
+                                                                  _
+						BasicRuntimeChecks="3"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  173  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  173  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  174  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  174  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  176  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  176  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  178  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  178  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  178  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  179  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  179  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  180  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  180  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  181  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  181  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  182  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath=".\mail.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  184  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  184  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  184  Warning 606: Non-ANSI escape
+    sequence: '\m'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  185  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  185  Error 10: Expecting *
+                                _
+				RelativePath="package.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  187  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  187  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  189  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  189  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  189  Error 10: Expecting identifier or
+    other declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  191  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  191  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  191  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  192  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  192  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  193  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  193  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  194  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  194  Error 10: Expecting identifier or
+    other declarator
+                                                                  _
+						BasicRuntimeChecks="3"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  195  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  195  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  196  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  196  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  198  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  198  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  200  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  200  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  200  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  201  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  201  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  202  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  202  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  203  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  203  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  204  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath=".\script.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  206  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  206  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  206  Warning 606: Non-ANSI escape
+    sequence: '\s'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  207  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  207  Error 10: Expecting *
+                                _
+				RelativePath=".\txtCtrlr.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  209  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  209  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  210  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  210  Error 10: Expecting *
+                                _
+				RelativePath=".\txtRecordset.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  212  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  212  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  213  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  213  Error 10: Expecting *
+                                _
+				RelativePath=".\variant.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  215  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  215  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  216  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  216  Error 10: Expecting *
+                                _
+				RelativePath="vfile.cpp">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  218  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  218  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  220  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  220  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  220  Error 10: Expecting identifier or
+    other declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  222  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  222  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  222  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  223  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  223  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  224  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  224  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  225  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  225  Error 10: Expecting identifier or
+    other declarator
+                                                                  _
+						BasicRuntimeChecks="3"/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  226  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  226  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  227  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  227  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  229  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  229  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  231  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  231  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  231  Error 10: Expecting identifier or
+    other declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  232  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  232  Error 10: Expecting identifier or
+    other declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  233  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  233  Error 10: Expecting identifier or
+    other declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  234  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  234  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  235  Error 129: declaration expected,
+    identifier 'File' ignored
+                        _
+		</Filter>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  236  Error 129: declaration expected,
+    identifier 'Filter' ignored
+                        _
+			Name="Header Files"
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  238  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  238  Error 129: declaration expected,
+    identifier 'Name' ignored
+                              _
+			Filter="h;hpp;hxx;hm;inl">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  239  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  239  Error 10: Expecting identifier or
+    other declarator
+                                _
+				RelativePath="..\..\Include\charstr.h">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  241  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  241  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  241  Error 10: Expecting identifier or
+    other declarator
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  241  Warning 606: Non-ANSI escape
+    sequence: '\.'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  241  Warning 606: Non-ANSI escape
+    sequence: '\I'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  241  Warning 606: Non-ANSI escape
+    sequence: '\c'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  242  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  242  Error 10: Expecting *
+                                _
+				RelativePath="..\..\Include\k_debug.h">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  244  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  244  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  244  Warning 606: Non-ANSI escape
+    sequence: '\.'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  244  Warning 606: Non-ANSI escape
+    sequence: '\I'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  244  Warning 606: Non-ANSI escape
+    sequence: '\k'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  245  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  245  Error 10: Expecting *
+                                _
+				RelativePath="..\..\include\kernel.h">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  247  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  247  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  247  Warning 606: Non-ANSI escape
+    sequence: '\.'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  247  Warning 606: Non-ANSI escape
+    sequence: '\i'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  247  Warning 606: Non-ANSI escape
+    sequence: '\k'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  248  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  248  Error 10: Expecting *
+                                _
+				RelativePath="..\..\include\package.h">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  250  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  250  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  250  Warning 606: Non-ANSI escape
+    sequence: '\.'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  250  Warning 606: Non-ANSI escape
+    sequence: '\i'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  250  Warning 606: Non-ANSI escape
+    sequence: '\p'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  251  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  251  Error 10: Expecting *
+                                _
+				RelativePath="..\..\Include\script.h">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  253  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  253  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  253  Warning 606: Non-ANSI escape
+    sequence: '\.'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  253  Warning 606: Non-ANSI escape
+    sequence: '\I'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  253  Warning 606: Non-ANSI escape
+    sequence: '\s'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  254  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  254  Error 10: Expecting *
+                                _
+				RelativePath="..\..\Include\variant.h">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  256  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  256  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  256  Warning 606: Non-ANSI escape
+    sequence: '\.'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  256  Warning 606: Non-ANSI escape
+    sequence: '\I'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  257  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  257  Error 10: Expecting *
+                                _
+				RelativePath="..\..\include\vfile.h">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  259  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  259  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  259  Warning 606: Non-ANSI escape
+    sequence: '\.'
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  259  Warning 606: Non-ANSI escape
+    sequence: '\i'
+                              _
+			</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  260  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  260  Error 10: Expecting *
+                        _
+		</Filter>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  261  Error 129: declaration expected,
+    identifier 'Filter' ignored
+                        _
+			RelativePath="PostBuild.bat">
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  263  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  263  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                      _
+		</File>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  264  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  264  Error 10: Expecting *
+               _
+	</Files>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  265  Error 129: declaration expected,
+    identifier 'Files' ignored
+                _
+	<Globals>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  266  Error 129: declaration expected,
+    identifier 'Globals' ignored
+                 _
+	</Globals>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  267  Error 129: declaration expected,
+    identifier 'Globals' ignored
+                     _
+</VisualStudioProject>
+E:\work\IQ\libsrc\Kernel\kernel.vcproj  268  Error 129: declaration expected,
+    identifier 'VisualStudioProject' ignored

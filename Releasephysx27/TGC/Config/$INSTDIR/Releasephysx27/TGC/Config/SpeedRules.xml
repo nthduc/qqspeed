@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+<SpeedRules version="1">
+	<Rule>
+		<Condition>
+			<ISP name="1"/>
+		</Condition>
+		<Result>
+			<SpeedIDC ID="4" />
+			<SpeedIDC ID="1006" />
+			<SpeedIDC ID="1007" />
+			<SpeedIDC ID="1008" />
+			<SpeedIDC ID="1012" />
+			<AcclSpeed Max="300" />
+			<AcclLostPacket Max="100" />
+		</Result>
+	</Rule>
+	<Rule>
+		<Condition>
+			<ISP name="3"/>
+		</Condition>
+		<Result>
+			<SpeedIDC ID="5" />
+			<SpeedIDC ID="2002" />
+			<SpeedIDC ID="2007" />
+			<SpeedIDC ID="2008" />
+			<SpeedIDC ID="2006" />
+			<AcclSpeed Max="300" />
+			<AcclLostPacket Max="100" />
+		</Result>
+	</Rule>
+</SpeedRules>

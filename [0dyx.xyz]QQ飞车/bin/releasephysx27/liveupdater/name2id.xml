@@ -1,0 +1,35 @@
+<UIComponentID>
+<UIClass Name="Beeline" ID="864"/>
+<UIClass Name="BehaviorDesigner" ID="402"/>
+<UIClass Name="Button" ID="290"/>
+<UIClass Name="CardCtrl" ID="925"/>
+<UIClass Name="CheckBox" ID="370"/>
+<UIClass Name="ComboBox" ID="372"/>
+<UIClass Name="Container" ID="345"/>
+<UIClass Name="Dialog" ID="289"/>
+<UIClass Name="Edit" ID="353"/>
+<UIClass Name="Excluder" ID="347"/>
+<UIClass Name="Header" ID="793"/>
+<UIClass Name="Label" ID="799"/>
+<UIClass Name="Level" ID="385"/>
+<UIClass Name="ListBox" ID="368"/>
+<UIClass Name="ListView" ID="827"/>
+<UIClass Name="Menu" ID="1053"/>
+<UIClass Name="MultiColorCtrl" ID="1052"/>
+<UIClass Name="MultiImageVermin" ID="845"/>
+<UIClass Name="MultiImagesCtrl" ID="1050"/>
+<UIClass Name="OverlapContainer" ID="348"/>
+<UIClass Name="RichEdit" ID="831"/>
+<UIClass Name="RichEditView" ID="835"/>
+<UIClass Name="ScrollBar" ID="364"/>
+<UIClass Name="ScrollView" ID="821"/>
+<UIClass Name="SignaledSwitch" ID="349"/>
+<UIClass Name="Slider" ID="394"/>
+<UIClass Name="Static" ID="339"/>
+<UIClass Name="Table" ID="808"/>
+<UIClass Name="TimeKeeper" ID="838"/>
+<UIClass Name="TitleBar" ID="350"/>
+<UIClass Name="ToolTip" ID="415"/>
+<UIClass Name="UnknownControl" ID="0"/>
+<UIClass Name="WebBrowser" ID="1025"/>
+</UIComponentID>

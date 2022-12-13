@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParsePlayKeysTest", "ParsePlayKeysTest\ParsePlayKeysTest.vcproj", "{B5FB07FB-01CE-4691-B02B-0BD37658C651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesterTester", "TesterTester\TesterTester.csproj", "{905C8B4B-64A2-40E4-AFC1-1FFCC7276CD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B5FB07FB-01CE-4691-B02B-0BD37658C651}.Debug.ActiveCfg = Debug|Win32
+		{B5FB07FB-01CE-4691-B02B-0BD37658C651}.Debug.Build.0 = Debug|Win32
+		{B5FB07FB-01CE-4691-B02B-0BD37658C651}.Release.ActiveCfg = Release|Win32
+		{B5FB07FB-01CE-4691-B02B-0BD37658C651}.Release.Build.0 = Release|Win32
+		{905C8B4B-64A2-40E4-AFC1-1FFCC7276CD6}.Debug.ActiveCfg = Debug|.NET
+		{905C8B4B-64A2-40E4-AFC1-1FFCC7276CD6}.Debug.Build.0 = Debug|.NET
+		{905C8B4B-64A2-40E4-AFC1-1FFCC7276CD6}.Release.ActiveCfg = Release|.NET
+		{905C8B4B-64A2-40E4-AFC1-1FFCC7276CD6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+// TopKart.idl : IDL source for TopKart.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Ext_ScriptFunc.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(5E31B765-4735-4408-94B1-A07E03148452),
+	version(1.0),
+	helpstring("TopKart 1.0 Type Library")
+]
+library TopKart
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(E349E6AB-DAC5-4fbd-8DFF-4114947CC57B),
+		helpstring("TopKart Class")
+	]
+	coclass TopKart
+	{
+		[default] interface IUnknown;
+	};
+
+	[
+		uuid(DCEC23E9-3D4A-409f-805B-B3BA1FC17009),
+		helpstring("LoginLogic Class")
+	]
+	coclass LoginLogic
+	{
+		[default] interface IUnknown;
+	};
+
+	[
+		uuid(4DF142AB-28C7-46d1-942F-1232ABA38B5D),
+		helpstring("RoomLogic Class")
+	]
+	coclass RoomLogic
+	{
+		[default] interface IUnknown;
+	};
+};
+

@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bounce", "Bounce\Bounce.vcproj", "{4EA1A35F-4C59-4D58-8CA2-CE76EB2D3490}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Death", "Death\Death.vcproj", "{502A3973-F4D4-4016-B43B-BEC13D2807D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DDSimpTest", "DDSimpTest\DDSimpTest.vcproj", "{4F75A561-F5D4-4FBA-B5DA-378D9EA5E608}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4EA1A35F-4C59-4D58-8CA2-CE76EB2D3490}.Debug.ActiveCfg = Debug|Win32
+		{4EA1A35F-4C59-4D58-8CA2-CE76EB2D3490}.Debug.Build.0 = Debug|Win32
+		{4EA1A35F-4C59-4D58-8CA2-CE76EB2D3490}.Release.ActiveCfg = Release|Win32
+		{4EA1A35F-4C59-4D58-8CA2-CE76EB2D3490}.Release.Build.0 = Release|Win32
+		{502A3973-F4D4-4016-B43B-BEC13D2807D0}.Debug.ActiveCfg = Debug|Win32
+		{502A3973-F4D4-4016-B43B-BEC13D2807D0}.Debug.Build.0 = Debug|Win32
+		{502A3973-F4D4-4016-B43B-BEC13D2807D0}.Release.ActiveCfg = Release|Win32
+		{502A3973-F4D4-4016-B43B-BEC13D2807D0}.Release.Build.0 = Release|Win32
+		{4F75A561-F5D4-4FBA-B5DA-378D9EA5E608}.Debug.ActiveCfg = Debug|Win32
+		{4F75A561-F5D4-4FBA-B5DA-378D9EA5E608}.Debug.Build.0 = Debug|Win32
+		{4F75A561-F5D4-4FBA-B5DA-378D9EA5E608}.Release.ActiveCfg = Release|Win32
+		{4F75A561-F5D4-4FBA-B5DA-378D9EA5E608}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

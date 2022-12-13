@@ -1,0 +1,26 @@
+HKCR
+{
+	ACG.NetworkObj.1 = s 'NetworkObj Class'
+	{
+		CLSID = s '{F8F05BC8-67FE-4c28-B7E2-3FEA56F11BBB}'
+	}
+	ACG.NetworkObj = s 'NetworkObj Class'
+	{
+		CLSID = s '{F8F05BC8-67FE-4c28-B7E2-3FEA56F11BBB}'
+		CurVer = s 'ACG.NetworkObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {F8F05BC8-67FE-4c28-B7E2-3FEA56F11BBB} = s 'NetworkObj Class'
+		{
+			ProgID = s 'ACG.NetworkObj.1'
+			VersionIndependentProgID = s 'ACG.NetworkObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{515E9DCE-9C29-46F0-A236-6D97125C6901}'
+		}
+	}
+}

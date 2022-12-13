@@ -1,0 +1,25 @@
+;-----------------------------------------------------------------------
+;"Debugging Applications" (Microsoft Press)
+;Copyright (c) 1997-2000 John Robbins -- All rights reserved.
+;-----------------------------------------------------------------------
+; This is the file that controls the DLL base addresses.  It is included
+; as part of the LINKER command line options.
+;
+; The format is:
+; key address size
+;
+; For the sizes, I added up at the sizes of the code, initialized data,
+; and uninitialized data and multiplied that number by 2.  That should
+; give plenty of room to grow.
+;
+; Note that BUGSLAYERUTIL.DLL is set directly on the command line because
+; it is used by other projects on this CD.
+
+; The i386 helper functions
+i386cpuhelp    0x62000000     0x50000
+
+; The debugger interface
+LocalDebug     0x63000000     0x20000
+
+; The local assist functions.
+LocalAssist    0x63100000     0x20000

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="GBK"?>
+<IPList version="1">
+  <IDC id="4" name="沙河电信" isp="1">
+	<SpeedSvr ip="113.108.73.88" port="8080" test="1" />
+  </IDC>
+  <IDC id="5" name="联通小树林" isp="2">
+	<SpeedSvr ip="125.39.55.102" port="8080" test="1" />
+  </IDC>
+  <IDC id="1007" name="北京电信洋桥AC" isp="1">
+	<SpeedSvr ip="220.181.137.76" port="8080" test="0" />
+  </IDC>
+  <IDC id="2007" name="北京联通土城AC" isp="1">
+	<SpeedSvr ip="61.135.191.162" port="8080" test="0" />
+  </IDC>
+  <IDC id="1013" name="杭州电信东冠DC" isp="1">
+	<SpeedSvr ip="115.236.138.204" port="8080" test="0" />
+  </IDC>
+  <IDC id="2013" name="杭州电信东冠DC" isp="2">
+	<SpeedSvr ip="124.160.168.31" port="8080" test="0" />
+  </IDC>
+  <IDC id="1009" name="成都电信光华AC" isp="1">
+	<SpeedSvr ip="118.123.234.39" port="8080" test="0" />
+  </IDC>
+  <IDC id="2009" name="成都联通枢纽AC" isp="2">
+	<SpeedSvr ip="175.155.112.46" port="8080" test="0" />
+  </IDC>
+  <IDC id="1010" name="西安电信经开DC" isp="1">
+	<SpeedSvr ip="113.142.24.17" port="8080" test="0" />
+  </IDC>
+  <IDC id="2010" name="西安电信经开DC" isp="2">
+	<SpeedSvr ip="123.138.145.13" port="8080" test="0" />
+  </IDC>
+  <IDC id="1011" name="广州电信亚太信息AC" isp="1">
+	<SpeedSvr ip="183.60.70.15" port="8080" test="0" />
+  </IDC>
+  <IDC id="2011" name="广州电信亚太信息AC" isp="2">
+	<SpeedSvr ip="112.90.11.103" port="8080" test="0" />
+  </IDC>
+  <IDC id="1006" name="深圳电信福永DC" isp="1">
+	<SpeedSvr ip="113.108.0.92" port="8080" test="0" />
+  </IDC>
+  <IDC id="2002" name="深圳联通同乐AC" isp="2">
+	<SpeedSvr ip="112.90.82.22" port="8080" test="0" />
+  </IDC>
+  <IDC id="1008" name="上海电信市北DC" isp="1">
+	<SpeedSvr ip="101.226.46.105" port="8080" test="0" />
+  </IDC>
+  <IDC id="2008" name="上海电信市北DC" isp="2">
+	<SpeedSvr ip="112.65.192.170" port="8080" test="0" />
+  </IDC>
+  <IDC id="1012" name="天津数据备份中心-电信" isp="1">
+	<SpeedSvr ip="123.151.43.38" port="8080" test="0" />
+  </IDC>
+  <IDC id="2006" name="天津数据备份中心-联通" isp="2">
+	<SpeedSvr ip="111.161.54.29" port="8080" test="0" />
+  </IDC>
+  <IDC id="4001" name="上海移动松江AC" isp="4">
+    <SpeedSvr ip="120.204.200.113" port="8080" test="0" />
+  </IDC>
+</IPList>

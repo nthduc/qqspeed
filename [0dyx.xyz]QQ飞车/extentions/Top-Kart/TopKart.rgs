@@ -1,0 +1,26 @@
+HKCR
+{
+	KartClient.KartClient.1 = s 'KartClient Class'
+	{
+		CLSID = s '{E349E6AB-DAC5-4fbd-8DFF-4114947CC57B}'
+	}
+	KartClient.KartClient = s 'KartClient Class'
+	{
+		CLSID = s '{E349E6AB-DAC5-4fbd-8DFF-4114947CC57B}'
+		CurVer = s 'KartClient.KartClient.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E349E6AB-DAC5-4fbd-8DFF-4114947CC57B} = s 'KartClient Class'
+		{
+			ProgID = s 'KartClient.KartClient.1'
+			VersionIndependentProgID = s 'KartClient.KartClient'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{5E31B765-4735-4408-94B1-A07E03148452}'
+		}
+	}
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<UIStyles>
+    <Control Name="Button">
+        <Style Name="NormalButton">
+            <Properties>
+                <Property Name="Caption_LID" Value="9" />
+                <Property Name="OnClick" Value="TPFUI.OK" />
+            </Properties>
+        </Style>
+    </Control>
+    <Control Name="Dialog">
+        <Style Name="aaaa">
+            <Properties>
+                <Property Name="CreateType" Value="winless" />
+                <Property Name="DisableMoveOut" Value="true" />
+            </Properties>
+        </Style>
+    </Control>
+</UIStyles>

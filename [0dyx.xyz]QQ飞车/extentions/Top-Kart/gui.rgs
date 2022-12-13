@@ -1,0 +1,26 @@
+HKCR
+{
+
+	gui.gui.1 = s 'GUI Class'
+	{				
+		CLSID = s '{7FF5BD2D-5F9D-4CD4-A9CB-3F43645B09AB}'
+	}
+	gui.gui = s 'GUI Class'
+	{
+		CLSID = s '{7FF5BD2D-5F9D-4CD4-A9CB-3F43645B09AB}'
+		CurVer = s 'gui.gui.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {7FF5BD2D-5F9D-4CD4-A9CB-3F43645B09AB} = s 'GUI Class'
+		{
+			ProgID = s 'gui.gui.1'
+			VersionIndependentProgID = s 'gui.gui'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}

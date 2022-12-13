@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemStress", "MemStress.csproj", "{761926CE-B4A5-4C30-9914-C021AA0A6A60}"
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {E81D2D53-50FC-4C20-8AB0-579EE4A92A41}
+	EndGlobalSection
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{761926CE-B4A5-4C30-9914-C021AA0A6A60}.Debug.ActiveCfg = Debug|.NET
+		{761926CE-B4A5-4C30-9914-C021AA0A6A60}.Debug.Build.0 = Debug|.NET
+		{761926CE-B4A5-4C30-9914-C021AA0A6A60}.Release.ActiveCfg = Release|.NET
+		{761926CE-B4A5-4C30-9914-C021AA0A6A60}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Debugging Applications for Microsoft .NET and Microsoft Windows -->
+<!-- Copyright ©1997-2002 by John Robbins                            -->
+<!-- SettingsMaster AddIn Configuration File - Release-SWS           -->
+<!--                                                                 -->
+<!--These settings are for properly setting up a project for use with-->
+<!--the Smooth Working Set (SWS) from Chapter 19.                    -->
+<!--Your project configuration MUST be named "Release-SWS" for this  -->
+<!--file to work.                                                    -->
+<!--                                                                 -->
+<!-- PLEASE READ CHAPTER 9 ON ADDING YOUR OWN SETTINGS TO THIS FILE! -->
+<Configurations>
+    <ProgLanguage>{B5E9BD32-6D3E-4B5D-925E-8A43B79820B4}</ProgLanguage>
+    <Configuration>
+        <ConfigName>Release-SWS</ConfigName>
+        <Tools>
+            <Tool>
+                <ToolName>VCCLCompilerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Turns on /Zi-->
+                        <PropertyName>DebugInformationFormat</PropertyName>
+                        <PropertyType Name="debugOption">Enum</PropertyType>
+                        <PropertyValue>3</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /Gy-->
+                        <PropertyName>EnableFunctionLevelLinking</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets the PDB output dir.-->
+                        <!--This is where VC70.PDB goes.-->
+                        <!--I do this to avoid confusion.-->
+                        <PropertyName>ProgramDataBaseFileName</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(IntDir)/</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /Gh-->
+                        <PropertyName>AdditionalOptions</PropertyName>
+                        <PropertyType OpType="Append">String</PropertyType>
+                        <PropertyValue>/Gh </PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCLinkerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Turns on /OPT:ICF-->
+                        <PropertyName>EnableCOMDATFolding</PropertyName>
+                        <PropertyType Name="optFoldingType">Enum</PropertyType>
+                        <PropertyValue>2</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures /DEBUG-->
+                        <PropertyName>GenerateDebugInformation</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures /INCREMENTAL is off-->
+                        <PropertyName>LinkIncremental</PropertyName>
+                        <PropertyType Name="linkIncrementalType">Enum</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /OPT:REF-->
+                        <PropertyName>OptimizeReferences</PropertyName>
+                        <PropertyType Name="optRefType">Enum</PropertyType>
+                        <PropertyValue>2</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /PDB-->
+                        <PropertyName>ProgramDatabaseFile</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(OutDir)/$(ProjectName).pdb</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Adds SWSDLL.LIB to the dependency lists-->
+                        <PropertyName>AdditionalDependencies</PropertyName>
+                        <PropertyType OpType="Append">String</PropertyType>
+                        <PropertyValue> SWSDLL.LIB </PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+        </Tools>
+    </Configuration>
+</Configurations>

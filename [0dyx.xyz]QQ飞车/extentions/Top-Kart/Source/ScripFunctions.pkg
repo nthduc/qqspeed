@@ -1,0 +1,5 @@
+$#pragma warning(disable : 4800) //forcing value to bool warning
+$cfile "ScriptVm.h"
+$cfile "Setting.h"
+$cfile "GPSettings.h"
+$cfile "DescConstant.h"

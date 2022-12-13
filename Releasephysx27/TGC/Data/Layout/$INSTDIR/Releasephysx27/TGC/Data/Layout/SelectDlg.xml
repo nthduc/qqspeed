@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110223" ColorLib="">
+    <UIObject Type="Dialog" Name="DlgMain">
+        <Properties>
+            <Property Name="XOffset" Value="489" />
+            <Property Name="YOffset" Value="406" />
+            <Property Name="Width" Value="302" />
+            <Property Name="Height" Value="182" />
+            <Property Name="Background" Value="9IMAGES:Login\1.png;Login\2.png;Login\3.png;Login\4.png;Login\5.png;Login\6.png;Login\7.png;Login\8.png;Login\9.png;Tile;null;" />
+            <Property Name="AlwaysOnTop" Value="true" />
+            <Property Name="ToolWindow" Value="true" />
+            <Property Name="InitPosition" Value="center" />
+        </Properties>
+        <Children>
+            <UIObject Type="CheckBox" Name="ckbNeverTip">
+                <Properties>
+                    <Property Name="XOffset" Value="12" />
+                    <Property Name="YOffset" Value="150" />
+                    <Property Name="Width" Value="118" />
+                    <Property Name="Height" Value="28" />
+                    <Property Name="Caption" Value="下次不再提示" />
+                    <Property Name="Image" Value="checkbox_unchecked.png" />
+                    <Property Name="ImageChecked" Value="checkbox_checked.png" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="Caption">
+                <Properties>
+                    <Property Name="XOffset" Value="8" />
+                    <Property Name="YOffset" Value="9" />
+                    <Property Name="Width" Value="179" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="TextColor" Value="0xFFFFFF" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyButton" Name="btnOK">
+                <Properties>
+                    <Property Name="XOffset" Value="130" />
+                    <Property Name="YOffset" Value="148" />
+                    <Property Name="Width" Value="76" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:Login\btn_norm.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Login\btn_hover.png;Tile;0;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Login\btn_press.png;Tile;0;" />
+                    <Property Name="Caption" Value="确 定" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyButton" Name="btnCancel">
+                <Properties>
+                    <Property Name="XOffset" Value="220" />
+                    <Property Name="YOffset" Value="148" />
+                    <Property Name="Width" Value="76" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:Login\btn_norm.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Login\btn_hover.png;Tile;0;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Login\btn_press.png;Tile;0;" />
+                    <Property Name="Caption" Value="取 消" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="btnClose">
+                <Properties>
+                    <Property Name="XOffset" Value="276" />
+                    <Property Name="YOffset" Value="1" />
+                    <Property Name="Width" Value="24" />
+                    <Property Name="Height" Value="16" />
+                    <Property Name="Background" Value="ONEIMAGE:Login\close.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:Login\close_hover.png;Tile;0;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="ctnClient">
+                <Properties>
+                    <Property Name="XOffset" Value="9" />
+                    <Property Name="YOffset" Value="61" />
+                    <Property Name="Width" Value="286" />
+                    <Property Name="Height" Value="88" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="txtInfo">
+                <Properties>
+                    <Property Name="XOffset" Value="32" />
+                    <Property Name="YOffset" Value="45" />
+                    <Property Name="Width" Value="262" />
+                    <Property Name="Height" Value="93" />
+                    <Property Name="AutoChangeLine" Value="true" />
+                    <Property Name="MultiLine" Value="true" />
+                    <Property Name="LineSpacing" Value="10" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

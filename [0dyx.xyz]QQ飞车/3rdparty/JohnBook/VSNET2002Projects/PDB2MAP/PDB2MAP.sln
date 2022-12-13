@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PDB2MAP", "PDB2MAP.vcproj", "{B55D4DFA-3CAE-42B7-97F0-229D7519245B}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B55D4DFA-3CAE-42B7-97F0-229D7519245B}.Debug.ActiveCfg = Debug|Win32
+		{B55D4DFA-3CAE-42B7-97F0-229D7519245B}.Debug.Build.0 = Debug|Win32
+		{B55D4DFA-3CAE-42B7-97F0-229D7519245B}.Release.ActiveCfg = Release|Win32
+		{B55D4DFA-3CAE-42B7-97F0-229D7519245B}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

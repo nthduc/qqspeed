@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemStressDemo", "MemStressDemo.vcproj", "{0FD3FD4F-6406-4929-BF8E-C437D20E8EBF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BugslayerUtil", "..\..\..\BugslayerUtil\BugslayerUtil.vcproj", "{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}"
+EndProject
+Global
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0FD3FD4F-6406-4929-BF8E-C437D20E8EBF}.Debug.ActiveCfg = Debug|Win32
+		{0FD3FD4F-6406-4929-BF8E-C437D20E8EBF}.Debug.Build.0 = Debug|Win32
+		{0FD3FD4F-6406-4929-BF8E-C437D20E8EBF}.Release.ActiveCfg = Release|Win32
+		{0FD3FD4F-6406-4929-BF8E-C437D20E8EBF}.Release.Build.0 = Release|Win32
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}.Debug.ActiveCfg = Debug|Win32
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}.Debug.Build.0 = Debug|Win32
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}.Release.ActiveCfg = Release|Win32
+		{D4CB82B1-7291-478E-A8C3-AE93CB634F0A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

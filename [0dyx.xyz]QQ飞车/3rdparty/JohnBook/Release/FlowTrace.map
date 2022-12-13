@@ -1,0 +1,711 @@
+ FlowTrace
+
+ Timestamp is 3e4e58af (Sat Feb 15 10:11:43 2003)
+
+ Preferred load address is 61000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00002382H .text                   CODE
+ 0001:00002382 0000004dH .text$x                 CODE
+ 0002:00000000 000000fcH .idata$5                DATA
+ 0002:00000100 00000718H .rdata                  DATA
+ 0002:00000818 00000042H .rdata$debug            DATA
+ 0002:0000085c 00000044H .rdata$r                DATA
+ 0002:000008a0 00000014H .rdata$sxdata           DATA
+ 0002:000008b4 00000004H .rtc$IAA                DATA
+ 0002:000008b8 00000004H .rtc$IZZ                DATA
+ 0002:000008bc 00000004H .rtc$TAA                DATA
+ 0002:000008c0 00000004H .rtc$TZZ                DATA
+ 0002:000008c4 00000140H .xdata$x                DATA
+ 0002:00000a04 00000064H .idata$2                DATA
+ 0002:00000a68 00000014H .idata$3                DATA
+ 0002:00000a7c 000000fcH .idata$4                DATA
+ 0002:00000b78 0000050eH .idata$6                DATA
+ 0002:00001090 0000008cH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCAA               DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000100H .data                   DATA
+ 0003:00000120 00000020H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000003a8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000005       ___safe_se_handler_count   00000005     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0001:00000000       ??0CPerThreadData@@QAE@XZ  61001000 f i FlowTrace.obj
+ 0001:0000002f       ??1CPerThreadData@@UAE@XZ  6100102f f i FlowTrace.obj
+ 0001:0000004d       ?Initialize@CPerThreadData@@QAEHPBGI@Z 6100104d f i FlowTrace.obj
+ 0001:000000ac       ?WriteData@CPerThreadData@@QAEXPBG0@Z 610010ac f i FlowTrace.obj
+ 0001:000000cd       ?WriteMessage@CPerThreadData@@QAEXPBG@Z 610010cd f i FlowTrace.obj
+ 0001:000000e5       ?ReportExceptionAndUnwinds@CPerThreadData@@QAEXXZ 610010e5 f i FlowTrace.obj
+ 0001:00000139       ??_ECPerThreadData@@UAEPAXI@Z 61001139 f i FlowTrace.obj
+ 0001:00000139       ??_GCPerThreadData@@UAEPAXI@Z 61001139 f i FlowTrace.obj
+ 0001:00000155       ?Initialize@Settings@@QAEXPBG@Z 61001155 f i FlowTrace.obj
+ 0001:0000017e       ?TurnOffInlining@Settings@@QAEHXZ 6100117e f i FlowTrace.obj
+ 0001:00000197       ?IgnoreFinalizerThread@Settings@@QAEHXZ 61001197 f i FlowTrace.obj
+ 0001:000001b0       ?SkipStartupOnMainThread@Settings@@QAEHXZ 610011b0 f i FlowTrace.obj
+ 0001:000001c9       ??_ESettings@@UAEPAXI@Z    610011c9 f i FlowTrace.obj
+ 0001:000001c9       ??_GSettings@@UAEPAXI@Z    610011c9 f i FlowTrace.obj
+ 0001:000001e6       ??0CFlowTrace@@QAE@XZ      610011e6 f i FlowTrace.obj
+ 0001:00000239       ??1CFlowTrace@@UAE@XZ      61001239 f i FlowTrace.obj
+ 0001:00000257       ??_GCFlowTrace@@UAEPAXI@Z  61001257 f i FlowTrace.obj
+ 0001:00000257       ??_ECFlowTrace@@UAEPAXI@Z  61001257 f i FlowTrace.obj
+ 0001:00000273       ?OnInitialize@CFlowTrace@@UAGJXZ 61001273 f   FlowTrace.obj
+ 0001:00000443       ?OnShutdown@CFlowTrace@@UAGJXZ 61001443 f   FlowTrace.obj
+ 0001:000004ac       ?ThreadCreated@CFlowTrace@@UAGJI@Z 610014ac f   FlowTrace.obj
+ 0001:00000593       ?ThreadDestroyed@CFlowTrace@@UAGJI@Z 61001593 f   FlowTrace.obj
+ 0001:000005d3       ?ExceptionThrown@CFlowTrace@@UAGJI@Z 610015d3 f   FlowTrace.obj
+ 0001:00000632       ?ExceptionUnwindFunctionLeave@CFlowTrace@@UAGJXZ 61001632 f   FlowTrace.obj
+ 0001:0000064d       ?ExceptionCatcherLeave@CFlowTrace@@UAGJXZ 6100164d f   FlowTrace.obj
+ 0001:00000671       ?FuncEnter@CFlowTrace@@QAGXI@Z 61001671 f   FlowTrace.obj
+ 0001:000006fa       ?FuncLeave@CFlowTrace@@QAGXI@Z 610016fa f   FlowTrace.obj
+ 0001:000007c8       ?FuncTailCall@CFlowTrace@@QAGXI@Z 610017c8 f   FlowTrace.obj
+ 0001:0000083b       ?FuncIDMapper@CFlowTrace@@QAGIIPAH@Z 6100183b f   FlowTrace.obj
+ 0001:00000878       ?WriteTimeToLog@CFlowTrace@@IAEXPAVCPerThreadData@@PAU_SYSTEMTIME@@PBG@Z 61001878 f   FlowTrace.obj
+ 0001:000008d1       ?AddThreadData@CFlowTrace@@IAEXIPAVCPerThreadData@@@Z 610018d1 f   FlowTrace.obj
+ 0001:00000905       ?GetThreadData@CFlowTrace@@IAEPAVCPerThreadData@@I@Z 61001905 f   FlowTrace.obj
+ 0001:00000955       ?RemoveThreadData@CFlowTrace@@IAEXI@Z 61001955 f   FlowTrace.obj
+ 0001:0000099d       ?GetCurrentThreadData@CFlowTrace@@IAEPAVCPerThreadData@@PAI@Z 6100199d f   FlowTrace.obj
+ 0001:000009ce       ?NakedEnter@@YAXI@Z        610019ce f   FlowTrace.obj
+ 0001:000009e7       ?NakedLeave@@YAXI@Z        610019e7 f   FlowTrace.obj
+ 0001:00000a00       ?NakedTailCall@@YAXI@Z     61001a00 f   FlowTrace.obj
+ 0001:00000a19       ?IDMapper@@YGIIPAH@Z       61001a19 f   FlowTrace.obj
+ 0001:00000a33       ?AllocateProfilerCallback@@YAPAUICorProfilerCallback@@XZ 61001a33 f   FlowTrace.obj
+ 0001:00000a8c       ?DllUnloadingCheck@@YAXXZ  61001a8c f   FlowTrace.obj
+ 0001:00000ac0       ??A?$map@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@@std@@QAEAAPAVCPerThreadData@@ABI@Z 61001ac0 f i FlowTrace.obj
+ 0001:00000afa       ?erase@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAEIABI@Z 61001afa f i FlowTrace.obj
+ 0001:00000b43       ?clear@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAEXXZ 61001b43 f i FlowTrace.obj
+ 0001:00000b67       ?find@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@ABI@Z 61001b67 f i FlowTrace.obj
+ 0001:00000b99       ?insert@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@V312@ABU?$pair@$$CBIPAVCPerThreadData@@@2@@Z 61001b99 f i FlowTrace.obj
+ 0001:00000c88       ?erase@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@V312@0@Z 61001c88 f i FlowTrace.obj
+ 0001:00000cd9       ?equal_range@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@V123@@2@ABI@Z 61001cd9 f i FlowTrace.obj
+ 0001:00000d01       ?_Erase@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@@Z 61001d01 f i FlowTrace.obj
+ 0001:00000d33       ?_Tidy@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAEXXZ 61001d33 f i FlowTrace.obj
+ 0001:00000d5b       ?insert@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAE?AU?$pair@Viterator@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@_N@2@ABU?$pair@$$CBIPAVCPerThreadData@@@2@@Z 61001d5b f i FlowTrace.obj
+ 0001:00000de8       ?erase@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 61001de8 f i FlowTrace.obj
+ 0001:0000107b       ?_Init@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAEXXZ 6100207b f i FlowTrace.obj
+ 0001:0000109c       ?_Insert@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@ABU?$pair@$$CBIPAVCPerThreadData@@@2@@Z 6100209c f i FlowTrace.obj
+ 0001:000011f8       ?_Lbound@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@ABI@Z 610021f8 f i FlowTrace.obj
+ 0001:0000121b       ??0out_of_range@std@@QAE@ABV01@@Z 6100221b f i FlowTrace.obj
+ 0001:00001233       ??0logic_error@std@@QAE@ABV01@@Z 61002233 f i FlowTrace.obj
+ 0001:00001278       ??0length_error@std@@QAE@ABV01@@Z 61002278 f i FlowTrace.obj
+ 0001:00001290       ?_Lrotate@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@@Z 61002290 f i FlowTrace.obj
+ 0001:000012d0       ?_Rrotate@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@@Z 610022d0 f i FlowTrace.obj
+ 0001:00001312       ?_Ubound@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IBEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@ABI@Z 61002312 f i FlowTrace.obj
+ 0001:00001335       ?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@XZ 61002335 f i FlowTrace.obj
+ 0001:0000135f       ?_Buynode@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@PAU342@00ABU?$pair@$$CBIPAVCPerThreadData@@@2@D@Z 6100235f f i FlowTrace.obj
+ 0001:0000138c       ?_Inc@const_iterator@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAEXXZ 6100238c f i FlowTrace.obj
+ 0001:000013c2       ?_Dec@const_iterator@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAEXXZ 610023c2 f i FlowTrace.obj
+ 0001:00001401       ??0_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAE@PAU012@00ABU?$pair@$$CBIPAVCPerThreadData@@@2@D@Z 61002401 f i FlowTrace.obj
+ 0001:0000142a       ??_Elength_error@std@@UAEPAXI@Z 6100242a f i FlowTrace.obj
+ 0001:0000142a       ??_Glength_error@std@@UAEPAXI@Z 6100242a f i FlowTrace.obj
+ 0001:00001446       ?what@logic_error@std@@UBEPBDXZ 61002446 f i FlowTrace.obj
+ 0001:00001454       ??_Glogic_error@std@@UAEPAXI@Z 61002454 f i FlowTrace.obj
+ 0001:00001454       ??_Elogic_error@std@@UAEPAXI@Z 61002454 f i FlowTrace.obj
+ 0001:00001470       ??_Eout_of_range@std@@UAEPAXI@Z 61002470 f i FlowTrace.obj
+ 0001:00001470       ??_Gout_of_range@std@@UAEPAXI@Z 61002470 f i FlowTrace.obj
+ 0001:0000148c       ??1logic_error@std@@UAE@XZ 6100248c f i FlowTrace.obj
+ 0001:000014c9       ??1length_error@std@@UAE@XZ 610024c9 f i FlowTrace.obj
+ 0001:000014d4       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 610024d4 f i FlowTrace.obj
+ 0001:00001511       ??1out_of_range@std@@UAE@XZ 61002511 f i FlowTrace.obj
+ 0001:0000151c       _DllMain@12                6100251c f   Infrastructure.obj
+ 0001:00001548       ?AddRef@CBaseProfilerCallback@@UAGKXZ 61002548 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:0000155d       ?Release@CBaseProfilerCallback@@UAGKXZ 6100255d f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:0000157f       ?QueryInterface@CBaseProfilerCallback@@UAGJABU_GUID@@PAPAX@Z 6100257f f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:00001587       ?Initialize@CBaseProfilerCallback@@UAGJPAUIUnknown@@@Z 61002587 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015c2       ?Shutdown@CBaseProfilerCallback@@UAGJXZ 610025c2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?AppDomainCreationFinished@CBaseProfilerCallback@@UAGJIJ@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?JITCompilationStarted@CBaseProfilerCallback@@UAGJIH@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?JITCachedFunctionSearchStarted@CBaseProfilerCallback@@UAGJIPAH@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ClassLoadFinished@CBaseProfilerCallback@@UAGJIJ@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ModuleAttachedToAssembly@CBaseProfilerCallback@@UAGJII@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?RemotingClientSendingMessage@CBaseProfilerCallback@@UAGJPAU_GUID@@H@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?RootReferences@CBaseProfilerCallback@@UAGJKQAI@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?UnmanagedToManagedTransition@CBaseProfilerCallback@@UAGJIW4__MIDL___MIDL_itf_corprof_0000_0004@@@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?AppDomainShutdownFinished@CBaseProfilerCallback@@UAGJIJ@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ModuleLoadFinished@CBaseProfilerCallback@@UAGJIJ@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ExceptionCatcherEnter@CBaseProfilerCallback@@UAGJII@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?AssemblyUnloadFinished@CBaseProfilerCallback@@UAGJIJ@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?RemotingServerSendingReply@CBaseProfilerCallback@@UAGJPAU_GUID@@H@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ManagedToUnmanagedTransition@CBaseProfilerCallback@@UAGJIW4__MIDL___MIDL_itf_corprof_0000_0004@@@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ClassUnloadFinished@CBaseProfilerCallback@@UAGJIJ@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?RemotingServerReceivingMessage@CBaseProfilerCallback@@UAGJPAU_GUID@@H@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ThreadAssignedToOSThread@CBaseProfilerCallback@@UAGJIK@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ModuleUnloadFinished@CBaseProfilerCallback@@UAGJIJ@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?AssemblyLoadFinished@CBaseProfilerCallback@@UAGJIJ@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?ObjectAllocated@CBaseProfilerCallback@@UAGJII@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?JITCachedFunctionSearchFinished@CBaseProfilerCallback@@UAGJIW4__MIDL___MIDL_itf_corprof_0000_0003@@@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e3       ?RemotingClientReceivingReply@CBaseProfilerCallback@@UAGJPAU_GUID@@H@Z 610025e3 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ExceptionUnwindFunctionEnter@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?JITFunctionPitched@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?RuntimeThreadSuspended@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ClassUnloadStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?AppDomainCreationStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ModuleLoadStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?RuntimeSuspendStarted@CBaseProfilerCallback@@UAGJW4__MIDL___MIDL_itf_corprof_0000_0005@@@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?AppDomainShutdownStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?LockServer@CClassFactory@@UAGJH@Z 610025e8 f   ProfilerLIB:COMInfrastructure.obj
+ 0001:000015e8       ?RuntimeThreadResumed@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ExceptionSearchCatcherFound@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?AssemblyUnloadStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ExceptionSearchFunctionEnter@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?AssemblyLoadStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ModuleUnloadStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ExceptionUnwindFinallyEnter@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?FunctionUnloadStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ExceptionOSHandlerEnter@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ExceptionOSHandlerLeave@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ExceptionSearchFilterEnter@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015e8       ?ClassLoadStarted@CBaseProfilerCallback@@UAGJI@Z 610025e8 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015ed       ?ObjectsAllocatedByClass@CBaseProfilerCallback@@UAGJKQAIQAK@Z 610025ed f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015ed       ?JITInlining@CBaseProfilerCallback@@UAGJIIPAH@Z 610025ed f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015ed       ?JITCompilationFinished@CBaseProfilerCallback@@UAGJIJH@Z 610025ed f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015ed       ?COMClassicVTableDestroyed@CBaseProfilerCallback@@UAGJIABU_GUID@@PAX@Z 610025ed f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?ExceptionCLRCatcherFound@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?RemotingClientInvocationFinished@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?ExceptionCLRCatcherExecute@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?ExceptionSearchFunctionLeave@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?RuntimeSuspendAborted@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?RemotingServerInvocationReturned@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?RemotingClientInvocationStarted@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?RemotingServerInvocationStarted@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?RuntimeResumeFinished@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?RuntimeResumeStarted@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?RuntimeSuspendFinished@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?ExceptionSearchFilterLeave@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f2       ?ExceptionUnwindFinallyLeave@CBaseProfilerCallback@@UAGJXZ 610025f2 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f7       ?ObjectReferences@CBaseProfilerCallback@@UAGJIIKQAI@Z 610025f7 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f7       ?COMClassicVTableCreated@CBaseProfilerCallback@@UAGJIABU_GUID@@PAXK@Z 610025f7 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015f7       ?MovedReferences@CBaseProfilerCallback@@UAGJKQAI0QAK@Z 610025f7 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000015fc       ?GetClassAndMethodFromFunctionId@CBaseProfilerCallback@@IAEHIPAGI0I@Z 610025fc f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:0000167d       ?GetClassFromObjectId@CBaseProfilerCallback@@IAEHIPAGI@Z 6100267d f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:00001707       ?SupposedToProfileThisProcess@CBaseProfilerCallback@@MAEHPBG@Z 61002707 f   ProfilerLIB:BaseProfilerCallback.obj
+ 0001:000017a7       ?AddRef@CClassFactory@@UAGKXZ 610027a7 f i ProfilerLIB:COMInfrastructure.obj
+ 0001:000017b8       ?Release@CClassFactory@@UAGKXZ 610027b8 f i ProfilerLIB:COMInfrastructure.obj
+ 0001:000017c9       _DllUnregisterServer@0     610027c9 f   ProfilerLIB:COMInfrastructure.obj
+ 0001:00001876       _DllRegisterServer@0       61002876 f   ProfilerLIB:COMInfrastructure.obj
+ 0001:00001968       _DllGetClassObject@12      61002968 f   ProfilerLIB:COMInfrastructure.obj
+ 0001:0000199c       ?QueryInterface@CClassFactory@@UAGJABU_GUID@@PAPAX@Z 6100299c f   ProfilerLIB:COMInfrastructure.obj
+ 0001:000019e6       ?CreateInstance@CClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 610029e6 f   ProfilerLIB:COMInfrastructure.obj
+ 0001:00001a04       ?RegisterClassBase@@YAJABU_GUID@@PBG11PAG@Z 61002a04 f   ProfilerLIB:COMInfrastructure.obj
+ 0001:00001ad0       ?UnregisterClassBase@@YAJABU_GUID@@PBG1PAG@Z 61002ad0 f   ProfilerLIB:COMInfrastructure.obj
+ 0001:00001b8e       ?DeleteKey@@YAHPBG0@Z      61002b8e f   ProfilerLIB:COMInfrastructure.obj
+ 0001:00001bfb       ?SetKeyAndValue@@YAHPBG00@Z 61002bfb f   ProfilerLIB:COMInfrastructure.obj
+ 0001:00001cb7       ?SetRegValue@@YAHPAG00@Z   61002cb7 f   ProfilerLIB:COMInfrastructure.obj
+ 0001:00001d17       _IsEqualGUID               61002d17 f i ProfilerLIB:COMInfrastructure.obj
+ 0001:00001d2f       ??2@YAPAXI@Z               61002d2f f   msvcprt:newop_s.obj
+ 0001:00001d54       _StringCopyWorkerW@12      61002d54 f   strsafe:strsafe.obj
+ 0001:00001d96       _StringVPrintfWorkerW@16   61002d96 f   strsafe:strsafe.obj
+ 0001:00001de1       _StringLengthWorkerW@12    61002de1 f   strsafe:strsafe.obj
+ 0001:00001e17       _StringCchCopyW@12         61002e17 f   strsafe:strsafe.obj
+ 0001:00001e2e       _StringCchPrintfW          61002e2e f   strsafe:strsafe.obj
+ 0001:00001e55       _StringCatWorkerW@12       61002e55 f   strsafe:strsafe.obj
+ 0001:00001e87       _StringCchCatW@12          61002e87 f   strsafe:strsafe.obj
+ 0001:00001e9e       ??3@YAXPAX@Z               61002e9e f   MSVCRT:MSVCR71.dll
+ 0001:00001ea4       ??_Etype_info@@UAEPAXI@Z   61002ea4 f i MSVCRT:ti_inst.obj
+ 0001:00001ef0       ??0exception@@QAE@ABV0@@Z  61002ef0 f   MSVCRT:MSVCR71.dll
+ 0001:00001ef6       __CRT_INIT@12              61002ef6 f   MSVCRT:crtdll.obj
+ 0001:00001fb4       __DllMainCRTStartup@12     61002fb4 f   MSVCRT:crtdll.obj
+ 0001:00002098       _memcmp                    61003098 f   MSVCRT:MSVCR71.dll
+ 0001:0000209e       _malloc                    6100309e f   MSVCRT:MSVCR71.dll
+ 0001:000020a4       __callnewh                 610030a4 f   MSVCRT:MSVCR71.dll
+ 0001:000020aa       __vsnwprintf               610030aa f   MSVCRT:MSVCR71.dll
+ 0001:000020b0       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 610030b0 f   MSVCRT:ehvecdtr.obj
+ 0001:0000210e       ??_M@YGXPAXIHP6EX0@Z@Z     6100310e f   MSVCRT:ehvecdtr.obj
+ 0001:0000216e       ??1type_info@@UAE@XZ       6100316e f   MSVCRT:MSVCR71.dll
+ 0001:00002174       __initterm                 61003174 f   MSVCRT:MSVCR71.dll
+ 0001:0000217a       __onexit                   6100317a f   MSVCRT:atonexit.obj
+ 0001:000021a0       _atexit                    610031a0 f   MSVCRT:atonexit.obj
+ 0001:000021b2       __RTC_Initialize           610031b2 f   MSVCRT:initsect.obj
+ 0001:000021f6       __RTC_Terminate            610031f6 f   MSVCRT:initsect.obj
+ 0001:0000223a       ___CppXcptFilter           6100323a f   MSVCRT:MSVCR71.dll
+ 0001:00002240       __SEH_prolog               61003240 f   MSVCRT:sehprolg.obj
+ 0001:0000227b       __SEH_epilog               6100327b f   MSVCRT:sehprolg.obj
+ 0001:0000228c       __except_handler3          6100328c f   MSVCRT:MSVCR71.dll
+ 0001:00002292       ?terminate@@YAXXZ          61003292 f   MSVCRT:MSVCR71.dll
+ 0001:00002298       ___dllonexit               61003298 f   MSVCRT:MSVCR71.dll
+ 0001:000022cf       @__security_check_cookie@4 610032cf f   MSVCRT:secchk.obj
+ 0001:000022de       ___CxxFrameHandler         610032de f   MSVCRT:MSVCR71.dll
+ 0001:000022f0       __EH_prolog                610032f0 f   MSVCRT:ehprolog.obj
+ 0001:00002310       __CxxThrowException@8      61003310 f   MSVCRT:MSVCR71.dll
+ 0001:00002316       ___security_init_cookie    61003316 f   MSVCRT:seccinit.obj
+ 0001:0000237c       ___security_error_handler  6100337c f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__RegSetValueExW@24   61004000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__RegCreateKeyExW@36  61004004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__RegDeleteKeyW@8     61004008     advapi32:ADVAPI32.dll
+ 0002:0000000c       __imp__RegCloseKey@4       6100400c     advapi32:ADVAPI32.dll
+ 0002:00000010       \177ADVAPI32_NULL_THUNK_DATA 61004010     advapi32:ADVAPI32.dll
+ 0002:00000014       __imp__InitializeCriticalSectionAndSpinCount@8 61004014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__DeleteCriticalSection@4 61004018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__InterlockedExchange@8 6100401c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__InterlockedIncrement@4 61004020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetCurrentProcessId@0 61004024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__LeaveCriticalSection@4 61004028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__DebugBreak@0        6100402c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__DisableThreadLibraryCalls@4 61004030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__InterlockedDecrement@4 61004034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetEnvironmentVariableW@12 61004038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetModuleFileNameW@12 6100403c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetLocalTime@4      61004040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__EnterCriticalSection@4 61004044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetPrivateProfileIntW@16 61004048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetCurrentThreadId@0 6100404c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetTickCount@0      61004050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__QueryPerformanceCounter@4 61004054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__ExitProcess@4       61004058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetSystemTimeAsFileTime@4 6100405c     kernel32:KERNEL32.dll
+ 0002:00000060       \177KERNEL32_NULL_THUNK_DATA 61004060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 61004064     msvcprt:MSVCP71.dll
+ 0002:00000068       __imp_?_Nomemory@std@@YAXXZ 61004068     msvcprt:MSVCP71.dll
+ 0002:0000006c       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 6100406c     msvcprt:MSVCP71.dll
+ 0002:00000070       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 61004070     msvcprt:MSVCP71.dll
+ 0002:00000074       \177MSVCP71_NULL_THUNK_DATA 61004074     msvcprt:MSVCP71.dll
+ 0002:00000078       __imp_??3@YAXPAX@Z         61004078     MSVCRT:MSVCR71.dll
+ 0002:0000007c       __imp__fwprintf            6100407c     MSVCRT:MSVCR71.dll
+ 0002:00000080       __imp__wcscmp              61004080     MSVCRT:MSVCR71.dll
+ 0002:00000084       __imp_??0exception@@QAE@ABV0@@Z 61004084     MSVCRT:MSVCR71.dll
+ 0002:00000088       __imp_??0exception@@QAE@XZ 61004088     MSVCRT:MSVCR71.dll
+ 0002:0000008c       __imp_??1exception@@UAE@XZ 6100408c     MSVCRT:MSVCR71.dll
+ 0002:00000090       __imp___wcsicmp            61004090     MSVCRT:MSVCR71.dll
+ 0002:00000094       __imp__swprintf            61004094     MSVCRT:MSVCR71.dll
+ 0002:00000098       __imp__memcmp              61004098     MSVCRT:MSVCR71.dll
+ 0002:0000009c       __imp__wcscpy              6100409c     MSVCRT:MSVCR71.dll
+ 0002:000000a0       __imp__wcscat              610040a0     MSVCRT:MSVCR71.dll
+ 0002:000000a4       __imp__wcslen              610040a4     MSVCRT:MSVCR71.dll
+ 0002:000000a8       __imp___wfopen             610040a8     MSVCRT:MSVCR71.dll
+ 0002:000000ac       __imp___callnewh           610040ac     MSVCRT:MSVCR71.dll
+ 0002:000000b0       __imp___vsnwprintf         610040b0     MSVCRT:MSVCR71.dll
+ 0002:000000b4       __imp_??1type_info@@UAE@XZ 610040b4     MSVCRT:MSVCR71.dll
+ 0002:000000b8       __imp__free                610040b8     MSVCRT:MSVCR71.dll
+ 0002:000000bc       __imp___initterm           610040bc     MSVCRT:MSVCR71.dll
+ 0002:000000c0       __imp___adjust_fdiv        610040c0     MSVCRT:MSVCR71.dll
+ 0002:000000c4       __imp____CppXcptFilter     610040c4     MSVCRT:MSVCR71.dll
+ 0002:000000c8       __imp___except_handler3    610040c8     MSVCRT:MSVCR71.dll
+ 0002:000000cc       __imp_?terminate@@YAXXZ    610040cc     MSVCRT:MSVCR71.dll
+ 0002:000000d0       __imp____dllonexit         610040d0     MSVCRT:MSVCR71.dll
+ 0002:000000d4       __imp___onexit             610040d4     MSVCRT:MSVCR71.dll
+ 0002:000000d8       __imp____CxxFrameHandler   610040d8     MSVCRT:MSVCR71.dll
+ 0002:000000dc       __imp___CxxThrowException@8 610040dc     MSVCRT:MSVCR71.dll
+ 0002:000000e0       __imp____security_error_handler 610040e0     MSVCRT:MSVCR71.dll
+ 0002:000000e4       __imp__fclose              610040e4     MSVCRT:MSVCR71.dll
+ 0002:000000e8       __imp__malloc              610040e8     MSVCRT:MSVCR71.dll
+ 0002:000000ec       __imp__wcsrchr             610040ec     MSVCRT:MSVCR71.dll
+ 0002:000000f0       \177MSVCR71_NULL_THUNK_DATA 610040f0     MSVCRT:MSVCR71.dll
+ 0002:000000f4       __imp__StringFromGUID2@12  610040f4     ole32:ole32.dll
+ 0002:000000f8       \177ole32_NULL_THUNK_DATA  610040f8     ole32:ole32.dll
+ 0002:0000011c       _IID_IClassFactory         6100411c     uuid:unknwn_i.obj
+ 0002:0000012c       _IID_IUnknown              6100412c     uuid:unknwn_i.obj
+ 0002:0000013c       _IID_ICorProfilerCallback  6100413c     corguids:corprof_i.obj
+ 0002:0000014c       _IID_ICorProfilerInfo      6100414c     corguids:corprof_i.obj
+ 0002:0000015c       _IID_IMethodMalloc         6100415c     corguids:corprof_i.obj
+ 0002:00000170       ??_7type_info@@6B@         61004170     MSVCRT:ti_inst.obj
+ 0002:000001c4       ??_7out_of_range@std@@6B@  610041c4     FlowTrace.obj
+ 0002:000001cc       ??_7length_error@std@@6B@  610041cc     FlowTrace.obj
+ 0002:000001d4       ??_7logic_error@std@@6B@   610041d4     FlowTrace.obj
+ 0002:000001dc       ??_7CPerThreadData@@6B@    610041dc     FlowTrace.obj
+ 0002:000001e0       ??_7CFlowTrace@@6B@        610041e0     FlowTrace.obj
+ 0002:00000310       ??_7Settings@@6B@          61004310     FlowTrace.obj
+ 0002:00000314       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 61004314     FlowTrace.obj
+ 0002:00000328       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 61004328     FlowTrace.obj
+ 0002:00000344       ??_C@_19LJDFFCJJ@?$AA?$CF?$AAs?$AA?$CF?$AAs?$AA?$AA@ 61004344     FlowTrace.obj
+ 0002:00000350       ??_C@_1CM@IAAHOJJA@?$AAR?$AAe?$AAs?$AAe?$AAt?$AAB?$AAi?$AAn?$AAd?$AAi?$AAn?$AAg?$AAR?$AAe?$AAd?$AAi?$AAr?$AAe?$AAc?$AAt@ 61004350     FlowTrace.obj
+ 0002:0000037c       ??_C@_1CC@EKNHMJG@?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?4?$AAA?$AAp?$AAp?$AAD?$AAo?$AAm?$AAa?$AAi?$AAn?$AA?$AA@ 6100437c     FlowTrace.obj
+ 0002:000003a0       ??_C@_1DC@MONOAPLC@?$AA?$CF?$AAs?$AA?5?$AA?3?$AA?5?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?3?$AA?$CF?$AA0?$AA2?$AAd?$AA?3@ 610043a0     FlowTrace.obj
+ 0002:000003d4       ??_C@_1CA@JPAACKJG@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?5?$AAe?$AAn?$AAd?$AAe?$AAd?$AA?5?$AAa?$AAt?$AA?$AA@ 610043d4     FlowTrace.obj
+ 0002:000003f4       ??_C@_1CK@LHKCHCEG@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?5?$AA?$CF?$AAd?$AA?5?$AAs?$AAt?$AAa?$AAr?$AAt?$AAe?$AAd?$AA?5?$AAa?$AAt@ 610043f4     FlowTrace.obj
+ 0002:00000420       ??_C@_1BC@DMDMHHNM@?$AA?$CF?$AAs?$AA_?$AA?$CF?$AA0?$AA4?$AAX?$AA_?$AA?$AA@ 61004420     FlowTrace.obj
+ 0002:00000434       ??_C@_1CC@BFLCALHK@?$AAF?$AAL?$AAO?$AAW?$AAT?$AAR?$AAA?$AAC?$AAE?$AAF?$AAI?$AAL?$AAE?$AAD?$AAI?$AAR?$AA?$AA@ 61004434     FlowTrace.obj
+ 0002:00000458       ??_C@_1BO@BGKOIKOD@?$AAF?$AAL?$AAO?$AAW?$AAT?$AAR?$AAA?$AAC?$AAE?$AAB?$AAR?$AAE?$AAA?$AAK?$AA?$AA@ 61004458     FlowTrace.obj
+ 0002:00000478       ??_C@_1BM@KJBNFEEK@?$AAF?$AAL?$AAO?$AAW?$AAT?$AAR?$AAA?$AAC?$AAE?$AAP?$AAR?$AAO?$AAC?$AA?$AA@ 61004478     FlowTrace.obj
+ 0002:00000494       ??_C@_1DI@DDDEDIOC@?$AAS?$AAk?$AAi?$AAp?$AAS?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AAC?$AAo?$AAd?$AAe?$AAO?$AAn?$AAM?$AAa?$AAi@ 61004494     FlowTrace.obj
+ 0002:000004cc       ??_C@_1CM@BBABJCMI@?$AAI?$AAg?$AAn?$AAo?$AAr?$AAe?$AAF?$AAi?$AAn?$AAa?$AAl?$AAi?$AAz?$AAe?$AAr?$AAT?$AAh?$AAr?$AAe?$AAa@ 610044cc     FlowTrace.obj
+ 0002:000004f8       ??_C@_1CA@FLIMFCAI@?$AAT?$AAu?$AAr?$AAn?$AAO?$AAf?$AAf?$AAI?$AAn?$AAl?$AAi?$AAn?$AAi?$AAn?$AAg?$AA?$AA@ 610044f8     FlowTrace.obj
+ 0002:00000518       ??_C@_1CA@ECIHHEJP@?$AAG?$AAe?$AAn?$AAe?$AAr?$AAa?$AAl?$AA?5?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn?$AAs?$AA?$AA@ 61004518     FlowTrace.obj
+ 0002:00000538       ??_C@_19DDBAFNL@?$AA?4?$AAF?$AAL?$AAS?$AA?$AA@ 61004538     FlowTrace.obj
+ 0002:00000544       ??_C@_17MJEANDKP@?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 61004544     FlowTrace.obj
+ 0002:0000054c       ??_C@_1BE@IGAMCFEH@?$AA?$CF?$AA?$CK?$AAc?$AA?$CF?$AAs?$AA?4?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 6100454c     FlowTrace.obj
+ 0002:00000560       ??_C@_15LMEHFEOO@?$AAw?$AAt?$AA?$AA@ 61004560     FlowTrace.obj
+ 0002:00000568       ??_C@_1CM@BFOBMPPF@?$AA?$CK?$AA?$CK?$AAU?$AAN?$AAK?$AAN?$AAO?$AAW?$AAN?$AA?5?$AAE?$AAX?$AAC?$AAE?$AAP?$AAT?$AAI?$AAO?$AAN?$AA?$CK@ 61004568     FlowTrace.obj
+ 0002:00000598       ??_C@_1FC@PKCECMNF@?$AAU?$AAn?$AAw?$AAi?$AAn?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AA?$CF?$AAs?$AA?5?$AAe?$AAx@ 61004598     FlowTrace.obj
+ 0002:000005ec       ??_C@_1BE@NBPJJPGD@?$AA?$CF?$AAs?$AA?$CF?$AAp?$AA?4?$AAF?$AAL?$AAO?$AAW?$AA?$AA@ 610045ec     FlowTrace.obj
+ 0002:00000600       ??_C@_1BE@NBNCPFOF@?$AAF?$AAl?$AAo?$AAw?$AAT?$AAr?$AAa?$AAc?$AAe?$AA?$AA@ 61004600     Infrastructure.obj
+ 0002:00000614       ??_C@_1CE@LHKOCGEN@?$AAF?$AAl?$AAo?$AAw?$AAT?$AAr?$AAa?$AAc?$AAe?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?$AA@ 61004614     Infrastructure.obj
+ 0002:00000638       ??_C@_1EO@JLDOGGDO@?$AA?$HL?$AAD?$AA3?$AA7?$AA9?$AA9?$AAF?$AAA?$AA3?$AA?9?$AA1?$AA3?$AAE?$AAE?$AA?9?$AA4?$AAb?$AAa?$AAb?$AA?9@ 61004638     Infrastructure.obj
+ 0002:00000698       _IID_IMetaDataImport       61004698     stdafx.obj
+ 0002:000006a8       ??_7CClassFactory@@6B@     610046a8     ProfilerLIB:COMInfrastructure.obj
+ 0002:000006bc       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 610046bc     ProfilerLIB:COMInfrastructure.obj
+ 0002:000006c0       ??_C@_1BM@NDCGEDGI@?$AAN?$AAo?$AAt?$AAI?$AAn?$AAs?$AAe?$AAr?$AAt?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 610046c0     ProfilerLIB:COMInfrastructure.obj
+ 0002:000006dc       ??_C@_1DC@MIAMMDBM@?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AAI?$AAn?$AAd?$AAe?$AAp?$AAe?$AAn?$AAd?$AAe?$AAn?$AAt?$AAP?$AAr@ 610046dc     ProfilerLIB:COMInfrastructure.obj
+ 0002:00000710       ??_C@_1O@HNNDAFP@?$AAP?$AAr?$AAo?$AAg?$AAI?$AAD?$AA?$AA@ 61004710     ProfilerLIB:COMInfrastructure.obj
+ 0002:00000720       ??_C@_1O@FHIPPLOM@?$AAC?$AAu?$AAr?$AAV?$AAe?$AAr?$AA?$AA@ 61004720     ProfilerLIB:COMInfrastructure.obj
+ 0002:00000730       ??_C@_1O@FHBGLCIO@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?2?$AA?$AA@ 61004730     ProfilerLIB:COMInfrastructure.obj
+ 0002:00000740       ??_C@_1BO@NMEHGCBD@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAi?$AAn?$AAg?$AAM?$AAo?$AAd?$AAe?$AAl?$AA?$AA@ 61004740     ProfilerLIB:COMInfrastructure.obj
+ 0002:00000760       ??_C@_19OBNAGCDI@?$AAB?$AAo?$AAt?$AAh?$AA?$AA@ 61004760     ProfilerLIB:COMInfrastructure.obj
+ 0002:0000076c       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 6100476c     ProfilerLIB:COMInfrastructure.obj
+ 0002:00000778       ??_C@_1M@KANJNLFF@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?$AA@ 61004778     ProfilerLIB:COMInfrastructure.obj
+ 0002:00000784       ??_C@_1BO@MNKPAJEP@?$AAI?$AAn?$AAp?$AAr?$AAo?$AAc?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA3?$AA2?$AA?$AA@ 61004784     ProfilerLIB:COMInfrastructure.obj
+ 0002:000007a4       ??_C@_1M@BGBPCPFG@?$AA?$CF?$AAs?$AA?4?$AA?$CF?$AAd?$AA?$AA@ 610047a4     ProfilerLIB:COMInfrastructure.obj
+ 0002:000007b0       ??_C@_1M@NLNBEAHA@?$AA?$CF?$AAs?$AA?4?$AA?$CF?$AAs?$AA?$AA@ 610047b0     ProfilerLIB:COMInfrastructure.obj
+ 0002:000007d0       __load_config_used         610047d0     MSVCRT:loadcfg.obj
+ 0002:0000085c       ??_R1A@?0A@A@type_info@@8  6100485c     MSVCRT:ti_inst.obj
+ 0002:00000874       ??_R2type_info@@8          61004874     MSVCRT:ti_inst.obj
+ 0002:0000087c       ??_R3type_info@@8          6100487c     MSVCRT:ti_inst.obj
+ 0002:0000088c       ??_R4type_info@@6B@        6100488c     MSVCRT:ti_inst.obj
+ 0002:000008a0       ___safe_se_handler_table   610048a0     <linker-defined>
+ 0002:000008b4       ___rtc_iaa                 610048b4     MSVCRT:initsect.obj
+ 0002:000008b8       ___rtc_izz                 610048b8     MSVCRT:initsect.obj
+ 0002:000008bc       ___rtc_taa                 610048bc     MSVCRT:initsect.obj
+ 0002:000008c0       ___rtc_tzz                 610048c0     MSVCRT:initsect.obj
+ 0002:000008c4       __TI3?AVlength_error@std@@ 610048c4     FlowTrace.obj
+ 0002:000008d4       __CTA3?AVlength_error@std@@ 610048d4     FlowTrace.obj
+ 0002:000008e4       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 610048e4     FlowTrace.obj
+ 0002:00000900       __TI3?AVout_of_range@std@@ 61004900     FlowTrace.obj
+ 0002:00000910       __CTA3?AVout_of_range@std@@ 61004910     FlowTrace.obj
+ 0002:00000920       __CT??_R0?AVexception@@@8??0exception@@QAE@ABV0@@Z12 61004920     FlowTrace.obj
+ 0002:0000093c       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 6100493c     FlowTrace.obj
+ 0002:00000958       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z40 61004958     FlowTrace.obj
+ 0002:00000a04       __IMPORT_DESCRIPTOR_KERNEL32 61004a04     kernel32:KERNEL32.dll
+ 0002:00000a18       __IMPORT_DESCRIPTOR_ADVAPI32 61004a18     advapi32:ADVAPI32.dll
+ 0002:00000a2c       __IMPORT_DESCRIPTOR_ole32  61004a2c     ole32:ole32.dll
+ 0002:00000a40       __IMPORT_DESCRIPTOR_MSVCP71 61004a40     msvcprt:MSVCP71.dll
+ 0002:00000a54       __IMPORT_DESCRIPTOR_MSVCR71 61004a54     MSVCRT:MSVCR71.dll
+ 0002:00000a68       __NULL_IMPORT_DESCRIPTOR   61004a68     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    61006000     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xc_z                    61006008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_a                    6100600c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xi_z                    61006010     MSVCRT:cinitexe.obj
+ 0003:00000020       ??_R0?AVtype_info@@@8      61006020     MSVCRT:ti_inst.obj
+ 0003:00000038       ??_R0?AVlength_error@std@@@8 61006038     FlowTrace.obj
+ 0003:00000058       ??_R0?AVexception@@@8      61006058     FlowTrace.obj
+ 0003:00000070       ??_R0?AVlogic_error@std@@@8 61006070     FlowTrace.obj
+ 0003:00000090       ??_R0?AVout_of_range@std@@@8 61006090     FlowTrace.obj
+ 0003:000000bc       ?k_EXTENSION@@3PBGB        610060bc     FlowTrace.obj
+ 0003:000000c0       ?k_GENERALOPTSECTION@@3PBGB 610060c0     FlowTrace.obj
+ 0003:000000c4       ?k_TURNOFFINLININGKEY@@3PBGB 610060c4     FlowTrace.obj
+ 0003:000000c8       ?k_IGNOREFINALIZERTHREADKEY@@3PBGB 610060c8     FlowTrace.obj
+ 0003:000000cc       ?k_SKIPSTARTUPONMAINTHREADKEY@@3PBGB 610060cc     FlowTrace.obj
+ 0003:000000f4       ?G_szProfilerGUID@@3PAGA   610060f4     Infrastructure.obj
+ 0003:000000f8       ?G_CLSID_PROFILER@@3U_GUID@@A 610060f8     Infrastructure.obj
+ 0003:00000108       ?G_szProgIDPrefix@@3PAGA   61006108     Infrastructure.obj
+ 0003:0000010c       ?G_szProfilerName@@3PAGA   6100610c     Infrastructure.obj
+ 0003:00000110       ?g_ProfilerClassFactory@@3VCClassFactory@@A 61006110     ProfilerLIB:COMInfrastructure.obj
+ 0003:00000118       ___security_cookie         61006118     MSVCRT:seccook.obj
+ 0003:00000124       ?G_hInst@@3PAUHINSTANCE__@@A 61006124     ProfilerLIB:COMInfrastructure.obj
+ 0003:00000130       __adjust_fdiv              61006130     <common>
+ 0003:00000134       ___onexitend               61006134     <common>
+ 0003:00000138       ___onexitbegin             61006138     <common>
+ 0003:0000013c       __pRawDllMain              6100613c     <common>
+
+ entry point at        0001:00001fb4
+
+ Static symbols
+
+ 0001:0000229e       _report_failure            6100329e f   MSVCRT:secchk.obj
+ 0001:00002382       $L68813                    61003382 f    CIL library: CIL module
+ 0001:0000238b       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 6100338b f    CIL library: CIL module
+ 0001:00002395       $L68955                    61003395 f    CIL library: CIL module
+ 0001:00002395       $L68828                    61003395 f    CIL library: CIL module
+ 0001:0000239e       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 6100339e f    CIL library: CIL module
+ 0001:0000239e       __ehhandler$??1logic_error@std@@UAE@XZ 6100339e f    CIL library: CIL module
+ 0001:000023a8       $L69772                    610033a8 f    CIL library: CIL module
+ 0001:000023a8       $L71511                    610033a8 f    CIL library: CIL module
+ 0001:000023b1       __ehhandler$?_Insert@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@IAE?AViterator@12@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@2@ABU?$pair@$$CBIPAVCPerThreadData@@@2@@Z 610033b1 f    CIL library: CIL module
+ 0001:000023b1       __ehhandler$?erase@?$_Tree@V?$_Tmap_traits@IPAVCPerThreadData@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIPAVCPerThreadData@@@std@@@3@$0A@@std@@@std@@QAE?AViterator@12@V312@@Z 610033b1 f    CIL library: CIL module
+ 0001:000023bb       $L72538                    610033bb f    CIL library: CIL module
+ 0001:000023c5       __ehhandler$?AllocateProfilerCallback@@YAPAUICorProfilerCallback@@XZ 610033c5 f    CIL library: CIL module
+
+Line numbers for .\Release\Infrastructure.obj(d:\dev\booktwo\disk\flowtrace\infrastructure.cpp) segment .text
+
+    34 0001:0000151c    33 0001:0000151c    37 0001:00001529    38 0001:00001534
+    39 0001:0000153b    41 0001:0000153d    45 0001:00001542    46 0001:00001545
+
+Line numbers for .\Release\FlowTrace.obj(g:\vsnet\vc7\include\map) segment .text
+
+   142 0001:00000ac0   143 0001:00000ac6   144 0001:00000acf   146 0001:00000adb
+   147 0001:00000af5   148 0001:00000af8
+
+Line numbers for .\Release\FlowTrace.obj(d:\dev\booktwo\disk\flowtrace\perthreaddata.h) segment .text
+
+    19 0001:00000000    27 0001:00000000    28 0001:0000002c    31 0001:0000002f
+    32 0001:00000032    34 0001:0000003f    35 0001:00000046    37 0001:0000004c
+    42 0001:0000004d    50 0001:00000061    51 0001:0000007f    53 0001:00000091
+    54 0001:000000a0    64 0001:000000ac    57 0001:000000ac    65 0001:000000ca
+    69 0001:000000cd    68 0001:000000cd    70 0001:000000e2   106 0001:000000e5
+   114 0001:000000f3   116 0001:00000117   118 0001:00000125   120 0001:00000128
+
+Line numbers for .\Release\FlowTrace.obj(d:\dev\booktwo\disk\flowtrace\settings.h) segment .text
+
+    27 0001:00000155    31 0001:00000157    34 0001:0000016c    35 0001:0000017b
+    42 0001:0000017e    38 0001:0000017e    43 0001:00000196    51 0001:00000197
+    46 0001:00000197    52 0001:000001af    60 0001:000001b0    55 0001:000001b0
+    61 0001:000001c8
+
+Line numbers for .\Release\FlowTrace.obj(d:\dev\booktwo\disk\flowtrace\flowtrace.cpp) segment .text
+
+    82 0001:000001e6    84 0001:0000020c    85 0001:0000020f    86 0001:00000213
+    88 0001:00000219    89 0001:0000021f    92 0001:00000225    93 0001:00000235
+    96 0001:00000239    97 0001:0000023a   189 0001:00000273   197 0001:00000285
+   203 0001:00000292   206 0001:000002a9   209 0001:000002b4   219 0001:000002bc
+   221 0001:000002d1   223 0001:000002d5   225 0001:000002e0   226 0001:000002f1
+   228 0001:000002f7   230 0001:00000301   235 0001:00000305   236 0001:00000319
+   242 0001:0000031d   243 0001:00000324   245 0001:0000032a   246 0001:0000032c
+   248 0001:00000331   251 0001:00000336   253 0001:00000341   255 0001:00000345
+   257 0001:00000347   260 0001:0000034a   266 0001:00000358   272 0001:0000037b
+   277 0001:0000039c   279 0001:000003b0   281 0001:000003bd   290 0001:000003cf
+   302 0001:000003e1   304 0001:000003f4   308 0001:000003f9   310 0001:00000403
+   317 0001:00000407   319 0001:0000041f   325 0001:00000423   331 0001:00000431
+   333 0001:00000436   336 0001:00000443   338 0001:00000447   343 0001:00000450
+   345 0001:00000458   347 0001:0000045f   350 0001:00000482   352 0001:0000048d
+   355 0001:0000049b   356 0001:000004a5   357 0001:000004a8   360 0001:000004ac
+   362 0001:000004bc   365 0001:000004c6   366 0001:000004d2   370 0001:000004da
+   373 0001:000004e6   376 0001:000004f0   379 0001:000004fc   387 0001:00000506
+   389 0001:0000050d   393 0001:00000510   394 0001:00000528   400 0001:00000536
+   401 0001:00000555   403 0001:0000055c   406 0001:0000056a   408 0001:00000571
+   411 0001:00000578   414 0001:00000583   415 0001:00000585   418 0001:00000593
+   420 0001:00000599   422 0001:000005a3   424 0001:000005ae   426 0001:000005b2
+   428 0001:000005c2   430 0001:000005cd   431 0001:000005cf   434 0001:000005d3
+   439 0001:000005e6   441 0001:00000605   443 0001:0000060c   445 0001:00000611
+   450 0001:00000622   453 0001:00000632   454 0001:00000633   456 0001:0000063f
+   458 0001:00000645   460 0001:00000648   461 0001:0000064a   464 0001:0000064d
+   465 0001:0000064e   467 0001:0000065a   471 0001:0000065e   473 0001:00000663
+   476 0001:0000066b   477 0001:0000066e   481 0001:00000671   483 0001:00000680
+   490 0001:00000694   496 0001:00000696   501 0001:00000698   511 0001:000006ac
+   513 0001:000006ce   515 0001:000006d3   518 0001:000006e8   520 0001:000006eb
+   523 0001:000006fa   525 0001:00000709   532 0001:0000071d   538 0001:0000071f
+   548 0001:00000726   550 0001:00000748   558 0001:0000074f   561 0001:0000076c
+   563 0001:0000079c   567 0001:000007a2   569 0001:000007a4   573 0001:000007ba
+   576 0001:000007c8   578 0001:000007d7   585 0001:000007e8   591 0001:000007ea
+   601 0001:000007ed   603 0001:0000080f   605 0001:00000815   606 0001:00000818
+   609 0001:0000082d   614 0001:0000083b   618 0001:0000083f   620 0001:00000849
+   622 0001:00000856   627 0001:0000085a   629 0001:0000086e   632 0001:00000871
+   633 0001:00000874   639 0001:00000878   650 0001:0000088c   651 0001:000008b6
+   652 0001:000008c5   656 0001:000008d1   657 0001:000008d6   666 0001:000008e3
+   667 0001:000008f6   668 0001:00000902   671 0001:00000905   672 0001:0000090c
+   676 0001:00000920   680 0001:00000933   682 0001:00000940   685 0001:00000943
+   687 0001:0000094d   688 0001:00000951   691 0001:00000955   692 0001:0000095a
+   694 0001:00000967   700 0001:00000973   703 0001:00000984   706 0001:0000098b
+   707 0001:0000099a   711 0001:0000099d   714 0001:000009a1   716 0001:000009b2
+   718 0001:000009b6   729 0001:000009b8   721 0001:000009ba   723 0001:000009c3
+   725 0001:000009c7   729 0001:000009cc   740 0001:000009ce   737 0001:000009ce
+   741 0001:000009cf   742 0001:000009d0   744 0001:000009d1   746 0001:000009d5
+   747 0001:000009db   748 0001:000009dc   750 0001:000009e1   751 0001:000009e2
+   752 0001:000009e3   754 0001:000009e4   764 0001:000009e7   761 0001:000009e7
+   765 0001:000009e8   766 0001:000009e9   768 0001:000009ea   770 0001:000009ee
+   771 0001:000009f4   772 0001:000009f5   774 0001:000009fa   775 0001:000009fb
+   776 0001:000009fc   778 0001:000009fd   788 0001:00000a00   785 0001:00000a00
+   789 0001:00000a01   790 0001:00000a02   792 0001:00000a03   794 0001:00000a07
+   795 0001:00000a0d   796 0001:00000a0e   798 0001:00000a13   799 0001:00000a14
+   800 0001:00000a15   802 0001:00000a16   811 0001:00000a19   813 0001:00000a1a
+   814 0001:00000a30   822 0001:00000a33   823 0001:00000a3e   825 0001:00000a52
+   827 0001:00000a59   829 0001:00000a7a   838 0001:00000a8c   835 0001:00000a8c
+   840 0001:00000a9e   843 0001:00000aa4   845 0001:00000aae   846 0001:00000ab8
+   848 0001:00000abf
+
+Line numbers for .\Release\FlowTrace.obj(g:\vsnet\vc7\include\xtree) segment .text
+
+   765 0001:00000afa   766 0001:00000b02   768 0001:00000b10   769 0001:00000b2d
+   770 0001:00000b3a   771 0001:00000b3f   780 0001:00000b43   781 0001:00000b44
+   782 0001:00000b53   783 0001:00000b58   784 0001:00000b66   787 0001:00000b67
+   788 0001:00000b6c   790 0001:00000b75   791 0001:00000b97   509 0001:00000b99
+   512 0001:00000ba1   513 0001:00000baa   548 0001:00000bc2   550 0001:00000bcd
+   551 0001:00000bd8   553 0001:00000bef   555 0001:00000bf3   556 0001:00000bfd
+   560 0001:00000c04   562 0001:00000c20   563 0001:00000c27   565 0001:00000c30
+   570 0001:00000c34   572 0001:00000c55   573 0001:00000c5c   575 0001:00000c6a
+   579 0001:00000c71   580 0001:00000c84   750 0001:00000c88   751 0001:00000c8c
+   753 0001:00000c9e   754 0001:00000ca3   758 0001:00000cac   759 0001:00000cb2
+   760 0001:00000cd0   762 0001:00000cd5   830 0001:00000cd9   829 0001:00000cd9
+   831 0001:00000cfe   890 0001:00000d01   891 0001:00000d04   893 0001:00000d12
+   894 0001:00000d1c   896 0001:00000d1e   898 0001:00000d30  1142 0001:00000d33
+  1143 0001:00000d34  1147 0001:00000d47  1148 0001:00000d4f  1149 0001:00000d59
+   477 0001:00000d5b   478 0001:00000d60   481 0001:00000d66   501 0001:00000d73
+   485 0001:00000d87   481 0001:00000d8e   493 0001:00000d94   495 0001:00000d9f
+   496 0001:00000da6   498 0001:00000dad   500 0001:00000db8   501 0001:00000dc2
+   503 0001:00000ddb   505 0001:00000de4   590 0001:00000de8   591 0001:00000df6
+   592 0001:00000e01   594 0001:00000e35   600 0001:00000e3d   601 0001:00000e45
+   602 0001:00000e48   603 0001:00000e53   604 0001:00000e55   607 0001:00000e57
+   610 0001:00000e5a   613 0001:00000e61   614 0001:00000e6a   616 0001:00000e6d
+   617 0001:00000e78   618 0001:00000e7b   619 0001:00000e81   620 0001:00000e83
+   621 0001:00000e85   623 0001:00000e88   626 0001:00000e8f   628 0001:00000eab
+   631 0001:00000eb6   633 0001:00000ed5   635 0001:00000ed7   636 0001:00000eda
+   638 0001:00000ede   639 0001:00000ee3   640 0001:00000ee5   643 0001:00000ee7
+   644 0001:00000ef0   645 0001:00000ef3   646 0001:00000ef5   647 0001:00000efb
+   650 0001:00000f01   651 0001:00000f0c   652 0001:00000f0f   653 0001:00000f18
+   654 0001:00000f1a   655 0001:00000f1c   657 0001:00000f1f   658 0001:00000f25
+   661 0001:00000f31   664 0001:00000f3b   665 0001:00000f4a   667 0001:00000f50
+   668 0001:00000f53   672 0001:00000f59   673 0001:00000f6b   676 0001:00000f6e
+   678 0001:00000f72   679 0001:00000f78   686 0001:00000f89   688 0001:00000f92
+   690 0001:00000f94   691 0001:00000fa4   694 0001:00000fa7   697 0001:00000faa
+   698 0001:00000fc2   704 0001:00000fc7   708 0001:00000fcd   709 0001:00000fdf
+   711 0001:00000fe1   713 0001:00000fe5   714 0001:00000fe7   716 0001:00000ff8
+   717 0001:00000ffc   664 0001:00001010   721 0001:00001012   723 0001:0000101a
+   725 0001:0000101d   726 0001:0000102d   729 0001:0000102f   732 0001:00001032
+   737 0001:00001049   741 0001:0000104d   743 0001:00001054   744 0001:00001061
+   746 0001:00001065   747 0001:0000106d   901 0001:0000107b   902 0001:0000107b
+   903 0001:00001085   904 0001:00001089   905 0001:0000108e   906 0001:00001097
+   907 0001:0000109b   911 0001:0000109c   912 0001:000010a9   913 0001:000010b6
+   915 0001:000010ea   917 0001:000010fa   918 0001:000010ff   920 0001:00001106
+   921 0001:00001109   923 0001:00001111   925 0001:00001119   926 0001:0000111b
+   927 0001:00001122   929 0001:00001124   931 0001:00001126   932 0001:00001129
+   933 0001:00001131   936 0001:00001134   937 0001:0000113e   939 0001:00001149
+   940 0001:0000114f   942 0001:00001155   943 0001:0000115b   944 0001:0000115f
+   945 0001:00001168   947 0001:0000116d   949 0001:0000116f   952 0001:00001174
+   954 0001:0000117c   955 0001:00001183   956 0001:0000118d   959 0001:00001199
+   962 0001:0000119b   969 0001:0000119f   971 0001:000011a1   974 0001:000011a5
+   976 0001:000011ad   977 0001:000011b4   978 0001:000011be   936 0001:000011ca
+   982 0001:000011d9   984 0001:000011df   988 0001:000011f8   987 0001:000011f8
+   991 0001:000011fe   992 0001:00001206   993 0001:0000120b   994 0001:0000120e
+   996 0001:00001210   997 0001:00001212   991 0001:00001214  1001 0001:0000121a
+  1014 0001:00001290  1015 0001:00001290  1016 0001:00001293  1018 0001:00001298
+  1019 0001:000012a0  1020 0001:000012a3  1022 0001:000012a9  1023 0001:000012b5
+  1024 0001:000012b8  1025 0001:000012c1  1026 0001:000012c3  1027 0001:000012c5
+  1029 0001:000012c8  1030 0001:000012ca  1031 0001:000012cd  1068 0001:000012d0
+  1069 0001:000012d0  1070 0001:000012d2  1072 0001:000012d7  1073 0001:000012e0
+  1074 0001:000012e3  1076 0001:000012e9  1077 0001:000012f5  1078 0001:000012f8
+  1079 0001:00001302  1080 0001:00001305  1081 0001:00001307  1083 0001:00001309
+  1084 0001:0000130c  1085 0001:0000130f  1088 0001:00001312  1089 0001:00001312
+  1092 0001:00001318  1093 0001:00001320  1095 0001:00001325  1096 0001:00001327
+  1098 0001:00001329  1099 0001:0000132b  1092 0001:0000132e  1102 0001:00001334
+  1106 0001:00001335  1105 0001:00001335  1110 0001:0000133c  1112 0001:00001345
+  1114 0001:0000134e  1123 0001:00001357  1124 0001:0000135b  1126 0001:0000135e
+  1130 0001:0000135f  1131 0001:00001363  1133 0001:0000136c  1138 0001:00001385
+  1139 0001:00001388   267 0001:0000138c   268 0001:0000138c   270 0001:00001396
+   271 0001:0000139e   280 0001:000013ac   276 0001:000013ad   277 0001:000013b4
+   276 0001:000013b6   278 0001:000013be   280 0001:000013c1   251 0001:000013c2
+   250 0001:000013c2   252 0001:000013cc   253 0001:000013cf   254 0001:000013d8
+   264 0001:000013e7   259 0001:000013e8   260 0001:000013ee   259 0001:000013f0
+   261 0001:000013f8   262 0001:000013fd   264 0001:00001400    40 0001:00001401
+    41 0001:00001427
+
+Line numbers for .\Release\FlowTrace.obj(g:\vsnet\vc7\include\stdexcept) segment .text
+
+    27 0001:00001446    26 0001:00001446    28 0001:0000144f    27 0001:00001450
+    28 0001:00001453    23 0001:0000148c    99 0001:000014c9    19 0001:000014d4
+    20 0001:00001500   122 0001:00001511
+
+Line numbers for ..\Release\ProfilerLIB.LIB(d:\dev\booktwo\disk\profilerlib\baseprofilercallback.cpp) segment .text
+
+    12 0001:00001548    13 0001:00001549    14 0001:00001557    15 0001:0000155a
+    18 0001:0000155d    19 0001:0000155f    21 0001:00001571    23 0001:00001578
+    24 0001:0000157c    29 0001:0000157f    28 0001:0000157f    30 0001:00001584
+    47 0001:00001587    43 0001:00001587    49 0001:0000159f    51 0001:000015a3
+    54 0001:000015aa    56 0001:000015b2    58 0001:000015bb    59 0001:000015bf
+    67 0001:000015c2    68 0001:000015c3    70 0001:000015d1    72 0001:000015dc
+    73 0001:000015e0    85 0001:000015e3    84 0001:000015e3    86 0001:000015e5
+    91 0001:000015e8    90 0001:000015e8    92 0001:000015ea   199 0001:000015ed
+   198 0001:000015ed   200 0001:000015ef   248 0001:000015f2   249 0001:000015f2
+   250 0001:000015f4   346 0001:000015f7   347 0001:000015f7   348 0001:000015f9
+   481 0001:000015fc   498 0001:00001601   500 0001:00001623   517 0001:00001627
+   521 0001:00001644   530 0001:0000164d   534 0001:00001663   536 0001:0000166c
+   547 0001:0000166d   554 0001:00001676   555 0001:00001679   561 0001:0000167d
+   570 0001:00001685   572 0001:00001697   581 0001:0000169b   588 0001:000016af
+   594 0001:000016b5   596 0001:000016ce   606 0001:000016d2   610 0001:000016e8
+   612 0001:000016f1   619 0001:000016f2   621 0001:000016fb   633 0001:000016fd
+   636 0001:000016ff   637 0001:00001703   641 0001:00001707   648 0001:0000171a
+   654 0001:00001734   665 0001:00001736   667 0001:00001745   670 0001:00001749
+   675 0001:00001763   679 0001:00001765   680 0001:00001774   682 0001:0000177a
+   684 0001:00001780   686 0001:00001782   688 0001:00001784   690 0001:00001794
+   698 0001:00001797
+
+Line numbers for ..\Release\ProfilerLIB.LIB(d:\dev\booktwo\disk\profilerlib\cominfrastructure.cpp) segment .text
+
+    59 0001:000017a7    60 0001:000017a7    61 0001:000017b5    65 0001:000017b8
+    64 0001:000017b8    66 0001:000017c6    89 0001:000017c9   100 0001:000017d8
+   104 0001:000017fb   109 0001:00001812   111 0001:00001832   115 0001:00001846
+   117 0001:00001856   120 0001:00001869   123 0001:00001876   127 0001:0000188a
+   128 0001:0000188f   144 0001:000018a7   148 0001:000018c7   155 0001:000018de
+   157 0001:00001906   160 0001:0000190a   166 0001:00001923   169 0001:00001939
+   171 0001:00001952   173 0001:00001954   177 0001:00001959   182 0001:00001968
+   185 0001:00001969   187 0001:00001982   190 0001:00001996   191 0001:00001999
+   195 0001:0000199c   196 0001:0000199f   200 0001:000019b0   202 0001:000019c5
+   210 0001:000019cd   212 0001:000019d3   206 0001:000019d7   207 0001:000019dd
+   213 0001:000019e2   218 0001:000019e6   220 0001:000019e6   222 0001:000019ed
+   225 0001:000019f4   227 0001:000019f9   229 0001:000019ff   230 0001:00001a01
+   237 0001:00001a04   240 0001:00001a16   242 0001:00001a28   243 0001:00001a34
+   246 0001:00001a42   247 0001:00001a4f   250 0001:00001a64   251 0001:00001a6f
+   252 0001:00001a80   255 0001:00001a8e   256 0001:00001a99   259 0001:00001aa7
+   260 0001:00001ab3   263 0001:00001ac0   269 0001:00001ad0   272 0001:00001ae4
+   274 0001:00001af6   275 0001:00001b04   278 0001:00001b14   279 0001:00001b21
+   280 0001:00001b2f   283 0001:00001b43   284 0001:00001b4e   287 0001:00001b54
+   288 0001:00001b62   289 0001:00001b6d   290 0001:00001b7b   293 0001:00001b7f
+   297 0001:00001b8e   302 0001:00001b9c   305 0001:00001baf   307 0001:00001bb8
+   308 0001:00001bcc   312 0001:00001bdc   315 0001:00001bee   320 0001:00001bfb
+   325 0001:00001c0a   328 0001:00001c1d   330 0001:00001c27   331 0001:00001c3b
+   343 0001:00001c4b   346 0001:00001c72   354 0001:00001c77   357 0001:00001c99
+   359 0001:00001ca5   362 0001:00001caa   363 0001:00001cac   366 0001:00001cb7
+   378 0001:00001cbc   381 0001:00001cde   389 0001:00001ce3   392 0001:00001d04
+   394 0001:00001d0d   397 0001:00001d12   398 0001:00001d15
+
+Line numbers for ..\Release\ProfilerLIB.LIB(g:\vsnet\vc7\platformsdk\include\guiddef.h) segment .text
+
+   161 0001:00001d17   160 0001:00001d17   162 0001:00001d2e
+
+Line numbers for G:\VSNET\Vc7\lib\msvcprt.lib(f:\vs70builds\3036\vc\crtbld\crt\src\newop.cpp) segment .text
+
+    10 0001:00001d2f    12 0001:00001d30    13 0001:00001d36    14 0001:00001d41
+    12 0001:00001d47    16 0001:00001d53
+
+Line numbers for G:\VSNET\Vc7\PlatformSDK\lib\strsafe.lib(d:\nt\public\sdk\inc\strsafe.h) segment .text
+
+  4137 0001:00001d54  4138 0001:00001d57  4140 0001:00001d59  4143 0001:00001d5e
+  4145 0001:00001d63  4147 0001:00001d6c  4149 0001:00001d74  4150 0001:00001d7b
+  4153 0001:00001d80  4156 0001:00001d87  4157 0001:00001d89  4160 0001:00001d8e
+  4164 0001:00001d92  5479 0001:00001d96  5482 0001:00001d96  5485 0001:00001da1
+  5487 0001:00001da6  5495 0001:00001daa  5498 0001:00001dc3  5507 0001:00001dcb
+  5511 0001:00001dcd  5505 0001:00001dcf  5502 0001:00001dd4  5515 0001:00001ddb
+  5516 0001:00001dde  5848 0001:00001de1  5850 0001:00001de2  5852 0001:00001de8
+  5854 0001:00001df7  5855 0001:00001df9  5858 0001:00001dfc  5861 0001:00001e00
+  5864 0001:00001e05  5866 0001:00001e0f  5870 0001:00001e14   231 0001:00001e17
+   234 0001:00001e17   236 0001:00001e21   244 0001:00001e26   240 0001:00001e29
+  2610 0001:00001e2e  2613 0001:00001e31  2615 0001:00001e3a  2629 0001:00001e3f
+  2623 0001:00001e41  2629 0001:00001e53  4800 0001:00001e55  4804 0001:00001e59
+  4806 0001:00001e6b  4810 0001:00001e6f  4814 0001:00001e83  1316 0001:00001e87
+  1313 0001:00001e87  1318 0001:00001e91  1326 0001:00001e96  1322 0001:00001e99
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:0000217a    76 0001:0000217a    90 0001:0000219f    96 0001:000021a0
+    95 0001:000021a0    97 0001:000021b1
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\crtdll.c) segment .text
+
+   134 0001:00001ef6   129 0001:00001ef6   135 0001:00001efe   136 0001:00001f06
+   158 0001:00001f0c   163 0001:00001f1f   168 0001:00001f34   170 0001:00001f38
+   172 0001:00001f3b   178 0001:00001f45   179 0001:00001f4a   184 0001:00001f54
+   189 0001:00001f65   192 0001:00001f6c   219 0001:00001f72   220 0001:00001f7b
+   225 0001:00001f7d   226 0001:00001f89   234 0001:00001f9f   236 0001:00001fa6
+   234 0001:00001fad   240 0001:00001fae   241 0001:00001fb1   249 0001:00001fb4
+   250 0001:00001fc0   252 0001:00001fc6   257 0001:00001fcb   258 0001:00001fd8
+   260 0001:00001fde   262 0001:00001fe7   263 0001:00001ff0   265 0001:00001ffc
+   266 0001:00002005   268 0001:00002014   269 0001:00002016   272 0001:00002018
+   275 0001:00002028   283 0001:00002031   286 0001:0000203b   288 0001:00002044
+   289 0001:00002052   291 0001:00002055   292 0001:00002063   298 0001:00002071
+   294 0001:00002076   295 0001:0000208e   299 0001:00002090
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\secchk.c) segment .text
+
+   114 0001:0000229e   116 0001:000022aa   117 0001:000022ae   119 0001:000022bb
+   123 0001:000022c6   100 0001:000022cf   103 0001:000022cf   104 0001:000022d5
+   105 0001:000022d7   107 0001:000022d8
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\seccinit.c) segment .text
+
+    49 0001:00002316    58 0001:0000231c    67 0001:0000232d    70 0001:00002337
+    75 0001:0000233d    76 0001:00002345    77 0001:0000234d    79 0001:00002355
+    93 0001:0000235f    94 0001:0000237a
+
+ Exports
+
+  ordinal    name
+
+        1    _DllGetClassObject@12
+               exported name: DllGetClassObject
+        2    _DllRegisterServer@0
+               exported name: DllRegisterServer
+        3    _DllUnregisterServer@0
+               exported name: DllUnregisterServer

@@ -1,0 +1,21 @@
+tolua++ (1.0.4-3) unstable; urgency=low
+
+  * jumped the gun on the previous release
+
+ -- Ariel Manzur <puntob@gmail.com>  Thu, 20 Jan 2005 23:20:17 -0300
+
+tolua++ (1.0.4-2) unstable; urgency=low
+
+  * added optimize flags for binary package 
+
+ -- Ariel Manzur <puntob@gmail.com>  Fri, 14 Jan 2005 00:43:09 -0300
+
+tolua++ (1.0.4-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ariel Manzur <puntob@gmail.com>  Thu, 30 Dec 2004 11:59:14 -0300
+
+Local variables:
+mode: debian-changelog
+End:

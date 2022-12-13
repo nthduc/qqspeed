@@ -1,0 +1,588 @@
+ LocalDebug
+
+ Timestamp is 3e4e57d3 (Sat Feb 15 10:08:03 2003)
+
+ Preferred load address is 63000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001d92H .text                   CODE
+ 0001:00001d92 0000008cH .text$x                 CODE
+ 0002:00000000 00000170H .idata$5                DATA
+ 0002:00000170 00000340H .rdata                  DATA
+ 0002:000004b0 00000043H .rdata$debug            DATA
+ 0002:000004f4 00000044H .rdata$r                DATA
+ 0002:00000540 00000024H .rdata$sxdata           DATA
+ 0002:00000564 00000004H .rtc$IAA                DATA
+ 0002:00000568 00000004H .rtc$IZZ                DATA
+ 0002:0000056c 00000004H .rtc$TAA                DATA
+ 0002:00000570 00000004H .rtc$TZZ                DATA
+ 0002:00000574 00000254H .xdata$x                DATA
+ 0002:000007c8 000000a0H .idata$2                DATA
+ 0002:00000868 00000014H .idata$3                DATA
+ 0002:0000087c 00000170H .idata$4                DATA
+ 0002:000009ec 00000708H .idata$6                DATA
+ 0002:00001100 00000115H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCAA               DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000080H .data                   DATA
+ 0003:000000a0 0000001cH .bss                    DATA
+ 0004:00000000 000000a0H .rsrc$01                DATA
+ 0004:000000a0 000004d0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000009       ___safe_se_handler_count   00000009     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0001:00000060       ?CreateDebugSyncEvents@@YAHPAPAXK@Z 63001060 f   CreateDebugSyncEvents.obj
+ 0001:000001b6       _GetDebuggeeProcessHandle@0 630011b6 f   DebuggeeInfo.obj
+ 0001:000001c2       _GetDebuggeeProcessId@0    630011c2 f   DebuggeeInfo.obj
+ 0001:000001ce       _GetDebuggeeModuleName@12  630011ce f   DebuggeeInfo.obj
+ 0001:000001d8       _SymToString@4             630011d8 f   DebuggeeInfo.obj
+ 0001:00000248       ?CreateDebuggeeInfo@@YAPAVCDebuggeeInfo@@QAVCDebugBaseUser@@PBG@Z 63001248 f   DebuggeeInfo.obj
+ 0001:0000029d       ?DestroyDebuggeeInfo@@YAHPAVCDebuggeeInfo@@@Z 6300129d f   DebuggeeInfo.obj
+ 0001:000002b8       ?GetDebuggeeInfo@@YAPAVCDebuggeeInfo@@K@Z 630012b8 f   DebuggeeInfo.obj
+ 0001:000002d1       ?ReinitializeDebuggeeInfo@@YAXXZ 630012d1 f   DebuggeeInfo.obj
+ 0001:000002e2       ??0CDebuggeeInfo@@QAE@PAVCDebugBaseUser@@PBG@Z 630012e2 f   DebuggeeInfo.obj
+ 0001:0000036f       ??_ECDebuggeeInfo@@UAEPAXI@Z 6300136f f i DebuggeeInfo.obj
+ 0001:0000036f       ??_GCDebuggeeInfo@@UAEPAXI@Z 6300136f f i DebuggeeInfo.obj
+ 0001:0000038b       ??1CDebuggeeInfo@@UAE@XZ   6300138b f   DebuggeeInfo.obj
+ 0001:000003d9       ?SetProcessId@CDebuggeeInfo@@QAEXK@Z 630013d9 f   DebuggeeInfo.obj
+ 0001:000003fc       ?SetProcessHandle@CDebuggeeInfo@@QAEXPAX@Z 630013fc f   DebuggeeInfo.obj
+ 0001:0000041f       ?GetFullModuleName@CDebuggeeInfo@@QAEKPBXPAGH@Z 6300141f f   DebuggeeInfo.obj
+ 0001:00000439       ?AddModInfo@CDebuggeeInfo@@IAEXPBXPAX@Z 63001439 f   DebuggeeInfo.obj
+ 0001:0000048c       ?InitializeSymEng@CDebuggeeInfo@@QAEHXZ 6300148c f   DebuggeeInfo.obj
+ 0001:00000587       ?SymLoadModule@CDebuggeeInfo@@QAEPBXPAXPBGPBX@Z 63001587 f   DebuggeeInfo.obj
+ 0001:000005c4       ?SymUnloadModule@CDebuggeeInfo@@QAEXPBX@Z 630015c4 f   DebuggeeInfo.obj
+ 0001:000005da       ?SymGetModuleInfo@CDebuggeeInfo@@QAEHPAU_IMAGEHLP_MODULE64@@PBX@Z 630015da f   DebuggeeInfo.obj
+ 0001:000005f2       ?push_back@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@QAEXABVCDllInfo@@@Z 630015f2 f i DebuggeeInfo.obj
+ 0001:0000063e       ?capacity@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@QBEIXZ 6300163e f i DebuggeeInfo.obj
+ 0001:00000651       ?size@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@QBEIXZ 63001651 f i DebuggeeInfo.obj
+ 0001:00000664       ?insert@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@QAE?AViterator@12@V312@ABVCDllInfo@@@Z 63001664 f i DebuggeeInfo.obj
+ 0001:0000069e       ?_Tidy@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@IAEXXZ 6300169e f i DebuggeeInfo.obj
+ 0001:000006b9       ?_Insert_n@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@IAEXViterator@12@IABVCDllInfo@@@Z 630016b9 f i DebuggeeInfo.obj
+ 0001:0000089b       ?_Xlen@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@IBEXXZ 6300189b f i DebuggeeInfo.obj
+ 0001:000008dd       ??0length_error@std@@QAE@ABV01@@Z 630018dd f i DebuggeeInfo.obj
+ 0001:000008f5       ??0logic_error@std@@QAE@ABV01@@Z 630018f5 f i DebuggeeInfo.obj
+ 0001:0000093a       ??$_Uninit_fill_n@PAVCDllInfo@@IV1@V?$allocator@VCDllInfo@@@std@@@std@@YAXPAVCDllInfo@@IABV1@AAV?$allocator@VCDllInfo@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 6300193a f i DebuggeeInfo.obj
+ 0001:00000955       ??$_Copy_backward_opt@PAVCDllInfo@@PAV1@@std@@YAPAVCDllInfo@@PAV1@00U_Nonscalar_ptr_iterator_tag@0@@Z 63001955 f i DebuggeeInfo.obj
+ 0001:00000972       ??$_Uninit_copy@PAVCDllInfo@@PAV1@V?$allocator@VCDllInfo@@@std@@@std@@YAPAVCDllInfo@@PAV1@00AAV?$allocator@VCDllInfo@@@0@U_Nonscalar_ptr_iterator_tag@0@@Z 63001972 f i DebuggeeInfo.obj
+ 0001:0000098f       ??_Glogic_error@std@@UAEPAXI@Z 6300198f f i DebuggeeInfo.obj
+ 0001:0000098f       ??_Elogic_error@std@@UAEPAXI@Z 6300198f f i DebuggeeInfo.obj
+ 0001:000009ab       ?what@logic_error@std@@UBEPBDXZ 630019ab f i DebuggeeInfo.obj
+ 0001:000009b9       ??_Elength_error@std@@UAEPAXI@Z 630019b9 f i DebuggeeInfo.obj
+ 0001:000009b9       ??_Glength_error@std@@UAEPAXI@Z 630019b9 f i DebuggeeInfo.obj
+ 0001:000009d5       ??1logic_error@std@@UAE@XZ 630019d5 f i DebuggeeInfo.obj
+ 0001:00000a12       ??1length_error@std@@UAE@XZ 63001a12 f i DebuggeeInfo.obj
+ 0001:00000a1d       ??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 63001a1d f i DebuggeeInfo.obj
+ 0001:00000a5a       ?SymGetModuleInfo@CSymbolEngine@@QAEH_KPAU_IMAGEHLP_MODULE64@@@Z 63001a5a f i DebuggeeInfo.obj
+ 0001:00000a72       ??1CUseCriticalSection@@QAE@XZ 63001a72 f i DebuggeeInfo.obj
+ 0001:00000a7e       ??1CSymbolEngine@@UAE@XZ   63001a7e f i DebuggeeInfo.obj
+ 0001:00000a8c       ??_GCSymbolEngine@@UAEPAXI@Z 63001a8c f i DebuggeeInfo.obj
+ 0001:00000a8c       ??_ECSymbolEngine@@UAEPAXI@Z 63001a8c f i DebuggeeInfo.obj
+ 0001:00000aa8       ??1CVariableInfo@@UAE@XZ   63001aa8 f i DebuggeeInfo.obj
+ 0001:00000abc       ??_GCVariableInfo@@UAEPAXI@Z 63001abc f i DebuggeeInfo.obj
+ 0001:00000abc       ??_ECVariableInfo@@UAEPAXI@Z 63001abc f i DebuggeeInfo.obj
+ 0001:00000ad8       ??0CSymbolEngine@@QAE@XZ   63001ad8 f i DebuggeeInfo.obj
+ 0001:00000b28       ??0CVariableInfo@@QAE@XZ   63001b28 f i DebuggeeInfo.obj
+ 0001:00000b43       ?ZeroData@CVariableInfo@@QAEXXZ 63001b43 f i DebuggeeInfo.obj
+ 0001:00000bb8       ?ZeroLocalEnumerationMemberVars@CSymbolEngine@@IAEXXZ 63001bb8 f i DebuggeeInfo.obj
+ 0001:00000bda       ??1CCriticalSection@@QAE@XZ 63001bda f i DebuggeeInfo.obj
+ 0001:00000be0       _StartDebugging@20         63001be0 f   DebugThread.obj
+ 0001:00000d90       _StopDebugging@4           63001d90 f   DebugThread.obj
+ 0001:00000dbe       _SuspendDebugging@4        63001dbe f   DebugThread.obj
+ 0001:00000dea       _ResumeDebugging@4         63001dea f   DebugThread.obj
+ 0001:00001070       _DllMain@12                63002070 f   DllMain.obj
+ 0001:0000108d       ?ProcessDebugEvents@@YAKPAVCDebugBaseUser@@PAVCDebuggeeInfo@@PAU_DEBUG_EVENT@@@Z 6300208d f   ProcessDebugEvents.obj
+ 0001:000016ca       ??0JString@@QAE@XZ         630026ca f   SymbolEngine_Release:JString.obj
+ 0001:000016e0       ??1JString@@QAE@XZ         630026e0 f   SymbolEngine_Release:JString.obj
+ 0001:000016f9       ?NullString@JString@@QAEXXZ 630026f9 f   SymbolEngine_Release:JString.obj
+ 0001:00001709       ?SymLoadModule64@CSymbolEngine@@QAE_KPAXPAG1_KK@Z 63002709 f   SymbolEngine_Release:SymEngWIDE.obj
+ 0001:000017d4       ?SymAppendSearchPath@CSymbolEngine@@QAEHPBG@Z 630027d4 f   SymbolEngine_Release:SymEngWIDE.obj
+ 0001:00001853       ?SymLoadModule64@CSymbolEngine@@QAE_KPAXPAD1_KK@Z 63002853 f i SymbolEngine_Release:SymEngWIDE.obj
+ 0001:00001876       _GetModuleFileNameExW@16   63002876 f   PSAPI:PSAPI.DLL
+ 0001:0000187c       ??2@YAPAXI@Z               6300287c f   msvcprt:newop_s.obj
+ 0001:000018a1       ??_U@YAPAXI@Z              630028a1 f   msvcprt:newaop_s.obj
+ 0001:000018a6       _memset                    630028a6 f   MSVCRT:MSVCR71.dll
+ 0001:000018ac       ??_Etype_info@@UAEPAXI@Z   630028ac f i MSVCRT:ti_inst.obj
+ 0001:000018f8       ??3@YAXPAX@Z               630028f8 f   MSVCRT:MSVCR71.dll
+ 0001:000018fe       ??_V@YAXPAX@Z              630028fe f   MSVCRT:MSVCR71.dll
+ 0001:00001904       ??0exception@@QAE@ABV0@@Z  63002904 f   MSVCRT:MSVCR71.dll
+ 0001:0000190a       _strlen                    6300290a f   MSVCRT:MSVCR71.dll
+ 0001:00001910       __CRT_INIT@12              63002910 f   MSVCRT:crtdll.obj
+ 0001:000019ce       __DllMainCRTStartup@12     630029ce f   MSVCRT:crtdll.obj
+ 0001:00001ab2       _malloc                    63002ab2 f   MSVCRT:MSVCR71.dll
+ 0001:00001ab8       __callnewh                 63002ab8 f   MSVCRT:MSVCR71.dll
+ 0001:00001abe       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 63002abe f   MSVCRT:ehvecdtr.obj
+ 0001:00001b1c       ??_M@YGXPAXIHP6EX0@Z@Z     63002b1c f   MSVCRT:ehvecdtr.obj
+ 0001:00001b7c       ??1type_info@@UAE@XZ       63002b7c f   MSVCRT:MSVCR71.dll
+ 0001:00001b82       __initterm                 63002b82 f   MSVCRT:MSVCR71.dll
+ 0001:00001b88       __onexit                   63002b88 f   MSVCRT:atonexit.obj
+ 0001:00001bae       _atexit                    63002bae f   MSVCRT:atonexit.obj
+ 0001:00001bc0       __RTC_Initialize           63002bc0 f   MSVCRT:initsect.obj
+ 0001:00001c04       __RTC_Terminate            63002c04 f   MSVCRT:initsect.obj
+ 0001:00001c48       ___CppXcptFilter           63002c48 f   MSVCRT:MSVCR71.dll
+ 0001:00001c50       __SEH_prolog               63002c50 f   MSVCRT:sehprolg.obj
+ 0001:00001c8b       __SEH_epilog               63002c8b f   MSVCRT:sehprolg.obj
+ 0001:00001c9c       __except_handler3          63002c9c f   MSVCRT:MSVCR71.dll
+ 0001:00001ca2       ?terminate@@YAXXZ          63002ca2 f   MSVCRT:MSVCR71.dll
+ 0001:00001ca8       ___dllonexit               63002ca8 f   MSVCRT:MSVCR71.dll
+ 0001:00001cdf       @__security_check_cookie@4 63002cdf f   MSVCRT:secchk.obj
+ 0001:00001cee       ___CxxFrameHandler         63002cee f   MSVCRT:MSVCR71.dll
+ 0001:00001d00       __EH_prolog                63002d00 f   MSVCRT:ehprolog.obj
+ 0001:00001d20       __CxxThrowException@8      63002d20 f   MSVCRT:MSVCR71.dll
+ 0001:00001d26       ___security_init_cookie    63002d26 f   MSVCRT:seccinit.obj
+ 0001:00001d8c       ___security_error_handler  63002d8c f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__BSUAnsi2Wide@12     63003000     BugslayerUtil:BugslayerUtil.dll
+ 0002:00000004       \177BugslayerUtil_NULL_THUNK_DATA 63003004     BugslayerUtil:BugslayerUtil.dll
+ 0002:00000008       __imp__GetCurrentThreadId@0 63003008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetTickCount@0      6300300c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__QueryPerformanceCounter@4 63003010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__ExitProcess@4       63003014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetCurrentProcessId@0 63003018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__HeapAlloc@12        6300301c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__LocalFree@4         63003020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__WideCharToMultiByte@32 63003024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__lstrlenW@4          63003028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetProcessHeap@0    6300302c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetSystemTimeAsFileTime@4 63003030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__FormatMessageW@28   63003034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__MultiByteToWideChar@24 63003038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetWindowsDirectoryW@8 6300303c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__DisableThreadLibraryCalls@4 63003040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__ContinueDebugEvent@12 63003044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__WaitForDebugEvent@8 63003048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__ResetEvent@4        6300304c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__TerminateProcess@8  63003050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__WaitForMultipleObjects@16 63003054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__OpenEventW@12       63003058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__CreateProcessW@40   6300305c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__SetEvent@4          63003060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__TerminateThread@8   63003064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetExitCodeThread@8 63003068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__WaitForSingleObject@8 6300306c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__IsBadReadPtr@8      63003070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__IsBadStringPtrW@8   63003074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetEnvironmentVariableW@12 63003078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__LeaveCriticalSection@4 6300307c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__EnterCriticalSection@4 63003080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__DeleteCriticalSection@4 63003084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__InitializeCriticalSectionAndSpinCount@8 63003088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__CloseHandle@4       6300308c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__SetLastError@4      63003090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__IsBadWritePtr@8     63003094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__CreateEventW@16     63003098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__HeapFree@12         6300309c     kernel32:KERNEL32.dll
+ 0002:000000a0       \177KERNEL32_NULL_THUNK_DATA 630030a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__DBG_ReadProcessMemory@20 630030a4     LocalAssist:LocalAssist.dll
+ 0002:000000a8       \177LocalAssist_NULL_THUNK_DATA 630030a8     LocalAssist:LocalAssist.dll
+ 0002:000000ac       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 630030ac     msvcprt:MSVCP71.dll
+ 0002:000000b0       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 630030b0     msvcprt:MSVCP71.dll
+ 0002:000000b4       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 630030b4     msvcprt:MSVCP71.dll
+ 0002:000000b8       __imp_?_Nomemory@std@@YAXXZ 630030b8     msvcprt:MSVCP71.dll
+ 0002:000000bc       \177MSVCP71_NULL_THUNK_DATA 630030bc     msvcprt:MSVCP71.dll
+ 0002:000000c0       __imp_?terminate@@YAXXZ    630030c0     MSVCRT:MSVCR71.dll
+ 0002:000000c4       __imp____dllonexit         630030c4     MSVCRT:MSVCR71.dll
+ 0002:000000c8       __imp___onexit             630030c8     MSVCRT:MSVCR71.dll
+ 0002:000000cc       __imp__strlen              630030cc     MSVCRT:MSVCR71.dll
+ 0002:000000d0       __imp___wcsupr             630030d0     MSVCRT:MSVCR71.dll
+ 0002:000000d4       __imp___beginthreadex      630030d4     MSVCRT:MSVCR71.dll
+ 0002:000000d8       __imp___except_handler3    630030d8     MSVCRT:MSVCR71.dll
+ 0002:000000dc       __imp_??0exception@@QAE@ABV0@@Z 630030dc     MSVCRT:MSVCR71.dll
+ 0002:000000e0       __imp_??0exception@@QAE@XZ 630030e0     MSVCRT:MSVCR71.dll
+ 0002:000000e4       __imp__wcslen              630030e4     MSVCRT:MSVCR71.dll
+ 0002:000000e8       __imp___wsplitpath         630030e8     MSVCRT:MSVCR71.dll
+ 0002:000000ec       __imp_??_V@YAXPAX@Z        630030ec     MSVCRT:MSVCR71.dll
+ 0002:000000f0       __imp__wcscpy              630030f0     MSVCRT:MSVCR71.dll
+ 0002:000000f4       __imp_??3@YAXPAX@Z         630030f4     MSVCRT:MSVCR71.dll
+ 0002:000000f8       __imp__memset              630030f8     MSVCRT:MSVCR71.dll
+ 0002:000000fc       __imp___ltow               630030fc     MSVCRT:MSVCR71.dll
+ 0002:00000100       __imp__wcscat              63003100     MSVCRT:MSVCR71.dll
+ 0002:00000104       __imp____CppXcptFilter     63003104     MSVCRT:MSVCR71.dll
+ 0002:00000108       __imp___adjust_fdiv        63003108     MSVCRT:MSVCR71.dll
+ 0002:0000010c       __imp___initterm           6300310c     MSVCRT:MSVCR71.dll
+ 0002:00000110       __imp__free                63003110     MSVCRT:MSVCR71.dll
+ 0002:00000114       __imp_??1type_info@@UAE@XZ 63003114     MSVCRT:MSVCR71.dll
+ 0002:00000118       __imp___callnewh           63003118     MSVCRT:MSVCR71.dll
+ 0002:0000011c       __imp_??1exception@@UAE@XZ 6300311c     MSVCRT:MSVCR71.dll
+ 0002:00000120       __imp____CxxFrameHandler   63003120     MSVCRT:MSVCR71.dll
+ 0002:00000124       __imp___CxxThrowException@8 63003124     MSVCRT:MSVCR71.dll
+ 0002:00000128       __imp____security_error_handler 63003128     MSVCRT:MSVCR71.dll
+ 0002:0000012c       __imp__malloc              6300312c     MSVCRT:MSVCR71.dll
+ 0002:00000130       \177MSVCR71_NULL_THUNK_DATA 63003130     MSVCRT:MSVCR71.dll
+ 0002:00000134       __imp__GetModuleFileNameExW@16 63003134     PSAPI:PSAPI.DLL
+ 0002:00000138       \177PSAPI_NULL_THUNK_DATA  63003138     PSAPI:PSAPI.DLL
+ 0002:0000013c       __imp__LoadStringW@16      6300313c     USER32:USER32.dll
+ 0002:00000140       __imp__wsprintfW           63003140     USER32:USER32.dll
+ 0002:00000144       \177USER32_NULL_THUNK_DATA 63003144     USER32:USER32.dll
+ 0002:00000148       __imp__SymGetSearchPath@12 63003148     DBGHELP:dbghelp.dll
+ 0002:0000014c       __imp__SymSetSearchPath@8  6300314c     DBGHELP:dbghelp.dll
+ 0002:00000150       __imp__SymSetOptions@4     63003150     DBGHELP:dbghelp.dll
+ 0002:00000154       __imp__SymGetOptions@0     63003154     DBGHELP:dbghelp.dll
+ 0002:00000158       __imp__SymCleanup@4        63003158     DBGHELP:dbghelp.dll
+ 0002:0000015c       __imp__SymLoadModule64@28  6300315c     DBGHELP:dbghelp.dll
+ 0002:00000160       __imp__SymUnloadModule64@12 63003160     DBGHELP:dbghelp.dll
+ 0002:00000164       __imp__SymGetModuleInfo64@16 63003164     DBGHELP:dbghelp.dll
+ 0002:00000168       __imp__SymInitialize@12    63003168     DBGHELP:dbghelp.dll
+ 0002:0000016c       \177dbghelp_NULL_THUNK_DATA 6300316c     DBGHELP:dbghelp.dll
+ 0002:00000190       ??_7type_info@@6B@         63003190     MSVCRT:ti_inst.obj
+ 0002:000001e4       ??_7length_error@std@@6B@  630031e4     DebuggeeInfo.obj
+ 0002:000001ec       ??_7logic_error@std@@6B@   630031ec     DebuggeeInfo.obj
+ 0002:000001f4       ??_7CVariableInfo@@6B@     630031f4     DebuggeeInfo.obj
+ 0002:000001f8       ??_7CSymbolEngine@@6B@     630031f8     DebuggeeInfo.obj
+ 0002:000001fc       ??_7CDebuggeeInfo@@6B@     630031fc     DebuggeeInfo.obj
+ 0002:00000200       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 63003200     DebuggeeInfo.obj
+ 0002:00000214       ??_C@_1CA@PAIAFFE@?$AA_?$AAN?$AAT?$AA_?$AAS?$AAY?$AAM?$AAB?$AAO?$AAL?$AA_?$AAP?$AAA?$AAT?$AAH?$AA?$AA@ 63003214     DebuggeeInfo.obj
+ 0002:00000234       ??_C@_1CI@CCPMAGAE@?$AA?$CK?$AA?$CK?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?$CK?$AA?$CK?$AA?$AA@ 63003234     DebuggeeInfo.obj
+ 0002:0000025c       ??_C@_17DMPFIIHN@?$AAD?$AAI?$AAA?$AA?$AA@ 6300325c     DebuggeeInfo.obj
+ 0002:00000264       ??_C@_17DILANGM@?$AAS?$AAY?$AAM?$AA?$AA@ 63003264     DebuggeeInfo.obj
+ 0002:0000026c       ??_C@_1BC@FOIDCFDH@?$AAD?$AAe?$AAf?$AAe?$AAr?$AAr?$AAe?$AAd?$AA?$AA@ 6300326c     DebuggeeInfo.obj
+ 0002:00000280       ??_C@_1O@JECNEECA@?$AAE?$AAx?$AAp?$AAo?$AAr?$AAt?$AA?$AA@ 63003280     DebuggeeInfo.obj
+ 0002:00000290       ??_C@_17GKCPALJM@?$AAP?$AAD?$AAB?$AA?$AA@ 63003290     DebuggeeInfo.obj
+ 0002:00000298       ??_C@_1BC@IPLLCHHE@?$AAC?$AAo?$AAd?$AAe?$AAV?$AAi?$AAe?$AAw?$AA?$AA@ 63003298     DebuggeeInfo.obj
+ 0002:000002ac       ??_C@_19PODLBFPL@?$AAC?$AAO?$AAF?$AAF?$AA?$AA@ 630032ac     DebuggeeInfo.obj
+ 0002:000002b8       ??_C@_15LIBIHNCL@?$AAN?$AAO?$AA?$AA@ 630032b8     DebuggeeInfo.obj
+ 0002:000002c0       ??_C@_1M@MOFLFCEC@?$AA?$CF?$AAs?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 630032c0     DebugThread.obj
+ 0002:000002cc       ??_C@_1M@ENLBIBJ@?$AA?5?$AA?5?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 630032cc     ProcessDebugEvents.obj
+ 0002:000002d8       ??_C@_1CK@PAJOFJPF@?$AAF?$AAo?$AAr?$AAm?$AAa?$AAt?$AAM?$AAe?$AAs?$AAs?$AAa?$AAg?$AAe?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd@ 630032d8     ProcessDebugEvents.obj
+ 0002:00000304       ??_C@_1CI@CNAHOPLJ@?$AAR?$AAI?$AAP?$AA?5?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?0?$AA?5?$AAl?$AAe?$AAv?$AAe?$AAl?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 63003304     ProcessDebugEvents.obj
+ 0002:0000032c       ??_C@_1BG@OHEJICAM@?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AA?$CF?$AAi?$AA?$AA@ 6300332c     ProcessDebugEvents.obj
+ 0002:00000344       ??_C@_19KLMLHLJG@?$AAN?$AAo?$AAn?$AAe?$AA?$AA@ 63003344     ProcessDebugEvents.obj
+ 0002:00000350       ??_C@_1BI@LCHOHAOJ@?$AAS?$AAL?$AAE?$AA_?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?$AA@ 63003350     ProcessDebugEvents.obj
+ 0002:00000368       ??_C@_1BO@KLDIPCKM@?$AAS?$AAL?$AAE?$AA_?$AAM?$AAI?$AAN?$AAO?$AAR?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?$AA@ 63003368     ProcessDebugEvents.obj
+ 0002:00000388       ??_C@_1BE@JEFJGCNI@?$AAS?$AAL?$AAE?$AA_?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?$AA@ 63003388     ProcessDebugEvents.obj
+ 0002:0000039c       ??_C@_1DK@BCDBLFHA@?$AAU?$AAN?$AAA?$AAB?$AAL?$AAE?$AA?5?$AAT?$AAO?$AA?5?$AAE?$AAX?$AAT?$AAR?$AAA?$AAC?$AAT?$AA?5?$AAD?$AAL@ 6300339c     ProcessDebugEvents.obj
+ 0002:000003d8       ??_C@_1BE@LCNNIAEL@?$AAN?$AAT?$AAD?$AAL?$AAL?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 630033d8     ProcessDebugEvents.obj
+ 0002:000003f0       ??_C@_1GC@JGMCAFIH@?$AAA?$AAn?$AA?5?$AAu?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?5?$AAd?$AAe?$AAb?$AAu?$AAg?$AAg?$AAe?$AAr?$AA?5@ 630033f0     ProcessDebugEvents.obj
+ 0002:00000468       __load_config_used         63003468     MSVCRT:loadcfg.obj
+ 0002:000004f4       ??_R1A@?0A@A@type_info@@8  630034f4     MSVCRT:ti_inst.obj
+ 0002:0000050c       ??_R2type_info@@8          6300350c     MSVCRT:ti_inst.obj
+ 0002:00000514       ??_R3type_info@@8          63003514     MSVCRT:ti_inst.obj
+ 0002:00000524       ??_R4type_info@@6B@        63003524     MSVCRT:ti_inst.obj
+ 0002:00000540       ___safe_se_handler_table   63003540     <linker-defined>
+ 0002:00000564       ___rtc_iaa                 63003564     MSVCRT:initsect.obj
+ 0002:00000568       ___rtc_izz                 63003568     MSVCRT:initsect.obj
+ 0002:0000056c       ___rtc_taa                 6300356c     MSVCRT:initsect.obj
+ 0002:00000570       ___rtc_tzz                 63003570     MSVCRT:initsect.obj
+ 0002:00000574       __TI1H                     63003574     CreateDebugSyncEvents.obj
+ 0002:00000584       __CTA1H                    63003584     CreateDebugSyncEvents.obj
+ 0002:0000058c       __CT??_R0H@84              6300358c     CreateDebugSyncEvents.obj
+ 0002:000005a8       __TI3?AVlength_error@std@@ 630035a8     DebuggeeInfo.obj
+ 0002:000005b8       __CTA3?AVlength_error@std@@ 630035b8     DebuggeeInfo.obj
+ 0002:000005c8       __CT??_R0?AVexception@@@8??0exception@@QAE@ABV0@@Z12 630035c8     DebuggeeInfo.obj
+ 0002:000005e4       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z40 630035e4     DebuggeeInfo.obj
+ 0002:00000600       __CT??_R0?AVlength_error@std@@@8??0length_error@std@@QAE@ABV01@@Z40 63003600     DebuggeeInfo.obj
+ 0002:000007c8       __IMPORT_DESCRIPTOR_USER32 630037c8     USER32:USER32.dll
+ 0002:000007dc       __IMPORT_DESCRIPTOR_PSAPI  630037dc     PSAPI:PSAPI.DLL
+ 0002:000007f0       __IMPORT_DESCRIPTOR_dbghelp 630037f0     DBGHELP:dbghelp.dll
+ 0002:00000804       __IMPORT_DESCRIPTOR_BugslayerUtil 63003804     BugslayerUtil:BugslayerUtil.dll
+ 0002:00000818       __IMPORT_DESCRIPTOR_LocalAssist 63003818     LocalAssist:LocalAssist.dll
+ 0002:0000082c       __IMPORT_DESCRIPTOR_MSVCP71 6300382c     msvcprt:MSVCP71.dll
+ 0002:00000840       __IMPORT_DESCRIPTOR_MSVCR71 63003840     MSVCRT:MSVCR71.dll
+ 0002:00000854       __IMPORT_DESCRIPTOR_KERNEL32 63003854     kernel32:KERNEL32.dll
+ 0002:00000868       __NULL_IMPORT_DESCRIPTOR   63003868     USER32:USER32.dll
+ 0003:00000000       ___xc_a                    63005000     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xc_z                    63005008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_a                    6300500c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xi_z                    63005010     MSVCRT:cinitexe.obj
+ 0003:00000020       ??_R0?AVtype_info@@@8      63005020     MSVCRT:ti_inst.obj
+ 0003:00000038       ??_R0H@8                   63005038     CreateDebugSyncEvents.obj
+ 0003:00000044       ??_R0?AVexception@@@8      63005044     DebuggeeInfo.obj
+ 0003:0000005c       ??_R0?AVlogic_error@std@@@8 6300505c     DebuggeeInfo.obj
+ 0003:0000007c       ??_R0?AVlength_error@std@@@8 6300507c     DebuggeeInfo.obj
+ 0003:0000009c       ___security_cookie         6300509c     MSVCRT:seccook.obj
+ 0003:000000ac       __adjust_fdiv              630050ac     <common>
+ 0003:000000b0       ___onexitend               630050b0     <common>
+ 0003:000000b4       ___onexitbegin             630050b4     <common>
+ 0003:000000b8       __pRawDllMain              630050b8     <common>
+
+ entry point at        0001:000019ce
+
+ Static symbols
+
+ 0001:00000000       ?CreateManualResetEvent@@YAPAXIPBGH@Z 63001000 f   CreateDebugSyncEvents.obj
+ 0001:00000158       $L54461                    63001158 f    CIL library: CIL module
+ 0001:000007cb       $L53794                    630017cb f i  CIL library: CIL module
+ 0001:000007d4       $L53796                    630017d4 f i  CIL library: CIL module
+ 0001:00000e16       ?DebugThread@@YGIPAX@Z     63001e16 f   DebugThread.obj
+ 0001:000011a9       ?CreateProcessEvent@@YAKPAVCDebugBaseUser@@PAVCDebuggeeInfo@@KKAAU_CREATE_PROCESS_DEBUG_INFO@@@Z 630021a9 f   ProcessDebugEvents.obj
+ 0001:000012b1       ?LoadDllDebugEvent@@YAKPAVCDebugBaseUser@@PAVCDebuggeeInfo@@PAU_DEBUG_EVENT@@@Z 630022b1 f   ProcessDebugEvents.obj
+ 0001:00001460       ?OutputDebugStringEvent@@YAKPAVCDebugBaseUser@@PAVCDebuggeeInfo@@KKAAU_OUTPUT_DEBUG_STRING_INFO@@@Z 63002460 f   ProcessDebugEvents.obj
+ 0001:0000152a       ?RipEvent@@YAKPAVCDebugBaseUser@@PAVCDebuggeeInfo@@KKAAU_RIP_INFO@@@Z 6300252a f   ProcessDebugEvents.obj
+ 0001:000015fb       ?ExceptionEvent@@YAKPAVCDebugBaseUser@@PAVCDebuggeeInfo@@KKAAU_EXCEPTION_DEBUG_INFO@@@Z 630025fb f   ProcessDebugEvents.obj
+ 0001:00001623       ?FillModuleInfo@@YAXPAVCDebuggeeInfo@@PBXPAU_IMAGEHLP_MODULE64@@@Z 63002623 f   ProcessDebugEvents.obj
+ 0001:000016b6       ?Deallocate@@YAHPAX@Z      630026b6 f   SymbolEngine_Release:JString.obj
+ 0001:00001cae       _report_failure            63002cae f   MSVCRT:secchk.obj
+ 0001:00001d92       $L52874                    63002d92 f    CIL library: CIL module
+ 0001:00001d9b       __ehhandler$??0logic_error@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 63002d9b f    CIL library: CIL module
+ 0001:00001da5       $L53085                    63002da5 f    CIL library: CIL module
+ 0001:00001da5       $L52889                    63002da5 f    CIL library: CIL module
+ 0001:00001dae       __ehhandler$??1logic_error@std@@UAE@XZ 63002dae f    CIL library: CIL module
+ 0001:00001dae       __ehhandler$??0logic_error@std@@QAE@ABV01@@Z 63002dae f    CIL library: CIL module
+ 0001:00001db8       $L53776                    63002db8 f    CIL library: CIL module
+ 0001:00001dc1       __ehhandler$?_Xlen@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@IBEXXZ 63002dc1 f    CIL library: CIL module
+ 0001:00001dcb       __ehhandler$?_Insert_n@?$vector@VCDllInfo@@V?$allocator@VCDllInfo@@@std@@@std@@IAEXViterator@12@IABVCDllInfo@@@Z 63002dcb f    CIL library: CIL module
+ 0001:00001dd5       $L54414                    63002dd5 f    CIL library: CIL module
+ 0001:00001ddd       __ehhandler$?AddModInfo@CDebuggeeInfo@@IAEXPBXPAX@Z 63002ddd f    CIL library: CIL module
+ 0001:00001de7       __ehhandler$?CreateDebugSyncEvents@@YAHPAPAXK@Z 63002de7 f    CIL library: CIL module
+ 0001:00001df1       $L54514                    63002df1 f    CIL library: CIL module
+ 0001:00001e00       __ehhandler$??0CDebuggeeInfo@@QAE@PAVCDebugBaseUser@@PBG@Z 63002e00 f    CIL library: CIL module
+ 0001:00001e0a       $L54618                    63002e0a f    CIL library: CIL module
+ 0001:00001e14       __ehhandler$?CreateDebuggeeInfo@@YAPAVCDebuggeeInfo@@QAVCDebugBaseUser@@PBG@Z 63002e14 f    CIL library: CIL module
+
+Line numbers for .\WinRel\ProcessDebugEvents.obj(d:\dev\booktwo\disk\wdbg\localdebug\processdebugevents.cpp) segment .text
+
+    63 0001:0000108d    73 0001:00001094    80 0001:000010ac    81 0001:000010c1
+    87 0001:000010c6    89 0001:000010d7    95 0001:000010dc    96 0001:000010f1
+   102 0001:000010f3   104 0001:00001103   109 0001:00001105   111 0001:00001115
+   113 0001:00001117   114 0001:00001120   119 0001:00001122   121 0001:00001132
+   123 0001:0000113d   129 0001:0000113f   130 0001:00001155   136 0001:00001157
+   137 0001:00001163   145 0001:00001165   146 0001:00001175   150 0001:00001180
+   151 0001:00001183   160 0001:000011a9   164 0001:000011bd   166 0001:000011d1
+   169 0001:000011dc   174 0001:000011e1   181 0001:000011f4   182 0001:0000120e
+   184 0001:00001213   190 0001:00001219   195 0001:0000122b   196 0001:00001238
+   197 0001:0000123d   205 0001:00001240   206 0001:0000126c   208 0001:00001272
+   214 0001:00001274   215 0001:0000127a   220 0001:0000127d   222 0001:0000129d
+   228 0001:000012b1   239 0001:000012c4   242 0001:000012ea   245 0001:000012f0
+   249 0001:000012fe   251 0001:00001308   253 0001:0000130f   255 0001:00001320
+   262 0001:00001325   268 0001:0000132b   270 0001:0000134a   275 0001:00001355
+   280 0001:0000135b   288 0001:00001362   289 0001:00001378   291 0001:0000137c
+   293 0001:00001386   301 0001:00001388   303 0001:0000139c   305 0001:000013a1
+   315 0001:000013b6   321 0001:000013c0   322 0001:000013dd   326 0001:000013e1
+   331 0001:000013f5   338 0001:00001403   340 0001:0000141d   346 0001:0000142f
+   349 0001:0000144b   357 0001:00001460   362 0001:00001468   364 0001:00001474
+   367 0001:00001476   375 0001:0000147d   377 0001:0000149a   379 0001:0000149f
+   381 0001:000014a1   383 0001:000014a7   385 0001:000014aa   387 0001:000014ac
+   390 0001:000014ba   392 0001:000014ca   398 0001:000014d3   400 0001:000014e7
+   405 0001:000014e9   406 0001:000014f6   408 0001:000014fc   414 0001:00001503
+   415 0001:00001511   417 0001:00001518   418 0001:00001522   419 0001:00001528
+   427 0001:0000152a   431 0001:00001538   446 0001:0000154d   447 0001:00001560
+   440 0001:00001562   441 0001:00001567   437 0001:00001569   438 0001:0000156e
+   434 0001:00001570   435 0001:00001575   443 0001:00001577   449 0001:00001588
+   463 0001:0000159a   465 0001:000015ba   466 0001:000015c1   468 0001:000015c4
+   469 0001:000015d2   470 0001:000015dc   472 0001:000015e3   476 0001:000015ec
+   488 0001:000015fb   485 0001:000015fb   490 0001:0000160e   494 0001:00001614
+   495 0001:00001622   501 0001:00001623   502 0001:00001633   506 0001:00001646
+   507 0001:00001655   509 0001:00001659   513 0001:0000165c   514 0001:0000165f
+   521 0001:00001665   522 0001:0000167b   526 0001:00001680   533 0001:00001688
+   534 0001:0000169c   537 0001:000016a1   541 0001:000016aa
+
+Line numbers for .\WinRel\DllMain.obj(d:\dev\booktwo\disk\wdbg\localdebug\dllmain.cpp) segment .text
+
+    14 0001:00001070    13 0001:00001070    17 0001:00001077    18 0001:0000107b
+    23 0001:00001087    24 0001:0000108a
+
+Line numbers for .\WinRel\DebugThread.obj(d:\dev\booktwo\disk\wdbg\localdebug\debugthread.cpp) segment .text
+
+    41 0001:00000be0    59 0001:00000bf5    66 0001:00000c6c    72 0001:00000c7b
+    75 0001:00000c92    86 0001:00000c98    88 0001:00000ca6    90 0001:00000cab
+    95 0001:00000cb1    96 0001:00000cba    97 0001:00000cc3    98 0001:00000ccc
+   110 0001:00000cd5   112 0001:00000cf0   114 0001:00000cfa   115 0001:00000d03
+   119 0001:00000d05   121 0001:00000d0f   123 0001:00000d11   125 0001:00000d1e
+   129 0001:00000d20   134 0001:00000d22   138 0001:00000d36   141 0001:00000d38
+   144 0001:00000d3f   150 0001:00000d41   152 0001:00000d54   160 0001:00000d5a
+   161 0001:00000d62   162 0001:00000d65   170 0001:00000d69    61 0001:00000d6d
+    62 0001:00000d75   171 0001:00000d78   175 0001:00000d90   180 0001:00000d91
+   182 0001:00000da3   183 0001:00000dab   187 0001:00000daf   188 0001:00000db7
+   189 0001:00000dbb   193 0001:00000dbe   198 0001:00000dbf   200 0001:00000dd1
+   201 0001:00000dd9   203 0001:00000ddd   206 0001:00000de7   210 0001:00000dea
+   215 0001:00000deb   217 0001:00000dfd   218 0001:00000e05   220 0001:00000e09
+   223 0001:00000e13   228 0001:00000e16   238 0001:00000e2a   253 0001:00000e39
+   264 0001:00000e60   265 0001:00000e70   275 0001:00000e7c   280 0001:00000e96
+   297 0001:00000eac   301 0001:00000ec4   305 0001:00000ed0   308 0001:00000ed8
+   315 0001:00000ee7   317 0001:00000efc   318 0001:00000f03   321 0001:00000f0c
+   323 0001:00000f12   327 0001:00000f14   331 0001:00000f19   333 0001:00000f25
+   335 0001:00000f2e   339 0001:00000f35   344 0001:00000f3a   357 0001:00000f40
+   358 0001:00000f4f   399 0001:00000f6c   407 0001:00000f80   411 0001:00000f86
+   413 0001:00000f93   417 0001:00000f95   424 0001:00000f9e   433 0001:00000fb2
+   440 0001:00000fbf   449 0001:00000fcf   451 0001:00000fd3   452 0001:00000fdc
+   458 0001:00000fde   464 0001:00000feb   468 0001:00000ff1   475 0001:00000ffa
+   385 0001:00000ffc   387 0001:00001005   389 0001:0000100e   374 0001:00001010
+   378 0001:0000101b   380 0001:00001020   364 0001:00001022   365 0001:0000102c
+   367 0001:00001031   349 0001:00001037   487 0001:00001044   494 0001:00001050
+   498 0001:00001055   499 0001:0000105a
+
+Line numbers for .\WinRel\DebuggeeInfo.obj(d:\dev\booktwo\disk\wdbg\localdebug\debuggeeinfo.cpp) segment .text
+
+    25 0001:000001b6    27 0001:000001b6    28 0001:000001c1    32 0001:000001c2
+    34 0001:000001c2    35 0001:000001cd    39 0001:000001ce    41 0001:000001ce
+    48 0001:000001d8    46 0001:000001d8    51 0001:000001e8    52 0001:000001ed
+    54 0001:000001ef    55 0001:000001f4    57 0001:000001f6    58 0001:000001fb
+    60 0001:000001fd    61 0001:00000202    63 0001:00000204    64 0001:00000209
+    66 0001:0000020b    67 0001:00000210    69 0001:00000212    70 0001:00000217
+    72 0001:00000219    73 0001:0000021e    76 0001:00000220    80 0001:00000225
+    87 0001:00000248    89 0001:00000253    91 0001:0000025a    94 0001:0000025c
+    96 0001:00000262    98 0001:00000266   100 0001:00000291   109 0001:0000029d
+   103 0001:0000029d   110 0001:000002ad   111 0001:000002b4   113 0001:000002b7
+   118 0001:000002b8   116 0001:000002b8   123 0001:000002d0   126 0001:000002d1
+   127 0001:000002d1   129 0001:000002db   131 0001:000002e1   139 0001:000002e2
+   145 0001:00000326   146 0001:00000329   147 0001:0000035c   150 0001:0000038b
+   151 0001:0000038f   153 0001:0000039e   155 0001:000003aa   159 0001:000003d9
+   160 0001:000003da   161 0001:000003e7   162 0001:000003eb   169 0001:000003fc
+   170 0001:000003fd   171 0001:0000040a   172 0001:0000040e   200 0001:0000041f
+   196 0001:0000041f   203 0001:00000436   207 0001:00000439   208 0001:00000447
+   210 0001:0000045b   211 0001:00000467   212 0001:00000476   243 0001:0000048c
+   246 0001:000004a7   250 0001:000004ad   255 0001:000004b7   256 0001:000004cc
+   258 0001:000004d3   261 0001:000004dc   267 0001:000004e6   268 0001:000004fe
+   270 0001:0000050b   274 0001:00000514   279 0001:0000051d   282 0001:00000534
+   284 0001:00000549   286 0001:0000055d   290 0001:0000056c   307 0001:00000587
+   318 0001:00000590   320 0001:000005ac   322 0001:000005bc   323 0001:000005c0
+   345 0001:000005c4   349 0001:000005c4   350 0001:000005d7   392 0001:000005da
+   385 0001:000005da   394 0001:000005de   395 0001:000005ef
+
+Line numbers for .\WinRel\DebuggeeInfo.obj(g:\vsnet\vc7\include\vector) segment .text
+
+   579 0001:000005f2   580 0001:000005f9   581 0001:0000060b   582 0001:00000625
+   583 0001:00000627   584 0001:0000063a   458 0001:0000063e   457 0001:0000063e
+   459 0001:00000647   458 0001:00000648   459 0001:00000650   516 0001:00000651
+   515 0001:00000651   517 0001:0000065a   516 0001:0000065b   517 0001:00000663
+   620 0001:00000664   621 0001:00000665   622 0001:0000067e   623 0001:00000690
+   624 0001:0000069b   792 0001:0000069e   791 0001:0000069e   795 0001:000006a5
+   797 0001:000006ac   798 0001:000006b8   809 0001:000006b9   810 0001:000006ce
+   811 0001:000006d8   813 0001:000006e5   815 0001:000006ef   816 0001:00000701
+   817 0001:00000706   820 0001:00000717   821 0001:0000072c   822 0001:00000739
+   823 0001:00000744   826 0001:0000074f   828 0001:00000753   829 0001:00000767
+   830 0001:0000077b   837 0001:0000078f   838 0001:00000798   840 0001:0000079f
+   841 0001:000007ab   843 0001:000007b4   844 0001:000007bd   845 0001:000007c3
+   847 0001:000007c6   833 0001:000007cb   857 0001:000007d4   847 0001:000007dd
+   850 0001:000007f1   852 0001:00000808   854 0001:0000080f   860 0001:00000828
+   862 0001:00000834   864 0001:0000084a   868 0001:0000084c   870 0001:0000085f
+   872 0001:00000874   874 0001:0000088a   883 0001:0000089b   884 0001:000008a8
+
+Line numbers for .\WinRel\DebuggeeInfo.obj(g:\vsnet\vc7\include\memory) segment .text
+
+   211 0001:0000093a   207 0001:0000093a   212 0001:0000093f   218 0001:00000954
+    77 0001:00000972    81 0001:00000972    82 0001:00000974    81 0001:00000988
+    89 0001:0000098e
+
+Line numbers for .\WinRel\DebuggeeInfo.obj(g:\vsnet\vc7\include\xutility) segment .text
+
+  1049 0001:00000955  1048 0001:00000955  1050 0001:0000095b  1052 0001:00000971
+
+Line numbers for .\WinRel\DebuggeeInfo.obj(g:\vsnet\vc7\include\stdexcept) segment .text
+
+    26 0001:000009ab    27 0001:000009ab    28 0001:000009b4    27 0001:000009b5
+    28 0001:000009b8    23 0001:000009d5    99 0001:00000a12    19 0001:00000a1d
+    20 0001:00000a49
+
+Line numbers for .\WinRel\DebuggeeInfo.obj(d:\dev\booktwo\disk\include\variableinfo.h) segment .text
+
+    62 0001:00000aa8    63 0001:00000aa9    21 0001:00000b28    23 0001:00000b39
+    24 0001:00000b40    70 0001:00000b43    71 0001:00000b44    88 0001:00000b46
+    89 0001:00000baf    90 0001:00000bb7
+
+Line numbers for .\WinRel\DebuggeeInfo.obj(d:\dev\booktwo\disk\include\symbolengine.h) segment .text
+
+   328 0001:00000a5a   331 0001:00000a5a   332 0001:00000a6f   136 0001:00000a7e
+   137 0001:00000a84   119 0001:00000ad8   121 0001:00000ae7   124 0001:00000ae9
+   126 0001:00000afa   127 0001:00000b00   128 0001:00000b06   129 0001:00000b0c
+   130 0001:00000b12   131 0001:00000b18   132 0001:00000b1e   133 0001:00000b24
+   698 0001:00000bb8   697 0001:00000bb8   699 0001:00000bbd   700 0001:00000bc0
+   701 0001:00000bc3   702 0001:00000bc6   703 0001:00000bc9   704 0001:00000bcf
+   705 0001:00000bd6   706 0001:00000bd9
+
+Line numbers for .\WinRel\DebuggeeInfo.obj(d:\dev\booktwo\disk\include\criticalsection.h) segment .text
+
+    54 0001:00000a72    55 0001:00000a72    56 0001:00000a7a    57 0001:00000a7d
+    32 0001:00000bda    31 0001:00000bda
+
+Line numbers for .\WinRel\CreateDebugSyncEvents.obj(d:\dev\booktwo\disk\wdbg\localdebug\createdebugsyncevents.cpp) segment .text
+
+    35 0001:00000000    44 0001:0000000e    48 0001:00000030    53 0001:00000042
+    58 0001:00000056    62 0001:00000060    67 0001:0000007b    69 0001:0000008e
+   152 0001:00000096    77 0001:0000009d    82 0001:000000ac    91 0001:000000b7
+    93 0001:000000cf   100 0001:000000e4   102 0001:000000f9   109 0001:0000010a
+   111 0001:00000120   118 0001:00000131   120 0001:00000147   130 0001:00000158
+   132 0001:00000168   134 0001:00000173   136 0001:00000179   138 0001:0000017c
+   140 0001:00000183   142 0001:00000186   144 0001:0000018d   152 0001:00000190
+   150 0001:00000198   154 0001:0000019d   156 0001:0000019f
+
+Line numbers for \Dev\BookTwo\Disk\Release\SymbolEngine_Release.lib(d:\dev\booktwo\disk\jfx\jstring.cpp) segment .text
+
+    27 0001:000016b6    26 0001:000016b6    29 0001:000016c9    34 0001:000016ca
+    33 0001:000016ca    35 0001:000016ce    36 0001:000016d1    37 0001:000016d8
+    38 0001:000016dc    39 0001:000016df    95 0001:000016e0    94 0001:000016e0
+    97 0001:000016e6    98 0001:000016ed    99 0001:000016f2   100 0001:000016f5
+   102 0001:000016f8   528 0001:000016f9   527 0001:000016f9   530 0001:000016ff
+   532 0001:00001703   533 0001:00001708
+
+Line numbers for \Dev\BookTwo\Disk\Release\SymbolEngine_Release.lib(d:\dev\booktwo\disk\symbolengine\symengwide.cpp) segment .text
+
+    13 0001:00001709    14 0001:0000170c    19 0001:00001710    21 0001:0000171d
+    25 0001:0000172a    34 0001:00001738    36 0001:0000174d    38 0001:00001754
+    42 0001:00001761    50 0001:0000176f    57 0001:00001784    59 0001:0000179f
+    61 0001:000017b1    63 0001:000017b9    65 0001:000017bd    68 0001:000017c5
+    69 0001:000017d1   173 0001:000017d4   178 0001:000017d6   180 0001:000017eb
+   182 0001:000017fa   184 0001:000017ff   186 0001:00001806   187 0001:0000180a
+   189 0001:0000180f   191 0001:00001810   202 0001:00001813   204 0001:00001830
+   207 0001:0000183c   209 0001:0000184d   210 0001:00001850
+
+Line numbers for \Dev\BookTwo\Disk\Release\SymbolEngine_Release.lib(d:\dev\booktwo\disk\include\symbolengine.h) segment .text
+
+   233 0001:00001853   239 0001:00001856   240 0001:00001871
+
+Line numbers for G:\VSNET\Vc7\lib\msvcprt.lib(f:\vs70builds\3036\vc\crtbld\crt\src\newaop.cpp) segment .text
+
+     7 0001:000018a1     6 0001:000018a1
+
+Line numbers for G:\VSNET\Vc7\lib\msvcprt.lib(f:\vs70builds\3036\vc\crtbld\crt\src\newop.cpp) segment .text
+
+    10 0001:0000187c    12 0001:0000187d    13 0001:00001883    14 0001:0000188e
+    12 0001:00001894    16 0001:000018a0
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:00001b88    76 0001:00001b88    90 0001:00001bad    96 0001:00001bae
+    95 0001:00001bae    97 0001:00001bbf
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\crtdll.c) segment .text
+
+   134 0001:00001910   129 0001:00001910   135 0001:00001918   136 0001:00001920
+   158 0001:00001926   163 0001:00001939   168 0001:0000194e   170 0001:00001952
+   172 0001:00001955   178 0001:0000195f   179 0001:00001964   184 0001:0000196e
+   189 0001:0000197f   192 0001:00001986   219 0001:0000198c   220 0001:00001995
+   225 0001:00001997   226 0001:000019a3   234 0001:000019b9   236 0001:000019c0
+   234 0001:000019c7   240 0001:000019c8   241 0001:000019cb   249 0001:000019ce
+   250 0001:000019da   252 0001:000019e0   257 0001:000019e5   258 0001:000019f2
+   260 0001:000019f8   262 0001:00001a01   263 0001:00001a0a   265 0001:00001a16
+   266 0001:00001a1f   268 0001:00001a2e   269 0001:00001a30   272 0001:00001a32
+   275 0001:00001a42   283 0001:00001a4b   286 0001:00001a55   288 0001:00001a5e
+   289 0001:00001a6c   291 0001:00001a6f   292 0001:00001a7d   298 0001:00001a8b
+   294 0001:00001a90   295 0001:00001aa8   299 0001:00001aaa
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\secchk.c) segment .text
+
+   114 0001:00001cae   116 0001:00001cba   117 0001:00001cbe   119 0001:00001ccb
+   123 0001:00001cd6   100 0001:00001cdf   103 0001:00001cdf   104 0001:00001ce5
+   105 0001:00001ce7   107 0001:00001ce8
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\seccinit.c) segment .text
+
+    49 0001:00001d26    58 0001:00001d2c    67 0001:00001d3d    70 0001:00001d47
+    75 0001:00001d4d    76 0001:00001d55    77 0001:00001d5d    79 0001:00001d65
+    93 0001:00001d6f    94 0001:00001d8a
+
+ Exports
+
+  ordinal    name
+
+        1    _GetDebuggeeModuleName@12
+               exported name: GetDebuggeeModuleName
+        2    _GetDebuggeeProcessHandle@0
+               exported name: GetDebuggeeProcessHandle
+        3    _GetDebuggeeProcessId@0
+               exported name: GetDebuggeeProcessId
+        4    _ResumeDebugging@4
+               exported name: ResumeDebugging
+        5    _StartDebugging@20
+               exported name: StartDebugging
+        6    _StopDebugging@4
+               exported name: StopDebugging
+        7    _SuspendDebugging@4
+               exported name: SuspendDebugging
+        8    _SymToString@4
+               exported name: SymToString

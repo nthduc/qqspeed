@@ -1,0 +1,46 @@
+﻿Build started 05/06/2012 07:30:35.
+     1>Project "G:\QQ飞车\QQ Speed\network\Network.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "../intermediates/Network/Debug\Network.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MakeDirsForMidl:
+         Creating directory "G:\QQ飞车\QQ Speed\network\..\include\idl\..\intermediates\Network\Debug".
+         Creating directory "G:\QQ飞车\QQ Speed\network\..\include\idl".
+       Midl:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /out"../include/idl" /h "PingMgr_i.h" /iid "PingMgr_i.c" /tlb "../intermediates/Network/Debug\Network.tlb" ..\include\Network\PingMgr.idl 
+         Processing ..\include\Network\PingMgr.idl
+         PingMgr.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ocidl.idl
+         ocidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oleidl.idl
+         oleidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\servprov.idl
+         servprov.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\urlmon.idl
+         urlmon.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\msxml.idl
+         msxml.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+         oaidl.acf
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ocidl.acf
+         ocidl.acf
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /I../include/idl /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Yc"StdAfx.h" /Fp"../intermediates/Network/Debug\Network.pch" /Fo"../intermediates/Network/Debug\\" /Fd"../intermediates/Network/Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlcore.h(35): fatal error C1189: #error :  This file requires _WIN32_WINNT to be #defined at least to 0x0403. Value 0x0501 or higher is recommended.
+     1>Done Building Project "G:\QQ飞车\QQ Speed\network\Network.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.85

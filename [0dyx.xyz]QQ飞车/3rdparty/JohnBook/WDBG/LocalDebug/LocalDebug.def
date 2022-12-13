@@ -1,0 +1,16 @@
+;-----------------------------------------------------------------------
+; Debugging Applications for Microsoft .NET and Microsoft Windows
+; Copyright © 1997-2003 John Robbins -- All rights reserved.
+;-----------------------------------------------------------------------
+LIBRARY         LocalDebug
+; DESCRIPTION     'Debugging Windows Applications Debugger Example'
+
+EXPORTS
+    GetDebuggeeModuleName
+    GetDebuggeeProcessHandle
+    GetDebuggeeProcessId
+    ResumeDebugging
+    StartDebugging
+    StopDebugging
+    SuspendDebugging
+    SymToString

@@ -1,0 +1,1 @@
+devenv /rootsuffix NoAddIns

@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSaver", "SuperSaver\SuperSaver.csproj", "{BF3C8595-2CF0-4933-8204-C2604F5BCD4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperSaverShim", "SuperSaverShim\SuperSaverShim.vcproj", "{5ECBDDE0-FE92-4035-9681-D71A1D506DF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperSaverResources", "SuperSaverResources\SuperSaverResources.vcproj", "{D0F1EE92-8A0E-47CB-AE26-D6DD1335A999}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{BF3C8595-2CF0-4933-8204-C2604F5BCD4D}.0 = {D0F1EE92-8A0E-47CB-AE26-D6DD1335A999}
+		{BF3C8595-2CF0-4933-8204-C2604F5BCD4D}.1 = {5ECBDDE0-FE92-4035-9681-D71A1D506DF1}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BF3C8595-2CF0-4933-8204-C2604F5BCD4D}.Debug.ActiveCfg = Debug|.NET
+		{BF3C8595-2CF0-4933-8204-C2604F5BCD4D}.Debug.Build.0 = Debug|.NET
+		{BF3C8595-2CF0-4933-8204-C2604F5BCD4D}.Release.ActiveCfg = Release|.NET
+		{BF3C8595-2CF0-4933-8204-C2604F5BCD4D}.Release.Build.0 = Release|.NET
+		{5ECBDDE0-FE92-4035-9681-D71A1D506DF1}.Debug.ActiveCfg = Debug|Win32
+		{5ECBDDE0-FE92-4035-9681-D71A1D506DF1}.Debug.Build.0 = Debug|Win32
+		{5ECBDDE0-FE92-4035-9681-D71A1D506DF1}.Release.ActiveCfg = Release|Win32
+		{5ECBDDE0-FE92-4035-9681-D71A1D506DF1}.Release.Build.0 = Release|Win32
+		{D0F1EE92-8A0E-47CB-AE26-D6DD1335A999}.Debug.ActiveCfg = Debug|Win32
+		{D0F1EE92-8A0E-47CB-AE26-D6DD1335A999}.Debug.Build.0 = Debug|Win32
+		{D0F1EE92-8A0E-47CB-AE26-D6DD1335A999}.Release.ActiveCfg = Release|Win32
+		{D0F1EE92-8A0E-47CB-AE26-D6DD1335A999}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

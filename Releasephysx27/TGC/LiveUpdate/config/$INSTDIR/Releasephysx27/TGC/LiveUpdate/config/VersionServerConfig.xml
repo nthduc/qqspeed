@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Server>
+    <versionserver version="1" count="5" SuccessfulServerID="1" SuccessfulPort="9080">
+        <server1 host="update.tgc.qq.com" />
+        <server2 host="112.90.86.18" />
+        <server3 host="113.108.78.42" />
+        <server4 host="101.226.46.103" />
+        <server5 host="111.161.54.30" />
+        <portlist count="3" port1="9080" port2="8080" port3="443" />
+    </versionserver>
+</Server>
+ 

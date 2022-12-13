@@ -1,0 +1,2260 @@
+<typelib name="res" >
+
+<macros>
+	<macro name="RES_ID_ARRAY" id="1" />
+	<macro name="RES_VERSION" id="1" />
+	<macro name="RES_MAGIC" id="0x5566" />
+	<macro name="RES_MAX_NAME_LEN" id="32" />
+	<macro name="RES_MAX_BIRTH_MAP" id="16" />
+	<macro name="RES_MAX_LDESC_LEN" id="256" />
+	<macro name="RES_TIP_DESC_LEN" id="512" />
+	<macro name="RES_MAX_DESC_LEN" id="128" />
+	<macro name="RES_MAX_DIALOG_LEN" id="64" />
+	<macro name="RES_MAX_HINT_LEN" id="128" />
+	<macro name="RES_MAX_RANDOM_ENTRIES" id="10" />
+	<macro name="RES_MAX_DROPITEMS" id="32" />
+
+	<macro name="RES_SUB_UNKNOWN" id="0" />
+	<macro name="RES_SUB_SYS" id="1" />
+	<macro name="RES_SUB_MON" id="2" />
+	<macro name="RES_SUB_MAKE" id="3" />
+	<macro name="RES_SUB_WORK" id="4" />
+	<macro name="RES_SUB_TASK" id="5" />
+	<macro name="RES_SUB_ITEM" id="6" />
+	<macro name="RES_SUB_REPAIR" id="7" />
+	<macro name="RES_SUB_TRANS" id="8" />
+	<macro name="RES_SUB_NPCDEAL" id="9" />
+	<macro name="RES_SUB_EXCHG" id="10" />
+	<macro name="RES_SUB_SHOP" id="11" />
+	<macro name="RES_SUB_MAIL" id="12" />
+	<macro name="RES_SUB_STASH" id="13" />
+	<macro name="RES_SUB_FAMILY" id="14" />
+	<macro name="RES_SUB_CONSIGN" id="15" />
+	<macro name="RES_SUB_ENCHASE" id="16" />
+	<macro name="RES_SUB_ACT" id="17" />
+	<macro name="RES_SUB_GM" id="18" />
+	<macro name="RES_SUB_PK" id="19" />
+	<macro name="RES_SUB_HAIR" id="20" />
+	<macro name="RES_SUB_SKILL" id="21" />
+	<macro name="RES_SUB_STEAL" id="22" />
+	<macro name="RES_SUB_MP" id="23" />
+	<macro name="RES_SUB_PET" id="24" />
+	<macro name="RES_SUB_PICKDROP" id="25" />
+	<macro name="RES_SUB_WEAR" id="26" />
+	<macro name="RES_SUB_MONKILL" id="27" />
+	<macro name="RES_SUB_SPLIT" id="28" />
+	<macro name="RES_SUB_CURMAX" id="29" />
+	<macro name="RES_SUB_MAX" id="32" />
+
+	<macro name="RES_MAX_FORGE_LEVEL" id="10" />
+
+	<macro name="RES_MAX_HOLES" id="5" />
+
+	<macro name="RES_MAX_PRACTISE_LEVEL" id="32" />
+	<macro name="RES_CUR_PRACTISE_LEVEL" id="10" />
+
+	<macro name="RES_MAX_PRACTISE_SKILL" id="32" />
+
+	<macro name="RES_MAX_PRACTISE_NAME" id="16" />
+
+	<macro name="RES_MAX_INITSKILL" id="8" />
+
+	<macro name="RES_MAX_LIFESKILL_GAIN" id="16" />
+	<macro name="RES_MAX_LIFESKILL_NAME_LEN" id="16" />
+
+	<macro name="RES_LIFESKILL_MIN" id="10" />
+	<macro name="RES_LIFESKILL_MINE" id="10" />
+	<macro name="RES_LIFESKILL_FISH" id="11" />
+	<macro name="RES_LIFESKILL_LUMBER" id="12" />
+	<macro name="RES_LIFESKILL_HERB" id="13" />
+	<macro name="RES_LIFESKILL_MAX" id="50" />
+
+	<macro name="RES_TYPE_TRAP" id="100" />
+
+	<macro name="RES_MAX_PET_EAT" id="6" />
+	<macro name="RES_MAX_PET_NICK_LEN" id="16" />
+	<macro name="RES_CUR_PET_NICK_LEN" id="12" />
+
+	<macro name="RES_MAX_FAM_POSNAME_LEN" id="16" />
+	<macro name="RES_CUR_FAM_POSNAME_LEN" id="12" />
+
+	<macro name="RES_MAX_LEVEL1_LEN" id="32" />
+	<macro name="RES_MAX_LEVEL2_LEN" id="64" />
+	<macro name="RES_MAX_HELP_LEN" id="1024" />
+
+	<macro name="RES_MAX_PET_INIT_SKILL" id="6" />
+
+	<macro name="RES_MAX_REQUIRE" id="4" />
+	<macro name="RES_MAX_MUSIC_LEN" id="16" />
+
+	<macro name="RES_MAX_ACTION_SKILL" id="16" />
+	<macro name="RES_MAX_ACTION_ITEM" id="16" />
+
+	<macro name="RES_MAX_AVATAR_LEN" id="16" />
+
+	<macro name="RES_SCRIPT_LEN" id="16" />
+
+	<macro name="RES_MAX_PSKILL" id="2" />
+	<macro name="RES_MAX_HSKILL" id="2" />
+	<macro name="RES_MAX_ASKILL" id="4" />
+
+	<macro name="RES_ATKTYPE_NEAR" id="0" />
+	<macro name="RES_ATKTYPE_FAR" id="1" />
+
+	<macro name="RES_CLASS_WEAPON" id="0" />
+	<macro name="RES_CLASS_DRESS" id="1" />
+	<macro name="RES_CLASS_COLLECT" id="2" />
+	<macro name="RES_CLASS_EXPEND" id="3" />
+	<macro name="RES_CLASS_MONEY" id="4" />
+
+	<macro name="RES_SCRIPT_NAME_LEN" id="32" />
+	<macro name="RES_MAX_SELL_ENTRY" id="120" />
+	<macro name="RES_MAX_EMOTION" id="16" />
+	<macro name="RES_MAX_CARD_COND" id="4" />
+
+	<macro name="RES_ARM_BARHAND" id="0" />
+	<macro name="RES_ARM_SPEAR" id="1" />
+	<macro name="RES_ARM_SINGLESWORD" id="2" />
+	<macro name="RES_ARM_DUALSWORD" id="4" />
+	<macro name="RES_ARM_SWORD" id="6" />
+	<macro name="RES_ARM_DAGGER" id="8" />
+	<macro name="RES_ARM_STAFF" id="16" />
+	<macro name="RES_ARM_THROW" id="32" />
+
+	<macro name="RES_ARM_MAX" id="100" />
+	<macro name="RES_TYPE_CARD" id="100" />
+
+	<macro name="RES_MAX_SKILL_ATTR" id="4" />
+	<macro name="RES_MAX_SKILL_SPEC" id="4" />
+	<macro name="RES_MAX_SKILL_DEPEND" id="4" />
+	<macro name="RES_MAX_SKILL_EXCEPT" id="2" />
+
+	<macro name="RES_SEX_MAN" id="1" />
+	<macro name="RES_SEX_WOMAN" id="2" />
+
+	<macro name="RES_TYPE_STR" id="1" />
+	<macro name="RES_TYPE_VIT" id="2" />
+	<macro name="RES_TYPE_INT" id="3" />
+
+	<macro name="RES_TYPE_MAX" id="6" />
+
+	<macro name="RES_MAX_TRANS_ENTRY" id="16" />
+
+	<macro name="RES_MAX_PERCENT" id="10000" />
+	<macro name="RES_MIN_PERCENT" id="-10000" />
+
+	<macro name="RES_MAX_MATERIAL" id="5" />
+	<macro name="RES_MAX_EXCEPT" id="40" />
+
+	<macro name="RES_MAX_CARD_RESULT" id="4" />
+	<macro name="RES_MAX_ZONE_RESULT" id="128" />
+
+	<macro name="RES_MAX_SYMBOL" id="8" />
+
+	<macro name="RES_UNIT_NUM" id="0" />
+	<macro name="RES_UNIT_PERCENT" id="1" />
+	<macro name="RES_UNIT_MSEC" id="2" />
+	<macro name="RES_UNIT_SEC" id="3" />
+	<macro name="RES_UNIT_LEVEL" id="4" />
+	<macro name="RES_UNIT_TENTHOUSAND" id="5" />
+	<macro name="RES_UNIT_PIXEL" id="6" />
+
+	<macro name="RES_SKILL_ATTACK_NONE" id="0" />
+	<macro name="RES_SKILL_ATTACK_PHYS" id="1" />
+	<macro name="RES_SKILL_ATTACK_MAGIC" id="2" />
+
+	<macro name="RES_SKILL_TARGET" id="1" />
+	<macro name="RES_SKILL_RANGE" id="2" />
+	<macro name="RES_SKILL_STRONG" id="17" />
+	<macro name="RES_SKILL_PASSIVE" id="18" />
+
+	<macro name="RES_RANGE_POINT" id="0" />
+	<macro name="RES_RANGE_RECT" id="1" />
+	<macro name="RES_RANGE_CIRCLE" id="2" />
+	<macro name="RES_RANGE_ARC" id="3" />
+
+	<macro name="RES_SKILL_SELF" id="1" />
+	<macro name="RES_SKILL_TEAM" id="3" />
+	<macro name="RES_SKILL_ENEMY" id="4" />
+	<macro name="RES_SKILL_LORD" id="8" />
+	<macro name="RES_SKILL_PET" id="16" />
+	<macro name="RES_SKILL_NOTARGET" id="32" />
+	<macro name="RES_SKILL_ALL" id="63" />
+
+	<macro name="RES_MAX_TITLE_ENTRY" id="16" />
+	<macro name="RES_CUR_TITLE_ENTRY" id="11" />
+
+	<macro name="RES_PROF_NEWBIE" id="0" />
+	<macro name="RES_PROF_WARRIOR" id="1" />
+	<macro name="RES_PROF_SWORDMAN" id="2" />
+	<macro name="RES_PROF_STABBER" id="3" />
+	<macro name="RES_PROF_DRUGGIST" id="4" />
+	<macro name="RES_PROF_MAGICIAN" id="5" />
+	<macro name="RES_MAX_PROF" id="6" />
+
+	<macro name="RES_CAT_UNKNOWN" id="0" />
+	<macro name="RES_CAT_FACE" id="1" />
+	<macro name="RES_CAT_HAT" id="2" />
+	<macro name="RES_CAT_NECKLACE" id="3" />
+	<macro name="RES_CAT_WEAPON" id="4" />
+	<macro name="RES_CAT_SHIELD" id="5" />
+	<macro name="RES_CAT_GLOVE" id="6" />
+	<macro name="RES_CAT_RING" id="7" />
+	<macro name="RES_CAT_DRESS" id="8" />
+	<macro name="RES_CAT_SHOE" id="9" />
+	<macro name="RES_CAT_BAG" id="10" />
+	<macro name="RES_CAT_PET" id="11" />
+	<macro name="RES_CAT_FLYER" id="12" />
+	<macro name="RES_CAT_DUALWEAPON" id="13" />
+
+	<macro name="RES_DFT_SUITID" id="2801" />
+
+	<macro name="RES_MAX_REFINE_RESULT" id="4" />
+
+	<macro name="RES_MAX_TRAP_RESULT" id="8" />
+
+	<macro name="RES_MAX_SKILL_LEVEL" id="99" />
+	<macro name="RES_CUR_SKILL_LEVEL" id="5" />
+	<macro name="RES_MAX_SKILL_SUIT" id="16" />
+	<macro name="RES_MAX_SKILL_RESULT" id="8" />
+
+	<macro name="RES_MAX_EXCEPT_LEVEL" id="64" />
+	<macro name="RES_CUR_EXCEPT_LEVEL" id="20" />
+	<macro name="RES_MAX_EXCEPT_RESULT" id="4" />
+
+	<macro name="RES_EXCEPT_MUTABLE" id="0" />
+	<macro name="RES_EXCEPT_COEXIST" id="1" />
+	<macro name="RES_EXCEPT_COUNTERACT" id="2" />
+	<macro name="RES_EXCEPT_REPLACE" id="3" />
+
+	<macro name="RES_SCENE_NORMAL" id="0" />
+	<macro name="RES_SCENE_PICK" id="1" />
+	<macro name="RES_SCENE_ENEMY" id="2" />
+	<macro name="RES_SCENE_ATTACK" id="3" />
+	<macro name="RES_SCENE_BEHIT" id="4" />
+	<macro name="RES_SCENE_DEFEAT" id="5" />
+	<macro name="RES_SCENE_DIE" id="6" />
+	<macro name="RES_SCENE_RUNAWAY" id="7" />
+
+	<macro name="RES_EXCEPT_SPIRIT" id="0" />
+	<macro name="RES_EXCEPT_POISON" id="1" />
+	<macro name="RES_EXCEPT_COMA" id="2" />
+	<macro name="RES_EXCEPT_SILENCE" id="3" />
+	<macro name="RES_EXCEPT_ICE" id="4" />
+	<macro name="RES_EXCEPT_STONE" id="5" />
+	<macro name="RES_EXCEPT_WEAK" id="6" />
+	<macro name="RES_EXCEPT_MAGIC_DOWN" id="7" />
+	<macro name="RES_EXCEPT_BLINK" id="8" />
+	<macro name="RES_EXCEPT_SPEED_DOWN" id="9" />
+
+	<macro name="RES_EXCEPT_ATTACK_REBOUND" id="10" />
+	<macro name="RES_EXCEPT_MAGIC_REBOUND" id="11" />
+	<macro name="RES_EXCEPT_IRON" id="12" />
+	<macro name="RES_EXCEPT_FRENZY" id="13" />
+	<macro name="RES_EXCEPT_STRONG" id="14" />
+	<macro name="RES_EXCEPT_MAGIC_UP" id="15" />
+	<macro name="RES_EXCEPT_SPEED_UP" id="16" />
+	<macro name="RES_EXCEPT_SMART" id="17" />
+	<macro name="RES_EXCEPT_POISONIT" id="18" />
+	<macro name="RES_EXCEPT_DEFADD" id="19" />
+	<macro name="RES_EXCEPT_ASPDADD" id="20" />
+	<macro name="RES_EXCEPT_HURTABSORB" id="21" />
+	<macro name="RES_EXCEPT_NOBAD" id="22" />
+	<macro name="RES_EXCEPT_ADDHP" id="23" />
+	<macro name="RES_EXCEPT_ADDSP" id="24" />
+	<macro name="RES_EXCEPT_KILL" id="25" />
+	<macro name="RES_EXCEPT_CENTRALIZE" id="26" />
+	<macro name="RES_EXCEPT_BURST" id="27" />
+	<macro name="RES_EXCEPT_REAL" id="28" />
+	<macro name="RES_EXCEPT_NOGOOD" id="29" />
+
+	<macro name="RES_EXCEPT_SERVER" id="30" />
+	<macro name="RES_EXCEPT_LIFEABSORB" id="30" />
+	<macro name="RES_EXCEPT_MAGICABSORB" id="31" />
+	<macro name="RES_EXCEPT_HIDDEN" id="32" />
+	<macro name="RES_EXCEPT_COUNTERATTACK" id="33" />
+	<macro name="RES_EXCEPT_STAMP" id="34" />
+	<macro name="RES_EXCEPT_PK" id="35" />
+	<macro name="RES_EXCEPT_BURN" id="36" />
+	<macro name="RES_EXCEPT_FIRESHIELD" id="37" />
+	<macro name="RES_EXCEPT_ICESHIELD" id="38" />
+
+	<macro name="RES_TARGET_SELF" id="0" />
+	<macro name="RES_TARGET_PEER" id="1" />
+
+	<macro name="RES_FORMAT_MAX" id="1" />
+	<macro name="RES_FORMAT_ZERO" id="2" />
+	<macro name="RES_FORMAT_MAGREBOUND" id="3" />
+	<macro name="RES_FORMAT_ATKREBOUND" id="4" />
+	<macro name="RES_FORMAT_HPABSORB" id="5" />
+	<macro name="RES_FORMAT_SPABSORB" id="6" />
+	<macro name="RES_FORMAT_DEAD" id="7" />
+	<macro name="RES_FORMAT_ATK2HP" id="8" />
+	<macro name="RES_FORMAT_SP2HURT" id="9" />
+	<macro name="RES_FORMAT_STEAL" id="10" />
+	<macro name="RES_FORMAT_HURT" id="11" />
+	<macro name="RES_FORMAT_HURTREBOUND" id="12" />
+	<macro name="RES_FORMAT_ATK2SP" id="13" />
+	<macro name="RES_FORMAT_ATK" id="14" />
+	<macro name="RES_FORMAT_DIST" id="15" />
+
+	<macro name="RES_RACE_ATK_START" id="1" />
+
+	<macro name="RES_RACE_NONE" id="0" />
+	<macro name="RES_RACE_WATER" id="1" />
+	<macro name="RES_RACE_EARTH" id="2" />
+	<macro name="RES_RACE_FIRE" id="3" />
+	<macro name="RES_RACE_WIND" id="4" />
+	<macro name="RES_RACE_THUNDER" id="5" />
+	<macro name="RES_RACE_SAGE" id="6" />
+	<macro name="RES_RACE_DARK" id="7" />
+
+	<macro name="RES_RACE_ATK_END" id="8" />
+
+	<macro name="RES_RACE_CLS_START" id="8" />
+
+	<macro name="RES_RACE_DRAGON" id="8" />
+	<macro name="RES_RACE_INSECT" id="9" />
+	<macro name="RES_RACE_MACHINE" id="10" />
+	<macro name="RES_RACE_IMMORTAL" id="11" />
+	<macro name="RES_RACE_TERRAN" id="12" />
+	<macro name="RES_RACE_ANIMAL" id="13" />
+	<macro name="RES_RACE_PLANT" id="14" />
+	<macro name="RES_RACE_AQUATIC" id="15" />
+	<macro name="RES_RACE_ANGEL" id="16" />
+	<macro name="RES_RACE_GHOST" id="17" />
+
+	<macro name="RES_RACE_CLS_END" id="18" />
+	<macro name="RES_MAX_RACE" id="20" />
+
+    <macro name="RES_WORK_IDLE" id="0" />
+    <macro name="RES_WORK_CLEAN" id="1" />
+    <macro name="RES_WORK_WASH" id="2" />
+    <macro name="RES_WORK_HOMEWORK" id="3" />
+    <macro name="RES_WORK_SALE" id="4" />
+    <macro name="RES_WORK_INCHARGE" id="5" />
+    <macro name="RES_WORK_ARRANGE" id="6" />
+    <macro name="RES_WORK_GUARD" id="7" />
+    <macro name="RES_WORK_MAKE" id="8" />
+    <macro name="RES_WORK_REFINE" id="9" />
+    <macro name="RES_WORK_MINE" id="10" />
+    <macro name="RES_WORK_FISH" id="11" />
+
+    <macro name="RES_BONUS_MONEY" id="1" />
+    <macro name="RES_BONUS_ITEM" id="2" />
+    <macro name="RES_BONUS_EXP" id="3" />
+    <macro name="RES_BONUS_HONOR" id="4" />
+
+    <macro name="RES_MAX_WORK_BONUS" id="10" />
+    <macro name="RES_MAX_WORK_DESC_LEN" id="32" />
+
+    <macro name="RES_MAX_MP_BONUS" id="4" />
+
+    <macro name="MAX_PRENTICE_NUMBER" id="100000" />
+    <macro name="MAX_MORAL_TITLE_LEN" id="32" />
+
+    <macro name="RES_STATUS_MIN" id="0" />
+    <macro name="RES_STATUS_STAND" id="0" />
+    <macro name="RES_STATUS_MOVE" id="1" />
+    <macro name="RES_STATUS_SEAT" id="2" />
+    <macro name="RES_STATUS_DEAD" id="3" />
+    <macro name="RES_STATUS_ATTACK" id="4" />
+    <macro name="RES_STATUS_BEATTACK" id="5" />
+    <macro name="RES_STATUS_SING" id="6" />
+    <macro name="RES_STATUS_WORK" id="7" />
+    <macro name="RES_STATUS_MAKE" id="8" />
+    <macro name="RES_STATUS_REFINE" id="9" />
+    <macro name="RES_STATUS_NPCDLG" id="10" />
+    <macro name="RES_STATUS_NPCDEAL" id="11" />
+    <macro name="RES_STATUS_PLAYERDEAL" id="12" />
+    <macro name="RES_STATUS_PLAYERSHOP" id="13" />
+    <macro name="RES_STATUS_STASH" id="14" />
+    <macro name="RES_STATUS_HORSE" id="15" />
+    <macro name="RES_STATUS_TRANS" id="16" />
+    <macro name="RES_STATUS_MAX" id="17" />
+
+    <macro name="RES_ACTION_MIN" id="0" />
+    <macro name="RES_ACTION_STAND" id="0" />
+    <macro name="RES_ACTION_MOVE" id="1" />
+    <macro name="RES_ACTION_SEAT" id="2" />
+    <macro name="RES_ACTION_DEAD" id="3" />
+    <macro name="RES_ACTION_ATTACK" id="4" />
+    <macro name="RES_ACTION_BEATTACK" id="5" />
+    <macro name="RES_ACTION_SING" id="6" />
+    <macro name="RES_ACTION_USEITEM" id="7" />
+    <macro name="RES_ACTION_PICKITEM" id="8" />
+    <macro name="RES_ACTION_DROPITEM" id="9" />
+    <macro name="RES_ACTION_WEARARM" id="10" />
+    <macro name="RES_ACTION_WORK" id="11" />
+    <macro name="RES_ACTION_MAKE" id="12" />
+    <macro name="RES_ACTION_REFINE" id="13" />
+    <macro name="RES_ACTION_NPCDLG" id="14" />
+    <macro name="RES_ACTION_NPCDEAL" id="15" />
+    <macro name="RES_ACTION_PLAYERDEAL" id="16" />
+    <macro name="RES_ACTION_PLAYERSHOP" id="17" />
+    <macro name="RES_ACTION_HORSE" id="18" />
+    <macro name="RES_ACTION_TRANS" id="19" />
+    <macro name="RES_ACTION_CONSIGN" id="20" />
+    <macro name="RES_ACTION_MAIL" id="21" />
+    <macro name="RES_ACTION_MAX" id="22" />
+
+    <macro name="RES_ACTION_NO" id="0" />
+    <macro name="RES_ACTION_YES" id="1" />
+    <macro name="RES_ACTION_SWITCH" id="2" />
+    <macro name="RES_ACTION_SPEC" id="3" />
+    <macro name="RES_ACTION_NA" id="10" />
+   
+    <macro name="RES_PET_GRASS" id="1" /> 
+    <macro name="RES_PET_FLESH" id="2" />
+    <macro name="RES_PET_MIX" id="3" />
+    <macro name="RES_MAX_PET_LEARNNO" id="6" />
+
+	<macro name="RES_PET_MALE" id="1" />
+	<macro name="RES_PET_FEMALE" id="2" />
+	<macro name="RES_PET_NEUTER" id="3" />
+
+	<macro name="RES_PET_USESKILL" id="1" />
+	<macro name="RES_PET_PREPSKILLSUCC" id="2" />
+	<macro name="RES_PET_CANCELSKILL" id="3" />
+	<macro name="RES_PET_GAINSKILL" id="4" />
+	<macro name="RES_PET_BEHIT" id="5" />
+	<macro name="RES_PET_OVERWEIGHT" id="6" />
+	<macro name="RES_PET_STARVE" id="7" />
+	<macro name="RES_PET_TRUST" id="8" />
+	<macro name="RES_PET_EAT" id="9" />
+	<macro name="RES_PET_ADDHP" id="10" />
+	<macro name="RES_PET_ADDSP" id="11" />
+	<macro name="RES_PET_LEVELUP" id="12" />
+	<macro name="RES_PET_LEVELFULL" id="13" />
+	<macro name="RES_PET_SKILLFULL" id="14" />
+	<macro name="RES_PET_CHGNICK" id="15" />
+	<macro name="RES_PET_CHG" id="16" />
+	<macro name="RES_PET_SPECIAL" id="17" />
+	<macro name="RES_PET_RUN" id="18" />
+	<macro name="RES_PET_STAND" id="19" />
+
+	<macro name="RES_PET_STAT_FILL" id="1" />
+	<macro name="RES_PET_STAT_HALFFILL" id="2" />
+	<macro name="RES_PET_STAT_STARVE" id="3" />
+	<macro name="RES_PET_STAT_HALFSTARVE" id="4" />
+
+	<macro name="RES_PET_STAT_FULLHP" id="1" />
+	<macro name="RES_PET_STAT_NONFULLHP" id="0" />
+
+	<macro name="RES_PET_STAT_FULLSP" id="1" />
+	<macro name="RES_PET_STAT_NONFULLSP" id="0" />
+
+	<macro name="RES_PET_STAT_GAINSKILL" id="1" />
+	<macro name="RES_PET_STAT_NOGAINSKILL" id="0" />
+
+	<macro name="RES_PET_STAT_CHGSUCC" id="1" />
+	<macro name="RES_PET_STAT_CHGSTOP" id="2" />
+
+	<macro name="RES_MAX_PET_SPEAKS" id="4" />
+	<macro name="RES_MAX_PET_SPEAK_LEN" id="64" />
+
+	<macro name="RES_MAX_PRETASK_NUM" id="5" />
+	<macro name="RES_MAX_TRACE_ITEM" id="5" />
+	<macro name="RES_MAX_TRACE_MONSTER" id="5" />
+</macros>
+
+<type name="ResHead" >
+	<item name="Magic" type="int" />
+	<item name="Version" type="int" />
+	<item name="Unit" type="int" />
+	<item name="Count" type="int" />
+</type >
+
+<type name="ResScriptIndex" >
+	<item name="Name" type="string" count="RES_SCRIPT_NAME_LEN" />
+	<item name="ScriptType" type="char" />
+	<item name="Pos" type="short" />
+</type >
+
+<type name="ResCond" >
+	<item name="Type" type="char" />
+</type>
+
+<type name="ResResult" >
+	<item name="Format" type="short" />
+	<item name="Oper" type="char" />
+	<item name="Attr" type="uchar" />
+	<item name="Unit" type="char" />
+	<item name="Succ" type="uchar" />
+	<item name="Value" type="short" />
+</type>
+
+<type name="ResSkillResult" >
+	<item name="Format" type="short" />
+	<item name="Oper" type="char" />
+	<item name="Attr" type="uchar" />
+	<item name="Unit" type="char" />
+	<item name="Succ" type="uchar" />
+	<item name="Value" type="short" />
+	<item name="UnitAdd" type="char" />
+	<item name="SuccAdd" type="uchar" />
+	<item name="ValueAdd" type="short" />
+	<item name="NeedSkill" type="short" />
+	<item name="Res" type="short" />
+</type>
+
+<type name="ZoneResult" >
+	<item name="conds" type="ResCond" count="RES_MAX_CARD_COND" />
+	<item name="Result" type="ResResult" />
+</type>
+
+<type name="ZoneResultList" >
+	<item name="Immune" type="char" count="RES_MAX_EXCEPT" />
+	<item name="Count" type="int" />
+	<item name="results" type="ZoneResult" count="RES_MAX_ZONE_RESULT" refer="Count" />
+</type>
+
+<type name="ZoneTimedExcept" >
+	<item name="ExpTime" type="long" />
+	<item name="Level" type="char" />
+	<item name="Succ" type="uchar" />
+	<item name="PLevel" type="char" />
+	<item name="PSucc" type="uchar" />
+</type>
+
+<type name="ZoneTimedExceptList" >
+	<item name="Count" type="int" />
+	<item name="excepts" type="ZoneTimedExcept" count="RES_MAX_EXCEPT" refer="Count" />
+</type>
+
+<type name="ResArmAttr" >
+	<item name="ID" type="short" />
+	<item name="Rate" type="short" />
+</type>
+
+<type name="ResArmHole" >
+	<item name="Hole" type="char" />
+	<item name="Res" type="char" />
+	<item name="Rate" type="short" />
+</type>
+
+<type name="ResArmLevel" >
+	<item name="Level" type="char" />
+	<item name="Res" type="char" />
+	<item name="Rate" type="short" />
+</type>
+
+<type name="ResArm" >
+	<item name="Index" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="Script" type="string" count="RES_SCRIPT_LEN" />
+
+	<item name="Category" type="uchar" desc="position" />
+	<item name="Type" type="char" desc="arm class" />
+	<item name="AtkType" type="char" />
+	<item name="Level" type="uchar" />
+
+	<item name="Number" type="ushort" />
+
+	<item name="MinAtk" type="short" />
+	<item name="MaxAtk" type="short" />
+
+	<item name="AtkDist" type="short" />
+	<item name="Def" type="short" />
+	<item name="Matk" type="short" />
+	<item name="Mdef" type="short" />
+
+	<item name="HitRate" type="short" />
+	<item name="Flee" type="short" />
+
+	<item name="MaxWeight" type="short" />
+	<item name="Weight" type="ushort" />
+	<item name="SellPrice" type="uint" />
+	<item name="BuyPrice" type="uint" />
+
+	<item name="LevelNeed" type="short" />
+
+	<item name="StrNeed" type="short" />
+	<item name="VitNeed" type="short" />
+	<item name="AgiNeed" type="short" />
+	<item name="IntNeed" type="short" />
+	<item name="DexNeed" type="short" />
+	<item name="LukNeed" type="short" />
+
+	<item name="Str" type="short" />
+	<item name="Vit" type="short" />
+	<item name="Agi" type="short" />
+	<item name="Int" type="short" />
+	<item name="Dex" type="short" />
+	<item name="Luk" type="short" />
+
+	<item name="CanPile" type="char" />
+	<item name="CanBuy" type="char" />
+	<item name="CanDeal" type="char" />
+	<item name="CanDrop" type="char" />
+
+	<item name="Enchase" type="char" />
+
+	<item name="DropLost" type="char" />
+	<item name="UseWaste" type="char" />
+	<item name="OfflineLost" type="char" />
+	<item name="SwitchLost" type="char" />
+	<item name="Unique" type="char" />
+
+	<item name="Duration" type="ushort" />
+
+	<item name="Dragon" type="char" />
+	<item name="Insect" type="char" />
+	<item name="Machine" type="char" />
+	<item name="Immortal" type="char" />
+	<item name="Terran" type="char" />
+	<item name="Animal" type="char" />
+	<item name="Plant" type="char" />
+	<item name="Aquatic" type="char" />
+	<item name="Angel" type="char" />
+	<item name="Ghost" type="char" />	
+
+	<item name="BeDragon" type="char" />
+	<item name="BeInsect" type="char" />
+	<item name="BeMachine" type="char" />
+	<item name="BeImmortal" type="char" />
+	<item name="BeTerran" type="char" />
+	<item name="BeAnimal" type="char" />
+	<item name="BePlant" type="char" />
+	<item name="BeAquatic" type="char" />
+	<item name="BeAngel" type="char" />
+	<item name="BeGhost" type="char" />
+
+	<item name="None" type="char" />
+	<item name="Water" type="char" />
+	<item name="Earth" type="char" />
+	<item name="Fire" type="char" />
+	<item name="Wind" type="char" />
+	<item name="Thunder" type="char" />
+	<item name="Sage" type="char" />
+	<item name="Dark" type="char" />
+
+	<item name="BeNone" type="char" />
+	<item name="BeWater" type="char" />
+	<item name="BeEarth" type="char" />
+	<item name="BeFire" type="char" />
+	<item name="BeWind" type="char" />
+	<item name="BeThunder" type="char" />
+	<item name="BeSage" type="char" />
+	<item name="BeDark" type="char" />
+
+	<item name="Sex" type="char" />
+	<item name="NoFight" type="char" />
+
+	<item name="CanRepair" type="char" />
+	<item name="CanSpecRepair" type="char" />
+	<item name="DisappearIfZero" type="char" />
+	<item name="NoLimitDuration" type="char" />
+	
+	<item name="AttackConsume" type="short" />
+	<item name="BeHitConsume" type="short" />
+	<item name="DeadConsume" type="short" />
+	<item name="TimeConsume" type="short" />
+
+	<item name="RepairConsume" type="short" />
+	<item name="SpecRepairConsume" type="short" />
+
+	<item name="CanMail" type="char" />
+	<item name="NoTypeDrop" type="char" />
+
+	<item name="Spi" type="short" />
+	<item name="SpiNeed" type="short" />
+
+	<item name="Newbie" type="char" />
+	<item name="Warrior" type="char" />
+	<item name="Swordman" type="char" />
+	<item name="Stabber" type="char" />
+	<item name="Druggist" type="char" />
+	<item name="Magician" type="char" />
+
+	<item name="InitAttrs" type="ResArmAttr" count="RES_MAX_HOLES" />
+	<item name="InitHole" type="ResArmHole" />
+	<item name="InitLevel" type="ResArmLevel" />
+</type>
+
+<type name="ResArmTab" >
+	<item name="Total" type="int" />
+	<item name="arms" type="ResArm" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResItem" >
+	<item name="Index" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="Script" type="string" count="RES_SCRIPT_LEN" />
+
+	<item name="Category" type="uchar" />
+	<item name="Level" type="uchar" />
+
+	<item name="CanPile" type="char" />
+	<item name="CanBuy" type="char" />
+	<item name="CanDeal" type="char" />
+	<item name="CanDrop" type="char" />
+
+	<item name="Weight" type="ushort" />
+	<item name="SellPrice" type="uint" />
+	<item name="BuyPrice" type="uint" />
+
+	<item name="DropLost" type="char" />
+	<item name="DropEvent" type="char" />
+	<item name="UseWaste" type="char" />
+	<item name="OfflineLost" type="char" />
+	<item name="SwitchLost" type="char" />
+	<item name="Unique" type="char" />
+
+	<item name="Enchase" type="char" />
+	<item name="Refine" type="char" />
+
+	<item name="NewUnion" type="char" />
+	<item name="Revive" type="char" />
+	<item name="Fly" type="char" />
+	<item name="Home" type="char" />
+
+	<item name="Recall" type="char" />
+	<item name="Fate" type="char" />
+	<item name="Identify" type="char" />
+	<item name="Repair" type="char" />
+
+	<item name="Silence" type="char" />
+	<item name="Defense" type="char" />
+	<item name="Speed" type="char" />
+	<item name="Restore" type="char" />
+
+	<item name="Sleep" type="char" />
+	<item name="Poison" type="char" />
+
+	<item name="Combine" type="char" />
+	<item name="EnchasePos" type="char" />
+	<item name="OtherUse" type="char" />
+	<item name="SelfUse" type="char" />
+
+	<item name="Size" type="short" />
+	<item name="Dir" type="short" />
+
+	<item name="Volume" type="short" />
+	<item name="LevelNeed" type="short" />
+	<item name="SkillId" type="short" />
+
+	<item name="conds" type="ResCond" count="RES_MAX_CARD_COND" />
+	<item name="results" type="ResResult" count="RES_MAX_CARD_RESULT" />
+
+	<item name="CanMail" type="char" />
+	<item name="NoTypeDrop" type="char" />
+</type>
+
+<type name="ResItemTab" >
+	<item name="Total" type="int" />
+	<item name="items" type="ResItem" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResDesc" >
+	<item name="Index" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="Avatar" type="string" count="RES_MAX_AVATAR_LEN" />
+
+	<item name="BigMap" type="int" />
+	<item name="SmallMap" type="int" />
+
+	<item name="Category" type="uchar" />
+	<item name="Level" type="uchar" />
+	<item name="Type" type="char" />
+	<item name="NoFight" type="char" />
+
+	<item name="CanPile" type="char" />
+	<item name="CanBuy" type="char" />
+	<item name="CanDeal" type="char" />
+	<item name="CanDrop" type="char" />
+
+	<item name="Weight" type="ushort" />
+	<item name="SelfUse" type="char" />
+	<item name="OtherUse" type="char" />
+	<item name="LevelNeed" type="short" />
+	<item name="AtkDist" type="short" />
+	<item name="Desc" type="string" count="RES_TIP_DESC_LEN" />
+	<item name="SellPrice" type="int" />
+
+	<item name="CanMail" type="char" />
+	<item name="Res" type="char" />
+	<item name="Newbie" type="char" />
+	<item name="Warrior" type="char" />
+	<item name="Swordman" type="char" />
+	<item name="Stabber" type="char" />
+	<item name="Druggist" type="char" />
+	<item name="Magician" type="char" />
+
+	<item name="AtkType" type="char" />
+
+	<item name="UseSound" type="int" />
+	<item name="SetSound" type="int" />
+</type>
+
+<type name="ResDescTab" >
+	<item name="Total" type="int" />
+	<item name="descs" type="ResDesc" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResRandomEntry" >
+	<item name="Str" type="char" />
+	<item name="Vit" type="char" />
+	<item name="Agi" type="char" />
+	<item name="Int" type="char" />
+	<item name="Dex" type="char" />
+	<item name="Luk" type="char" />
+
+	<item name="Hit" type="char" />
+	<item name="Cri" type="char" />
+	<item name="Flee" type="char" />
+	<item name="FullFlee" type="char" />
+	<item name="Aspd" type="char" />
+	<item name="Enchase" type="char" />
+	<item name="FirstChance" type="int" />
+	<item name="SecondChance" type="int" />
+
+	<item name="Atk" type="short" />
+	<item name="Matk" type="short" />
+	<item name="Def" type="short" />
+	<item name="Mdef" type="short" />
+
+</type>
+
+<type name="ResRandom" >
+	<item name="Index" type="int" />
+	<item name="entries" type="ResRandomEntry" count="RES_MAX_RANDOM_ENTRIES" />
+</type>
+
+<type name="ResRandomTab" >
+	<item name="Total" type="int" />
+	<item name="randoms" type="ResRandom" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResDrop" >
+	<item name="Type" type="char" />
+	<item name="MinLevel" type="char" />
+	<item name="MaxLevel" type="char" />
+	<item name="Res" type="char" />
+	<item name="Index" type="short" />
+	<item name="Res2" type="short" />
+	<item name="Prob" type="int" />
+</type>
+
+<type name="ResMonASkill" >
+	<item name="ID" type="short" />
+	<item name="Pos" type="short" />
+	<item name="Level" type="char" />
+	<item name="Rate" type="char" />
+	<item name="Speed" type="short" />
+</type>
+
+<type name="ResMonHSkill" >
+	<item name="ID" type="short" />
+	<item name="Pos" type="short" />
+	<item name="Level" type="char" />
+	<item name="Rate" type="char" />
+	<item name="Speed" type="short" />
+</type>
+
+<type name="ResMonPSkill" >
+	<item name="ID" type="short" />
+	<item name="Pos" type="short" />
+	<item name="Level" type="char" />
+	<item name="Rate" type="char" />
+	<item name="Speed" type="short" />
+</type>
+
+<type name="ResMonster" >
+	<item name="Index" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="Exp" type="int" />
+	<item name="Level" type="uchar" />
+	<item name="Race" type="char" />
+	<item name="Class" type="char" />
+	<item name="AtkType" type="char" />
+	<item name="HP" type="int" />
+	<item name="MinAtk" type="short" />
+	<item name="MaxAtk" type="short" />
+	<item name="Def" type="short" />
+	<item name="HitRate" type="short" />
+	<item name="Flee" type="short" />
+	<item name="Luk" type="short" />
+	<item name="MinMatk" type="short" />
+	<item name="MaxMatk" type="short" />
+	<item name="Mdef" type="short" />
+	<item name="MoveSpeed" type="short" />
+	<item name="AtkSpeed" type="short" />
+	<item name="PSkill" type="ResMonPSkill" count="RES_MAX_PSKILL" />
+	<item name="HSkill" type="ResMonHSkill" count="RES_MAX_HSKILL" />
+	<item name="ASkill" type="ResMonASkill" count="RES_MAX_ASKILL" />
+	<item name="MagicReact" type="char" />
+	<item name="RevivalReact" type="char" />
+	<item name="PatrolDist" type="short" />
+	<item name="ViewDist" type="short" />
+	<item name="RunawayDist" type="short" />
+	<item name="TraceDist" type="short" />
+	<item name="drops" type="ResDrop" count="RES_MAX_DROPITEMS" />
+	<item name="ScriptIdx" type="ResScriptIndex" />
+	<item name="ScriptFile" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="InitScript" type="char" />
+	<item name="DeathScript" type="char" />
+	<item name="ReviveScript" type="char" />
+	<item name="BeHitScript" type="char" />
+	<item name="RunMeetPatrol" type="char" />
+	<item name="RunHurtPatrol" type="char" />
+	<item name="AttackPatrol" type="char" />
+	<item name="ReactPatrol" type="char" />
+	<item name="PickPatrol" type="char" />
+	<item name="HelpPatrol" type="char" />
+	<item name="RunHurtAttack" type="char" />
+	<item name="RecordAttacker" type="char" />
+	<item name="RefreshTime" type="short" />
+	<item name="Dimension" type="short" />
+	<item name="AtkDist" type="short" />
+	<item name="Type" type="char" />
+	<item name="MaxDropArm" type="char" />
+	<item name="RecallDist" type="short" />
+	<item name="BirthDist" type="short" />
+	<item name="FollowLordID" type="short" />
+	<item name="FollowLordDist" type="short" />
+	<item name="ActDist" type="short" />
+	<item name="BossRate" type="int" />
+	<item name="BossIndex" type="int" />
+	<item name="ExpNoDec" type="char" />
+	<item name="DropNoDec" type="char" />
+</type>
+
+<type name="ResMonsterTab" >
+	<item name="Total" type="int" />
+	<item name="monsters" type="ResMonster" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResCMon" >
+	<item name="Index" type="int" />
+	<item name="MapID" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="Type" type="char" />
+	<item name="Res" type="char" />
+	<item name="ActDist" type="short" />
+</type>
+
+<type name="ResCMonTab" >
+	<item name="Total" type="int" />
+	<item name="cmons" type="ResCMon" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResSellEntry" >
+	<item name="Index" type="int" />
+</type>
+
+<type name="ResSellList" >
+	<item name="Index" type="int" />
+	<item name="entries" type="ResSellEntry" count="RES_MAX_SELL_ENTRY" />
+</type>
+
+<type name="ResSellListTab" >
+	<item name="Total" type="int" />
+	<item name="lists" type="ResSellList" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResSkillSuit" >
+	<item name="SuitID" type="int" />
+</type>
+
+<type name="ResSkillAttr" >
+	<item name="Attr" type="char" />
+</type>
+
+<type name="ResSkillSpec" >
+	<item name="Spec" type="char" />
+</type>
+
+<type name="ResSkillDepend" >
+	<item name="ID" type="short" />
+	<item name="Level" type="char" />
+	<item name="Res" type="char" />
+</type>
+
+<type name="ResSkillExcept" >
+	<item name="ID" type="short" />
+	<item name="Res" type="short" />
+</type>
+
+<type name="ResSkill" >
+	<item name="SkillID" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN"/>
+	<item name="LevelNeed" type="short" />
+	<item name="LevelNeedAdd" type="short" />
+	<item name="ArmType" type="char" />
+	<item name="TargetSelf" type="char" />
+	<item name="TargetTeam" type="char" />
+	<item name="TargetEnemy" type="char" />
+	<item name="TargetLord" type="char" />
+	<item name="TargetPet" type="char" />
+	<item name="Res1" type="short" />
+	<item name="CanNoTarget" type="char" />
+	<item name="NoMiss" type="char" />
+	<item name="LearnSucc" type="short" />
+	<item name="AttackType" type="char" />
+	<item name="SkillType" type="char" />
+	<item name="Prof" type="char" />
+	<item name="RangeType" type="char" />
+	<item name="Radius" type="short" />
+	<item name="Angle" type="short" />
+	<item name="Dist" type="short" />
+	<item name="Width" type="short" />
+	<item name="Height" type="short" />
+	<item name="Item" type="short" />
+	<item name="OtherPrepare" type="short" />
+	<item name="Prepare" type="short" />
+	<item name="PrepareAdd" type="short" />
+	<item name="Action" type="short" />
+	<item name="ActionAdd" type="short" />
+	<item name="OtherSep" type="short" />
+	<item name="Sep" type="short" />
+	<item name="SepAdd" type="short" />
+	<item name="SP" type="short" />
+	<item name="SPAdd" type="short" />
+	<item name="SuccRate" type="uchar" />
+	<item name="SuccRateAdd" type="uchar" />
+
+	<item name="Duration" type="short" />
+	<item name="DurationAdd" type="short" />
+
+	<item name="StatusNeed" type="uchar" />
+	<item name="DoAttack" type="char" />
+
+	<item name="OtherLearn" type="char" />
+	<item name="OtherLearnLimit" type="char" />
+
+	<item name="Attr" type="ResSkillAttr" count="RES_MAX_SKILL_ATTR" />
+	<item name="Spec" type="ResSkillSpec" count="RES_MAX_SKILL_SPEC" />
+	<item name="Depend" type="ResSkillDepend" count="RES_MAX_SKILL_DEPEND" />
+	<item name="Except" type="ResSkillExcept" count="RES_MAX_SKILL_EXCEPT" />
+
+	<item name="results" type="ResSkillResult" count="RES_MAX_SKILL_RESULT" />
+	<item name="DependOp" type="char" />
+	<item name="Res2" type="char" />
+	<item name="BookID" type="short" />
+	<item name="MaxPractise" type="short" />
+	<item name="LearnPoint" type="char" />
+	<item name="Res3" type="char" />
+	<item name="LearnMoney" type="int" />
+	<item name="SPChgStart" type="short" />
+	<item name="SPChgControl" type="char" />
+	<item name="SPChgPoint" type="char" />
+	<item name="ManaNeed" type="short" />
+	<item name="ManaNeedAdd" type="short" />
+	<item name="StaminaNeed" type="short" />
+	<item name="StaminaNeedAdd" type="short" />
+</type>
+
+<type name="ResSkillTab" >
+	<item name="Total" type="int" />
+	<item name="skills" type="ResSkill" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResSkillDesc" >
+	<item name="SkillID" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN"/>
+	<item name="Prof" type="char" />
+	<item name="ArmType" type="char" />
+	<item name="AttackType" type="char" />
+	<item name="SkillType" type="char" />
+	<item name="Desc" type="string" count="RES_MAX_LDESC_LEN"/>
+	<item name="SmallMap" type="int" />
+	<item name="StatusNeed" type="uchar" />
+	<item name="LevelNeed" type="short" />
+	<item name="LevelNeedAdd" type="short" />
+	<item name="Depend" type="ResSkillDepend" count="RES_MAX_SKILL_DEPEND" />
+	<item name="Except" type="ResSkillExcept" count="RES_MAX_SKILL_EXCEPT" />
+	<item name="Attr" type="ResSkillAttr" count="RES_MAX_SKILL_ATTR" />
+	<item name="Spec" type="ResSkillSpec" count="RES_MAX_SKILL_SPEC" />
+	<item name="BookID" type="int" />
+</type>
+
+<type name="ResSkillDescTab" >
+	<item name="Total" type="int" />
+	<item name="skills" type="ResSkillDesc" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResTitleEntry" >
+	<item name="Title" type="string" count="RES_MAX_NAME_LEN"/>
+</type>
+
+<type name="ResTitle" >
+	<item name="Race" type="int" />
+	<item name="entries" type="ResTitleEntry" count="RES_MAX_TITLE_ENTRY"/>
+</type>
+
+<type name="ResTitleTab" >
+	<item name="Total" type="int" />
+	<item name="titles" type="ResTitle" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResHonor" >
+	<item name="Level" type="int" />
+	<item name="Flags" type="int" />
+	<item name="Min" type="int" />
+	<item name="Max" type="int" />
+</type>
+
+<type name="ResHonorTab" >
+	<item name="Total" type="int" />
+	<item name="honors" type="ResHonor" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPreTask" >
+	<item name="PreTaskID" type="int" />
+</type>
+
+<type name="ResTaskTraceItem" >
+	<item name="ID" type="int" />
+	<item name="MaxNum" type="int" />
+</type>
+
+<type name="ResTaskTraceMonster" >
+	<item name="ID" type="int" />
+	<item name="MaxNum" type="int" />
+</type>
+
+<type name="ResTask" >
+	<item name="TaskID" type="int" />
+	<item name="Type" type="int" />
+	<item name="Icon" type="int" />
+	<item name="Desc" type="string" count="RES_MAX_DESC_LEN" />
+	<item name="Finish" type="string" count="RES_MAX_LDESC_LEN" />
+	<item name="Publisher" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="Place" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="Award" type="string" count="RES_MAX_LDESC_LEN" />
+	<item name="RecomLevel" type="int" />
+	<item name="MinLevel" type="int" />
+	<item name="MaxLevel" type="int" />
+	<item name="MinHonor" type="int" />
+	<item name="MaxHonor" type="int" />
+	<item name="PreTask" type="ResPreTask" count="RES_MAX_PRETASK_NUM" />
+	<item name="Prof" type="int" />
+	<item name="BeginnerSort" type="int" />
+	<item name="IsAllowRepeat" type="int" />
+	<item name="IsTrace" type="int" />
+	<item name="IsContinue" type="int" />
+	<item name="TraceItem" type="ResTaskTraceItem" count="RES_MAX_TRACE_ITEM" />
+	<item name="TraceMonster" type="ResTaskTraceMonster" count="RES_MAX_TRACE_MONSTER" />
+</type>
+
+<type name="ResTaskTab" >
+	<item name="Total" type="int" />
+	<item name="tasks" type="ResTask" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResHint" >
+	<item name="HintID" type="short" />
+	<item name="TaskID" type="short" />
+	<item name="Desc" type="string" count="RES_MAX_HINT_LEN" />
+</type>
+
+<type name="ResHintTab" >
+	<item name="Total" type="int" />
+	<item name="hints" type="ResHint" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResDialog" >
+	<item name="Reserve" type="char" />
+	<item name="Scene" type="char" />
+	<item name="ID" type="short" />
+	<item name="Count" type="int" />
+	<item name="Desc" type="string" count="RES_MAX_DIALOG_LEN" />
+</type>
+
+<type name="ResDialogTab" >
+	<item name="Total" type="int" />
+	<item name="dialogs" type="ResDialog" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResEmotion" >
+	<item name="Use" type="short" />
+</type>
+
+<type name="ResRatio" >
+	<item name="Scene" type="int" />
+	<item name="EmotionRatio" type="int" />
+	<item name="DialogRatio" type="int" />
+	<item name="EmotionCount" type="int" />
+	<item name="emotions" type="ResEmotion" count="RES_MAX_EMOTION" />
+</type>
+
+<type name="ResRatioTab" >
+	<item name="Total" type="int" />
+	<item name="ratios" type="ResRatio" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResSymbol" >
+	<item name="ID" type="int" />
+	<item name="Name" type="string" count="RES_MAX_SYMBOL" />
+</type>
+
+<type name="ResSymbolTab" >
+	<item name="Total" type="int" />
+	<item name="syms" type="ResSymbol" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResMaterial" >
+	<item name="ID" type="short" />
+	<item name="Number" type="short" />
+</type>
+
+<type name="ResMake" >
+	<item name="Class" type="char" />
+	<item name="Cat" type="char" />
+	<item name="Mother" type="short" />
+	<item name="Charge" type="int" />
+	<item name="EnchaseCharge" type="int" />
+	<item name="TargetID" type="short" />
+	<item name="SkillID" type="short" />
+	<item name="NeedPractise" type="short" />
+	<item name="MaxPractise" type="short" />
+	<item name="GainPractise" type="short" />
+	<item name="DisappearRate" type="short" />
+	<item name="SuccRate" type="short" />
+	<item name="SrchLevel" type="char" />
+	<item name="Count" type="char" />
+	<item name="materials" type="ResMaterial" count="RES_MAX_MATERIAL" />
+</type>
+
+<type name="ResMakeTab" >
+	<item name="Total" type="int" />
+	<item name="makes" type="ResMake" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResRefine" >
+	<item name="Cat" type="char" />
+	<item name="Level" type="char" />
+	<item name="ItemLevel" type="char" />
+	<item name="Res" type="char" />
+	<item name="results" type="ResResult" count="RES_MAX_REFINE_RESULT" />
+</type>
+
+<type name="ResRefineTab" >
+	<item name="Total" type="int" />
+	<item name="refines" type="ResRefine" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResExceptOverlay" >
+	<item name="Type" type="int" />
+	<item name="Spirit" type="int" />
+	<item name="Poison" type="int" />
+	<item name="Coma" type="int" />
+	<item name="Silence" type="int" />
+	<item name="Ice" type="int" />
+	<item name="Stone" type="int" />
+	<item name="Weak" type="int" />
+	<item name="MagicDown" type="int" />
+	<item name="Blink" type="int" />
+	<item name="SpeedDown" type="int" />
+	<item name="AttackRebound" type="int" />
+	<item name="MagicRebound" type="int" />
+	<item name="Iron" type="int" />
+	<item name="Frenzy" type="int" />
+	<item name="Strong" type="int" />
+	<item name="MagicUp" type="int" />
+	<item name="SpeedUp" type="int" />
+	<item name="Smart" type="int" />
+	<item name="PoisonIt" type="int" />
+	<item name="DefAdd" type="int" />
+	<item name="AspdAdd" type="int" />
+	<item name="HurtAbsorb" type="int" />
+	<item name="NoBad" type="int" />
+	<item name="HPAdd" type="int" />
+	<item name="SPAdd" type="int" />
+	<item name="Dead" type="int" />
+	<item name="Kill" type="int" />
+	<item name="Centralize" type="int" />
+	<item name="Burst" type="int" />
+	<item name="Real" type="int" />
+	<item name="NoGood" type="int" />
+	<item name="LifeAbsorb" type="int" />
+	<item name="MagicAbsorb" type="int" />
+	<item name="Hidden" type="int" />
+	<item name="CounterAttack" type="int" />
+	<item name="Stamp" type="int" />
+	<item name="PK" type="int" />
+	<item name="Burn" type="int" />
+	<item name="FireShield" type="int" />
+	<item name="IceShield" type="int" />
+</type>
+
+<type name="ResExceptOverlayTab" >
+	<item name="Total" type="int" />
+	<item name="overlays" type="ResExceptOverlay" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResSpecResult" >
+	<item name="Attr" type="uchar" />
+	<item name="Succ" type="uchar" />
+	<item name="Value" type="short" />
+</type>
+
+<type name="ResExceptLevel" >
+	<item name="LastTime" type="short" />
+	<item name="Dist" type="short" />
+	<item name="Spec" type="ResSpecResult" />
+	<item name="results" type="ResResult" count="RES_MAX_EXCEPT_RESULT" />
+	<item name="Count" type="short" />
+</type>
+
+<type name="ResExceptDetail" >
+	<item name="Type" type="int" />
+	<item name="levels" type="ResExceptLevel" count="RES_MAX_EXCEPT_LEVEL" />
+</type>
+
+<type name="ResExceptDetailTab" >
+	<item name="Total" type="int" />
+	<item name="details" type="ResExceptDetail" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResCard" >
+	<item name="Index" type="int" />
+	<item name="Category" type="uchar" />
+	<item name="LevelNeed" type="uchar" />
+	<item name="MinLevel" type="uchar" />
+	<item name="MaxLevel" type="uchar" />
+	<item name="PriceAdd" type="int" />
+	<item name="Repeat" type="char" />
+	<item name="MonLevel" type="uchar" />
+	<item name="ItemID" type="short" />
+	<item name="Rate" type="short" />
+	<item name="Res" type="short" />
+	<item name="conds" type="ResCond" count="RES_MAX_CARD_COND" />
+	<item name="results" type="ResResult" count="RES_MAX_CARD_RESULT" />
+	<item name="Spear" type="char" />
+	<item name="SingleSword" type="char" />
+	<item name="DualSword" type="char" />
+	<item name="Dagger" type="char" />
+	<item name="Staff" type="char" />
+	<item name="Throw" type="char" />
+	<item name="Face" type="char" />
+	<item name="Hat" type="char" />
+	<item name="Necklace" type="char" />
+	<item name="Shield" type="char" />
+	<item name="Glove" type="char" />
+	<item name="Ring" type="char" />
+	<item name="Dress" type="char" />
+	<item name="Shoe" type="char" />
+	<item name="Bag" type="char" />
+	<item name="Pet" type="char" />
+	<item name="Flyer" type="char" />
+</type>
+
+<type name="ResCardTab" >
+	<item name="Total" type="int" />
+	<item name="cards" type="ResCard" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResCoef" >
+	<item name="Type" type="int" />
+	<item name="Value" type="float" />
+</type>
+
+<type name="ResCoefTab" >
+	<item name="Total" type="int" />
+	<item name="coefs" type="ResCoef" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResLevel" >
+	<item name="Level" type="int" />
+	<item name="Exp" type="int" />
+	<item name="Total" type="int" />
+	<item name="HPRestore" type="int" />
+	<item name="HPRestoreMin" type="int" />
+	<item name="SPRestore" type="int" />
+    <item name="SPRestoreMin" type="int" />
+    <item name="MoneyLimit" type="int" />
+    <item name="MoneyDealOnce" type="int" />
+    <item name="MoneyDealTotal" type="int" />
+    <item name="MoneyDealCount" type="int" />
+    <item name="MoneyDealLittle" type="int" />
+</type>
+
+<type name="ResLevelTab" >
+	<item name="Total" type="int" />
+	<item name="levels" type="ResLevel" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResLevelUp" >
+	<item name="Prof" type="short" />
+	<item name="Type" type="short" />
+	<item name="InitStr" type="int" />
+	<item name="InitDex" type="int" />
+	<item name="InitVit" type="int" />
+	<item name="InitAgi" type="int" />
+	<item name="InitInt" type="int" />
+	<item name="InitLuk" type="int" />
+	<item name="InitSpi" type="int" />
+	<item name="InitHP" type="int" />
+	<item name="InitSP" type="int" />
+	<item name="FiveStr" type="int" />
+	<item name="FiveDex" type="int" />
+	<item name="FiveVit" type="int" />
+	<item name="FiveAgi" type="int" />
+	<item name="FiveInt" type="int" />
+	<item name="FiveLuk" type="int" />
+	<item name="StrOdd" type="int" />
+	<item name="DexOdd" type="int" />
+	<item name="VitOdd" type="int" />
+	<item name="AgiOdd" type="int" />
+	<item name="IntOdd" type="int" />
+	<item name="LukOdd" type="int" />
+	<item name="SpiOdd" type="int" />
+	<item name="StrEven" type="int" />
+	<item name="DexEven" type="int" />
+	<item name="VitEven" type="int" />
+	<item name="AgiEven" type="int" />
+	<item name="IntEven" type="int" />
+	<item name="LukEven" type="int" />
+	<item name="SpiEven" type="int" />
+	<item name="AtkDist" type="int" />
+	<item name="MinAtk" type="int" />
+	<item name="MaxAtk" type="int" />
+	<item name="MinAtkAdd" type="int" />
+	<item name="MaxAtkAdd" type="int" />
+	<item name="HPMin" type="int" />
+	<item name="HPMax" type="int" />
+	<item name="HPMulVit" type="int" />
+	<item name="SPMin" type="int" />
+	<item name="SPMax" type="int" />
+	<item name="SPMulInt" type="int" />
+	<item name="StrAdd" type="int" />
+	<item name="StrLevel" type="int" />
+	<item name="DexAdd" type="int" />
+	<item name="DexLevel" type="int" />
+	<item name="VitAdd" type="int" />
+	<item name="VitLevel" type="int" />
+	<item name="AgiAdd" type="int" />
+	<item name="AgiLevel" type="int" />
+	<item name="IntAdd" type="int" />
+	<item name="IntLevel" type="int" />
+	<item name="LukAdd" type="int" />
+	<item name="LukLevel" type="int" />
+	<item name="RandMin" type="int" />
+	<item name="RandMax" type="int" />
+	<item name="RandAdd" type="int" />
+	<item name="RandLevel" type="int" />
+	<item name="PointAdd" type="int" />
+	<item name="PointLevel" type="int" />
+	<item name="VitAddMax" type="int" />
+	<item name="IntAddMax" type="int" />
+</type>
+
+<type name="ResLevelUpTab" >
+	<item name="Total" type="int" />
+	<item name="levels" type="ResLevelUp" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResTrans" >
+	<item name="ID" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN" />
+	<item name="MapID" type="int" />
+	<item name="x" type="int" />
+	<item name="y" type="int" />
+	<item name="Dist" type="short" />
+	<item name="Dir" type="char" />
+	<item name="City" type="char" />
+</type>
+
+<type name="ResTransTab" >
+	<item name="Total" type="int" />
+	<item name="trans" type="ResTrans" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResTransRefEntry" >
+	<item name="RefID" type="int" />
+	<item name="MinMap" type="int" />
+	<item name="Price" type="int" />
+</type>
+
+<type name="ResTransRef" >
+	<item name="ListID" type="int" />
+	<item name="entries" type="ResTransRefEntry" count="RES_MAX_TRANS_ENTRY" />
+</type>
+
+<type name="ResTransRefTab" >
+	<item name="Total" type="int" />
+	<item name="refs" type="ResTransRef" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResTime" >
+	<item name="Level" type="int" />
+	<item name="Newbie" type="int" />
+	<item name="Warrior" type="int" />
+	<item name="Swordman" type="int" />
+	<item name="Stabber" type="int" />
+	<item name="Druggist" type="int" />
+	<item name="Magician" type="int" />
+</type>
+
+<type name="ResTimeTab" >
+	<item name="Total" type="int" />
+	<item name="times" type="ResTime" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResDefense" >
+	<item name="Race" type="int" />
+	<item name="Dummy" type="int" />
+	<item name="Spirit" type="int" />
+	<item name="Poison" type="int" />
+	<item name="Coma" type="int" />
+	<item name="Silence" type="int" />
+	<item name="Ice" type="int" />
+	<item name="Stone" type="int" />
+	<item name="Weak" type="int" />
+	<item name="MagicDown" type="int" />
+	<item name="Blink" type="int" />
+	<item name="SpeedDown" type="int" />
+
+	<item name="AttackRebound" type="int" />
+	<item name="MagicRebound" type="int" />
+
+	<item name="Iron" type="int" />
+	<item name="Frenzy" type="int" />
+	<item name="Strong" type="int" />
+
+	<item name="MagicUp" type="int" />
+	<item name="SpeedUp" type="int" />
+
+	<item name="Smart" type="int" />
+
+	<item name="LifeAbsorb" type="int" />
+	<item name="MagicAbsorb" type="int" />
+
+	<item name="Dead" type="int" />
+	<item name="Hidden" type="int" />
+	<item name="CounterAttack" type="int" />
+</type>
+
+<type name="ResDefenseTab" >
+	<item name="Total" type="int" />
+	<item name="defs" type="ResDefense" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResElement" >
+	<item name="AtkElement" type="int" />
+	<item name="None" type="int" />
+	<item name="Water" type="int" />
+	<item name="Earth" type="int" />
+	<item name="Fire" type="int" />
+	<item name="Wind" type="int" />
+	<item name="Thunder" type="int" />
+	<item name="Sage" type="int" />
+	<item name="Dark" type="int" />
+</type>
+
+<type name="ResElementTab" >
+	<item name="Total" type="int" />
+	<item name="eles" type="ResElement" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="WorkBonus" >
+	<item name="Type" type="char" />
+	<item name="Res" type="char" />
+	<item name="Index" type="short" />
+    <item name="Number" type="int" />
+    <item name="PractisePoint" type="short" />
+    <item name="Ratio" type="short" />
+</type>
+
+<type name="Work" >
+    <item name="WorkType" type="short" />
+	<item name="PractiseLevelMin" type="short" />
+	<item name="PractiseLevelMax" type="short" />
+	<item name="SkillID" type="short" />
+	<item name="PetSkillID" type="short" />
+	<item name="PetSkillAdd" type="short" />
+    <item name="StatusTitle" type="string" count="RES_MAX_NAME_LEN"/>
+    <item name="StatusDuration"  type="short" />
+    <item name="LowLevel" type="short" />
+    <item name="HighLevel" type="short" />
+    <item name="BonusTimeUnit"  type="short" />
+    <item name="BonusList" type="WorkBonus" count="RES_MAX_WORK_BONUS" />
+</type>
+
+<type name="WorkTab" >
+	<item name="Total" type="int" />
+	<item name="works" type="Work" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="MPBonus" >
+	<item name="Type" type="char" />
+	<item name="Ratio" type="short" />
+    <item name="Number" type="int" />
+</type>
+
+<type name="SysBonusForMP" >
+    <item name="LowLevel" type="short" />
+    <item name="HighLevel" type="short" />
+    <item name="BonusList" type="MPBonus" count="RES_MAX_MP_BONUS" />
+</type>
+    
+<type name="SysBonusForMPTab" >
+	<item name="Total" type="int" />
+	<item name="bonus" type="SysBonusForMP" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="BonusForMP" >
+    <item name="PrenticeLevel" type="short" />
+    <item name="BonusList" type="MPBonus" count="RES_MAX_MP_BONUS" />
+</type>
+
+<type name="BonusForMPTab" >
+	<item name="Total" type="int" />
+	<item name="bonus" type="BonusForMP" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="MPMoral" >
+    <item name="Index" type="int" />
+    <item name="MinPrentice" type="int" />
+    <item name="MaxPrentice" type="int" />
+    <item name="MinRatio"    type="short" />
+    <item name="MaxRatio"    type="short" />
+    <item name="Title"    type="string" count="MAX_MORAL_TITLE_LEN"/>
+</type>
+ 
+<type name="MPMoralTab" >
+	<item name="Total" type="int" />
+	<item name="morals" type="MPMoral" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="MPLimitNum" >
+	<item name="MinOwe" type="int" />
+	<item name="MinRatio" type="int" />
+	<item name="PrenticeLimit" type="int" />
+</type>
+
+<type name="MPLimitNumTab" >
+	<item name="Total" type="int" />
+	<item name="limit" type="MPLimitNum" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResTip" >
+    <item name="ID" type="int" />
+    <item name="Desc"  type="string" count="RES_TIP_DESC_LEN" />
+</type>
+
+<type name="ResTipTab" >
+	<item name="Total" type="int" />
+	<item name="tips" type="ResTip" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResHelp" >
+    <item name="ID" type="int" />
+    <item name="Level1" type="string" count="RES_MAX_LEVEL1_LEN" />
+    <item name="Level2" type="string" count="RES_MAX_LEVEL2_LEN" />
+    <item name="Help"  type="string" count="RES_MAX_HELP_LEN" />
+</type>
+
+<type name="ResHelpTab" >
+	<item name="Total" type="int" />
+	<item name="helps" type="ResHelp" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResSkillID" >
+	<item name="ID" type="short" />
+</type>
+
+<type name="ResItemID" >
+	<item name="ID" type="short" />
+</type>
+
+<type name="ResAction" >
+    <item name="Index" type="int" />
+    <item name="Stand" type="char" />
+    <item name="Move" type="char" />
+    <item name="Seat" type="char" />
+    <item name="Dead" type="char" />
+    <item name="Attack" type="char" />
+    <item name="BeAttack" type="char" />
+    <item name="Sing" type="char" />
+    <item name="UseItem" type="char" />
+    <item name="PickItem" type="char" />
+    <item name="DropItem" type="char" />
+    <item name="WearArm" type="char" />
+    <item name="Work" type="char" />
+    <item name="Make" type="char" />
+    <item name="Refine" type="char" />
+    <item name="NpcDlg" type="char" />
+    <item name="NpcDeal" type="char" />
+    <item name="PlayerDeal" type="char" />
+    <item name="PlayerShop" type="char" />
+    <item name="Horse" type="char" />
+    <item name="Trans" type="char" />
+    <item name="Consign" type="char" />
+    <item name="Mail" type="char" />
+    <item name="skills" type="ResSkillID" count="RES_MAX_ACTION_SKILL" />
+    <item name="items" type="ResItemID" count="RES_MAX_ACTION_ITEM" />
+</type>
+
+<type name="ResActionTab" >
+	<item name="Total" type="int" />
+	<item name="actions" type="ResAction" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResInitSkill" >
+	<item name="Prof" type="char" />
+	<item name="Level" type="char" />
+	<item name="SkillID" type="short" />
+</type>
+
+<type name="ResConfig" >
+    <item name="SmallPackID" type="int" />
+    <item name="SmallPackItem" type="int" />
+    <item name="SmallPackMoney" type="int" />
+    <item name="BigPackID" type="int" />
+    <item name="BigPackItem" type="int" />
+    <item name="BigPackMoney" type="int" />
+    <item name="LetterID" type="int" />
+    <item name="ChatRepeatCount" type="int" />
+    <item name="ChatRepeatTime" type="int" />
+    <item name="ChatRepeatBlock" type="int" />
+    <item name="ChatInterval" type="int" />
+    <item name="WChatInterval" type="int" />
+    <item name="MapChatItem" type="int" />
+    <item name="LinkedMapChatItem" type="int" />
+    <item name="ZoneChatItem" type="int" />
+    <item name="WorldChatItem" type="int" />
+    <item name="OpDist" type="int" />
+    <item name="InitMaleArm" type="int" />
+    <item name="InitFemaleArm" type="int" />
+    <item name="InitWeapon" type="int" />
+    <item name="InitItem" type="int" />
+    <item name="InitMoney" type="int" />
+    <item name="BirthMapCount" type="int" />
+    <item name="BirthMap" type="int" count="RES_MAX_BIRTH_MAP" refer="BirthMapCount" />
+    <item name="FamLetterID1" type="int" />
+    <item name="FamLetterID2" type="int" />
+    <item name="FamLetterID3" type="int" />	
+    <item name="TradeSkill" type="int" />
+    <item name="TradePractise" type="int" />
+    <item name="AuthInterval" type="int" />
+    <item name="AuthTTL" type="int" />
+    <item name="AuthOpt" type="int" />
+    <item name="AuthQuesLen" type="int" />
+    <item name="AuthReCheckCount" type="int" />
+    <item name="AuthReCheckSec" type="int" />
+    <item name="AuthReCheckTTL" type="int" />
+    <item name="AuthQuitWaitSec" type="int" />
+    <item name="AuthBanCount" type="int" />
+    <item name="AuthBanSec" type="int" />
+    <item name="AuthCleanSec" type="int" />
+    <item name="InitSkillCount" type="int" />
+    <item name="InitSkills" type="ResInitSkill" count="RES_MAX_INITSKILL" refer="InitSkillCount" />
+    <item name="BenchTimeMoveMax" type="int" />
+    <item name="BenchTimeMoveMin" type="int" />
+    <item name="BenchTimeMoveInterval" type="int" />
+    <item name="BenchTimeAttackMax" type="int" />
+    <item name="BenchTimeAttackMin" type="int" />		
+    <item name="StopTimeMin" type="int" />		
+    <item name="StopTimeMax" type="int" />		
+</type>
+
+<type name="ResConfigTab" >
+	<item name="Total" type="int" />
+	<item name="configs" type="ResConfig" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPerm" >
+    <item name="Uin" type="int" />
+    <item name="Perm" type="int" />
+</type>
+
+<type name="ResPermTab" >
+	<item name="Total" type="int" />
+	<item name="perms" type="ResPerm" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPunish" >
+    <item name="MinLevel" type="short" />
+    <item name="MaxLevel" type="short" />
+    <item name="MinHonor" type="short" />
+    <item name="MaxHonor" type="short" />
+    <item name="MoneyLost" type="char" />
+    <item name="ExpLost" type="char" />
+    <item name="HPRestore" type="char" />
+    <item name="SPRestore" type="char" />
+    <item name="DropOneItem" type="short" />
+    <item name="DropTwoItem" type="short" />
+    <item name="DropThreeItem" type="short" />
+    <item name="DropAllItem" type="short" />
+    <item name="DropOneArm" type="short" />
+    <item name="DropTwoArm" type="short" />
+    <item name="DropThreeArm" type="short" />
+    <item name="DropAllArm" type="short" />
+</type>
+
+<type name="ResPunishTab" >
+	<item name="Total" type="int" />
+	<item name="punishs" type="ResPunish" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPKPunish">
+    <item name="MinPKValue" type="short" />
+    <item name="MaxPKValue" type="short" />
+    <item name="DecMoneyRatio" type="short" />
+    <item name="DecMoneyProb" type="short" />
+    <item name="DropItemRatio" type="short" />
+    <item name="DropClassMin" type="short" />
+    <item name="DropClassMax" type="short" />
+    <item name="DropNumRatioMin" type="short" />
+    <item name="DropNumRatioMax" type="short" />
+    <item name="DropWearRatio" type="short" />
+    <item name="DropWearLevelDec" type="short" />
+    <item name="DecExpRatio" type="short" />
+</type>
+
+<type name="ResPKPunishTab" >
+	<item name="Total" type="int" />
+	<item name="PKPunishs" type="ResPKPunish" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResMusic" >
+    <item name="MapID" type="int" />
+    <item name="MusicName" type="string" count="RES_MAX_MUSIC_LEN" />
+</type>
+
+<type name="ResMusicTab" >
+	<item name="Total" type="int" />
+	<item name="musics" type="ResMusic" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResRequire" >
+	<item name="Type" type="char" />
+	<item name="Res" type="char" />
+	<item name="Number" type="short" />
+    <item name="Value" type="int" />
+</type>
+
+<type name="ResHairStyle" >
+    <item name="Index" type="int" />
+    <item name="Sex" type="char" />
+    <item name="Res1" type="char" />
+    <item name="Res2" type="short" />
+	<item name="Avatar" type="string" count="RES_MAX_AVATAR_LEN" />
+    <item name="Reqs" type="ResRequire" count="RES_MAX_REQUIRE" />
+</type>
+
+<type name="ResHairStyleTab" >
+	<item name="Total" type="int" />
+	<item name="styles" type="ResHairStyle" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResHairColor" >
+    <item name="Index" type="int" />
+    <item name="Color" type="uint" />
+    <item name="Reqs" type="ResRequire" count="RES_MAX_REQUIRE" />
+</type>
+
+<type name="ResHairColorTab" >
+	<item name="Total" type="int" />
+	<item name="colors" type="ResHairColor" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResSound" >
+    <item name="Skill" type="int" />
+    <item name="SingSound" type="int" />
+    <item name="SingDelay" type="int" />
+    <item name="StartSound" type="int" />
+    <item name="StartDelay" type="int" />
+    <item name="FlySound" type="int" />
+    <item name="FlyDelay" type="int" />
+    <item name="BeHitSound" type="int" />
+    <item name="BeHitDelay" type="int" />
+</type>
+
+<type name="ResSoundTab" >
+	<item name="Total" type="int" />
+	<item name="sounds" type="ResSound" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPetSkillID" >
+	<item name="SkillID" type="short" />
+</type>
+
+<type name="ResPetSkillLearnNo" >
+	<item name="PetID" type="int" />
+	<item name="learnnos" type="ResPetSkillID" count="RES_MAX_PET_LEARNNO" />
+</type>
+
+<type name="ResPetSkillLearnNoTab" >
+	<item name="Total" type="int" />
+	<item name="learnnos" type="ResPetSkillLearnNo" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPetEat" >
+	<item name="EatID" type="short" />
+	<item name="EatValue" type="short" />
+</type >
+
+<type name="ResPetGrow" >
+	<item name="PetID" type="int" />
+	<item name="Name" type="string" count="RES_MAX_NAME_LEN" />
+	
+	<item name="CaptureLevel" type="uchar" />
+	<item name="TaskSpec" type="char" />
+	<item name="CaptureTool" type="short" />
+	<item name="BaseCaptureSucc" type="short" />
+	<item name="HonorAdd" type="short" />
+	<item name="StrNickAdd" type="short" />
+	<item name="IntNickAdd" type="short" />
+	<item name="AgiNickAdd" type="short" />
+	<item name="VitNickAdd" type="short" />
+	<item name="FlexNickAdd" type="short" />
+	<item name="MaxCaptureSucc" type="short" />
+	
+	<item name="FoodAttr" type="char" />
+	<item name="PetType" type="char" />
+	<item name="InitStr" type="uchar" />
+	<item name="InitDex" type="uchar" />
+	<item name="InitAgi" type="uchar" />
+	<item name="InitVit" type="uchar" />
+	<item name="InitInt" type="uchar" />
+	<item name="InitSpi" type="uchar" />
+	<item name="InitHP" type="short" />
+	<item name="InitSP" type="short" />
+	<item name="Res0" type="short" />
+	<item name="AtkDist" type="short" />
+	
+	<item name="StrOdd" type="uchar" />
+	<item name="VitOdd" type="uchar" />
+	<item name="DexOdd" type="uchar" />
+	<item name="AgiOdd" type="uchar" />
+	<item name="IntOdd" type="uchar" />
+	<item name="SpiOdd" type="uchar" />
+	
+	<item name="StrEven" type="uchar" />
+	<item name="VitEven" type="uchar" />
+	<item name="DexEven" type="uchar" />
+	<item name="AgiEven" type="uchar" />
+	<item name="IntEven" type="uchar" />
+	<item name="SpiEven" type="uchar" />
+
+	<item name="HPMin" type="uchar" />
+	<item name="HPMax" type="uchar" />
+	<item name="VitHPAdd" type="uchar" />
+	<item name="SPMin" type="uchar" />
+	<item name="SPMax" type="uchar" />
+	<item name="IntSPAdd" type="uchar" />
+	
+	<item name="StrAdd" type="uchar" />
+	<item name="StrLevel" type="uchar" />
+	<item name="AgiAdd" type="uchar" />
+	<item name="AgiLevel" type="uchar" />
+	<item name="VitAdd" type="uchar" />
+	<item name="VitLevel" type="uchar" />
+	<item name="IntAdd" type="uchar" />
+	<item name="IntLevel" type="uchar" />
+	
+	<item name="RandMin" type="uchar" />
+	<item name="RandMax" type="uchar" />
+	<item name="RandAdd" type="uchar" />
+	<item name="RandLevel" type="uchar" />
+	
+	<item name="InitTrust" type="uchar" />
+	<item name="DealTrust" type="uchar" />
+	<item name="CanDealTrust" type="uchar" />
+	<item name="PickupTrust" type="uchar" />
+	<item name="CallbackAdd" type="char" />
+	
+	<item name="StarveAdd1" type="char" />
+	<item name="StarveInternal1" type="short" />
+	<item name="StarveAdd2" type="char" />
+	<item name="StarveInternal2" type="short" />
+	<item name="StarveAdd3" type="char" />
+	<item name="StarveInternal3" type="short" />
+	<item name="StarveAdd4" type="char" />
+	<item name="StarveInternal4" type="short" />
+	
+	<item name="OnlineAdd" type="char" />
+	<item name="OnlineInternal" type="short" />
+	
+	<item name="InitStarve" type="uchar" />
+	
+	<item name="FollowSpd" type="short" />
+	<item name="HorseBaseSpd" type="short" />
+	<item name="HorseSpdAdd" type="short" />
+	<item name="HorseSpdLimit" type="short" />
+	<item name="eats" type="ResPetEat" count="RES_MAX_PET_EAT" />
+	<item name="HonorNeed" type="short" />
+	<item name="LevelNeed" type="short" />
+	<item name="MaxPetLevel" type="short" />
+
+	<item name="CanBuy" type="char" />
+	<item name="CanDeal" type="char" />
+	<item name="CanDrop" type="char" />
+	<item name="CanMail" type="char" />
+
+	<item name="DropLost" type="char" />
+	<item name="OfflineLost" type="char" />
+	<item name="SwitchLost" type="char" />
+	<item name="Unique" type="char" />
+
+	<item name="InitSkills" type="ResPetSkillID" count="RES_MAX_PET_INIT_SKILL" />
+</type>
+
+<type name="ResPetGrowTab" >
+	<item name="Total" type="int" />
+	<item name="petgrows" type="ResPetGrow" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPetLevelExp" >
+	<item name="Level" type="int" />
+	<item name="ExpTotal" type="int" />
+	<item name="ExpNeed" type="int" />
+</type>
+
+<type name="ResPetLevelExpTab" >
+	<item name="Total" type="int" />
+	<item name="petexps" type="ResPetLevelExp" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResNickGrow" >
+	<item name="NickId" type="int" />
+	<item name="NickName" type="string" count="RES_MAX_PET_NICK_LEN" />
+	<item name="GetRate" type="short" />
+	<item name="StatusPoint" type="char" />
+	<item name="TwoStr" type="char" />
+	<item name="TwoVit" type="char" />
+	<item name="TwoAgi" type="char" />
+	<item name="TwoInt" type="char" />
+
+	<item name="StrOdd" type="uchar" />
+	<item name="VitOdd" type="uchar" />
+	<item name="DexOdd" type="uchar" />
+	<item name="AgiOdd" type="uchar" />
+	<item name="IntOdd" type="uchar" />
+	<item name="SpiOdd" type="uchar" />
+	
+	<item name="StrEven" type="uchar" />
+	<item name="VitEven" type="uchar" />
+	<item name="DexEven" type="uchar" />
+	<item name="AgiEven" type="uchar" />
+	<item name="IntEven" type="uchar" />
+	<item name="SpiEven" type="uchar" />
+</type>
+
+<type name="ResNickGrowTab" >
+	<item name="Total" type="int" />
+	<item name="nickgrows" type="ResNickGrow" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResFamLevel" >
+	<item name="FamLevel" type="int" />
+	<item name="MinReputation" type="int" />
+	<item name="MaxReputation" type="int" />
+	<item name="MinMember" type="int" />
+	<item name="MaxMember" type="int" />
+	<item name="MaxShaikh" type="char" />
+	<item name="MaxPresbyter" type="char" />
+	<item name="MaxCustomPos" type="char" />
+	<item name="MaxCustomer" type="char" />
+	<item name="HouseLevel" type="char" />
+	<item name="HasTotem" type="char" />
+	<item name="StashLevel" type="char" />
+	<item name="HasTrans" type="char" />
+	<item name="UpdCharge" type="int" />
+	<item name="MinWealth" type="int" />
+	<item name="UpdWealth" type="int" />
+</type>
+
+<type name="ResFamLevelTab" >
+	<item name="Total" type="int" />
+	<item name="fams" type="ResFamLevel" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResFamLevelPerm" >
+	<item name="MemberLevel" type="int" />
+	<item name="Name" type="string" count="RES_MAX_FAM_POSNAME_LEN" />
+	<item name="MinContribute" type="int" />
+	<item name="MaxContribute" type="int" />
+	<item name="PermLevel" type="int" />
+</type>
+
+<type name="ResFamLevelPermTab" >
+	<item name="Total" type="int" />
+	<item name="fams" type="ResFamLevelPerm" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResFamPosPerm" >
+	<item name="FamPos" type="int" />
+	<item name="Name" type="string" count="RES_MAX_FAM_POSNAME_LEN" />
+	<item name="PermLevel" type="int" />
+	<item name="Desc" type="string" count="RES_MAX_LDESC_LEN" />
+	<item name="MemberMinLevel" type="int" />
+</type>
+
+<type name="ResFamPosPermTab" >
+	<item name="Total" type="int" />
+	<item name="fams" type="ResFamPosPerm" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResFamStashUpd" >
+	<item name="StashLevel" type="int" />
+	<item name="BuyCharge" type="int" />
+	<item name="UpdCharge" type="int" />
+	<item name="Volume" type="int" />
+	<item name="MaintainCharge" type="int" />
+</type>
+
+<type name="ResFamStashUpdTab" >
+	<item name="Total" type="int" />
+	<item name="fams" type="ResFamStashUpd" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResFamPerm" >
+	<item name="PermLevel" type="int" />
+	<item name="CreateFam" type="char" />
+	<item name="UpgradeFam" type="char" />
+	<item name="DestroyFam" type="char" />
+	<item name="CancelDestroy" type="char" />
+	<item name="QuitFam" type="char" />
+	<item name="Invite" type="char" />
+	<item name="AgreeJoin" type="char" />
+	<item name="DismissMember" type="char" />
+	<item name="GrantPresbyte" type="char" />
+	<item name="RevokePresbyter" type="char" />
+	<item name="SetCustomPos" type="char" />
+	<item name="GrantCustomer" type="char" />
+	<item name="RevokeCustomer" type="char" />
+	<item name="TransSelfPos" type="char" />
+	<item name="BidFamHouse" type="char" />
+	<item name="BackFamHouse" type="char" />
+	<item name="UseFamHouse" type="char" />
+	<item name="BuyFamStash" type="char" />
+	<item name="SetFamPasswd" type="char" />
+	<item name="ChgFamPasswd" type="char" />
+	<item name="GrantStashGet" type="char" />
+	<item name="StashPut" type="char" />
+	<item name="UseTotem" type="char" />
+	<item name="UseTrans" type="char" />
+	<item name="HasFamTitle" type="char" />
+	<item name="SendFamNotice" type="char" />
+	<item name="ViewFamBoard" type="char" />
+	<item name="UseFamChannel" type="char" />
+	<item name="SendFamMail" type="char" />
+	<item name="MakeFamSheet" type="char" />
+	<item name="CopyFamSheet" type="char" />
+	<item name="ExchgFamSheet" type="char" />
+	<item name="DispatchFamSheet" type="char" />
+	<item name="ChgFamLogo" type="char" />
+	<item name="ChgFamAnnounce" type="char" />
+	<item name="ViewFamInfo" type="char" />
+	<item name="ViewMemberInfo" type="char" />
+	<item name="SetFamUnion" type="char" />
+	<item name="CancelFamUnion" type="char" />
+	<item name="SetFamOppose" type="char" />
+	<item name="CancelFamOppose" type="char" />
+	<item name="ViewRelativeFam" type="char" />
+	<item name="InviteOtherEnter" type="char" />
+	<item name="BuyFamLogo" type="char" />
+</type>
+
+<type name="ResFamPermTab" >
+	<item name="Total" type="int" />
+	<item name="fams" type="ResFamPerm" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResLifeSkillGain" >
+	<item name="DefIdx" type="short" />
+	<item name="Rate" type="short" />
+	<item name="PractiseGain" type="char" />
+	<item name="Res" type="char" />
+	<item name="Pos" type="short" />
+</type>
+
+<type name="ResLifeSkill" >
+	<item name="MonIdx" type="int" />
+	<item name="SkillID" type="short" />
+	<item name="ItemID" type="short" />
+	<item name="PractiseMin" type="short" />
+	<item name="PractiseMax" type="short" />
+	<item name="PetSkillID" type="short" />
+	<item name="PetSkillAdd" type="short" />
+	<item name="Name" type="string" count="RES_MAX_LIFESKILL_NAME_LEN" />
+	<item name="Action" type="string" count="RES_MAX_LIFESKILL_NAME_LEN" />
+	<item name="gains" type="ResLifeSkillGain" count="RES_MAX_LIFESKILL_GAIN" />
+</type>
+
+<type name="ResLifeSkillTab" >
+	<item name="Total" type="int" />
+	<item name="skills" type="ResLifeSkill" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPetSpeak" >
+	<item name="Speak" type="string" count="RES_MAX_PET_SPEAK_LEN" />
+	<item name="Rate" type="short" />
+	<item name="Res" type="short" />
+</type>
+
+<type name="ResPetDlg" >
+	<item name="Gender" type="char" />
+	<item name="Type" type="char" />
+	<item name="Value" type="short" />
+	<item name="SuccRate" type="short" />
+	<item name="Res" type="short" />
+	<item name="speaks" type="ResPetSpeak" count="RES_MAX_PET_SPEAKS" />
+</type>
+
+<type name="ResPetDlgTab" >
+	<item name="Total" type="int" />
+	<item name="dlgs" type="ResPetDlg" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResTrap" >
+	<item name="TrapID" type="int" />
+	<item name="LevelNeed" type="short" />
+	<item name="LevelNeedAdd" type="short" />
+	<item name="TargetSelf" type="char" />
+	<item name="TargetTeam" type="char" />
+	<item name="TargetEnemy" type="char" />
+	<item name="TargetLord" type="char" />
+	<item name="RangeType" type="char" />
+	<item name="Res0" type="char" />
+	<item name="Radius" type="short" />
+	<item name="Angle" type="short" />
+	<item name="Dist" type="short" />
+	<item name="Width" type="short" />
+	<item name="Height" type="short" />
+	<item name="SuccRate" type="short" />
+	<item name="Res" type="short" />
+	<item name="results" type="ResResult" count="RES_MAX_TRAP_RESULT" />
+</type>
+
+<type name="ResTrapTab" >
+	<item name="Total" type="int" />
+	<item name="traps" type="ResTrap" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResRollMsg" >
+	<item name="LevelArea" type="int" />
+	<item name="SubSeqID" type="int" />
+	<item name="Interval" type="int" />
+	<item name="Msg" type="string" count="RES_MAX_LDESC_LEN" />
+</type>
+
+<type name="ResRollMsgTab" >
+	<item name="Total" type="int" />
+	<item name="roll" type="ResRollMsg" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+<type name="ResPractiseLevel" >
+	<item name="Level" type="short" />
+	<item name="Res" type="short" />
+	<item name="MinPractise" type="short" />
+	<item name="MaxPractise" type="short" />
+	<item name="Name" type="string" count="RES_MAX_PRACTISE_NAME" />
+</type>
+
+<type name="ResPractise" >
+	<item name="ID" type="int" />
+	<item name="levels" type="ResPractiseLevel" count="RES_MAX_PRACTISE_LEVEL" />
+</type>
+
+<type name="ResPractiseTab" >
+	<item name="Total" type="int" />
+	<item name="practises" type="ResPractise" count="0" refer="Total" id="RES_ID_ARRAY" />
+</type>
+
+</typelib>

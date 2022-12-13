@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="GB2312"?>
+<TenioUILayout>
+<UIObject Type="Dialog" Name="Dialog1" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="180"/>
+<Property Name="YOffset" Value="80"/>
+<Property Name="Width" Value="419"/>
+<Property Name="Height" Value="304"/>
+<Property Name="Visible" Value="false"/>
+<Property Name="Disable" Value="false"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Background" Value="9IMAGES:公用部分\桌面主界面_底_上左.bmp;公用部分\桌面主界面_底_上中.bmp;公用部分\桌面主界面_底_上右.bmp;公用部分\桌面主界面_底_中左.bmp;公用部分\桌面主界面_底_中中.bmp;公用部分\桌面主界面_底_中右.bmp;公用部分\桌面主界面_底_下左.bmp;公用部分\桌面主界面_底_下中.bmp;公用部分\桌面主界面_底_下右.bmp;"/>
+<Property Name="SizeBox" Value="false"/>
+<Property Name="MaxWidth" Value="1024"/>
+<Property Name="MaxHeight" Value="768"/>
+<Property Name="MinWidth" Value="0"/>
+<Property Name="MinHeight" Value="0"/>
+<Property Name="AlwaysOnTop" Value="false"/>
+<Property Name="ToolWindow" Value="false"/>
+<Property Name="CaptionHeight" Value="28"/>
+<Property Name="RegionSet" Value="FROMBGIMAGES:0x0000ff"/>
+<Property Name="OpenSound" Value=""/>
+<Property Name="Icon" Value=""/>
+<Property Name="Caption" Value="在线升级"/>
+<Property Name="InitPosition" Value="center"/>
+<Property Name="CreateType" Value="win"/>
+<Property Name="LayeredWindow" Value="false"/>
+<Property Name="FadeInTime" Value="0"/>
+<Property Name="FadeOutTime" Value="0"/>
+<Property Name="MoveWith" Value=""/>
+</Properties>
+<Children>
+<UIObject Type="Button" Name="closebutton" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="389"/>
+<Property Name="YOffset" Value="5"/>
+<Property Name="Width" Value="22"/>
+<Property Name="Height" Value="20"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Disable" Value="false"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Transparent" Value="false"/>
+<Property Name="Background" Value="ONEIMAGE:按纽_关闭01.bmp;Tile;"/>
+<Property Name="BackgroundHover" Value="ONEIMAGE:按纽_关闭00.bmp;Tile;"/>
+<Property Name="BackgroundPressed" Value="ONEIMAGE:按纽_关闭02.bmp;Tile;"/>
+<Property Name="BackgroundDisable" Value="NONE:"/>
+<Property Name="TransColor" Value="0xffffffff"/>
+<Property Name="ButtonType" Value="NormalButton"/>
+<Property Name="Caption" Value=""/>
+<Property Name="AlignMode" Value="CENTER"/>
+<Property Name="LayoutMode" Value="None"/>
+<Property Name="InnerMargins" Value="0,0,0,0"/>
+<Property Name="OuterMargins" Value="0,0,0,0"/>
+<Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体"/>
+<Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextColor" Value="0x000000"/>
+<Property Name="TextColorHover" Value="0x000000"/>
+<Property Name="TextColorPressed" Value="0x000000"/>
+<Property Name="TextColorDisable" Value="0x000000"/>
+<Property Name="TextEffect" Value=""/>
+<Property Name="TextEffectHover" Value=""/>
+<Property Name="TextEffectPressed" Value=""/>
+<Property Name="TextEffectDisable" Value=""/>
+<Property Name="TextXOffsetPressed" Value="0"/>
+<Property Name="TextYOffsetPressed" Value="0"/>
+<Property Name="AutoSize" Value="false"/>
+<Property Name="ItemMargin" Value="4"/>
+<Property Name="AutoSizeImage" Value="false"/>
+<Property Name="Tip" Value="关闭"/>
+<Property Name="TabStop" Value="false"/>
+<Property Name="DefaultButton" Value="false"/>
+<Property Name="URL" Value=""/>
+<Property Name="ClickSound" Value=""/>
+<Property Name="FadeInTime" Value="0"/>
+<Property Name="FadeOutTime" Value="0"/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="Button" Name="canclebutton" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="242"/>
+<Property Name="YOffset" Value="277"/>
+<Property Name="Width" Value="66"/>
+<Property Name="Height" Value="20"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Disable" Value="false"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Transparent" Value="false"/>
+<Property Name="Background" Value="ONEIMAGE:button1.bmp;Tile;"/>
+<Property Name="BackgroundHover" Value="ONEIMAGE:button2.bmp;Tile;"/>
+<Property Name="BackgroundPressed" Value="ONEIMAGE:button3.bmp;Tile;"/>
+<Property Name="BackgroundDisable" Value="ONEIMAGE:button4.bmp;Tile;"/>
+<Property Name="TransColor" Value="0xffffffff"/>
+<Property Name="ButtonType" Value="NormalButton"/>
+<Property Name="Caption" Value="取消"/>
+<Property Name="AlignMode" Value="CENTER"/>
+<Property Name="LayoutMode" Value="None"/>
+<Property Name="InnerMargins" Value="0,0,0,0"/>
+<Property Name="OuterMargins" Value="0,0,0,0"/>
+<Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体"/>
+<Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextColor" Value="0x000000"/>
+<Property Name="TextColorHover" Value="0x000000"/>
+<Property Name="TextColorPressed" Value="0x000000"/>
+<Property Name="TextColorDisable" Value="0x000000"/>
+<Property Name="TextEffect" Value=""/>
+<Property Name="TextEffectHover" Value=""/>
+<Property Name="TextEffectPressed" Value=""/>
+<Property Name="TextEffectDisable" Value=""/>
+<Property Name="TextXOffsetPressed" Value="0"/>
+<Property Name="TextYOffsetPressed" Value="0"/>
+<Property Name="AutoSize" Value="false"/>
+<Property Name="ItemMargin" Value="4"/>
+<Property Name="AutoSizeImage" Value="false"/>
+<Property Name="Tip" Value=""/>
+<Property Name="TabStop" Value="false"/>
+<Property Name="DefaultButton" Value="false"/>
+<Property Name="URL" Value=""/>
+<Property Name="ClickSound" Value=""/>
+<Property Name="FadeInTime" Value="0"/>
+<Property Name="FadeOutTime" Value="0"/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="Beeline" Name="Beeline2" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="9"/>
+<Property Name="YOffset" Value="268"/>
+<Property Name="Width" Value="391"/>
+<Property Name="Height" Value="1"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Transparent" Value="false"/>
+<Property Name="LineColor" Value="0x868686"/>
+<Property Name="LineType" Value="_______"/>
+<Property Name="IsHoriLine" Value="true"/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="Button" Name="nextbutton" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="157"/>
+<Property Name="YOffset" Value="278"/>
+<Property Name="Width" Value="66"/>
+<Property Name="Height" Value="20"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Disable" Value="false"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Transparent" Value="false"/>
+<Property Name="Background" Value="ONEIMAGE:button1.bmp;Tile;"/>
+<Property Name="BackgroundHover" Value="ONEIMAGE:button2.bmp;Tile;"/>
+<Property Name="BackgroundPressed" Value="ONEIMAGE:button3.bmp;Tile;"/>
+<Property Name="BackgroundDisable" Value="ONEIMAGE:button4.bmp;Tile;"/>
+<Property Name="TransColor" Value="0xffffffff"/>
+<Property Name="ButtonType" Value="NormalButton"/>
+<Property Name="Caption" Value="完成"/>
+<Property Name="AlignMode" Value="CENTER"/>
+<Property Name="LayoutMode" Value="None"/>
+<Property Name="InnerMargins" Value="0,0,0,0"/>
+<Property Name="OuterMargins" Value="0,0,0,0"/>
+<Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体"/>
+<Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="TextColor" Value="0x000000"/>
+<Property Name="TextColorHover" Value="0x000000"/>
+<Property Name="TextColorPressed" Value="0x000000"/>
+<Property Name="TextColorDisable" Value="0x000000"/>
+<Property Name="TextEffect" Value=""/>
+<Property Name="TextEffectHover" Value=""/>
+<Property Name="TextEffectPressed" Value=""/>
+<Property Name="TextEffectDisable" Value=""/>
+<Property Name="TextXOffsetPressed" Value="0"/>
+<Property Name="TextYOffsetPressed" Value="0"/>
+<Property Name="AutoSize" Value="false"/>
+<Property Name="ItemMargin" Value="4"/>
+<Property Name="AutoSizeImage" Value="false"/>
+<Property Name="Tip" Value=""/>
+<Property Name="TabStop" Value="false"/>
+<Property Name="DefaultButton" Value="false"/>
+<Property Name="URL" Value=""/>
+<Property Name="ClickSound" Value=""/>
+<Property Name="FadeInTime" Value="0"/>
+<Property Name="FadeOutTime" Value="0"/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="Container" Name="Container1" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="8"/>
+<Property Name="YOffset" Value="30"/>
+<Property Name="Width" Value="100"/>
+<Property Name="Height" Value="237"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Disable" Value="false"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Background" Value="ONEIMAGE:adwnd.BMP;Tile;"/>
+<Property Name="Transparent" Value="false"/>
+<Property Name="CreateType" Value="ignore"/>
+<Property Name="Tip" Value=""/>
+<Property Name="LayoutMode" Value="None"/>
+<Property Name="InnerMargins" Value="0,0,0,0"/>
+<Property Name="OuterMargins" Value="0,0,0,0"/>
+<Property Name="TransColor" Value="0xffffffff"/>
+<Property Name="TabStop" Value="false"/>
+<Property Name="ImageOverturnMode" Value="None"/>
+<Property Name="FadeInTime" Value="0"/>
+<Property Name="FadeOutTime" Value="0"/>
+<Property Name="CustomDraw" Value="false"/>
+<Property Name="ClassID" Value="0"/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="Beeline" Name="Beeline3" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="9"/>
+<Property Name="YOffset" Value="269"/>
+<Property Name="Width" Value="393"/>
+<Property Name="Height" Value="1"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Transparent" Value="false"/>
+<Property Name="LineColor" Value="0xffffff"/>
+<Property Name="LineType" Value="_______"/>
+<Property Name="IsHoriLine" Value="true"/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="Static" Name="Static1" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="122"/>
+<Property Name="YOffset" Value="39"/>
+<Property Name="Width" Value="153"/>
+<Property Name="Height" Value="13"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="TextColor" Value="0x000000"/>
+<Property Name="Caption" Value="正在安装以下更新："/>
+<Property Name="LogFont" Value="-12;0;0;0;700;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="AlignMode" Value="LEFT"/>
+<Property Name="Disable" Value="false"/>
+<Property Name="AutoChangeLine" Value="false"/>
+<Property Name="Transparent" Value="true"/>
+<Property Name="MultiLine" Value="false"/>
+<Property Name="AutoSize" Value="false"/>
+<Property Name="LineSpacing" Value="0"/>
+<Property Name="TextEffect" Value=""/>
+<Property Name="LayoutMode" Value="None"/>
+<Property Name="InnerMargins" Value="0,0,0,0"/>
+<Property Name="OuterMargins" Value="0,0,0,0"/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="Static" Name="Static3" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="124"/>
+<Property Name="YOffset" Value="137"/>
+<Property Name="Width" Value="86"/>
+<Property Name="Height" Value="13"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="TextColor" Value="0x000000"/>
+<Property Name="Caption" Value="更新总进度："/>
+<Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="AlignMode" Value="LEFT"/>
+<Property Name="Disable" Value="false"/>
+<Property Name="AutoChangeLine" Value="false"/>
+<Property Name="Transparent" Value="true"/>
+<Property Name="MultiLine" Value="false"/>
+<Property Name="AutoSize" Value="false"/>
+<Property Name="LineSpacing" Value="0"/>
+<Property Name="TextEffect" Value=""/>
+<Property Name="LayoutMode" Value="None"/>
+<Property Name="InnerMargins" Value="0,0,0,0"/>
+<Property Name="OuterMargins" Value="0,0,0,0"/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="Level" Name="updateprogress" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="129"/>
+<Property Name="YOffset" Value="164"/>
+<Property Name="Width" Value="257"/>
+<Property Name="Height" Value="13"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Transparent" Value="false"/>
+<Property Name="TextColor" Value="0x000000"/>
+<Property Name="Caption" Value=""/>
+<Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="LevelTopImage" Value="ONEIMAGE:等级条00.bmp;Tile;"/>
+<Property Name="LevelBottomImage" Value="ONEIMAGE:等级条01.bmp;Tile;"/>
+<Property Name="LevelWidth" Value=""/>
+<Property Name="LevelTextVisible" Value="true"/>
+<Property Name="LevelHeight" Value=""/>
+<Property Name="Disable" Value="false"/>
+<Property Name="Tip" Value=""/>
+</Properties>
+<Children/>
+</UIObject>
+<UIObject Type="ListBox" Name="updatelist" ScriptFile="">
+<Properties>
+<Property Name="XOffset" Value="123"/>
+<Property Name="YOffset" Value="55"/>
+<Property Name="Width" Value="285"/>
+<Property Name="Height" Value="73"/>
+<Property Name="Visible" Value="true"/>
+<Property Name="Disable" Value="false"/>
+<Property Name="Alpha" Value="255"/>
+<Property Name="Transparent" Value="false"/>
+<Property Name="TextColor" Value="0x000000"/>
+<Property Name="AlignMode" Value="LEFT"/>
+<Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体"/>
+<Property Name="ItemHeight" Value="20"/>
+<Property Name="ItemMargin" Value="4"/>
+<Property Name="HasBorder" Value="true"/>
+<Property Name="BorderColor" Value="0x000000"/>
+<Property Name="SelectTextColor" Value="0xf7f7f7"/>
+<Property Name="SelectBGColor" Value="0xd38936"/>
+<Property Name="ScrollBarImagePath" Value=""/>
+</Properties>
+<Children/>
+</UIObject>
+</Children>
+</UIObject>
+</TenioUILayout>

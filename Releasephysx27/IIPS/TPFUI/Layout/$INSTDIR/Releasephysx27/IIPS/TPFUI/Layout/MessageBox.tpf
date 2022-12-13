@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.70.20110727" ColorLib="">
+    <UIObject Type="Dialog" Name="Dialog_1">
+        <Properties>
+            <Property Name="XOffset" Value="-60" />
+            <Property Name="YOffset" Value="-21" />
+            <Property Name="Width" Value="480" />
+            <Property Name="Height" Value="360" />
+            <Property Name="Visible" Value="true" />
+            <Property Name="CreateType" Value="winless" />
+        </Properties>
+        <Children />
+    </UIObject>
+</TenioUILayout>

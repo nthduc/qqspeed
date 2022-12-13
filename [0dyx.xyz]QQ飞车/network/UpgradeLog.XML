@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Network">
+</Property><Property Name="解决方案文件" Value="H:\CODE\QQ卡丁车kart_client\aaa\network\Network.sln">
+</Property><Property Name="Date" Value="2009年8月24日">
+</Property><Property Name="Time" Value="11:11">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Network.sln" Description="文件已成功备份为 H:\CODE\QQ卡丁车kart_client\aaa\network\Network.sln.old">
+</Event><Event ErrorLevel="2" Project="Network" Source="Network.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\network\Network.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="QQTPPP2ND" Source="..\p2p\QQTPPP2ND\QQTPPP2ND.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\p2p\QQTPPP2ND\QQTPPP2ND.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="GameApp" Source="..\gameapp\GameApp.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\gameapp\GameApp.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="gameui" Source="..\libsrc\gameui\gameui.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\gameui\gameui.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="lua5" Source="..\libsrc\lua5\lua5.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\lua5\lua5.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="LuaPlusLib" Source="..\libsrc\LuaPlus\LuaPlusLib.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\LuaPlus\LuaPlusLib.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="ImageLib" Source="..\libsrc\ImageLib\ImageLib.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\ImageLib\ImageLib.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="XImage" Source="..\libsrc\XImage\XImage.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\XImage\XImage.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="kernel" Source="..\libsrc\Kernel\kernel.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\Kernel\kernel.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="vfilesys" Source="..\vfilesys\vfilesys.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\vfilesys\vfilesys.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="P2PAdapter" Source="..\p2p\P2PAdapter\P2PAdapter.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\p2p\P2PAdapter\P2PAdapter.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="QQTPing" Source="..\pingmgr\QQTPing.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\pingmgr\QQTPing.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="regsvr" Source="..\tools\regsvr\regsvr.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\tools\regsvr\regsvr.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="dbgview" Source="..\tools\dbgview\dbgview.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\tools\dbgview\dbgview.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="lualibx" Source="..\libsrc\lua-5.0.2\buildlua_win32\lualibx\lualibx.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\lua-5.0.2\buildlua_win32\lualibx\lualibx.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="lualib" Source="..\libsrc\lua-5.0.2\buildlua_win32\lualib\lualib.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\lua-5.0.2\buildlua_win32\lualib\lualib.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="KartClient" Source="..\extentions\KartClient\KartClient.vcproj" Description="未能升级项目文件“H:\CODE\QQ卡丁车kart_client\aaa\extentions\KartClient\KartClient.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="KartClient" Source="..\extentions\KartClient\KartClient.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="KartClient" Source="..\extentions\KartClient\KartClient.vcproj" Description="未转换">
+</Event><Event ErrorLevel="2" Project="Top-Kart" Source="..\extentions\Top-Kart\Top-Kart.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\extentions\Top-Kart\Top-Kart.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="" Source="Network.sln" Description="无法转换解决方案文件“H:\CODE\QQ卡丁车kart_client\aaa\network\Network.sln”，因为它在磁盘上是只读的。若要转换此解决方案，请将此解决方案文件的权限更改为允许修改，然后重新打开它。">
+</Event><Event ErrorLevel="3" Project="" Source="Network.sln" Description="未转换">
+</Event></UpgradeLog>

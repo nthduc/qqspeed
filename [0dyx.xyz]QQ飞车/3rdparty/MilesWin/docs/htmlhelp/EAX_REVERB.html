@@ -1,0 +1,141 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>EAX_REVERB</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="used to control the environmental reverb filter in the EAX 4 3D provider">
+<meta name="ms-hkwd" content="EAX_REVERB">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>EAX_REVERB</h1>
+<p>The structure  <b>EAX_REVERB</b> used to control the environmental reverb filter in the EAX 4 3D provider</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b>struct <a href="EAX_REVERB.html" class=trn>EAX_REVERB</a>
+{
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Slot</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Volume</i><b>;
+&nbsp;&nbsp;<a href="MILES_ROOM_TYPE.html" class=trn>MILES_ROOM_TYPE</a></b><i> Environment</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> EnvironmentSize</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> EnvironmentDiffusion</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Room</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> RoomHF</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> RoomLF</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> DecayTime</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> DecayHFRatio</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> DecayLFRatio</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Reflections</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ReflectionsDelay</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ReflectionsPanX</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ReflectionsPanY</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ReflectionsPanZ</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Reverb</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ReverbDelay</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ReverbPanX</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ReverbPanY</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ReverbPanZ</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> EchoTime</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> EchoDepth</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ModulationTime</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> ModulationDepth</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> AirAbsorptionHF</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> HFReference</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> LFReference</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> RoomRolloffFactor</i><b>;
+&nbsp;&nbsp;<a href="U32.html" class=trn>U32</a></b><i> Flags</i><b>;
+};</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Members</h4>
+<dl>
+<dt><i>Slot</i></dt>
+<dd>specifies the slot to query or set. Reverb can use slot 0, 2 and/or 3.</dd>
+<dt><i>Volume</i></dt>
+<dd>specifies the volume of this slot in standard EAX attenuation units (-10000 to 0 fixed point millibels, default 0.0).</dd>
+<dt><i>Environment</i></dt>
+<dd>specifies one of the room type environment constants (default <a href="MILES_ROOM_TYPE.html#ENVIRONMENT_GENERIC">ENVIRONMENT_GENERIC</a>).</dd>
+<dt><i>EnvironmentSize</i></dt>
+<dd>specifies environment size in meters (default 7.5).</dd>
+<dt><i>EnvironmentDiffusion</i></dt>
+<dd>controls the echo density in the reverberation decay (0.0 to 1.0, default 1.0).</dd>
+<dt><i>Room</i></dt>
+<dd>specifies the room effect level (at mid frequencies) in standard EAX attenuation units (-10000 to 0 fixed point millibels, default -1000).</dd>
+<dt><i>RoomHF</i></dt>
+<dd>specifies the relative room effect level at high frequencies in standard EAX attenuation units (-10,000 to 0 fixed point millibels, default -100).</dd>
+<dt><i>RoomLF</i></dt>
+<dd>specifies the relative room effect level at low frequencies in standard EAX attenuation units (-10,000 to 0 fixed point millibels, default 0).</dd>
+<dt><i>DecayTime</i></dt>
+<dd>specifies the reverberation decay time at mid frequencies in seconds (0.1 to 20.0, default 1.49).</dd>
+<dt><i>DecayHFRatio</i></dt>
+<dd>specifies the high-frequency to mid-frequency decay time ratio (0.1 to 2.0, default 0.83).</dd>
+<dt><i>DecayLFRatio</i></dt>
+<dd>specifies the low-frequency to mid-frequency decay time ratio (0.1 to 2.0, default 1.0).</dd>
+<dt><i>Reflections</i></dt>
+<dd>controls the early reflections level relative to room effect in standard EAX attenuation units (-10000 to 0 fixed point millibels, default -2602).</dd>
+<dt><i>ReflectionsDelay</i></dt>
+<dd>specifies the initial reflection delay time from direct path to first reflection in seconds (0.0 to 0.3, default 0.007).</dd>
+<dt><i>ReflectionsPanX</i></dt>
+<dd>specifies the normalized X coordinate of the early reflections panning vector (default 0.0).</dd>
+<dt><i>ReflectionsPanY</i></dt>
+<dd>specifies the normalized Y coordinate of the early reflections panning vector (default 0.0).</dd>
+<dt><i>ReflectionsPanZ</i></dt>
+<dd>specifies the normalized Z coordinate of the early reflections panning vector (default 0.0).</dd>
+<dt><i>Reverb</i></dt>
+<dd>specifies the late reverberation level relative to room effect in standard EAX attenuation units (-10000 to 2000 fixed point millibels, default 200).</dd>
+<dt><i>ReverbDelay</i></dt>
+<dd>specifies the late reverberation delay time relative to initial reflection in seconds (0.0 to 0.1, default 0.011).</dd>
+<dt><i>ReverbPanX</i></dt>
+<dd>specifies the normalized X coordinate of the late reverberation panning vector (default 0.0).</dd>
+<dt><i>ReverbPanY</i></dt>
+<dd>specifies the normalized Y coordinate of the late reverberation panning vector (default 0.0).</dd>
+<dt><i>ReverbPanZ</i></dt>
+<dd>specifies the normalized Z coordinate of the late reverberation panning vector (default 0.0).</dd>
+<dt><i>EchoTime</i></dt>
+<dd>specifies the time lag of an echo in the reverberation decay in seconds (0.075 to 0.25, default 0.25).</dd>
+<dt><i>EchoDepth</i></dt>
+<dd>specifies a factor controlling the strength of the echo effect (0.0 to 1.0, default: 0.0).</dd>
+<dt><i>ModulationTime</i></dt>
+<dd>specifies rate of modulation in seconds (0.04 to 4.0, default: 0.25).</dd>
+<dt><i>ModulationDepth</i></dt>
+<dd>specifies a factor controlling the pitch range of the modulation effect (0.0 to 1.0, default: 0.0).</dd>
+<dt><i>AirAbsorptionHF</i></dt>
+<dd>specifies the change in level per meter at high frequencies (-100.0 to 0.0, default -5.0).</dd>
+<dt><i>HFReference</i></dt>
+<dd>specifies the reference high frequency in hertz (1000.0 to 20000.0, default 5000.0).</dd>
+<dt><i>LFReference</i></dt>
+<dd>specifies the reference low frequency in hertz (20.0 to 1000.0, default 250.0).</dd>
+<dt><i>RoomRolloffFactor</i></dt>
+<dd>specifies the a DS3D-style rolloff factor but for room effects (0 to 10.0, default 0,0).</dd>
+<dt><i>Flags</i></dt>
+<dd>modifies the behavior of properties - you can use one or more of these values:<br> 1 = delay time adjusted by environment size, <br> 2 = reflection level adjusted by environment size, <br> 4 = reflection delay time adjusted by environment size, <br> 8 = reverb level adjusted by environment size, <br> 16 = reverb delay time adjusted by environment size, <br> 64 = echo time adjusted by environment size, <br> 128 = modulation time adjusted by environment size, <br> 32 = limit high-frequency decay time according to air absorption.<br> Default: 255.</dd>
+</dl>
+<h4>Discussion</h4>
+<p>See the EAX 4 documentation for technical details on this filter.</p>
+<p>
+<br>
+<b>Group:</b>
+<a href="3D Digital Audio Services.html">3D Digital Audio Services</a><br>
+<b>Related Sections:</b>
+<a href="Creative's EAX 4 Pre4368aa.html">Creative's EAX 4 Preferences</a><br>
+<b>Related Basic Types:</b>
+<a href="F32.html">F32</a>, <a href="MILES_ROOM_TYPE.html">MILES_ROOM_TYPE</a>, <a href="S32.html">S32</a>, <a href="U32.html">U32</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

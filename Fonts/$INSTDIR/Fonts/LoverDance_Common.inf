@@ -1,0 +1,5 @@
+[CustomFont]
+Texture=Panel/LoverMode/showLoveFlower.tga
+CellX=15
+CellY=12
+Text="*"

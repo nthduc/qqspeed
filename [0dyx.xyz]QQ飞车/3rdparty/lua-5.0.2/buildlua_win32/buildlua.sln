@@ -1,0 +1,74 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lualib", "lualib\lualib.vcproj", "{C6FA93C4-0EE7-4B37-9BE4-35FF38029A19}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua\lua.vcproj", "{B661C98F-935C-4F5A-8219-0151788E0054}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D99077F-E292-43DD-977F-1BB31C31AA44} = {5D99077F-E292-43DD-977F-1BB31C31AA44}
+		{C6FA93C4-0EE7-4B37-9BE4-35FF38029A19} = {C6FA93C4-0EE7-4B37-9BE4-35FF38029A19}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luac", "luac\luac.vcproj", "{3C7442CB-98BF-4AC0-89F9-F2F7AD1F478B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D99077F-E292-43DD-977F-1BB31C31AA44} = {5D99077F-E292-43DD-977F-1BB31C31AA44}
+		{C6FA93C4-0EE7-4B37-9BE4-35FF38029A19} = {C6FA93C4-0EE7-4B37-9BE4-35FF38029A19}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lualibx", "lualibx\lualibx.vcproj", "{5D99077F-E292-43DD-977F-1BB31C31AA44}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = buildlua_win32\\
+		SolutionUniqueID = {FAFBD631-1867-478B-B3DB-51CD1C3A5EA3}
+		SccProjectUniqueName1 = lualib\\lualib.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = buildlua_win32\\lualib\\
+		SccProjectUniqueName2 = lua\\lua.vcproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = buildlua_win32\\lua\\
+		SccProjectUniqueName3 = luac\\luac.vcproj
+		SccLocalPath3 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection3 = buildlua_win32\\luac\\
+		SccProjectUniqueName4 = lualibx\\lualibx.vcproj
+		SccLocalPath4 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection4 = buildlua_win32\\lualibx\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C6FA93C4-0EE7-4B37-9BE4-35FF38029A19}.Debug.ActiveCfg = Debug|Win32
+		{C6FA93C4-0EE7-4B37-9BE4-35FF38029A19}.Debug.Build.0 = Debug|Win32
+		{C6FA93C4-0EE7-4B37-9BE4-35FF38029A19}.Release.ActiveCfg = Release|Win32
+		{C6FA93C4-0EE7-4B37-9BE4-35FF38029A19}.Release.Build.0 = Release|Win32
+		{B661C98F-935C-4F5A-8219-0151788E0054}.Debug.ActiveCfg = Debug|Win32
+		{B661C98F-935C-4F5A-8219-0151788E0054}.Debug.Build.0 = Debug|Win32
+		{B661C98F-935C-4F5A-8219-0151788E0054}.Release.ActiveCfg = Release|Win32
+		{B661C98F-935C-4F5A-8219-0151788E0054}.Release.Build.0 = Release|Win32
+		{3C7442CB-98BF-4AC0-89F9-F2F7AD1F478B}.Debug.ActiveCfg = Debug|Win32
+		{3C7442CB-98BF-4AC0-89F9-F2F7AD1F478B}.Debug.Build.0 = Debug|Win32
+		{3C7442CB-98BF-4AC0-89F9-F2F7AD1F478B}.Release.ActiveCfg = Release|Win32
+		{3C7442CB-98BF-4AC0-89F9-F2F7AD1F478B}.Release.Build.0 = Release|Win32
+		{5D99077F-E292-43DD-977F-1BB31C31AA44}.Debug.ActiveCfg = Debug|Win32
+		{5D99077F-E292-43DD-977F-1BB31C31AA44}.Debug.Build.0 = Debug|Win32
+		{5D99077F-E292-43DD-977F-1BB31C31AA44}.Release.ActiveCfg = Release|Win32
+		{5D99077F-E292-43DD-977F-1BB31C31AA44}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,677 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WDBG.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\WDBG.ico"
+IDR_WDBGTYPE            ICON                    "res\\WDBGProjDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_DEBUG_GO
+    BUTTON      ID_DEBUG_BREAK
+    BUTTON      ID_DEBUG_STOP
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About WDBG...",              ID_APP_ABOUT
+    END
+END
+
+IDR_WDBGTYPE MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "P&roject Settings",           ID_EDIT_PROJECT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "View &Callstack",             ID_VIEW_CALLSTACK
+        MENUITEM "View &Disassembly",           ID_VIEW_DISASSEMBLY
+        MENUITEM "View &Memory",                ID_VIEW_MEMORY
+        MENUITEM "View &Registers",             ID_VIEW_REGISTERS
+        MENUITEM "View S&ymbols",               ID_VIEW_SYMBOLS
+    END
+    POPUP "&Debug"
+    BEGIN
+        MENUITEM "&Go\tF5",                     ID_DEBUG_GO
+        MENUITEM "&Stop",                       ID_DEBUG_STOP
+        MENUITEM "&Break",                      ID_DEBUG_BREAK
+        MENUITEM SEPARATOR
+        MENUITEM "B&reakpoints...",             ID_DEBUG_BREAKPOINTS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About WDBG...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F5,          ID_DEBUG_GO,            VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 81
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About WDBG"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "WDBG Version 2.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright © 1997-2003 by John Robbins",IDC_STATIC,40,66,
+                    188,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "A working debugger from the book\r\n\r\nDebugging Applications for Microsoft .NET and Microsoft Windows",
+                    IDC_STATIC,40,24,188,28
+END
+
+IDD_PROJECTSETTINGS DIALOG  0, 0, 237, 114
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Project Settings for %s"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Executable for this session:",IDC_STATIC,7,7,223,11
+    EDITTEXT        IDC_EXEPROGRAM,7,19,223,14,ES_AUTOHSCROLL
+    LTEXT           "&Command line options:",IDC_STATIC,7,36,223,11
+    EDITTEXT        IDC_CMDLINEOPTS,7,48,223,14,ES_AUTOHSCROLL
+    CONTROL         "&Stop on the loader breakpoint",IDC_STOPONLDRBP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,69,223,11
+    DEFPUSHBUTTON   "OK",IDOK,62,93,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,125,93,50,14
+END
+
+IDD_MEMTODISPLAY DIALOG  0, 0, 223, 146
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Memory Display"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Starting Address (number or symbol)",IDC_STATIC,7,7,
+                    209,12
+    EDITTEXT        IDC_ADDRESS,7,19,209,13,ES_AUTOHSCROLL
+    GROUPBOX        "Display Length",IDC_STATIC,7,37,209,49
+    CONTROL         "&Byte",IDC_BYTE,"Button",BS_AUTORADIOBUTTON,24,49,62,10
+    CONTROL         "&Word",IDC_WORD,"Button",BS_AUTORADIOBUTTON,24,61,62,10
+    CONTROL         "&Double Word",IDC_DWORD,"Button",BS_AUTORADIOBUTTON,24,
+                    73,62,10
+    LTEXT           "Byte &count to display",IDC_STATIC,7,90,209,12
+    EDITTEXT        IDC_LENGTH,7,102,209,13,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,58,125,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,115,125,50,14
+END
+
+IDD_DISASMTODISPLAY DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Disassembly to Display"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Starting Address (number or symbol)",IDC_STATIC,7,7,
+                    172,10
+    EDITTEXT        IDC_ADDRESS,7,17,172,14,ES_AUTOHSCROLL
+    LTEXT           "&Number of instructions",IDC_STATIC,7,34,172,10
+    EDITTEXT        IDC_INSTRUCTIONCOUNT,7,45,172,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,34,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,102,74,50,14
+END
+
+IDD_SYMTODISPLAY DIALOG  0, 0, 186, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Symbols Display"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Select the module to display:",IDC_STATIC,7,7,172,9
+    COMBOBOX        IDC_MODCOMBO,7,17,172,50,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,38,34,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,96,34,50,14
+END
+
+IDD_THREADPICKER DIALOG  0, 0, 186, 58
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Your Title Here"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Select the thread to display:",IDC_STATIC,7,7,172,9
+    COMBOBOX        IDC_THREADCOMBO,7,17,172,50,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,39,37,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,97,37,50,14
+END
+
+IDD_BREAKPOINTS DIALOG  0, 0, 324, 140
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Breakpoints"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_BPLIST,7,7,253,104,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "&New",IDNEW,42,119,50,14
+    DEFPUSHBUTTON   "&Edit",IDEDIT,111,119,50,14
+    DEFPUSHBUTTON   "&Remove",IDREMOVE,180,119,50,14
+    DEFPUSHBUTTON   "&OK",IDOK,267,7,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,267,24,50,14
+END
+
+IDD_NEWEDITBP DIALOG  0, 0, 214, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Blah Breakpoint"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Breakpoint &Type",IDC_STATIC,7,7,200,8
+    COMBOBOX        IDC_BPTYPE,7,19,200,35,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Breakpoint &Location (Address or Symbol)",IDC_STATIC,7,
+                    35,200,8
+    EDITTEXT        IDC_BPLOCATION,7,47,200,13,ES_AUTOHSCROLL
+    LTEXT           "&Pass Count",IDC_PASSCOUNTLABEL,7,64,200,8
+    EDITTEXT        IDC_PASSCOUNTEDIT,7,76,200,13,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,52,95,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,110,95,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 2,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "De Oppresso Liber"
+            VALUE "CompanyName", "Debugging Applications for Microsoft .NET and Microsoft Windows"
+            VALUE "FileDescription", "WDBG - A full Win32 debugging sample"
+            VALUE "FileVersion", "2.0.000"
+            VALUE "InternalName", "WDBG"
+            VALUE "LegalCopyright", "Copyright © 1997-2003 by John Robbins"
+            VALUE "OriginalFilename", "WDBG.EXE"
+            VALUE "ProductName", "WDBG"
+            VALUE "ProductVersion", "2.0.000"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_PROJECTSETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_MEMTODISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DISASMTODISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SYMTODISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_THREADPICKER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_BREAKPOINTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 317
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_NEWEDITBP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\WDBG.EXE.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "WDBG Debugger"
+    IDR_WDBGTYPE            "\nWDBG\nWDBG\nWDBG Project Files (*.wpj)\n.wpj\nWDBG.Project\nWDBG Project"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "WDBG"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    IDS_EXEFILTER           "Executable Files (*.exe;*.dll;*.ocx)"
+    IDS_EXEEXT              "*.exe;*.dll;*.ocx"
+    IDS_BROWSEEXEMSG        "In order to run\r\n%s,\r\nWDBG needs an executable program to associate with it.  Please select an .EXE in the following dialog."
+    IDS_LOGGINGWINTITLE     "WDBG Log Window"
+    IDS_PROJSETTINGSDLGTITLE "Project Settings for %s"
+    IDS_FIRSTCHANCEFMT      "First-chance exception at 0x%08X (%s) : %08X : %s\r\n"
+    IDS_FATALEXCEPTION      "Fatal Exception\r\nException at 0x%08X (%s) : %08X : %s\r\n"
+    IDS_STOPPEDATLDRBP      "\r\n>>Stopping at the loader breakpoint as requested\r\n"
+    IDS_THREADSTITLE        "Active Threads Window"
+    IDS_MODULESTITLE        "Loaded Modules Window"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_PROJECT         "Change the project settings"
+    ID_DEBUG_GO             "Start or continue debugging\nDebug"
+    ID_DEBUG_STOP           "Stop debugging\nStop"
+    ID_DEBUG_BREAKPOINTS    "Add or modify breakpoints"
+    ID_VIEW_DISASSEMBLY     "Disassemble an address range in the debuggee"
+    ID_VIEW_MEMORY          "View a memory dump from the debuggee's address space"
+    ID_VIEW_SYMBOLS         "View a module's symbols"
+    ID_VIEW_MODULES         "View the currently loaded debuggee module list"
+    ID_VIEW_THREADS         "View the currently running debuggee threads"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INVALIDMEMADDRESS   "The address to view is invalid."
+    IDS_MEMTITLEFMT         "Memory (%s)"
+    IDS_DISTITLEFMT         "Disassembly (%s)"
+    IDS_NODISASMATADDR      "0x%08X Disassembly failed, invalid address."
+    IDS_SYMTITLEFMT         "Symbols (%s)"
+    IDS_CALLSTACKTITLEFMT   "Call Stack (%s)"
+    IDS_CALLSTACKDLGTITLE   "Call Stack"
+    IDS_REGISTERDLGTITLE    "Registers"
+    IDS_REGISTERTITLEFMT    "Registers (%s)"
+    IDS_THREADNOLONGEREXISTS 
+                            "The thread no longer exists.\r\nUnable to display information."
+    IDS_BREAKDUETOMANUALBREAK 
+                            "\r\n>>Break due to user requested manual break\r\n"
+    IDS_NEWBPTITLE          "New Breakpoint"
+    IDS_EDITBPTITLE         "Edit Breakpoint"
+    IDS_LOCATIONBPNAME      "Location Breakpoint"
+    IDS_COUNTEDBPNAME       "Counted Breakpoint"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_CALLSTACK       "Display a thread's callstack"
+    ID_VIEW_REGISTERS       "Display a thread's registers"
+    ID_DEBUG_BREAK          "Break into the debugger\nBreak"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NOLOCATIONFORBP     "No location for the breakpoint was specified."
+    IDS_BPADDRINVALID       "The requested address cannot be resolved."
+    IDS_USERBPFMT           "\r\n>>User Breakpoint : %s (0x%08X)\r\n"
+    IDS_EXCEPTIONSTATE      "[Break]"
+    IDS_RUNNINGSTATE        "[Run]"
+    IDS_MODVIEWHDR          "Module                      Address Range          Sym Type  Path\r\n"
+    IDS_MODVIEWSEP          "-------------------------   ---------------------  --------  ----\r\n"
+    IDS_THREADVIEWMOD       "Thread ID   Thread Handle  Starting Function\r\n"
+    IDS_THREADVIEWSEP       "---------   -------------  -----------------\r\n"
+    IDS_HARDCODEDBP         "\r\n>>Hard Coded Breakpoint (0x%08X)\r\n"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\WDBG.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

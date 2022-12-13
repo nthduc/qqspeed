@@ -1,0 +1,5 @@
+[CustomFont]
+Texture=Textures/StickPassOnState.tga
+CellX=55
+CellY=55
+Text="ABCD"

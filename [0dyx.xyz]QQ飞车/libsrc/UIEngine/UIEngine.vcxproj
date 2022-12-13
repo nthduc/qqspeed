@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleasePhysX27|Win32">
+      <Configuration>ReleasePhysX27</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{470CFD4B-2624-4E9A-83A6-A2B4C2C0FC3F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../lib/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../intermediates/libsrc/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../lib/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../intermediates/libsrc/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">../../lib/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../include/freetype;../../enginesdk/GameBryo/SDK/Win32/Include;../../include/freetype/freetype2;../../include;../../include/FBGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NIRELEASE;NDEBUG;WIN32;_DEBUG;_LIB;_DX9;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
+      <AdditionalLibraryDirectories>../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../include/freetype;../../enginesdk/GameBryo/SDK/Win32/Include;../../include/freetype/freetype2;../../include;../../include/FBGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NIRELEASE;WIN32;NDEBUG;_LIB;_DX9;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
+      <AdditionalLibraryDirectories>../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleasePhysX27|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../include/freetype;../../enginesdk/GameBryo/SDK/Win32/Include;../../include/freetype/freetype2;../../include;../../include/FBGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NIRELEASE;WIN32;NDEBUG;_LIB;_DX9;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
+      <AdditionalLibraryDirectories>../../enginesdk/GameBryo/SDK/Win32/Lib/VC71/$(Configuration)Lib;../../enginesdk/GameBryo/SDK/sdk/win32/lib/vc71/$(Configuration)lib;../../lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="gbFontManager.cpp" />
+    <ClCompile Include="gbTextureCodecEx.cpp" />
+    <ClCompile Include="gbTextureManager.cpp" />
+    <ClCompile Include="gbUIRenderer.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="FBGui\FBGUICanvas.cpp" />
+    <ClCompile Include="FBGui\FBGUICodePage.cpp" />
+    <ClCompile Include="FBGui\FBGUIFont.cpp" />
+    <ClCompile Include="FBGui\FBGUIFontManager.cpp" />
+    <ClCompile Include="FBGui\FBGUIFontVertex.cpp" />
+    <ClCompile Include="FBGui\FBGUIGlyphData.cpp" />
+    <ClCompile Include="FBGui\FBGUIMemory.cpp" />
+    <ClCompile Include="FBGui\FBGUIPoint.cpp" />
+    <ClCompile Include="FBGui\FBGUIRect.cpp" />
+    <ClCompile Include="FBGui\FBGUIRenderDriver.cpp" />
+    <ClCompile Include="FBGui\FBGUISystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gbFontManager.h" />
+    <ClInclude Include="gbTextureCodecEx.h" />
+    <ClInclude Include="gbTextureManager.h" />
+    <ClInclude Include="gbUIRenderer.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="IUIRenderer.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="FBGui\FBGUI.h" />
+    <ClInclude Include="FBGui\FBGUIBase.h" />
+    <ClInclude Include="FBGui\FBGUICanvas.h" />
+    <ClInclude Include="FBGui\FBGUICodePage.h" />
+    <ClInclude Include="FBGui\FBGUIDef.h" />
+    <ClInclude Include="FBGui\FBGUIFont.h" />
+    <ClInclude Include="FBGui\FBGUIFontManager.h" />
+    <ClInclude Include="FBGui\FBGUIFontVertex.h" />
+    <ClInclude Include="FBGui\FBGUIGlyphData.h" />
+    <ClInclude Include="FBGui\FBGUIMemory.h" />
+    <ClInclude Include="FBGui\FBGUIPoint.h" />
+    <ClInclude Include="FBGui\FBGUIRect.h" />
+    <ClInclude Include="FBGui\FBGUIRenderDriver.h" />
+    <ClInclude Include="FBGui\FBGUISingleton.h" />
+    <ClInclude Include="FBGui\FBGUISize.h" />
+    <ClInclude Include="FBGui\FBGUISystem.h" />
+    <ClInclude Include="FBGui\FBGUITexture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

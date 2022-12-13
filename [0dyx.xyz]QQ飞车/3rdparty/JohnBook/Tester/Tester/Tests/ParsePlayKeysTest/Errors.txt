@@ -1,0 +1,20 @@
+; Errors - Nothing goes to Notepad.
+; Position 4.
+{Foo}~
+; Position 2.
+{~
+; Position 1.
+[
+; Position 1.
+]
+; Position 1.
+(
+; Position 1.
+)
+; Position 1.
+}
+; Position 2.
+{
+
+
+

@@ -1,0 +1,34 @@
+HKCR
+{
+	SuperSaverShim.SuperSaverOptionsShim.1 = s 'SuperSaverOptionsShim Class'
+	{
+		CLSID = s '{4608FA89-1B8C-4AE0-9940-F2F35C834480}'
+	}
+	SuperSaverShim.SuperSaverOptionsShim = s 'SuperSaverOptionsShim Class'
+	{
+		CLSID = s '{4608FA89-1B8C-4AE0-9940-F2F35C834480}'
+		CurVer = s 'SuperSaverShim.SuperSaverOptionsShim.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {4608FA89-1B8C-4AE0-9940-F2F35C834480} = s 'SuperSaverOptionsShim Class'
+		{
+			ProgID = s 'SuperSaverShim.SuperSaverOptionsShim.1'
+			VersionIndependentProgID = s 'SuperSaverShim.SuperSaverOptionsShim'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			ForceRemove 'Control'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 102'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '%OLEMISC%'
+			}
+			'TypeLib' = s '{ABF82DF0-8438-4766-A4DF-EB762F9C44AF}'
+			'Version' = s '1.0'
+		}
+	}
+}

@@ -1,0 +1,62 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>AIL_DLS_get_reverb_levels</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="retrieves the simple reverb settings of the DLS software synthesizer.">
+<meta name="ms-hkwd" content="AIL_DLS_get_reverb_levels">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>AIL_DLS_get_reverb_levels</h1>
+<p>The function  <b>AIL_DLS_get_reverb_levels</b> retrieves the simple reverb settings of the DLS software synthesizer.</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b><a href="void.html" class=trn>void</a> <a href="AIL_DLS_get_reverb_levels.html" class=trn>AIL_DLS_get_reverb_levels</a>(</b>
+<b>&nbsp;&nbsp;<a href="HDLSDEVICE.html" class=trn>HDLSDEVICE</a>&nbsp;</b><i>dls</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;*</b><i>dry_level</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;*</b><i>wet_level</i>
+<b>);</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Parameters</h4>
+<dl>
+<dt><i>dls</i></dt>
+<dd>indicates the DLS device whose reverb settings are to be retrieved.</dd>
+</dl>
+<h4>Out Parameters</h4>
+<dl>
+<dt><i>dry_level</i></dt>
+<dd>returns the level of the dry sound signal (the non-reverbed sound). The range is 0.0 for no output, 1.0 for full output.</dd>
+<dt><i>wet_level</i></dt>
+<dd>returns the level of the wet sound signal (the reverberations). The range is 0.0 for no output, 1.0 for full output.</dd>
+</dl>
+<h4>Discussion</h4>
+<p>The reverb levels default to 1.0f for the dry level and 0.0f for the wet_level. </p><p> Reverb requires CPU time to apply, but it's pretty minimal. You can monitor the CPU use with the <a href="AIL_digital_CPU_percent.html">AIL_digital_CPU_percent</a> function.</p>
+<p>
+<br>
+<b>Group:</b>
+<a href="DLS Services.html">DLS Services</a><br>
+<b>Related Functions:</b>
+<a href="AIL_DLS_set_reverb_levels.html">AIL_DLS_set_reverb_levels</a>, <a href="AIL_digital_CPU_percent.html">AIL_digital_CPU_percent</a><br>
+<b>Related Basic Types:</b>
+<a href="F32.html">F32</a>, <a href="HDLSDEVICE.html">HDLSDEVICE</a>, <a href="void.html">void</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

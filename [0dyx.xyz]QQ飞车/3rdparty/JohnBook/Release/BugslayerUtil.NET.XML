@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BugslayerUtil.NET</name>
+    </assembly>
+    <members>
+        <member name="T:Wintellect.ASPTraceListener">
+            <summary>
+            The <see cref="T:System.Diagnostics.TraceListener"/> derived class
+            that redirects the Debug and Trace objects methods to the
+            appropriate ASP.NET trace and AssertPage.AssertionOutput method.
+            </summary>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.AssertionMsg">
+            <summary>
+            Private assertion title message.
+            </summary>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.CrLf">
+            <summary>
+            Private hard coded carraige return line feed string.
+            </summary>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.Border">
+            <summary>
+            The private assertion string boarder.
+            </summary>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.#ctor">
+            <summary>
+            The usual constructor.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.Fail(System.String)">
+            <summary>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Fail(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Fail(System.String)"/>
+            </remarks>
+            <param name="Message">
+            The message to display.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.Fail(System.String,System.String)">
+            <summary>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Fail(System.String)"/>
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Message">
+            The message to display.
+            </param>
+            <param name="DetailMessage">
+            The detailed message to display.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.Write(System.Object,System.String)">
+            <summary>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Write(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Write(System.String)"/>
+            </remarks>
+            <param name="Obj">
+            An Object whose fully qualified class name you want to write.
+            </param>
+            <param name="Message">
+            A message to write.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.Write(System.String,System.String)">
+            <summary>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Write(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Write(System.String)"/>
+            </remarks>
+            <param name="Message">
+            A message to write.
+            </param>
+            <param name="Category">
+            A category name used to organize the output.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.Write(System.String)">
+            <summary>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Write(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Write(System.String)"/>
+            </remarks>
+            <param name="Message">
+            A message to write.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.Write(System.Object)">
+            <summary>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Write(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Write(System.String)"/>
+            </remarks>
+            <param name="Obj">
+            An  whose fully qualified class name
+            you want to write.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.WriteLine(System.String,System.String)">
+            <summary>
+            Overrides
+            <see cref="M:System.Diagnostics.TraceListener.WriteLine(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides
+            <see cref="M:System.Diagnostics.TraceListener.WriteLine(System.String)"/>
+            </remarks>
+            <param name="Message">
+            A message to write.
+            </param>
+            <param name="Category">
+            A category name used to organize the output.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.WriteLine(System.Object,System.String)">
+            <summary>
+            Overrides
+            <see cref="M:System.Diagnostics.TraceListener.WriteLine(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides
+             <see cref="M:System.Diagnostics.TraceListener.WriteLine(System.String)"/>
+            </remarks>
+            <param name="Obj">
+            An  whose fully qualified class name
+            you want to write.
+            </param>
+            <param name="Message">
+            A message to write.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.WriteLine(System.String)">
+            <summary>
+            Overrides
+            <see cref="M:System.Diagnostics.TraceListener.WriteLine(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides
+            <see cref="M:System.Diagnostics.TraceListener.WriteLine(System.String)"/>
+            </remarks>
+            <param name="Message">
+            A message to write.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.WriteLine(System.Object)">
+            <summary>
+            Overrides
+            <see cref="M:System.Diagnostics.TraceListener.WriteLine(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides
+            <see cref="M:System.Diagnostics.TraceListener.WriteLine(System.String)"/>
+            </remarks>
+            <param name="Obj">
+            An  whose fully qualified class name
+            you want to write.
+            </param>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.m_ShowDebugLog">
+            <summary>
+            Private instance set by
+            <see cref="P:Wintellect.ASPTraceListener.ShowDebugLog"/>
+            </summary>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.m_ShowOutputDebugString">
+            <summary>
+            Private instance set by
+            <see cref="P:Wintellect.ASPTraceListener.ShowOutputDebugString"/>
+            </summary>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.m_EventSource">
+            <summary>
+            Private instance set by
+            <see cref="P:Wintellect.ASPTraceListener.EventSource"/>
+            </summary>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.m_EvtLog">
+            <summary>
+            The internal EventLog I keep around to do the
+            event log writing.
+            </summary>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.m_Writer">
+            <summary>
+            Private instance set by
+            <see cref="P:Wintellect.ASPTraceListener.Writer"/>
+            </summary>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.OutputDebugStringA(System.String)">
+            <summary>
+            The declaration for OutputDebugString.
+            </summary>
+            <remarks>
+            An interop call to KERNEL32!OutputDebugStringA
+            </remarks>
+            <param name="s">
+            The string to display.
+            </param>
+        </member>
+        <member name="F:Wintellect.ASPTraceListener.m_LaunchDebuggerOnAssert">
+            <summary>
+            Private instance set by
+            <see cref="P:Wintellect.ASPTraceListener.LaunchDebuggerOnAssert"/>
+            </summary>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.HandleOutput(System.String,System.String,Wintellect.BugslayerStackTrace)">
+            <summary>
+            Output the assertion or trace message.
+            </summary>
+            <remarks>
+            Takes care of all the output for the trace or assertion.
+            </remarks>
+            <param name="Message">
+            The message to display.
+            </param>
+            <param name="DetailMessage">
+            The detailed message to display.
+            </param>
+            <param name="Stk">
+            The  value
+            containing stack walk information for the assertion.  If this is
+            not null, this function is called from an assertion.  Trace
+            output sets this to null.
+            </param>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.IsRequestFromLocalMachine">
+            <summary>
+            Determines if the request came from a local machine.
+            </summary>
+            <remarks>
+            Checks if the IP address is 127.0.0.1 or the server variable
+            LOCAL_ADDR matches the current machine.
+            </remarks>
+            <returns>
+            Returns true if the request came from the local machine,
+            false otherwise.
+            </returns>
+        </member>
+        <member name="M:Wintellect.ASPTraceListener.FindAssertControl(System.Web.UI.ControlCollection,BugslayerUtil.NET.AssertControl@)">
+            <summary>
+            Finds any assertion controls on the page.
+            </summary>
+            <remarks>
+            All assertion controls have the name "AssertControl" so this
+            method simply loops through the page's control collection
+            looking for them.  It also looks through children of children
+            recursively.
+            </remarks>
+            <param name="CtlCol">
+            The collection control to look through.
+            </param>
+            <param name="AssertCtrl">
+            The output parameter that contains the assertion control found.
+            </param>
+        </member>
+        <member name="P:Wintellect.ASPTraceListener.ShowDebugLog">
+            <summary>
+             Show assertion output in any attached debuggers.  This is
+             true by default.
+            </summary>
+        </member>
+        <member name="P:Wintellect.ASPTraceListener.ShowOutputDebugString">
+            <summary>
+            Show assertion statements through the operating system
+            OutputDebugString call.  This is off by default.
+            </summary>
+        </member>
+        <member name="P:Wintellect.ASPTraceListener.EventSource">
+            <summary>
+            Sets the name of the event source for writing assertions to
+            the event log and turns on output to the event log.
+            </summary>
+        </member>
+        <member name="P:Wintellect.ASPTraceListener.Writer">
+            <summary>
+            The TextStream for file/pipe/whatever output.
+            </summary>
+            <remarks>
+            Setting this property will direct assertions to the file.
+            Keep in mind that you might want to ensure that this writer
+            is synchronized because this one is used across all threads.
+            </remarks>
+        </member>
+        <member name="P:Wintellect.ASPTraceListener.LaunchDebuggerOnAssert">
+            <summary>
+            If true, and an interactive user is logged in, a debugger
+            will be launched whenever an assertion is triggered.
+            The default is false.
+            </summary>
+        </member>
+        <member name="T:BugslayerUtil.NET.AssertControl">
+            <summary>
+            Drop the assertion control on any pages you want to see assertion
+            output.  As long as you derive your application from
+            <see cref="T:Wintellect.AssertHttpApplication"/> everything will get hooked up.
+            This control will use the ForeColor and FontSize properties.
+            </summary>
+        </member>
+        <member name="F:BugslayerUtil.NET.AssertControl.m_text">
+            <summary>
+            Private instance set by 
+            <see cref="P:BugslayerUtil.NET.AssertControl.Text"/>
+            </summary>
+        </member>
+        <member name="M:BugslayerUtil.NET.AssertControl.AddAssertion(System.String,System.String,Wintellect.BugslayerStackTrace)">
+            <summary>
+            Adds an assertion to the assertion control.
+            </summary>
+            <remarks>
+            The <see cref="T:Wintellect.ASPTraceListener"/> class will call this method
+            to add any assertion information generated on the server side.
+            </remarks>
+            <param name="Message">
+            The main assertion message.
+            </param>
+            <param name="DetailMessage">
+            The detailed message passed to the assertion.
+            </param>
+            <param name="Stk">
+            The stack trace.
+            </param>
+        </member>
+        <member name="M:BugslayerUtil.NET.AssertControl.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Render this control to the output parameter specified.
+            </summary>
+            <remarks>
+            	<see cref="M:System.Web.UI.WebControls.WebControl.Render(System.Web.UI.HtmlTextWriter)"/>
+            </remarks>
+            <param name="output">
+            The HTML writer to write out to
+            </param>
+        </member>
+        <member name="P:BugslayerUtil.NET.AssertControl.Text">
+            <summary>
+            Gets and sets the text to display.
+            </summary>
+        </member>
+        <member name="T:Wintellect.AssertHttpApplication">
+            <summary>
+            The ASP.NET <see cref="T:System.Web.HttpApplication"/> class you
+            derive your applications from.  This class automatically hooks up
+            the <see cref="T:Wintellect.ASPTraceListener"/> class so any
+            Debug.Assert or Trace.Write* will show up with the  rest of your
+            ASP.NET tracing code.  If you drop a the
+            <see cref="T:BugslayerUtil.NET.AssertControl"/> on your page, output
+            will go there as well.
+            </summary>
+        </member>
+        <member name="M:Wintellect.AssertHttpApplication.#ctor">
+            <summary>
+            The constructor that does all the work!
+            </summary>
+            <remarks>
+            Simply calls
+            <see cref="M:Wintellect.AssertHttpApplication.SetupTraceListener"/>
+            and
+            <see cref="M:Wintellect.AssertHttpApplication.SetupDebugListener"/>
+            </remarks>
+        </member>
+        <member name="M:Wintellect.AssertHttpApplication.Init">
+            <summary>
+            Initializes the class.
+            </summary>
+            <remarks>
+            The Init method is called AFTER the constructor. Unfortunately,
+            the Application object is not available in the constructor so I
+            must override the <see cref="M:System.Web.HttpApplication.Init"/>
+            method to add the <see cref="T:Wintellect.ASPTraceListener"/> class to the
+            application state bag.
+            <para>
+            If you use the Init method in your derivations, you MUST call
+            the base method!!
+            </para>
+            </remarks>
+        </member>
+        <member name="F:Wintellect.AssertHttpApplication.m_Listener">
+            <summary>
+            The private ASPTraceListener class.  This only exists if TRACE
+            or DEBUG is defined.
+            </summary>
+        </member>
+        <member name="M:Wintellect.AssertHttpApplication.SetupTraceListener">
+            <summary>
+            Removes all object from Trace.Listeners
+            </summary>
+            <remarks>
+            Takes care of removing all TraceListeners from
+            <see cref="T:System.Diagnostics.Trace"/> and adding the
+            <see cref="T:Wintellect.ASPTraceListener"/> as the only one.
+            </remarks>
+        </member>
+        <member name="M:Wintellect.AssertHttpApplication.SetupDebugListener">
+            <summary>
+            Removes all Debug.Listeners
+            </summary>
+            <remarks>
+            Takes care of removing all TraceListeners from
+            <see cref="T:System.Diagnostics.Debug"/> and adding the
+            <see cref="T:Wintellect.ASPTraceListener"/> as the only one.
+            </remarks>
+        </member>
+        <member name="P:Wintellect.AssertHttpApplication.Listener">
+            <summary>
+            Returns the <see cref="T:Wintellect.ASPTraceListener"/> so you
+            can set output properties.
+            </summary>
+        </member>
+        <member name="T:Wintellect.BugslayerEventLogTraceListener">
+            <summary>
+            The event log trace listener class with real stack walking,
+            </summary>
+            <remark>
+            It's doubly sad, but the default
+            <seealso cref="T:System.Diagnostics.EventLogTraceListener"/> does not write out
+            the full stack trace on assertions and it's sealed so you
+            can't derive from it.  I can't see a single reason
+            why it's sealed.
+            Use this class as a drop in replacement as it will do the
+            stack trace you expect.
+            </remark>
+        </member>
+        <member name="M:Wintellect.BugslayerEventLogTraceListener.#ctor">
+            <summary>
+            class without a trace listener
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.EventLogTraceListener"/>.
+            </remarks>
+        </member>
+        <member name="M:Wintellect.BugslayerEventLogTraceListener.#ctor(System.Diagnostics.EventLog)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerEventLogTraceListener"/>
+            class using the specified event log.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.EventLogTraceListener"/>.
+            </remarks>
+            <param name="eventLog">
+            An that specifies the event log to
+            write to.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerEventLogTraceListener.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerEventLogTraceListener"/>
+            the specified source
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.EventLogTraceListener"/>
+            </remarks>
+            <param name="source">
+            The name of an existing event log source.
+            </param>
+        </member>
+        <member name="F:Wintellect.BugslayerEventLogTraceListener.m_EventLog">
+            <summary>
+            Private instance set by
+            <see cref="P:Wintellect.BugslayerEventLogTraceListener.EventLog"/>
+            </summary>
+        </member>
+        <member name="F:Wintellect.BugslayerEventLogTraceListener.m_sName">
+            <summary>
+            Private instance set by
+            <see cref="P:Wintellect.BugslayerEventLogTraceListener.Name"/>
+            </summary>
+        </member>
+        <member name="M:Wintellect.BugslayerEventLogTraceListener.Close">
+            <summary>
+            Wintellect.BugslayerEventLogTraceListener.
+            </summary>
+            <remarks>
+            See <see cref="M:System.Diagnostics.EventLog.Close"/>
+            </remarks>
+        </member>
+        <member name="M:Wintellect.BugslayerEventLogTraceListener.Write(System.String)">
+            <summary>
+            Writes a message to the event log for this instance.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.EventLog"/>
+            </remarks>
+            <param name="message">
+            A message to write.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerEventLogTraceListener.WriteLine(System.String)">
+            <summary>
+            Writes a message to the event log for this instance.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.EventLog"/>
+            </remarks>
+            <param name="message">
+            The message to write.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerEventLogTraceListener.Fail(System.String,System.String)">
+            <summary>
+            Overrides the <see cref="T:System.Diagnostics.TraceListener"/>.
+            </summary>
+            <remarks>
+            Overrides the <see cref="T:System.Diagnostics.TraceListener"/> so that
+            the stack trace is written to the event log.  An assertion
+            without a stack trace is pretty worthless.  While there are
+            two Fail methods, the EventLogTraceListener one string
+            parameter version simply calls this version.
+            </remarks>
+            <param name="Message">
+            The message to display.
+            </param>
+            <param name="DetailMessage">
+            The detailed message to display.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerEventLogTraceListener.Fail(System.String)">
+            <summary>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Fail(System.String)"/>
+            </summary>
+            <remarks>
+            Overrides <see cref="M:System.Diagnostics.TraceListener.Fail(System.String)"/>
+            </remarks>
+            <param name="Message">
+            The message to display.
+            </param>
+        </member>
+        <member name="P:Wintellect.BugslayerEventLogTraceListener.EventLog">
+            <summary>
+            Gets or sets the event log to write to.
+            </summary>
+        </member>
+        <member name="P:Wintellect.BugslayerEventLogTraceListener.Name">
+            <summary>
+            Gets or sets the name of this
+            <see cref="T:Wintellect.BugslayerEventLogTraceListener"/>.
+            </summary>
+        </member>
+        <member name="T:Wintellect.BugslayerStackTrace">
+            <summary>
+            A stack trace class that actually works to get the source and line
+            information when you call ToString.  The <see cref="T:System.Diagnostics.StackTrace"/>
+            class in the VS.NET V1 bits never seems to include the source and
+            line even though the documentation says it does.
+            If you don't care about getting the source and line with a stack
+            trace, use the StackTrace class directly.
+            </summary>
+        </member>
+        <member name="F:Wintellect.BugslayerStackTrace.DefaultLineEnd">
+            <summary>
+            The default line ending, "\r\n".
+            </summary>
+        </member>
+        <member name="F:Wintellect.BugslayerStackTrace.DefaultFunctionIndent">
+            <summary>
+            The default function indent, "\t".
+            </summary>
+        </member>
+        <member name="M:Wintellect.BugslayerStackTrace.#ctor">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerStackTrace"/> class
+            from the current location, in a caller's frame.
+            </summary>
+        </member>
+        <member name="M:Wintellect.BugslayerStackTrace.#ctor(System.Exception)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerStackTrace"/> class.
+            </summary>
+            <param name="e">
+            The exception object from which to construct the stack trace.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerStackTrace.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerStackTrace"/> class from the current
+            location, in a caller's frame, optionally skipping the given
+            number of frames.
+            </summary>
+            <param name="skipFrames">
+            The number of frames up the stack from which to start the trace.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerStackTrace.#ctor(System.Exception,System.Int32)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerStackTrace"/> class using the provided
+            exception object, optionally skipping the given number of
+            frames.
+            </summary>
+            <param name="e">
+            The exception object from which to construct the stack trace.
+            </param>
+            <param name="skipFrames">
+            The number of frames up the stack from which to start the trace.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerStackTrace.#ctor(System.Threading.Thread)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerStackTrace"/> class for another thread,
+            optionally capturing source information.
+            </summary>
+            <param name="targetThread">
+            The thread whose stack trace is requested.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerStackTrace.ToString">
+            <summary>
+            Builds a readable representation of the stack trace.
+            </summary>
+            <remarks>
+            This includes, method name, source and source line.
+            </remarks>
+            <returns>
+            A readable representation of the stack trace.
+            </returns>
+        </member>
+        <member name="M:Wintellect.BugslayerStackTrace.BuildFrameInfo(System.Text.StringBuilder,System.Diagnostics.StackFrame)">
+            <summary>
+            Takes care of the scut work to convert a frame into a string
+            and to plop it into a string builder.
+            </summary>
+            <param name="StrBld">
+            The StringBuilder to append the results to.
+            </param>
+            <param name="StkFrame">
+            The stack frame to convert.
+            </param>
+        </member>
+        <member name="F:Wintellect.BugslayerStackTrace.m_sLineEnd">
+            <summary>
+            The private string for the line ending characters.
+            </summary>
+        </member>
+        <member name="F:Wintellect.BugslayerStackTrace.m_sSourceIndentString">
+            <summary>
+            The private string for holding the indent characters.
+            </summary>
+        </member>
+        <member name="F:Wintellect.BugslayerStackTrace.m_sFunctionIndent">
+            <summary>
+            The private string for holding the indent to put on the front
+            of the function.
+            </summary>
+        </member>
+        <member name="P:Wintellect.BugslayerStackTrace.LineEnd">
+            <summary>
+            Sets the characters to use for the end of the line.
+            </summary>
+        </member>
+        <member name="P:Wintellect.BugslayerStackTrace.SourceIndentString">
+            <summary>
+            Holds the string to use for indenting sourse code.  If this is
+            null, the default, the source and line is place on the same
+            line as the function name.
+            </summary>
+        </member>
+        <member name="P:Wintellect.BugslayerStackTrace.FunctionIndent">
+            <summary>
+            The string to put at the beginning of all functions.  This is
+            \t\t\t to mimic the default StackTrace.ToString().
+            </summary>
+        </member>
+        <member name="T:Wintellect.BugslayerTextWriterTraceListener">
+            <summary>
+            It's sad, but the default
+            <seealso cref="T:System.Diagnostics.TextWriterTraceListener"/> does not write out
+            the full stack trace on assertions.  Why, I'll never know.
+            Use this class as a drop in replacement as it will do the
+            stack trace you expect.
+            </summary>
+        </member>
+        <member name="M:Wintellect.BugslayerTextWriterTraceListener.#ctor">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerTextWriterTraceListener"/> class with
+            <see cref="T:System.IO.TextWriter"/> as the output recipient.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.TextWriterTraceListener"/>
+            </remarks>
+        </member>
+        <member name="M:Wintellect.BugslayerTextWriterTraceListener.#ctor(System.IO.Stream)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerTextWriterTraceListener"/> class using the
+            stream as the recipient of the debugging and tracing output.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.TextWriterTraceListener"/>
+            </remarks>
+            <param name="stream">
+            A that represents the stream the
+             writes to.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerTextWriterTraceListener.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerTextWriterTraceListener"/> class using the
+            file as the recipient of the debugging and tracing output.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.TextWriterTraceListener"/>
+            </remarks>
+            <param name="fileName">
+            The name of the file the
+             writes to.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerTextWriterTraceListener.#ctor(System.IO.TextWriter)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerTextWriterTraceListener"/> class using the
+            writer as the recipient of the debugging and tracing output.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.TextWriterTraceListener"/>
+            </remarks>
+            <param name="writer">
+            A  that receives the output from the
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerTextWriterTraceListener.#ctor(System.IO.Stream,System.String)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerTextWriterTraceListener"/> class with the
+            specified name, using the stream as the recipient of the
+            debugging and tracing output.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.TextWriterTraceListener"/>
+            </remarks>
+            <param name="stream">
+            A  that represents the stream the
+             writes to.
+            </param>
+            <param name="name">
+            The name of the new instance.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerTextWriterTraceListener.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerTextWriterTraceListener"/> class with the
+            specified name, using the file as the recipient of the
+            debugging and tracing output.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.TextWriterTraceListener"/>
+            </remarks>
+            <param name="fileName">
+            The name of the file the
+             writes to.
+            </param>
+            <param name="name">
+            The name of the new instance.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerTextWriterTraceListener.#ctor(System.IO.TextWriter,System.String)">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:Wintellect.BugslayerTextWriterTraceListener"/> class with the
+            specified writer, using the file as the recipient of the
+            debugging and tracing output.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.TextWriterTraceListener"/>
+            </remarks>
+            <param name="writer">
+            A  that receives the output from the
+            .
+            </param>
+            <param name="name">
+            The name of the new instance.
+            </param>
+        </member>
+        <member name="M:Wintellect.BugslayerTextWriterTraceListener.Fail(System.String,System.String)">
+            <summary>
+            Overrides the <see cref="T:System.Diagnostics.TextWriterTraceListener"/> so that
+            the stack trace is written to the text file.  An assertion
+            without a stack trace is pretty worthless.  While there are
+            two Fail methods, the 
+            <see cref="T:System.Diagnostics.TextWriterTraceListener"/>.Fail
+            version simply calls this version.
+            </summary>
+            <remarks>
+            See <see cref="T:System.Diagnostics.TextWriterTraceListener"/>
+            </remarks>
+            <param name="message">
+            A message to emit.
+            </param>
+            <param name="detailMessage">
+            A detailed message to emit.
+            </param>
+        </member>
+    </members>
+</doc>

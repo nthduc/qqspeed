@@ -1,0 +1,1030 @@
+***  Installation Started 11/20/06 15:57  ***
+Title: The Miles Sound System 6 Installation
+Source: I:\msswin66(1).EXE
+Made Dir: d:\MilesWin
+Made Dir: d:\MilesWin\tools
+Made Dir: d:\MilesWin\tools\win
+File Copy: d:\MilesWin\tools\win\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Miles Sound System 6
+RegDB Val: Miles Sound System 6
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Miles Sound System 6
+RegDB Val: D:\MilesWin\tools\win\UNWISE.EXE D:\MilesWin\tools\win\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+Made Dir: d:\MilesWin\docs
+Made Dir: d:\MilesWin\docs\htmlhelp
+File Copy: d:\MilesWin\docs\htmlhelp\2D Digital Audio Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\3D Digital Audio Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\Accessing the Codecsj7rin4.html
+File Copy: d:\MilesWin\docs\htmlhelp\Acknowledgments.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL3DSAMPLECB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILBEATCB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILCODECSETPREF.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILDLSINFO.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILEVENTCB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILFREECB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILLENGTHYCB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILMALLOCCB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILMIXINFO.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILPREFIXCB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILSAMPLECB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILSEQUENCECB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILSOUNDINFO.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILSTREAMCB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILTIMBRECB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILTIMERCB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AILTRIGGERCB.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_distance_factor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_doppler_factor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_orientation.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_provider_attribute.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_rolloff_factor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_room_type.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_attribute.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_cone.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_distances.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_effect9obbaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_exclusion.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_length.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_loop_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_obstruction.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_occlusion.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_offset.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_playbayb8baa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_status.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_sample_volume.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_speaker_type.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_user_data.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_3D_velocity.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_active_3D_sample1mlaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_active_sample_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_active_sequence_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_allocate_3D_sampapaoba.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_allocate_file_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_allocate_sample_ijfaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_allocate_sequenc2icfaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_auto_service_stream.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_auto_update_3D_pzvtnaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_background.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_branch_index.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_call_driver.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_channel_notes.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_close_3D_listener.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_close_3D_object.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_close_3D_provider.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_close_digital_driver.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_close_filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_close_input.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_close_stream.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_close_XMIDI_driver.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_compress_ADPCM.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_compress_ASI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_compress_DLS.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_controller_value.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_create_wave_syntrqseaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_decompress_ADPCM.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_decompress_ASI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_delay.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_destroy_wave_syn7m4hba.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_digital_configuration.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_digital_CPU_percent.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_digital_handle_ruoiaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_digital_handle_ruqabaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_digital_latency.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_digital_master_r9odawz.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_digital_master_reverb.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_digital_master_vhr2znf.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_disable_interrupts.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_close.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_compact.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_get_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_get_reverb_levels.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_load_file.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_load_memory.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_open.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_set_reverb_levels.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DLS_unload.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_DRIVER.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_end_3D_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_end_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_end_sequence.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_enumerate_3D_prok20aaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_enumerate_filter4znc1e.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_enumerate_filters.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_enumerate_filteryw2t1e.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_extract_DLS.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_close_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_error.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_fss_attrib_write.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_fss_read.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_fss_size.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_fss_write.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_open_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_read.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_read_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_seek_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_size.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_type.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_file_write.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_filter_attribute.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_filter_DLS_attribute.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_filter_DLS_with_XMI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_filter_sample_atybklaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_filter_stream_atybklaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_find_3D_provider.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_find_DLS.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_find_filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_get_DirectSound_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_get_input_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_get_IO_environment.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_get_preference.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_get_real_vect.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_get_timer_highesqwlaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_HWND.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_INI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_init_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_init_sequence.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_input_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_INPUT_INFO.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_install_DIG_driv6dbdaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_install_DIG_driv6zzyaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_install_DIG_INI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_install_driver.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_install_MDI_driv6dbdaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_install_MDI_driv6zzyaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_install_MDI_INI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_install_timbre.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_interrupt_divisor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_last_error.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_list_DLS.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_list_MIDI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_load_sample_buffer.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_lock.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_lock_channel.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_map_sequence_channel.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_MDI_driver_type.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_mem_alloc_lock.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_mem_free_lock.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_mem_use_free.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_mem_use_malloc.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_merge_DLS_with_XMI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_midiOutOpen.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_MIDI_handle_reacquire.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_MIDI_handle_release.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_MIDI_to_XMI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_minimum_sample_bahfkoa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_MSS_version.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_ms_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_open_3D_listener.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_open_3D_object.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_open_3D_provider.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_open_digital_driver.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_open_filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_open_input.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_open_stream.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_open_XMIDI_driver.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_pause_stream.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_process_digital_audio.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_protect_timbre.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_copy.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_fss_load.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_fss_load_a2xyaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_halt.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_handles.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_load.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_load_and_play.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_load_mem.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_ms_length.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_ms_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_play.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_set_low_pa3uyjla.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_set_ms_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_set_reverbolliaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_set_speed.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_set_volume.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_shutdown.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_startup.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_status.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_type.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_quick_unload.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_read_INI.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_close.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_eject.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_id.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_open.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_open_drive.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_open_volume.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_pause.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_play.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_resume.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_retract.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_set_volu1yxgaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_status.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_stop.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_track.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_tracks.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_track_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_redbook_volume_level.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_3D_EOS_s0khaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_beat_casg9aaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_EOB_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_EOF_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_EOS_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_event_cs0khaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_ICA_array.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_prefix_s0khaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_sequenc8chzca.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_SOB_callback.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_stream_s0khaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_timbre_s0khaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_timer.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_register_trigger8chzca.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_release_3D_sampl2icfaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_release_all_timers.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_release_channel.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_release_sample_handle.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_release_sequence2icfaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_release_timer_handle.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_restore_interrupts.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_restore_stack.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_resume_3D_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_resume_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_resume_sequence.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_51_volumeolliaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_51_volume_pan.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_buffer_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_buffer_ready.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_granularity.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_loop_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_low_pass_zf8daa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_ms_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_playback_rate.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_reverb_levels.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_status.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_user_data.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_volume_levels.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sample_volume_pan.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_send_channel_voimgj9la.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_send_sysex_message.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sequence_loop_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sequence_ms_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sequence_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sequence_status.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sequence_tempo.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sequence_user_data.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_sequence_volume.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_serve.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_service_stream.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_distance_reaaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_doppler_factor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_orientation.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_provider_yxmz5e.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_rolloff_factor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_room_type.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_cone.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_dicyrnaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_efxf4lic.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_ex325gaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_file.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_lop5nvaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_loswdvaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_ob7131va.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_oc325gaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_offset.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_plm6fdon.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_pruqq6aa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_sample_volume.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_speaker_type.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_user_data.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_velocity.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_3D_velocity_v1maaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_digital_drivwp5xci.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_digital_mast3hdbfa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_digital_masta9n13r.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_digital_mastfheawz.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_digital_mastrl3wa6.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_DirectSound_HWND.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_DLS_processor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_file_callbacks.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_filter_DLS_pqfj6fa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_filter_preference.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_filter_samplemwzk3.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_filter_streaemwzk3.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_GTL_filenamelxjjaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_input_state.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_named_sample_file.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_preference.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_real_vect.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_redist_directory.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_51_voc8298l.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_51_vonel4aa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_address.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_adpcmu899ga.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_file.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_loop_block.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_loop_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_low_pjj4gjc.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_ms_pozr6aaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_playbug1eaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_processor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_reverolliaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_type.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_user_data.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_volume_pan.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sample_volumolliaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sequence_loo1mlaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sequence_ms_rl07ba.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sequence_tempo.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sequence_use6kbaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_sequence_volume.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_loop_block.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_loop_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_low_pjj4gjc.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_ms_pozr6aaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_playbug1eaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_processor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_reverolliaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_user_data.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_volume_pan.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_stream_volumolliaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_timer_divisor.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_timer_frequency.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_timer_period.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_timer_user.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_USE16_ISR.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_set_XMIDI_masteraryoaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_shutdown.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_size_processed_d4yjwo6.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_startup.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_start_3D_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_start_all_timers.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_start_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_start_sequence.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_start_stream.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_start_timer.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stop_3D_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stop_all_timers.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stop_sample.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stop_sequence.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stop_timer.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_loop_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_low_pass_zf8daa.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_ms_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_playback_rate.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_reverb_levels.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_status.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_user_data.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_volume_levels.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_stream_volume_pan.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_switch_stack.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_timbre_status.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_true_sequence_channel.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_uninstall_driver.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_unlock.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_unprotect_timbre.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_update_3D_position.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_us_count.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_vmm_lock.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_vmm_lock_range.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_vmm_unlock.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_vmm_unlock_range.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_waveOutOpen.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_WAV_file_fss_write.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_WAV_file_write.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_WAV_info.html
+File Copy: d:\MilesWin\docs\htmlhelp\AIL_XMIDI_master_volume.html
+File Copy: d:\MilesWin\docs\htmlhelp\Aureal's A3D 2 Prefe86raaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Auto-panner Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\Band-Pass Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\Bandwidth Optimizatifdgbrv.html
+File Copy: d:\MilesWin\docs\htmlhelp\Basic Types.html
+File Copy: d:\MilesWin\docs\htmlhelp\Call Logging under DOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Call Logging under MacOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Call Logging under Win32.html
+File Copy: d:\MilesWin\docs\htmlhelp\Call Logging under Xbox.html
+File Copy: d:\MilesWin\docs\htmlhelp\Callbacks under DOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Callbacks under MacOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Callbacks under Win32.html
+File Copy: d:\MilesWin\docs\htmlhelp\Callbacks under Xbox.html
+File Copy: d:\MilesWin\docs\htmlhelp\Capture Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\CD Audio (Redbook) Skgznaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Changes.html
+File Copy: d:\MilesWin\docs\htmlhelp\char const P.html
+File Copy: d:\MilesWin\docs\htmlhelp\char P.html
+File Copy: d:\MilesWin\docs\htmlhelp\char.html
+File Copy: d:\MilesWin\docs\htmlhelp\Chorus Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\CLAD - Creative Labsnxhnpk.html
+File Copy: d:\MilesWin\docs\htmlhelp\Compressor Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\Creative's EAX 1 Pre4368aa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Creative's EAX 2 Pre4368aa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Creative's EAX 3 Pre4368aa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Creative's EAX 4 Pre4368aa.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Function1g4vha.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Function216z81.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Function6w0qxh.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Function85lgj5.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Functioncwwsla.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Functiondqr6ma.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Functionef9zmr.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Functioniqzoa2.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Functionjfwqad.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Functions8c2qu.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Digital Functiont0ndba.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 300H Ibyvqgk.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 301H Gntlrvm.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 302H P3nqeyf.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 303H P7lcdur.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 304H Vtb2frb.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 305H Iqn1pgk.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 306H Scnttqy.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 400H G32kz6j.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 401H Szhn1lq.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 402H Sf059iq.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 403H S4b1hov.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 404H So9acgv.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 405H V67fgje.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 500H G0t178s.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 501H Izucc05.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 502H Tz56m8s.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 503H Irtaihq.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 504H G01slct.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 505H Pgop4lg.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Function- 506H V67fgje.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Support Routinesmc7aqj.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK Support Routineswsjtx2.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK XMIDI Function- 5z97aa.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK XMIDI Function- 92qbba.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK XMIDI Function- lychaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\DDK XMIDI Function- qs7zmr.html
+File Copy: d:\MilesWin\docs\htmlhelp\DIGDRVSTAGE.html
+File Copy: d:\MilesWin\docs\htmlhelp\Digital Audio Input hpyv0q.html
+File Copy: d:\MilesWin\docs\htmlhelp\Digital Audio Stream436kmy.html
+File Copy: d:\MilesWin\docs\htmlhelp\Digital Filter Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\Distributing Miles wdkih6t.html
+File Copy: d:\MilesWin\docs\htmlhelp\Distributing Miles whjcnrn.html
+File Copy: d:\MilesWin\docs\htmlhelp\Distributing Miles wly4t1o.html
+File Copy: d:\MilesWin\docs\htmlhelp\Distributing Miles wt8bzco.html
+File Copy: d:\MilesWin\docs\htmlhelp\DLS Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\DOS Digital Sound Drpln2un.html
+File Copy: d:\MilesWin\docs\htmlhelp\DOS Sound Driver Arcyngbna.html
+File Copy: d:\MilesWin\docs\htmlhelp\DOS Sound Driver Gens3p70p.html
+File Copy: d:\MilesWin\docs\htmlhelp\DOS XMIDI Sound Drivbjn2un.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX Compatible Reverb.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_AUTOGAIN.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_AUTOWAH.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_CHORUS.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_DISTORTION.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_ECHO.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_EQUALIZER.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_FLANGER.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_FSHIFTER.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_PSHIFTER.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_REVERB.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_RMODULATOR.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_SAMPLE_SLOT_VOLUME.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_SAMPLE_SLOT_VOLUMES.html
+File Copy: d:\MilesWin\docs\htmlhelp\EAX_VMORPHER.html
+File Copy: d:\MilesWin\docs\htmlhelp\Extended MIDI Globalxqjz2b.html
+File Copy: d:\MilesWin\docs\htmlhelp\Extended MIDI IFF (.vk9ytc.html
+File Copy: d:\MilesWin\docs\htmlhelp\Extended MIDI Techniid0f6g.html
+File Copy: d:\MilesWin\docs\htmlhelp\F32.html
+File Copy: d:\MilesWin\docs\htmlhelp\F64.html
+File Copy: d:\MilesWin\docs\htmlhelp\FAQs and How Tos.html
+File Copy: d:\MilesWin\docs\htmlhelp\Flange Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\FSSpec.html
+File Copy: d:\MilesWin\docs\htmlhelp\GLIB - Extended MIDIz2acf8.html
+File Copy: d:\MilesWin\docs\htmlhelp\H3DPOBJECT.html
+File Copy: d:\MilesWin\docs\htmlhelp\H3DSAMPLE.html
+File Copy: d:\MilesWin\docs\htmlhelp\HAUDIO.html
+File Copy: d:\MilesWin\docs\htmlhelp\HDIGDRIVER.html
+File Copy: d:\MilesWin\docs\htmlhelp\HDIGINPUT.html
+File Copy: d:\MilesWin\docs\htmlhelp\HDLSDEVICE.html
+File Copy: d:\MilesWin\docs\htmlhelp\HDLSFILEID.html
+File Copy: d:\MilesWin\docs\htmlhelp\HDRIVERSTATE.html
+File Copy: d:\MilesWin\docs\htmlhelp\High-Pass Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\HINTENUM.html
+File Copy: d:\MilesWin\docs\htmlhelp\HMDIDRIVER.html
+File Copy: d:\MilesWin\docs\htmlhelp\How can I lower the ev8x6w.html
+File Copy: d:\MilesWin\docs\htmlhelp\How can I play stere982vwf.html
+File Copy: d:\MilesWin\docs\htmlhelp\How can I play two Ho6e0ns.html
+File Copy: d:\MilesWin\docs\htmlhelp\How can I tell what u5gz56.html
+File Copy: d:\MilesWin\docs\htmlhelp\How careful do I havbuvn9y.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I access filex8kvia.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I apply a low58e4ti.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I initialize owpc2p.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I loop a tracqkrgja.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I open a 3D duswuqq.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I play a 3D d5zrlfk.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I play a digiyg6gda.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I play a tracqkrgja.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I play an XMIsog05o.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I play an XMIuu17l1.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I set a DSP flufd25.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I set an EAX 6606oe.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I smoothly ransdjrf.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I start an aupeb0vo.html
+File Copy: d:\MilesWin\docs\htmlhelp\How do I stream a fisosz8v.html
+File Copy: d:\MilesWin\docs\htmlhelp\How does Miles do soy6n1ef.html
+File Copy: d:\MilesWin\docs\htmlhelp\How much CPU do the g3xkjf.html
+File Copy: d:\MilesWin\docs\htmlhelp\How much latency doe841zus.html
+File Copy: d:\MilesWin\docs\htmlhelp\HPROENUM.html
+File Copy: d:\MilesWin\docs\htmlhelp\HPROVIDER.html
+File Copy: d:\MilesWin\docs\htmlhelp\HREDBOOK.html
+File Copy: d:\MilesWin\docs\htmlhelp\HSAMPLE.html
+File Copy: d:\MilesWin\docs\htmlhelp\HSEQUENCE.html
+File Copy: d:\MilesWin\docs\htmlhelp\HSTREAM.html
+File Copy: d:\MilesWin\docs\htmlhelp\HTIMER.html
+File Copy: d:\MilesWin\docs\htmlhelp\HWAVESYNTH.html
+File Copy: d:\MilesWin\docs\htmlhelp\HWND.html
+File Copy: d:\MilesWin\docs\htmlhelp\I can't get Miles tonaxoe0.html
+File Copy: d:\MilesWin\docs\htmlhelp\I can't seem to chanzj97c4.html
+File Copy: d:\MilesWin\docs\htmlhelp\I get a crash when I35ptsr.html
+File Copy: d:\MilesWin\docs\htmlhelp\I used an older versn2acmr.html
+File Copy: d:\MilesWin\docs\htmlhelp\I want a small instanf5kll.html
+File Copy: d:\MilesWin\docs\htmlhelp\I'm getting a glitchyuljiw.html
+File Copy: d:\MilesWin\docs\htmlhelp\I'm setting a preferwfslqr.html
+File Copy: d:\MilesWin\docs\htmlhelp\I'm using Windows 9x4b8wpk.html
+File Copy: d:\MilesWin\docs\htmlhelp\Implementation Details.html
+File Copy: d:\MilesWin\docs\htmlhelp\Implementing Voice Chat.html
+File Copy: d:\MilesWin\docs\htmlhelp\index.html
+File Copy: d:\MilesWin\docs\htmlhelp\Installation for DOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Installation for MacOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Installation for Win32.html
+File Copy: d:\MilesWin\docs\htmlhelp\Installation for Xbox.html
+File Copy: d:\MilesWin\docs\htmlhelp\Integrating Miles indtaioq.html
+File Copy: d:\MilesWin\docs\htmlhelp\Integrating Miles inhi7rf5.html
+File Copy: d:\MilesWin\docs\htmlhelp\Integrating Miles inmxd43w.html
+File Copy: d:\MilesWin\docs\htmlhelp\Integrating Miles inryalph.html
+File Copy: d:\MilesWin\docs\htmlhelp\Integrating the Code3o2s18.html
+File Copy: d:\MilesWin\docs\htmlhelp\Introduction.html
+File Copy: d:\MilesWin\docs\htmlhelp\IO_PARMS.html
+File Copy: d:\MilesWin\docs\htmlhelp\kiev.jpg
+File Copy: d:\MilesWin\docs\htmlhelp\Lagrangian Interpolanfpj4a.html
+File Copy: d:\MilesWin\docs\htmlhelp\Low-Level DOS Instalopr558.html
+File Copy: d:\MilesWin\docs\htmlhelp\Low-Level DOS Suppor8y9ysb.html
+File Copy: d:\MilesWin\docs\htmlhelp\Low-Pass Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\LPDIRECTSOUND.html
+File Copy: d:\MilesWin\docs\htmlhelp\LPDIRECTSOUNDBUFFER.html
+File Copy: d:\MilesWin\docs\htmlhelp\LPHMIDIOUT.html
+File Copy: d:\MilesWin\docs\htmlhelp\LPHWAVEOUT.html
+File Copy: d:\MilesWin\docs\htmlhelp\LPWAVEFORMAT.html
+File Copy: d:\MilesWin\docs\htmlhelp\Memory and File Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\Memory management un1cdaca.html
+File Copy: d:\MilesWin\docs\htmlhelp\Memory management un5c2iaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Memory management undmcbaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Memory management uni4hsaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\MIDIECHO for DOS - M8o0mlj.html
+File Copy: d:\MilesWin\docs\htmlhelp\MIDIECHO for MacOS -5hwjxy.html
+File Copy: d:\MilesWin\docs\htmlhelp\MIDIECHO for Windows5hwjxy.html
+File Copy: d:\MilesWin\docs\htmlhelp\MIDILOG - MIDI File k84nrz.html
+File Copy: d:\MilesWin\docs\htmlhelp\MIDIREC- Standard MInmfctq.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles 2D-based M3D Pcibglb.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles Dolby Surroundpt2cum.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles Example for Xbox.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles Examples for DOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles Examples for MacOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles Examples for Win32.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles Sound Player.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles Sound Studio.html
+File Copy: d:\MilesWin\docs\htmlhelp\Miles Sound System Tq6hmqc.html
+File Copy: d:\MilesWin\docs\htmlhelp\miles.jpg
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_DIGITAL_FLAGS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_DIGITAL_FORMAT.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_DIGITAL_STATUS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_DLS_CLOSE_FLAGS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_DLS_UNLOAD.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_FILE_ERRORS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_FILE_SEEK_TYPE.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_FILE_TYPE.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_FILTER_DLS_FLAGS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_INSTALL_STATUS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_LENGTHY_STATE.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_LIST_DLS_FLAGS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_LIST_MIDI_FLAGS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_MDI_DRIVER_TYPE.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_MIDI_TO_XMI_FLAGS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_MIDI_VALUE.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_OPEN_DIGITAL_FLAGS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_OPEN_XMIDI_FLAGS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_PREFERENCES.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_QUICK_DIGITAL_OPEN.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_QUICK_MIDI_OPEN.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_QUICK_STATUS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_QUICK_TYPE.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_REDBOOK_STATUS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_ROOM_TYPE.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_SEQUENCE_STATUS.html
+File Copy: d:\MilesWin\docs\htmlhelp\MILES_SPEAKER_TYPE.html
+File Copy: d:\MilesWin\docs\htmlhelp\Mixing the Client So2v852a.html
+File Copy: d:\MilesWin\docs\htmlhelp\Mono Delay Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\MSS Device Developmew8besk.html
+File Copy: d:\MilesWin\docs\htmlhelp\My 3D audio is a lotxfhqaf.html
+File Copy: d:\MilesWin\docs\htmlhelp\My 3D sound isn't fa7r7p3x.html
+File Copy: d:\MilesWin\docs\htmlhelp\My application is crs22pi6.html
+File Copy: d:\MilesWin\docs\htmlhelp\My sound is skippingu6sg6u.html
+File Copy: d:\MilesWin\docs\htmlhelp\Overview for DOS- Miy6fegj.html
+File Copy: d:\MilesWin\docs\htmlhelp\Overview for MacOS- 4e2z95.html
+File Copy: d:\MilesWin\docs\htmlhelp\Overview for Win32- zi6edi.html
+File Copy: d:\MilesWin\docs\htmlhelp\Overview for Xbox.html
+File Copy: d:\MilesWin\docs\htmlhelp\Panning isn't workinmo5gkc.html
+File Copy: d:\MilesWin\docs\htmlhelp\Parametric Equalizervt5vaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Performing the Comprf339dc.html
+File Copy: d:\MilesWin\docs\htmlhelp\Phaser Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\Preferences.html
+File Copy: d:\MilesWin\docs\htmlhelp\QSound QMixer Preferences.html
+File Copy: d:\MilesWin\docs\htmlhelp\Quick Integration Sesm1baa.html
+File Copy: d:\MilesWin\docs\htmlhelp\REALFAR.html
+File Copy: d:\MilesWin\docs\htmlhelp\reference.css
+File Copy: d:\MilesWin\docs\htmlhelp\Register_RIB.html
+File Copy: d:\MilesWin\docs\htmlhelp\Resonator Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\RIB_DATA_SUBTYPE.html
+File Copy: d:\MilesWin\docs\htmlhelp\RIB_ENTRY_TYPE.html
+File Copy: d:\MilesWin\docs\htmlhelp\RIB_INTERFACE_ENTRY.html
+File Copy: d:\MilesWin\docs\htmlhelp\Ring-Amplitude Modul3fw5jk.html
+File Copy: d:\MilesWin\docs\htmlhelp\S16.html
+File Copy: d:\MilesWin\docs\htmlhelp\S32.html
+File Copy: d:\MilesWin\docs\htmlhelp\S64.html
+File Copy: d:\MilesWin\docs\htmlhelp\S8.html
+File Copy: d:\MilesWin\docs\htmlhelp\SAMPLESTAGE.html
+File Copy: d:\MilesWin\docs\htmlhelp\SETSOUND - MSS Soundv7472s.html
+File Copy: d:\MilesWin\docs\htmlhelp\Sharing the CPU unde19saaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Sharing the CPU unde2nabaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Sharing the CPU unde9ijdaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\Sharing the CPU under DOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Shelving Equalizer Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\Sound under DOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Sound under MacOS.html
+File Copy: d:\MilesWin\docs\htmlhelp\Sound under Win32.html
+File Copy: d:\MilesWin\docs\htmlhelp\Sound under Xbox.html
+File Copy: d:\MilesWin\docs\htmlhelp\Stereo Delay Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\System Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\The Internet voice cx1l30f.html
+File Copy: d:\MilesWin\docs\htmlhelp\This function returnjx0bfo.html
+File Copy: d:\MilesWin\docs\htmlhelp\Timer Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\U16.html
+File Copy: d:\MilesWin\docs\htmlhelp\U32.html
+File Copy: d:\MilesWin\docs\htmlhelp\U64.html
+File Copy: d:\MilesWin\docs\htmlhelp\U8.html
+File Copy: d:\MilesWin\docs\htmlhelp\Utility Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\VDI_CALL.html
+File Copy: d:\MilesWin\docs\htmlhelp\VDI_HDR.html
+File Copy: d:\MilesWin\docs\htmlhelp\void const P.html
+File Copy: d:\MilesWin\docs\htmlhelp\void P.html
+File Copy: d:\MilesWin\docs\htmlhelp\void.html
+File Copy: d:\MilesWin\docs\htmlhelp\Volume Ramp Filter.html
+File Copy: d:\MilesWin\docs\htmlhelp\Voxware Voice Chat Codecs.html
+File Copy: d:\MilesWin\docs\htmlhelp\WAVELIB - Wave Synthemm6zo.html
+File Copy: d:\MilesWin\docs\htmlhelp\What are these ASI, m0oxbk.html
+File Copy: d:\MilesWin\docs\htmlhelp\What is MPEG Audio aqqdaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\What is the latest vpbjt32.html
+File Copy: d:\MilesWin\docs\htmlhelp\What kind of audio d9b9pf1.html
+File Copy: d:\MilesWin\docs\htmlhelp\What MP3 encoder shoiud8ga.html
+File Copy: d:\MilesWin\docs\htmlhelp\What's the deal with4bihxb.html
+File Copy: d:\MilesWin\docs\htmlhelp\When can I free the orulku.html
+File Copy: d:\MilesWin\docs\htmlhelp\Where is the Miles slsp9cm.html
+File Copy: d:\MilesWin\docs\htmlhelp\Which 3D sound provi8s4uqw.html
+File Copy: d:\MilesWin\docs\htmlhelp\Working with Voice Input.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Callback Prefiqrbaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Callback Triggcphaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Channel Lock (110).html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Channel Lock Pomctpa.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Channel Mute (107).html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Clear Beat-Barqpkh7a.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI For Loop Contrqw4wba.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Indirect Contrbv6kfq.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Next-Break Loorcm50t.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Patch Bank Selilaaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Sequence Branc6vf3eb.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Sequence Brancsrbaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Services.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Timbre Protect4rbaaa.html
+File Copy: d:\MilesWin\docs\htmlhelp\XMIDI Voice Protect (112).html
+Made Dir: d:\MilesWin\docs\winhelp
+File Copy: d:\MilesWin\docs\winhelp\miles.chm
+Made Dir: d:\MilesWin\examples
+Made Dir: d:\MilesWin\examples\media
+File Copy: d:\MilesWin\examples\media\charge.wav
+File Copy: d:\MilesWin\examples\media\chicken.wav
+File Copy: d:\MilesWin\examples\media\crow.wav
+File Copy: d:\MilesWin\examples\media\demo.xmi
+File Copy: d:\MilesWin\examples\media\glass.wav
+File Copy: d:\MilesWin\examples\media\horn.wav
+File Copy: d:\MilesWin\examples\media\music.mp3
+File Copy: d:\MilesWin\examples\media\ogres.mp3
+File Copy: d:\MilesWin\examples\media\shot.wav
+File Copy: d:\MilesWin\examples\media\title.xmi
+File Copy: d:\MilesWin\examples\media\welcome.wav
+Made Dir: d:\MilesWin\examples\win
+File Copy: d:\MilesWin\examples\win\asifile.exe
+File Copy: d:\MilesWin\examples\win\audiocd.exe
+File Copy: d:\MilesWin\examples\win\con3d.exe
+File Copy: d:\MilesWin\examples\win\consoles.bat
+File Copy: d:\MilesWin\examples\win\demo.exe
+File Copy: d:\MilesWin\examples\win\digplay.exe
+File Copy: d:\MilesWin\examples\win\dlsplay.exe
+File Copy: d:\MilesWin\examples\win\exam3d.exe
+File Copy: d:\MilesWin\examples\win\filter.exe
+File Copy: d:\MilesWin\examples\win\mss32.dll
+File Copy: d:\MilesWin\examples\win\msschat.exe
+File Copy: d:\MilesWin\examples\win\msschtc.exe
+File Copy: d:\MilesWin\examples\win\msschts.exe
+File Copy: d:\MilesWin\examples\win\mssqsnd.m3d
+File Copy: d:\MilesWin\examples\win\play.exe
+File Copy: d:\MilesWin\examples\win\qmixmss.dll
+File Copy: d:\MilesWin\examples\win\quick.exe
+File Copy: d:\MilesWin\examples\win\record.exe
+File Copy: d:\MilesWin\examples\win\sstest.exe
+File Copy: d:\MilesWin\examples\win\streamer.exe
+File Copy: d:\MilesWin\examples\win\xmiplay.exe
+Made Dir: d:\MilesWin\include
+File Copy: d:\MilesWin\include\mss.h
+File Copy: d:\MilesWin\include\mss32.pas
+Made Dir: d:\MilesWin\lib
+File Copy: d:\MilesWin\lib\mss32.lib
+Made Dir: d:\MilesWin\pdb
+File Copy: d:\MilesWin\pdb\mss32.pdb
+File Copy: d:\MilesWin\pdb\mssa3d.pdb
+File Copy: d:\MilesWin\pdb\mssds3d.pdb
+File Copy: d:\MilesWin\pdb\mssdsp.pdb
+File Copy: d:\MilesWin\pdb\mssdx7.pdb
+File Copy: d:\MilesWin\pdb\msseax.pdb
+File Copy: d:\MilesWin\pdb\mssrsx.pdb
+File Copy: d:\MilesWin\pdb\msssoft.pdb
+Made Dir: d:\MilesWin\redist
+File Copy: d:\MilesWin\redist\mss32.dll
+File Copy: d:\MilesWin\redist\mssa3d.m3d
+File Copy: d:\MilesWin\redist\mssds3d.m3d
+File Copy: d:\MilesWin\redist\mssdsp.flt
+File Copy: d:\MilesWin\redist\mssdx7.m3d
+File Copy: d:\MilesWin\redist\msseax.m3d
+File Copy: d:\MilesWin\redist\mssrsx.m3d
+File Copy: d:\MilesWin\redist\msssoft.m3d
+Made Dir: d:\MilesWin\src
+File Copy: d:\MilesWin\src\setdirs.bat
+Made Dir: d:\MilesWin\src\examples
+File Copy: d:\MilesWin\src\examples\asifile.cpp
+File Copy: d:\MilesWin\src\examples\audiocd.c
+File Copy: d:\MilesWin\src\examples\con3d.cpp
+File Copy: d:\MilesWin\src\examples\con_util.i
+File Copy: d:\MilesWin\src\examples\dbtest.c
+File Copy: d:\MilesWin\src\examples\debug.bat
+File Copy: d:\MilesWin\src\examples\demo.c
+File Copy: d:\MilesWin\src\examples\demo.rc
+File Copy: d:\MilesWin\src\examples\digplay.c
+File Copy: d:\MilesWin\src\examples\dlsplay.c
+File Copy: d:\MilesWin\src\examples\eax4exam.cpp
+File Copy: d:\MilesWin\src\examples\exam3d.c
+File Copy: d:\MilesWin\src\examples\exam3d.rc
+File Copy: d:\MilesWin\src\examples\filter.cpp
+File Copy: d:\MilesWin\src\examples\msschat.c
+File Copy: d:\MilesWin\src\examples\msschat.rc
+File Copy: d:\MilesWin\src\examples\msschtc.cpp
+File Copy: d:\MilesWin\src\examples\msschtc.rc
+File Copy: d:\MilesWin\src\examples\msschts.cpp
+File Copy: d:\MilesWin\src\examples\msschts.rc
+File Copy: d:\MilesWin\src\examples\play.c
+File Copy: d:\MilesWin\src\examples\quick.c
+File Copy: d:\MilesWin\src\examples\quick.rc
+File Copy: d:\MilesWin\src\examples\record.c
+File Copy: d:\MilesWin\src\examples\release.bat
+File Copy: d:\MilesWin\src\examples\sstest.c
+File Copy: d:\MilesWin\src\examples\streamer.c
+File Copy: d:\MilesWin\src\examples\xdigplay.c
+File Copy: d:\MilesWin\src\examples\xmiplay.c
+Made Dir: d:\MilesWin\src\sdk
+File Copy: d:\MilesWin\src\sdk\Autopan.cpp
+File Copy: d:\MilesWin\src\sdk\Bandpass.cpp
+File Copy: d:\MilesWin\src\sdk\capture.cpp
+File Copy: d:\MilesWin\src\sdk\Chorus.cpp
+File Copy: d:\MilesWin\src\sdk\cleanup.c
+File Copy: d:\MilesWin\src\sdk\Compress.cpp
+File Copy: d:\MilesWin\src\sdk\debug.bat
+File Copy: d:\MilesWin\src\sdk\dls1.h
+File Copy: d:\MilesWin\src\sdk\dls1pars.cpp
+File Copy: d:\MilesWin\src\sdk\dls1syn.cpp
+File Copy: d:\MilesWin\src\sdk\dlsfile.cpp
+File Copy: d:\MilesWin\src\sdk\dlshl.c
+File Copy: d:\MilesWin\src\sdk\dlslist.cpp
+File Copy: d:\MilesWin\src\sdk\dolby.cpp
+File Copy: d:\MilesWin\src\sdk\ds3dbase.i
+File Copy: d:\MilesWin\src\sdk\eax.h
+File Copy: d:\MilesWin\src\sdk\eax2.h
+File Copy: d:\MilesWin\src\sdk\eax3.h
+File Copy: d:\MilesWin\src\sdk\eax4.h
+File Copy: d:\MilesWin\src\sdk\Flange.cpp
+File Copy: d:\MilesWin\src\sdk\flt.cpp
+File Copy: d:\MilesWin\src\sdk\Highpass.cpp
+File Copy: d:\MilesWin\src\sdk\ia3d.h
+File Copy: d:\MilesWin\src\sdk\imssapi.h
+File Copy: d:\MilesWin\src\sdk\Laginter.cpp
+File Copy: d:\MilesWin\src\sdk\Lowpass.cpp
+File Copy: d:\MilesWin\src\sdk\m3d.cpp
+File Copy: d:\MilesWin\src\sdk\Mdelay.cpp
+File Copy: d:\MilesWin\src\sdk\midi2xmi.c
+File Copy: d:\MilesWin\src\sdk\midilist.c
+File Copy: d:\MilesWin\src\sdk\miscutil.cpp
+File Copy: d:\MilesWin\src\sdk\mss.cpp
+File Copy: d:\MilesWin\src\sdk\mss.h
+File Copy: d:\MilesWin\src\sdk\mss.ico
+File Copy: d:\MilesWin\src\sdk\mss.rc
+File Copy: d:\MilesWin\src\sdk\mss32.def
+File Copy: d:\MilesWin\src\sdk\mssa32.asm
+File Copy: d:\MilesWin\src\sdk\mssa3d1.cpp
+File Copy: d:\MilesWin\src\sdk\mssadp.inc
+File Copy: d:\MilesWin\src\sdk\mssadpcm.cpp
+File Copy: d:\MilesWin\src\sdk\mssbase.cpp
+File Copy: d:\MilesWin\src\sdk\msscd.c
+File Copy: d:\MilesWin\src\sdk\mssdbg.c
+File Copy: d:\MilesWin\src\sdk\mssdbg.inc
+File Copy: d:\MilesWin\src\sdk\mssdig.cpp
+File Copy: d:\MilesWin\src\sdk\mssdls.h
+File Copy: d:\MilesWin\src\sdk\mssdolby.cpp
+File Copy: d:\MilesWin\src\sdk\mssds3dh.cpp
+File Copy: d:\MilesWin\src\sdk\mssds3ds.cpp
+File Copy: d:\MilesWin\src\sdk\mssdsp.c
+File Copy: d:\MilesWin\src\sdk\mssdx7sh.cpp
+File Copy: d:\MilesWin\src\sdk\mssdx7sl.cpp
+File Copy: d:\MilesWin\src\sdk\mssdx7sn.cpp
+File Copy: d:\MilesWin\src\sdk\msseax1.cpp
+File Copy: d:\MilesWin\src\sdk\msseax2.cpp
+File Copy: d:\MilesWin\src\sdk\msseax3.cpp
+File Copy: d:\MilesWin\src\sdk\msseax4.cpp
+File Copy: d:\MilesWin\src\sdk\mssinput.cpp
+File Copy: d:\MilesWin\src\sdk\mssmixer.inc
+File Copy: d:\MilesWin\src\sdk\mssqapi.c
+File Copy: d:\MilesWin\src\sdk\mssstrm.cpp
+File Copy: d:\MilesWin\src\sdk\msssys.c
+File Copy: d:\MilesWin\src\sdk\mssutil.cpp
+File Copy: d:\MilesWin\src\sdk\mssxdig.c
+File Copy: d:\MilesWin\src\sdk\mssxmidi.c
+File Copy: d:\MilesWin\src\sdk\Parmeq.cpp
+File Copy: d:\MilesWin\src\sdk\Phaser.cpp
+File Copy: d:\MilesWin\src\sdk\release.bat
+File Copy: d:\MilesWin\src\sdk\Reson.cpp
+File Copy: d:\MilesWin\src\sdk\reverb.cpp
+File Copy: d:\MilesWin\src\sdk\Reverb1.cpp
+File Copy: d:\MilesWin\src\sdk\Reverb2.cpp
+File Copy: d:\MilesWin\src\sdk\Reverb3.cpp
+File Copy: d:\MilesWin\src\sdk\rib.cpp
+File Copy: d:\MilesWin\src\sdk\rib.h
+File Copy: d:\MilesWin\src\sdk\Ringmod.cpp
+File Copy: d:\MilesWin\src\sdk\Sdelay.cpp
+File Copy: d:\MilesWin\src\sdk\Shelfeq.cpp
+File Copy: d:\MilesWin\src\sdk\synth.cpp
+File Copy: d:\MilesWin\src\sdk\synth.h
+File Copy: d:\MilesWin\src\sdk\volramp.cpp
+File Copy: d:\MilesWin\src\sdk\vort_dls.c
+File Copy: d:\MilesWin\src\sdk\vort_dls.def
+File Copy: d:\MilesWin\src\sdk\wavefile.cpp
+Made Dir: d:\MilesWin\src\tools
+File Copy: d:\MilesWin\src\tools\debug.bat
+File Copy: d:\MilesWin\src\tools\midiechw.cpp
+File Copy: d:\MilesWin\src\tools\midiechw.h
+File Copy: d:\MilesWin\src\tools\midiechw.rc
+File Copy: d:\MilesWin\src\tools\milesply.c
+File Copy: d:\MilesWin\src\tools\milesply.rc
+File Copy: d:\MilesWin\src\tools\milesstu.c
+File Copy: d:\MilesWin\src\tools\milesstu.rc
+File Copy: d:\MilesWin\src\tools\release.bat
+File Copy: d:\MilesWin\pdb\mssmp3.pdb
+File Copy: d:\MilesWin\pdb\mssvoice.pdb
+File Copy: d:\MilesWin\redist\mssmp3.asi
+File Copy: d:\MilesWin\redist\mssvoice.asi
+File Copy: d:\MilesWin\src\sdk\datatbl.h
+File Copy: d:\MilesWin\src\sdk\math_a.asm
+File Copy: d:\MilesWin\src\sdk\math_amd.asm
+File Copy: d:\MilesWin\src\sdk\math_sse.asm
+File Copy: d:\MilesWin\src\sdk\mp3api.cpp
+File Copy: d:\MilesWin\src\sdk\mp3dec.cpp
+File Copy: d:\MilesWin\src\sdk\mp3dec.h
+Made Dir: d:\MilesWin\tools\dos
+File Copy: d:\MilesWin\tools\dos\clad.exe
+File Copy: d:\MilesWin\tools\dos\glib.exe
+File Copy: d:\MilesWin\tools\dos\midiecho.exe
+File Copy: d:\MilesWin\tools\dos\midilog.exe
+File Copy: d:\MilesWin\tools\dos\midirec.exe
+File Copy: d:\MilesWin\tools\dos\wavelib.exe
+File Copy: d:\MilesWin\tools\win\midiechw.exe
+File Copy: d:\MilesWin\tools\win\milesply.exe
+File Copy: d:\MilesWin\tools\win\milesstu.exe
+File Copy: d:\MilesWin\tools\win\mss32.dll
+File Copy: d:\MilesWin\tools\win\vort_dls.dll
+Made Dir: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles Sound Studio.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles Sound Player.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\MIDI Echo for Windows.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles Demo.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles 3D Audio Example.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles Voice Chat.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles Quick API Example.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles Filter Example.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles Win32 Console Examples.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Online Miles Documentation (Compiled HTML).lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Online Miles Documentation (HTML).lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Miles Change Log.lnk
+Shell Link: C:\Documents and Settings\grailyang\「开始」菜单\程序\Miles Sound System 6\Uninstall the Miles Sound System.lnk
+RegDB Key: .xmi
+RegDB Val: XMI
+RegDB Old: XMI
+RegDB Key: XMI
+RegDB Val: Miles XMIDI sequence
+RegDB Old: Miles XMIDI sequence
+RegDB Key: XMI\shell\open\command
+RegDB Val: D:\MilesWin\tools\win\Milesply.exe %1
+RegDB Old: C:\MilesWin\tools\win\Milesply.exe %1
+RegDB Key: MIME
+RegDB Val: 
+RegDB Key: MIME\Database\Content Type
+RegDB Val: 
+RegDB Key: MIME\Database\Content Type\audio/mss
+RegDB Val: D:\MilesWin\tools\win\milesply 
+RegDB Old: C:\MilesWin\tools\win\milesply 
+RegDB Key: MIME\Database\Content Type\audio/mss
+RegDB Val: .mss
+RegDB Name: Extension
+RegDB Old: .mss
+RegDB Key: .mss
+RegDB Val: MSS
+RegDB Old: MSS
+RegDB Key: MSS
+RegDB Val: Miles XMIDI sequence (with DLS data)
+RegDB Old: Miles XMIDI sequence (with DLS data)
+RegDB Key: MSS\shell\open\command
+RegDB Val: D:\MilesWin\tools\win\Milesply.exe %1
+RegDB Old: C:\MilesWin\tools\win\Milesply.exe %1
+RegDB Key: MIME
+RegDB Val: 
+RegDB Key: MIME\Database\Content Type
+RegDB Val: 
+RegDB Key: MIME\Database\Content Type\audio/midi
+RegDB Val: D:\MilesWin\tools\win\milesply 
+RegDB Old: C:\MilesWin\tools\win\milesply 
+RegDB Key: MIME\Database\Content Type\audio/midi
+RegDB Val: .mid
+RegDB Name: Extension
+RegDB Old: .mid
+RegDB Key: MIME\Database\Content Type\audio/mid
+RegDB Val: D:\MilesWin\tools\win\milesply 
+RegDB Old: C:\MilesWin\tools\win\milesply 
+RegDB Key: MIME\Database\Content Type\audio/mid
+RegDB Val: .mid
+RegDB Name: Extension
+RegDB Old: .mid
+RegDB Key: MIME\Database\Content Type\audio/x-midi
+RegDB Val: D:\MilesWin\tools\win\milesply.exe 
+RegDB Old: C:\MilesWin\tools\win\milesply.exe 
+RegDB Key: MIME\Database\Content Type\audio/x-midi
+RegDB Val: .mid
+RegDB Name: Extension
+RegDB Old: .mid
+RegDB Key: .mid
+RegDB Val: MIDI
+RegDB Old: MIDI
+RegDB Key: MIDI
+RegDB Val: MIDI Sequence
+RegDB Old: MIDI Sequence
+RegDB Key: MIDI\shell\open\command
+RegDB Val: D:\MilesWin\tools\win\Milesply.exe %1
+RegDB Old: C:\MilesWin\tools\win\Milesply.exe %1
+RegDB Key: .rmi
+RegDB Val: MID
+RegDB Old: MID
+RegDB Key: MID
+RegDB Val: MIDI Sequence
+RegDB Old: MIDI Sequence
+RegDB Key: MID\shell\open\command
+RegDB Val: D:\MilesWin\tools\win\Milesply.exe %1
+RegDB Old: C:\MilesWin\tools\win\Milesply.exe %1
+RegDB Key: MIME
+RegDB Val: 
+RegDB Key: MIME\Database\Content Type
+RegDB Val: 
+RegDB Key: MIME\Database\Content Type\audio/mpeg
+RegDB Val: D:\MilesWin\tools\win\milesply 
+RegDB Old: C:\MilesWin\tools\win\milesply 
+RegDB Key: MIME\Database\Content Type\audio/mpeg
+RegDB Val: .mp3
+RegDB Name: Extension
+RegDB Old: .mp3
+RegDB Key: .mp3
+RegDB Val: MPEG3Audio
+RegDB Old: MPEG3Audio
+RegDB Key: MPEG3Audio
+RegDB Val: MPEG Layer 3 Audio
+RegDB Old: MPEG Layer 3 Audio
+RegDB Key: MPEG3Audio\shell\open\command
+RegDB Val: D:\MilesWin\tools\win\milesply.exe %1
+RegDB Old: C:\MilesWin\tools\win\milesply.exe %1
+User Rights: Admin

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110223" ColorLib="">
+    <UIObject Type="Dialog" Name="DlgFloat">
+        <Properties>
+            <Property Name="XOffset" Value="900" />
+            <Property Name="YOffset" Value="100" />
+            <Property Name="Width" Value="300" />
+            <Property Name="Height" Value="124" />
+            <Property Name="Background" Value="NONE:" />
+            <Property Name="AlwaysOnTop" Value="true" />
+            <Property Name="ToolWindow" Value="true" />
+            <Property Name="CaptionHeight" Value="100" />
+            <Property Name="LayeredWindow" Value="true" />
+        </Properties>
+        <Children>
+            <UIObject Type="TinyContainer" Name="ctnMain">
+                <Properties>
+                    <Property Name="XOffset" Value="0" />
+                    <Property Name="YOffset" Value="15" />
+                    <Property Name="Width" Value="280" />
+                    <Property Name="Height" Value="34" />
+                    <Property Name="Transparent" Value="true" />
+                    <Property Name="Background" Value="ONEIMAGE:Float\bg.png;Stretch;0;" />
+                </Properties>
+                <Children>
+                    <UIObject Type="TinyStatic" Name="txt3">
+                        <Properties>
+                            <Property Name="XOffset" Value="63" />
+                            <Property Name="YOffset" Value="10" />
+                            <Property Name="Width" Value="60" />
+                            <Property Name="Height" Value="19" />
+                            <Property Name="TextColor" Value="0xffffff" />
+                            <Property Name="Caption" Value="加速中" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="TinyStatic" Name="txt4">
+                        <Properties>
+                            <Property Name="XOffset" Value="159" />
+                            <Property Name="YOffset" Value="10" />
+                            <Property Name="Width" Value="69" />
+                            <Property Name="Height" Value="19" />
+                            <Property Name="TextColor" Value="0xffffff" />
+                            <Property Name="Caption" Value="速度提升" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="TinyStatic" Name="txtName">
+                        <Properties>
+                            <Property Name="XOffset" Value="1" />
+                            <Property Name="YOffset" Value="10" />
+                            <Property Name="Width" Value="63" />
+                            <Property Name="Height" Value="19" />
+                            <Property Name="TextColor" Value="0xffffff" />
+                            <Property Name="Caption" Value="QQ飞车" />
+                            <Property Name="AlignMode" Value="RIGHT" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="TinyStatic" Name="txtTime">
+                        <Properties>
+                            <Property Name="XOffset" Value="119" />
+                            <Property Name="YOffset" Value="10" />
+                            <Property Name="Width" Value="60" />
+                            <Property Name="Height" Value="19" />
+                            <Property Name="TextColor" Value="0xffffff" />
+                            <Property Name="Caption" Value="20 ms" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="TinyStatic" Name="txtEffect">
+                        <Properties>
+                            <Property Name="XOffset" Value="209" />
+                            <Property Name="YOffset" Value="5" />
+                            <Property Name="Width" Value="68" />
+                            <Property Name="Height" Value="28" />
+                            <Property Name="TextColor" Value="RGB:244,255,67" />
+                            <Property Name="Caption" Value="1.02倍" />
+                            <Property Name="LogFont" Value="-16;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Container" Name="TinyContainer1">
+                        <Properties>
+                            <Property Name="XOffset" Value="99" />
+                            <Property Name="YOffset" Value="8" />
+                            <Property Name="Width" Value="20" />
+                            <Property Name="Height" Value="19" />
+                            <Property Name="Background" Value="ONEIMAGE:Detail\L1.png;Tile;null;" />
+                            <Property Name="Tip" Value="相当流畅哦" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="ctnBar">
+                <Properties>
+                    <Property Name="XOffset" Value="221" />
+                    <Property Name="YOffset" Value="0" />
+                    <Property Name="Width" Value="54" />
+                    <Property Name="Height" Value="15" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Alpha" Value="10" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Button" Name="btnFront">
+                        <Properties>
+                            <Property Name="XOffset" Value="0" />
+                            <Property Name="YOffset" Value="1" />
+                            <Property Name="Width" Value="17" />
+                            <Property Name="Height" Value="18" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\front.png;Tile;0;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\front_hover.png;Tile;null;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Float\nofront.png;Tile;null;" />
+                            <Property Name="Tip" Value="总在最前" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnNoFront">
+                        <Properties>
+                            <Property Name="XOffset" Value="0" />
+                            <Property Name="YOffset" Value="1" />
+                            <Property Name="Width" Value="17" />
+                            <Property Name="Height" Value="18" />
+                            <Property Name="Visible" Value="false" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\nofront.png;Tile;0;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\nofront_hover.png;Tile;null;" />
+                            <Property Name="Tip" Value="取消最前" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnDisable">
+                        <Properties>
+                            <Property Name="XOffset" Value="17" />
+                            <Property Name="YOffset" Value="1" />
+                            <Property Name="Width" Value="17" />
+                            <Property Name="Height" Value="18" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\disable.png;Tile;null;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\disable_hover.png;Tile;null;" />
+                            <Property Name="Tip" Value="不再显示" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnClose">
+                        <Properties>
+                            <Property Name="XOffset" Value="34" />
+                            <Property Name="YOffset" Value="1" />
+                            <Property Name="Width" Value="17" />
+                            <Property Name="Height" Value="18" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\close.png;Tile;null;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\close_hover.png;Tile;null;" />
+                            <Property Name="Tip" Value="关闭悬浮" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="ctnMore">
+                <Properties>
+                    <Property Name="XOffset" Value="0" />
+                    <Property Name="YOffset" Value="48" />
+                    <Property Name="Width" Value="280" />
+                    <Property Name="Height" Value="39" />
+                    <Property Name="Background" Value="ONEIMAGE:Float\bg2.png;Stretch;0;" />
+                </Properties>
+                <Children>
+                    <UIObject Type="CheckBox" Name="ckbGameMode">
+                        <Properties>
+                            <Property Name="XOffset" Value="196" />
+                            <Property Name="YOffset" Value="2" />
+                            <Property Name="Width" Value="33" />
+                            <Property Name="Height" Value="33" />
+                            <Property Name="Image" Value="Float\gamemode.png" />
+                            <Property Name="ImageHover" Value="Float\下载模式移入.png" />
+                            <Property Name="ImageChecked" Value="Float\下载模式正常.png" />
+                            <Property Name="ImageHoverChecked" Value="Float\gamemode_hover.png" />
+                            <Property Name="ImagePressed" Value="Float\下载模式点击.png" />
+                            <Property Name="ImagePressedChecked" Value="Float\gamemode_press.png" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnAcc">
+                        <Properties>
+                            <Property Name="XOffset" Value="5" />
+                            <Property Name="YOffset" Value="2" />
+                            <Property Name="Width" Value="33" />
+                            <Property Name="Height" Value="34" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\acc.png;Tile;null;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\acc_hover.png;Tile;null;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Float\acc_press.png;Tile;null;" />
+                            <Property Name="Tip" Value="游戏加速" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnDownLoad">
+                        <Properties>
+                            <Property Name="XOffset" Value="43" />
+                            <Property Name="YOffset" Value="2" />
+                            <Property Name="Width" Value="33" />
+                            <Property Name="Height" Value="34" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\download.png;Tile;null;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\download_hover.png;Tile;null;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Float\download_press.png;Tile;null;" />
+                            <Property Name="Tip" Value="游戏下载" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnInspect">
+                        <Properties>
+                            <Property Name="XOffset" Value="80" />
+                            <Property Name="YOffset" Value="2" />
+                            <Property Name="Width" Value="33" />
+                            <Property Name="Height" Value="34" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\inspect.png;Tile;null;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\inspect_hover.png;Tile;null;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Float\inspect_press.png;Tile;null;" />
+                            <Property Name="Tip" Value="流量监控" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnSafe">
+                        <Properties>
+                            <Property Name="XOffset" Value="119" />
+                            <Property Name="YOffset" Value="2" />
+                            <Property Name="Width" Value="33" />
+                            <Property Name="Height" Value="34" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\safe.png;Tile;null;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\safe_hover.png;Tile;null;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Float\safe_press.png;Tile;null;" />
+                            <Property Name="Tip" Value="安全检查" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnLogo">
+                        <Properties>
+                            <Property Name="XOffset" Value="155" />
+                            <Property Name="YOffset" Value="2" />
+                            <Property Name="Width" Value="33" />
+                            <Property Name="Height" Value="34" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\logo.png;Tile;null;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\logo_hover.png;Tile;null;" />
+                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Float\logo_press.png;Tile;null;" />
+                            <Property Name="Tip" Value="显示主界面" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="ToolTip" Name="FloatTip">
+                <Properties>
+                    <Property Name="XOffset" Value="186" />
+                    <Property Name="YOffset" Value="35" />
+                    <Property Name="Width" Value="10" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Background" Value="9IMAGES:Float\1.png;Float\2.png;Float\3.png;Float\4.png;Float\5.png;Float\6.png;Float\7.png;Float\8.png;Float\9.png;Tile;null;" />
+                    <Property Name="IsGlobalTip" Value="true" />
+                    <Property Name="Margins" Value="5,5,5,5" />
+                    <Property Name="AutoSize" Value="true" />
+                    <Property Name="CreateType" Value="win" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Menu" Name="popMenu">
+                <Properties>
+                    <Property Name="XOffset" Value="202" />
+                    <Property Name="YOffset" Value="258" />
+                    <Property Name="Width" Value="102" />
+                    <Property Name="Height" Value="75" />
+                    <Property Name="ItemHeight" Value="25" />
+                    <Property Name="TextRect" Value="5,5,20,20" />
+                    <Property Name="Background" Value="9IMAGES:main\menu\menu_1.png;main\menu\menu_2.png;main\menu\menu_3.png;main\menu\menu_4.png;main\menu\menu_5.png;main\menu\menu_6.png;main\menu\menu_7.png;main\menu\menu_8.png;main\menu\menu_9.png;Tile;null;" />
+                    <Property Name="CreateType" Value="win" />
+                    <Property Name="ItemBgHover" Value="COLOR:RGB:74,160,233;" />
+                    <Property Name="ItemTextColorHover" Value="0xFFFFFF" />
+                    <Property Name="ItemSeparatorBg" Value="3HIMAGES:main\menu\separator_l.png;main\menu\separator_m.png;main\menu\separator_r.png;Tile;null;" />
+                    <Property Name="ItemSet" Value="Str:查看加速详情;Str:隐藏悬浮窗口;Str:退出加速" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

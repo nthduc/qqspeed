@@ -1,0 +1,53 @@
+/*----------------------------------------------------------------------
+Debugging Applications for Microsoft .NET and Microsoft Windows
+John Robbins
+
+Code Originally By Leo Notenboom Feb 2002 MSDN Magazine.
+Thanks for letting me use it, Leo!
+----------------------------------------------------------------------*/
+// SuperSaverShim.idl : IDL source for SuperSaverShim
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SuperSaverShim.tlb) and marshalling code.
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(A3CE1632-1B17-4293-9535-D8C9C21F0DBB),
+	dual,
+	nonextensible,
+	helpstring("ISuperSaverOptionsShim Interface"),
+	pointer_default(unique)
+]
+interface ISuperSaverOptionsShim : IDispatch{
+};
+
+[
+	uuid(ABF82DF0-8438-4766-A4DF-EB762F9C44AF),
+	version(1.0),
+	helpstring("SuperSaverShim 1.0 Type Library")
+]
+library SuperSaverShimLib
+{
+	[
+		uuid(458AB8A2-A1EA-4D7B-8EBE-DEE5D3D9442C)
+	]
+	interface IWin32Window : IUnknown
+	{
+		HRESULT get_Handle([out, retval] long *pHWnd);
+	};
+
+	importlib("stdole2.tlb");
+	[
+		uuid(4608FA89-1B8C-4AE0-9940-F2F35C834480),
+		helpstring("SuperSaverOptionsShim Class")
+	]
+	coclass SuperSaverOptionsShim
+	{
+		[default] interface ISuperSaverOptionsShim;
+	};
+};

@@ -1,0 +1,37 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>I used an older version of Miles and now my volume and pan calls are weird - what's going on? And what's with the two types of volume functions?</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="">
+<meta name="ms-hkwd" content="I used an older version of Miles and now my volume and pan calls are weird - what's going on? And what's with the two types of volume functions?">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=top><td><b><p>Q:</p></b></td><td><b><p>I used an older version of Miles and now my volume and pan calls are weird - what's going on? And what's with the two types of volume functions?</p></b></td></tr>
+<tr valign=top><td><p>A:</p></td><td><p>Miles 6.5 introduced new floating point volume functions. These functions give you much finer control than the old MIDI compatible (0 to 127) range functions. </p><p>You should search your application for all calls to the old Miles digital volume functions (AIL_set_sample_volume, AIL_set_stream_volume, and AIL_set_3D_sample_volume) and update them to use the new 0 to 1.0 floating point scale instead of the old 0 to 127 integer scale. </p><p>And, since we were breaking the API somewhat for this new functionality, we added some extra features as well. We now give you two ways to control volume - one based on the human perception loudness scale, and one based on a linear reduction of the sound's amplitude. </p><p>If you use <a href="AIL_set_sample_volume_pan.html">AIL_set_sample_volume_pan</a> to set the volume, then a 0.5 value means that the audio will <b>"sound"</b> half as loud to you (this means the sound is 10 dB down). </p><p>If, on the other hand, you use the <a href="AIL_set_sample_volumolliaa.html">AIL_set_sample_volume_levels</a>, then a 0.5 value means that the audio's actual numeric sample values will be cut in half (this means the sound is only 6 dB down). </p><p>Also note that <a href="AIL_set_sample_volume_pan.html">AIL_set_sample_volume_pan</a> now uses a <b>power-pan</b> calculation for the left to right setting. Power-pan means that we vary both the left-to-right mix and the absolute volume to make the total power coming out of your speakers relatively constant. So, now when you pan a sound from left to right, it won't sound louder when the audio is directly in the center. </p><p>Conversely, the <a href="AIL_set_sample_volumolliaa.html">AIL_set_sample_volume_levels</a> function allows you to specify the left and right volumes directly, so you can implement any type of pan that you like. </p><p>As an aside, internally, the <a href="AIL_set_sample_volume_pan.html">AIL_set_sample_volume_pan</a> function just does some calculations and then calls the <a href="AIL_set_sample_volumolliaa.html">AIL_set_sample_volume_levels</a> function.</p></td></tr>
+</table>
+<p><a href="What kind of audio d9b9pf1.html">Next Topic (What kind of audio decompression does Miles support?)</a>  </p><p><a href="How do I loop a tracqkrgja.html">Previous Topic (How do I loop a track off a CD?)</a>  </p><p>
+<br>
+<b>Group:</b>
+<a href="FAQs and How Tos.html">FAQs and How Tos</a><br>
+<b>Related Functions:</b>
+<a href="AIL_3D_sample_volume.html">AIL_3D_sample_volume</a>, <a href="AIL_sample_volume_levels.html">AIL_sample_volume_levels</a>, <a href="AIL_sample_volume_pan.html">AIL_sample_volume_pan</a>, <a href="AIL_set_3D_sample_volume.html">AIL_set_3D_sample_volume</a>, <a href="AIL_set_sample_volumolliaa.html">AIL_set_sample_volume_levels</a>, <a href="AIL_set_sample_volume_pan.html">AIL_set_sample_volume_pan</a>, <a href="AIL_set_stream_volumolliaa.html">AIL_set_stream_volume_levels</a>, <a href="AIL_set_stream_volume_pan.html">AIL_set_stream_volume_pan</a>, <a href="AIL_stream_volume_levels.html">AIL_stream_volume_levels</a>, <a href="AIL_stream_volume_pan.html">AIL_stream_volume_pan</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

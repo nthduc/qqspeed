@@ -1,0 +1,479 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IGNOREDDLG DIALOG DISCARDABLE  0, 0, 284, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ignored Image Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,227,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,227,24,50,14
+    LISTBOX         IDC_IGNORELIST,7,7,204,127,LBS_SORT | LBS_MULTIPLESEL | 
+                    LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Add",IDC_ADD,227,97,50,14
+    PUSHBUTTON      "&Delete",IDC_DELETE,227,120,50,14
+END
+
+IDD_FINDCRASH DIALOG DISCARDABLE  0, 0, 306, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find Crash"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Hexadecimal Address(es)",IDC_STATIC,7,18,84,9
+    EDITTEXT        IDC_HEXEDIT,95,16,148,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Find",IDC_FIND,249,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,249,24,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,42,292,1
+    CONTROL         "&Address",IDC_ADDRESS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,49,99,10
+    CONTROL         "&Module",IDC_MODULE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,61,99,10
+    CONTROL         "F&unction",IDC_FUNCTION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,73,99,10
+    CONTROL         "F&n Displacement",IDC_FNDISPLACEMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,19,85,87,10
+    CONTROL         "&Source File",IDC_SOURCEFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,97,99,10
+    CONTROL         "Source &Line",IDC_SOURCELINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,19,109,87,10
+    CONTROL         "Line &Displacement",IDC_SRCDISPLACEMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,31,121,75,10
+    CONTROL         "&One Line per Address",IDC_ONELINE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,133,99,10
+    EDITTEXT        IDC_DETAILS,112,49,187,94,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_BINARYPROPERTIES DIALOG DISCARDABLE  0, 0, 193, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Binary Image Properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Hexadecimal load address",IDC_STATIC,7,11,87,9
+    EDITTEXT        IDC_LOADADDREDIT,96,10,80,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,44,66,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,66,50,14
+    LTEXT           "Please note that changing the load address is only for the life of the current CrashFinder Project.  The load address is always initiallly set to that of the binary image when the CrashFinder Project is first loaded.",
+                    IDC_STATIC,10,27,173,35
+END
+
+IDD_APPOPTIONS DIALOG DISCARDABLE  0, 0, 152, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CrashFinder Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Show full paths",IDC_SHOWFULLPATHS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,11,83,10
+    CONTROL         "Confirm Deletions",IDC_CONFIRMDELETIONS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,26,83,10
+    DEFPUSHBUTTON   "OK",IDOK,95,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,24,50,14
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 221, 229
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About CrashFinder"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_BIGICON,7,7,20,20
+    CTEXT           "John Robbins - www.jprobbins.com",IDC_STATIC,7,63,207,
+                    11
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,93,207,1
+    EDITTEXT        IDC_HINTS,7,98,207,110,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,85,211,50,14
+    CTEXT           "Debugging Applications (Microsoft Press)\r\nApril 1998 MSJ Bugslayer column",
+                    IDC_STATIC,7,74,207,19
+    CTEXT           "CrashFinder\r\n2.1",IDC_APPNAME,62,2,151,60
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_EDIT_ADD_IMAGE,      VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "F",            ID_EDIT_FIND_CRASH,     VIRTKEY, CONTROL
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "R",            ID_EDIT_REMOVE_IMAGE,   VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GOODITEM            BITMAP  MOVEABLE PURE   "GoodItem.bmp"
+IDB_BADITEM             BITMAP  MOVEABLE PURE   "BadItem.bmp"
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HINTDATA
+//
+
+IDR_HINTDATA            HINTDATA MOVEABLE PURE  "Hint.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "CrashFinder.ico"
+IDR_CRASHFTYPE          ICON    DISCARDABLE     "CrashFinderDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Edit Ignored Image\tCtrl+I", ID_EDIT_IGNORED_IMAGE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Options",                    ID_VIEW_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About CrashFinder...",       ID_APP_ABOUT
+    END
+END
+
+IDR_CRASHFTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "&Find Crash\tCtrl+F",         ID_EDIT_FIND_CRASH
+        MENUITEM SEPARATOR
+        MENUITEM "&Add Image\tCtrl+A",          ID_EDIT_ADD_IMAGE
+        MENUITEM "&Remove Image\tCtrl+R",       ID_EDIT_REMOVE_IMAGE
+        MENUITEM "&Image Properties",           ID_EDIT_IMAGE_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "&Edit Ignored Image\tCtrl+I", ID_EDIT_IGNORED_IMAGE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Options",                    ID_VIEW_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About CrashFinder...",       ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    SEPARATOR
+    BUTTON      ID_EDIT_FIND_CRASH
+    SEPARATOR
+    BUTTON      ID_EDIT_ADD_IMAGE
+    BUTTON      ID_EDIT_REMOVE_IMAGE
+    BUTTON      ID_EDIT_IMAGE_PROPERTIES
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1,0,0
+ PRODUCTVERSION 2,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comment", " Scott Bloom, Ching Ming Kwok, Jeff Shanholtz, and Pablo Presedo did very cool things on this version!\0"
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Debugging Applications\0"
+            VALUE "FileDescription", "CrashFinder Application\0"
+            VALUE "FileVersion", "2, 1, 0, 0\0"
+            VALUE "InternalName", "CrashFinder\0"
+            VALUE "LegalCopyright", "Copyright © 1997-2000 by John Robbins\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CrashFinder.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CrashFinder Application\0"
+            VALUE "ProductVersion", "2, 1, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "CrashFinder"
+    IDR_CRASHFTYPE          "\n\nCrashFinder Project\nCrashFinder Project (*.cfp)\n.cfp\nCrashFinderProject.Document\nCrashFinder Project"
+    IDS_VERSIONREGKEY       "Version 1.0"
+    IDS_ADDFILTER           "Binary Images (*.exe, *.dll, *.ocx, *.sys)|*.exe;*.dll;*.ocx;*.sys|All Files (*.*)|*.*||"
+    IDS_ADDTITLE            "Add Binary Image"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "CrashFinder"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number, copyright, and some really helpful hints!\nAbout and Hints"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_FIND_CRASH      "Find a crash address\nFind a crash address"
+    ID_EDIT_ADD_IMAGE       "Add a binary image to the project\nAdd Binary"
+    ID_EDIT_REMOVE_IMAGE    "Remove the selected binary image from the project\nRemove Binary"
+    ID_EDIT_IMAGE_PROPERTIES 
+                            "Set the properties for the selected binary image for this CrashFinder project instance\nBinary Properties"
+    ID_VIEW_OPTIONS         "Set CrashFinder options"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DUPLICATEFILE       "The binary image, %1, is already in the project."
+    IDS_FILENOTFOUND        "The binary image, %1, does not exist."
+    IDS_DUPLICATELOADADDR   "The binary image, %1, conflicts with the load address for %2.  Would you like to change the load address CrashFinder uses?"
+    IDS_DUPLICATELOADADDRFINAL 
+                            "The load address for %1 still conflicts with %2 so the symbols cannot be loaded."
+    IDS_NOTPEIMAGE          "The binary image, %1, does not appear to be a PE image."
+    IDS_EXEALREADYINPROJECT "The binary image, %1, is an EXE and the project already has an EXE, %2."
+    IDS_CONFIRMREMOVE       "Do you want to remove %1 from the project?"
+    IDS_LOADADDRBADCONVERSION 
+                            "Unable to convert %1 into a valid hexadecimal address."
+    IDS_CATASTROPHICFAILURE "There was a catastrophic failure in the program!"
+    IDS_SYMMODULENOTLOADED  "The binary image, %1, is not loaded in the symbol engine."
+    IDS_FUNCNOTFOUND        "No function at that address"
+    IDS_LINENOTFOUND        "No source information at that address"
+    IDS_DISPLACEMENTFMT     "%08X"
+    IDS_WEAKIMAGHLP         "Your version of IMAGEHLP.DLL does not support the source and line functionality.\nGet the IMAGEHLP.DLL off the November Platform SDK if you would like to see source and line information."
+    IDS_NOMODULESLOADED     "No modules have been loaded."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MODNOTFOUND         "No module at that address"
+    IDS_LINEFMT             "line %d"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

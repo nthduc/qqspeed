@@ -1,0 +1,676 @@
+ SWSDLL
+
+ Timestamp is 3e4e5786 (Sat Feb 15 10:06:46 2003)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000027b0H .text                   CODE
+ 0001:000027b0 0000002aH .text$x                 CODE
+ 0001:000027da 00000046H .text$yc                CODE
+ 0001:00002820 00000021H .text$yd                CODE
+ 0002:00000000 0000015cH .idata$5                DATA
+ 0002:00000160 00000e30H .rdata                  DATA
+ 0002:00000f90 0000003fH .rdata$debug            DATA
+ 0002:00000fd0 00000044H .rdata$r                DATA
+ 0002:00001020 0000000cH .rdata$sxdata           DATA
+ 0002:0000102c 00000004H .rtc$IAA                DATA
+ 0002:00001030 00000004H .rtc$IZZ                DATA
+ 0002:00001034 00000004H .rtc$TAA                DATA
+ 0002:00001038 00000004H .rtc$TZZ                DATA
+ 0002:0000103c 000000b0H .xdata$x                DATA
+ 0002:000010ec 00000050H .idata$2                DATA
+ 0002:0000113c 00000014H .idata$3                DATA
+ 0002:00001150 0000015cH .idata$4                DATA
+ 0002:000012ac 000005d0H .idata$6                DATA
+ 0002:00001880 0000008dH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCAA               DATA
+ 0003:00000008 0000000cH .CRT$XCU                DATA
+ 0003:00000014 00000004H .CRT$XCZ                DATA
+ 0003:00000018 00000004H .CRT$XIA                DATA
+ 0003:0000001c 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000040H .data                   DATA
+ 0003:00000060 00000518H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000380H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000003       ___safe_se_handler_count   00000003     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0001:00000000       _DumpFiles@12              10001000 f   DumpFiles.obj
+ 0001:000003a0       ??1CSymbolEngine@@UAE@XZ   100013a0 f i DumpFiles.obj
+ 0001:000003ae       ??_GCSymbolEngine@@UAEPAXI@Z 100013ae f i DumpFiles.obj
+ 0001:000003ae       ??_ECSymbolEngine@@UAEPAXI@Z 100013ae f i DumpFiles.obj
+ 0001:000003ca       ??1CVariableInfo@@UAE@XZ   100013ca f i DumpFiles.obj
+ 0001:000003de       ??_GCVariableInfo@@UAEPAXI@Z 100013de f i DumpFiles.obj
+ 0001:000003de       ??_ECVariableInfo@@UAEPAXI@Z 100013de f i DumpFiles.obj
+ 0001:000003fa       ??0CSymbolEngine@@QAE@XZ   100013fa f i DumpFiles.obj
+ 0001:0000044a       ??0CVariableInfo@@QAE@XZ   1000144a f i DumpFiles.obj
+ 0001:00000465       ?ZeroData@CVariableInfo@@QAEXXZ 10001465 f i DumpFiles.obj
+ 0001:000004da       ?ZeroLocalEnumerationMemberVars@CSymbolEngine@@IAEXXZ 100014da f i DumpFiles.obj
+ 0001:000004fc       _GenerateInitialFiles@8    100014fc f   GenerateInitialFiles.obj
+ 0001:0000056b       ?RealGenerateInitialFiles@@YGHPBGP6AH0ZZ@Z 1000156b f   GenerateInitialFiles.obj
+ 0001:00000b54       ?SymEnumSyms@@YGHPAD_KKPAX@Z 10001b54 f   GenerateInitialFiles.obj
+ 0001:00000be6       ??0CImageHlp_Line@@QAE@XZ  10001be6 f i GenerateInitialFiles.obj
+ 0001:00000bfc       ??0CImageHlp_Module@@QAE@XZ 10001bfc f i GenerateInitialFiles.obj
+ 0001:00000c15       ?Wide2Ansi@@YAKPBGPADH@Z   10001c15 f   Helper.obj
+ 0001:00000c36       ?InitSymEngAndLoadModule@@YA_KPAVCSymbolEngine@@PAGP6AHPBGZZ@Z 10001c36 f   Helper.obj
+ 0001:00000d5d       ?ConvertRelocatedAddress@CModuleItem@@QAE_K_K@Z 10001d5d f i ModuleItem.obj
+ 0001:00000d8f       ?Initialize@CModuleItem@@QAEH_K@Z 10001d8f f   ModuleItem.obj
+ 0001:00000e79       ?AddressIsInThisModule@CModuleItem@@QAEH_K@Z 10001e79 f   ModuleItem.obj
+ 0001:00000ec5       ?IncrementAddressCount@CModuleItem@@QAEH_K@Z 10001ec5 f   ModuleItem.obj
+ 0001:00000efb       ?InitializeDiskFiles@@YAHPBGPAUHINSTANCE__@@PAG@Z 10001efb f   ModuleItem.obj
+ 0001:000010cb       ?FileExists@@YAHPBG@Z      100020cb f   ModuleItem.obj
+ 0001:000010e0       ?GetDateTimeStamp@@YAKPAUHINSTANCE__@@@Z 100020e0 f   ModuleItem.obj
+ 0001:0000111d       ??1CModuleItem@@UAE@XZ     1000211d f i ModuleItemArray.obj
+ 0001:00001131       ??_GCModuleItem@@UAEPAXI@Z 10002131 f i ModuleItemArray.obj
+ 0001:00001131       ??_ECModuleItem@@UAEPAXI@Z 10002131 f i ModuleItemArray.obj
+ 0001:0000114d       ?Add@CModuleItemArray@@QAEPAVCModuleItem@@_K@Z 1000214d f   ModuleItemArray.obj
+ 0001:000011d2       ?IncrementFunctionEntry@CModuleItemArray@@QAEH_K@Z 100021d2 f   ModuleItemArray.obj
+ 0001:0000129f       ?Add@?$JSimpleArray@PAVCModuleItem@@V?$JSimpleArrayEqualHelper@PAVCModuleItem@@@@@@QAEHABQAVCModuleItem@@@Z 1000229f f i ModuleItemArray.obj
+ 0001:000012ea       ?InternalSetAtIndex@?$JSimpleArray@PAVCModuleItem@@V?$JSimpleArrayEqualHelper@PAVCModuleItem@@@@@@QAEXHABQAVCModuleItem@@@Z 100022ea f i ModuleItemArray.obj
+ 0001:000012fe       ??0CModuleItemArray@@QAE@XZ 100022fe f i PEnterHook.obj
+ 0001:0000131f       ??1CModuleItemArray@@UAE@XZ 1000231f f i PEnterHook.obj
+ 0001:00001378       ??_ECModuleItemArray@@UAEPAXI@Z 10002378 f i PEnterHook.obj
+ 0001:00001378       ??_GCModuleItemArray@@UAEPAXI@Z 10002378 f i PEnterHook.obj
+ 0001:00001394       ??0CAutoMatic@@QAE@XZ      10002394 f i PEnterHook.obj
+ 0001:000013b1       __penter                   100023b1 f   PEnterHook.obj
+ 0001:000013f3       ??1?$JSimpleArray@PAVCModuleItem@@V?$JSimpleArrayEqualHelper@PAVCModuleItem@@@@@@QAE@XZ 100023f3 f i PEnterHook.obj
+ 0001:000013f8       ?RemoveAll@?$JSimpleArray@PAVCModuleItem@@V?$JSimpleArrayEqualHelper@PAVCModuleItem@@@@@@QAEXXZ 100023f8 f i PEnterHook.obj
+ 0001:00001412       _DllMain@12                10002412 f   SWSDLL.obj
+ 0001:0000147d       ??0CSWSFile@@QAE@XZ        1000247d f   SWSFile.obj
+ 0001:000014a1       ??_GCSWSFile@@UAEPAXI@Z    100024a1 f i SWSFile.obj
+ 0001:000014a1       ??_ECSWSFile@@UAEPAXI@Z    100024a1 f i SWSFile.obj
+ 0001:000014c3       ??1CSWSFile@@UAE@XZ        100024c3 f   SWSFile.obj
+ 0001:000014ce       ?Open@CSWSFile@@QAEHPBG@Z  100024ce f   SWSFile.obj
+ 0001:0000156c       ?GetHeaderData@CSWSFile@@QAEHAAK0AA_K00PAG@Z 1000256c f   SWSFile.obj
+ 0001:00001663       ?GetReadOnlyHeaderData@CSWSFile@@QAEQAUtag_SWSFILEHEADER@@XZ 10002663 f   SWSFile.obj
+ 0001:00001683       ?Create@CSWSFile@@QAEHPBG@Z 10002683 f   SWSFile.obj
+ 0001:00001737       ?SetHeaderData@CSWSFile@@QAEHKK_KKKPBG@Z 10002737 f   SWSFile.obj
+ 0001:0000182e       ?AddData@CSWSFile@@QAEH_KKK@Z 1000282e f   SWSFile.obj
+ 0001:00001856       ?Close@CSWSFile@@QAEXXZ    10002856 f   SWSFile.obj
+ 0001:00001919       ?SortByAddress@CSWSFile@@QAEHXZ 10002919 f   SWSFile.obj
+ 0001:00001943       ?SortByExecutionCount@CSWSFile@@QAEHXZ 10002943 f   SWSFile.obj
+ 0001:0000196d       ?Delete@CSWSFile@@QAEXXZ   1000296d f   SWSFile.obj
+ 0001:000019b7       ?GetIndex@CSWSFile@@QAEPAUtag_SWSENTRY@@H@Z 100029b7 f   SWSFile.obj
+ 0001:000019cd       ?FindAddress@CSWSFile@@QAEPAUtag_SWSENTRY@@_K@Z 100029cd f   SWSFile.obj
+ 0001:00001a06       ?FreeResources@CSWSFile@@IAEXXZ 10002a06 f   SWSFile.obj
+ 0001:00001a61       ?AllocateDataBuffer@CSWSFile@@IAEHI@Z 10002a61 f   SWSFile.obj
+ 0001:00001a8f       ?AppendToDataBuffer@CSWSFile@@IAEHPAX@Z 10002a8f f   SWSFile.obj
+ 0001:00001ada       _TuneModule@8              10002ada f   TuneModule.obj
+ 0001:000021b7       ??0JString@@QAE@XZ         100031b7 f   SymbolEngine_Release:JString.obj
+ 0001:000021cd       ??1JString@@QAE@XZ         100031cd f   SymbolEngine_Release:JString.obj
+ 0001:000021e6       ?NullString@JString@@QAEXXZ 100031e6 f   SymbolEngine_Release:JString.obj
+ 0001:000021f6       ?GetDbgHelpAddress@CSymbolEngine@@IAEP6GHXZPBD@Z 100031f6 f   SymbolEngine_Release:SymbolEngine.obj
+ 0001:0000221b       ?SymFromAddr@CSymbolEngine@@QAEH_KPA_KPAU_SYMBOL_INFO@@@Z 1000321b f   SymbolEngine_Release:SymbolEngine.obj
+ 0001:00002258       ??3@YAXPAX@Z               10003258 f   MSVCRT:MSVCR71.dll
+ 0001:0000225e       _memset                    1000325e f   MSVCRT:MSVCR71.dll
+ 0001:00002264       __onexit                   10003264 f   MSVCRT:atonexit.obj
+ 0001:0000228a       _atexit                    1000328a f   MSVCRT:atonexit.obj
+ 0001:0000229c       ??_Etype_info@@UAEPAXI@Z   1000329c f i MSVCRT:ti_inst.obj
+ 0001:000022e8       ??2@YAPAXI@Z               100032e8 f   MSVCRT:MSVCR71.dll
+ 0001:000022ee       _memcpy                    100032ee f   MSVCRT:MSVCR71.dll
+ 0001:000022f4       __CRT_INIT@12              100032f4 f   MSVCRT:crtdll.obj
+ 0001:000023b2       __DllMainCRTStartup@12     100033b2 f   MSVCRT:crtdll.obj
+ 0001:00002496       ___dllonexit               10003496 f   MSVCRT:MSVCR71.dll
+ 0001:0000249c       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000349c f   MSVCRT:ehvecdtr.obj
+ 0001:000024fa       ??_M@YGXPAXIHP6EX0@Z@Z     100034fa f   MSVCRT:ehvecdtr.obj
+ 0001:0000255a       ??1type_info@@UAE@XZ       1000355a f   MSVCRT:MSVCR71.dll
+ 0001:00002560       __initterm                 10003560 f   MSVCRT:MSVCR71.dll
+ 0001:00002566       __RTC_Initialize           10003566 f   MSVCRT:initsect.obj
+ 0001:000025aa       __RTC_Terminate            100035aa f   MSVCRT:initsect.obj
+ 0001:000025ee       ___CppXcptFilter           100035ee f   MSVCRT:MSVCR71.dll
+ 0001:000025f4       __SEH_prolog               100035f4 f   MSVCRT:sehprolg.obj
+ 0001:0000262f       __SEH_epilog               1000362f f   MSVCRT:sehprolg.obj
+ 0001:00002640       __except_handler3          10003640 f   MSVCRT:MSVCR71.dll
+ 0001:00002646       ?terminate@@YAXXZ          10003646 f   MSVCRT:MSVCR71.dll
+ 0001:0000267d       @__security_check_cookie@4 1000367d f   MSVCRT:secchk.obj
+ 0001:00002690       ___CxxFrameHandler         10003690 f   MSVCRT:MSVCR71.dll
+ 0001:00002698       __EH_prolog                10003698 f   MSVCRT:ehprolog.obj
+ 0001:000026c0       __alloca_probe             100036c0     MSVCRT:chkstk.obj
+ 0001:000026c0       __chkstk                   100036c0 f   MSVCRT:chkstk.obj
+ 0001:000026fe       __CxxThrowException@8      100036fe f   MSVCRT:MSVCR71.dll
+ 0001:00002710       __allmul                   10003710 f   MSVCRT:llmul.obj
+ 0001:00002744       ___security_init_cookie    10003744 f   MSVCRT:seccinit.obj
+ 0001:000027aa       ___security_error_handler  100037aa f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__IsBadCodePtr@4      10004000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentProcess@0 10004004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__CreateFileW@28      10004008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__CloseHandle@4       1000400c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__WideCharToMultiByte@32 10004010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetACP@0            10004014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetEnvironmentVariableW@12 10004018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetEnvironmentVariableA@12 1000401c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__VirtualQuery@12     10004020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetModuleFileNameW@12 10004024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__OutputDebugStringW@4 10004028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__InterlockedIncrement@4 1000402c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__CopyFileW@12        10004030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetFileAttributesW@4 10004034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__IsBadReadPtr@8      10004038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__EnterCriticalSection@4 1000403c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__InterlockedExchange@8 10004040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__LeaveCriticalSection@4 10004044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__InitializeCriticalSection@4 10004048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__DeleteCriticalSection@4 1000404c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__CreateEventW@16     10004050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__WaitForSingleObject@8 10004054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__DisableThreadLibraryCalls@4 10004058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__CreateFileMappingW@24 1000405c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__MapViewOfFile@20    10004060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__SetFilePointer@16   10004064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__ReadFile@20         10004068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__WriteFile@20        1000406c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__DeleteFileW@4       10004070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__UnmapViewOfFile@4   10004074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__IsBadStringPtrW@8   10004078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetSystemInfo@4     1000407c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetProcessHeap@0    10004080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__HeapFree@12         10004084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__GetModuleHandleW@4  10004088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GetProcAddress@8    1000408c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__GetCurrentProcessId@0 10004090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetCurrentThreadId@0 10004094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetTickCount@0      10004098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__QueryPerformanceCounter@4 1000409c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__ExitProcess@4       100040a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__GetSystemTimeAsFileTime@4 100040a4     kernel32:KERNEL32.dll
+ 0002:000000a8       \177KERNEL32_NULL_THUNK_DATA 100040a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__fclose              100040ac     MSVCRT:MSVCR71.dll
+ 0002:000000b0       __imp____security_error_handler 100040b0     MSVCRT:MSVCR71.dll
+ 0002:000000b4       __imp___CxxThrowException@8 100040b4     MSVCRT:MSVCR71.dll
+ 0002:000000b8       __imp____CxxFrameHandler   100040b8     MSVCRT:MSVCR71.dll
+ 0002:000000bc       __imp_?terminate@@YAXXZ    100040bc     MSVCRT:MSVCR71.dll
+ 0002:000000c0       __imp___except_handler3    100040c0     MSVCRT:MSVCR71.dll
+ 0002:000000c4       __imp____CppXcptFilter     100040c4     MSVCRT:MSVCR71.dll
+ 0002:000000c8       __imp___adjust_fdiv        100040c8     MSVCRT:MSVCR71.dll
+ 0002:000000cc       __imp___initterm           100040cc     MSVCRT:MSVCR71.dll
+ 0002:000000d0       __imp__wcscpy              100040d0     MSVCRT:MSVCR71.dll
+ 0002:000000d4       __imp__wcsrchr             100040d4     MSVCRT:MSVCR71.dll
+ 0002:000000d8       __imp__wcscat              100040d8     MSVCRT:MSVCR71.dll
+ 0002:000000dc       __imp___wcsicmp            100040dc     MSVCRT:MSVCR71.dll
+ 0002:000000e0       __imp_??3@YAXPAX@Z         100040e0     MSVCRT:MSVCR71.dll
+ 0002:000000e4       __imp__memset              100040e4     MSVCRT:MSVCR71.dll
+ 0002:000000e8       __imp__malloc              100040e8     MSVCRT:MSVCR71.dll
+ 0002:000000ec       __imp__free                100040ec     MSVCRT:MSVCR71.dll
+ 0002:000000f0       __imp__wcslen              100040f0     MSVCRT:MSVCR71.dll
+ 0002:000000f4       __imp___wgetcwd            100040f4     MSVCRT:MSVCR71.dll
+ 0002:000000f8       __imp___wsplitpath         100040f8     MSVCRT:MSVCR71.dll
+ 0002:000000fc       __imp__strstr              100040fc     MSVCRT:MSVCR71.dll
+ 0002:00000100       __imp_??2@YAPAXI@Z         10004100     MSVCRT:MSVCR71.dll
+ 0002:00000104       __imp__realloc             10004104     MSVCRT:MSVCR71.dll
+ 0002:00000108       __imp__qsort               10004108     MSVCRT:MSVCR71.dll
+ 0002:0000010c       __imp__bsearch             1000410c     MSVCRT:MSVCR71.dll
+ 0002:00000110       __imp__memcpy              10004110     MSVCRT:MSVCR71.dll
+ 0002:00000114       __imp___wfopen             10004114     MSVCRT:MSVCR71.dll
+ 0002:00000118       __imp_??1type_info@@UAE@XZ 10004118     MSVCRT:MSVCR71.dll
+ 0002:0000011c       __imp__fwprintf            1000411c     MSVCRT:MSVCR71.dll
+ 0002:00000120       __imp____dllonexit         10004120     MSVCRT:MSVCR71.dll
+ 0002:00000124       __imp___onexit             10004124     MSVCRT:MSVCR71.dll
+ 0002:00000128       \177MSVCR71_NULL_THUNK_DATA 10004128     MSVCRT:MSVCR71.dll
+ 0002:0000012c       __imp__wsprintfW           1000412c     user32:USER32.dll
+ 0002:00000130       \177USER32_NULL_THUNK_DATA 10004130     user32:USER32.dll
+ 0002:00000134       __imp__SymLoadModule64@28  10004134     dbghelp:dbghelp.dll
+ 0002:00000138       __imp__SymUnloadModule64@12 10004138     dbghelp:dbghelp.dll
+ 0002:0000013c       __imp__SymGetSymFromAddr64@20 1000413c     dbghelp:dbghelp.dll
+ 0002:00000140       __imp__SymInitialize@12    10004140     dbghelp:dbghelp.dll
+ 0002:00000144       __imp__SymGetModuleInfo64@16 10004144     dbghelp:dbghelp.dll
+ 0002:00000148       __imp__SymSetOptions@4     10004148     dbghelp:dbghelp.dll
+ 0002:0000014c       __imp__SymGetLineFromAddr64@20 1000414c     dbghelp:dbghelp.dll
+ 0002:00000150       __imp__SymEnumerateSymbols64@20 10004150     dbghelp:dbghelp.dll
+ 0002:00000154       __imp__SymSetSearchPath@8  10004154     dbghelp:dbghelp.dll
+ 0002:00000158       \177dbghelp_NULL_THUNK_DATA 10004158     dbghelp:dbghelp.dll
+ 0002:00000180       ??_7type_info@@6B@         10004180     MSVCRT:ti_inst.obj
+ 0002:000001d4       ??_7CVariableInfo@@6B@     100041d4     DumpFiles.obj
+ 0002:000001d8       ??_7CSymbolEngine@@6B@     100041d8     DumpFiles.obj
+ 0002:000001dc       ??_C@_1CG@JOBLJEHA@?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAX?$AA?5?$AA?$CF?$AA8?$AAd?$AA?5?$AA?$CF?$AA5?$AAd?$AA?5?$AA?$CF?$AAS?$AA?6?$AA?$AA@ 100041dc     DumpFiles.obj
+ 0002:00000208       ??_C@_1EK@CGDFGAAB@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AAl?$AAo?$AAo?$AAk?$AAu?$AAp?$AA?5?$AAs?$AAy?$AAm@ 10004208     DumpFiles.obj
+ 0002:00000258       ??_C@_1EA@GNFPHHEE@?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?5?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?9?$AA?5@ 10004258     DumpFiles.obj
+ 0002:00000298       ??_C@_1EA@FBAOFACG@?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?5?$AA?5?$AA?5?$AA?5?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?5?$AA?5?$AA?5?$AA?5@ 10004298     DumpFiles.obj
+ 0002:000002d8       ??_C@_1FK@KHDIAOIL@?$AAT?$AAh?$AAe?$AA?5?$AAs?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?5?$AAa?$AAn?$AAd?$AA?5?$AAS?$AAW?$AAS?$AA?5@ 100042d8     DumpFiles.obj
+ 0002:00000334       ??_C@_1DA@IPFLPNGJ@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAm?$AAo?$AAd?$AA?5?$AAi?$AAn@ 10004334     DumpFiles.obj
+ 0002:00000364       ??_C@_1DE@BLMKINPA@?$AAL?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?5?$AAf?$AAa?$AAi?$AAl@ 10004364     DumpFiles.obj
+ 0002:00000398       ??_C@_1CG@IDDOIILM@?$AAM?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?5?$AAn?$AAa?$AAm?$AAe?$AA?5?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?6?$AA?$AA@ 10004398     DumpFiles.obj
+ 0002:000003c0       ??_C@_1CM@GFKMOPCF@?$AAI?$AAm?$AAa?$AAg?$AAe?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?5?$AA?5?$AA?3?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAX@ 100043c0     DumpFiles.obj
+ 0002:000003ec       ??_C@_1CM@LNEDIPJC@?$AAI?$AAm?$AAa?$AAg?$AAe?$AA?5?$AAb?$AAa?$AAs?$AAe?$AA?5?$AA?5?$AA?3?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAX@ 100043ec     DumpFiles.obj
+ 0002:00000418       ??_C@_1CE@NNPLEAHP@?$AAE?$AAn?$AAt?$AAr?$AAy?$AA?5?$AAc?$AAo?$AAu?$AAn?$AAt?$AA?5?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?6?$AA?$AA@ 10004418     DumpFiles.obj
+ 0002:0000043c       ??_C@_1CM@PBMPCOEP@?$AAL?$AAi?$AAn?$AAk?$AA?5?$AAt?$AAi?$AAm?$AAe?$AA?5?$AA?5?$AA?5?$AA?3?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAX@ 1000443c     DumpFiles.obj
+ 0002:00000468       ??_C@_1EA@CBIFOECP@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAS?$AAW?$AAS?$AA?5?$AAh?$AAe@ 10004468     DumpFiles.obj
+ 0002:000004a8       ??_C@_1CG@BAMABCJF@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 100044a8     DumpFiles.obj
+ 0002:000004d0       ??_C@_1CO@LAPCJDH@?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AAi?$AAn?$AAg?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AA?9?$AA?$DO?$AA?5?$AA?$CF@ 100044d0     DumpFiles.obj
+ 0002:00000500       ??_C@_19FOHLMIMM@?$AA?4?$AAS?$AAW?$AAS?$AA?$AA@ 10004500     DumpFiles.obj
+ 0002:0000050c       ??_C@_1DE@PFPHKKIE@?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAo?$AAu?$AAt?$AAp?$AAu?$AAt?$AA?5?$AAp?$AAa?$AAr?$AAa?$AAm@ 1000450c     DumpFiles.obj
+ 0002:00000540       ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ 10004540     DumpFiles.obj
+ 0002:00000548       ??_C@_0BC@MFFNFCEA@DumpFiles?5called?6?$AA@ 10004548     DumpFiles.obj
+ 0002:0000055c       ??_C@_1DK@DFLGDMCJ@?$AA?5?$AA?5?$AAA?$AAd?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AA?5?$AA?3?$AA?5?$AA0?$AAx@ 1000455c     GenerateInitialFiles.obj
+ 0002:00000598       ??_C@_1DC@NLCDLDEH@?$AA?5?$AA?5?$AAS?$AAi?$AAz?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAX?$AA?5?$AAi?$AAs@ 10004598     GenerateInitialFiles.obj
+ 0002:000005d0       ??_C@_1EA@JCHCIAF@?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAg?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?5@ 100045d0     GenerateInitialFiles.obj
+ 0002:00000610       ??_C@_1EE@GHFEJGIB@?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AA?5?$AAe?$AAn?$AAu?$AAm?$AAe?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAr@ 10004610     GenerateInitialFiles.obj
+ 0002:00000658       ??_C@_1EA@LBCHBOCL@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAm?$AAo@ 10004658     GenerateInitialFiles.obj
+ 0002:00000698       ??_C@_1EE@PIJDNHME@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAS@ 10004698     GenerateInitialFiles.obj
+ 0002:000006dc       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 100046dc     GenerateInitialFiles.obj
+ 0002:000006e0       ??_C@_1DA@EGCPLCJN@?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAP?$AAD?$AAB?$AA?5?$AAo?$AAr?$AA?5?$AAD@ 100046e0     GenerateInitialFiles.obj
+ 0002:00000710       ??_C@_1DG@JAMDDOEL@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAm?$AAo?$AAd?$AAu?$AAl?$AAe@ 10004710     GenerateInitialFiles.obj
+ 0002:00000748       ??_C@_1CK@LMJNEOPI@?$AAG?$AAe?$AAt?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAm?$AAo?$AAd?$AAu?$AAl?$AAe?$AA?5?$AAi?$AAn?$AAf?$AAo?$AA?6@ 10004748     GenerateInitialFiles.obj
+ 0002:00000774       ??_C@_1CI@PECJOBKC@?$AAL?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAs?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?$AA@ 10004774     GenerateInitialFiles.obj
+ 0002:0000079c       ??_C@_1CK@KNIDABJF@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6@ 1000479c     GenerateInitialFiles.obj
+ 0002:000007c8       ??_C@_1CE@EHCNBBNC@?$AAO?$AAp?$AAe?$AAn?$AAi?$AAn?$AAg?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?6?$AA?$AA@ 100047c8     GenerateInitialFiles.obj
+ 0002:000007f0       ??_C@_1EC@DOMICNEH@?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAi?$AAn?$AAg?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAs?$AAy?$AAm@ 100047f0     GenerateInitialFiles.obj
+ 0002:00000838       ??_C@_1EK@GCGJCCMK@?$AAG?$AAe?$AAn?$AAe?$AAr?$AAa?$AAt?$AAe?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAF?$AAi?$AAl?$AAe?$AAs@ 10004838     GenerateInitialFiles.obj
+ 0002:00000888       ??_C@_1FA@DFAEFBMJ@?$AAE?$AAx?$AAc?$AAe?$AAp?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAi?$AAn?$AA?5?$AAR?$AAe?$AAa?$AAl?$AAG?$AAe?$AAn@ 10004888     GenerateInitialFiles.obj
+ 0002:000008d8       ??_C@_0BN@JIJHFJEJ@GenerateInitialFiles?5called?6?$AA@ 100048d8     GenerateInitialFiles.obj
+ 0002:000008f8       ??_C@_06EHIIICBL@penter?$AA@ 100048f8     GenerateInitialFiles.obj
+ 0002:00000900       ??_C@_0P@BDCDIAAB@__alloca_probe?$AA@ 10004900     GenerateInitialFiles.obj
+ 0002:00000910       ??_C@_07KLLCBHN@_chkstk?$AA@ 10004910     GenerateInitialFiles.obj
+ 0002:00000918       ??_C@_0BA@FEDCPKPP@NULL_THUNK_DATA?$AA@ 10004918     GenerateInitialFiles.obj
+ 0002:00000928       ??_C@_06MIKLNMDL@_imp__?$AA@ 10004928     GenerateInitialFiles.obj
+ 0002:00000930       ??_C@_0BD@MDCCCBCC@_IMPORT_DESCRIPTOR?$AA@ 10004930     GenerateInitialFiles.obj
+ 0002:00000944       ??_C@_1CK@CEIBBIMI@?$AAL?$AAo?$AAa?$AAd?$AAi?$AAn?$AAg?$AA?5?$AAt?$AAh?$AAe?$AA?5?$AAs?$AAy?$AAm?$AAb?$AAo?$AAl?$AAs?$AA?6@ 10004944     Helper.obj
+ 0002:00000970       ??_C@_1EK@FIHHOJA@?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AA?5?$AAe?$AAn?$AAg?$AAi?$AAn?$AAe?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa@ 10004970     Helper.obj
+ 0002:000009bc       ??_C@_04HBHDLLBA@PATH?$AA@ 100049bc     Helper.obj
+ 0002:000009c8       ??_C@_1EI@DPEJFGH@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAg?$AAe?$AAt?$AA?5?$AAP?$AAA?$AAT?$AAH?$AA?5?$AAe@ 100049c8     Helper.obj
+ 0002:00000a10       ??_C@_19IJOJOJIB@?$AAP?$AAA?$AAT?$AAH?$AA?$AA@ 10004a10     Helper.obj
+ 0002:00000a1c       ??_C@_1BA@EGECHPL@?$AA?4?$AA?$CF?$AAd?$AA?4?$AAS?$AAW?$AAS?$AA?$AA@ 10004a1c     ModuleItem.obj
+ 0002:00000a2c       ??_C@_1CI@LOLCCIJO@?$AA?4?$AA?5?$AAR?$AAe?$AAg?$AAe?$AAn?$AAe?$AAr?$AAa?$AAt?$AAi?$AAn?$AAg?$AA?4?$AA?4?$AA?4?$AA?4?$AA?6?$AA?$AA@ 10004a2c     ModuleItem.obj
+ 0002:00000a58       ??_C@_1GO@LPOKBNKP@?$AAS?$AAW?$AAS?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AAo?$AAn?$AA?5?$AAo?$AAn?$AA?5?$AAd?$AAi?$AAs?$AAk?$AA?5@ 10004a58     ModuleItem.obj
+ 0002:00000ac8       ??_C@_13LBAGMAIH@?$AA?6?$AA?$AA@ 10004ac8     ModuleItem.obj
+ 0002:00000ad0       ??_C@_1EM@CDDIPCA@?$AAT?$AAh?$AAe?$AA?5?$AAf?$AAo?$AAl?$AAl?$AAo?$AAw?$AAi?$AAn?$AAg?$AA?5?$AAm?$AAo?$AAd?$AAu?$AAl?$AAe@ 10004ad0     ModuleItem.obj
+ 0002:00000b28       ??_7CModuleItem@@6B@       10004b28     ModuleItemArray.obj
+ 0002:00000b2c       ??_7CModuleItemArray@@6B@  10004b2c     PEnterHook.obj
+ 0002:00000b30       ??_C@_1CK@NJMCJMPA@?$AAS?$AAW?$AAS?$AA_?$AAS?$AAt?$AAa?$AAr?$AAt?$AA_?$AAS?$AAt?$AAo?$AAp?$AA_?$AAE?$AAv?$AAe?$AAn?$AAt@ 10004b30     PEnterHook.obj
+ 0002:00000b5c       ??_7CSWSFile@@6B@          10004b5c     SWSFile.obj
+ 0002:00000b60       ??_C@_1O@LHFDPMOC@?$AAE?$AAm?$AAp?$AAt?$AAy?$AA?$CB?$AA?$AA@ 10004b60     SWSFile.obj
+ 0002:00000b70       ??_C@_1CA@GPOCOOEI@?$AAP?$AAa?$AAg?$AAe?$AA?5?$AAp?$AAa?$AAc?$AAk?$AAe?$AAd?$AA?4?$AA?4?$AA?4?$AA?6?$AA?$AA@ 10004b70     TuneModule.obj
+ 0002:00000b90       ??_C@_1FO@EPPCALAO@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAp?$AAa?$AAc?$AAk?$AA?5?$AAp?$AAa?$AAg?$AAe?$AA?5@ 10004b90     TuneModule.obj
+ 0002:00000bf0       ??_C@_1GO@MLFJDPAJ@?$AAS?$AAy?$AAm?$AAb?$AAo?$AAl?$AA?5?$AAs?$AAi?$AAz?$AAe?$AA?5?$AAl?$AAa?$AAr?$AAg?$AAe?$AAr?$AA?5?$AAt@ 10004bf0     TuneModule.obj
+ 0002:00000c60       ??_C@_1FC@JMDHGFF@?$AAP?$AAa?$AAg?$AAe?$AA?5?$AAR?$AAe?$AAm?$AAa?$AAi?$AAn?$AAi?$AAn?$AAg?$AA?5?$AA?$CI?$AA?$CF?$AA0?$AA4?$AAd@ 10004c60     TuneModule.obj
+ 0002:00000cb4       ??_C@_17MOOMNGJJ@?$AA?$CF?$AAS?$AA?6?$AA?$AA@ 10004cb4     TuneModule.obj
+ 0002:00000cbc       ??_C@_1DG@GIHCEMDE@?$AAS?$AAy?$AAm?$AA?5?$AAl?$AAo?$AAo?$AAk?$AAu?$AAp?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AA?3?$AA?5@ 10004cbc     TuneModule.obj
+ 0002:00000cf4       ??_C@_1CO@HPDBBNGD@?$AAO?$AAr?$AAd?$AAe?$AAr?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AAo?$AAu?$AAt?$AAp?$AAu?$AAt?$AA?3?$AA?5?$AA?$CF@ 10004cf4     TuneModule.obj
+ 0002:00000d28       ??_C@_1FE@MFLBPLDC@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAr?$AAe?$AAa?$AAt?$AAe?$AA?5?$AAt?$AAh?$AAe@ 10004d28     TuneModule.obj
+ 0002:00000d7c       ??_C@_15LMEHFEOO@?$AAw?$AAt?$AA?$AA@ 10004d7c     TuneModule.obj
+ 0002:00000d88       ??_C@_1EG@BBHEAKOD@?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AA?5?$AAo?$AAn?$AA?5?$AA?$CF?$AAs?$AA?5?$AAd?$AAo?$AAe?$AAs?$AA?5?$AAn?$AAo@ 10004d88     TuneModule.obj
+ 0002:00000dd0       ??_C@_1CC@CDADLEFB@?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AAi?$AAn?$AAg?$AA?5?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6?$AA?$AA@ 10004dd0     TuneModule.obj
+ 0002:00000df4       ??_C@_1BA@MKBCHBJL@?$AA?$CF?$AAs?$AA?4?$AA?$CF?$AAd?$AA?$CF?$AAs?$AA?$AA@ 10004df4     TuneModule.obj
+ 0002:00000e04       ??_C@_1DM@MIOENHHO@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAr?$AAe?$AAa?$AAd?$AA?5?$AAh?$AAe?$AAa?$AAd?$AAe@ 10004e04     TuneModule.obj
+ 0002:00000e40       ??_C@_1EG@ECBKPCOM@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AAt?$AAe?$AAm?$AAp?$AAo@ 10004e40     TuneModule.obj
+ 0002:00000e88       ??_C@_1FG@GDEFLOOE@?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAc?$AAo?$AAp?$AAy?$AA?5?$AA?4?$AAS?$AAW?$AAS?$AA?5@ 10004e88     TuneModule.obj
+ 0002:00000ee0       ??_C@_19OHPOPJDB@?$AA?4?$AAP?$AAR?$AAF?$AA?$AA@ 10004ee0     TuneModule.obj
+ 0002:00000eec       ??_C@_1BE@LLAFKEBO@?$AA?4?$AAS?$AAW?$AAS?$AA?4?$AAT?$AAE?$AAM?$AAP?$AA?$AA@ 10004eec     TuneModule.obj
+ 0002:00000f00       ??_C@_1BI@NIJBKGEB@?$AAD?$AAB?$AAG?$AAH?$AAE?$AAL?$AAP?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 10004f00     SymbolEngine_Release:SymbolEngine.obj
+ 0002:00000f18       ??_C@_0M@GHNAPHBH@SymFromAddr?$AA@ 10004f18     SymbolEngine_Release:SymbolEngine.obj
+ 0002:00000f48       __load_config_used         10004f48     MSVCRT:loadcfg.obj
+ 0002:00000fd0       ??_R1A@?0A@A@type_info@@8  10004fd0     MSVCRT:ti_inst.obj
+ 0002:00000fe8       ??_R2type_info@@8          10004fe8     MSVCRT:ti_inst.obj
+ 0002:00000ff0       ??_R3type_info@@8          10004ff0     MSVCRT:ti_inst.obj
+ 0002:00001000       ??_R4type_info@@6B@        10005000     MSVCRT:ti_inst.obj
+ 0002:00001020       ___safe_se_handler_table   10005020     <linker-defined>
+ 0002:0000102c       ___rtc_iaa                 1000502c     MSVCRT:initsect.obj
+ 0002:00001030       ___rtc_izz                 10005030     MSVCRT:initsect.obj
+ 0002:00001034       ___rtc_taa                 10005034     MSVCRT:initsect.obj
+ 0002:00001038       ___rtc_tzz                 10005038     MSVCRT:initsect.obj
+ 0002:0000103c       __TI1H                     1000503c     GenerateInitialFiles.obj
+ 0002:0000104c       __CTA1H                    1000504c     GenerateInitialFiles.obj
+ 0002:00001054       __CT??_R0H@84              10005054     GenerateInitialFiles.obj
+ 0002:000010ec       __IMPORT_DESCRIPTOR_KERNEL32 100050ec     kernel32:KERNEL32.dll
+ 0002:00001100       __IMPORT_DESCRIPTOR_USER32 10005100     user32:USER32.dll
+ 0002:00001114       __IMPORT_DESCRIPTOR_dbghelp 10005114     dbghelp:dbghelp.dll
+ 0002:00001128       __IMPORT_DESCRIPTOR_MSVCR71 10005128     MSVCRT:MSVCR71.dll
+ 0002:0000113c       __NULL_IMPORT_DESCRIPTOR   1000513c     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    10006000     MSVCRT:cinitexe.obj
+ 0003:00000014       ___xc_z                    10006014     MSVCRT:cinitexe.obj
+ 0003:00000018       ___xi_a                    10006018     MSVCRT:cinitexe.obj
+ 0003:0000001c       ___xi_z                    1000601c     MSVCRT:cinitexe.obj
+ 0003:00000020       ??_R0?AVtype_info@@@8      10006020     MSVCRT:ti_inst.obj
+ 0003:00000038       ??_R0H@8                   10006038     GenerateInitialFiles.obj
+ 0003:00000044       ?g_szIgnoreContaining@@3PAPADA 10006044     GenerateInitialFiles.obj
+ 0003:0000005c       ___security_cookie         1000605c     MSVCRT:seccook.obj
+ 0003:00000568       __adjust_fdiv              10006568     <common>
+ 0003:0000056c       __pRawDllMain              1000656c     <common>
+ 0003:00000570       ___onexitend               10006570     <common>
+ 0003:00000574       ___onexitbegin             10006574     <common>
+
+ entry point at        0001:000023b2
+
+ Static symbols
+
+ 0001:00000a98       $L53324                    10001a98 f    CIL library: CIL module
+ 0001:00001429       ?CompareAddr@@YAHPBX0@Z    10002429 f   SWSFile.obj
+ 0001:0000145c       ?CompareExecCount@@YAHPBX0@Z 1000245c f   SWSFile.obj
+ 0001:000021a3       ?Deallocate@@YAHPAX@Z      100031a3 f   SymbolEngine_Release:JString.obj
+ 0001:0000264c       _report_failure            1000364c f   MSVCRT:secchk.obj
+ 0001:000027b0       $L53258                    100037b0 f    CIL library: CIL module
+ 0001:000027bb       __ehhandler$??1CModuleItemArray@@UAE@XZ 100037bb f    CIL library: CIL module
+ 0001:000027c5       $L53325                    100037c5 f    CIL library: CIL module
+ 0001:000027d0       __ehhandler$?RealGenerateInitialFiles@@YGHPBGP6AH0ZZ@Z 100037d0 f    CIL library: CIL module
+ 0001:000027da       _$E1                       100037da f   PEnterHook.obj
+ 0001:000027f2       _$E1                       100037f2 f   PEnterHook.obj
+ 0001:00002808       _$E4                       10003808 f   PEnterHook.obj
+ 0001:00002820       _$E2                       10003820 f   PEnterHook.obj
+ 0001:0000282a       _$E2                       1000382a f   PEnterHook.obj
+ 0001:00002837       _$E5                       10003837 f   PEnterHook.obj
+
+Line numbers for .\Release\TuneModule.obj(d:\dev\booktwo\disk\sws\swsdll\tunemodule.cpp) segment .text
+
+    31 0001:00001ada    33 0001:00001aec    36 0001:00001b02    38 0001:00001b0a
+    41 0001:00001b11    43 0001:00001b1d    51 0001:00001b25    52 0001:00001b37
+    53 0001:00001b49    55 0001:00001b4d    60 0001:00001b52    61 0001:00001b62
+    64 0001:00001b76    65 0001:00001b86    67 0001:00001b97    70 0001:00001bb1
+    71 0001:00001bc1    75 0001:00001bc8    76 0001:00001bd3    79 0001:00001be9
+    90 0001:00001bfd    85 0001:00001c04    86 0001:00001c11    89 0001:00001c1b
+    90 0001:00001c31    95 0001:00001c3e   100 0001:00001c49   101 0001:00001c5d
+   103 0001:00001c6f   104 0001:00001c83   110 0001:00001c93   113 0001:00001c9e
+   116 0001:00001cb5   119 0001:00001cd9   120 0001:00001ce5   125 0001:00001ce7
+   128 0001:00001cf8   129 0001:00001d04   134 0001:00001d09   135 0001:00001d12
+   142 0001:00001d17   143 0001:00001d3b   145 0001:00001d3e   146 0001:00001d49
+   149 0001:00001d63   152 0001:00001d6e   155 0001:00001d7c   159 0001:00001d92
+   162 0001:00001d9f   164 0001:00001dae   165 0001:00001dbb   168 0001:00001dcd
+   171 0001:00001dcf   173 0001:00001de5   175 0001:00001df0   177 0001:00001df7
+   179 0001:00001dfd   183 0001:00001e1e   187 0001:00001e29   188 0001:00001e39
+   189 0001:00001e4b   190 0001:00001e60   193 0001:00001e6a   194 0001:00001e7f
+   197 0001:00001e84   203 0001:00001e9a   205 0001:00001ea7   207 0001:00001ead
+   211 0001:00001ec1   212 0001:00001ec7   207 0001:00001ece   223 0001:00001ecf
+   225 0001:00001ee8   226 0001:00001ef7   233 0001:00001f09   241 0001:00001f15
+   251 0001:00001f1e   255 0001:00001f26   276 0001:00001f4c   277 0001:00001f4f
+   279 0001:00001f54   282 0001:00001f55   283 0001:00001f67   284 0001:00001f6d
+   290 0001:00001f72   298 0001:00001f93   302 0001:00001fa0   319 0001:00001fc6
+   320 0001:00001fc9   322 0001:00001fce   326 0001:00001fcf   327 0001:00001fe1
+   333 0001:00001fe6   336 0001:00002002   338 0001:0000200b   343 0001:00002010
+   347 0001:00002014   350 0001:00002022   351 0001:00002033   353 0001:0000203e
+   356 0001:00002046   358 0001:0000204a   361 0001:0000204c   364 0001:0000204e
+   366 0001:00002053   368 0001:00002055   371 0001:0000205a   373 0001:0000205f
+   347 0001:00002061   380 0001:00002075   383 0001:00002079   384 0001:0000208e
+   386 0001:00002090   391 0001:00002094   399 0001:00002096   416 0001:000020bb
+   417 0001:000020c4   419 0001:000020c9   423 0001:000020ca   425 0001:000020dc
+   431 0001:000020e1   436 0001:00002104   439 0001:00002125   263 0001:0000212a
+   407 0001:0000213f   441 0001:0000214d   444 0001:0000215a   445 0001:00002165
+   447 0001:00002172   448 0001:00002197
+
+Line numbers for .\Release\SWSFile.obj(d:\dev\booktwo\disk\sws\swsdll\swsfile.cpp) segment .text
+
+    20 0001:00001429    16 0001:00001429    22 0001:00001446    29 0001:0000144a
+    24 0001:0000144b    26 0001:00001453    29 0001:00001456    28 0001:00001457
+    29 0001:0000145b    40 0001:0000145c    36 0001:0000145c    42 0001:0000146e
+    49 0001:00001471    44 0001:00001472    49 0001:0000147c    63 0001:0000147d
+    61 0001:0000147d    64 0001:00001481    65 0001:00001490    67 0001:00001493
+    68 0001:00001496    69 0001:00001499    71 0001:0000149c    72 0001:000014a0
+    75 0001:000014c3    76 0001:000014c9    85 0001:000014ce    88 0001:000014d0
+    97 0001:000014e2    98 0001:000014fe   100 0001:00001504   109 0001:00001506
+   111 0001:00001513   113 0001:0000151a   114 0001:00001523   122 0001:00001525
+   125 0001:00001531   127 0001:00001538   128 0001:00001543   129 0001:00001548
+   132 0001:0000154a   138 0001:0000154d   140 0001:00001555   141 0001:0000155a
+   144 0001:0000155e   146 0001:00001564   147 0001:00001569   156 0001:0000156c
+   159 0001:00001575   164 0001:00001587   167 0001:00001598   177 0001:0000159a
+   180 0001:000015ba   184 0001:000015bc   187 0001:000015c6   190 0001:000015c8
+   191 0001:000015d3   192 0001:000015de   193 0001:000015e4   194 0001:000015fa
+   195 0001:00001602   197 0001:00001608   200 0001:0000160a   203 0001:0000160f
+   209 0001:00001611   212 0001:00001619   214 0001:0000161d   215 0001:00001625
+   216 0001:0000162d   217 0001:00001630   218 0001:00001640   219 0001:00001645
+   222 0001:00001653   223 0001:00001657   232 0001:00001663   228 0001:00001663
+   235 0001:0000166a   253 0001:0000166c   237 0001:0000166d   240 0001:00001671
+   246 0001:00001673   253 0001:00001682   263 0001:00001683   266 0001:00001684
+   268 0001:0000168d   272 0001:0000168f   274 0001:00001695   278 0001:0000169e
+   279 0001:000016ac   281 0001:000016b8   283 0001:000016cf   294 0001:000016d9
+   296 0001:000016f2   298 0001:000016fa   305 0001:000016fe   309 0001:0000170d
+   318 0001:0000170f   321 0001:00001723   322 0001:0000172c   325 0001:0000172e
+   326 0001:00001734   336 0001:00001737   340 0001:00001748   345 0001:00001761
+   350 0001:0000176e   353 0001:0000177f   357 0001:00001785   360 0001:00001799
+   365 0001:0000179c   372 0001:000017ec   375 0001:00001808   378 0001:0000180a
+   380 0001:00001819   342 0001:0000181e   382 0001:00001820   388 0001:0000182e
+   390 0001:00001834   391 0001:00001837   392 0001:00001843   394 0001:00001849
+   395 0001:00001852   402 0001:00001856   404 0001:0000186c   411 0001:0000187c
+   414 0001:00001884   428 0001:0000188b   435 0001:000018ac   442 0001:000018ce
+   450 0001:000018e5   471 0001:000018fd   472 0001:00001905   478 0001:00001919
+   476 0001:00001919   480 0001:00001920   482 0001:00001926   484 0001:00001928
+   489 0001:0000192b   490 0001:0000193c   491 0001:00001942   495 0001:00001943
+   497 0001:00001943   499 0001:0000194a   501 0001:00001950   503 0001:00001952
+   508 0001:00001955   509 0001:00001966   510 0001:0000196c   514 0001:0000196d
+   516 0001:00001981   522 0001:0000198a   524 0001:0000199a   527 0001:0000199f
+   528 0001:000019ac   533 0001:000019b7   531 0001:000019b7   538 0001:000019ba
+   547 0001:000019c8   544 0001:000019c9   547 0001:000019cc   550 0001:000019cd
+   556 0001:000019d3   559 0001:000019df   566 0001:000019e5   568 0001:00001a02
+   575 0001:00001a06   576 0001:00001a06   578 0001:00001a10   579 0001:00001a17
+   581 0001:00001a1a   583 0001:00001a29   584 0001:00001a2c   586 0001:00001a30
+   588 0001:00001a38   589 0001:00001a3b   593 0001:00001a3f   595 0001:00001a4a
+   596 0001:00001a52   597 0001:00001a55   598 0001:00001a58   600 0001:00001a5b
+   601 0001:00001a60   606 0001:00001a61   611 0001:00001a61   616 0001:00001a6d
+   619 0001:00001a70   623 0001:00001a7a   625 0001:00001a7f   626 0001:00001a8b
+   613 0001:00001a8c   626 0001:00001a8e   632 0001:00001a8f   630 0001:00001a8f
+   634 0001:00001a96   637 0001:00001a9a   641 0001:00001aa2   643 0001:00001aa7
+   648 0001:00001ab9   649 0001:00001ad1   651 0001:00001ad4   652 0001:00001ad7
+
+Line numbers for .\Release\SWSDLL.obj(d:\dev\booktwo\disk\sws\swsdll\swsdll.cpp) segment .text
+
+    11 0001:00001412    10 0001:00001412    14 0001:00001419    17 0001:00001423
+    18 0001:00001426
+
+Line numbers for .\Release\PEnterHook.obj(d:\dev\booktwo\disk\sws\swsdll\moduleitemarray.h) segment .text
+
+    24 0001:000012fe    26 0001:0000130f    27 0001:00001312    28 0001:0000131c
+    31 0001:0000131f    32 0001:0000133b    34 0001:00001342    36 0001:00001358
+    37 0001:00001362
+
+Line numbers for .\Release\PEnterHook.obj(d:\dev\booktwo\disk\sws\swsdll\penterhook.cpp) segment .text
+
+    30 0001:00001394    25 0001:00001394    32 0001:000013aa    63 0001:000013b1
+    57 0001:000013b1    66 0001:000013b2    67 0001:000013b3    69 0001:000013b5
+    72 0001:000013b7    75 0001:000013ba    79 0001:000013bb    81 0001:000013be
+    82 0001:000013c0    85 0001:000013c3    90 0001:000013c6    93 0001:000013db
+    98 0001:000013ea   101 0001:000013eb   103 0001:000013ee   104 0001:000013f0
+   106 0001:000013f1   108 0001:000013f2    43 0001:000027f2    46 0001:00002808
+
+Line numbers for .\Release\PEnterHook.obj(d:\dev\booktwo\disk\include\jsimplecoll.h) segment .text
+
+    98 0001:000013f3    99 0001:000013f3   172 0001:000013f8   171 0001:000013f8
+   176 0001:000013fe   177 0001:00001405   179 0001:00001409   180 0001:0000140d
+   181 0001:00001411
+
+Line numbers for .\Release\ModuleItemArray.obj(d:\dev\booktwo\disk\sws\swsdll\moduleitemarray.cpp) segment .text
+
+    15 0001:0000114d    17 0001:00001154    18 0001:00001178    20 0001:0000118c
+    21 0001:00001198    24 0001:0000119c    26 0001:000011a9    33 0001:000011b5
+    38 0001:000011c0    40 0001:000011c9    41 0001:000011ce    44 0001:000011d2
+    45 0001:000011db    46 0001:000011e9    48 0001:000011f2    50 0001:00001204
+    58 0001:00001208    60 0001:00001210    63 0001:0000121c    85 0001:0000123b
+    92 0001:0000124a    97 0001:00001252    99 0001:0000125b   100 0001:0000126b
+    72 0001:0000126f    78 0001:0000127f    79 0001:00001290    80 0001:0000129b
+
+Line numbers for .\Release\ModuleItemArray.obj(d:\dev\booktwo\disk\sws\swsdll\moduleitem.h) segment .text
+
+    28 0001:0000111d    29 0001:00001123    31 0001:0000112a    33 0001:00001130
+
+Line numbers for .\Release\ModuleItemArray.obj(d:\dev\booktwo\disk\include\jsimplecoll.h) segment .text
+
+   137 0001:0000129f   138 0001:0000129f   141 0001:000012aa   142 0001:000012b6
+   143 0001:000012c4   145 0001:000012ca   146 0001:000012cd   148 0001:000012cf
+   149 0001:000012d5   150 0001:000012e3   151 0001:000012e7   238 0001:000012ea
+   236 0001:000012ea   239 0001:000012fb
+
+Line numbers for .\Release\ModuleItem.obj(d:\dev\booktwo\disk\sws\swsdll\moduleitem.h) segment .text
+
+    53 0001:00000d5d    52 0001:00000d5d    54 0001:00000d66    58 0001:00000d75
+    62 0001:00000d8c
+
+Line numbers for .\Release\ModuleItem.obj(d:\dev\booktwo\disk\sws\swsdll\moduleitem.cpp) segment .text
+
+    41 0001:00000d8f    48 0001:00000da9    50 0001:00000dbb    56 0001:00000dbe
+    59 0001:00000dd3    65 0001:00000dd5    68 0001:00000deb    72 0001:00000ded
+    73 0001:00000e05    76 0001:00000e15    80 0001:00000e19    83 0001:00000e24
+    85 0001:00000e39    86 0001:00000e46    87 0001:00000e4f    88 0001:00000e56
+    91 0001:00000e5f    92 0001:00000e63    97 0001:00000e79    99 0001:00000e7c
+   101 0001:00000e80   106 0001:00000e82   109 0001:00000e91   111 0001:00000eba
+   113 0001:00000ebf   114 0001:00000ec2   119 0001:00000ec5   122 0001:00000ec6
+   124 0001:00000ecb   129 0001:00000ecd   132 0001:00000eda   135 0001:00000ee2
+   137 0001:00000ee6   139 0001:00000eea   140 0001:00000ef4   141 0001:00000ef8
+   149 0001:00000efb   164 0001:00000f0f   167 0001:00000f34   168 0001:00000f4a
+   172 0001:00000f60   173 0001:00000f70   174 0001:00000f80   177 0001:00000f8e
+   181 0001:00000fa1   251 0001:00000fb2   252 0001:00000fb4   194 0001:00000fc1
+   195 0001:00000fcc   198 0001:00000fe0   201 0001:00000fe2   203 0001:00000fec
+   205 0001:00000fee   208 0001:00000ff0   209 0001:00000ffb   212 0001:00001000
+   213 0001:0000100d   214 0001:00001012   216 0001:00001019   217 0001:00001024
+   220 0001:00001032   223 0001:0000104c   227 0001:00001061   228 0001:0000106e
+   229 0001:00001078   230 0001:0000107f   232 0001:00001088   233 0001:00001095
+   239 0001:000010b0   247 0001:000010c6   258 0001:000010cb   257 0001:000010cb
+   263 0001:000010df   272 0001:000010e0   278 0001:000010e1   287 0001:000010f9
+   292 0001:000010fc   298 0001:00001113   281 0001:00001118   300 0001:0000111c
+
+Line numbers for .\Release\Helper.obj(d:\dev\booktwo\disk\sws\swsdll\helper.cpp) segment .text
+
+    31 0001:00000c15    19 0001:00000c15    33 0001:00000c35    39 0001:00000c36
+    43 0001:00000c3b    45 0001:00000c4e    47 0001:00000c52    48 0001:00000c68
+    53 0001:00000c72    59 0001:00000c7d    61 0001:00000c8d    63 0001:00000c97
+    65 0001:00000c9e    68 0001:00000cb5    71 0001:00000ccd    72 0001:00000cdf
+    75 0001:00000ce5    76 0001:00000cf2    77 0001:00000cf7    79 0001:00000d02
+    84 0001:00000d19    86 0001:00000d2a    88 0001:00000d36    91 0001:00000d48
+    93 0001:00000d4f    94 0001:00000d5a
+
+Line numbers for .\Release\GenerateInitialFiles.obj(d:\dev\booktwo\disk\sws\swsdll\generateinitialfiles.cpp) segment .text
+
+    67 0001:000004fc    68 0001:00000508    79 0001:0000051d    81 0001:00000521
+    83 0001:00000531    87 0001:00000538    88 0001:0000054d    91 0001:00000553
+    92 0001:00000561    93 0001:00000563    97 0001:0000056b    98 0001:00000588
+   100 0001:00000596   103 0001:000005ad   108 0001:000005c9   114 0001:000005d3
+   129 0001:000005de   136 0001:00000605   138 0001:0000061e   140 0001:00000629
+   141 0001:00000639   146 0001:00000653   147 0001:0000065f   148 0001:00000676
+   150 0001:00000685   155 0001:00000699   157 0001:000006b5   159 0001:000006c9
+   160 0001:000006d7   165 0001:000006f1   167 0001:000006fc   168 0001:0000070d
+   170 0001:00000730   171 0001:0000073e   174 0001:00000758   176 0001:0000076a
+   177 0001:00000778   186 0001:00000792   187 0001:000007a4   188 0001:000007b8
+   191 0001:000007bc   193 0001:000007c0   195 0001:000007c2   196 0001:000007d4
+   201 0001:000007e9   202 0001:000007f0   204 0001:000007f6   206 0001:000007f9
+   208 0001:000007fb   210 0001:00000807   211 0001:00000812   213 0001:00000818
+   219 0001:0000081b   220 0001:0000082b   223 0001:00000844   225 0001:0000084f
+   228 0001:00000869   229 0001:0000087f   234 0001:00000899   236 0001:000008af
+   238 0001:000008d8   239 0001:000008ec   240 0001:000008f7   247 0001:00000911
+   248 0001:0000092a   255 0001:0000093d   260 0001:00000969   266 0001:00000978
+   270 0001:000009a8   272 0001:000009b9   274 0001:000009be   275 0001:000009c9
+   283 0001:000009e3   287 0001:000009eb   288 0001:000009f1   289 0001:000009fb
+   294 0001:00000a05   296 0001:00000a1d   300 0001:00000a28   301 0001:00000a45
+   308 0001:00000a4c   310 0001:00000a5d   320 0001:00000a74   294 0001:00000a8d
+   339 0001:00000a98   341 0001:00000aa3   347 0001:00000aa7   324 0001:00000ac4
+   327 0001:00000ac8   329 0001:00000ad5   332 0001:00000ad7   335 0001:00000adc
+   351 0001:00000af5   353 0001:00000b05   356 0001:00000b1d   358 0001:00000b26
+   360 0001:00000b32   361 0001:00000b35   382 0001:00000b54   385 0001:00000b5b
+   389 0001:00000b63   393 0001:00000b7f   402 0001:00000b81   405 0001:00000b86
+   412 0001:00000ba3   420 0001:00000bad   424 0001:00000bbd   427 0001:00000bd3
+   408 0001:00000bd5   429 0001:00000bda   430 0001:00000bdd   431 0001:00000be2
+    35 0001:000027da
+
+Line numbers for .\Release\GenerateInitialFiles.obj(d:\dev\booktwo\disk\include\symbolengine.h) segment .text
+
+    53 0001:00000be6    55 0001:00000be6    56 0001:00000bf3    57 0001:00000bf9
+    45 0001:00000bfc    43 0001:00000bfc    46 0001:00000c0c    47 0001:00000c12
+
+Line numbers for .\Release\DumpFiles.obj(d:\dev\booktwo\disk\sws\swsdll\dumpfiles.cpp) segment .text
+
+    19 0001:00000000    20 0001:00000013    22 0001:0000002b    24 0001:00000039
+    25 0001:0000004b    36 0001:00000052    38 0001:00000066    39 0001:0000007a
+    42 0001:0000007e    43 0001:0000008a    45 0001:0000009c    47 0001:000000ab
+    52 0001:000000ad    55 0001:000000be    56 0001:000000d4    58 0001:000000e2
+    60 0001:000000e9    62 0001:000000eb    66 0001:000000ef    69 0001:00000106
+    71 0001:00000111    74 0001:00000127    91 0001:00000142    94 0001:00000176
+    98 0001:00000195    99 0001:000001a2   103 0001:000001af   105 0001:000001c2
+   106 0001:000001cf   109 0001:000001e0   113 0001:000001eb   115 0001:00000202
+   117 0001:00000212   122 0001:0000022d   126 0001:00000238   129 0001:0000024f
+   132 0001:00000273   136 0001:00000285   139 0001:00000290   146 0001:000002ae
+   150 0001:000002bb   151 0001:000002c1   159 0001:000002c8   160 0001:000002d1
+   163 0001:000002da   165 0001:000002e8   170 0001:000002f8   173 0001:00000310
+   194 0001:00000326   180 0001:0000034d   197 0001:0000034e   199 0001:00000356
+   200 0001:0000037a   180 0001:00000387
+
+Line numbers for .\Release\DumpFiles.obj(d:\dev\booktwo\disk\include\variableinfo.h) segment .text
+
+    62 0001:000003ca    63 0001:000003cb    21 0001:0000044a    23 0001:0000045b
+    24 0001:00000462    70 0001:00000465    71 0001:00000466    88 0001:00000468
+    89 0001:000004d1    90 0001:000004d9
+
+Line numbers for .\Release\DumpFiles.obj(d:\dev\booktwo\disk\include\symbolengine.h) segment .text
+
+   136 0001:000003a0   137 0001:000003a6   119 0001:000003fa   121 0001:00000409
+   124 0001:0000040b   126 0001:0000041c   127 0001:00000422   128 0001:00000428
+   129 0001:0000042e   130 0001:00000434   131 0001:0000043a   132 0001:00000440
+   133 0001:00000446   698 0001:000004da   697 0001:000004da   699 0001:000004df
+   700 0001:000004e2   701 0001:000004e5   702 0001:000004e8   703 0001:000004eb
+   704 0001:000004f1   705 0001:000004f8   706 0001:000004fb
+
+Line numbers for ..\..\Release\SymbolEngine_Release.LIB(d:\dev\booktwo\disk\jfx\jstring.cpp) segment .text
+
+    27 0001:000021a3    26 0001:000021a3    29 0001:000021b6    34 0001:000021b7
+    33 0001:000021b7    35 0001:000021bb    36 0001:000021be    37 0001:000021c5
+    38 0001:000021c9    39 0001:000021cc    95 0001:000021cd    94 0001:000021cd
+    97 0001:000021d3    98 0001:000021da    99 0001:000021df   100 0001:000021e2
+   102 0001:000021e5   528 0001:000021e6   527 0001:000021e6   530 0001:000021ec
+   532 0001:000021f0   533 0001:000021f5
+
+Line numbers for ..\..\Release\SymbolEngine_Release.LIB(d:\dev\booktwo\disk\symbolengine\symbolengine.cpp) segment .text
+
+   530 0001:000021f6   532 0001:000021f7   534 0001:00002204   536 0001:00002208
+   538 0001:00002215   539 0001:00002218   585 0001:0000221b   586 0001:0000221b
+   588 0001:00002224   591 0001:00002234   596 0001:00002240   599 0001:00002255
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(F:\VS70Builds\3036\vc\crtbld\crt\src\intel\chkstk.asm) segment .text
+
+    69 0001:000026c0    65 0001:000026c0    70 0001:000026c5    72 0001:000026c7
+    73 0001:000026c9    74 0001:000026cb    75 0001:000026ce    76 0001:000026d0
+    77 0001:000026d1    78 0001:000026d3    79 0001:000026d4    82 0001:000026d5
+    83 0001:000026d6    88 0001:000026da    89 0001:000026e0    91 0001:000026e5
+    93 0001:000026e7    94 0001:000026ec    97 0001:000026ee    98 0001:000026f0
+   100 0001:000026f2   102 0001:000026f4   104 0001:000026f6   105 0001:000026f8
+   107 0001:000026fb   109 0001:000026fc
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:00002264    76 0001:00002264    90 0001:00002289    96 0001:0000228a
+    95 0001:0000228a    97 0001:0000229b
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\crtdll.c) segment .text
+
+   134 0001:000022f4   129 0001:000022f4   135 0001:000022fc   136 0001:00002304
+   158 0001:0000230a   163 0001:0000231d   168 0001:00002332   170 0001:00002336
+   172 0001:00002339   178 0001:00002343   179 0001:00002348   184 0001:00002352
+   189 0001:00002363   192 0001:0000236a   219 0001:00002370   220 0001:00002379
+   225 0001:0000237b   226 0001:00002387   234 0001:0000239d   236 0001:000023a4
+   234 0001:000023ab   240 0001:000023ac   241 0001:000023af   249 0001:000023b2
+   250 0001:000023be   252 0001:000023c4   257 0001:000023c9   258 0001:000023d6
+   260 0001:000023dc   262 0001:000023e5   263 0001:000023ee   265 0001:000023fa
+   266 0001:00002403   268 0001:00002412   269 0001:00002414   272 0001:00002416
+   275 0001:00002426   283 0001:0000242f   286 0001:00002439   288 0001:00002442
+   289 0001:00002450   291 0001:00002453   292 0001:00002461   298 0001:0000246f
+   294 0001:00002474   295 0001:0000248c   299 0001:0000248e
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(F:\VS70Builds\3036\vc\crtbld\crt\src\intel\llmul.asm) segment .text
+
+    62 0001:00002710    47 0001:00002710    63 0001:00002714    64 0001:00002718
+    65 0001:0000271a    66 0001:0000271e    68 0001:00002720    69 0001:00002724
+    71 0001:00002726    74 0001:00002729    81 0001:0000272a    82 0001:0000272c
+    84 0001:0000272e    85 0001:00002732    86 0001:00002736    88 0001:00002738
+    89 0001:0000273c    90 0001:0000273e    92 0001:00002740    94 0001:00002741
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\secchk.c) segment .text
+
+   114 0001:0000264c   116 0001:00002658   117 0001:0000265c   119 0001:00002669
+   123 0001:00002674   100 0001:0000267d   103 0001:0000267d   104 0001:00002683
+   105 0001:00002685   107 0001:00002686
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\seccinit.c) segment .text
+
+    49 0001:00002744    58 0001:0000274a    67 0001:0000275b    70 0001:00002765
+    75 0001:0000276b    76 0001:00002773    77 0001:0000277b    79 0001:00002783
+    93 0001:0000278d    94 0001:000027a8
+
+ Exports
+
+  ordinal    name
+
+        1    _DumpFiles@12
+               exported name: DumpFiles
+        2    _GenerateInitialFiles@8
+               exported name: GenerateInitialFiles
+        3    _TuneModule@8
+               exported name: TuneModule
+        4    __penter
+               exported name: _penter

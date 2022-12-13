@@ -1,0 +1,154 @@
+/*
+** Lua binding: config
+** Generated automatically by tolua++-1.0.4 on 11/08/06 14:10:54.
+*/
+
+#ifndef __cplusplus
+#include "stdlib.h"
+#endif
+#include "string.h"
+
+#include "tolua++.h"
+
+/* Exported function */
+TOLUA_API int tolua_config_open (lua_State* tolua_S);
+
+#include "config.h"
+
+/* function to register type */
+static void tolua_reg_types (lua_State* tolua_S)
+{
+ tolua_usertype(tolua_S,"CameraSetting");
+}
+
+/* get function: fCameraHeight of class  CameraSetting */
+static int tolua_get_CameraSetting_fCameraHeight(lua_State* tolua_S)
+{
+  CameraSetting* self = (CameraSetting*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+ if (!self) tolua_error(tolua_S,"invalid 'self' in accessing variable 'fCameraHe
+ight'",NULL);
+#endif
+ tolua_pushnumber(tolua_S,(lua_Number)self->fCameraHeight);
+ return 1;
+}
+
+/* set function: fCameraHeight of class  CameraSetting */
+static int tolua_set_CameraSetting_fCameraHeight(lua_State* tolua_S)
+{
+  CameraSetting* self = (CameraSetting*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+ tolua_Error tolua_err;
+ if (!self) tolua_error(tolua_S,"invalid 'self' in accessing variable 'fCameraHe
+ight'",NULL);
+ if (!tolua_isnumber(tolua_S,2,0,&tolua_err))
+ tolua_error(tolua_S,"#vinvalid type in variable assignment.",&tolua_err);
+#endif
+  self->fCameraHeight = ((float)  tolua_tonumber(tolua_S,2,0));
+ return 0;
+}
+
+/* get function: fCameraMaxDist of class  CameraSetting */
+static int tolua_get_CameraSetting_fCameraMaxDist(lua_State* tolua_S)
+{
+  CameraSetting* self = (CameraSetting*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+ if (!self) tolua_error(tolua_S,"invalid 'self' in accessing variable 'fCameraMa
+xDist'",NULL);
+#endif
+ tolua_pushnumber(tolua_S,(lua_Number)self->fCameraMaxDist);
+ return 1;
+}
+
+/* set function: fCameraMaxDist of class  CameraSetting */
+static int tolua_set_CameraSetting_fCameraMaxDist(lua_State* tolua_S)
+{
+  CameraSetting* self = (CameraSetting*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+ tolua_Error tolua_err;
+ if (!self) tolua_error(tolua_S,"invalid 'self' in accessing variable 'fCameraMa
+xDist'",NULL);
+ if (!tolua_isnumber(tolua_S,2,0,&tolua_err))
+ tolua_error(tolua_S,"#vinvalid type in variable assignment.",&tolua_err);
+#endif
+  self->fCameraMaxDist = ((float)  tolua_tonumber(tolua_S,2,0));
+ return 0;
+}
+
+/* get function: fCameraMinDist of class  CameraSetting */
+static int tolua_get_CameraSetting_fCameraMinDist(lua_State* tolua_S)
+{
+  CameraSetting* self = (CameraSetting*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+ if (!self) tolua_error(tolua_S,"invalid 'self' in accessing variable 'fCameraMi
+nDist'",NULL);
+#endif
+ tolua_pushnumber(tolua_S,(lua_Number)self->fCameraMinDist);
+ return 1;
+}
+
+/* set function: fCameraMinDist of class  CameraSetting */
+static int tolua_set_CameraSetting_fCameraMinDist(lua_State* tolua_S)
+{
+  CameraSetting* self = (CameraSetting*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+ tolua_Error tolua_err;
+ if (!self) tolua_error(tolua_S,"invalid 'self' in accessing variable 'fCameraMi
+nDist'",NULL);
+ if (!tolua_isnumber(tolua_S,2,0,&tolua_err))
+ tolua_error(tolua_S,"#vinvalid type in variable assignment.",&tolua_err);
+#endif
+  self->fCameraMinDist = ((float)  tolua_tonumber(tolua_S,2,0));
+ return 0;
+}
+
+/* get function: fCameraFocusDist of class  CameraSetting */
+static int tolua_get_CameraSetting_fCameraFocusDist(lua_State* tolua_S)
+{
+  CameraSetting* self = (CameraSetting*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+ if (!self) tolua_error(tolua_S,"invalid 'self' in accessing variable 'fCameraFo
+cusDist'",NULL);
+#endif
+ tolua_pushnumber(tolua_S,(lua_Number)self->fCameraFocusDist);
+ return 1;
+}
+
+/* set function: fCameraFocusDist of class  CameraSetting */
+static int tolua_set_CameraSetting_fCameraFocusDist(lua_State* tolua_S)
+{
+  CameraSetting* self = (CameraSetting*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+ tolua_Error tolua_err;
+ if (!self) tolua_error(tolua_S,"invalid 'self' in accessing variable 'fCameraFo
+cusDist'",NULL);
+ if (!tolua_isnumber(tolua_S,2,0,&tolua_err))
+ tolua_error(tolua_S,"#vinvalid type in variable assignment.",&tolua_err);
+#endif
+  self->fCameraFocusDist = ((float)  tolua_tonumber(tolua_S,2,0));
+ return 0;
+}
+
+/* Open function */
+TOLUA_API int tolua_config_open (lua_State* tolua_S)
+{
+ tolua_open(tolua_S);
+ tolua_reg_types(tolua_S);
+ tolua_module(tolua_S,NULL,0);
+ tolua_beginmodule(tolua_S,NULL);
+ tolua_cclass(tolua_S,"CameraSetting","CameraSetting","",NULL);
+ tolua_beginmodule(tolua_S,"CameraSetting");
+ tolua_variable(tolua_S,"fCameraHeight",tolua_get_CameraSetting_fCameraHeight,to
+lua_set_CameraSetting_fCameraHeight);
+ tolua_variable(tolua_S,"fCameraMaxDist",tolua_get_CameraSetting_fCameraMaxDist,
+tolua_set_CameraSetting_fCameraMaxDist);
+ tolua_variable(tolua_S,"fCameraMinDist",tolua_get_CameraSetting_fCameraMinDist,
+tolua_set_CameraSetting_fCameraMinDist);
+ tolua_variable(tolua_S,"fCameraFocusDist",tolua_get_CameraSetting_fCameraFocusD
+ist,tolua_set_CameraSetting_fCameraFocusDist);
+ tolua_endmodule(tolua_S);
+ tolua_constant(tolua_S,"enCameraFlow",enCameraFlow);
+ tolua_constant(tolua_S,"enCameraLookAt",enCameraLookAt);
+ tolua_endmodule(tolua_S);
+ return 1;
+}

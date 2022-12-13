@@ -1,0 +1,84 @@
+// EMERGENT GAME TECHNOLOGIES PROPRIETARY INFORMATION
+//
+// This software is supplied under the terms of a license agreement or
+// nondisclosure agreement with Emergent Game Technologies and may not 
+// be copied or disclosed except in accordance with the terms of that 
+// agreement.
+//
+//      Copyright (c) 1996-2006 Emergent Game Technologies.
+//      All Rights Reserved.
+//
+// Emergent Game Technologies, Chapel Hill, North Carolina 27517
+// http://www.emergent.net
+
+NSFShader Swoosh
+{
+    "The swoosh on the alien's staff."
+
+    PackingDef PosColUV
+    {
+        PD_Stream   0
+            PDP_Position    0   PDT_Float3
+            PDP_Color       2   PDT_UByteColor
+            PDP_TexCoord0   3   PDT_Float2
+    }
+
+    Implementation VS11_PS11
+    {
+        Requirements
+        {
+            VSVersion   = v1.1
+            UserVersion = v0.0
+            PSVersion   = v1.1
+            UsesNIRenderState = true
+            Platform    = DX9|DX9|Xenon
+        }
+
+        PackingDef  PosColUV
+
+        RenderStates
+        {
+            //Set alpha blending for the swoosh. Turn off testing for
+            //safety.
+            AlphaBlendEnable    = true
+            AlphaTestEnable     = false
+            //We must set the cull mode to none for the swoosh since it should
+            //be double-sided.
+            CullMode            = None
+            //The vapors add a color based on their alpha value.
+            DestBlend           = One
+            SrcBlend            = SrcAlpha
+            //Test but don't write.
+            ZEnable             = ZB_True
+            ZWriteEnable        = false
+            ZFunc               = LessEqual
+        }
+
+        Pass Swoosh
+        {
+            //Geometry is in world space when it's packed on the host.
+            VS_Constantmap
+            {
+                CM_Defined      ViewProjTranspose  0       0
+            }
+            VSProgram   "Swoosh.vsh"
+
+            Stage 0     BaseMapApplication
+            {
+                TSS_Texture     = NTM_Base
+            }
+
+            Sampler 0   BaseMapSampler
+            {
+                TSAMP_AddressU  = TADDR_Clamp
+                TSAMP_AddressV  = TADDR_Clamp
+                TSAMP_AddressW  = TADDR_Clamp
+				TSAMP_MagFilter	= TEXF_Linear
+				TSAMP_MinFilter	= TEXF_Linear
+				TSAMP_MipFilter	= TEXF_Linear
+            }
+
+            PSProgram   "Swoosh.psh"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.70.20110727" ColorLib="">
+    <UIObject Type="Dialog" Name="DlgBalloon">
+        <Properties>
+            <Property Name="XOffset" Value="0" />
+            <Property Name="YOffset" Value="0" />
+            <Property Name="Width" Value="350" />
+            <Property Name="Height" Value="152" />
+            <Property Name="AlwaysOnTop" Value="true" />
+            <Property Name="Background" Value="9IMAGES:main\traytip\tip1.png;main\traytip\tip2.png;main\traytip\tip3.png;main\traytip\tip4.png;main\traytip\tip5.png;main\traytip\tip6.png;main\traytip\tip7.png;main\traytip\tip8.png;main\traytip\tip9.png;Tile;0;" />
+            <Property Name="ToolWindow" Value="true" />
+            <Property Name="CaptionHeight" Value="0" />
+        </Properties>
+        <Children>
+            <UIObject Type="TinyContainer" Name="ctnNormal">
+                <Properties>
+                    <Property Name="XOffset" Value="0" />
+                    <Property Name="YOffset" Value="0" />
+                    <Property Name="Width" Value="200" />
+                    <Property Name="Height" Value="99" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Static" Name="txtInfo">
+                        <Properties>
+                            <Property Name="XOffset" Value="5" />
+                            <Property Name="YOffset" Value="5" />
+                            <Property Name="Width" Value="190" />
+                            <Property Name="Height" Value="137" />
+                            <Property Name="Caption" Value="Info" />
+                            <Property Name="AutoChangeLine" Value="true" />
+                            <Property Name="MultiLine" Value="true" />
+                            <Property Name="LineSpacing" Value="5" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

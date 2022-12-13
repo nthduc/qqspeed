@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TPFLocalization>
+    <ItemSet>
+        <Item ID="1" Translation="Select A Language" />
+        <Item ID="2" Translation="Chinese" />
+        <Item ID="3" Translation="English" />
+        <Item ID="4" Translation="GoOn..." />
+        <Item ID="5" Translation="-12;0;0;0;400;0;0;0;0;3;2;1;34;.VnTimeH" />
+        <Item ID="6" Translation="-16;0;0;0;400;0;0;0;0;3;2;1;34;.VnTimeH" />
+        <Item ID="7" Translation="ID:" />
+        <Item ID="8" Translation="Password:" />
+        <Item ID="9" Translation="Longin" />
+        <Item ID="10" Translation="Quit" />
+        <Item ID="11" Translation="Remember ID" />
+        <Item ID="12" Translation="Input ID ,Please!" />
+        <Item ID="13" Translation="Input Password,Please!" />
+        <Item ID="15" Translation="No TransLation" />
+    </ItemSet>
+</TPFLocalization>

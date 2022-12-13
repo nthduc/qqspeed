@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UIEngine", "UIEngine.vcproj", "{470CFD4B-2624-4E9A-83A6-A2B4C2C0FC3F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{470CFD4B-2624-4E9A-83A6-A2B4C2C0FC3F}.Debug.ActiveCfg = Debug|Win32
+		{470CFD4B-2624-4E9A-83A6-A2B4C2C0FC3F}.Debug.Build.0 = Debug|Win32
+		{470CFD4B-2624-4E9A-83A6-A2B4C2C0FC3F}.Release.ActiveCfg = Release|Win32
+		{470CFD4B-2624-4E9A-83A6-A2B4C2C0FC3F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

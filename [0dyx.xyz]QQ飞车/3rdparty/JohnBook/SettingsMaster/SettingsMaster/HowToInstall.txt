@@ -1,0 +1,58 @@
+----------------------------------------------------------------------
+ Debugging Applications for Microsoft .NET and Microsoft Windows
+ Copyright © 1997 - 2003 John Robbins
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+How to install and use SettingsMater
+-----------------------------------------------------------------------
+
+1.  Build the project.  The debug output goes to ..\..\Output and
+    ..\..\Output\1033 amd the release output goes to ..\..\Release and
+    ..\..\Release\1033.
+2.  Determine where you want SettingsMaster to reside after the build.
+    (I'll use c:\foo for the rest of the instructions).
+3.  Create the directories c:\foo and c:\foo\1033.
+4.  Copy SettingsMaster.dll and SettingsMasterShim.dll to c:\foo.
+5.  Copy SettingsMasterResources.dll to c:\foo\1033.
+6.  Copy the following three files from .\SettingsMaster\SettingsMaster
+    to c:\foo:
+
+    SettingsMasterCSharp.XML
+    SettingsMasterVBNET.XML
+    SettingsMasterVC.XML
+
+7.  Open a DOS box and move to c:\foo.
+8.  Execute the following commands: (You may need to run VSVARS.BAT to
+    get REGASM.EXE in your path.)
+    
+    regsvr32 /s /c SettingsMasterShim.dll
+    regasm SettingsMaster.dll /codebase /tlb:SettingsMaster.tlb /nologo
+
+9.  Open the SettingsMaster.AddIn.REG file.
+10. Edit the path in SatelliteDllPath to say "c:\\foo\\"
+11. Run the following command:
+    
+    regedit SettingsMaster.AddIn.REG
+    
+10. Start DEVENV.EXE.
+    
+-----------------------------------------------------------------------
+How to Uninstall SettingsMaster
+-----------------------------------------------------------------------
+1.  In the AddIns dialog, uncheck all checks on the SettingsMaster line.
+2.  Close DEVENV.EXE.
+3.  Remove the registry key
+    HKCU\SOFTWARE\Microsoft\VisualStudio\7.1\AddIns\SettingsMaster
+4.  Run the following commands to unregister the DLL.  (You may need to
+    run VSVARS.BAT to get REGASM.EXE in your path.)
+
+    regsvr32 /u SettingsMasterShim.dll
+    regasm /unregister SettingsMaster.dll
+
+5.  Start DEVENV.EXE.
+6.  Copy the contents of SMRemove.TXT into a VSA Macros.  You will need
+    to add a reference to the Extensibility project in order to run
+    the macro.
+7.  Run the RemoveSettingsMaster macro.
+
+    

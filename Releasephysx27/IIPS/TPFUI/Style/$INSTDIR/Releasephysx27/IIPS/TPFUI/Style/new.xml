@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<UIStyles>
+    <Control Name="Button">
+        <Style Name="test">
+            <Properties>
+                <Property Name="Background" Value="COLOR:RGB:192,192,192;" />
+                <Property Name="BackgroundPressed" Value="COLOR:RGB:128,128,128;" />
+                <Property Name="ButtonType" Value="UnreversedButton" />
+                <Property Name="Caption_LID" Value="ID_ENGLISH" />
+                <Property Name="TextColor" Value="0xffffff" />
+                <Property Name="TextColorPressed" Value="RGB:0,255,0" />
+                <Property Name="TextFontHover_LID" Value="ID_LF_BIG" />
+            </Properties>
+        </Style>
+    </Control>
+    <Control Name="CheckBox">
+        <Style Name="NormalCheckBox">
+            <Properties>
+                <Property Name="Caption_LID" Value="11" />
+                <Property Name="Image" Value="checkbox\Radio1.tga" />
+                <Property Name="ImageChecked" Value="checkbox\Radio2.tga" />
+                <Property Name="ImageDisable" Value="checkbox\Radio1.tga" />
+                <Property Name="ImageDisableChecked" Value="checkbox\Radio2.tga" />
+                <Property Name="ImageHover" Value="checkbox\Radio1.tga" />
+                <Property Name="ImageHoverChecked" Value="checkbox\Radio2.tga" />
+                <Property Name="ImagePressed" Value="checkbox\Radio2.tga" />
+                <Property Name="ImagePressedChecked" Value="checkbox\Radio2.tga" />
+            </Properties>
+        </Style>
+    </Control>
+</UIStyles>

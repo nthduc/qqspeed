@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "ImageLib", "..\ImageLib\ImageLib.dsp", "{E2B356D3-943E-4D3E-85FE-2F5E21700CA5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kernel", "kernel.vcproj", "{18DC32D0-D62B-43B8-884C-CB9E78902CF7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = kernel.vcproj
+		SccProjectName0 = kernel
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{18DC32D0-D62B-43B8-884C-CB9E78902CF7}.Debug.ActiveCfg = Debug|Win32
+		{18DC32D0-D62B-43B8-884C-CB9E78902CF7}.Debug.Build.0 = Debug|Win32
+		{18DC32D0-D62B-43B8-884C-CB9E78902CF7}.Release.ActiveCfg = Release|Win32
+		{18DC32D0-D62B-43B8-884C-CB9E78902CF7}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

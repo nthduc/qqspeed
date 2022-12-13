@@ -1,0 +1,74 @@
+import "unknwn.idl";
+
+
+enum PPPSetGameStatus
+{
+	PPPSetGameStatus_NotInGame = 0,
+	PPPSetGameStatus_InGame = 1
+};
+
+[
+	object,
+	uuid(23F98A6C-5CDB-43A6-BF32-CE9327141476),
+	pointer_default(unique)
+]
+interface IQQTpppSink : IUnknown
+{
+	HRESULT OnUdpLoginOk();
+	HRESULT OnRecvP2PDataFromSvr([in]short shPlayerID, [in]int nBodyLen, [in, size_is(nBodyLen)]BYTE *pBody);
+	HRESULT OnGetPlayerInfoFromSvr([in]short shPlayerID, [in]int nUin);
+	HRESULT OnRecvClientTry2ConnectData([in]short shPlayerID, [in]int nUin, [in]ULONG ulTestMyIP, [in]USHORT usTestMyPort);
+	HRESULT OnRecvP2PGameDataFromClient([in]short shSocketPlayerID, [in]int nSocketPlayerUin, [in]short shPlayerID, [in]int nBodyLen, [in, size_is(nBodyLen)]BYTE *pBody);
+	HRESULT SendTcpP2pData([in]int nPlayerCount, [in]short *asPlayerID, [in]int *aiUin, [in]int iLen, [in, size_is(iLen)]BYTE *pData);
+}
+
+[
+	object,
+	uuid(9F16F213-2E6F-4EB1-AFE1-E59B64754768),
+	pointer_default(unique)
+]
+interface IQQTppp : IUnknown
+{
+	HRESULT Initialize();
+	HRESULT Finalize();	
+	HRESULT LoginLocalPlayer([in]short shPlayerID, [in]int nUin, [in]unsigned int uiServerIP, [in]unsigned short usSvrPort, [in]int shOtherPlayerID, [in]int nOtherUin);
+	HRESULT RemoveAllRemotePlayers();
+	HRESULT AddHost([in]short shPlayerID, [in]int nUin, [in]int shOtherPlayerID, [in]int nOtherUin);
+	HRESULT DelHost([in]short shPlayerID, [in]int nUin);
+	HRESULT BroadCast([in]unsigned int uiLen, [in, size_is(uiLen)]char *pBuf, [in]int iIsGameData);
+	HRESULT ConfirmTransferIPPort([in]short shPlayerID, [in]int nUin);
+	HRESULT ConfirmReceiveData([in]short shPlayerID, [in]int nUin, [in]ULONG ulIP, [in]USHORT usPort);
+	HRESULT SendP2pData2Player([in]short shPlayerID, [in]unsigned int uiUin, [in]unsigned int uiLen, [in, size_is(uiLen)]char *pBuf, [in]int iIsGameData);		
+	HRESULT SetGameStatus([in]int iGameStatus, [in]unsigned int uiRoundMark);
+
+	//sink operation
+	HRESULT SetSink([in]IQQTpppSink *pQQTpppSink);
+	HRESULT CancelSink();
+
+	//Add By Hyson, 2005.03.24 09:59
+	//For TCP transmit
+	HRESULT OnRecvP2pTcpData([in]short sPlayerID, [in]int iUin, [in]int iLen, [in, size_is(iLen)]BYTE *pData);	
+	//End Add
+	
+	//Add By Fish 2006.12.20
+	HRESULT CanPass(unsigned int nUin);
+	HRESULT GetP2pNetSpeed(unsigned int nUin, int* Speed);
+	HRESULT BroadCastDataViaServer([in]int nPlayerCount, [in]short shPlayerIDs[8], [in]unsigned int uiUins[8], [in]unsigned int uiLen, [in, size_is(uiLen)]byte *pBuf);		
+	//End Add
+};
+
+[
+	uuid(D36077A6-93C2-4b67-AAF7-4128F759AB64),
+	version(1.0),
+	helpstring("QQTppp 1.0 Type Library")
+]
+library QQTpppLib
+{
+	[
+		uuid(17ADB553-1AA5-46F4-AD9D-0328CE7AFD1E),
+	]
+	coclass CP2PModule
+	{
+		[default] interface IQQTppp;
+	};
+};

@@ -1,0 +1,1277 @@
+
+--- Module:   E:\work\IQ\gameui\gameui.vcproj 
+_
+<?xml version="1.0" encoding="gb2312"?>
+E:\work\IQ\gameui\gameui.vcproj  1  Error 10: Expecting *
+E:\work\IQ\gameui\gameui.vcproj  1  Error 129: declaration expected, identifier
+    'xml' ignored
+E:\work\IQ\gameui\gameui.vcproj  1  Error 129: declaration expected, identifier
+    'version' ignored
+E:\work\IQ\gameui\gameui.vcproj  1  Error 129: declaration expected, identifier
+    'encoding' ignored
+E:\work\IQ\gameui\gameui.vcproj  1  Error 10: Expecting identifier or other
+    declarator
+        _
+	ProjectType="Visual C++"
+E:\work\IQ\gameui\gameui.vcproj  3  Error 129: declaration expected, identifier
+    'VisualStudioProject' ignored
+E:\work\IQ\gameui\gameui.vcproj  3  Error 129: declaration expected, identifier
+    'ProjectType' ignored
+E:\work\IQ\gameui\gameui.vcproj  3  Error 10: Expecting identifier or other
+    declarator
+               _
+	Version="7.10"
+E:\work\IQ\gameui\gameui.vcproj  4  Error 129: declaration expected, identifier
+    'Version' ignored
+E:\work\IQ\gameui\gameui.vcproj  4  Error 10: Expecting identifier or other
+    declarator
+            _
+	Name="gameui"
+E:\work\IQ\gameui\gameui.vcproj  5  Error 129: declaration expected, identifier
+    'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  5  Error 10: Expecting identifier or other
+    declarator
+                   _
+	ProjectGUID="{97A65788-4C8F-4D0C-8BDF-BDFD5A30B373}"
+E:\work\IQ\gameui\gameui.vcproj  6  Error 129: declaration expected, identifier
+    'ProjectGUID' ignored
+E:\work\IQ\gameui\gameui.vcproj  6  Error 10: Expecting identifier or other
+    declarator
+                      _
+	SccProjectName="&quot;$/程序/Client/Client/gameui&quot;, UCEAAAAA"
+E:\work\IQ\gameui\gameui.vcproj  7  Error 129: declaration expected, identifier
+    'SccProjectName' ignored
+E:\work\IQ\gameui\gameui.vcproj  7  Error 10: Expecting identifier or other
+    declarator
+                  _
+	SccAuxPath=""
+E:\work\IQ\gameui\gameui.vcproj  8  Error 129: declaration expected, identifier
+    'SccAuxPath' ignored
+E:\work\IQ\gameui\gameui.vcproj  8  Error 10: Expecting identifier or other
+    declarator
+                    _
+	SccLocalPath=".."
+E:\work\IQ\gameui\gameui.vcproj  9  Error 129: declaration expected, identifier
+    'SccLocalPath' ignored
+E:\work\IQ\gameui\gameui.vcproj  9  Error 10: Expecting identifier or other
+    declarator
+                   _
+	SccProvider="MSSCCI:Microsoft Visual SourceSafe">
+E:\work\IQ\gameui\gameui.vcproj  10  Error 129: declaration expected,
+    identifier 'SccProvider' ignored
+E:\work\IQ\gameui\gameui.vcproj  10  Error 10: Expecting identifier or other
+    declarator
+                  _
+	<Platforms>
+E:\work\IQ\gameui\gameui.vcproj  11  Error 129: declaration expected,
+    identifier 'Platforms' ignored
+E:\work\IQ\gameui\gameui.vcproj  11  Error 10: Expecting *
+                        _
+			Name="Win32"/>
+E:\work\IQ\gameui\gameui.vcproj  13  Error 129: declaration expected,
+    identifier 'Platform' ignored
+E:\work\IQ\gameui\gameui.vcproj  13  Error 129: declaration expected,
+    identifier 'Name' ignored
+                   _
+	</Platforms>
+E:\work\IQ\gameui\gameui.vcproj  14  Error 129: declaration expected,
+    identifier 'Platforms' ignored
+E:\work\IQ\gameui\gameui.vcproj  14  Error 10: Expecting *
+                       _
+	<Configurations>
+E:\work\IQ\gameui\gameui.vcproj  15  Error 129: declaration expected,
+    identifier 'Configurations' ignored
+                 _
+#...        Debug|Win32
+		<Configuration
+E:\work\IQ\gameui\gameui.vcproj  16  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                        _
+			Name="Debug|Win32"
+E:\work\IQ\gameui\gameui.vcproj  17  Error 129: declaration expected,
+    identifier 'Win32' ignored
+E:\work\IQ\gameui\gameui.vcproj  17  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                       _
+			OutputDirectory="..\product"
+E:\work\IQ\gameui\gameui.vcproj  18  Error 129: declaration expected,
+    identifier 'OutputDirectory' ignored
+E:\work\IQ\gameui\gameui.vcproj  18  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  18  Warning 606: Non-ANSI escape sequence:
+    '\p'
+                                             _
+			IntermediateDirectory=".\GameUI_Debug_WIN32"
+E:\work\IQ\gameui\gameui.vcproj  19  Error 129: declaration expected,
+    identifier 'IntermediateDirectory' ignored
+E:\work\IQ\gameui\gameui.vcproj  19  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  19  Warning 606: Non-ANSI escape sequence:
+    '\G'
+                                         _
+			ConfigurationType="4"
+E:\work\IQ\gameui\gameui.vcproj  20  Error 129: declaration expected,
+    identifier 'ConfigurationType' ignored
+E:\work\IQ\gameui\gameui.vcproj  20  Error 10: Expecting identifier or other
+    declarator
+                                _
+			UseOfMFC="0"
+E:\work\IQ\gameui\gameui.vcproj  21  Error 129: declaration expected,
+    identifier 'UseOfMFC' ignored
+E:\work\IQ\gameui\gameui.vcproj  21  Error 10: Expecting identifier or other
+    declarator
+                                                        _
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+E:\work\IQ\gameui\gameui.vcproj  22  Error 129: declaration expected,
+    identifier 'ATLMinimizesCRunTimeLibraryUsage' ignored
+E:\work\IQ\gameui\gameui.vcproj  22  Error 10: Expecting identifier or other
+    declarator
+                                    _
+			CharacterSet="2">
+E:\work\IQ\gameui\gameui.vcproj  23  Error 129: declaration expected,
+    identifier 'CharacterSet' ignored
+E:\work\IQ\gameui\gameui.vcproj  23  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  25  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  25  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  25  Error 10: Expecting identifier or other
+    declarator
+                                            _
+				Optimization="0"
+E:\work\IQ\gameui\gameui.vcproj  26  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  26  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+				AdditionalIncludeDirectories="..\Include"
+E:\work\IQ\gameui\gameui.vcproj  27  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  27  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  27  Warning 606: Non-ANSI escape sequence:
+    '\I'
+                                                       _
+				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;_UIEDITMODE"
+E:\work\IQ\gameui\gameui.vcproj  28  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  28  Error 10: Expecting identifier or other
+    declarator
+                                                  _
+				BasicRuntimeChecks="3"
+E:\work\IQ\gameui\gameui.vcproj  29  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\gameui\gameui.vcproj  29  Error 10: Expecting identifier or other
+    declarator
+                                              _
+				RuntimeLibrary="3"
+E:\work\IQ\gameui\gameui.vcproj  30  Error 129: declaration expected,
+    identifier 'RuntimeLibrary' ignored
+E:\work\IQ\gameui\gameui.vcproj  30  Error 10: Expecting identifier or other
+    declarator
+                                                    _
+				UsePrecompiledHeader="2"
+E:\work\IQ\gameui\gameui.vcproj  31  Error 129: declaration expected,
+    identifier 'UsePrecompiledHeader' ignored
+E:\work\IQ\gameui\gameui.vcproj  31  Error 10: Expecting identifier or other
+    declarator
+                                                     _
+				PrecompiledHeaderFile="./GameUI_Debug_WIN32/gameui.pch"
+E:\work\IQ\gameui\gameui.vcproj  32  Error 129: declaration expected,
+    identifier 'PrecompiledHeaderFile' ignored
+E:\work\IQ\gameui\gameui.vcproj  32  Error 10: Expecting identifier or other
+    declarator
+                                                        _
+				AssemblerListingLocation=".\GameUI_Debug_WIN32/"
+E:\work\IQ\gameui\gameui.vcproj  33  Error 129: declaration expected,
+    identifier 'AssemblerListingLocation' ignored
+E:\work\IQ\gameui\gameui.vcproj  33  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  33  Warning 606: Non-ANSI escape sequence:
+    '\G'
+                                          _
+				ObjectFile=".\GameUI_Debug_WIN32/"
+E:\work\IQ\gameui\gameui.vcproj  34  Error 129: declaration expected,
+    identifier 'ObjectFile' ignored
+E:\work\IQ\gameui\gameui.vcproj  34  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  34  Warning 606: Non-ANSI escape sequence:
+    '\G'
+                                                       _
+				ProgramDataBaseFileName=".\GameUI_Debug_WIN32/"
+E:\work\IQ\gameui\gameui.vcproj  35  Error 129: declaration expected,
+    identifier 'ProgramDataBaseFileName' ignored
+E:\work\IQ\gameui\gameui.vcproj  35  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  35  Warning 606: Non-ANSI escape sequence:
+    '\G'
+                                                 _
+				BrowseInformation="1"
+E:\work\IQ\gameui\gameui.vcproj  36  Error 129: declaration expected,
+    identifier 'BrowseInformation' ignored
+E:\work\IQ\gameui\gameui.vcproj  36  Error 10: Expecting identifier or other
+    declarator
+                                            _
+				WarningLevel="3"
+E:\work\IQ\gameui\gameui.vcproj  37  Error 129: declaration expected,
+    identifier 'WarningLevel' ignored
+E:\work\IQ\gameui\gameui.vcproj  37  Error 10: Expecting identifier or other
+    declarator
+                                                     _
+				SuppressStartupBanner="TRUE"
+E:\work\IQ\gameui\gameui.vcproj  38  Error 129: declaration expected,
+    identifier 'SuppressStartupBanner' ignored
+E:\work\IQ\gameui\gameui.vcproj  38  Error 10: Expecting identifier or other
+    declarator
+                                                      _
+				DebugInformationFormat="4"
+E:\work\IQ\gameui\gameui.vcproj  39  Error 129: declaration expected,
+    identifier 'DebugInformationFormat' ignored
+E:\work\IQ\gameui\gameui.vcproj  39  Error 10: Expecting identifier or other
+    declarator
+                                         _
+				CompileAs="0"/>
+E:\work\IQ\gameui\gameui.vcproj  40  Error 129: declaration expected,
+    identifier 'CompileAs' ignored
+E:\work\IQ\gameui\gameui.vcproj  40  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCCustomBuildTool"/>
+E:\work\IQ\gameui\gameui.vcproj  42  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  42  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  42  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCLibrarianTool"
+E:\work\IQ\gameui\gameui.vcproj  44  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  44  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  44  Error 10: Expecting identifier or other
+    declarator
+                                          _
+				OutputFile="..\lib\gameui_d.lib"
+E:\work\IQ\gameui\gameui.vcproj  45  Error 129: declaration expected,
+    identifier 'OutputFile' ignored
+E:\work\IQ\gameui\gameui.vcproj  45  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  45  Warning 606: Non-ANSI escape sequence:
+    '\l'
+E:\work\IQ\gameui\gameui.vcproj  45  Warning 606: Non-ANSI escape sequence:
+    '\g'
+                                                     _
+				SuppressStartupBanner="TRUE"/>
+E:\work\IQ\gameui\gameui.vcproj  46  Error 129: declaration expected,
+    identifier 'SuppressStartupBanner' ignored
+E:\work\IQ\gameui\gameui.vcproj  46  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCMIDLTool"/>
+E:\work\IQ\gameui\gameui.vcproj  48  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  48  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  48  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCPostBuildEventTool"/>
+E:\work\IQ\gameui\gameui.vcproj  50  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  50  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  50  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCPreBuildEventTool"/>
+E:\work\IQ\gameui\gameui.vcproj  52  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  52  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  52  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCPreLinkEventTool"/>
+E:\work\IQ\gameui\gameui.vcproj  54  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  54  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  54  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCResourceCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  56  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  56  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  56  Error 10: Expecting identifier or other
+    declarator
+                                                       _
+				PreprocessorDefinitions="_DEBUG"
+E:\work\IQ\gameui\gameui.vcproj  57  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  57  Error 10: Expecting identifier or other
+    declarator
+                                       _
+				Culture="2052"/>
+E:\work\IQ\gameui\gameui.vcproj  58  Error 129: declaration expected,
+    identifier 'Culture' ignored
+E:\work\IQ\gameui\gameui.vcproj  58  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCWebServiceProxyGeneratorTool"/>
+E:\work\IQ\gameui\gameui.vcproj  60  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  60  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  60  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCXMLDataGeneratorTool"/>
+E:\work\IQ\gameui\gameui.vcproj  62  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  62  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  62  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCManagedWrapperGeneratorTool"/>
+E:\work\IQ\gameui\gameui.vcproj  64  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  64  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  64  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+E:\work\IQ\gameui\gameui.vcproj  66  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  66  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  66  Error 10: Expecting identifier or other
+    declarator
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\gameui\gameui.vcproj  67  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\gameui\gameui.vcproj  67  Error 10: Expecting *
+                  _
+		</Configuration>
+E:\work\IQ\gameui\gameui.vcproj  67  Error 129: declaration expected,
+    identifier 'Win32' ignored
+                 _
+#...        Debug|Win32
+		<Configuration
+E:\work\IQ\gameui\gameui.vcproj  68  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                        _
+			Name="Release|Win32"
+E:\work\IQ\gameui\gameui.vcproj  69  Error 129: declaration expected,
+    identifier 'Win32' ignored
+E:\work\IQ\gameui\gameui.vcproj  69  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                       _
+			OutputDirectory=".\Release"
+E:\work\IQ\gameui\gameui.vcproj  70  Error 129: declaration expected,
+    identifier 'OutputDirectory' ignored
+E:\work\IQ\gameui\gameui.vcproj  70  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  70  Warning 606: Non-ANSI escape sequence:
+    '\R'
+                                             _
+			IntermediateDirectory="\___IntermediateFiles___\MMOG\GameUI_Release_WIN32"
+E:\work\IQ\gameui\gameui.vcproj  71  Error 129: declaration expected,
+    identifier 'IntermediateDirectory' ignored
+E:\work\IQ\gameui\gameui.vcproj  71  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  71  Warning 606: Non-ANSI escape sequence:
+    '\_'
+E:\work\IQ\gameui\gameui.vcproj  71  Warning 606: Non-ANSI escape sequence:
+    '\M'
+E:\work\IQ\gameui\gameui.vcproj  71  Warning 606: Non-ANSI escape sequence:
+    '\G'
+                                         _
+			ConfigurationType="4"
+E:\work\IQ\gameui\gameui.vcproj  72  Error 129: declaration expected,
+    identifier 'ConfigurationType' ignored
+E:\work\IQ\gameui\gameui.vcproj  72  Error 10: Expecting identifier or other
+    declarator
+                                _
+			UseOfMFC="0"
+E:\work\IQ\gameui\gameui.vcproj  73  Error 129: declaration expected,
+    identifier 'UseOfMFC' ignored
+E:\work\IQ\gameui\gameui.vcproj  73  Error 10: Expecting identifier or other
+    declarator
+                                                        _
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+E:\work\IQ\gameui\gameui.vcproj  74  Error 129: declaration expected,
+    identifier 'ATLMinimizesCRunTimeLibraryUsage' ignored
+E:\work\IQ\gameui\gameui.vcproj  74  Error 10: Expecting identifier or other
+    declarator
+                                    _
+			CharacterSet="2">
+E:\work\IQ\gameui\gameui.vcproj  75  Error 129: declaration expected,
+    identifier 'CharacterSet' ignored
+E:\work\IQ\gameui\gameui.vcproj  75  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  77  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  77  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  77  Error 10: Expecting identifier or other
+    declarator
+                                            _
+				Optimization="1"
+E:\work\IQ\gameui\gameui.vcproj  78  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  78  Error 10: Expecting identifier or other
+    declarator
+                                                       _
+				InlineFunctionExpansion="1"
+E:\work\IQ\gameui\gameui.vcproj  79  Error 129: declaration expected,
+    identifier 'InlineFunctionExpansion' ignored
+E:\work\IQ\gameui\gameui.vcproj  79  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+				AdditionalIncludeDirectories="..\Include"
+E:\work\IQ\gameui\gameui.vcproj  80  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  80  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  80  Warning 606: Non-ANSI escape sequence:
+    '\I'
+                                                       _
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
+E:\work\IQ\gameui\gameui.vcproj  81  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  81  Error 10: Expecting identifier or other
+    declarator
+                                             _
+				StringPooling="TRUE"
+E:\work\IQ\gameui\gameui.vcproj  82  Error 129: declaration expected,
+    identifier 'StringPooling' ignored
+E:\work\IQ\gameui\gameui.vcproj  82  Error 10: Expecting identifier or other
+    declarator
+                                              _
+				RuntimeLibrary="2"
+E:\work\IQ\gameui\gameui.vcproj  83  Error 129: declaration expected,
+    identifier 'RuntimeLibrary' ignored
+E:\work\IQ\gameui\gameui.vcproj  83  Error 10: Expecting identifier or other
+    declarator
+                                                          _
+				EnableFunctionLevelLinking="TRUE"
+E:\work\IQ\gameui\gameui.vcproj  84  Error 129: declaration expected,
+    identifier 'EnableFunctionLevelLinking' ignored
+E:\work\IQ\gameui\gameui.vcproj  84  Error 10: Expecting identifier or other
+    declarator
+                                                    _
+				UsePrecompiledHeader="2"
+E:\work\IQ\gameui\gameui.vcproj  85  Error 129: declaration expected,
+    identifier 'UsePrecompiledHeader' ignored
+E:\work\IQ\gameui\gameui.vcproj  85  Error 10: Expecting identifier or other
+    declarator
+                                                     _
+				PrecompiledHeaderFile="./GameUI_Release_WIN32/gameui.pch"
+E:\work\IQ\gameui\gameui.vcproj  86  Error 129: declaration expected,
+    identifier 'PrecompiledHeaderFile' ignored
+E:\work\IQ\gameui\gameui.vcproj  86  Error 10: Expecting identifier or other
+    declarator
+                                                        _
+				AssemblerListingLocation="./GameUI_Release_WIN32/"
+E:\work\IQ\gameui\gameui.vcproj  87  Error 129: declaration expected,
+    identifier 'AssemblerListingLocation' ignored
+E:\work\IQ\gameui\gameui.vcproj  87  Error 10: Expecting identifier or other
+    declarator
+                                          _
+				ObjectFile="./GameUI_Release_WIN32/"
+E:\work\IQ\gameui\gameui.vcproj  88  Error 129: declaration expected,
+    identifier 'ObjectFile' ignored
+E:\work\IQ\gameui\gameui.vcproj  88  Error 10: Expecting identifier or other
+    declarator
+                                                       _
+				ProgramDataBaseFileName="./GameUI_Release_WIN32/"
+E:\work\IQ\gameui\gameui.vcproj  89  Error 129: declaration expected,
+    identifier 'ProgramDataBaseFileName' ignored
+E:\work\IQ\gameui\gameui.vcproj  89  Error 10: Expecting identifier or other
+    declarator
+                                            _
+				WarningLevel="3"
+E:\work\IQ\gameui\gameui.vcproj  90  Error 129: declaration expected,
+    identifier 'WarningLevel' ignored
+E:\work\IQ\gameui\gameui.vcproj  90  Error 10: Expecting identifier or other
+    declarator
+                                                     _
+				SuppressStartupBanner="TRUE"
+E:\work\IQ\gameui\gameui.vcproj  91  Error 129: declaration expected,
+    identifier 'SuppressStartupBanner' ignored
+E:\work\IQ\gameui\gameui.vcproj  91  Error 10: Expecting identifier or other
+    declarator
+                                                      _
+				DebugInformationFormat="3"
+E:\work\IQ\gameui\gameui.vcproj  92  Error 129: declaration expected,
+    identifier 'DebugInformationFormat' ignored
+E:\work\IQ\gameui\gameui.vcproj  92  Error 10: Expecting identifier or other
+    declarator
+                                         _
+				CompileAs="0"/>
+E:\work\IQ\gameui\gameui.vcproj  93  Error 129: declaration expected,
+    identifier 'CompileAs' ignored
+E:\work\IQ\gameui\gameui.vcproj  93  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCCustomBuildTool"/>
+E:\work\IQ\gameui\gameui.vcproj  95  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  95  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  95  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCLibrarianTool"
+E:\work\IQ\gameui\gameui.vcproj  97  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  97  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  97  Error 10: Expecting identifier or other
+    declarator
+                                          _
+				OutputFile="..\lib\gameui.lib"
+E:\work\IQ\gameui\gameui.vcproj  98  Error 129: declaration expected,
+    identifier 'OutputFile' ignored
+E:\work\IQ\gameui\gameui.vcproj  98  Error 10: Expecting identifier or other
+    declarator
+E:\work\IQ\gameui\gameui.vcproj  98  Warning 606: Non-ANSI escape sequence:
+    '\l'
+E:\work\IQ\gameui\gameui.vcproj  98  Warning 606: Non-ANSI escape sequence:
+    '\g'
+                                                     _
+				SuppressStartupBanner="TRUE"/>
+E:\work\IQ\gameui\gameui.vcproj  99  Error 129: declaration expected,
+    identifier 'SuppressStartupBanner' ignored
+E:\work\IQ\gameui\gameui.vcproj  99  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCMIDLTool"/>
+E:\work\IQ\gameui\gameui.vcproj  101  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  101  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  101  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCPostBuildEventTool"
+E:\work\IQ\gameui\gameui.vcproj  103  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  103  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  103  Error 10: Expecting identifier or other
+    declarator
+                                           _
+				CommandLine="call PostBuild.bat"/>
+E:\work\IQ\gameui\gameui.vcproj  104  Error 129: declaration expected,
+    identifier 'CommandLine' ignored
+E:\work\IQ\gameui\gameui.vcproj  104  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCPreBuildEventTool"/>
+E:\work\IQ\gameui\gameui.vcproj  106  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  106  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  106  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCPreLinkEventTool"/>
+E:\work\IQ\gameui\gameui.vcproj  108  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  108  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  108  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCResourceCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  110  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  110  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  110  Error 10: Expecting identifier or other
+    declarator
+                                                       _
+				PreprocessorDefinitions="NDEBUG"
+E:\work\IQ\gameui\gameui.vcproj  111  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  111  Error 10: Expecting identifier or other
+    declarator
+                                       _
+				Culture="2052"/>
+E:\work\IQ\gameui\gameui.vcproj  112  Error 129: declaration expected,
+    identifier 'Culture' ignored
+E:\work\IQ\gameui\gameui.vcproj  112  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCWebServiceProxyGeneratorTool"/>
+E:\work\IQ\gameui\gameui.vcproj  114  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  114  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  114  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCXMLDataGeneratorTool"/>
+E:\work\IQ\gameui\gameui.vcproj  116  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  116  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  116  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCManagedWrapperGeneratorTool"/>
+E:\work\IQ\gameui\gameui.vcproj  118  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  118  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  118  Error 10: Expecting identifier or other
+    declarator
+                                _
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+E:\work\IQ\gameui\gameui.vcproj  120  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  120  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  120  Error 10: Expecting identifier or other
+    declarator
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\gameui\gameui.vcproj  121  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\gameui\gameui.vcproj  121  Error 10: Expecting *
+                  _
+		</Configuration>
+E:\work\IQ\gameui\gameui.vcproj  121  Error 129: declaration expected,
+    identifier 'Win32' ignored
+                        _
+	</Configurations>
+E:\work\IQ\gameui\gameui.vcproj  122  Error 129: declaration expected,
+    identifier 'Configurations' ignored
+                   _
+	<References>
+E:\work\IQ\gameui\gameui.vcproj  123  Error 129: declaration expected,
+    identifier 'References' ignored
+                    _
+	</References>
+E:\work\IQ\gameui\gameui.vcproj  124  Error 129: declaration expected,
+    identifier 'References' ignored
+              _
+	<Files>
+E:\work\IQ\gameui\gameui.vcproj  125  Error 129: declaration expected,
+    identifier 'Files' ignored
+                        _
+			Name="Source Files"
+E:\work\IQ\gameui\gameui.vcproj  127  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\gameui\gameui.vcproj  127  Error 129: declaration expected,
+    identifier 'Name' ignored
+                              _
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+E:\work\IQ\gameui\gameui.vcproj  128  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\gameui\gameui.vcproj  128  Error 10: Expecting identifier or other
+    declarator
+                                _
+				RelativePath="gameui.cpp">
+E:\work\IQ\gameui\gameui.vcproj  130  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  130  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\gameui\gameui.vcproj  130  Error 10: Expecting identifier or other
+    declarator
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\gameui\gameui.vcproj  132  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  132  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  132  Error 10: Expecting identifier or other
+    declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  134  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  134  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  134  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\gameui\gameui.vcproj  135  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  135  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  136  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  136  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\gameui\gameui.vcproj  137  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  137  Error 10: Expecting identifier or other
+    declarator
+                                                                  _
+						BasicRuntimeChecks="3"
+E:\work\IQ\gameui\gameui.vcproj  138  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\gameui\gameui.vcproj  138  Error 10: Expecting identifier or other
+    declarator
+                                                                 _
+						BrowseInformation="1"/>
+E:\work\IQ\gameui\gameui.vcproj  139  Error 129: declaration expected,
+    identifier 'BrowseInformation' ignored
+E:\work\IQ\gameui\gameui.vcproj  139  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  140  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  140  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\gameui\gameui.vcproj  142  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  142  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  144  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  144  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  144  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="1"
+E:\work\IQ\gameui\gameui.vcproj  145  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  145  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  146  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  146  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\gameui\gameui.vcproj  147  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  147  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  148  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  148  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  149  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath="..\include\gameui.h">
+E:\work\IQ\gameui\gameui.vcproj  151  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  151  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\gameui\gameui.vcproj  151  Warning 606: Non-ANSI escape sequence:
+    '\i'
+E:\work\IQ\gameui\gameui.vcproj  151  Warning 606: Non-ANSI escape sequence:
+    '\g'
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  152  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  152  Error 10: Expecting *
+                                _
+				RelativePath="uicontrol.cpp">
+E:\work\IQ\gameui\gameui.vcproj  154  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  154  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\gameui\gameui.vcproj  156  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  156  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  156  Error 10: Expecting identifier or other
+    declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  158  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  158  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  158  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\gameui\gameui.vcproj  159  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  159  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  160  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  160  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\gameui\gameui.vcproj  161  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  161  Error 10: Expecting identifier or other
+    declarator
+                                                                  _
+						BasicRuntimeChecks="3"
+E:\work\IQ\gameui\gameui.vcproj  162  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\gameui\gameui.vcproj  162  Error 10: Expecting identifier or other
+    declarator
+                                                                 _
+						BrowseInformation="1"/>
+E:\work\IQ\gameui\gameui.vcproj  163  Error 129: declaration expected,
+    identifier 'BrowseInformation' ignored
+E:\work\IQ\gameui\gameui.vcproj  163  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  164  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  164  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\gameui\gameui.vcproj  166  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  166  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  168  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  168  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  168  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="1"
+E:\work\IQ\gameui\gameui.vcproj  169  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  169  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  170  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  170  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\gameui\gameui.vcproj  171  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  171  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  172  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  172  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  173  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath="uicontrol.h">
+E:\work\IQ\gameui\gameui.vcproj  175  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  175  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  176  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  176  Error 10: Expecting *
+                                _
+				RelativePath="uiimage.cpp">
+E:\work\IQ\gameui\gameui.vcproj  178  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  178  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\gameui\gameui.vcproj  180  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  180  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  180  Error 10: Expecting identifier or other
+    declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  182  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  182  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  182  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\gameui\gameui.vcproj  183  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  183  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  184  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  184  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\gameui\gameui.vcproj  185  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  185  Error 10: Expecting identifier or other
+    declarator
+                                                                  _
+						BasicRuntimeChecks="3"
+E:\work\IQ\gameui\gameui.vcproj  186  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\gameui\gameui.vcproj  186  Error 10: Expecting identifier or other
+    declarator
+                                                                 _
+						BrowseInformation="1"/>
+E:\work\IQ\gameui\gameui.vcproj  187  Error 129: declaration expected,
+    identifier 'BrowseInformation' ignored
+E:\work\IQ\gameui\gameui.vcproj  187  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  188  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  188  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\gameui\gameui.vcproj  190  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  190  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  192  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  192  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  192  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="1"
+E:\work\IQ\gameui\gameui.vcproj  193  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  193  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  194  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  194  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\gameui\gameui.vcproj  195  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  195  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  196  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  196  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  197  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath="uiimage.h">
+E:\work\IQ\gameui\gameui.vcproj  199  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  199  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  200  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  200  Error 10: Expecting *
+                                _
+				RelativePath="uiscriptfunc.cpp">
+E:\work\IQ\gameui\gameui.vcproj  202  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  202  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\gameui\gameui.vcproj  204  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  204  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  204  Error 10: Expecting identifier or other
+    declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  206  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  206  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  206  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\gameui\gameui.vcproj  207  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  207  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  208  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  208  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\gameui\gameui.vcproj  209  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  209  Error 10: Expecting identifier or other
+    declarator
+                                                                  _
+						BasicRuntimeChecks="3"
+E:\work\IQ\gameui\gameui.vcproj  210  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\gameui\gameui.vcproj  210  Error 10: Expecting identifier or other
+    declarator
+                                                                 _
+						BrowseInformation="1"/>
+E:\work\IQ\gameui\gameui.vcproj  211  Error 129: declaration expected,
+    identifier 'BrowseInformation' ignored
+E:\work\IQ\gameui\gameui.vcproj  211  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  212  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  212  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\gameui\gameui.vcproj  214  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  214  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  216  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  216  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  216  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="1"
+E:\work\IQ\gameui\gameui.vcproj  217  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  217  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  218  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  218  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\gameui\gameui.vcproj  219  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  219  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  220  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  220  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  221  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath="widget.cpp">
+E:\work\IQ\gameui\gameui.vcproj  223  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  223  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                                        _
+					Name="Debug|Win32">
+E:\work\IQ\gameui\gameui.vcproj  225  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  225  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  225  Error 10: Expecting identifier or other
+    declarator
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  227  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  227  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  227  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="0"
+E:\work\IQ\gameui\gameui.vcproj  228  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  228  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  229  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  229  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""
+E:\work\IQ\gameui\gameui.vcproj  230  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  230  Error 10: Expecting identifier or other
+    declarator
+                                                                  _
+						BasicRuntimeChecks="3"
+E:\work\IQ\gameui\gameui.vcproj  231  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\gameui\gameui.vcproj  231  Error 10: Expecting identifier or other
+    declarator
+                                                                 _
+						BrowseInformation="1"/>
+E:\work\IQ\gameui\gameui.vcproj  232  Error 129: declaration expected,
+    identifier 'BrowseInformation' ignored
+E:\work\IQ\gameui\gameui.vcproj  232  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  233  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  233  Error 10: Expecting *
+                                        _
+					Name="Release|Win32">
+E:\work\IQ\gameui\gameui.vcproj  235  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  235  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                                _
+						Name="VCCLCompilerTool"
+E:\work\IQ\gameui\gameui.vcproj  237  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\gameui\gameui.vcproj  237  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\gameui\gameui.vcproj  237  Error 10: Expecting identifier or other
+    declarator
+                                                            _
+						Optimization="1"
+E:\work\IQ\gameui\gameui.vcproj  238  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\gameui\gameui.vcproj  238  Error 10: Expecting identifier or other
+    declarator
+                                                                            _
+						AdditionalIncludeDirectories=""
+E:\work\IQ\gameui\gameui.vcproj  239  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\gameui\gameui.vcproj  239  Error 10: Expecting identifier or other
+    declarator
+                                                                       _
+						PreprocessorDefinitions=""/>
+E:\work\IQ\gameui\gameui.vcproj  240  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\gameui\gameui.vcproj  240  Error 10: Expecting identifier or other
+    declarator
+                                                   _
+				</FileConfiguration>
+E:\work\IQ\gameui\gameui.vcproj  241  Error 129: declaration expected,
+    identifier 'FileConfiguration' ignored
+E:\work\IQ\gameui\gameui.vcproj  241  Error 10: Expecting *
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  242  Error 129: declaration expected,
+    identifier 'File' ignored
+                                _
+				RelativePath=".\widget.h">
+E:\work\IQ\gameui\gameui.vcproj  244  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  244  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\gameui\gameui.vcproj  244  Warning 606: Non-ANSI escape sequence:
+    '\w'
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  245  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  245  Error 10: Expecting *
+                                _
+				RelativePath="widget.inl">
+E:\work\IQ\gameui\gameui.vcproj  247  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  247  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\gameui\gameui.vcproj  248  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  248  Error 10: Expecting *
+                        _
+		</Filter>
+E:\work\IQ\gameui\gameui.vcproj  249  Error 129: declaration expected,
+    identifier 'Filter' ignored
+                        _
+			RelativePath="PostBuild.bat">
+E:\work\IQ\gameui\gameui.vcproj  251  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  251  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                      _
+		</File>
+E:\work\IQ\gameui\gameui.vcproj  252  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\gameui\gameui.vcproj  252  Error 10: Expecting *
+               _
+	</Files>
+E:\work\IQ\gameui\gameui.vcproj  253  Error 129: declaration expected,
+    identifier 'Files' ignored
+                _
+	<Globals>
+E:\work\IQ\gameui\gameui.vcproj  254  Error 129: declaration expected,
+    identifier 'Globals' ignored
+                 _
+	</Globals>
+E:\work\IQ\gameui\gameui.vcproj  255  Error 129: declaration expected,
+    identifier 'Globals' ignored
+                     _
+</VisualStudioProject>
+E:\work\IQ\gameui\gameui.vcproj  256  Error 129: declaration expected,
+    identifier 'VisualStudioProject' ignored

@@ -1,0 +1,53 @@
+/*----------------------------------------------------------------------
+Debugging Applications for Microsoft .NET and Microsoft Windows
+John Robbins
+
+Code Originally By Leo Notenboom Feb 2002 MSDN Magazine.
+Thanks for letting me use it, Leo!
+----------------------------------------------------------------------*/
+// SettingsMasterShim.idl : IDL source for SettingsMasterShim
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SettingsMasterShim.tlb) and marshalling code.
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(BFDF054A-6D5D-4F7D-80B6-27DA2E6A60C3),
+	dual,
+	nonextensible,
+	helpstring("ISettingsMasterOptions Interface"),
+	pointer_default(unique)
+]
+interface ISettingsMasterOptions : IDispatch{
+};
+
+[
+	uuid(5861234E-9AB8-4D90-A9E8-CEE701C54FA6),
+	version(1.0),
+	helpstring("SettingsMasterShim 1.0 Type Library")
+]
+library SettingsMasterShimLib
+{
+	[
+		uuid(458AB8A2-A1EA-4D7B-8EBE-DEE5D3D9442C)
+	]
+	interface IWin32Window : IUnknown
+	{
+		HRESULT get_Handle([out, retval] long *pHWnd);
+	};
+
+	importlib("stdole2.tlb");
+	[
+		uuid(86385F47-62A1-489C-AFBC-35BDBB6F1FB8),
+		helpstring("SettingsMasterOptions Class")
+	]
+	coclass SettingsMasterOptions
+	{
+		[default] interface ISettingsMasterOptions;
+	};
+};

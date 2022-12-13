@@ -1,0 +1,36 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>Sound under Xbox</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="">
+<meta name="ms-hkwd" content="Sound under Xbox">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>Sound under Xbox</h1>
+<h4>Discussion</h4>
+<p> For digital audio output, Miles for Xbox uses the DirectSound system library. Miles is carefully designed to use the powerful built-in hardware on the Xbox to it's fullest. You can play hundreds of digital samples at once with no CPU hit at all! </p><p>The Miles on Xbox supports uncompressed, IMA ADPCM, MP3, and Xbox ADPCM digital sound. IMA and MP3 are not natively supported by the Xbox, but Miles makes the decompression and streaming to the sound hardware seamless - they just take a little more CPU. Both decompressors are optimized for the Xbox - MP3 decompression is almost three times faster than WMA compression, for example. Even better, Xbox ADPCM takes no CPU at all to decompress! </p><p>Miles on the Xbox also has integrated 2D and 3D sound subsystems. If you opened the 2D driver with the AIL_OPEN_DIGITAL_NEED_HW_3D flag, then you can call any of the 3D functions with a plain old HSAMPLE. </p><p>The Xbox also supports full 5.1 discrete audio. You can set the volume levels of the 5.1 individual channels with the <a href="AIL_set_sample_51_vonel4aa.html">AIL_set_sample_51_volume_pan</a> or <a href="AIL_set_sample_51_voc8298l.html">AIL_set_sample_51_volume_levels</a> functions. </p><p>The Xbox doesn't have dedicated MIDI hardware, so Miles uses its built-in DLS synthesizer for all MIDI playback. This has the advantage of allowing you to author custom DLS instrument sets to optimize memory use anyway. </p><p>And that's pretty much it - Miles is a piece of cake to use on the Xbox. </p>
+<p><a href="Memory management un5c2iaa.html">Next Topic (Memory management under Xbox)</a>  </p><p><a href="Distributing Miles wt8bzco.html">Previous Topic (Distributing Miles with Xbox Applications)</a>  </p><p>
+<br>
+<b>Group:</b>
+<a href="Overview for Xbox.html">Overview for Xbox</a><br>
+<b>Related Functions:</b>
+<a href="AIL_set_sample_51_voc8298l.html">AIL_set_sample_51_volume_levels</a>, <a href="AIL_set_sample_51_vonel4aa.html">AIL_set_sample_51_volume_pan</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

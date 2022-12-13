@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="TesterPS"
+	ProjectGUID="{3D0764F2-5E7A-4387-B13A-35A80629FF8D}"
+	Keyword="AtlPSProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\Output"
+			IntermediateDirectory="DebugPS"
+			ConfigurationType="2"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;_WIN32_WINNT=0x0400;REGISTER_PROXY_DLL;_DEBUG"
+				BasicRuntimeChecks="3"
+				SmallerTypeCheck="TRUE"
+				RuntimeLibrary="3"
+				StructMemberAlignment="0"
+				BufferSecurityCheck="TRUE"
+				ProgramDataBaseFileName="$(IntDir)/"
+				WarningLevel="4"
+				WarnAsError="TRUE"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="kernel32.lib rpcndr.lib rpcns4.lib rpcrt4.lib oleaut32.lib uuid.lib"
+				LinkIncremental="2"
+				ModuleDefinitionFile=".\$(ProjectName).DEF"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				ImportLibrary="$(OutDir)/$(ProjectName).lib"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Performing registration"
+				CommandLine="regsvr32 /s /c &quot;$(TargetPath)&quot;"/>
+			<Tool
+				Name="VCPreBuildEventTool"
+				Description="Checking for required files"
+				CommandLine="if exist dlldata.c goto :END
+echo Error: MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+Exit 1
+:END
+"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\Release"
+			IntermediateDirectory="ReleasePS"
+			ConfigurationType="2"
+			CharacterSet="1"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="1"
+				GlobalOptimizations="FALSE"
+				InlineFunctionExpansion="1"
+				ImproveFloatingPointConsistency="FALSE"
+				FavorSizeOrSpeed="0"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				PreprocessorDefinitions="WIN32;_WIN32_WINNT=0x0400;REGISTER_PROXY_DLL;NDEBUG"
+				StringPooling="TRUE"
+				MinimalRebuild="FALSE"
+				BasicRuntimeChecks="0"
+				SmallerTypeCheck="FALSE"
+				RuntimeLibrary="2"
+				StructMemberAlignment="0"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				ProgramDataBaseFileName="$(IntDir)/"
+				WarningLevel="4"
+				WarnAsError="TRUE"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="kernel32.lib rpcndr.lib rpcns4.lib rpcrt4.lib oleaut32.lib uuid.lib"
+				LinkIncremental="1"
+				ModuleDefinitionFile=".\$(ProjectName).DEF"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/$(ProjectName).pdb"
+				StripPrivateSymbols="$(OutDir)/$(ProjectName)_STRIPPED.pdb"
+				GenerateMapFile="TRUE"
+				MapFileName="$(OutDir)/$(ProjectName).map"
+				MapExports="TRUE"
+				MapLines="TRUE"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				OptimizeForWindows98="1"
+				SetChecksum="TRUE"
+				ImportLibrary="$(OutDir)/$(ProjectName).lib"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Performing registration"
+				CommandLine="regsvr32 /s /c &quot;$(TargetPath)&quot;"/>
+			<Tool
+				Name="VCPreBuildEventTool"
+				Description="Checking for required files"
+				CommandLine="if exist dlldata.c goto :END
+echo Error: MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+Exit 1
+:END
+"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm">
+			<File
+				RelativePath="Testerps.def">
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			SourceControlFiles="FALSE">
+			<File
+				RelativePath="_Tester_i.c">
+			</File>
+			<File
+				RelativePath="_Tester_p.c">
+			</File>
+			<File
+				RelativePath="dlldata.c">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

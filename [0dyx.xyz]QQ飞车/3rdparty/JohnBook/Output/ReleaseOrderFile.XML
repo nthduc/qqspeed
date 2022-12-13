@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--      Debugging Microsoft .NET and Windows Applications          -->
+<!--           Copyright 1997-2002 by John Robbins                   -->
+<!--    SettingsMaster AddIn Configuration File - ReleaseOrderFile   -->
+<!--                                                                 -->
+<!--Sets up a Release build to use an order file produced by Smooth  -->
+<!--Working Set (SWS) from Chapter 19.                               -->
+<!-- PLEASE READ CHAPTER 9 ON ADDING YOUR OWN SETTINGS TO THIS FILE! -->
+<Configurations>
+    <ProgLanguage>{B5E9BD32-6D3E-4B5D-925E-8A43B79820B4}</ProgLanguage>
+    <Configuration>
+        <ConfigName>Release</ConfigName>
+        <Tools>
+            <Tool>
+                <ToolName>VCLinkerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Sets /ORDER-->
+                        <PropertyName>FunctionOrder</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>@$(ProjectName).PRF</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+        </Tools>
+    </Configuration>
+</Configurations>

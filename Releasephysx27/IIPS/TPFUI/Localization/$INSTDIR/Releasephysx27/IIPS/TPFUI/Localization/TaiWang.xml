@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TPFLocalization>
+    <ItemSet>
+        <Item ID="1" Translation="No TransLation" />
+        <Item ID="2" Translation="No TransLation" />
+        <Item ID="3" Translation="No TransLation" />
+        <Item ID="4" Translation="No TransLation" />
+        <Item ID="5" Translation="No TransLation" />
+        <Item ID="6" Translation="No TransLation" />
+        <Item ID="7" Translation="No TransLation" />
+        <Item ID="8" Translation="No TransLation" />
+        <Item ID="9" Translation="No TransLation" />
+        <Item ID="10" Translation="No TransLation" />
+        <Item ID="11" Translation="No TransLation" />
+        <Item ID="12" Translation="No TransLation" />
+        <Item ID="13" Translation="No TransLation" />
+        <Item ID="15" Translation="中国" />
+    </ItemSet>
+</TPFLocalization>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<RenderCfg>
+		<Channel4CanvasID value="2" Describe="4 channel canvas"/>
+		<NormalCanvasID value="1"  Describe="tpf内部自动创建 canvas(1:DC; 2:xImage;)"/>
+		<UpdateUIMode value="0"  Describe="refresh mode(0:更新驱动刷新; 1:全屏刷新)"/>
+		<DirtyRegion value="true" Describe="dealwith dirty region"/>
+		<ImgEngine value="0" Describe="正常模式下用的引擎(0:ximage;1:mgimage;2:gbimage;3:xxzgbimage;4:xgame)"/>
+		<FontEngine value="0" Describe="(0:dcfont;1:mgfont;2:gbfont;3:xxzgbfont;4:xgame)"/>
+		<Img3DEngine value="0" Describe="同时使用两种引擎时的第二种引擎(2:gbimage;3:xxzgbimage;4:xgame)"/>
+		<Font3DEngine value="0" Describe="(2:gbfont;3:xxzgbfont;4:xgame)"/>
+	</RenderCfg>
+	<PathCfg>
+		<vfs use="0" file="res.vfs"/>
+		<ResRootPath value="..\Data\Res\" usevfs="0"/>
+		<StyleRootPath value="..\data\style\" usevfs="0"/>
+		<LayoutRootPath value="..\data\Layout\"/>			
+		<LibRootPath value="..\data\lib\" usevfs="0"/>
+		<ScriptRootPath value="..\data\script\" usevfs="0"/>
+		<Name2IDFileRootPath value="config\name2id.xml" usevfs="0"/>
+		<CursorConfigFile value="config\cursor.xml" usevfs="0"/>
+		<CustomEventFile value="config\CustomEvent.xml" usevfs="0"/>
+	</PathCfg>
+	<Default>
+		<Font value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体"/>
+	</Default>
+	<OtherCfg>
+		<!-- 拖放启动模式　0:左键按下不移动过DelayTime毫秒后Start；1:左键按下移动PixelNumber个像素后Start; 3:两个条件满足一个就Start-->
+    		<!-- 拖放启动图标位置　0:拖拽位置t；1:光标在左上角; 2:光标在中间;3:光标在右下角-->
+		<Drag StartMode="1" DelayTime="300" PixelNumber="50" DragObjPos="2"/>
+
+		<!--Combobox的分隔符-->
+		<Delimiter Value=","/>
+	</OtherCfg>
+</root>

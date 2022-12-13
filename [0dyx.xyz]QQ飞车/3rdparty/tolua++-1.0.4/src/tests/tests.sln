@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcproj", "{31BE9B93-F0BC-485D-9196-29A2D2268E22}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{31BE9B93-F0BC-485D-9196-29A2D2268E22}.Debug.ActiveCfg = Debug|Win32
+		{31BE9B93-F0BC-485D-9196-29A2D2268E22}.Debug.Build.0 = Debug|Win32
+		{31BE9B93-F0BC-485D-9196-29A2D2268E22}.Release.ActiveCfg = Release|Win32
+		{31BE9B93-F0BC-485D-9196-29A2D2268E22}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

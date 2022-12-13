@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssertTest", "AssertTest.vcproj", "{A1C19DC0-8872-4545-9BD9-32F8DA1BF906}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A1C19DC0-8872-4545-9BD9-32F8DA1BF906}.Debug.ActiveCfg = Debug|Win32
+		{A1C19DC0-8872-4545-9BD9-32F8DA1BF906}.Debug.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

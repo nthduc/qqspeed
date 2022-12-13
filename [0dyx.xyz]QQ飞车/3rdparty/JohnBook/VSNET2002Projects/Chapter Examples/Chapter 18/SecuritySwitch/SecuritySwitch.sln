@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SecuritySwitch", "SecuritySwitch.vcproj", "{36E0F51C-ECC6-4163-A25C-1B00FE33BA2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{36E0F51C-ECC6-4163-A25C-1B00FE33BA2D}.Release.ActiveCfg = Release|Win32
+		{36E0F51C-ECC6-4163-A25C-1B00FE33BA2D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

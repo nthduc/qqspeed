@@ -1,0 +1,18 @@
+;-----------------------------------------------------------------------
+; Debugging Applications for Microsoft .NET and Microsoft Windows
+; Copyright © 1997-2003 John Robbins -- All rights reserved.
+;-----------------------------------------------------------------------
+LIBRARY         LocalAssist
+; DESCRIPTION     'Debugging Windows Applications Debugger Example'
+
+EXPORTS
+    DBG_GetThreadContext
+    DBG_FlushInstructionCache
+    DBG_ReadProcessMemory
+    DBG_ResumeThread
+    DBG_SetThreadContext
+    DBG_SuspendThread
+    DBG_VirtualProtectEx
+    DBG_VirtualQueryEx
+    DBG_WriteProcessMemory
+

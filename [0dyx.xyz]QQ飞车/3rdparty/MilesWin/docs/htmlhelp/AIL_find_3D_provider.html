@@ -1,0 +1,63 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>AIL_find_3D_provider</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="tries to locate a 3D provider by it's name.">
+<meta name="ms-hkwd" content="AIL_find_3D_provider">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>AIL_find_3D_provider</h1>
+<p>The function  <b>AIL_find_3D_provider</b> tries to locate a 3D provider by it's name.</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b><a href="S32.html" class=trn>S32</a> <a href="AIL_find_3D_provider.html" class=trn>AIL_find_3D_provider</a>(</b>
+<b>&nbsp;&nbsp;<a href="char P.html" class=trn>char *</a>&nbsp;</b><i>name</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="HPROVIDER.html" class=trn>HPROVIDER</a>&nbsp;*</b><i>found</i>
+<b>);</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Parameters</h4>
+<dl>
+<dt><i>name</i></dt>
+<dd>contains the name of the 3D provider to search for.</dd>
+</dl>
+<h4>Out Parameters</h4>
+<dl>
+<dt><i>found</i></dt>
+<dd>contains the found provider if the 3D provider name was located.</dd>
+</dl>
+<h4>Returns</h4>
+<p>0, if no provider was found, non-zero if a provider was found.</p>
+<h4>Discussion</h4>
+<p>You can call this function before <a href="AIL_open_3D_provider.html">AIL_open_3D_provider</a> when you know the specific 3D provider that you want to use. You can enumerate all of the filters with the <a href="AIL_enumerate_3D_prok20aaa.html">AIL_enumerate_3D_providers</a> function. </p><p> The HPROVIDER handle values returned by this function can change from one program execution to the next. For example, "Miles Fast 2D Positional Audio" may have the HPROVIDER handle value "1" during one execution, and the value "2" the next. You must, therefore, always use these functions to obtain the proper HPROVIDER handle value at runtime. </p>
+<p>
+<br>
+<b>Group:</b>
+<a href="3D Digital Audio Services.html">3D Digital Audio Services</a><br>
+<b>Related Functions:</b>
+<a href="AIL_enumerate_3D_prok20aaa.html">AIL_enumerate_3D_providers</a>, <a href="AIL_open_3D_provider.html">AIL_open_3D_provider</a><br>
+<b>Related Basic Types:</b>
+<a href="HPROVIDER.html">HPROVIDER</a>, <a href="S32.html">S32</a>, <a href="char P.html">char *</a><br>
+<b>Related FAQs:</b>
+<a href="How do I open a 3D duswuqq.html">How do I open a 3D digital provider?</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

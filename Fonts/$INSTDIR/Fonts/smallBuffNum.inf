@@ -1,0 +1,5 @@
+[CustomFont]
+Texture=Textures/ICUN12.tga
+CellX=12
+CellY=12
+Text="0123456789"

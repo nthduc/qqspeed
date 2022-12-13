@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BSU_ExpEval_AddIn", "BSU_ExpEval_AddIn.vcproj", "{BA582C9F-924A-4CEC-A450-6F4D9BCC809A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BA582C9F-924A-4CEC-A450-6F4D9BCC809A}.Debug.ActiveCfg = Debug|Win32
+		{BA582C9F-924A-4CEC-A450-6F4D9BCC809A}.Debug.Build.0 = Debug|Win32
+		{BA582C9F-924A-4CEC-A450-6F4D9BCC809A}.Release.ActiveCfg = Release|Win32
+		{BA582C9F-924A-4CEC-A450-6F4D9BCC809A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

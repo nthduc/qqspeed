@@ -1,0 +1,46 @@
+# Microsoft Developer Studio Generated Dependency File, included by ImageLib.mak
+
+.\GameImageLib.cpp : \
+	"..\..\Include\Display.h"\
+	".\Engine.h"\
+	".\GameImageLib.h"\
+	".\IDImage.h"\
+	".\ImageLib.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\IDImage.cpp : \
+	"..\..\Include\Display.h"\
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\Engine.h"\
+	".\IDImage.h"\
+	".\ImageLib.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ImageAni.cpp : \
+	"..\..\Include\Display.h"\
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	"..\..\include\ximage.h"\
+	".\Engine.h"\
+	".\GameImageLib.h"\
+	".\IDImage.h"\
+	".\ImageLib.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ImageLib.cpp : \
+	"..\..\Include\Display.h"\
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\Engine.h"\
+	".\GameImageLib.h"\
+	".\IDImage.h"\
+	".\ImageLib.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

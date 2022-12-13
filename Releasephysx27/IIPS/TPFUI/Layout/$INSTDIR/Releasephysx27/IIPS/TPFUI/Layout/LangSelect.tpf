@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.66.20101019" ColorLib="">
+    <UIObject Type="Dialog" Name="Dlg_LangSelect">
+        <Properties StylePath="Editor.xml/Dialog/Common">
+            <Property Name="XOffset" Value="139" />
+            <Property Name="YOffset" Value="177" />
+            <Property Name="Width" Value="400" />
+            <Property Name="Height" Value="300" />
+            <Property Name="Visible" Value="true" />
+            <Property Name="CreateType" Value="winless" />
+            <Property Name="DisableMoveOut" Value="true" />
+        </Properties>
+        <Children>
+            <UIObject Type="Button" Name="Btn_GoOn">
+                <Properties StylePath="Editor.xml/Button/OKCANCEL">
+                    <Property Name="XOffset" Value="120" />
+                    <Property Name="YOffset" Value="224" />
+                    <Property Name="Width" Value="152" />
+                    <Property Name="Height" Value="21" />
+                    <Property Name="Caption" Value="Go On..." />
+                    <Property Name="TextFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextFontHover" Value="-14;0;0;0;700;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextColorHover" Value="0xff0000" />
+                    <Property Name="Caption_LID" Value="4" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="Stc_LangSelect">
+                <Properties>
+                    <Property Name="XOffset" Value="109" />
+                    <Property Name="YOffset" Value="10" />
+                    <Property Name="Width" Value="160" />
+                    <Property Name="Height" Value="15" />
+                    <Property Name="TextColor" Value="0xffffff" />
+                    <Property Name="Caption" Value="Select A Language" />
+                    <Property Name="AlignMode" Value="CENTER" />
+                    <Property Name="Caption_LID" Value="1" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Container" Name="Ctn_LangSelect">
+                <Properties>
+                    <Property Name="XOffset" Value="6" />
+                    <Property Name="YOffset" Value="37" />
+                    <Property Name="Width" Value="383" />
+                    <Property Name="Height" Value="51" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Excluder" Name="Exd_LangSelect">
+                        <Properties>
+                            <Property Name="XOffset" Value="0" />
+                            <Property Name="YOffset" Value="0" />
+                            <Property Name="Width" Value="0" />
+                            <Property Name="Height" Value="0" />
+                            <Property Name="ExcludeItemList" Value="Btn_Chinese,Btn_English" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="Btn_Chinese">
+                        <Properties>
+                            <Property Name="XOffset" Value="10" />
+                            <Property Name="YOffset" Value="10" />
+                            <Property Name="Width" Value="50" />
+                            <Property Name="Height" Value="30" />
+                            <Property Name="Background" Value="COLOR:RGB:192,192,192;" />
+                            <Property Name="BackgroundPressed" Value="COLOR:RGB:128,128,128;" />
+                            <Property Name="ButtonType" Value="UnreversedButton" />
+                            <Property Name="TextColor" Value="0xffffff" />
+                            <Property Name="TextColorPressed" Value="RGB:0,255,0" />
+                            <Property Name="Checked" Value="true" />
+                            <Property Name="Caption_LID" Value="2" />
+                            <Property Name="TextFontHover_LID" Value="6" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="Btn_English">
+                        <Properties>
+                            <Property Name="XOffset" Value="70" />
+                            <Property Name="YOffset" Value="10" />
+                            <Property Name="Width" Value="50" />
+                            <Property Name="Height" Value="30" />
+                            <Property Name="Background" Value="COLOR:RGB:192,192,192;" />
+                            <Property Name="BackgroundPressed" Value="COLOR:RGB:128,128,128;" />
+                            <Property Name="ButtonType" Value="UnreversedButton" />
+                            <Property Name="TextColor" Value="0xffffff" />
+                            <Property Name="TextColorPressed" Value="RGB:0,255,0" />
+                            <Property Name="Caption_LID" Value="3" />
+                            <Property Name="TextFontHover_LID" Value="6" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

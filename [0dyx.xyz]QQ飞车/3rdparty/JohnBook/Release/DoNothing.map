@@ -1,0 +1,343 @@
+ DoNothing
+
+ Timestamp is 3e4e59b9 (Sat Feb 15 10:16:09 2003)
+
+ Preferred load address is 6f000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000b1cH .text                   CODE
+ 0002:00000000 000000a4H .idata$5                DATA
+ 0002:000000b0 000003f0H .rdata                  DATA
+ 0002:000004a0 00000042H .rdata$debug            DATA
+ 0002:000004f0 00000004H .rdata$sxdata           DATA
+ 0002:000004f4 00000004H .rtc$IAA                DATA
+ 0002:000004f8 00000004H .rtc$IZZ                DATA
+ 0002:000004fc 00000004H .rtc$TAA                DATA
+ 0002:00000500 00000004H .rtc$TZZ                DATA
+ 0002:00000504 00000064H .idata$2                DATA
+ 0002:00000568 00000014H .idata$3                DATA
+ 0002:0000057c 000000a4H .idata$4                DATA
+ 0002:00000620 00000294H .idata$6                DATA
+ 0002:000008c0 0000008cH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCAA               DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000014 00000028H .data                   DATA
+ 0003:0000003c 00000018H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0001:00000000       ?OnInitialize@CDoNothingProfilerCallback@@UAGJXZ 6f001000 f   DoNothing.obj
+ 0001:0000003e       ?OnShutdown@CDoNothingProfilerCallback@@UAGJXZ 6f00103e f   DoNothing.obj
+ 0001:0000006a       ?AllocateProfilerCallback@@YAPAUICorProfilerCallback@@XZ 6f00106a f   DoNothing.obj
+ 0001:0000009c       _DllMain@12                6f00109c f   DoNothing.obj
+ 0001:000000bc       ?AddRef@CBaseProfilerCallback@@UAGKXZ 6f0010bc f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:000000d1       ?Release@CBaseProfilerCallback@@UAGKXZ 6f0010d1 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:000000f3       ?QueryInterface@CBaseProfilerCallback@@UAGJABU_GUID@@PAPAX@Z 6f0010f3 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:000000fb       ?Initialize@CBaseProfilerCallback@@UAGJPAUIUnknown@@@Z 6f0010fb f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000136       ?Shutdown@CBaseProfilerCallback@@UAGJXZ 6f001136 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ClassUnloadStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ExceptionUnwindFunctionEnter@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ExceptionUnwindFinallyEnter@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ThreadCreated@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ExceptionSearchFunctionEnter@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ExceptionOSHandlerLeave@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?JITFunctionPitched@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ExceptionSearchFilterEnter@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ModuleUnloadStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ModuleLoadStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?RuntimeThreadResumed@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?AssemblyUnloadStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?FunctionUnloadStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?AssemblyLoadStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ExceptionSearchCatcherFound@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?RuntimeSuspendStarted@CBaseProfilerCallback@@UAGJW4__MIDL___MIDL_itf_corprof_0000_0005@@@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?LockServer@CClassFactory@@UAGJH@Z 6f001157 f   ProfilerLib:COMInfrastructure.obj
+ 0001:00000157       ?RuntimeThreadSuspended@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ClassLoadStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?AppDomainShutdownStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ThreadDestroyed@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ExceptionThrown@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?AppDomainCreationStarted@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000157       ?ExceptionOSHandlerEnter@CBaseProfilerCallback@@UAGJI@Z 6f001157 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?JITCachedFunctionSearchStarted@CBaseProfilerCallback@@UAGJIPAH@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ThreadAssignedToOSThread@CBaseProfilerCallback@@UAGJIK@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ClassLoadFinished@CBaseProfilerCallback@@UAGJIJ@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ModuleLoadFinished@CBaseProfilerCallback@@UAGJIJ@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?AssemblyUnloadFinished@CBaseProfilerCallback@@UAGJIJ@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?RemotingClientSendingMessage@CBaseProfilerCallback@@UAGJPAU_GUID@@H@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?JITCompilationStarted@CBaseProfilerCallback@@UAGJIH@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?RemotingClientReceivingReply@CBaseProfilerCallback@@UAGJPAU_GUID@@H@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?AppDomainCreationFinished@CBaseProfilerCallback@@UAGJIJ@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?RemotingServerSendingReply@CBaseProfilerCallback@@UAGJPAU_GUID@@H@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ModuleAttachedToAssembly@CBaseProfilerCallback@@UAGJII@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ModuleUnloadFinished@CBaseProfilerCallback@@UAGJIJ@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?JITCachedFunctionSearchFinished@CBaseProfilerCallback@@UAGJIW4__MIDL___MIDL_itf_corprof_0000_0003@@@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?UnmanagedToManagedTransition@CBaseProfilerCallback@@UAGJIW4__MIDL___MIDL_itf_corprof_0000_0004@@@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ExceptionCatcherEnter@CBaseProfilerCallback@@UAGJII@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?RemotingServerReceivingMessage@CBaseProfilerCallback@@UAGJPAU_GUID@@H@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?AssemblyLoadFinished@CBaseProfilerCallback@@UAGJIJ@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?AppDomainShutdownFinished@CBaseProfilerCallback@@UAGJIJ@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ClassUnloadFinished@CBaseProfilerCallback@@UAGJIJ@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ManagedToUnmanagedTransition@CBaseProfilerCallback@@UAGJIW4__MIDL___MIDL_itf_corprof_0000_0004@@@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?RootReferences@CBaseProfilerCallback@@UAGJKQAI@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000015c       ?ObjectAllocated@CBaseProfilerCallback@@UAGJII@Z 6f00115c f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?RemotingServerInvocationReturned@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?ExceptionSearchFunctionLeave@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?RemotingClientInvocationFinished@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?ExceptionSearchFilterLeave@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?ExceptionUnwindFunctionLeave@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?RuntimeResumeFinished@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?RuntimeResumeStarted@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?RuntimeSuspendFinished@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?RuntimeSuspendAborted@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?ExceptionCLRCatcherFound@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?ExceptionCatcherLeave@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?RemotingServerInvocationStarted@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?ExceptionCLRCatcherExecute@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?ExceptionUnwindFinallyLeave@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000161       ?RemotingClientInvocationStarted@CBaseProfilerCallback@@UAGJXZ 6f001161 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000166       ?COMClassicVTableCreated@CBaseProfilerCallback@@UAGJIABU_GUID@@PAXK@Z 6f001166 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000166       ?MovedReferences@CBaseProfilerCallback@@UAGJKQAI0QAK@Z 6f001166 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000166       ?ObjectReferences@CBaseProfilerCallback@@UAGJIIKQAI@Z 6f001166 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000016b       ?JITCompilationFinished@CBaseProfilerCallback@@UAGJIJH@Z 6f00116b f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000016b       ?ObjectsAllocatedByClass@CBaseProfilerCallback@@UAGJKQAIQAK@Z 6f00116b f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000016b       ?JITInlining@CBaseProfilerCallback@@UAGJIIPAH@Z 6f00116b f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:0000016b       ?COMClassicVTableDestroyed@CBaseProfilerCallback@@UAGJIABU_GUID@@PAX@Z 6f00116b f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000170       ?SupposedToProfileThisProcess@CBaseProfilerCallback@@MAEHPBG@Z 6f001170 f   ProfilerLib:BaseProfilerCallback.obj
+ 0001:00000210       ?AddRef@CClassFactory@@UAGKXZ 6f001210 f i ProfilerLib:COMInfrastructure.obj
+ 0001:00000221       ?Release@CClassFactory@@UAGKXZ 6f001221 f i ProfilerLib:COMInfrastructure.obj
+ 0001:00000232       _DllUnregisterServer@0     6f001232 f   ProfilerLib:COMInfrastructure.obj
+ 0001:000002df       _DllRegisterServer@0       6f0012df f   ProfilerLib:COMInfrastructure.obj
+ 0001:000003d1       _DllGetClassObject@12      6f0013d1 f   ProfilerLib:COMInfrastructure.obj
+ 0001:00000405       ?QueryInterface@CClassFactory@@UAGJABU_GUID@@PAPAX@Z 6f001405 f   ProfilerLib:COMInfrastructure.obj
+ 0001:0000044f       ?CreateInstance@CClassFactory@@UAGJPAUIUnknown@@ABU_GUID@@PAPAX@Z 6f00144f f   ProfilerLib:COMInfrastructure.obj
+ 0001:0000046d       ?RegisterClassBase@@YAJABU_GUID@@PBG11PAG@Z 6f00146d f   ProfilerLib:COMInfrastructure.obj
+ 0001:00000539       ?UnregisterClassBase@@YAJABU_GUID@@PBG1PAG@Z 6f001539 f   ProfilerLib:COMInfrastructure.obj
+ 0001:000005f7       ?DeleteKey@@YAHPBG0@Z      6f0015f7 f   ProfilerLib:COMInfrastructure.obj
+ 0001:00000664       ?SetKeyAndValue@@YAHPBG00@Z 6f001664 f   ProfilerLib:COMInfrastructure.obj
+ 0001:00000720       ?SetRegValue@@YAHPAG00@Z   6f001720 f   ProfilerLib:COMInfrastructure.obj
+ 0001:00000780       _IsEqualGUID               6f001780 f i ProfilerLib:COMInfrastructure.obj
+ 0001:00000798       ??2@YAPAXI@Z               6f001798 f   MSVCRT:MSVCR71.dll
+ 0001:0000079e       ??3@YAXPAX@Z               6f00179e f   MSVCRT:MSVCR71.dll
+ 0001:000007a4       __CRT_INIT@12              6f0017a4 f   MSVCRT:crtdll.obj
+ 0001:00000862       __DllMainCRTStartup@12     6f001862 f   MSVCRT:crtdll.obj
+ 0001:00000946       _memcmp                    6f001946 f   MSVCRT:MSVCR71.dll
+ 0001:0000094c       __initterm                 6f00194c f   MSVCRT:MSVCR71.dll
+ 0001:00000952       __onexit                   6f001952 f   MSVCRT:atonexit.obj
+ 0001:00000978       _atexit                    6f001978 f   MSVCRT:atonexit.obj
+ 0001:0000098a       __RTC_Initialize           6f00198a f   MSVCRT:initsect.obj
+ 0001:000009ce       __RTC_Terminate            6f0019ce f   MSVCRT:initsect.obj
+ 0001:00000a12       ___CppXcptFilter           6f001a12 f   MSVCRT:MSVCR71.dll
+ 0001:00000a18       __SEH_prolog               6f001a18 f   MSVCRT:sehprolg.obj
+ 0001:00000a53       __SEH_epilog               6f001a53 f   MSVCRT:sehprolg.obj
+ 0001:00000a64       __except_handler3          6f001a64 f   MSVCRT:MSVCR71.dll
+ 0001:00000a6a       ___dllonexit               6f001a6a f   MSVCRT:MSVCR71.dll
+ 0001:00000aa1       @__security_check_cookie@4 6f001aa1 f   MSVCRT:secchk.obj
+ 0001:00000aaf       ___security_init_cookie    6f001aaf f   MSVCRT:seccinit.obj
+ 0001:00000b16       ___security_error_handler  6f001b16 f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__RegDeleteKeyW@8     6f002000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__RegSetValueExW@24   6f002004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__RegCloseKey@4       6f002008     advapi32:ADVAPI32.dll
+ 0002:0000000c       __imp__RegCreateKeyExW@36  6f00200c     advapi32:ADVAPI32.dll
+ 0002:00000010       \177ADVAPI32_NULL_THUNK_DATA 6f002010     advapi32:ADVAPI32.dll
+ 0002:00000014       __imp__GetCurrentProcessId@0 6f002014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__QueryPerformanceCounter@4 6f002018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__ExitProcess@4       6f00201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__DisableThreadLibraryCalls@4 6f002020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetEnvironmentVariableW@12 6f002024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetTickCount@0      6f002028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetCurrentThreadId@0 6f00202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__Sleep@4             6f002030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__GetModuleFileNameW@12 6f002034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__InterlockedDecrement@4 6f002038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__InterlockedIncrement@4 6f00203c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetSystemTimeAsFileTime@4 6f002040     kernel32:KERNEL32.dll
+ 0002:00000044       \177KERNEL32_NULL_THUNK_DATA 6f002044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp___adjust_fdiv        6f002048     MSVCRT:MSVCR71.dll
+ 0002:0000004c       __imp____CppXcptFilter     6f00204c     MSVCRT:MSVCR71.dll
+ 0002:00000050       __imp__malloc              6f002050     MSVCRT:MSVCR71.dll
+ 0002:00000054       __imp____dllonexit         6f002054     MSVCRT:MSVCR71.dll
+ 0002:00000058       __imp___onexit             6f002058     MSVCRT:MSVCR71.dll
+ 0002:0000005c       __imp___initterm           6f00205c     MSVCRT:MSVCR71.dll
+ 0002:00000060       __imp__free                6f002060     MSVCRT:MSVCR71.dll
+ 0002:00000064       __imp__wcslen              6f002064     MSVCRT:MSVCR71.dll
+ 0002:00000068       __imp__wcscat              6f002068     MSVCRT:MSVCR71.dll
+ 0002:0000006c       __imp__wcscpy              6f00206c     MSVCRT:MSVCR71.dll
+ 0002:00000070       __imp__memcmp              6f002070     MSVCRT:MSVCR71.dll
+ 0002:00000074       __imp__swprintf            6f002074     MSVCRT:MSVCR71.dll
+ 0002:00000078       __imp__wcsrchr             6f002078     MSVCRT:MSVCR71.dll
+ 0002:0000007c       __imp_??2@YAPAXI@Z         6f00207c     MSVCRT:MSVCR71.dll
+ 0002:00000080       __imp_??3@YAXPAX@Z         6f002080     MSVCRT:MSVCR71.dll
+ 0002:00000084       __imp____security_error_handler 6f002084     MSVCRT:MSVCR71.dll
+ 0002:00000088       __imp___wcsicmp            6f002088     MSVCRT:MSVCR71.dll
+ 0002:0000008c       __imp___except_handler3    6f00208c     MSVCRT:MSVCR71.dll
+ 0002:00000090       \177MSVCR71_NULL_THUNK_DATA 6f002090     MSVCRT:MSVCR71.dll
+ 0002:00000094       __imp__MessageBeep@4       6f002094     user32:USER32.dll
+ 0002:00000098       \177USER32_NULL_THUNK_DATA 6f002098     user32:USER32.dll
+ 0002:0000009c       __imp__StringFromGUID2@12  6f00209c     ole32:ole32.dll
+ 0002:000000a0       \177ole32_NULL_THUNK_DATA  6f0020a0     ole32:ole32.dll
+ 0002:000000cc       _IID_ICorProfilerCallback  6f0020cc     corguids:corprof_i.obj
+ 0002:000000dc       _IID_ICorProfilerInfo      6f0020dc     corguids:corprof_i.obj
+ 0002:000000ec       _IID_IMethodMalloc         6f0020ec     corguids:corprof_i.obj
+ 0002:0000012c       _IID_IClassFactory         6f00212c     uuid:unknwn_i.obj
+ 0002:0000013c       _IID_IUnknown              6f00213c     uuid:unknwn_i.obj
+ 0002:00000150       ??_7CDoNothingProfilerCallback@@6B@ 6f002150     DoNothing.obj
+ 0002:0000027c       ??_C@_1BM@CPMFHOHA@?$AAD?$AAO?$AAN?$AAO?$AAT?$AAH?$AAI?$AAN?$AAG?$AAI?$AAN?$AAT?$AA3?$AA?$AA@ 6f00227c     DoNothing.obj
+ 0002:00000298       ??_C@_1BE@PAOJJMIE@?$AAD?$AAo?$AAN?$AAo?$AAt?$AAh?$AAi?$AAn?$AAg?$AA?$AA@ 6f002298     DoNothing.obj
+ 0002:000002ac       ??_C@_1CE@JOMNIFPO@?$AAD?$AAo?$AAN?$AAo?$AAt?$AAh?$AAi?$AAn?$AAg?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAe?$AAr?$AA?$AA@ 6f0022ac     DoNothing.obj
+ 0002:000002d0       ??_C@_1EO@HFFMEDHH@?$AA?$HL?$AAD?$AA2?$AA7?$AA9?$AA6?$AA5?$AAC?$AA4?$AA?9?$AAB?$AA3?$AA6?$AA1?$AA?9?$AA4?$AA7?$AA1?$AA1?$AA?9@ 6f0022d0     DoNothing.obj
+ 0002:00000330       ??_7CClassFactory@@6B@     6f002330     ProfilerLib:COMInfrastructure.obj
+ 0002:00000344       ??_C@_13FPGAJAPJ@?$AA?2?$AA?$AA@ 6f002344     ProfilerLib:COMInfrastructure.obj
+ 0002:00000348       ??_C@_1BM@NDCGEDGI@?$AAN?$AAo?$AAt?$AAI?$AAn?$AAs?$AAe?$AAr?$AAt?$AAa?$AAb?$AAl?$AAe?$AA?$AA@ 6f002348     ProfilerLib:COMInfrastructure.obj
+ 0002:00000364       ??_C@_1DC@MIAMMDBM@?$AAV?$AAe?$AAr?$AAs?$AAi?$AAo?$AAn?$AAI?$AAn?$AAd?$AAe?$AAp?$AAe?$AAn?$AAd?$AAe?$AAn?$AAt?$AAP?$AAr@ 6f002364     ProfilerLib:COMInfrastructure.obj
+ 0002:00000398       ??_C@_1O@HNNDAFP@?$AAP?$AAr?$AAo?$AAg?$AAI?$AAD?$AA?$AA@ 6f002398     ProfilerLib:COMInfrastructure.obj
+ 0002:000003a8       ??_C@_1O@FHIPPLOM@?$AAC?$AAu?$AAr?$AAV?$AAe?$AAr?$AA?$AA@ 6f0023a8     ProfilerLib:COMInfrastructure.obj
+ 0002:000003b8       ??_C@_1O@FHBGLCIO@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?2?$AA?$AA@ 6f0023b8     ProfilerLib:COMInfrastructure.obj
+ 0002:000003c8       ??_C@_1BO@NMEHGCBD@?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AAi?$AAn?$AAg?$AAM?$AAo?$AAd?$AAe?$AAl?$AA?$AA@ 6f0023c8     ProfilerLib:COMInfrastructure.obj
+ 0002:000003e8       ??_C@_19OBNAGCDI@?$AAB?$AAo?$AAt?$AAh?$AA?$AA@ 6f0023e8     ProfilerLib:COMInfrastructure.obj
+ 0002:000003f4       ??_C@_1M@DFKENGJN@?$AA?$CF?$AAs?$AA?2?$AA?$CF?$AAs?$AA?$AA@ 6f0023f4     ProfilerLib:COMInfrastructure.obj
+ 0002:00000400       ??_C@_1M@KANJNLFF@?$AAC?$AAL?$AAS?$AAI?$AAD?$AA?$AA@ 6f002400     ProfilerLib:COMInfrastructure.obj
+ 0002:0000040c       ??_C@_1BO@MNKPAJEP@?$AAI?$AAn?$AAp?$AAr?$AAo?$AAc?$AAS?$AAe?$AAr?$AAv?$AAe?$AAr?$AA3?$AA2?$AA?$AA@ 6f00240c     ProfilerLib:COMInfrastructure.obj
+ 0002:0000042c       ??_C@_1M@BGBPCPFG@?$AA?$CF?$AAs?$AA?4?$AA?$CF?$AAd?$AA?$AA@ 6f00242c     ProfilerLib:COMInfrastructure.obj
+ 0002:00000438       ??_C@_1M@NLNBEAHA@?$AA?$CF?$AAs?$AA?4?$AA?$CF?$AAs?$AA?$AA@ 6f002438     ProfilerLib:COMInfrastructure.obj
+ 0002:00000458       __load_config_used         6f002458     MSVCRT:loadcfg.obj
+ 0002:000004f0       ___safe_se_handler_table   6f0024f0     <linker-defined>
+ 0002:000004f4       ___rtc_iaa                 6f0024f4     MSVCRT:initsect.obj
+ 0002:000004f8       ___rtc_izz                 6f0024f8     MSVCRT:initsect.obj
+ 0002:000004fc       ___rtc_taa                 6f0024fc     MSVCRT:initsect.obj
+ 0002:00000500       ___rtc_tzz                 6f002500     MSVCRT:initsect.obj
+ 0002:00000504       __IMPORT_DESCRIPTOR_KERNEL32 6f002504     kernel32:KERNEL32.dll
+ 0002:00000518       __IMPORT_DESCRIPTOR_USER32 6f002518     user32:USER32.dll
+ 0002:0000052c       __IMPORT_DESCRIPTOR_MSVCR71 6f00252c     MSVCRT:MSVCR71.dll
+ 0002:00000540       __IMPORT_DESCRIPTOR_ADVAPI32 6f002540     advapi32:ADVAPI32.dll
+ 0002:00000554       __IMPORT_DESCRIPTOR_ole32  6f002554     ole32:ole32.dll
+ 0002:00000568       __NULL_IMPORT_DESCRIPTOR   6f002568     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    6f003000     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xc_z                    6f003008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_a                    6f00300c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xi_z                    6f003010     MSVCRT:cinitexe.obj
+ 0003:00000014       ?G_szProfilerGUID@@3PAGA   6f003014     DoNothing.obj
+ 0003:00000018       ?G_CLSID_PROFILER@@3U_GUID@@A 6f003018     DoNothing.obj
+ 0003:00000028       ?G_szProgIDPrefix@@3PAGA   6f003028     DoNothing.obj
+ 0003:0000002c       ?G_szProfilerName@@3PAGA   6f00302c     DoNothing.obj
+ 0003:00000030       ?g_ProfilerClassFactory@@3VCClassFactory@@A 6f003030     ProfilerLib:COMInfrastructure.obj
+ 0003:00000038       ___security_cookie         6f003038     MSVCRT:seccook.obj
+ 0003:00000040       ?G_hInst@@3PAUHINSTANCE__@@A 6f003040     ProfilerLib:COMInfrastructure.obj
+ 0003:00000044       __adjust_fdiv              6f003044     <common>
+ 0003:00000048       ___onexitend               6f003048     <common>
+ 0003:0000004c       ___onexitbegin             6f00304c     <common>
+ 0003:00000050       __pRawDllMain              6f003050     <common>
+
+ entry point at        0001:00000862
+
+ Static symbols
+
+ 0001:00000a70       _report_failure            6f001a70 f   MSVCRT:secchk.obj
+
+Line numbers for .\Release\DoNothing.obj(d:\dev\booktwo\disk\profilerlib\tests\donothing\donothing.cpp) segment .text
+
+    28 0001:00000000    29 0001:00000001    30 0001:0000000c    31 0001:00000016
+    32 0001:0000001a    33 0001:00000021    36 0001:00000025    38 0001:00000038
+    39 0001:0000003b    42 0001:0000003e    43 0001:0000003f    44 0001:0000004a
+    45 0001:00000054    46 0001:00000058    47 0001:0000005f    49 0001:00000064
+    50 0001:00000067    54 0001:0000006a    53 0001:0000006a    56 0001:0000007d
+    58 0001:0000007e    60 0001:00000098    58 0001:00000099    60 0001:0000009b
+    66 0001:0000009c    65 0001:0000009c    69 0001:000000a4    70 0001:000000af
+    75 0001:000000b6    76 0001:000000b9
+
+Line numbers for \Dev\BookTwo\Disk\Release\ProfilerLib.lib(d:\dev\booktwo\disk\profilerlib\baseprofilercallback.cpp) segment .text
+
+    12 0001:000000bc    13 0001:000000bd    14 0001:000000cb    15 0001:000000ce
+    18 0001:000000d1    19 0001:000000d3    21 0001:000000e5    23 0001:000000ec
+    24 0001:000000f0    28 0001:000000f3    29 0001:000000f3    30 0001:000000f8
+    47 0001:000000fb    43 0001:000000fb    49 0001:00000113    51 0001:00000117
+    54 0001:0000011e    56 0001:00000126    58 0001:0000012f    59 0001:00000133
+    67 0001:00000136    68 0001:00000137    70 0001:00000145    72 0001:00000150
+    73 0001:00000154    78 0001:00000157    77 0001:00000157    79 0001:00000159
+    85 0001:0000015c    84 0001:0000015c    86 0001:0000015e   284 0001:00000161
+   285 0001:00000161   286 0001:00000163   450 0001:00000166   449 0001:00000166
+   451 0001:00000168   458 0001:0000016b   457 0001:0000016b   459 0001:0000016d
+   641 0001:00000170   648 0001:00000183   654 0001:0000019d   665 0001:0000019f
+   667 0001:000001ae   670 0001:000001b2   675 0001:000001cc   679 0001:000001ce
+   680 0001:000001dd   682 0001:000001e3   684 0001:000001e9   686 0001:000001eb
+   688 0001:000001ed   690 0001:000001fd   698 0001:00000200
+
+Line numbers for \Dev\BookTwo\Disk\Release\ProfilerLib.lib(d:\dev\booktwo\disk\profilerlib\cominfrastructure.cpp) segment .text
+
+    59 0001:00000210    60 0001:00000210    61 0001:0000021e    65 0001:00000221
+    64 0001:00000221    66 0001:0000022f    89 0001:00000232   100 0001:00000241
+   104 0001:00000264   109 0001:0000027b   111 0001:0000029b   115 0001:000002af
+   117 0001:000002bf   120 0001:000002d2   123 0001:000002df   127 0001:000002f3
+   128 0001:000002f8   144 0001:00000310   148 0001:00000330   155 0001:00000347
+   157 0001:0000036f   160 0001:00000373   166 0001:0000038c   169 0001:000003a2
+   171 0001:000003bb   173 0001:000003bd   177 0001:000003c2   182 0001:000003d1
+   185 0001:000003d2   187 0001:000003eb   190 0001:000003ff   191 0001:00000402
+   195 0001:00000405   196 0001:00000408   200 0001:00000419   202 0001:0000042e
+   210 0001:00000436   212 0001:0000043c   206 0001:00000440   207 0001:00000446
+   213 0001:0000044b   220 0001:0000044f   218 0001:0000044f   222 0001:00000456
+   225 0001:0000045d   227 0001:00000462   229 0001:00000468   230 0001:0000046a
+   237 0001:0000046d   240 0001:0000047f   242 0001:00000491   243 0001:0000049d
+   246 0001:000004ab   247 0001:000004b8   250 0001:000004cd   251 0001:000004d8
+   252 0001:000004e9   255 0001:000004f7   256 0001:00000502   259 0001:00000510
+   260 0001:0000051c   263 0001:00000529   269 0001:00000539   272 0001:0000054d
+   274 0001:0000055f   275 0001:0000056d   278 0001:0000057d   279 0001:0000058a
+   280 0001:00000598   283 0001:000005ac   284 0001:000005b7   287 0001:000005bd
+   288 0001:000005cb   289 0001:000005d6   290 0001:000005e4   293 0001:000005e8
+   297 0001:000005f7   302 0001:00000605   305 0001:00000618   307 0001:00000621
+   308 0001:00000635   312 0001:00000645   315 0001:00000657   320 0001:00000664
+   325 0001:00000673   328 0001:00000686   330 0001:00000690   331 0001:000006a4
+   343 0001:000006b4   346 0001:000006db   354 0001:000006e0   357 0001:00000702
+   359 0001:0000070e   362 0001:00000713   363 0001:00000715   366 0001:00000720
+   378 0001:00000725   381 0001:00000747   389 0001:0000074c   392 0001:0000076d
+   394 0001:00000776   397 0001:0000077b   398 0001:0000077e
+
+Line numbers for \Dev\BookTwo\Disk\Release\ProfilerLib.lib(g:\vsnet\vc7\platformsdk\include\guiddef.h) segment .text
+
+   161 0001:00000780   160 0001:00000780   162 0001:00000797
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:00000952    76 0001:00000952    90 0001:00000977    96 0001:00000978
+    95 0001:00000978    97 0001:00000989
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\crtdll.c) segment .text
+
+   134 0001:000007a4   129 0001:000007a4   135 0001:000007ac   136 0001:000007b4
+   158 0001:000007ba   163 0001:000007cd   168 0001:000007e2   170 0001:000007e6
+   172 0001:000007e9   178 0001:000007f3   179 0001:000007f8   184 0001:00000802
+   189 0001:00000813   192 0001:0000081a   219 0001:00000820   220 0001:00000829
+   225 0001:0000082b   226 0001:00000837   234 0001:0000084d   236 0001:00000854
+   234 0001:0000085b   240 0001:0000085c   241 0001:0000085f   249 0001:00000862
+   250 0001:0000086e   252 0001:00000874   257 0001:00000879   258 0001:00000886
+   260 0001:0000088c   262 0001:00000895   263 0001:0000089e   265 0001:000008aa
+   266 0001:000008b3   268 0001:000008c2   269 0001:000008c4   272 0001:000008c6
+   275 0001:000008d6   283 0001:000008df   286 0001:000008e9   288 0001:000008f2
+   289 0001:00000900   291 0001:00000903   292 0001:00000911   298 0001:0000091f
+   294 0001:00000924   295 0001:0000093c   299 0001:0000093e
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\secchk.c) segment .text
+
+   114 0001:00000a70   116 0001:00000a7c   117 0001:00000a80   119 0001:00000a8d
+   123 0001:00000a98   100 0001:00000aa1   103 0001:00000aa1   104 0001:00000aa7
+   105 0001:00000aa9   107 0001:00000aaa
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\seccinit.c) segment .text
+
+    49 0001:00000aaf    58 0001:00000ab5    67 0001:00000ac6    70 0001:00000ad0
+    75 0001:00000ad6    76 0001:00000ade    77 0001:00000ae6    79 0001:00000aee
+    93 0001:00000af8    94 0001:00000b13
+
+ Exports
+
+  ordinal    name
+
+        1    _DllGetClassObject@12
+               exported name: DllGetClassObject
+        2    _DllRegisterServer@0
+               exported name: DllRegisterServer
+        3    _DllUnregisterServer@0
+               exported name: DllUnregisterServer

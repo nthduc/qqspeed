@@ -1,0 +1,9 @@
+; Copyright (c) 1996-2001, Microsoft Corporation and it suppliers. All rights reserved.
+
+LIBRARY         DoNothing
+
+EXPORTS
+    ; GetGUIDAsString private
+    DllGetClassObject private
+    DllRegisterServer private
+    DllUnregisterServer private

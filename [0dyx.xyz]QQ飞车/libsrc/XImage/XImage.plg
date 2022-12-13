@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XImage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\LIVEIN~1\LOCALS~1\Temp\RSP4A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\Dx8Include" /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"\___IntermediateFiles___\MMOG\XImage_Debug_Win32/" /Fp"\___IntermediateFiles___\MMOG\XImage_Debug_Win32/XImage.pch" /YX /Fo"\___IntermediateFiles___\MMOG\XImage_Debug_Win32/" /Fd"\___IntermediateFiles___\MMOG\XImage_Debug_Win32/" /FD /GZ /c 
+"G:\IQ\GameUI\GameUIDemo\QEngine_From_willim\代码及实例\ClientSource\Modules\XImage\gif89a.cpp"
+"G:\IQ\GameUI\GameUIDemo\QEngine_From_willim\代码及实例\ClientSource\Modules\XImage\xBmp.cpp"
+"G:\IQ\GameUI\GameUIDemo\QEngine_From_willim\代码及实例\ClientSource\Modules\XImage\xFlic.cpp"
+"G:\IQ\GameUI\GameUIDemo\QEngine_From_willim\代码及实例\ClientSource\Modules\XImage\xGif.cpp"
+"G:\IQ\GameUI\GameUIDemo\QEngine_From_willim\代码及实例\ClientSource\Modules\XImage\xPcx.cpp"
+"G:\IQ\GameUI\GameUIDemo\QEngine_From_willim\代码及实例\ClientSource\Modules\XImage\xPsd.cpp"
+"G:\IQ\GameUI\GameUIDemo\QEngine_From_willim\代码及实例\ClientSource\Modules\XImage\xTga.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIVEIN~1\LOCALS~1\Temp\RSP4A.tmp" 
+Creating temporary file "C:\DOCUME~1\LIVEIN~1\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+/nologo /out:"..\..\lib\XImageD.lib" 
+"\___IntermediateFiles___\MMOG\XImage_Debug_Win32\gif89a.obj"
+"\___IntermediateFiles___\MMOG\XImage_Debug_Win32\xBmp.obj"
+"\___IntermediateFiles___\MMOG\XImage_Debug_Win32\xFlic.obj"
+"\___IntermediateFiles___\MMOG\XImage_Debug_Win32\xGif.obj"
+"\___IntermediateFiles___\MMOG\XImage_Debug_Win32\xPcx.obj"
+"\___IntermediateFiles___\MMOG\XImage_Debug_Win32\xPsd.obj"
+"\___IntermediateFiles___\MMOG\XImage_Debug_Win32\xTga.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\LIVEIN~1\LOCALS~1\Temp\RSP4B.tmp"
+<h3>Output Window</h3>
+Compiling...
+gif89a.cpp
+xBmp.cpp
+xFlic.cpp
+xGif.cpp
+xPcx.cpp
+xPsd.cpp
+xTga.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\LIVEIN~1\LOCALS~1\Temp\RSP4C.bat" with contents
+[
+@echo off
+call PostBuild.bat
+]
+Creating command line "C:\DOCUME~1\LIVEIN~1\LOCALS~1\Temp\RSP4C.bat"
+
+copying library files and header files ..................................
+copy files successfully.
+
+
+
+<h3>Results</h3>
+XImageD.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

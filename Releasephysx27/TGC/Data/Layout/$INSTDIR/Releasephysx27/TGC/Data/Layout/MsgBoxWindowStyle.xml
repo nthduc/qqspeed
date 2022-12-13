@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.70.20110727" ColorLib="">
+    <UIObject Type="Dialog" Name="DlgMain">
+        <Properties>
+            <Property Name="XOffset" Value="569" />
+            <Property Name="YOffset" Value="348" />
+            <Property Name="Width" Value="302" />
+            <Property Name="Height" Value="174" />
+            <Property Name="AlwaysOnTop" Value="true" />
+            <Property Name="Background" Value="9IMAGES:MessageBox\1.png;MessageBox\2.png;MessageBox\3.png;MessageBox\4.png;MessageBox\5.png;MessageBox\6.png;MessageBox\7.png;MessageBox\8.png;MessageBox\9.png;Tile;0;" />
+            <Property Name="InitPosition" Value="center" />
+            <Property Name="LayeredWindow" Value="true" />
+        </Properties>
+        <Children>
+            <UIObject Type="TinyContainer" Name="TinyContainer1">
+                <Properties>
+                    <Property Name="XOffset" Value="1" />
+                    <Property Name="YOffset" Value="1" />
+                    <Property Name="Width" Value="300" />
+                    <Property Name="Height" Value="52" />
+                    <Property Name="Transparent" Value="true" />
+                    <Property Name="Background" Value="ONEIMAGE:MessageBox\top.png;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="Caption">
+                <Properties>
+                    <Property Name="XOffset" Value="13" />
+                    <Property Name="YOffset" Value="7" />
+                    <Property Name="Width" Value="179" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="Msg">
+                <Properties>
+                    <Property Name="XOffset" Value="76" />
+                    <Property Name="YOffset" Value="62" />
+                    <Property Name="Width" Value="193" />
+                    <Property Name="Height" Value="54" />
+                    <Property Name="PostType" Value="MiddleMiddle" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="AutoChangeLine" Value="true" />
+                    <Property Name="MultiLine" Value="true" />
+                    <Property Name="WordBreak" Value="true" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyButton" Name="btnOK">
+                <Properties>
+                    <Property Name="XOffset" Value="138" />
+                    <Property Name="YOffset" Value="137" />
+                    <Property Name="Width" Value="76" />
+                    <Property Name="Height" Value="29" />
+                    <Property Name="Background" Value="3HIMAGES:DaemonCenter2\commonBtn\left_normal.png;DaemonCenter2\commonBtn\mid_normal.png;DaemonCenter2\commonBtn\rihgt_normal.png;Stretch;0;" />
+                    <Property Name="BackgroundHover" Value="3HIMAGES:DaemonCenter2\commonBtn\left-hover.png;DaemonCenter2\commonBtn\mid_hover.png;DaemonCenter2\commonBtn\rihgt_hover.png;Stretch;0;" />
+                    <Property Name="BackgroundPressed" Value="3HIMAGES:DaemonCenter2\commonBtn\left_press.png;DaemonCenter2\commonBtn\mid_press.png;DaemonCenter2\commonBtn\right_press.png;Stretch;null;" />
+                    <Property Name="Caption" Value="确 定" />
+                    <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="TextColorHover" Value="RGB:0,70,119" />
+                    <Property Name="TextColorPressed" Value="RGB:0,70,119" />
+                    <Property Name="TextColorDisable" Value="RGB:0,70,119" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Container" Name="Icon">
+                <Properties>
+                    <Property Name="XOffset" Value="29" />
+                    <Property Name="YOffset" Value="62" />
+                    <Property Name="Width" Value="65" />
+                    <Property Name="Height" Value="62" />
+                    <Property Name="AutoSize" Value="true" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyButton" Name="btnCancel">
+                <Properties>
+                    <Property Name="XOffset" Value="220" />
+                    <Property Name="YOffset" Value="137" />
+                    <Property Name="Width" Value="76" />
+                    <Property Name="Height" Value="29" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Background" Value="3HIMAGES:DaemonCenter2\commonBtn\left_normal.png;DaemonCenter2\commonBtn\mid_normal.png;DaemonCenter2\commonBtn\rihgt_normal.png;Stretch;0;" />
+                    <Property Name="BackgroundHover" Value="3HIMAGES:DaemonCenter2\commonBtn\left-hover.png;DaemonCenter2\commonBtn\mid_hover.png;DaemonCenter2\commonBtn\rihgt_hover.png;Stretch;0;" />
+                    <Property Name="BackgroundPressed" Value="3HIMAGES:DaemonCenter2\commonBtn\left_press.png;DaemonCenter2\commonBtn\mid_press.png;DaemonCenter2\commonBtn\right_press.png;Stretch;null;" />
+                    <Property Name="Caption" Value="取 消" />
+                    <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="TextColorHover" Value="RGB:0,70,119" />
+                    <Property Name="TextColorPressed" Value="RGB:0,70,119" />
+                    <Property Name="TextColorDisable" Value="RGB:0,70,119" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="btnClose">
+                <Properties>
+                    <Property Name="XOffset" Value="276" />
+                    <Property Name="YOffset" Value="-1" />
+                    <Property Name="Width" Value="26" />
+                    <Property Name="Height" Value="20" />
+                    <Property Name="Background" Value="ONEIMAGE:MessageBox\close_btn_normal.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:MessageBox\close_btn_hover.png;Tile;0;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:MessageBox\close_btn_press.png;Tile;null;" />
+                    <Property Name="TextFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextFontHover" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextFontPressed" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextFontDisable" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                    <Property Name="TextColor" Value="RGB:24,87,78" />
+                    <Property Name="TextColorHover" Value="RGB:76,128,18" />
+                    <Property Name="TextColorPressed" Value="RGB:28,20,185" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="ctnClient">
+                <Properties>
+                    <Property Name="XOffset" Value="9" />
+                    <Property Name="YOffset" Value="45" />
+                    <Property Name="Width" Value="286" />
+                    <Property Name="Height" Value="78" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyButton" Name="btnIgnore">
+                <Properties>
+                    <Property Name="XOffset" Value="220" />
+                    <Property Name="YOffset" Value="137" />
+                    <Property Name="Width" Value="76" />
+                    <Property Name="Height" Value="29" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Background" Value="3HIMAGES:DaemonCenter2\commonBtn\left_normal.png;DaemonCenter2\commonBtn\mid_normal.png;DaemonCenter2\commonBtn\rihgt_normal.png;Stretch;0;" />
+                    <Property Name="BackgroundHover" Value="3HIMAGES:DaemonCenter2\commonBtn\left-hover.png;DaemonCenter2\commonBtn\mid_hover.png;DaemonCenter2\commonBtn\rihgt_hover.png;Stretch;0;" />
+                    <Property Name="BackgroundPressed" Value="3HIMAGES:DaemonCenter2\commonBtn\left_press.png;DaemonCenter2\commonBtn\mid_press.png;DaemonCenter2\commonBtn\right_press.png;Stretch;null;" />
+                    <Property Name="Caption" Value="忽略" />
+                    <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="TextColorHover" Value="RGB:0,70,119" />
+                    <Property Name="TextColorPressed" Value="RGB:0,70,119" />
+                    <Property Name="TextColorDisable" Value="RGB:0,70,119" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="CheckBox" Name="cbDontAskAgain">
+                <Properties>
+                    <Property Name="XOffset" Value="12" />
+                    <Property Name="YOffset" Value="151" />
+                    <Property Name="Width" Value="97" />
+                    <Property Name="Height" Value="14" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Caption" Value="不再提醒" />
+                    <Property Name="Image" Value="checkbox_unchecked.png" />
+                    <Property Name="ImageChecked" Value="checkbox_checked.png" />
+                    <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="TextColorHover" Value="RGB:0,70,119" />
+                    <Property Name="TextColorPressed" Value="RGB:0,70,119" />
+                    <Property Name="TextColorDisable" Value="RGB:0,70,119" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

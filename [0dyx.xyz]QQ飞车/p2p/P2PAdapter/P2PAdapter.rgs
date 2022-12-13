@@ -1,0 +1,26 @@
+HKCR
+{
+	P2PAdapter.P2PAdapter.1 = s 'P2PAdapter Class'
+	{
+		CLSID = s '{0F9306A2-B0FD-42FD-9BCF-8418A17C781A}'
+	}
+	P2PAdapter.P2PAdapter = s 'P2PAdapter Class'
+	{
+		CLSID = s '{0F9306A2-B0FD-42FD-9BCF-8418A17C781A}'
+		CurVer = s 'P2PAdapter.P2PAdapter.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {0F9306A2-B0FD-42FD-9BCF-8418A17C781A} = s 'P2PAdapter Class'
+		{
+			ProgID = s 'P2PAdapter.P2PAdapter.1'
+			VersionIndependentProgID = s 'P2PAdapter.P2PAdapter'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{3C199741-B557-4231-9506-1851AA3B1C70}'
+		}
+	}
+}

@@ -1,0 +1,819 @@
+
+--- Module:   E:\work\IQ\libsrc\XImage\XImage.vcproj 
+_
+<?xml version="1.0" encoding="gb2312"?>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  1  Error 10: Expecting *
+E:\work\IQ\libsrc\XImage\XImage.vcproj  1  Error 129: declaration expected,
+    identifier 'xml' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  1  Error 129: declaration expected,
+    identifier 'version' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  1  Error 129: declaration expected,
+    identifier 'encoding' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  1  Error 10: Expecting identifier or
+    other declarator
+        _
+	ProjectType="Visual C++"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  3  Error 129: declaration expected,
+    identifier 'VisualStudioProject' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  3  Error 129: declaration expected,
+    identifier 'ProjectType' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  3  Error 10: Expecting identifier or
+    other declarator
+               _
+	Version="7.10"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  4  Error 129: declaration expected,
+    identifier 'Version' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  4  Error 10: Expecting identifier or
+    other declarator
+            _
+	Name="XImage"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  5  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  5  Error 10: Expecting identifier or
+    other declarator
+                   _
+	ProjectGUID="{BFF8E267-DC95-4FA6-B0A1-DAB90991197E}"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  6  Error 129: declaration expected,
+    identifier 'ProjectGUID' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  6  Error 10: Expecting identifier or
+    other declarator
+                      _
+	SccProjectName="&quot;$/程序/Client/Client/libsrc/XImage&quot;, JQEAAAAA"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  7  Error 129: declaration expected,
+    identifier 'SccProjectName' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  7  Error 10: Expecting identifier or
+    other declarator
+                  _
+	SccAuxPath=""
+E:\work\IQ\libsrc\XImage\XImage.vcproj  8  Error 129: declaration expected,
+    identifier 'SccAuxPath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  8  Error 10: Expecting identifier or
+    other declarator
+                    _
+	SccLocalPath="."
+E:\work\IQ\libsrc\XImage\XImage.vcproj  9  Error 129: declaration expected,
+    identifier 'SccLocalPath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  9  Error 10: Expecting identifier or
+    other declarator
+                   _
+	SccProvider="MSSCCI:Microsoft Visual SourceSafe"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  10  Error 129: declaration expected,
+    identifier 'SccProvider' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  10  Error 10: Expecting identifier or
+    other declarator
+               _
+	Keyword="Win32Proj">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  11  Error 129: declaration expected,
+    identifier 'Keyword' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  11  Error 10: Expecting identifier or
+    other declarator
+                  _
+	<Platforms>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  12  Error 129: declaration expected,
+    identifier 'Platforms' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  12  Error 10: Expecting *
+                        _
+			Name="Win32"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  14  Error 129: declaration expected,
+    identifier 'Platform' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  14  Error 129: declaration expected,
+    identifier 'Name' ignored
+                   _
+	</Platforms>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  15  Error 129: declaration expected,
+    identifier 'Platforms' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  15  Error 10: Expecting *
+                       _
+	<Configurations>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  16  Error 129: declaration expected,
+    identifier 'Configurations' ignored
+                 _
+#...        Debug|Win32
+		<Configuration
+E:\work\IQ\libsrc\XImage\XImage.vcproj  17  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                        _
+			Name="Debug|Win32"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  18  Error 129: declaration expected,
+    identifier 'Win32' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  18  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                       _
+			OutputDirectory="../../lib"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  19  Error 129: declaration expected,
+    identifier 'OutputDirectory' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  19  Error 10: Expecting identifier or
+    other declarator
+                                             _
+			IntermediateDirectory="Debug"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  20  Error 129: declaration expected,
+    identifier 'IntermediateDirectory' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  20  Error 10: Expecting identifier or
+    other declarator
+                                         _
+			ConfigurationType="4"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  21  Error 129: declaration expected,
+    identifier 'ConfigurationType' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  21  Error 10: Expecting identifier or
+    other declarator
+                                    _
+			CharacterSet="2">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  22  Error 129: declaration expected,
+    identifier 'CharacterSet' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  22  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  24  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  24  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  24  Error 10: Expecting identifier or
+    other declarator
+                                            _
+				Optimization="0"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  25  Error 129: declaration expected,
+    identifier 'Optimization' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  25  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+				AdditionalIncludeDirectories="../../include"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  26  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  26  Error 10: Expecting identifier or
+    other declarator
+                                                       _
+				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  27  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  27  Error 10: Expecting identifier or
+    other declarator
+                                              _
+				MinimalRebuild="TRUE"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  28  Error 129: declaration expected,
+    identifier 'MinimalRebuild' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  28  Error 10: Expecting identifier or
+    other declarator
+                                                  _
+				BasicRuntimeChecks="3"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  29  Error 129: declaration expected,
+    identifier 'BasicRuntimeChecks' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  29  Error 10: Expecting identifier or
+    other declarator
+                                              _
+				RuntimeLibrary="3"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  30  Error 129: declaration expected,
+    identifier 'RuntimeLibrary' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  30  Error 10: Expecting identifier or
+    other declarator
+                                                    _
+				UsePrecompiledHeader="0"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  31  Error 129: declaration expected,
+    identifier 'UsePrecompiledHeader' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  31  Error 10: Expecting identifier or
+    other declarator
+                                            _
+				WarningLevel="3"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  32  Error 129: declaration expected,
+    identifier 'WarningLevel' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  32  Error 10: Expecting identifier or
+    other declarator
+                                                              _
+				Detect64BitPortabilityProblems="TRUE"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  33  Error 129: declaration expected,
+    identifier 'Detect64BitPortabilityProblems' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  33  Error 10: Expecting identifier or
+    other declarator
+                                                      _
+				DebugInformationFormat="4"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  34  Error 129: declaration expected,
+    identifier 'DebugInformationFormat' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  34  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCCustomBuildTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  36  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  36  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  36  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCLibrarianTool"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  38  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  38  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  38  Error 10: Expecting identifier or
+    other declarator
+                                          _
+				OutputFile="../../lib/XImageD.lib"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  39  Error 129: declaration expected,
+    identifier 'OutputFile' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  39  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+				AdditionalLibraryDirectories="../../lib"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  40  Error 129: declaration expected,
+    identifier 'AdditionalLibraryDirectories' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  40  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCMIDLTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  42  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  42  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  42  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPostBuildEventTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  44  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  44  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  44  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPreBuildEventTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  46  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  46  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  46  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPreLinkEventTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  48  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  48  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  48  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCResourceCompilerTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  50  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  50  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  50  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCWebServiceProxyGeneratorTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  52  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  52  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  52  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCXMLDataGeneratorTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  54  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  54  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  54  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCManagedWrapperGeneratorTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  56  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  56  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  56  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  58  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  58  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  58  Error 10: Expecting identifier or
+    other declarator
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  59  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  59  Error 10: Expecting *
+                  _
+		</Configuration>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  59  Error 129: declaration expected,
+    identifier 'Win32' ignored
+                 _
+#...        Debug|Win32
+		<Configuration
+E:\work\IQ\libsrc\XImage\XImage.vcproj  60  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                        _
+			Name="Release|Win32"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  61  Error 129: declaration expected,
+    identifier 'Win32' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  61  Error 129: declaration expected,
+    identifier 'Name' ignored
+                                       _
+			OutputDirectory="../../lib"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  62  Error 129: declaration expected,
+    identifier 'OutputDirectory' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  62  Error 10: Expecting identifier or
+    other declarator
+                                             _
+			IntermediateDirectory="Release"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  63  Error 129: declaration expected,
+    identifier 'IntermediateDirectory' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  63  Error 10: Expecting identifier or
+    other declarator
+                                         _
+			ConfigurationType="4"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  64  Error 129: declaration expected,
+    identifier 'ConfigurationType' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  64  Error 10: Expecting identifier or
+    other declarator
+                                    _
+			CharacterSet="2">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  65  Error 129: declaration expected,
+    identifier 'CharacterSet' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  65  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCCLCompilerTool"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  67  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  67  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  67  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+				AdditionalIncludeDirectories="../../include"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  68  Error 129: declaration expected,
+    identifier 'AdditionalIncludeDirectories' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  68  Error 10: Expecting identifier or
+    other declarator
+                                                       _
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  69  Error 129: declaration expected,
+    identifier 'PreprocessorDefinitions' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  69  Error 10: Expecting identifier or
+    other declarator
+                                              _
+				RuntimeLibrary="2"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  70  Error 129: declaration expected,
+    identifier 'RuntimeLibrary' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  70  Error 10: Expecting identifier or
+    other declarator
+                                                    _
+				UsePrecompiledHeader="0"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  71  Error 129: declaration expected,
+    identifier 'UsePrecompiledHeader' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  71  Error 10: Expecting identifier or
+    other declarator
+                                            _
+				WarningLevel="3"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  72  Error 129: declaration expected,
+    identifier 'WarningLevel' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  72  Error 10: Expecting identifier or
+    other declarator
+                                                              _
+				Detect64BitPortabilityProblems="TRUE"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  73  Error 129: declaration expected,
+    identifier 'Detect64BitPortabilityProblems' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  73  Error 10: Expecting identifier or
+    other declarator
+                                                      _
+				DebugInformationFormat="3"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  74  Error 129: declaration expected,
+    identifier 'DebugInformationFormat' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  74  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCCustomBuildTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  76  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  76  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  76  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCLibrarianTool"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  78  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  78  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  78  Error 10: Expecting identifier or
+    other declarator
+                                          _
+				OutputFile="../../lib/XImage.lib"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  79  Error 129: declaration expected,
+    identifier 'OutputFile' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  79  Error 10: Expecting identifier or
+    other declarator
+                                                            _
+				AdditionalLibraryDirectories="../../lib"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  80  Error 129: declaration expected,
+    identifier 'AdditionalLibraryDirectories' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  80  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCMIDLTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  82  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  82  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  82  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPostBuildEventTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  84  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  84  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  84  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPreBuildEventTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  86  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  86  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  86  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCPreLinkEventTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  88  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  88  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  88  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCResourceCompilerTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  90  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  90  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  90  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCWebServiceProxyGeneratorTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  92  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  92  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  92  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCXMLDataGeneratorTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  94  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  94  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  94  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCManagedWrapperGeneratorTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  96  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  96  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  96  Error 10: Expecting identifier or
+    other declarator
+                                _
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  98  Error 129: declaration expected,
+    identifier 'Tool' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  98  Error 129: declaration expected,
+    identifier 'Name' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  98  Error 10: Expecting identifier or
+    other declarator
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  99  Error 129: declaration expected,
+    identifier 'Debug' ignored
+                  _
+#...         Debug|Win32
+		</Configuration>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  99  Error 10: Expecting *
+                  _
+		</Configuration>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  99  Error 129: declaration expected,
+    identifier 'Win32' ignored
+                        _
+	</Configurations>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  100  Error 129: declaration expected,
+    identifier 'Configurations' ignored
+                   _
+	<References>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  101  Error 129: declaration expected,
+    identifier 'References' ignored
+                    _
+	</References>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  102  Error 129: declaration expected,
+    identifier 'References' ignored
+              _
+	<Files>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  103  Error 129: declaration expected,
+    identifier 'Files' ignored
+                        _
+			Name="Source Files"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  105  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  105  Error 129: declaration expected,
+    identifier 'Name' ignored
+                              _
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  106  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  106  Error 10: Expecting identifier or
+    other declarator
+                                        _
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  107  Error 129: declaration expected,
+    identifier 'UniqueIdentifier' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  107  Error 10: Expecting identifier or
+    other declarator
+                                _
+				RelativePath=".\gif89a.cpp">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  109  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  109  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  109  Error 10: Expecting identifier or
+    other declarator
+E:\work\IQ\libsrc\XImage\XImage.vcproj  109  Warning 606: Non-ANSI escape
+    sequence: '\g'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  110  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  110  Error 10: Expecting *
+                                _
+				RelativePath=".\xBmp.cpp">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  112  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  112  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  113  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  113  Error 10: Expecting *
+                                _
+				RelativePath=".\xFlic.cpp">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  115  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  115  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  116  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  116  Error 10: Expecting *
+                                _
+				RelativePath=".\xGif.cpp">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  118  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  118  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  118  Warning 606: Non-ANSI escape
+    sequence: '\xG'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  119  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  119  Error 10: Expecting *
+                                _
+				RelativePath=".\xPcx.cpp">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  121  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  121  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  121  Warning 606: Non-ANSI escape
+    sequence: '\xP'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  122  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  122  Error 10: Expecting *
+                                _
+				RelativePath=".\xPsd.cpp">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  124  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  124  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  124  Warning 606: Non-ANSI escape
+    sequence: '\xP'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  125  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  125  Error 10: Expecting *
+                                _
+				RelativePath=".\xTga.cpp">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  127  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  127  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  127  Warning 606: Non-ANSI escape
+    sequence: '\xT'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  128  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  128  Error 10: Expecting *
+                        _
+		</Filter>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  129  Error 129: declaration expected,
+    identifier 'Filter' ignored
+                        _
+			Name="Header Files"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  131  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  131  Error 129: declaration expected,
+    identifier 'Name' ignored
+                              _
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  132  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  132  Error 10: Expecting identifier or
+    other declarator
+                                        _
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  133  Error 129: declaration expected,
+    identifier 'UniqueIdentifier' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  133  Error 10: Expecting identifier or
+    other declarator
+                                _
+				RelativePath=".\Engine.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  135  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  135  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  135  Error 10: Expecting identifier or
+    other declarator
+E:\work\IQ\libsrc\XImage\XImage.vcproj  135  Warning 606: Non-ANSI escape
+    sequence: '\E'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  136  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  136  Error 10: Expecting *
+                                _
+				RelativePath=".\gif89a.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  138  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  138  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  138  Warning 606: Non-ANSI escape
+    sequence: '\g'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  139  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  139  Error 10: Expecting *
+                                _
+				RelativePath=".\xBmp.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  141  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  141  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  142  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  142  Error 10: Expecting *
+                                _
+				RelativePath=".\xFlic.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  144  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  144  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  145  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  145  Error 10: Expecting *
+                                _
+				RelativePath=".\xGif.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  147  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  147  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  147  Warning 606: Non-ANSI escape
+    sequence: '\xG'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  148  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  148  Error 10: Expecting *
+                                _
+				RelativePath=".\xImage.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  150  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  150  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  150  Warning 606: Non-ANSI escape
+    sequence: '\xI'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  151  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  151  Error 10: Expecting *
+                                _
+				RelativePath=".\xPcx.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  153  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  153  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  153  Warning 606: Non-ANSI escape
+    sequence: '\xP'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  154  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  154  Error 10: Expecting *
+                                _
+				RelativePath=".\xPsd.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  156  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  156  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  156  Warning 606: Non-ANSI escape
+    sequence: '\xP'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  157  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  157  Error 10: Expecting *
+                                _
+				RelativePath=".\xTga.h">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  159  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  159  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  159  Warning 606: Non-ANSI escape
+    sequence: '\xT'
+                              _
+			</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  160  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  160  Error 10: Expecting *
+                        _
+		</Filter>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  161  Error 129: declaration expected,
+    identifier 'Filter' ignored
+                        _
+			Name="Resource Files"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  163  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  163  Error 129: declaration expected,
+    identifier 'Name' ignored
+                              _
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
+E:\work\IQ\libsrc\XImage\XImage.vcproj  164  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  164  Error 10: Expecting identifier or
+    other declarator
+                                        _
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  165  Error 129: declaration expected,
+    identifier 'UniqueIdentifier' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  165  Error 10: Expecting identifier or
+    other declarator
+                        _
+		</Filter>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  166  Error 129: declaration expected,
+    identifier 'Filter' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  166  Error 10: Expecting *
+                        _
+			RelativePath=".\ReadMe.txt">
+E:\work\IQ\libsrc\XImage\XImage.vcproj  168  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  168  Error 129: declaration expected,
+    identifier 'RelativePath' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  168  Warning 606: Non-ANSI escape
+    sequence: '\R'
+                      _
+		</File>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  169  Error 129: declaration expected,
+    identifier 'File' ignored
+E:\work\IQ\libsrc\XImage\XImage.vcproj  169  Error 10: Expecting *
+               _
+	</Files>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  170  Error 129: declaration expected,
+    identifier 'Files' ignored
+                _
+	<Globals>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  171  Error 129: declaration expected,
+    identifier 'Globals' ignored
+                 _
+	</Globals>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  172  Error 129: declaration expected,
+    identifier 'Globals' ignored
+                     _
+</VisualStudioProject>
+E:\work\IQ\libsrc\XImage\XImage.vcproj  173  Error 129: declaration expected,
+    identifier 'VisualStudioProject' ignored

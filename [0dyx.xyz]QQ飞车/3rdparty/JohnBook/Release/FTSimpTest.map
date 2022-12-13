@@ -1,0 +1,161 @@
+ FTSimpTest
+
+ Timestamp is 3e4e59ec (Sat Feb 15 10:17:00 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000004aaH .text                   CODE
+ 0002:00000000 00000084H .idata$5                DATA
+ 0002:00000090 00000190H .rdata                  DATA
+ 0002:00000220 00000043H .rdata$debug            DATA
+ 0002:00000270 00000004H .rdata$sxdata           DATA
+ 0002:00000274 00000004H .rtc$IAA                DATA
+ 0002:00000278 00000004H .rtc$IZZ                DATA
+ 0002:0000027c 00000004H .rtc$TAA                DATA
+ 0002:00000280 00000004H .rtc$TZZ                DATA
+ 0002:00000284 0000003cH .idata$2                DATA
+ 0002:000002c0 00000014H .idata$3                DATA
+ 0002:000002d4 00000084H .idata$4                DATA
+ 0002:00000358 0000020cH .idata$6                DATA
+ 0002:00000564 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 00000008H .data                   DATA
+ 0003:00000018 0000001cH .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0001:00000000       ?AThread@@YGIPAX@Z         00401000 f   FTSimpTest.obj
+ 0001:0000001f       ?BThread@@YGIPAX@Z         0040101f f   FTSimpTest.obj
+ 0001:0000004b       ?CThread@@YGIPAX@Z         0040104b f   FTSimpTest.obj
+ 0001:0000007a       ?DoSomeWork@@YAXH@Z        0040107a f   FTSimpTest.obj
+ 0001:0000015b       _wmain                     0040115b f   FTSimpTest.obj
+ 0001:000001ca       _wmainCRTStartup           004011ca f   MSVCRT:wcrtexe.obj
+ 0001:00000362       __XcptFilter               00401362 f   MSVCRT:MSVCR71.dll
+ 0001:00000368       __amsg_exit                00401368 f   MSVCRT:MSVCR71.dll
+ 0001:0000036e       __onexit                   0040136e f   MSVCRT:atonexit.obj
+ 0001:00000394       _atexit                    00401394 f   MSVCRT:atonexit.obj
+ 0001:000003a6       __RTC_Initialize           004013a6 f   MSVCRT:initsect.obj
+ 0001:000003ea       __RTC_Terminate            004013ea f   MSVCRT:initsect.obj
+ 0001:0000042e       __initterm                 0040142e f   MSVCRT:MSVCR71.dll
+ 0001:00000434       __setdefaultprecision      00401434 f   MSVCRT:fp8.obj
+ 0001:00000446       __matherr                  00401446 f   MSVCRT:merr.obj
+ 0001:00000446       __wsetargv                 00401446 f   MSVCRT:wdllargv.obj
+ 0001:0000044c       __SEH_prolog               0040144c f   MSVCRT:sehprolg.obj
+ 0001:00000487       __SEH_epilog               00401487 f   MSVCRT:sehprolg.obj
+ 0001:00000498       __except_handler3          00401498 f   MSVCRT:MSVCR71.dll
+ 0001:0000049e       ___dllonexit               0040149e f   MSVCRT:MSVCR71.dll
+ 0001:000004a4       __controlfp                004014a4 f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp_?SnapFastTraceFiles@@YAXXZ 00402000     FastTrace:FastTrace.dll
+ 0002:00000004       __imp_?GetFastTraceOptions@@YGXPAUtag_FASTTRACEOPTIONS@@@Z 00402004     FastTrace:FastTrace.dll
+ 0002:00000008       __imp_?SetFastTraceOptions@@YGXPAUtag_FASTTRACEOPTIONS@@@Z 00402008     FastTrace:FastTrace.dll
+ 0002:0000000c       __imp_?FlushFastTraceFiles@@YAXXZ 0040200c     FastTrace:FastTrace.dll
+ 0002:00000010       __imp_?FastTrace@@YAXPBGZZ 00402010     FastTrace:FastTrace.dll
+ 0002:00000014       \177FastTrace_NULL_THUNK_DATA 00402014     FastTrace:FastTrace.dll
+ 0002:00000018       __imp__Sleep@4             00402018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__WaitForSingleObject@8 0040201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__CloseHandle@4       00402020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__WaitForMultipleObjects@16 00402024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__OutputDebugStringW@4 00402028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetModuleHandleA@4  0040202c     kernel32:KERNEL32.dll
+ 0002:00000030       \177KERNEL32_NULL_THUNK_DATA 00402030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp___c_exit             00402034     MSVCRT:MSVCR71.dll
+ 0002:00000038       __imp___exit               00402038     MSVCRT:MSVCR71.dll
+ 0002:0000003c       __imp___XcptFilter         0040203c     MSVCRT:MSVCR71.dll
+ 0002:00000040       __imp___beginthreadex      00402040     MSVCRT:MSVCR71.dll
+ 0002:00000044       __imp__exit                00402044     MSVCRT:MSVCR71.dll
+ 0002:00000048       __imp____p___winitenv      00402048     MSVCRT:MSVCR71.dll
+ 0002:0000004c       __imp___amsg_exit          0040204c     MSVCRT:MSVCR71.dll
+ 0002:00000050       __imp____wgetmainargs      00402050     MSVCRT:MSVCR71.dll
+ 0002:00000054       __imp___initterm           00402054     MSVCRT:MSVCR71.dll
+ 0002:00000058       __imp____setusermatherr    00402058     MSVCRT:MSVCR71.dll
+ 0002:0000005c       __imp___adjust_fdiv        0040205c     MSVCRT:MSVCR71.dll
+ 0002:00000060       __imp____p__commode        00402060     MSVCRT:MSVCR71.dll
+ 0002:00000064       __imp____p__fmode          00402064     MSVCRT:MSVCR71.dll
+ 0002:00000068       __imp____set_app_type      00402068     MSVCRT:MSVCR71.dll
+ 0002:0000006c       __imp___except_handler3    0040206c     MSVCRT:MSVCR71.dll
+ 0002:00000070       __imp____dllonexit         00402070     MSVCRT:MSVCR71.dll
+ 0002:00000074       __imp___onexit             00402074     MSVCRT:MSVCR71.dll
+ 0002:00000078       __imp___controlfp          00402078     MSVCRT:MSVCR71.dll
+ 0002:0000007c       __imp___cexit              0040207c     MSVCRT:MSVCR71.dll
+ 0002:00000080       \177MSVCR71_NULL_THUNK_DATA 00402080     MSVCRT:MSVCR71.dll
+ 0002:000000dc       ??_C@_1DM@OLKILJIE@?$AAT?$AAH?$AAI?$AAS?$AA?5?$AAS?$AAH?$AAO?$AAU?$AAL?$AAD?$AA?5?$AAB?$AAE?$AA?5?$AAT?$AAH?$AAE?$AA?5?$AAL@ 004020dc     FTSimpTest.obj
+ 0002:00000118       ??_C@_1DA@COEAEFDB@?$AAH?$AAe?$AAl?$AAl?$AAo?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAF?$AAT?$AAS?$AAi?$AAm?$AAp?$AAT?$AAe?$AAs@ 00402118     FTSimpTest.obj
+ 0002:00000148       ??_C@_1DE@NCDBJMPE@?$AAH?$AAe?$AAl?$AAl?$AAo?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAC?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?5?$AA?9@ 00402148     FTSimpTest.obj
+ 0002:0000017c       ??_C@_1DE@OOFBHPPM@?$AAH?$AAe?$AAl?$AAl?$AAo?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAB?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?5?$AA?9@ 0040217c     FTSimpTest.obj
+ 0002:000001b0       ??_C@_1CI@FGGLFLJO@?$AAH?$AAe?$AAl?$AAl?$AAo?$AA?5?$AAf?$AAr?$AAo?$AAm?$AA?5?$AAA?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?$CB?$AA?$AA@ 004021b0     FTSimpTest.obj
+ 0002:000001d8       __load_config_used         004021d8     MSVCRT:loadcfg.obj
+ 0002:00000270       ___safe_se_handler_table   00402270     <linker-defined>
+ 0002:00000274       ___rtc_iaa                 00402274     MSVCRT:initsect.obj
+ 0002:00000278       ___rtc_izz                 00402278     MSVCRT:initsect.obj
+ 0002:0000027c       ___rtc_taa                 0040227c     MSVCRT:initsect.obj
+ 0002:00000280       ___rtc_tzz                 00402280     MSVCRT:initsect.obj
+ 0002:00000284       __IMPORT_DESCRIPTOR_FastTrace 00402284     FastTrace:FastTrace.dll
+ 0002:00000298       __IMPORT_DESCRIPTOR_KERNEL32 00402298     kernel32:KERNEL32.dll
+ 0002:000002ac       __IMPORT_DESCRIPTOR_MSVCR71 004022ac     MSVCRT:MSVCR71.dll
+ 0002:000002c0       __NULL_IMPORT_DESCRIPTOR   004022c0     FastTrace:FastTrace.dll
+ 0003:00000000       ___xc_a                    00403000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    00403004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    00403008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    0040300c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___defaultmatherr          00403010     MSVCRT:merr.obj
+ 0003:00000014       ___security_cookie         00403014     MSVCRT:seccook.obj
+ 0003:00000018       __dowildcard               00403018     MSVCRT:wildcard.obj
+ 0003:0000001c       __newmode                  0040301c     MSVCRT:_newmode.obj
+ 0003:00000020       __commode                  00403020     MSVCRT:xncommod.obj
+ 0003:00000024       __fmode                    00403024     MSVCRT:xtxtmode.obj
+ 0003:00000028       __adjust_fdiv              00403028     <common>
+ 0003:0000002c       ___onexitend               0040302c     <common>
+ 0003:00000030       ___onexitbegin             00403030     <common>
+
+ entry point at        0001:000001ca
+
+ Static symbols
+
+
+Line numbers for .\Release\FTSimpTest.obj(d:\dev\booktwo\disk\fasttrace\fasttrace\tests\ftsimptest\ftsimptest.cpp) segment .text
+
+    12 0001:00000000    11 0001:00000000    13 0001:00000008    14 0001:00000014
+    15 0001:0000001a    16 0001:0000001c    19 0001:0000001f    21 0001:00000020
+    23 0001:00000028    24 0001:00000030    26 0001:00000045    27 0001:00000048
+    30 0001:0000004b    32 0001:0000004c    34 0001:00000054    35 0001:0000005f
+    37 0001:00000074    38 0001:00000077    41 0001:0000007a    48 0001:00000082
+    49 0001:000000a2    50 0001:000000ab    54 0001:000000b2    61 0001:000000b4
+    66 0001:000000d3    73 0001:000000dd    76 0001:000000ff    78 0001:00000105
+    84 0001:0000010b    88 0001:0000011d    90 0001:00000129    92 0001:0000012b
+    97 0001:0000013b   100 0001:0000014b   102 0001:00000159   105 0001:0000015b
+   108 0001:00000163   109 0001:0000016d   110 0001:00000172   112 0001:00000181
+   114 0001:0000018e   116 0001:00000197   119 0001:0000019d   120 0001:000001aa
+   121 0001:000001b1   122 0001:000001b6   124 0001:000001bc   125 0001:000001c5
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:0000036e    76 0001:0000036e    90 0001:00000393    96 0001:00000394
+    95 0001:00000394    97 0001:000003a5
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\merr.c) segment .text
+
+    33 0001:00000446    32 0001:00000446    34 0001:00000448
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\crtexe.c) segment .text
+
+   202 0001:000001ca   222 0001:000001d6   229 0001:00000231   236 0001:00000234
+   244 0001:0000023d   249 0001:0000024b   250 0001:00000259   257 0001:00000267
+   264 0001:00000273   273 0001:00000278   282 0001:0000027d   283 0001:00000285
+   286 0001:00000291   305 0001:00000296   308 0001:000002a5   319 0001:000002af
+   322 0001:000002b7   329 0001:000002d9   330 0001:000002dd   336 0001:000002e5
+   394 0001:000002f4   395 0001:000002ff   403 0001:00000315   404 0001:0000031a
+   406 0001:00000321   409 0001:00000329   415 0001:00000340   417 0001:00000343
+   418 0001:00000349   420 0001:00000350   424 0001:0000035a   425 0001:0000035c
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\dllargv.c) segment .text
+
+    49 0001:00000446    48 0001:00000446    50 0001:00000448
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\intel\fp8.c) segment .text
+
+    19 0001:00000434    18 0001:00000434    20 0001:00000445

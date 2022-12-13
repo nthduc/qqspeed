@@ -1,0 +1,28 @@
+// P2PAdapter.idl : IDL source for P2PAdapter.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (P2PAdapter.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(3C199741-B557-4231-9506-1851AA3B1C70),
+	version(1.0),
+	helpstring("P2PAdapter 1.0 Type Library")
+]
+library P2PADAPTERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(0F9306A2-B0FD-42FD-9BCF-8418A17C781A),
+		helpstring("P2PAdapter Class")
+	]
+	coclass P2PAdapter
+	{
+		[default] interface IUnknown;
+	};
+};

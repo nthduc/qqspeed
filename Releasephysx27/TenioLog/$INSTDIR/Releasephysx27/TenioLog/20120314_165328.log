@@ -1,0 +1,3 @@
+0	16:53:28	[P4712][T3556][M1011][Trace]CVersionUpdater::InitIPCChannel
+1	16:53:28	[P4712][T3556][M1068][Trace]Result(1) : CIPCChannel::CreateReceiverWindow()
+2	16:53:28	[P4712][T3556][M1011][Trace]CVersionUpdater::InitIPCChannel, LIVEUPDATE_IPC_KEY = QQKart, IPCInit = 1

@@ -1,0 +1,41 @@
+-----------------------------------------------------------------------
+How to install and use SuperSaver
+-----------------------------------------------------------------------
+
+1.  Build the project.  The debug output goes to ..\..\Output and
+    ..\..\Output\1033 amd the release output goes to ..\..\Release and
+    ..\..\Release\1033.
+2.  Determine where you want SuperSaver to reside after the build.
+    (I'll use c:\foo for the rest of the instructions).
+3.  Create the directorys c:\foo and c:\foo\1033.
+4.  Copy SuperSaver.dll and SuperSaverShim.dll to c:\foo.
+5.  Copy SuperSaverResources.dll to c:\foo\1033.
+6.  Open a DOS box and move to c:\foo.
+7.  Execute the following commands:
+    
+    regsvr32 /s /c SuperSaverShim.dll
+    regasm SuperSaver.dll /codebase /tlb:SuperSaver.tlb /nologo
+
+8.  Open the SuperSaver.AddIn.REG file.
+9.  Edit the path in SatelliteDllPath to say "c:\\foo\\"
+10. Run the following command:
+    
+    regedit SuperSaver.AddIn.REG
+    
+10. Start DEVENV.EXE.
+11. Assign SuperSaver.SuperSaverSave to your CTRL+S key.
+12. Assign SuperSaver.SuperSaverSaveAll to your CTRL+SHIFT+S key.
+    
+-----------------------------------------------------------------------
+How to Uninstall SuperSaver
+-----------------------------------------------------------------------
+1.  Assign File.SaveSelectedItems to CTRL+S.
+2.  Assign File.SaveAll to CTRL+SHIFT+S
+3.  In the AddIns dialog, uncheck all checks on the SuperSaver line.
+4.  Close DEVENV.EXE.
+5.  Remove the registry key
+    HKCU\SOFTWARE\Microsoft\VisualStudio\7.0\AddIns\SuperSaver
+6.  Restart DEVENV.EXE.
+7.  Copy the SSRemoveMacro.VB into the VSA Macros.
+8.  Run the RemoveSuperSaverBarsAndCommands macro.
+    

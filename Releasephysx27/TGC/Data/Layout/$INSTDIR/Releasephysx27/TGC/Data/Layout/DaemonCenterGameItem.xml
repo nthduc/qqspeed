@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110223" ColorLib="">
+    <UIObject Type="Container" Name="DaemonGameItem">
+        <Properties>
+            <Property Name="XOffset" Value="626" />
+            <Property Name="YOffset" Value="226" />
+            <Property Name="Width" Value="230" />
+            <Property Name="Height" Value="47" />
+        </Properties>
+        <Children>
+            <UIObject Type="TinyContainer" Name="icon">
+                <Properties>
+                    <Property Name="XOffset" Value="-1" />
+                    <Property Name="YOffset" Value="5" />
+                    <Property Name="Width" Value="25" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Transparent" Value="true" />
+                    <Property Name="Background" Value="ONEIMAGE:DaemonCenter2\icon.png;Tile;0;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="txtGame">
+                <Properties>
+                    <Property Name="XOffset" Value="25" />
+                    <Property Name="YOffset" Value="11" />
+                    <Property Name="Width" Value="90" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="TextColor" Value="RGB:255,255,255" />
+                    <Property Name="Caption" Value="Dota/联通区" />
+                    <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;0;3;2;1;34;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="area_uin">
+                <Properties>
+                    <Property Name="XOffset" Value="8" />
+                    <Property Name="YOffset" Value="4" />
+                    <Property Name="Width" Value="218" />
+                    <Property Name="Height" Value="20" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="Caption" Value="天灾(123456789)" />
+                    <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="Static2">
+                <Properties>
+                    <Property Name="XOffset" Value="9" />
+                    <Property Name="YOffset" Value="24" />
+                    <Property Name="Width" Value="61" />
+                    <Property Name="Height" Value="20" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="Caption" Value="降低延时:" />
+                    <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="txtEffect">
+                <Properties>
+                    <Property Name="XOffset" Value="69" />
+                    <Property Name="YOffset" Value="25" />
+                    <Property Name="Width" Value="45" />
+                    <Property Name="Height" Value="13" />
+                    <Property Name="Caption" Value="70%" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyButton" Name="btnStop">
+                <Properties>
+                    <Property Name="XOffset" Value="151" />
+                    <Property Name="YOffset" Value="13" />
+                    <Property Name="Width" Value="57" />
+                    <Property Name="Height" Value="20" />
+                    <Property Name="Background" Value="3HIMAGES:DaemonCenter2\btn_acc_list\n_l.png;DaemonCenter2\btn_acc_list\n_m.png;DaemonCenter2\btn_acc_list\n_r.png;Stretch;0;" />
+                    <Property Name="BackgroundHover" Value="3HIMAGES:DaemonCenter2\btn_acc_list\h_l.png;DaemonCenter2\btn_acc_list\h_m.png;DaemonCenter2\btn_acc_list\h_r.png;Stretch;null;" />
+                    <Property Name="BackgroundPressed" Value="3HIMAGES:DaemonCenter2\btn_acc_list\c_l.png;DaemonCenter2\btn_acc_list\c_m.png;DaemonCenter2\btn_acc_list\c_r.png;Stretch;null;" />
+                    <Property Name="Caption" Value="查看详情" />
+                    <Property Name="TextColor" Value="RGB:0,70,119" />
+                    <Property Name="TextColorHover" Value="RGB:0,70,119" />
+                    <Property Name="TextColorPressed" Value="RGB:0,70,119" />
+                    <Property Name="TextColorDisable" Value="RGB:0,70,119" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="TinyContainer1">
+                <Properties>
+                    <Property Name="XOffset" Value="0" />
+                    <Property Name="YOffset" Value="45" />
+                    <Property Name="Width" Value="230" />
+                    <Property Name="Height" Value="3" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Background" Value="ONEIMAGE:DaemonCenter2\split.png;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

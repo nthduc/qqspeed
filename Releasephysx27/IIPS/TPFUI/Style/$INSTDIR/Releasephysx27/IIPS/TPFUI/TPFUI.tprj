@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TPFProject>
+    <Config Res="IIPSRes" Style="Style" Colorlib="ColorLib" Layout="Layout" Scripte="Script" Localization="Localization" />
+    <Layout>
+        <File>Layout\Root.tpf</File>
+        <File>Layout\LangSelect.tpf</File>
+        <File>Layout\Login.tpf</File>
+        <File>Layout\SelectDir.tpf</File>
+        <File>Layout\SystemSetting.tpf</File>
+    </Layout>
+    <Script />
+</TPFProject>

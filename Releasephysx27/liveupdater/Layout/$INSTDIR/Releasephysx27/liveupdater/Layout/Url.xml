@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110107" ColorLib="">
+    <UIObject Type="Container" Name="Container1">
+        <Properties>
+            <Property Name="XOffset" Value="99" />
+            <Property Name="YOffset" Value="109" />
+            <Property Name="Width" Value="427" />
+            <Property Name="Height" Value="241" />
+            <Property Name="Background" Value="COLOR:RGB:0,0,0;" />
+        </Properties>
+        <Children>
+            <UIObject Type="Container" Name="Container1">
+                <Properties>
+                    <Property Name="XOffset" Value="0" />
+                    <Property Name="YOffset" Value="216" />
+                    <Property Name="Width" Value="427" />
+                    <Property Name="Height" Value="15" />
+                    <Property Name="LayoutMode" Value="Bottom" />
+                    <Property Name="PostType" Value="BottomMiddle" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Button" Name="Button1">
+                        <Properties>
+                            <Property Name="XOffset" Value="179" />
+                            <Property Name="YOffset" Value="0" />
+                            <Property Name="Width" Value="68" />
+                            <Property Name="Height" Value="14" />
+                            <Property Name="Background" Value="" />
+                            <Property Name="BackgroundHover" Value="" />
+                            <Property Name="BackgroundPressed" Value="" />
+                            <Property Name="BackgroundDisable" Value="" />
+                            <Property Name="Caption" Value="去官网下载" />
+                            <Property Name="TextFont" Value="-12;0;0;0;400;0;1;0;134;3;2;1;34;微软雅黑" />
+                            <Property Name="TextFontHover" Value="-12;0;0;0;400;0;1;0;134;3;2;1;34;微软雅黑" />
+                            <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;1;0;134;3;2;1;2;微软雅黑" />
+                            <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;1;0;134;3;2;1;2;微软雅黑" />
+                            <Property Name="TextColor" Value="RGB:210,210,210" />
+                            <Property Name="TextColorHover" Value="RGB:238,198,10" />
+                            <Property Name="TextColorPressed" Value="RGB:200,50,50" />
+                            <Property Name="TextColorDisable" Value="RGB:192,192,192" />
+                            <Property Name="AutoSize" Value="true" />
+                            <Property Name="URL" Value="http://speed.qq.com/" />
+                            <Property Name="LayoutMode" Value="Post" />
+                            <Property Name="PostType" Value="TopMiddle" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

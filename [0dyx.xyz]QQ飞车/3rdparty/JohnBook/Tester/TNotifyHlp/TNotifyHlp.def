@@ -1,0 +1,15 @@
+;-----------------------------------------------------------------------
+; Debugging Applications for Microsoft .NET and Microsoft Windows
+; Copyright © 1997-2003 John Robbins -- All rights reserved.
+;-----------------------------------------------------------------------
+LIBRARY         TNotifyHlp
+
+; The shared data setting.
+SECTIONS
+    .HOOKDATA Read Write Shared
+
+EXPORTS
+    AddNotifyTitle
+    RemoveNotifyTitle
+    CheckNotifyCreateTitle
+    CheckNotifyDestroyTitle

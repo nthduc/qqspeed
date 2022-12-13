@@ -1,0 +1,9 @@
+; VSNetToolHostShim.def : Declares the module parameters.
+
+LIBRARY      "VSNetToolHostShim.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

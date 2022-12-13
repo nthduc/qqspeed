@@ -1,0 +1,64 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>AIL_set_digital_master_reverb</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="sets the global reverb settings to use.">
+<meta name="ms-hkwd" content="AIL_set_digital_master_reverb">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>AIL_set_digital_master_reverb</h1>
+<p>The function  <b>AIL_set_digital_master_reverb</b> sets the global reverb settings to use.</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b><a href="void.html" class=trn>void</a> <a href="AIL_set_digital_mast3hdbfa.html" class=trn>AIL_set_digital_master_reverb</a>(</b>
+<b>&nbsp;&nbsp;<a href="HDIGDRIVER.html" class=trn>HDIGDRIVER</a>&nbsp;</b><i>dig</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>reverb_time</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>reverb_predelay</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>reverb_damping</i>
+<b>);</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Parameters</h4>
+<dl>
+<dt><i>dig</i></dt>
+<dd>indicates the driver for which the new master reverb settings are to be specified.</dd>
+<dt><i>reverb_time</i></dt>
+<dd>specifies the total reverb time from 0.0 to 8.0 seconds.</dd>
+<dt><i>reverb_predelay</i></dt>
+<dd>specifies the delay before the reverb will be heard from 0.0 to 0.250 seconds.</dd>
+<dt><i>reverb_damping</i></dt>
+<dd>specifies the high frequency damping that should be performed - this is a low-pass filter performed on the samples that are fed to the reverb engine. Specified from 0.0 to 1.0 relative to playback frequency of the sample.</dd>
+</dl>
+<h4>Discussion</h4>
+<p>The <a href="AIL_set_digital_masta9n13r.html">AIL_set_digital_master_room_type</a> function uses this function to set EAX compatible room styles. </p><p>You need to set a non-zero wet reverb level of any samples that you want to apply global reverb to - use the <a href="AIL_set_sample_reverolliaa.html">AIL_set_sample_reverb_levels</a> to do this. </p><p>Global reverb is very inexpensive to apply (about 0.25% - one forth of one percent - per sample). </p><p>This function is not supported on Xbox, as the hardware reverb system is much more sophisticated and should be programmed directly. See the Xbox docs for details. </p>
+<p>
+<br>
+<b>Group:</b>
+<a href="2D Digital Audio Services.html">2D Digital Audio Services</a><br>
+<b>Related Sections:</b>
+<a href="EAX Compatible Reverb.html">EAX Compatible Reverb</a><br>
+<b>Related Functions:</b>
+<a href="AIL_DLS_set_reverb_levels.html">AIL_DLS_set_reverb_levels</a>, <a href="AIL_digital_master_r9odawz.html">AIL_digital_master_reverb_levels</a>, <a href="AIL_quick_set_reverbolliaa.html">AIL_quick_set_reverb_levels</a>, <a href="AIL_set_digital_masta9n13r.html">AIL_set_digital_master_room_type</a>, <a href="AIL_set_sample_reverolliaa.html">AIL_set_sample_reverb_levels</a>, <a href="AIL_set_stream_reverolliaa.html">AIL_set_stream_reverb_levels</a><br>
+<b>Related Basic Types:</b>
+<a href="F32.html">F32</a>, <a href="HDIGDRIVER.html">HDIGDRIVER</a>, <a href="void.html">void</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

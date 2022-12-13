@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.69.20110329" ColorLib="">
+    <UIObject Type="Dialog" Name="SelectUI">
+        <Properties>
+            <Property Name="XOffset" Value="0" />
+            <Property Name="YOffset" Value="0" />
+            <Property Name="Width" Value="373" />
+            <Property Name="Height" Value="205" />
+            <Property Name="Background" Value="ONEIMAGE:back\SelectDir\底图.tga;Tile;null;" />
+        </Properties>
+        <Children>
+            <UIObject Type="Edit" Name="Edit_SelectDir">
+                <Properties>
+                    <Property Name="XOffset" Value="36" />
+                    <Property Name="YOffset" Value="87" />
+                    <Property Name="Width" Value="310" />
+                    <Property Name="Height" Value="16" />
+                    <Property Name="Caption" Value="C:\Test\" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_SelectDir">
+                <Properties>
+                    <Property Name="XOffset" Value="296" />
+                    <Property Name="YOffset" Value="82" />
+                    <Property Name="Width" Value="55" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:back\SelectDir\更改_3_正常.tga;Tile;null;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:back\SelectDir\更改_2_经过.tga;Tile;null;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:back\SelectDir\更改_1_按下.tga;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_OK">
+                <Properties>
+                    <Property Name="XOffset" Value="155" />
+                    <Property Name="YOffset" Value="163" />
+                    <Property Name="Width" Value="55" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:back\SelectDir\更改_3_正常.tga;Tile;null;" />
+                    <Property Name="Caption" Value="OK" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_Close">
+                <Properties StylePath="Editor.xml/Button/DlgClose">
+                    <Property Name="XOffset" Value="331" />
+                    <Property Name="YOffset" Value="12" />
+                    <Property Name="Width" Value="25" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:back\按钮\关闭_3_正常.png;Tile;null;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:back\按钮\关闭_2_经过.png;Tile;null;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:back\按钮\关闭_1_按下.png;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

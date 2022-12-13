@@ -1,0 +1,8 @@
+; QQTHelp.def : Declares the module parameters for the DLL.
+
+LIBRARY      "QQTHelp"
+DESCRIPTION  'QQTHelp Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	QQExceptionFilter	@1

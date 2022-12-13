@@ -1,0 +1,38 @@
+// guiAdapter.idl : IDL source for guiAdapter.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (guiAdapter.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(8435198B-B4A4-4A3C-B830-B330CE230F35),
+		helpstring("IGUI Interface"),
+		pointer_default(unique)
+	]
+	interface IGUI : IUnknown
+	{
+		HRESULT GoToScreen(LPCSTR);
+	};
+
+[
+	uuid(A48F09AB-B60F-4914-8411-DC24AABBAEA2),
+	version(1.0),
+	helpstring("guiAdapter 1.0 Type Library")
+]
+library GUIADAPTERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(8CA98913-E8D1-43BF-8561-5B8A2D7E332D),
+		helpstring("GUIImpl Class")
+	]
+	coclass GUIImpl
+	{
+		[default] interface IGUI;
+	};
+};

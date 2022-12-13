@@ -1,0 +1,3 @@
+#/usr/bin/bash
+./xml2h ov_res.xml ov_res.h
+./xml2bin ov_res.xml ov_res.bin

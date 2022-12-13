@@ -1,0 +1,259 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DbgChooser.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DbgChooser.ico"
+IDI_IWINDBG             ICON                    "Res\\WinDBG.ico"
+IDI_IDRWATSON           ICON                    "Res\\DRWatson.ico"
+IDI_IMSDEV              ICON                    "Res\\MSDev.ICO"
+IDI_INODEBUG            ICON                    "Res\\NO.ico"
+IDI_IDEVENV             ICON                    "Res\\DevEnv.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 273, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About DbgChooser"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DbgChooser Version 3.0",IDC_STATIC,40,10,155,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright © 1999-2002 - John Robbins - www.wintellect.com",
+                    IDC_STATIC,40,32,218,8
+    DEFPUSHBUTTON   "OK",IDOK,216,7,50,14,WS_GROUP
+    LTEXT           "Debugging .NET and Windows-based Applications",
+                    IDC_STATIC,40,21,195,8,SS_NOPREFIX
+    LTEXT           "DbgChooser allows you to select the debugger to execute when a program crashes.  If you use the default settings, make sure all the programs are in the path.",
+                    IDC_STATIC,7,46,259,25
+    LTEXT           "Please see theDebugging .NET and Windows-based Applications for more information on how to make the most of DbgChooser.",
+                    IDC_STATIC,7,72,259,20
+    LTEXT           "To set the default back to a regular debugger:\r\nVS.NET:\tDebugging folder, Just-In-Time node, check Native in the Options\r\n\t\tdialog\r\nVC 6.0:\t\tCheck ""Just-in-time Debugging"" in the Project Options Dialog.",
+                    IDC_STATIC,7,92,259,34
+    LTEXT           "WinDBG:\tRun ""WinDBG -I""\r\nDr. Watson:\tRun ""DRWTSN32 -I""",
+                    IDC_STATIC,7,125,259,19
+END
+
+IDD_DBGCHOOSER_DIALOG DIALOGEX 0, 0, 175, 138
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+CAPTION "Debugger Chooser"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDI_IDEVENV,IDI_IDEVENV,7,7,20,20
+    PUSHBUTTON      "&Visual Studio.NET",IDC_VCSEVENDEBUGGER,36,9,132,16
+    ICON            IDI_IMSDEV,IDC_STATIC,7,33,20,20
+    PUSHBUTTON      "Visual &C++ 6.0 Debugger",IDC_VCDEBUGGER,36,35,132,16
+    ICON            IDI_IWINDBG,IDC_STATIC,7,59,20,20
+    PUSHBUTTON      "&WinDBG",IDC_WINDBGDEBUGGER,36,61,132,16
+    ICON            IDI_IDRWATSON,IDC_STATIC,7,85,20,20
+    PUSHBUTTON      "&Dr. Watson",IDC_DRWATSONDEBUGGER,36,87,132,16
+    ICON            IDI_INODEBUG,IDC_STATIC,7,111,20,20
+    PUSHBUTTON      "Do &Not Debug This Crash",IDC_DONOTDEBUG,36,113,132,16
+END
+
+IDD_CONFIGUREDBGCHOOSER DIALOGEX 0, 0, 276, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configure Debugger Chooser"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "&Visual Studio.NET debugger command line:",IDC_STATIC,7,
+                    7,193,11
+    EDITTEXT        IDC_VCSEVENDBGCONFIG,7,21,193,13,ES_AUTOHSCROLL
+    LTEXT           "Visual &C++ 6 debugger command line:",IDC_STATIC,7,37,
+                    193,11
+    EDITTEXT        IDC_VCDBGCONFIG,7,51,193,13,ES_AUTOHSCROLL
+    LTEXT           "&WinDBG debugger command line:",IDC_STATIC,7,67,193,11
+    EDITTEXT        IDC_WINDBGCONFIG,7,81,193,13,ES_AUTOHSCROLL
+    LTEXT           "&Dr. Watson debugger command line:",IDC_STATIC,7,97,193,
+                    11
+    EDITTEXT        IDC_DRWATSONDBGCONFIG,7,111,193,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,219,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,219,24,50,14
+    PUSHBUTTON      "&Help",IDHELP,219,43,50,14
+    LTEXT           "- The ""-p %ld -e%ld"" must always stay in that order.\r\n- Pressing OK sets DbgChooser as the default debugger \r\n- Either specify exact paths to the debuggers or ensure they are in the path.\r\n- Make sure to restart TASKMGR after pressing OK.",
+                    IDC_STATIC,7,127,262,36,SS_SUNKEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,0
+ PRODUCTVERSION 3,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "De Opresso Liber"
+            VALUE "CompanyName", "Debugging Applications for Microsoft .NET and Microsoft Windows"
+            VALUE "FileDescription", "DbgChooser - Choose the debugger!"
+            VALUE "FileVersion", "3.0.000"
+            VALUE "InternalName", "DbgChooser"
+            VALUE "LegalCopyright", "Copyright © 1997-2003 - John Robbins"
+            VALUE "OriginalFilename", "DbgChooser.EXE"
+            VALUE "ProductName", "DbgChooser Application"
+            VALUE "ProductVersion", "3.0.000"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_DBGCHOOSER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_CONFIGUREDBGCHOOSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About DbgChooser..."
+    IDS_NOSPAWN             "Unable to start %s\r\nMake sure the program is either completely specified with the full path name or have the program in the path."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\DbgChooser.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

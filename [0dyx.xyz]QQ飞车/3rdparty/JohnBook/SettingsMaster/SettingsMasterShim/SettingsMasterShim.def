@@ -1,0 +1,16 @@
+;-----------------------------------------------------------------------
+; Debugging Applications for Microsoft .NET and Microsoft Windows
+; John Robbins
+;
+; Code Originally By Leo Notenboom Feb 2002 MSDN Magazine.
+; Thanks for letting me use it, Leo!
+;------------------------------------------------------------------------
+; SettingsMasterShim.def : Declares the module parameters.
+
+LIBRARY      "SettingsMasterShim.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

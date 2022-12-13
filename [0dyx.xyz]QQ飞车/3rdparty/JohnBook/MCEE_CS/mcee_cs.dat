@@ -1,0 +1,219 @@
+; -------------------------------------
+; auto-expansion rules for the managed EE [mcee.dll]
+; -------------------------------------
+; grammar meta symbols:
+; -------------------------------------
+; -> : derivation direction
+; | : union
+; -------------------------------------
+; grammar symbols:
+; -------------------------------------
+; = : separation between <type-expr> and value-term
+; < : open angle bracket that delimits either type-expr or identifier-expr
+; > : close angle bracket that delimits either type-expr or identifier-expr
+; alphanumeric: valid variable name
+; punctuator: valid operator/punctuator except < and >
+; -------------------------------------
+; The grammar for auto-expansion rules:
+; -------------------------------------
+; <type-expr> = value-term
+; value-term = literal
+; value-term = literal <identifier-expr>
+; value-term = value-term value-term
+; <type-expr> = literal <identifier-expr>
+;
+; type-expr -> alphanumeric
+; type-expr -> alphanumeric.type-expr
+; type-expr -> type-expr, type-modifier
+;
+; type-modifier -> + | -
+;
+; literal -> alphnumeric | punctuator
+;
+; punctuators -> = | { +, -, *, /, .... }
+;
+; identifier-expr -> alphanumeric
+; identifier-expr -> identifier-expr, identifier-modifier
+;
+; identifier-modifier -> d | o | h
+; -------------------------------------
+;
+; type-expr : the name of type that is considered intrinsic to the language [CSharp/managed C++]
+; type-modifier + : allow manual expansion of children
+; type-modifier - : disallow manual expansion of children
+;
+; literal : the literal string to be concatenated with <identifier-expr> and
+                        to be displayed on value-field of the debugger window
+; identifier-expr : the name of child of a variable of type: <type-expr>
+;
+; identifier-modifier d : request decimal value representation
+; identifier-modifier o : request octal value representation
+; identifier-modifier h : request hexadecimal value representation
+; -------------------------------------
+; some real world examples:
+;
+; // declared class
+; class CRect {
+;       int m_x;
+;       int m_y;
+;       int m_width;
+;       int m_height;
+; };
+;
+; // runtime values: {m_x = 1, m_y = 2, m_width = 10, m_height = 20}
+;
+; <CRect>=m_x=<m_x>
+;       auto-expansion: {m_x=1}
+;
+; <CRect> = m_x <m_x>
+;       auto-expansion: {m_x=1}
+;
+; <CRect>=m_x<m_x> m_y<m_y>
+;       auto-expansion: {m_x=1 m_y=2}
+;
+; <CRect,->=m_x<m_x> m_y<m_y>
+;       auto-expansion: {m_x=1 m_y=2} // same as above, however, manual expansion is disallowed
+;
+; <CRect,+>=m_x<m_x, h> m_y<m_y, o>
+;       auto-expansion: {m_x=0x1 m_y=02}
+
+
+; Added by John Robbins.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+<System.Threading.Thread>=Name=<Name>
+<System.Diagnostics.Process>=ID=<Id,h> <MainModule.ModuleName>
+<System.Diagnostics.TraceSwitch>=Level=<Level>
+<System.Diagnostics.ProcessModule>=<FileName>
+<System.Text.StringBuilder>=<m_StringValue>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+; C# Language Intrinsics
+<System.Byte>=<m_value>
+<System.Char>=<m_value>
+<System.Double>=<m_value>
+<System.Int16>=<m_value>
+<System.UInt16>=<m_value>
+<System.Int32>=<m_value>
+<System.UInt32>=<m_value>
+<System.Int64>=<m_value>
+<System.UInt64>=<m_value>
+<System.SByte>=<m_value>
+<System.Single>=<m_value>
+<System.Boolean>=<m_value>
+
+; mscorlib Common Types
+; (Date is in US format, change to suit)
+<System.DateTime>=<Month>/<Day>/<Year>
+<System.Type>=<FullName>
+<System.Collections.ArrayList>=Count=<Count>
+<System.Collections.Hashtable>=Count=<Count>
+<System.Collections.Queue>=Count=<Count>
+<System.Collections.SortedList>=Count=<Count>
+<System.Collections.Stack>=Count=<Count>
+
+; mscorlib common exceptions
+<System.Exception>=<Message>
+<System.ApplicationException>=<Message>
+<System.ArgumentException>=<Message>
+<System.ArgumentNullException>=<Message>
+<System.ArgumentOutOfRangeException>=<Message>
+<System.ArithmeticException>=<Message>
+<System.DivideByZeroException>=<Message>
+<System.DllNotFoundException>=<Message>
+<System.ApplicationException>=<Message>
+<System.IndexOutOfRangeException>=<Message>
+<System.InvalidCastException>=<Message>
+<System.MemberAccessException>=<Message>
+<System.MethodAccessException>=<Message>
+<System.NullReferenceException>=<Message>
+<System.StackOverflowException>=<Message>
+<System.SystemException>=<Message>
+<System.TypeLoadException>=<TypeName>
+<System.IO.FileLoadException>=<FileName>
+<System.IO.FileNotFoundException>=<FileName>
+<System.Reflection.ReflectionTypeLoadException>=<Message>
+<System.Security.SecurityException>=<Message>
+
+; System.Drawing
+<System.Drawing.Color>=RGB=<value,h>
+<System.Drawing.Font>=Name=<fontFamily.Name> Size=<fontSize>
+<System.Drawing.FontFamily>=Name=<Name>
+<System.Drawing.Pen>=Color=<color>
+<System.Drawing.Point>=X=<x> Y=<y>
+<System.Drawing.PointF>=X=<x> Y=<y>
+<System.Drawing.Rectangle>=X=<x> Y=<y> Width=<width> Height=<height>
+<System.Drawing.RectangleF>=X=<x> Y=<y> Width=<width> Height=<height>
+<System.Drawing.Size>=Width=<width> Height=<height>
+<System.Drawing.SizeF>=Width=<width> Height=<height>
+<System.Drawing.SolidBrush>=Color=<color>
+
+; System.Web.UI.WebControls
+<System.Web.UI.WebControls.Button>=Text=<Text>
+<System.Web.UI.WebControls.Label>=Text=<Text>
+<System.Web.UI.WebControls.HyperLink>=Text=<Text>
+<System.Web.UI.WebControls.CheckBox>=Text=<Text> Checked=<Checked>
+<System.Web.UI.WebControls.RadioButton>=Text=<Text> Checked=<Checked>
+<System.Web.UI.WebControls.Calendar>=SelectedDate=<SelectedDate>
+<System.Web.UI.WebControls.LinkButton>=Text=<Text>
+
+;System.Web.UI.HtmlControls
+<System.Web.UI.HtmlControls.HtmlInputButton>=Value=<Value>
+<System.Web.UI.HtmlControls.HtmlGenericControl>=InnerText=<InnerText>
+<System.Web.UI.HtmlControls.HtmlTextArea>=Value=<Value>
+<System.Web.UI.HtmlControls.HtmlInputText>=Value=<Value>
+<System.Web.UI.HtmlControls.HtmlInputCheckBox>=Value=<Value> Checked=<Checked>
+<System.Web.UI.HtmlControls.HtmlInputRadioButton>=Value=<Value> Checked=<Checked>
+
+; System.Windows.Forms
+<System.Windows.Forms.Application>=ExecutablePath=<executablePath>
+<System.Windows.Forms.Button>=Text=<Text>
+<System.Windows.Forms.CheckBox>=Text=<Text> CheckState=<checkState>
+<System.Windows.Forms.CheckedListBox>=SelectedItem=<Text>
+<System.Windows.Forms.DataGrid=Text=<Text>
+<System.Windows.Forms.DataGrid.HitTestInfo>=Column=<col> Row=<row>
+<System.Windows.Forms.DataGridColumnStyle>=HeaderText=<headerName>
+<System.Windows.Forms.DataGridTextBox>=Text=<Text>
+<System.Windows.Forms.DataGridTextBoxColumn>=HeaderText=<headerName>
+<System.Windows.Forms.DateTimePicker>=Value=<value>
+<System.Windows.Forms.FontDialog>=Font=<font> Color=<color>
+<System.Windows.Forms.HScrollBar>=Value=<value>
+<System.Windows.Forms.InvalidateEventArgs>=InvalidRect=<invalidRect>
+<System.Windows.Forms.ItemChangedEventArgs>=Index=<index>
+<System.Windows.Forms.ItemCheckEventArgs>=Index=<index> NewValue=<newValue> CurrentValue=<currentValue>
+<System.Windows.Forms.KeyEventArgs>=KeyData=<keyData>
+<System.Windows.Forms.KeyPressEventArgs>=KeyChar=<keyChar>
+<System.Windows.Forms.LinkClickedEventArgs>=LinkText=<linkText>
+<System.Windows.Forms.LinkLabel>=Text=<Text>
+<System.Windows.Forms.ListBox>=SelectedItem=<Text>
+<System.Windows.Forms.ListViewItem>=Text=<Text>
+<System.Windows.Forms.MonthCalendar>=SelectionStart=<selectionStart> SelectionEnd=<selectionEnd>
+<System.Windows.Forms.MouseEventArgs>=X=<x> Y=<y> Button=<button>
+<System.Windows.Forms.NumericUpDown>=Value=<currentValue>
+<System.Windows.Forms.PaintEventArgs>=ClipRectangle=<clipRect>
+<System.Windows.Forms.ProgressBar>=Value=<value>
+<System.Windows.Forms.RadioButton>=Text=<Text> Checked=<isChecked>
+<System.Windows.Forms.RichTextBox>=Text=<Text>
+<System.Windows.Forms.Screen>=WorkingArea=<workingArea>
+<System.Windows.Forms.SelectionRange>=Start=<start> End=<end>
+<System.Windows.Forms.Splitter>=SplitPosition=<splitSize>
+<System.Windows.Forms.SplitterEventArgs>=SplitX=<splitX> SplitY=<splitY>
+<System.Windows.Forms.TextBox>=Text=<Text>
+<System.Windows.Forms.Timer>=Interval=<interval>
+<System.Windows.Forms.ToolTip>=ToolTip=<caption>
+<System.Windows.Forms.TrackBar>=Value=<value>
+<System.Windows.Forms.TreeNode>=Text=<Text>
+<System.Windows.Forms.VScrollBar>=Value=<value>
+
+; SQL data types
+<System.Data.SqlTypes.SqlInt64>=<m_value>
+<System.Data.SqlTypes.SqlDateTime>=<Value>
+<System.Data.SqlTypes.SqlInt32>=<m_value>
+<System.Data.SqlTypes.SqlMoney>=<Value>
+<System.Data.SqlTypes.SqlString>=<m_value>
+<System.Data.SqlTypes.SqlSingle>=<m_value>
+<System.Data.SqlTypes.SqlInt16>=<m_value>
+<System.Data.SqlTypes.SqlByte>=<m_value>
+<System.Data.SqlTypes.SqlDouble>=<m_value>
+
+<System.Collections.Hashtable.bucket>=key=<key> val=<val>

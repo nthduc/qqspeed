@@ -1,0 +1,37 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>How much CPU do the DSP filters use?</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="">
+<meta name="ms-hkwd" content="How much CPU do the DSP filters use?">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<table>
+<tr valign=top><td><b><p>Q:</p></b></td><td><b><p>How much CPU do the DSP filters use?</p></b></td></tr>
+<tr valign=top><td><p>A:</p></td><td><p>The two built-in DSP filters are <b>very</b> fast! </p><p>The built-in global reverb is about as expensive as mixing each sample twice (which is almost nothing - a P3/500 will mix a sample using less than 0.25% of the CPU - that's one-forth of one percent). </p><p>The built low-pass filter is also almost free - figure less than 0.33% per sample on a P3/500 (one-third of one percent). </p><p>The other standalone DSP filters depend on what each actually does - the Dolby Surround is very cheap (less than the low-pass filter), but the Chorus filter is about 2% per sample. You can use <a href="AIL_digital_CPU_percent.html">AIL_digital_CPU_percent</a> function to check the CPU hit of each filter.</p></td></tr>
+</table>
+<p><a href="How can I play two Ho6e0ns.html">Next Topic (How can I play two HSAMPLEs from the same memory address?)</a>  </p><p><a href="How do I set a DSP flufd25.html">Previous Topic (How do I set a DSP filter on a sample?)</a>  </p><p>
+<br>
+<b>Group:</b>
+<a href="FAQs and How Tos.html">FAQs and How Tos</a><br>
+<b>Related Functions:</b>
+<a href="AIL_digital_CPU_percent.html">AIL_digital_CPU_percent</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

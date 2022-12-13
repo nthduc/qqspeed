@@ -1,0 +1,733 @@
+ i386CPUHelp
+
+ Timestamp is 3e4e57cf (Sat Feb 15 10:07:59 2003)
+
+ Preferred load address is 62000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001c2cH .text                   CODE
+ 0002:00000000 00000088H .idata$5                DATA
+ 0002:00000090 00000280H .rdata                  DATA
+ 0002:00000310 00000044H .rdata$debug            DATA
+ 0002:00000360 00000004H .rdata$sxdata           DATA
+ 0002:00000364 00000004H .rtc$IAA                DATA
+ 0002:00000368 00000004H .rtc$IZZ                DATA
+ 0002:0000036c 00000004H .rtc$TAA                DATA
+ 0002:00000370 00000004H .rtc$TZZ                DATA
+ 0002:00000374 00000064H .idata$2                DATA
+ 0002:000003d8 00000014H .idata$3                DATA
+ 0002:000003ec 00000088H .idata$4                DATA
+ 0002:00000474 00000268H .idata$6                DATA
+ 0002:000006e0 00000115H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCAA               DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000020 000018e0H .data                   DATA
+ 0003:00001900 00000050H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000003c8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0001:00000000       _disasm@16                 62001000 f   disasm.obj
+ 0001:00000da2       _DIdoModrm                 62001da2 f   disasm.obj
+ 0001:00001184       _OutputHexValue            62002184 f   disasm.obj
+ 0001:00001251       _OutputHexString           62002251 f   disasm.obj
+ 0001:00001289       _OutputHexCode             62002289 f   disasm.obj
+ 0001:000012c1       _OutputString              620022c1 f   disasm.obj
+ 0001:000012d7       _OutputSymbol              620022d7 f   disasm.obj
+ 0001:00001399       _SetBreakpoint@12          62002399 f   i386CPUHelp.obj
+ 0001:0000148a       _ClearBreakpoint@16        6200248a f   i386CPUHelp.obj
+ 0001:00001549       _SetSingleStep@4           62002549 f   i386CPUHelp.obj
+ 0001:0000157b       _ClearSingleStep@4         6200257b f   i386CPUHelp.obj
+ 0001:000015ad       _DisplayRegisters@12       620025ad f   i386CPUHelp.obj
+ 0001:00001651       _ReturnInstructionPointer@4 62002651 f   i386CPUHelp.obj
+ 0001:00001675       _InitializeStackFrameWithContext@8 62002675 f   i386CPUHelp.obj
+ 0001:000016de       _GetRegValue               620026de f   regs.obj
+ 0001:00001878       __CRT_INIT@12              62002878 f   MSVCRT:crtdll.obj
+ 0001:00001936       __DllMainCRTStartup@12     62002936 f   MSVCRT:crtdll.obj
+ 0001:00001a1a       __initterm                 62002a1a f   MSVCRT:MSVCR71.dll
+ 0001:00001a20       __onexit                   62002a20 f   MSVCRT:atonexit.obj
+ 0001:00001a46       _atexit                    62002a46 f   MSVCRT:atonexit.obj
+ 0001:00001a58       __RTC_Initialize           62002a58 f   MSVCRT:initsect.obj
+ 0001:00001a9c       __RTC_Terminate            62002a9c f   MSVCRT:initsect.obj
+ 0001:00001ae0       ___CppXcptFilter           62002ae0 f   MSVCRT:MSVCR71.dll
+ 0001:00001ae6       _DllMain@12                62002ae6 f   MSVCRT:dllmain.obj
+ 0001:00001b08       __SEH_prolog               62002b08 f   MSVCRT:sehprolg.obj
+ 0001:00001b43       __SEH_epilog               62002b43 f   MSVCRT:sehprolg.obj
+ 0001:00001b54       __except_handler3          62002b54 f   MSVCRT:MSVCR71.dll
+ 0001:00001b5a       ___dllonexit               62002b5a f   MSVCRT:MSVCR71.dll
+ 0001:00001b91       @__security_check_cookie@4 62002b91 f   MSVCRT:secchk.obj
+ 0001:00001ba0       __aullshr                  62002ba0 f   MSVCRT:ullshr.obj
+ 0001:00001bbf       ___security_init_cookie    62002bbf f   MSVCRT:seccinit.obj
+ 0001:00001c26       ___security_error_handler  62002c26 f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__GetSystemTimeAsFileTime@4 62003000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentProcessId@0 62003004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetCurrentThreadId@0 62003008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetTickCount@0      6200300c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__ExitProcess@4       62003010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__DisableThreadLibraryCalls@4 62003014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__IsBadStringPtrW@8   62003018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__IsBadWritePtr@8     6200301c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__IsBadReadPtr@8      62003020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__ReadProcessMemory@20 62003024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__QueryPerformanceCounter@4 62003028     kernel32:KERNEL32.dll
+ 0002:0000002c       \177KERNEL32_NULL_THUNK_DATA 6200302c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__DBG_ReadProcessMemory@20 62003030     LocalAssist:LocalAssist.dll
+ 0002:00000034       __imp__DBG_VirtualProtectEx@20 62003034     LocalAssist:LocalAssist.dll
+ 0002:00000038       __imp__DBG_WriteProcessMemory@20 62003038     LocalAssist:LocalAssist.dll
+ 0002:0000003c       __imp__DBG_FlushInstructionCache@12 6200303c     LocalAssist:LocalAssist.dll
+ 0002:00000040       __imp__DBG_SetThreadContext@8 62003040     LocalAssist:LocalAssist.dll
+ 0002:00000044       __imp__DBG_VirtualQueryEx@16 62003044     LocalAssist:LocalAssist.dll
+ 0002:00000048       \177LocalAssist_NULL_THUNK_DATA 62003048     LocalAssist:LocalAssist.dll
+ 0002:0000004c       __imp___except_handler3    6200304c     MSVCRT:MSVCR71.dll
+ 0002:00000050       __imp___onexit             62003050     MSVCRT:MSVCR71.dll
+ 0002:00000054       __imp____CppXcptFilter     62003054     MSVCRT:MSVCR71.dll
+ 0002:00000058       __imp___adjust_fdiv        62003058     MSVCRT:MSVCR71.dll
+ 0002:0000005c       __imp__memmove             6200305c     MSVCRT:MSVCR71.dll
+ 0002:00000060       __imp___initterm           62003060     MSVCRT:MSVCR71.dll
+ 0002:00000064       __imp__free                62003064     MSVCRT:MSVCR71.dll
+ 0002:00000068       __imp____dllonexit         62003068     MSVCRT:MSVCR71.dll
+ 0002:0000006c       __imp____security_error_handler 6200306c     MSVCRT:MSVCR71.dll
+ 0002:00000070       __imp__malloc              62003070     MSVCRT:MSVCR71.dll
+ 0002:00000074       \177MSVCR71_NULL_THUNK_DATA 62003074     MSVCRT:MSVCR71.dll
+ 0002:00000078       __imp__wsprintfW           62003078     USER32:USER32.dll
+ 0002:0000007c       \177USER32_NULL_THUNK_DATA 6200307c     USER32:USER32.dll
+ 0002:00000080       __imp__SymGetSymFromAddr@16 62003080     DBGHELP:dbghelp.dll
+ 0002:00000084       \177dbghelp_NULL_THUNK_DATA 62003084     DBGHELP:dbghelp.dll
+ 0002:000000dc       ??_C@_09HEPLDJGH@?6?5?5?5?5?5?5?5?5?$AA@ 620030dc     disasm.obj
+ 0002:000000e8       ??_C@_03BBKEAIF@?$DP?$DP?$DP?$AA@ 620030e8     disasm.obj
+ 0002:000000ec       ??_C@_0L@PCAIHGEJ@fword?5ptr?5?$AA@ 620030ec     disasm.obj
+ 0002:000000f8       ??_C@_0L@HKNHHICH@tbyte?5ptr?5?$AA@ 620030f8     disasm.obj
+ 0002:00000104       ??_C@_0L@HFMFKHAB@qword?5ptr?5?$AA@ 62003104     disasm.obj
+ 0002:00000110       ??_C@_0L@KKGEMPII@dword?5ptr?5?$AA@ 62003110     disasm.obj
+ 0002:0000011c       ??_C@_09MCGEPDKI@word?5ptr?5?$AA@ 6200311c     disasm.obj
+ 0002:00000128       ??_C@_09LMCBIAMM@byte?5ptr?5?$AA@ 62003128     disasm.obj
+ 0002:00000134       ??_C@_05MKHCJKJG@st?$CI0?$CJ?$AA@ 62003134     disasm.obj
+ 0002:0000013c       ??_C@_03MNPIIELD@st?0?$AA@ 6200313c     disasm.obj
+ 0002:00000140       ??_C@_08DLDLMMHF@st?$CI0?$CJ?0st?$AA@ 62003140     disasm.obj
+ 0002:00000149       ??_C@_00CNPNBAHC@?$AA@     62003149     disasm.obj
+ 0002:0000014c       ??_C@_03CJKCJEMA@edi?$AA@  6200314c     disasm.obj
+ 0002:00000150       ??_C@_03DAMLCBDF@esi?$AA@  62003150     disasm.obj
+ 0002:00000154       ??_C@_03LGCPEBGK@ebp?$AA@  62003154     disasm.obj
+ 0002:00000158       ??_C@_03KLMLIICN@esp?$AA@  62003158     disasm.obj
+ 0002:0000015c       ??_C@_03HOPGMLGC@ebx?$AA@  6200315c     disasm.obj
+ 0002:00000160       ??_C@_03HKHLLHNA@edx?$AA@  62003160     disasm.obj
+ 0002:00000164       ??_C@_03HPDEKBFF@ecx?$AA@  62003164     disasm.obj
+ 0002:00000168       ??_C@_03HMLAHFDL@eax?$AA@  62003168     disasm.obj
+ 0002:0000016c       ??_C@_02KMALMKFN@bx?$AA@   6200316c     disasm.obj
+ 0002:00000170       ??_C@_02GENCEAFF@bp?$AA@   62003170     disasm.obj
+ 0002:00000174       ??_C@_02PLFPJFPP@di?$AA@   62003174     disasm.obj
+ 0002:00000178       ??_C@_02OCDGCAAK@si?$AA@   62003178     disasm.obj
+ 0002:0000017c       ??_C@_05HOABILOP@bp?$CLdi?$AA@ 6200317c     disasm.obj
+ 0002:00000184       ??_C@_05GHGIDOBK@bp?$CLsi?$AA@ 62003184     disasm.obj
+ 0002:0000018c       ??_C@_05EOHBMACO@bx?$CLdi?$AA@ 6200318c     disasm.obj
+ 0002:00000194       ??_C@_05FHBIHFNL@bx?$CLsi?$AA@ 62003194     disasm.obj
+ 0002:000001a0       ??_C@_1BBG@IJCMBFGM@?$AAE?$AAA?$AAX?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAX?$AA?$CF?$AAs?$AAE?$AAB?$AAX?$AA?5?$AA?$DN?$AA?5@ 620031a0     i386CPUHelp.obj
+ 0002:000002c8       __load_config_used         620032c8     MSVCRT:loadcfg.obj
+ 0002:00000360       ___safe_se_handler_table   62003360     <linker-defined>
+ 0002:00000364       ___rtc_iaa                 62003364     MSVCRT:initsect.obj
+ 0002:00000368       ___rtc_izz                 62003368     MSVCRT:initsect.obj
+ 0002:0000036c       ___rtc_taa                 6200336c     MSVCRT:initsect.obj
+ 0002:00000370       ___rtc_tzz                 62003370     MSVCRT:initsect.obj
+ 0002:00000374       __IMPORT_DESCRIPTOR_USER32 62003374     USER32:USER32.dll
+ 0002:00000388       __IMPORT_DESCRIPTOR_dbghelp 62003388     DBGHELP:dbghelp.dll
+ 0002:0000039c       __IMPORT_DESCRIPTOR_LocalAssist 6200339c     LocalAssist:LocalAssist.dll
+ 0002:000003b0       __IMPORT_DESCRIPTOR_MSVCR71 620033b0     MSVCRT:MSVCR71.dll
+ 0002:000003c4       __IMPORT_DESCRIPTOR_KERNEL32 620033c4     kernel32:KERNEL32.dll
+ 0002:000003d8       __NULL_IMPORT_DESCRIPTOR   620033d8     USER32:USER32.dll
+ 0003:00000000       ___xc_a                    62004000     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xc_z                    62004008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_a                    6200400c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xi_z                    62004010     MSVCRT:cinitexe.obj
+ 0003:00000020       _dszAAA                    62004020     disasm.obj
+ 0003:00000024       _dszAAD                    62004024     disasm.obj
+ 0003:00000028       _dszAAM                    62004028     disasm.obj
+ 0003:0000002c       _dszAAS                    6200402c     disasm.obj
+ 0003:00000030       _dszADC                    62004030     disasm.obj
+ 0003:00000034       _dszADD                    62004034     disasm.obj
+ 0003:00000038       _dszAND                    62004038     disasm.obj
+ 0003:0000003c       _dszARPL                   6200403c     disasm.obj
+ 0003:00000044       _dszBOUND                  62004044     disasm.obj
+ 0003:0000004c       _dszBSF                    6200404c     disasm.obj
+ 0003:00000050       _dszBSR                    62004050     disasm.obj
+ 0003:00000054       _dszBST                    62004054     disasm.obj
+ 0003:00000058       _dszBSWAP                  62004058     disasm.obj
+ 0003:00000060       _dszBT                     62004060     disasm.obj
+ 0003:00000064       _dszBTC                    62004064     disasm.obj
+ 0003:00000068       _dszBTR                    62004068     disasm.obj
+ 0003:0000006c       _dszBTS                    6200406c     disasm.obj
+ 0003:00000070       _dszCALL                   62004070     disasm.obj
+ 0003:00000078       _dszCBW                    62004078     disasm.obj
+ 0003:0000007c       _dszCDQ                    6200407c     disasm.obj
+ 0003:00000080       _dszCLC                    62004080     disasm.obj
+ 0003:00000084       _dszCLD                    62004084     disasm.obj
+ 0003:00000088       _dszCLI                    62004088     disasm.obj
+ 0003:0000008c       _dszCLTS                   6200408c     disasm.obj
+ 0003:00000094       _dszCMC                    62004094     disasm.obj
+ 0003:00000098       _dszCMP                    62004098     disasm.obj
+ 0003:0000009c       _dszCMPS                   6200409c     disasm.obj
+ 0003:000000a4       _dszCMPSB                  620040a4     disasm.obj
+ 0003:000000ac       _dszCMPSD                  620040ac     disasm.obj
+ 0003:000000b4       _dszCMPSW                  620040b4     disasm.obj
+ 0003:000000bc       _dszCMPXCHG                620040bc     disasm.obj
+ 0003:000000c4       _dszCMPXCHG8B              620040c4     disasm.obj
+ 0003:000000d0       _dszCPUID                  620040d0     disasm.obj
+ 0003:000000d8       _dszCS_                    620040d8     disasm.obj
+ 0003:000000dc       _dszCWD                    620040dc     disasm.obj
+ 0003:000000e0       _dszCWDE                   620040e0     disasm.obj
+ 0003:000000e8       _dszDAA                    620040e8     disasm.obj
+ 0003:000000ec       _dszDAS                    620040ec     disasm.obj
+ 0003:000000f0       _dszDEC                    620040f0     disasm.obj
+ 0003:000000f4       _dszDIV                    620040f4     disasm.obj
+ 0003:000000f8       _dszDS_                    620040f8     disasm.obj
+ 0003:000000fc       _dszENTER                  620040fc     disasm.obj
+ 0003:00000104       _dszES_                    62004104     disasm.obj
+ 0003:00000108       _dszF2XM1                  62004108     disasm.obj
+ 0003:00000110       _dszFABS                   62004110     disasm.obj
+ 0003:00000118       _dszFADD                   62004118     disasm.obj
+ 0003:00000120       _dszFADDP                  62004120     disasm.obj
+ 0003:00000128       _dszFBLD                   62004128     disasm.obj
+ 0003:00000130       _dszFBSTP                  62004130     disasm.obj
+ 0003:00000138       _dszFCHS                   62004138     disasm.obj
+ 0003:00000140       _dszFCLEX                  62004140     disasm.obj
+ 0003:00000148       _dszFCOM                   62004148     disasm.obj
+ 0003:00000150       _dszFCOMP                  62004150     disasm.obj
+ 0003:00000158       _dszFCOMPP                 62004158     disasm.obj
+ 0003:00000160       _dszFCOS                   62004160     disasm.obj
+ 0003:00000168       _dszFDECSTP                62004168     disasm.obj
+ 0003:00000170       _dszFDISI                  62004170     disasm.obj
+ 0003:00000178       _dszFDIV                   62004178     disasm.obj
+ 0003:00000180       _dszFDIVP                  62004180     disasm.obj
+ 0003:00000188       _dszFDIVR                  62004188     disasm.obj
+ 0003:00000190       _dszFDIVRP                 62004190     disasm.obj
+ 0003:00000198       _dszFENI                   62004198     disasm.obj
+ 0003:000001a0       _dszFFREE                  620041a0     disasm.obj
+ 0003:000001a8       _dszFIADD                  620041a8     disasm.obj
+ 0003:000001b0       _dszFICOM                  620041b0     disasm.obj
+ 0003:000001b8       _dszFICOMP                 620041b8     disasm.obj
+ 0003:000001c0       _dszFIDIV                  620041c0     disasm.obj
+ 0003:000001c8       _dszFIDIVR                 620041c8     disasm.obj
+ 0003:000001d0       _dszFILD                   620041d0     disasm.obj
+ 0003:000001d8       _dszFIMUL                  620041d8     disasm.obj
+ 0003:000001e0       _dszFINCSTP                620041e0     disasm.obj
+ 0003:000001e8       _dszFINIT                  620041e8     disasm.obj
+ 0003:000001f0       _dszFIST                   620041f0     disasm.obj
+ 0003:000001f8       _dszFISTP                  620041f8     disasm.obj
+ 0003:00000200       _dszFISUB                  62004200     disasm.obj
+ 0003:00000208       _dszFISUBR                 62004208     disasm.obj
+ 0003:00000210       _dszFLD                    62004210     disasm.obj
+ 0003:00000214       _dszFLD1                   62004214     disasm.obj
+ 0003:0000021c       _dszFLDCW                  6200421c     disasm.obj
+ 0003:00000224       _dszFLDENV                 62004224     disasm.obj
+ 0003:0000022c       _dszFLDL2E                 6200422c     disasm.obj
+ 0003:00000234       _dszFLDL2T                 62004234     disasm.obj
+ 0003:0000023c       _dszFLDLG2                 6200423c     disasm.obj
+ 0003:00000244       _dszFLDLN2                 62004244     disasm.obj
+ 0003:0000024c       _dszFLDPI                  6200424c     disasm.obj
+ 0003:00000254       _dszFLDZ                   62004254     disasm.obj
+ 0003:0000025c       _dszFMUL                   6200425c     disasm.obj
+ 0003:00000264       _dszFMULP                  62004264     disasm.obj
+ 0003:0000026c       _dszFNCLEX                 6200426c     disasm.obj
+ 0003:00000274       _dszFNDISI                 62004274     disasm.obj
+ 0003:0000027c       _dszFNENI                  6200427c     disasm.obj
+ 0003:00000284       _dszFNINIT                 62004284     disasm.obj
+ 0003:0000028c       _dszFNOP                   6200428c     disasm.obj
+ 0003:00000294       _dszFNSAVE                 62004294     disasm.obj
+ 0003:0000029c       _dszFNSTCW                 6200429c     disasm.obj
+ 0003:000002a4       _dszFNSTENV                620042a4     disasm.obj
+ 0003:000002ac       _dszFNSTSW                 620042ac     disasm.obj
+ 0003:000002b4       _dszFNSTSWAX               620042b4     disasm.obj
+ 0003:000002c0       _dszFPATAN                 620042c0     disasm.obj
+ 0003:000002c8       _dszFPREM                  620042c8     disasm.obj
+ 0003:000002d0       _dszFPREM1                 620042d0     disasm.obj
+ 0003:000002d8       _dszFPTAN                  620042d8     disasm.obj
+ 0003:000002e0       _dszFRNDINT                620042e0     disasm.obj
+ 0003:000002e8       _dszFRSTOR                 620042e8     disasm.obj
+ 0003:000002f0       _dszFSAVE                  620042f0     disasm.obj
+ 0003:000002f8       _dszFSCALE                 620042f8     disasm.obj
+ 0003:00000300       _dszFSETPM                 62004300     disasm.obj
+ 0003:00000308       _dszFSIN                   62004308     disasm.obj
+ 0003:00000310       _dszFSINCOS                62004310     disasm.obj
+ 0003:00000318       _dszFSQRT                  62004318     disasm.obj
+ 0003:00000320       _dszFST                    62004320     disasm.obj
+ 0003:00000324       _dszFSTCW                  62004324     disasm.obj
+ 0003:0000032c       _dszFSTENV                 6200432c     disasm.obj
+ 0003:00000334       _dszFSTP                   62004334     disasm.obj
+ 0003:0000033c       _dszFSTSW                  6200433c     disasm.obj
+ 0003:00000344       _dszFSTSWAX                62004344     disasm.obj
+ 0003:0000034c       _dszFSUB                   6200434c     disasm.obj
+ 0003:00000354       _dszFSUBP                  62004354     disasm.obj
+ 0003:0000035c       _dszFSUBR                  6200435c     disasm.obj
+ 0003:00000364       _dszFSUBRP                 62004364     disasm.obj
+ 0003:0000036c       _dszFS_                    6200436c     disasm.obj
+ 0003:00000370       _dszFTST                   62004370     disasm.obj
+ 0003:00000378       _dszFUCOM                  62004378     disasm.obj
+ 0003:00000380       _dszFUCOMP                 62004380     disasm.obj
+ 0003:00000388       _dszFUCOMPP                62004388     disasm.obj
+ 0003:00000390       _dszFWAIT                  62004390     disasm.obj
+ 0003:00000398       _dszFXAM                   62004398     disasm.obj
+ 0003:000003a0       _dszFXCH                   620043a0     disasm.obj
+ 0003:000003a8       _dszFXTRACT                620043a8     disasm.obj
+ 0003:000003b0       _dszFYL2X                  620043b0     disasm.obj
+ 0003:000003b8       _dszFYL2XP1                620043b8     disasm.obj
+ 0003:000003c0       _dszGS_                    620043c0     disasm.obj
+ 0003:000003c4       _dszHLT                    620043c4     disasm.obj
+ 0003:000003c8       _dszIBTS                   620043c8     disasm.obj
+ 0003:000003d0       _dszIDIV                   620043d0     disasm.obj
+ 0003:000003d8       _dszIMUL                   620043d8     disasm.obj
+ 0003:000003e0       _dszIN                     620043e0     disasm.obj
+ 0003:000003e4       _dszINC                    620043e4     disasm.obj
+ 0003:000003e8       _dszINS                    620043e8     disasm.obj
+ 0003:000003ec       _dszINSB                   620043ec     disasm.obj
+ 0003:000003f4       _dszINSD                   620043f4     disasm.obj
+ 0003:000003fc       _dszINSW                   620043fc     disasm.obj
+ 0003:00000404       _dszINT                    62004404     disasm.obj
+ 0003:00000408       _dszINTO                   62004408     disasm.obj
+ 0003:00000410       _dszIRET                   62004410     disasm.obj
+ 0003:00000418       _dszIRETD                  62004418     disasm.obj
+ 0003:00000420       _dszJA                     62004420     disasm.obj
+ 0003:00000424       _dszJAE                    62004424     disasm.obj
+ 0003:00000428       _dszJB                     62004428     disasm.obj
+ 0003:0000042c       _dszJBE                    6200442c     disasm.obj
+ 0003:00000430       _dszJC                     62004430     disasm.obj
+ 0003:00000434       _dszJCXZ                   62004434     disasm.obj
+ 0003:0000043c       _dszJE                     6200443c     disasm.obj
+ 0003:00000440       _dszJECXZ                  62004440     disasm.obj
+ 0003:00000448       _dszJG                     62004448     disasm.obj
+ 0003:0000044c       _dszJGE                    6200444c     disasm.obj
+ 0003:00000450       _dszJL                     62004450     disasm.obj
+ 0003:00000454       _dszJLE                    62004454     disasm.obj
+ 0003:00000458       _dszJMP                    62004458     disasm.obj
+ 0003:0000045c       _dszJNA                    6200445c     disasm.obj
+ 0003:00000460       _dszJNAE                   62004460     disasm.obj
+ 0003:00000468       _dszJNB                    62004468     disasm.obj
+ 0003:0000046c       _dszJNBE                   6200446c     disasm.obj
+ 0003:00000474       _dszJNC                    62004474     disasm.obj
+ 0003:00000478       _dszJNE                    62004478     disasm.obj
+ 0003:0000047c       _dszJNG                    6200447c     disasm.obj
+ 0003:00000480       _dszJNGE                   62004480     disasm.obj
+ 0003:00000488       _dszJNL                    62004488     disasm.obj
+ 0003:0000048c       _dszJNLE                   6200448c     disasm.obj
+ 0003:00000494       _dszJNO                    62004494     disasm.obj
+ 0003:00000498       _dszJNP                    62004498     disasm.obj
+ 0003:0000049c       _dszJNS                    6200449c     disasm.obj
+ 0003:000004a0       _dszJNZ                    620044a0     disasm.obj
+ 0003:000004a4       _dszJO                     620044a4     disasm.obj
+ 0003:000004a8       _dszJP                     620044a8     disasm.obj
+ 0003:000004ac       _dszJPE                    620044ac     disasm.obj
+ 0003:000004b0       _dszJPO                    620044b0     disasm.obj
+ 0003:000004b4       _dszJS                     620044b4     disasm.obj
+ 0003:000004b8       _dszJZ                     620044b8     disasm.obj
+ 0003:000004bc       _dszLAHF                   620044bc     disasm.obj
+ 0003:000004c4       _dszLAR                    620044c4     disasm.obj
+ 0003:000004c8       _dszLDS                    620044c8     disasm.obj
+ 0003:000004cc       _dszLEA                    620044cc     disasm.obj
+ 0003:000004d0       _dszLEAVE                  620044d0     disasm.obj
+ 0003:000004d8       _dszLES                    620044d8     disasm.obj
+ 0003:000004dc       _dszLFS                    620044dc     disasm.obj
+ 0003:000004e0       _dszLGDT                   620044e0     disasm.obj
+ 0003:000004e8       _dszLGS                    620044e8     disasm.obj
+ 0003:000004ec       _dszLIDT                   620044ec     disasm.obj
+ 0003:000004f4       _dszLLDT                   620044f4     disasm.obj
+ 0003:000004fc       _dszLMSW                   620044fc     disasm.obj
+ 0003:00000504       _dszLOADALL                62004504     disasm.obj
+ 0003:0000050c       _dszLOCK                   6200450c     disasm.obj
+ 0003:00000514       _dszLODS                   62004514     disasm.obj
+ 0003:0000051c       _dszLODSB                  6200451c     disasm.obj
+ 0003:00000524       _dszLODSD                  62004524     disasm.obj
+ 0003:0000052c       _dszLODSW                  6200452c     disasm.obj
+ 0003:00000534       _dszLOOP                   62004534     disasm.obj
+ 0003:0000053c       _dszLOOPE                  6200453c     disasm.obj
+ 0003:00000544       _dszLOOPNE                 62004544     disasm.obj
+ 0003:0000054c       _dszLOOPNZ                 6200454c     disasm.obj
+ 0003:00000554       _dszLOOPZ                  62004554     disasm.obj
+ 0003:0000055c       _dszLSL                    6200455c     disasm.obj
+ 0003:00000560       _dszLSS                    62004560     disasm.obj
+ 0003:00000564       _dszLTR                    62004564     disasm.obj
+ 0003:00000568       _dszMOV                    62004568     disasm.obj
+ 0003:0000056c       _dszMOVS                   6200456c     disasm.obj
+ 0003:00000574       _dszMOVSB                  62004574     disasm.obj
+ 0003:0000057c       _dszMOVSD                  6200457c     disasm.obj
+ 0003:00000584       _dszMOVSW                  62004584     disasm.obj
+ 0003:0000058c       _dszMOVSX                  6200458c     disasm.obj
+ 0003:00000594       _dszMOVZX                  62004594     disasm.obj
+ 0003:0000059c       _dszMUL                    6200459c     disasm.obj
+ 0003:000005a0       _dszNEG                    620045a0     disasm.obj
+ 0003:000005a4       _dszNOP                    620045a4     disasm.obj
+ 0003:000005a8       _dszNOT                    620045a8     disasm.obj
+ 0003:000005ac       _dszOR                     620045ac     disasm.obj
+ 0003:000005b0       _dszOUT                    620045b0     disasm.obj
+ 0003:000005b4       _dszOUTS                   620045b4     disasm.obj
+ 0003:000005bc       _dszOUTSB                  620045bc     disasm.obj
+ 0003:000005c4       _dszOUTSD                  620045c4     disasm.obj
+ 0003:000005cc       _dszOUTSW                  620045cc     disasm.obj
+ 0003:000005d4       _dszPOP                    620045d4     disasm.obj
+ 0003:000005d8       _dszPOPA                   620045d8     disasm.obj
+ 0003:000005e0       _dszPOPAD                  620045e0     disasm.obj
+ 0003:000005e8       _dszPOPF                   620045e8     disasm.obj
+ 0003:000005f0       _dszPOPFD                  620045f0     disasm.obj
+ 0003:000005f8       _dszPUSH                   620045f8     disasm.obj
+ 0003:00000600       _dszPUSHA                  62004600     disasm.obj
+ 0003:00000608       _dszPUSHAD                 62004608     disasm.obj
+ 0003:00000610       _dszPUSHF                  62004610     disasm.obj
+ 0003:00000618       _dszPUSHFD                 62004618     disasm.obj
+ 0003:00000620       _dszRCL                    62004620     disasm.obj
+ 0003:00000624       _dszRCR                    62004624     disasm.obj
+ 0003:00000628       _dszRDTSC                  62004628     disasm.obj
+ 0003:00000630       _dszRDMSR                  62004630     disasm.obj
+ 0003:00000638       _dszREP                    62004638     disasm.obj
+ 0003:00000640       _dszREPE                   62004640     disasm.obj
+ 0003:00000648       _dszREPNE                  62004648     disasm.obj
+ 0003:00000650       _dszREPNZ                  62004650     disasm.obj
+ 0003:00000658       _dszREPZ                   62004658     disasm.obj
+ 0003:00000660       _dszRET                    62004660     disasm.obj
+ 0003:00000664       _dszRETF                   62004664     disasm.obj
+ 0003:0000066c       _dszRETN                   6200466c     disasm.obj
+ 0003:00000674       _dszROL                    62004674     disasm.obj
+ 0003:00000678       _dszROR                    62004678     disasm.obj
+ 0003:0000067c       _dszRSM                    6200467c     disasm.obj
+ 0003:00000680       _dszSAHF                   62004680     disasm.obj
+ 0003:00000688       _dszSAL                    62004688     disasm.obj
+ 0003:0000068c       _dszSAR                    6200468c     disasm.obj
+ 0003:00000690       _dszSBB                    62004690     disasm.obj
+ 0003:00000694       _dszSCAS                   62004694     disasm.obj
+ 0003:0000069c       _dszSCASB                  6200469c     disasm.obj
+ 0003:000006a4       _dszSCASD                  620046a4     disasm.obj
+ 0003:000006ac       _dszSCASW                  620046ac     disasm.obj
+ 0003:000006b4       _dszSETA                   620046b4     disasm.obj
+ 0003:000006bc       _dszSETAE                  620046bc     disasm.obj
+ 0003:000006c4       _dszSETB                   620046c4     disasm.obj
+ 0003:000006cc       _dszSETBE                  620046cc     disasm.obj
+ 0003:000006d4       _dszSETC                   620046d4     disasm.obj
+ 0003:000006dc       _dszSETE                   620046dc     disasm.obj
+ 0003:000006e4       _dszSETG                   620046e4     disasm.obj
+ 0003:000006ec       _dszSETGE                  620046ec     disasm.obj
+ 0003:000006f4       _dszSETL                   620046f4     disasm.obj
+ 0003:000006fc       _dszSETLE                  620046fc     disasm.obj
+ 0003:00000704       _dszSETNA                  62004704     disasm.obj
+ 0003:0000070c       _dszSETNAE                 6200470c     disasm.obj
+ 0003:00000714       _dszSETNB                  62004714     disasm.obj
+ 0003:0000071c       _dszSETNBE                 6200471c     disasm.obj
+ 0003:00000724       _dszSETNC                  62004724     disasm.obj
+ 0003:0000072c       _dszSETNE                  6200472c     disasm.obj
+ 0003:00000734       _dszSETNG                  62004734     disasm.obj
+ 0003:0000073c       _dszSETNGE                 6200473c     disasm.obj
+ 0003:00000744       _dszSETNL                  62004744     disasm.obj
+ 0003:0000074c       _dszSETNLE                 6200474c     disasm.obj
+ 0003:00000754       _dszSETNO                  62004754     disasm.obj
+ 0003:0000075c       _dszSETNP                  6200475c     disasm.obj
+ 0003:00000764       _dszSETNS                  62004764     disasm.obj
+ 0003:0000076c       _dszSETNZ                  6200476c     disasm.obj
+ 0003:00000774       _dszSETO                   62004774     disasm.obj
+ 0003:0000077c       _dszSETP                   6200477c     disasm.obj
+ 0003:00000784       _dszSETPE                  62004784     disasm.obj
+ 0003:0000078c       _dszSETPO                  6200478c     disasm.obj
+ 0003:00000794       _dszSETS                   62004794     disasm.obj
+ 0003:0000079c       _dszSETZ                   6200479c     disasm.obj
+ 0003:000007a4       _dszSGDT                   620047a4     disasm.obj
+ 0003:000007ac       _dszSHL                    620047ac     disasm.obj
+ 0003:000007b0       _dszSHLD                   620047b0     disasm.obj
+ 0003:000007b8       _dszSHR                    620047b8     disasm.obj
+ 0003:000007bc       _dszSHRD                   620047bc     disasm.obj
+ 0003:000007c4       _dszSIDT                   620047c4     disasm.obj
+ 0003:000007cc       _dszSLDT                   620047cc     disasm.obj
+ 0003:000007d4       _dszSMSW                   620047d4     disasm.obj
+ 0003:000007dc       _dszSS_                    620047dc     disasm.obj
+ 0003:000007e0       _dszSTC                    620047e0     disasm.obj
+ 0003:000007e4       _dszSTD                    620047e4     disasm.obj
+ 0003:000007e8       _dszSTI                    620047e8     disasm.obj
+ 0003:000007ec       _dszSTOS                   620047ec     disasm.obj
+ 0003:000007f4       _dszSTOSB                  620047f4     disasm.obj
+ 0003:000007fc       _dszSTOSD                  620047fc     disasm.obj
+ 0003:00000804       _dszSTOSW                  62004804     disasm.obj
+ 0003:0000080c       _dszSTR                    6200480c     disasm.obj
+ 0003:00000810       _dszSUB                    62004810     disasm.obj
+ 0003:00000814       _dszTEST                   62004814     disasm.obj
+ 0003:0000081c       _dszVERR                   6200481c     disasm.obj
+ 0003:00000824       _dszVERW                   62004824     disasm.obj
+ 0003:0000082c       _dszWAIT                   6200482c     disasm.obj
+ 0003:00000834       _dszWRMSR                  62004834     disasm.obj
+ 0003:0000083c       _dszXADD                   6200483c     disasm.obj
+ 0003:00000844       _dszXBTS                   62004844     disasm.obj
+ 0003:0000084c       _dszXCHG                   6200484c     disasm.obj
+ 0003:00000854       _dszXLAT                   62004854     disasm.obj
+ 0003:0000085c       _dszXOR                    6200485c     disasm.obj
+ 0003:00000860       _dszRESERVED               62004860     disasm.obj
+ 0003:00000864       _dszDB                     62004864     disasm.obj
+ 0003:00001548       _hexdigit                  62005548     disasm.obj
+ 0003:00001558       _G_mode_32                 62005558     disasm.obj
+ 0003:0000155c       _szGsReg                   6200555c     regs.obj
+ 0003:00001560       _szFsReg                   62005560     regs.obj
+ 0003:00001564       _szEsReg                   62005564     regs.obj
+ 0003:00001568       _szDsReg                   62005568     regs.obj
+ 0003:0000156c       _szEdiReg                  6200556c     regs.obj
+ 0003:00001570       _szEsiReg                  62005570     regs.obj
+ 0003:00001574       _szEbxReg                  62005574     regs.obj
+ 0003:00001578       _szEdxReg                  62005578     regs.obj
+ 0003:0000157c       _szEcxReg                  6200557c     regs.obj
+ 0003:00001580       _szEaxReg                  62005580     regs.obj
+ 0003:00001584       _szEbpReg                  62005584     regs.obj
+ 0003:00001588       _szEipReg                  62005588     regs.obj
+ 0003:0000158c       _szCsReg                   6200558c     regs.obj
+ 0003:00001590       _szEflReg                  62005590     regs.obj
+ 0003:00001594       _szEspReg                  62005594     regs.obj
+ 0003:00001598       _szSsReg                   62005598     regs.obj
+ 0003:0000159c       _szDiReg                   6200559c     regs.obj
+ 0003:000015a0       _szSiReg                   620055a0     regs.obj
+ 0003:000015a4       _szBxReg                   620055a4     regs.obj
+ 0003:000015a8       _szDxReg                   620055a8     regs.obj
+ 0003:000015ac       _szCxReg                   620055ac     regs.obj
+ 0003:000015b0       _szAxReg                   620055b0     regs.obj
+ 0003:000015b4       _szBpReg                   620055b4     regs.obj
+ 0003:000015b8       _szIpReg                   620055b8     regs.obj
+ 0003:000015bc       _szFlReg                   620055bc     regs.obj
+ 0003:000015c0       _szSpReg                   620055c0     regs.obj
+ 0003:000015c4       _szBlReg                   620055c4     regs.obj
+ 0003:000015c8       _szDlReg                   620055c8     regs.obj
+ 0003:000015cc       _szClReg                   620055cc     regs.obj
+ 0003:000015d0       _szAlReg                   620055d0     regs.obj
+ 0003:000015d4       _szBhReg                   620055d4     regs.obj
+ 0003:000015d8       _szDhReg                   620055d8     regs.obj
+ 0003:000015dc       _szChReg                   620055dc     regs.obj
+ 0003:000015e0       _szAhReg                   620055e0     regs.obj
+ 0003:000015e4       _szIoplFlag                620055e4     regs.obj
+ 0003:000015ec       _szFlagOf                  620055ec     regs.obj
+ 0003:000015f0       _szFlagDf                  620055f0     regs.obj
+ 0003:000015f4       _szFlagIf                  620055f4     regs.obj
+ 0003:000015f8       _szFlagTf                  620055f8     regs.obj
+ 0003:000015fc       _szFlagSf                  620055fc     regs.obj
+ 0003:00001600       _szFlagZf                  62005600     regs.obj
+ 0003:00001604       _szFlagAf                  62005604     regs.obj
+ 0003:00001608       _szFlagPf                  62005608     regs.obj
+ 0003:0000160c       _szFlagCf                  6200560c     regs.obj
+ 0003:00001610       _szFlagVip                 62005610     regs.obj
+ 0003:00001614       _szFlagVif                 62005614     regs.obj
+ 0003:00001618       _regname                   62005618     regs.obj
+ 0003:00001788       _subregname                62005788     regs.obj
+ 0003:000018f0       ___security_cookie         620058f0     MSVCRT:seccook.obj
+ 0003:00001930       _dszADDRPRFX               62005930     disasm.obj
+ 0003:00001931       _dszOPPRFX                 62005931     disasm.obj
+ 0003:00001932       _dszMULTI                  62005932     disasm.obj
+ 0003:00001934       __adjust_fdiv              62005934     <common>
+ 0003:00001938       ___onexitend               62005938     <common>
+ 0003:0000193c       ___onexitbegin             6200593c     <common>
+ 0003:00001940       __pRawDllMain              62005940     <common>
+ 0003:00001948       _EAaddr                    62005948     <common>
+
+ entry point at        0001:00001936
+
+ Static symbols
+
+ 0001:00001b60       _report_failure            62002b60 f   MSVCRT:secchk.obj
+
+Line numbers for .\WinRel\regs.obj(d:\dev\booktwo\disk\wdbg\i386cpuhelp\regs.c) segment .text
+
+   204 0001:000016de   205 0001:000016e3   207 0001:00001711   209 0001:0000171c
+   211 0001:00001727   213 0001:00001732   215 0001:0000173d   217 0001:00001748
+   223 0001:00001753   225 0001:0000175e   227 0001:00001769   229 0001:00001774
+   231 0001:0000177f   233 0001:0000178a   235 0001:00001795   237 0001:000017a0
+   205 0001:000017ab   268 0001:000017c8   266 0001:000017cd   264 0001:000017d2
+   262 0001:000017d7   241 0001:000017dc   239 0001:000017e4   270 0001:000017ec
+   205 0001:000017f1   260 0001:00001802   256 0001:00001804   257 0001:0000181a
+   272 0001:0000181f   221 0001:00001824   205 0001:0000182c   274 0001:00001831
+   219 0001:00001835   276 0001:00001842
+
+Line numbers for .\WinRel\i386CPUHelp.obj(d:\dev\booktwo\disk\wdbg\i386cpuhelp\i386cpuhelp.c) segment .text
+
+    26 0001:00001399    27 0001:0000139f    39 0001:000013a5    50 0001:000013d7
+    54 0001:000013eb    61 0001:000013fc    63 0001:00001402    70 0001:00001407
+    77 0001:00001418    80 0001:00001430    85 0001:00001432    88 0001:00001439
+    94 0001:0000143f   100 0001:00001457   111 0001:00001460   117 0001:00001471
+   120 0001:0000147d    42 0001:00001481   121 0001:00001486   128 0001:0000148a
+   129 0001:00001490   130 0001:00001493   137 0001:00001498   140 0001:000014af
+   147 0001:000014b7   154 0001:000014c8   157 0001:000014e0   165 0001:000014e2
+   168 0001:000014f7   179 0001:00001501   183 0001:00001512   186 0001:0000151f
+   190 0001:00001525   192 0001:0000152b   195 0001:0000153a   199 0001:0000153c
+   170 0001:00001541   200 0001:00001545   204 0001:00001549   207 0001:0000154a
+   210 0001:0000155f   214 0001:00001563   215 0001:0000156a   218 0001:00001578
+   222 0001:0000157b   225 0001:0000157c   228 0001:00001591   231 0001:00001595
+   232 0001:0000159c   235 0001:000015aa   242 0001:000015ad   248 0001:000015af
+   283 0001:000015ed   284 0001:00001641   251 0001:00001649   285 0001:0000164e
+   289 0001:00001651   291 0001:00001652   293 0001:00001667   295 0001:0000166b
+   296 0001:00001672   301 0001:00001675   305 0001:00001677   310 0001:000016a1
+   311 0001:000016ab   312 0001:000016b4   313 0001:000016ba   314 0001:000016c3
+   315 0001:000016c9   317 0001:000016cc   307 0001:000016d7   318 0001:000016db
+
+Line numbers for .\WinRel\disasm.obj(d:\dev\booktwo\disk\wdbg\i386cpuhelp\disasm.c) segment .text
+
+   131 0001:00000000   147 0001:00000010   179 0001:00000013   183 0001:00000015
+   147 0001:00000016   179 0001:0000001b   183 0001:00000067   185 0001:000000e7
+   192 0001:000000f6   196 0001:00000110   197 0001:00000114   198 0001:00000137
+   203 0001:0000014a   204 0001:00000155   206 0001:00000175   207 0001:00000182
+   209 0001:00000186   210 0001:00000194   211 0001:0000019f   212 0001:000001a4
+   213 0001:000001a8   214 0001:000001b7   217 0001:000001c1   224 0001:000001c6
+   225 0001:000001cf   226 0001:000001d8   227 0001:000001e2   229 0001:000001e6
+   230 0001:000001e8   232 0001:000001f2   233 0001:000001f4   235 0001:000001fe
+   236 0001:00000203   237 0001:00000209   238 0001:00000214   241 0001:00000230
+   242 0001:0000023d   243 0001:00000247   244 0001:00000257   247 0001:00000262
+   250 0001:00000273   251 0001:00000284   254 0001:00000289   255 0001:00000297
+   256 0001:000002a0   257 0001:000002a5   258 0001:000002b0   259 0001:000002b2
+   260 0001:000002b6   261 0001:000002b9   262 0001:000002c8   265 0001:000002cd
+   268 0001:000002df   269 0001:000002ee   270 0001:000002f1   273 0001:000002f3
+   274 0001:000002f7   277 0001:000002f9   278 0001:00000302   281 0001:00000304
+   284 0001:0000030c   285 0001:0000031b   286 0001:00000323   289 0001:00000325
+   290 0001:0000032f   293 0001:00000331   294 0001:0000033a   297 0001:0000033c
+   300 0001:00000344   301 0001:0000034d   304 0001:0000035c   305 0001:0000036b
+   306 0001:00000373   309 0001:00000378   310 0001:00000388   311 0001:00000397
+   314 0001:0000039c   316 0001:000003ac   317 0001:000003bc   318 0001:000003cb
+   321 0001:000003d0   322 0001:000003da   323 0001:000003e4   326 0001:000003e9
+   330 0001:000003f2   331 0001:000003fc   332 0001:00000406   335 0001:0000040b
+   338 0001:00000415   339 0001:0000041f   340 0001:00000429   343 0001:0000042e
+   344 0001:00000438   345 0001:00000442   348 0001:00000447   349 0001:00000451
+   350 0001:0000045b   353 0001:00000460   354 0001:00000469   355 0001:00000473
+   357 0001:0000047d   364 0001:00000482   365 0001:0000048b   366 0001:0000049c
+   367 0001:0000049e   370 0001:000004a5   371 0001:000004ae   372 0001:000004c6
+   373 0001:000004cf   374 0001:000004e0   377 0001:000004e5   378 0001:000004fc
+   379 0001:00000502   380 0001:00000519   381 0001:0000052b   384 0001:00000530
+   385 0001:00000545   386 0001:00000548   388 0001:0000055e   389 0001:00000568
+   392 0001:0000056a   393 0001:00000571   394 0001:00000581   396 0001:00000590
+   397 0001:00000595   399 0001:000005c3   402 0001:000005c8   403 0001:000005d8
+   404 0001:000005df   407 0001:000005e4   408 0001:000005f4   409 0001:00000605
+   410 0001:0000060a   412 0001:0000060f   413 0001:00000619   416 0001:0000061b
+   420 0001:00000625   421 0001:00000639   422 0001:00000645   425 0001:00000658
+   427 0001:00000678   428 0001:00000681   430 0001:00000699   431 0001:0000069f
+   432 0001:000006bc   433 0001:000006c2   434 0001:000006da   438 0001:000006df
+   439 0001:000006f7   442 0001:000006fc   443 0001:000006ff   446 0001:00000701
+   447 0001:0000070c   449 0001:00000715   450 0001:00000716   451 0001:0000071b
+   452 0001:0000071f   456 0001:00000722   457 0001:00000729   458 0001:0000072e
+   459 0001:00000734   460 0001:00000736   466 0001:0000073f   467 0001:00000756
+   469 0001:00000768   472 0001:0000076d   473 0001:00000771   474 0001:00000798
+   475 0001:0000079d   476 0001:000007a2   477 0001:000007ae   478 0001:000007b3
+   479 0001:000007bf   480 0001:000007c4   481 0001:000007d2   482 0001:000007dd
+   483 0001:000007e2   484 0001:000007ec   487 0001:000007f1   488 0001:00000801
+   489 0001:0000080b   492 0001:0000080d   493 0001:0000081d   494 0001:00000827
+   497 0001:00000829   499 0001:00000835   502 0001:00000837   503 0001:00000840
+   504 0001:0000084b   505 0001:0000085a   506 0001:00000868   508 0001:00000871
+   510 0001:00000887   511 0001:00000891   516 0001:000008b3   537 0001:000008d4
+   539 0001:000008d9   540 0001:000008e1   542 0001:000008e7   544 0001:000008fb
+   547 0001:00000901   550 0001:0000091c   552 0001:0000091e   554 0001:0000092c
+   555 0001:00000930   556 0001:00000934   526 0001:00000951   527 0001:00000960
+   518 0001:00000965   519 0001:00000972   533 0001:00000989   564 0001:000009a0
+   566 0001:000009ab   567 0001:000009b1   569 0001:000009be   570 0001:000009dc
+   571 0001:000009f6   578 0001:000009ff   580 0001:00000a28   582 0001:00000a36
+   583 0001:00000a44   584 0001:00000a4c   585 0001:00000a56   586 0001:00000a5a
+   584 0001:00000a67   588 0001:00000a6d   590 0001:00000a89   591 0001:00000a94
+   600 0001:00000a9a   601 0001:00000aa0   602 0001:00000ab5   603 0001:00000ac2
+   604 0001:00000acb   606 0001:00000ad8   613 0001:00000ae3   615 0001:00000aee
+   616 0001:00000af5   618 0001:00000b06   626 0001:00000b0b   627 0001:00000b1c
+   633 0001:00000b2b   637 0001:00000b2f   638 0001:00000b34   644 0001:00000b46
+   645 0001:00000b4b   646 0001:00000b51   647 0001:00000b58   649 0001:00000b5e
+   651 0001:00000b68   652 0001:00000b6d   653 0001:00000b73   654 0001:00000b7a
+   663 0001:00000b80   664 0001:00000b8f   666 0001:00000ba1   667 0001:00000bad
+   669 0001:00000bb8   670 0001:00000bc9   672 0001:00000bd3   678 0001:00000be6
+   679 0001:00000bf2   681 0001:00000bfd   683 0001:00000c0a   685 0001:00000c22
+   686 0001:00000c2e   689 0001:00000c39   690 0001:00000c3f   692 0001:00000c50
+   694 0001:00000c65   695 0001:00000c71   696 0001:00000c7c   697 0001:00000c7f
+   702 0001:00000c8d   703 0001:00000ca3   705 0001:00000cab   706 0001:00000cb7
+   707 0001:00000cc2   710 0001:00000cd3   712 0001:00000cdd   721 0001:00000da2
+   729 0001:00000db1   730 0001:00000dc0   731 0001:00000dc2   732 0001:00000dd1
+   734 0001:00000dd4   736 0001:00000df0   737 0001:00000e00   738 0001:00000e03
+   739 0001:00000e15   741 0001:00000e1c   742 0001:00000e26   743 0001:00000e2d
+   744 0001:00000e34   747 0001:00000e39   749 0001:00000e47   750 0001:00000e51
+   751 0001:00000e58   754 0001:00000e66   755 0001:00000e6d   756 0001:00000e76
+   757 0001:00000e86   759 0001:00000e8d   760 0001:00000e8f   761 0001:00000e95
+   762 0001:00000e99   763 0001:00000ead   765 0001:00000eb9   770 0001:00000ec9
+   766 0001:00000ed6   767 0001:00000ee1   766 0001:00000eeb   767 0001:00000ef0
+   772 0001:00000ef5   775 0001:00000f03   776 0001:00000f08   777 0001:00000f11
+   778 0001:00000f15   779 0001:00000f1c   780 0001:00000f2a   781 0001:00000f38
+   782 0001:00000f3d   783 0001:00000f46   785 0001:00000f4c   786 0001:00000f52
+   790 0001:00000f66   817 0001:00000f68   818 0001:00000f78   819 0001:00000f7d
+   820 0001:00000f88   791 0001:00000fb1   792 0001:00000fb8   793 0001:00000fc1
+   794 0001:00000fd4   796 0001:00000fdb   797 0001:00000fdd   798 0001:00000fe2
+   799 0001:00000fe6   800 0001:00000ffa   802 0001:00001006   803 0001:00001015
+   804 0001:0000101d   806 0001:00001027   807 0001:00001029   808 0001:00001039
+   809 0001:00001043   811 0001:0000105d   820 0001:00001070   821 0001:000010c7
+   823 0001:000010cd   825 0001:000010d7   826 0001:000010e0   827 0001:000010f7
+   828 0001:000010fc   829 0001:00001105   830 0001:00001114   832 0001:0000111b
+   833 0001:0000111d   834 0001:0000112f   835 0001:00001134   836 0001:0000113d
+   837 0001:0000114c   841 0001:00001155   842 0001:00001162   843 0001:00001169
+   846 0001:00001170   847 0001:00001177   869 0001:00001184   874 0001:00001193
+   875 0001:00001195   876 0001:000011a3   877 0001:000011a9   878 0001:000011b0
+   879 0001:000011b1   880 0001:000011b3   882 0001:000011c3   884 0001:000011c5
+   885 0001:000011cf   886 0001:000011d4   888 0001:000011de   890 0001:000011e6
+   891 0001:000011e8   893 0001:000011ef   894 0001:000011f8   895 0001:000011ff
+   896 0001:00001206   897 0001:00001209   895 0001:00001215   899 0001:0000121a
+   900 0001:0000121c   901 0001:00001225   903 0001:0000122d   902 0001:00001241
+   905 0001:00001245   927 0001:00001251   930 0001:00001257   931 0001:00001259
+   933 0001:0000125e   934 0001:00001275   936 0001:00001288   958 0001:00001289
+   961 0001:0000128d   962 0001:00001294   963 0001:00001296   964 0001:000012ad
+   966 0001:000012c0   984 0001:000012c1   983 0001:000012c1   985 0001:000012c8
+   986 0001:000012d6  1007 0001:000012d7  1015 0001:000012ea  1016 0001:000012ee
+  1017 0001:000012fc  1018 0001:00001302  1019 0001:00001307  1020 0001:0000130d
+  1021 0001:0000130f  1023 0001:0000131c  1025 0001:0000131f  1027 0001:0000133f
+  1028 0001:00001349  1029 0001:00001356  1030 0001:00001360  1031 0001:00001366
+  1032 0001:00001371  1034 0001:00001378  1035 0001:0000137a  1036 0001:00001385
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\atonexit.c) segment .text
+
+    81 0001:00001a20    76 0001:00001a20    90 0001:00001a45    96 0001:00001a46
+    95 0001:00001a46    97 0001:00001a57
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\crtdll.c) segment .text
+
+   134 0001:00001878   129 0001:00001878   135 0001:00001880   136 0001:00001888
+   158 0001:0000188e   163 0001:000018a1   168 0001:000018b6   170 0001:000018ba
+   172 0001:000018bd   178 0001:000018c7   179 0001:000018cc   184 0001:000018d6
+   189 0001:000018e7   192 0001:000018ee   219 0001:000018f4   220 0001:000018fd
+   225 0001:000018ff   226 0001:0000190b   234 0001:00001921   236 0001:00001928
+   234 0001:0000192f   240 0001:00001930   241 0001:00001933   249 0001:00001936
+   250 0001:00001942   252 0001:00001948   257 0001:0000194d   258 0001:0000195a
+   260 0001:00001960   262 0001:00001969   263 0001:00001972   265 0001:0000197e
+   266 0001:00001987   268 0001:00001996   269 0001:00001998   272 0001:0000199a
+   275 0001:000019aa   283 0001:000019b3   286 0001:000019bd   288 0001:000019c6
+   289 0001:000019d4   291 0001:000019d7   292 0001:000019e5   298 0001:000019f3
+   294 0001:000019f8   295 0001:00001a10   299 0001:00001a12
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\dllmain.c) segment .text
+
+    45 0001:00001ae6    43 0001:00001ae6    46 0001:00001af6    48 0001:00001b00
+    49 0001:00001b03
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\secchk.c) segment .text
+
+   114 0001:00001b60   116 0001:00001b6c   117 0001:00001b70   119 0001:00001b7d
+   123 0001:00001b88   100 0001:00001b91   103 0001:00001b91   104 0001:00001b97
+   105 0001:00001b99   107 0001:00001b9a
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(f:\vs70builds\3036\vc\crtbld\crt\src\seccinit.c) segment .text
+
+    49 0001:00001bbf    58 0001:00001bc5    67 0001:00001bd6    70 0001:00001be0
+    75 0001:00001be6    76 0001:00001bee    77 0001:00001bf6    79 0001:00001bfe
+    93 0001:00001c08    94 0001:00001c23
+
+Line numbers for G:\VSNET\Vc7\lib\MSVCRT.lib(F:\VS70Builds\3036\vc\crtbld\crt\src\intel\ullshr.asm) segment .text
+
+    48 0001:00001ba0    42 0001:00001ba0    49 0001:00001ba3    54 0001:00001ba5
+    55 0001:00001ba8    56 0001:00001baa    57 0001:00001bad    58 0001:00001baf
+    64 0001:00001bb0    65 0001:00001bb2    66 0001:00001bb4    67 0001:00001bb7
+    68 0001:00001bb9    74 0001:00001bba    75 0001:00001bbc    76 0001:00001bbe
+
+ Exports
+
+  ordinal    name
+
+        1    _ClearBreakpoint@16
+               exported name: ClearBreakpoint
+        2    _ClearSingleStep@4
+               exported name: ClearSingleStep
+        3    _DisplayRegisters@12
+               exported name: DisplayRegisters
+        4    _InitializeStackFrameWithContext@8
+               exported name: InitializeStackFrameWithContext
+        5    _ReturnInstructionPointer@4
+               exported name: ReturnInstructionPointer
+        6    _SetBreakpoint@12
+               exported name: SetBreakpoint
+        7    _SetSingleStep@4
+               exported name: SetSingleStep
+        8    _disasm@16
+               exported name: disasm

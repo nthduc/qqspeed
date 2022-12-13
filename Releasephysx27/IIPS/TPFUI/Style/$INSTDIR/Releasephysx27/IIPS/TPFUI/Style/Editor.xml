@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<UIStyles>
+    <Control Name="Button">
+        <Style Name="DlgClose">
+            <Properties>
+                <Property Name="Background" Value="ONEIMAGE:button\close_2.bmp?0,0,15,15;Tile;" />
+                <Property Name="BackgroundHover" Value="ONEIMAGE:button\close_2.bmp?15,0,30,15;Tile;" />
+                <Property Name="BackgroundPressed" Value="ONEIMAGE:button\close_2.bmp?30,0,45,15;Tile;" />
+                <Property Name="BackgroundDisable" Value="NONE:" />
+                <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextColor" Value="0x000000" />
+                <Property Name="TextColorHover" Value="0x000000" />
+                <Property Name="TextColorPressed" Value="0x000000" />
+                <Property Name="TextColorDisable" Value="0x000000" />
+                <Property Name="TextEffect" Value="" />
+                <Property Name="TextEffectHover" Value="" />
+                <Property Name="TextEffectPressed" Value="" />
+                <Property Name="TextEffectDisable" Value="" />
+                <Property Name="TextXOffsetPressed" Value="0" />
+                <Property Name="TextYOffsetPressed" Value="0" />
+                <Property Name="ItemMargin" Value="4" />
+                <Property Name="ClickSound" Value="" />
+                <Property Name="TextOffsetX" Value="-1" />
+                <Property Name="TextOffsetY" Value="-1" />
+            </Properties>
+        </Style>
+        <Style Name="OKCANCEL">
+            <Properties>
+                <Property Name="Background" Value="3HIMAGES:button2\button_n_1.BMP;button2\button_n_2.BMP;button2\button_n_3.BMP;" />
+                <Property Name="BackgroundHover" Value="3HIMAGES:button2\button_h_1.BMP;button2\button_h_2.BMP;button2\button_h_3.BMP;" />
+                <Property Name="BackgroundPressed" Value="3HIMAGES:button2\button_d_1.BMP;button2\button_d_2.BMP;button2\button_d_3.BMP;" />
+                <Property Name="BackgroundDisable" Value="NONE:" />
+                <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextColor" Value="" />
+                <Property Name="TextColorHover" Value="" />
+                <Property Name="TextColorPressed" Value="" />
+                <Property Name="TextColorDisable" Value="" />
+                <Property Name="TextEffect" Value="" />
+                <Property Name="TextEffectHover" Value="" />
+                <Property Name="TextEffectPressed" Value="" />
+                <Property Name="TextEffectDisable" Value="" />
+                <Property Name="TextXOffsetPressed" Value="2" />
+                <Property Name="TextYOffsetPressed" Value="2" />
+                <Property Name="ItemMargin" Value="4" />
+                <Property Name="ClickSound" Value="" />
+                <Property Name="TextOffsetX" Value="-1" />
+                <Property Name="TextOffsetY" Value="" />
+                <Property Name="DisableDBlClick" Value="true" />
+            </Properties>
+        </Style>
+        <Style Name="test">
+            <Properties>
+                <Property Name="Background" Value="COLOR:0xffffff;" />
+                <Property Name="BackgroundHover" Value="NONE:" />
+                <Property Name="BackgroundPressed" Value="NONE:" />
+                <Property Name="BackgroundDisable" Value="NONE:" />
+                <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                <Property Name="TextColor" Value="0" />
+                <Property Name="TextColorHover" Value="0x000000" />
+                <Property Name="TextColorPressed" Value="0x000000" />
+                <Property Name="TextColorDisable" Value="0x000000" />
+                <Property Name="TextEffect" Value="" />
+                <Property Name="TextEffectHover" Value="" />
+                <Property Name="TextEffectPressed" Value="" />
+                <Property Name="TextEffectDisable" Value="" />
+                <Property Name="TextXOffsetHover" Value="0" />
+                <Property Name="TextYOffsetHover" Value="0" />
+                <Property Name="TextXOffsetPressed" Value="0" />
+                <Property Name="TextYOffsetPressed" Value="0" />
+                <Property Name="ItemMargin" Value="4" />
+                <Property Name="ClickSound" Value="" />
+                <Property Name="HoverSound" Value="" />
+            </Properties>
+        </Style>
+        <Style Name="NoramlButton">
+            <Properties>
+                <Property Name="Caption_LID" Value="ID_LONGIN" />
+                <Property Name="OnClick" Value="TPFUI.OK" />
+            </Properties>
+        </Style>
+    </Control>
+    <Control Name="CheckBox">
+        <Style Name="Radio">
+            <Properties>
+                <Property Name="Image" Value="checkbox\Radio1.tga" />
+                <Property Name="ImageHover" Value="" />
+                <Property Name="ImageChecked" Value="checkbox\Radio2.tga" />
+                <Property Name="ImageDisable" Value="" />
+                <Property Name="ImageDisableChecked" Value="" />
+                <Property Name="ImageHoverChecked" Value="" />
+                <Property Name="ImagePressed" Value="" />
+                <Property Name="ImagePressedChecked" Value="" />
+                <Property Name="TextFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                <Property Name="TextFontHover" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextFontPressed" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextFontDisable" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="TextColor" Value="0x000000" />
+                <Property Name="TextColorHover" Value="0x000000" />
+                <Property Name="TextColorPressed" Value="0x000000" />
+                <Property Name="TextColorDisable" Value="0x000000" />
+            </Properties>
+        </Style>
+    </Control>
+    <Control Name="Dialog">
+        <Style Name="Common">
+            <Properties>
+                <Property Name="Background" Value="9IMAGES:base\base7\base7_1.BMP;base\base7\base7_2.BMP;base\base7\base7_3.BMP;base\base7\base7_4.BMP;base\base7\base7_5.BMP;base\base7\base7_6.BMP;base\base7\base7_7.BMP;base\base7\base7_8.BMP;base\base7\base7_9.BMP;" />
+                <Property Name="OpenSound" Value="" />
+            </Properties>
+        </Style>
+    </Control>
+    <Control Name="Header">
+        <Style Name="Header">
+            <Properties>
+                <Property Name="TextColor" Value="RGB:110,110,133" />
+                <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+                <Property Name="Divider" Value="list\span.BMP" />
+                <Property Name="DividerHover" Value="" />
+                <Property Name="DividerPressed" Value="" />
+                <Property Name="DividerDisable" Value="" />
+                <Property Name="Background" Value="COLOR:RGB:222,222,231;" />
+                <Property Name="BackgroundHover" Value="NONE:" />
+                <Property Name="BackgroundPressed" Value="NONE:" />
+                <Property Name="BackgroundDisable" Value="NONE:" />
+                <Property Name="ItemMargin" Value="0" />
+            </Properties>
+        </Style>
+    </Control>
+    <Control Name="ScrollView">
+        <Style Name="ScrollView">
+            <Properties>
+                <Property Name="MinThumbLength" Value="14" />
+                <Property Name="HScrollImagePath" Value="scrollbar\h\" />
+                <Property Name="VScrollImagePath" Value="scrollbar\v\" />
+                <Property Name="HasHScroll" Value="true" />
+                <Property Name="HasVScroll" Value="true" />
+                <Property Name="HScrollHeight" Value="13" />
+                <Property Name="VScrollWidth" Value="13" />
+                <Property Name="ScrollBarImagePostfixName" Value="bmp" />
+            </Properties>
+        </Style>
+    </Control>
+    <Control Name="Table">
+        <Style Name="Table">
+            <Properties>
+                <Property Name="DotLineColor" Value="0x000000" />
+                <Property Name="DotLineWidth" Value="1" />
+                <Property Name="GridColor" Value="RGB:208,208,217" />
+                <Property Name="GridLineWidth" Value="1" />
+                <Property Name="Background" Value="NONE:" />
+                <Property Name="HoverBackground" Value="NONE:" />
+                <Property Name="SelectBackground" Value="NONE:" />
+                <Property Name="WholeRowSelected" Value="true" />
+                <Property Name="GridMode" Value="CompleteGrid" />
+                <Property Name="TextColor" Value="RGB:110,110,113" />
+                <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;0;3;2;1;2;宋体" />
+            </Properties>
+        </Style>
+    </Control>
+    <Control Name="Edit">
+        <Style Name="test">
+            <Properties>
+                <Property Name="TextColor" Value="0x000000" />
+                <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                <Property Name="HasBorder" Value="true" />
+                <Property Name="BorderColor" Value="0x000000" />
+            </Properties>
+        </Style>
+        <Style Name="MyEdit">
+            <Properties>
+                <Property Name="CustomID" Value="10002" />
+                <Property Name="EditMargin" Value="2,2,2,2" />
+            </Properties>
+        </Style>
+    </Control>
+</UIStyles>

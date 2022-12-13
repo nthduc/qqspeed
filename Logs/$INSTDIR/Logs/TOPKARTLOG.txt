@@ -1,0 +1,16 @@
+[#loading#]LoadPreCacheGsa cost 0.000000 s
+
+[#loading#]InitPlatform cost 0.172000 s
+
+正在为您加载游戏组件(8)...
+CWndProcManager::Create()
+正在为您加载游戏组件(10)...
+Statistics()
+初始化CAvatarMgr...
+正在为您加载游戏组件(12)...
+CAvatarMgr::Create()
+[#loading#]CAvatarMgr::Create cost 0.000000 s
+
+正在为您加载游戏组件(14)...
+CreateRenderer()
+对不起，您的显示驱动无法正确工作，请在重新启动电脑后重试，若依然出现这个提示，您可能需要更新显卡驱动或者显卡(错误原因:Creation failed: Invalid 3D device type)。

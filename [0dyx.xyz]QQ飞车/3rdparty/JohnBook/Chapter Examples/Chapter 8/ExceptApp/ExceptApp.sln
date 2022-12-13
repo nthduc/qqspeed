@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptApp", "ExceptApp.csproj", "{64880E86-149A-4429-9B71-F46115AC9A94}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{64880E86-149A-4429-9B71-F46115AC9A94}.Debug.ActiveCfg = Debug|.NET
+		{64880E86-149A-4429-9B71-F46115AC9A94}.Debug.Build.0 = Debug|.NET
+		{64880E86-149A-4429-9B71-F46115AC9A94}.Release.ActiveCfg = Release|.NET
+		{64880E86-149A-4429-9B71-F46115AC9A94}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

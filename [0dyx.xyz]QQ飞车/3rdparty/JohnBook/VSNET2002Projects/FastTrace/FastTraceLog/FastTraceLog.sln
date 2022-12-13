@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FastTraceLog", "FastTraceLog.vcproj", "{A95970BF-CBD0-460C-B9ED-A702268B7770}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FastTrace", "..\FastTrace\FastTrace.vcproj", "{C7F2F992-71A5-4824-8125-0772F0B8F9A7}"
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{A95970BF-CBD0-460C-B9ED-A702268B7770}.0 = {C7F2F992-71A5-4824-8125-0772F0B8F9A7}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A95970BF-CBD0-460C-B9ED-A702268B7770}.Debug.ActiveCfg = Debug|Win32
+		{A95970BF-CBD0-460C-B9ED-A702268B7770}.Debug.Build.0 = Debug|Win32
+		{A95970BF-CBD0-460C-B9ED-A702268B7770}.Release.ActiveCfg = Release|Win32
+		{A95970BF-CBD0-460C-B9ED-A702268B7770}.Release.Build.0 = Release|Win32
+		{C7F2F992-71A5-4824-8125-0772F0B8F9A7}.Debug.ActiveCfg = Debug|Win32
+		{C7F2F992-71A5-4824-8125-0772F0B8F9A7}.Debug.Build.0 = Debug|Win32
+		{C7F2F992-71A5-4824-8125-0772F0B8F9A7}.Release.ActiveCfg = Release|Win32
+		{C7F2F992-71A5-4824-8125-0772F0B8F9A7}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+EndGlobal

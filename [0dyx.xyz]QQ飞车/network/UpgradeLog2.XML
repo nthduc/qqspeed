@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Network">
+</Property><Property Name="解决方案文件" Value="H:\CODE\QQ卡丁车kart_client\aaa\network\Network.sln">
+</Property><Property Name="Date" Value="2009年8月24日">
+</Property><Property Name="Time" Value="11:12">
+</Property><Property Name="日志号" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="Network.sln" Description="创建备份文件 H:\CODE\QQ卡丁车kart_client\aaa\network\Network.sln.old 时出错">
+</Event><Event ErrorLevel="0" Project="Network" Source="Network.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="0" Project="Network" Source="Network.vcproj" Description="此版本的 Visual Studio 已删除了对 ATL Server 的支持。如果您的 ATL 项目使用了任何 ATL Server 功能，则该项目可能没有生成。有关其他选择的列表，请参阅 MSDN 文档。">
+</Event><Event ErrorLevel="0" Project="Network" Source="Network.vcproj" Description="Visual C++ 现在在其 C 和 C++ 库中提供了改进的安全性。这包括新的和改进后的函数、附加检查和验证以及内部设计更改。这些库默认情况下处于打开状态。在您生成项目时，可能会看到有关不安全的函数或参数的一些警告。这些警告通常会建议改用更安全的编码样式或函数。建议您针对这些警告进行更正，以使代码更加安全。在文档中搜索“CRT 中的安全增强”和“已检查的迭代器”可找到完整的详细信息。">
+</Event><Event ErrorLevel="0" Project="Network" Source="Network.vcproj" Description="已对 C/C++ 编译器的默认设置进行了修改，以使其更加符合 ISO 标准 C++。这些更改包括: 对于循环范围强制使用标准 C++，支持 wchar_t 作为本机类型。如果不更改现有代码或用于生成现有代码的编译器选项，则这些更改可能导致现有代码无法编译。">
+</Event><Event ErrorLevel="1" Project="Network" Source="Network.vcproj" Description="由于要求 Visual C++ 项目生成嵌入式(默认) Windows SxS 清单，现在清单工具将自动生成项目中的清单文件。您可能需要更改您生成的版本，以便其正常工作。例如，建议将任何清单文件中包含的依赖项信息都转换为源代码附带的头文件中的“#pragma comment(linker,&quot;&lt;在此处插入依赖项&gt;&quot;)”。如果项目已经通过资源(.rc)文件在 RT_MANIFEST 资源节中嵌入清单，则需要先将该行注释掉，然后才能正确生成项目。">
+</Event><Event ErrorLevel="1" Project="Network" Source="Network.vcproj" Description="由于 C++ 编译器中的合规性更改，可能需要更改代码才能使项目在生成时不出错。C++ 编译器的早期版本允许按成员函数名称(如 MemberFunctionName)指定成员函数指针。C++ 标准则要求使用 address-of 运算符指定完全限定名(如 &amp;ClassName::MemberFunctionName)。如果您的项目包含在 Windows 窗体设计器中使用的窗体或控件，则可能必须更改 InitializeComponent 中的代码，这是因为设计器生成的代码使用的是委托构造中的不符合规范的语法(在事件处理程序中使用)。">
+</Event><Event ErrorLevel="1" Project="Network" Source="Network.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="0" Project="Network" Source="Network.vcproj" Description="已成功地将项目文件备份为“H:\CODE\QQ卡丁车kart_client\aaa\network\Network.vcproj.7.10.old”。">
+</Event><Event ErrorLevel="0" Project="Network" Source="Network.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="Network" Source="Network.vcproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="QQTPPP2ND" Source="..\p2p\QQTPPP2ND\QQTPPP2ND.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\p2p\QQTPPP2ND\QQTPPP2ND.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="GameApp" Source="..\gameapp\GameApp.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\gameapp\GameApp.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="gameui" Source="..\libsrc\gameui\gameui.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\gameui\gameui.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="lua5" Source="..\libsrc\lua5\lua5.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\lua5\lua5.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="LuaPlusLib" Source="..\libsrc\LuaPlus\LuaPlusLib.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\LuaPlus\LuaPlusLib.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="ImageLib" Source="..\libsrc\ImageLib\ImageLib.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\ImageLib\ImageLib.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="XImage" Source="..\libsrc\XImage\XImage.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\XImage\XImage.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="kernel" Source="..\libsrc\Kernel\kernel.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\Kernel\kernel.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="vfilesys" Source="..\vfilesys\vfilesys.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\vfilesys\vfilesys.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="P2PAdapter" Source="..\p2p\P2PAdapter\P2PAdapter.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\p2p\P2PAdapter\P2PAdapter.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="QQTPing" Source="..\pingmgr\QQTPing.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\pingmgr\QQTPing.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="regsvr" Source="..\tools\regsvr\regsvr.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\tools\regsvr\regsvr.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="dbgview" Source="..\tools\dbgview\dbgview.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\tools\dbgview\dbgview.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="lualibx" Source="..\libsrc\lua-5.0.2\buildlua_win32\lualibx\lualibx.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\lua-5.0.2\buildlua_win32\lualibx\lualibx.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="lualib" Source="..\libsrc\lua-5.0.2\buildlua_win32\lualib\lualib.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\libsrc\lua-5.0.2\buildlua_win32\lualib\lualib.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="2" Project="KartClient" Source="..\extentions\KartClient\KartClient.vcproj" Description="未能升级项目文件“H:\CODE\QQ卡丁车kart_client\aaa\extentions\KartClient\KartClient.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="KartClient" Source="..\extentions\KartClient\KartClient.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="KartClient" Source="..\extentions\KartClient\KartClient.vcproj" Description="未转换">
+</Event><Event ErrorLevel="2" Project="Top-Kart" Source="..\extentions\Top-Kart\Top-Kart.vcproj" Description="项目文件“H:\CODE\QQ卡丁车kart_client\aaa\extentions\Top-Kart\Top-Kart.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event><Event ErrorLevel="0" Project="" Source="Network.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Network.sln" Description="Converted">
+</Event></UpgradeLog>

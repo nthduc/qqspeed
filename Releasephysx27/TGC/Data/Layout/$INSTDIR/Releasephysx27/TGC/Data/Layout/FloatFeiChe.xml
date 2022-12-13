@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110223" ColorLib="">
+    <UIObject Type="Dialog" Name="DlgFloat">
+        <Properties>
+            <Property Name="XOffset" Value="361" />
+            <Property Name="YOffset" Value="-3" />
+            <Property Name="Width" Value="222" />
+            <Property Name="Height" Value="27" />
+            <Property Name="Background" Value="NONE:" />
+            <Property Name="AlwaysOnTop" Value="true" />
+            <Property Name="ToolWindow" Value="true" />
+            <Property Name="CaptionHeight" Value="30" />
+            <Property Name="LayeredWindow" Value="true" />
+            <Property Name="TransRegionEventTransparent" Value="false" />
+        </Properties>
+        <Children>
+            <UIObject Type="TinyContainer" Name="ctnMain">
+                <Properties>
+                    <Property Name="XOffset" Value="0" />
+                    <Property Name="YOffset" Value="4" />
+                    <Property Name="Width" Value="164" />
+                    <Property Name="Height" Value="22" />
+                    <Property Name="Transparent" Value="true" />
+                    <Property Name="Background" Value="3HIMAGES:Float\float_fei_che_bar_bk_left.png;Float\float_fei_che_bar_bk_mid.png;Float\float_fei_che_bar_bk_mid.png;Stretch;0;" />
+                </Properties>
+                <Children>
+                    <UIObject Type="TinyContainer" Name="signal">
+                        <Properties>
+                            <Property Name="XOffset" Value="93" />
+                            <Property Name="YOffset" Value="4" />
+                            <Property Name="Width" Value="18" />
+                            <Property Name="Height" Value="14" />
+                            <Property Name="Transparent" Value="true" />
+                            <Property Name="Background" Value="ONEIMAGE:signal\Background.png;Tile;null;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="TinyContainer" Name="iconReduce">
+                        <Properties>
+                            <Property Name="XOffset" Value="161" />
+                            <Property Name="YOffset" Value="5" />
+                            <Property Name="Width" Value="11" />
+                            <Property Name="Height" Value="14" />
+                            <Property Name="Visible" Value="false" />
+                            <Property Name="Transparent" Value="true" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\reduce.png;Tile;null;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="TinyStatic" Name="txtTime">
+                        <Properties>
+                            <Property Name="XOffset" Value="111" />
+                            <Property Name="YOffset" Value="3" />
+                            <Property Name="Width" Value="60" />
+                            <Property Name="Height" Value="19" />
+                            <Property Name="TextColor" Value="0x724915" />
+                            <Property Name="Caption" Value="20 毫秒" />
+                            <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Container" Name="signal_bg">
+                        <Properties>
+                            <Property Name="XOffset" Value="91" />
+                            <Property Name="YOffset" Value="4" />
+                            <Property Name="Width" Value="18" />
+                            <Property Name="Height" Value="14" />
+                            <Property Name="Transparent" Value="true" />
+                            <Property Name="CustomID" Value="150000" />
+                            <Property Name="Background" Value="ONEIMAGE:signal\green.png;Tile;0;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="TinyStatic" Name="txt3">
+                        <Properties>
+                            <Property Name="XOffset" Value="25" />
+                            <Property Name="YOffset" Value="3" />
+                            <Property Name="Width" Value="66" />
+                            <Property Name="Height" Value="19" />
+                            <Property Name="TextColor" Value="0x724915" />
+                            <Property Name="Caption" Value="已停止加速" />
+                            <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                            <Property Name="AlignMode" Value="CENTER" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="ctnBar">
+                <Properties>
+                    <Property Name="XOffset" Value="254" />
+                    <Property Name="YOffset" Value="18" />
+                    <Property Name="Width" Value="54" />
+                    <Property Name="Height" Value="15" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="Alpha" Value="10" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Button" Name="btnStopAcc">
+                        <Properties>
+                            <Property Name="XOffset" Value="0" />
+                            <Property Name="YOffset" Value="1" />
+                            <Property Name="Width" Value="17" />
+                            <Property Name="Height" Value="18" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\fei_che_stop_acc_normal.png;Tile;0;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\fei_che_stop_acc_hover.png;Tile;0;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Button" Name="btnClose">
+                        <Properties>
+                            <Property Name="XOffset" Value="14" />
+                            <Property Name="YOffset" Value="1" />
+                            <Property Name="Width" Value="17" />
+                            <Property Name="Height" Value="18" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\fei_che_close_flow_normal.png;Tile;0;" />
+                            <Property Name="BackgroundHover" Value="ONEIMAGE:Float\fei_che_close_flow_hover.png;Tile;0;" />
+                            <Property Name="Tip" Value="关闭悬浮" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="Menu" Name="popMenu">
+                <Properties>
+                    <Property Name="XOffset" Value="6" />
+                    <Property Name="YOffset" Value="39" />
+                    <Property Name="Width" Value="102" />
+                    <Property Name="Height" Value="75" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="ItemHeight" Value="25" />
+                    <Property Name="TextRect" Value="5,5,20,20" />
+                    <Property Name="Background" Value="9IMAGES:main\menu\menu_1.png;main\menu\menu_2.png;main\menu\menu_3.png;main\menu\menu_4.png;main\menu\menu_5.png;main\menu\menu_6.png;main\menu\menu_7.png;main\menu\menu_8.png;main\menu\menu_9.png;Tile;null;" />
+                    <Property Name="CreateType" Value="win" />
+                    <Property Name="ItemBgHover" Value="COLOR:RGB:74,160,233;" />
+                    <Property Name="ItemTextColorHover" Value="0xFFFFFF" />
+                    <Property Name="ItemTextColorDisable" Value="RGB:160,160,160" />
+                    <Property Name="ItemSeparatorBg" Value="3HIMAGES:main\menu\separator_l.png;main\menu\separator_m.png;main\menu\separator_r.png;Tile;null;" />
+                    <Property Name="ItemSet" Value="Str:查看加速详情;Str:隐藏悬浮窗口;Str:退出加速" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="icon">
+                <Properties>
+                    <Property Name="XOffset" Value="2" />
+                    <Property Name="YOffset" Value="-1" />
+                    <Property Name="Width" Value="25" />
+                    <Property Name="Height" Value="26" />
+                    <Property Name="Transparent" Value="true" />
+                    <Property Name="Background" Value="ONEIMAGE:Float\feiche.png;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="ToolTip" Name="FloatTip">
+                <Properties>
+                    <Property Name="XOffset" Value="186" />
+                    <Property Name="YOffset" Value="35" />
+                    <Property Name="Width" Value="10" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Visible" Value="false" />
+                    <Property Name="AlwaysOnTop" Value="true" />
+                    <Property Name="CustomID" Value="200000" />
+                    <Property Name="Background" Value="9IMAGES:Float\1.png;Float\2.png;Float\3.png;Float\4.png;Float\5.png;Float\6.png;Float\7.png;Float\8.png;Float\9.png;Tile;null;" />
+                    <Property Name="IsGlobalTip" Value="true" />
+                    <Property Name="Margins" Value="5,5,5,5" />
+                    <Property Name="AutoSize" Value="true" />
+                    <Property Name="CreateType" Value="win" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="windwillarea">
+                <Properties>
+                    <Property Name="XOffset" Value="164" />
+                    <Property Name="YOffset" Value="4" />
+                    <Property Name="Width" Value="19" />
+                    <Property Name="Height" Value="22" />
+                    <Property Name="Transparent" Value="true" />
+                </Properties>
+                <Children>
+                    <UIObject Type="MultiImageVermin" Name="windwill">
+                        <Properties>
+                            <Property Name="XOffset" Value="0" />
+                            <Property Name="YOffset" Value="0" />
+                            <Property Name="Width" Value="19" />
+                            <Property Name="Height" Value="22" />
+                            <Property Name="Transparent" Value="true" />
+                            <Property Name="CustomID" Value="200001" />
+                            <Property Name="Image" Value="Float\windwill.gif" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="TinyContainer" Name="windwillbk">
+                        <Properties>
+                            <Property Name="XOffset" Value="0" />
+                            <Property Name="YOffset" Value="0" />
+                            <Property Name="Width" Value="19" />
+                            <Property Name="Height" Value="22" />
+                            <Property Name="Visible" Value="false" />
+                            <Property Name="Transparent" Value="true" />
+                            <Property Name="CustomID" Value="200002" />
+                            <Property Name="Background" Value="ONEIMAGE:Float\windwill.png;Tile;0;" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="rightside">
+                <Properties>
+                    <Property Name="XOffset" Value="183" />
+                    <Property Name="YOffset" Value="4" />
+                    <Property Name="Width" Value="39" />
+                    <Property Name="Height" Value="22" />
+                    <Property Name="Transparent" Value="true" />
+                    <Property Name="Background" Value="3HIMAGES:Float\float_fei_che_bar_bk_mid.png;Float\float_fei_che_bar_bk_mid.png;Float\float_fei_che_bar_bk_right.png;Stretch;0;" />
+                </Properties>
+                <Children>
+                    <UIObject Type="TinyStatic" Name="txtEffect">
+                        <Properties>
+                            <Property Name="XOffset" Value="1" />
+                            <Property Name="YOffset" Value="3" />
+                            <Property Name="Width" Value="43" />
+                            <Property Name="Height" Value="18" />
+                            <Property Name="TextColor" Value="0x724915" />
+                            <Property Name="Caption" Value="00%" />
+                            <Property Name="LogFont" Value="-12;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

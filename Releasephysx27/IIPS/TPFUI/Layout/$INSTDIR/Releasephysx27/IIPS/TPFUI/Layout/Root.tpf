@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.69.20110329" ColorLib="">
+    <UIObject Type="Dialog" Name="Dlg_Root" ScriptFile="TPFLocalization.lua;SetLocalization.lua">
+        <Properties StylePath="Editor.xml/Dialog/Common">
+            <Property Name="XOffset" Value="0" />
+            <Property Name="YOffset" Value="0" />
+            <Property Name="Width" Value="524" />
+            <Property Name="Height" Value="235" />
+            <Property Name="CustomID" Value="10000" />
+            <Property Name="Background" Value="ONEIMAGE:back\background.png;Tile;0;" />
+            <Property Name="RegionSet" Value="FROMBGIMAGES:0x0000ff" />
+            <Property Name="Icon" Value="back\icon.ico" />
+            <Property Name="Caption" Value="QQ飞车游戏空闲时下载" />
+        </Properties>
+        <Children>
+            <UIObject Type="Button" Name="Btn_Close">
+                <Properties StylePath="Editor.xml/Button/DlgClose">
+                    <Property Name="XOffset" Value="483" />
+                    <Property Name="YOffset" Value="10" />
+                    <Property Name="Width" Value="25" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:back\按钮\关闭_3_正常.png;Tile;null;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:back\按钮\关闭_2_经过.png;Tile;null;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:back\按钮\关闭_1_按下.png;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_Min">
+                <Properties>
+                    <Property Name="XOffset" Value="456" />
+                    <Property Name="YOffset" Value="10" />
+                    <Property Name="Width" Value="25" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:back\按钮\最小化_3_正常.png;Tile;null;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:back\按钮\最小化_2_经过.png;Tile;null;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:back\按钮\最小化_1_按下.png;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Level" Name="Lvl_Progress">
+                <Properties>
+                    <Property Name="XOffset" Value="72" />
+                    <Property Name="YOffset" Value="77" />
+                    <Property Name="Width" Value="389" />
+                    <Property Name="Height" Value="31" />
+                    <Property Name="TextAlign" Value="center" />
+                    <Property Name="LevelTopImage" Value="3HIMAGES:back\进度条\黄色进度条_头.png;back\进度条\黄色进度条_中.png;back\进度条\黄色进度条_尾.png;Stretch;0;" />
+                    <Property Name="UpperRange" Value="1000" />
+                    <Property Name="CurrentPosition" Value="80" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="Static1">
+                <Properties>
+                    <Property Name="XOffset" Value="163" />
+                    <Property Name="YOffset" Value="14" />
+                    <Property Name="Width" Value="53" />
+                    <Property Name="Height" Value="14" />
+                    <Property Name="TextColor" Value="RGB:255,0,0" />
+                    <Property Name="Caption" Value="V1.0.0.1" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="Txt_Status">
+                <Properties>
+                    <Property Name="XOffset" Value="33" />
+                    <Property Name="YOffset" Value="156" />
+                    <Property Name="Width" Value="472" />
+                    <Property Name="Height" Value="60" />
+                    <Property Name="TextColor" Value="RGB:0,128,255" />
+                    <Property Name="Caption" Value="123\\n123" />
+                    <Property Name="MultiLine" Value="true" />
+                    <Property Name="LineSpacing" Value="4" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_Pause">
+                <Properties>
+                    <Property Name="XOffset" Value="332" />
+                    <Property Name="YOffset" Value="405" />
+                    <Property Name="Width" Value="81" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:back\按钮\暂停下载_3_正常.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:back\按钮\暂停下载_2_经过.png;Tile;0;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:back\按钮\暂停下载_1_按下.png;Tile;0;" />
+                    <Property Name="BackgroundDisable" Value="ONEIMAGE:back\按钮\暂停下载_4_禁用.png;Tile;0;" />
+                    <Property Name="AutoSizeImage" Value="true" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_Settings">
+                <Properties>
+                    <Property Name="XOffset" Value="421" />
+                    <Property Name="YOffset" Value="188" />
+                    <Property Name="Width" Value="80" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:back\按钮\系统设置_3_正常.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:back\按钮\系统设置_2_经过.png;Tile;null;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:back\按钮\系统设置_1_按下.png;Tile;0;" />
+                    <Property Name="BackgroundDisable" Value="ONEIMAGE:back\按钮\系统设置_4_禁用.png;Tile;null;" />
+                    <Property Name="AutoSizeImage" Value="true" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

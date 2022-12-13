@@ -1,0 +1,63 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>EAX_PSHIFTER</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="used to control the pitch shifter filter in the EAX 4 3D provider">
+<meta name="ms-hkwd" content="EAX_PSHIFTER">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>EAX_PSHIFTER</h1>
+<p>The structure  <b>EAX_PSHIFTER</b> used to control the pitch shifter filter in the EAX 4 3D provider</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b>struct <a href="EAX_PSHIFTER.html" class=trn>EAX_PSHIFTER</a>
+{
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Slot</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Volume</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> CoarseTune</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> FineTune</i><b>;
+};</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Members</h4>
+<dl>
+<dt><i>Slot</i></dt>
+<dd>specifies the slot to query or set. The pitch shifter can use slot 2 and/or 3.</dd>
+<dt><i>Volume</i></dt>
+<dd>specifies the volume of this slot in standard EAX attenuation units (-10000 to 0 fixed point millibels, default 0.0).</dd>
+<dt><i>CoarseTune</i></dt>
+<dd>specifies the amount of pitch shift in semitones (-12 to 12, default 12).</dd>
+<dt><i>FineTune</i></dt>
+<dd>specifies the amount of pitch shift in cents (-50 to 50, default 0).</dd>
+</dl>
+<h4>Discussion</h4>
+<p>See the EAX 4 documentation for technical details on this filter.</p>
+<p>
+<br>
+<b>Group:</b>
+<a href="3D Digital Audio Services.html">3D Digital Audio Services</a><br>
+<b>Related Sections:</b>
+<a href="Creative's EAX 4 Pre4368aa.html">Creative's EAX 4 Preferences</a><br>
+<b>Related Basic Types:</b>
+<a href="S32.html">S32</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="FBGUI">
+      <UniqueIdentifier>{f946278d-10e2-4962-9004-54ceb23f250a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBGUI\Header Files">
+      <UniqueIdentifier>{8ed36cd7-b566-48b5-8bc8-aa44b7d2ec41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBGUI\Source Files">
+      <UniqueIdentifier>{891273c5-7e11-4e06-bc6e-09b83c17034f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gbFontManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gbTextureCodecEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gbTextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gbUIRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUICanvas.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUICodePage.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUIFont.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUIFontManager.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUIFontVertex.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUIGlyphData.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUIMemory.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUIPoint.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUIRect.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUIRenderDriver.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBGui\FBGUISystem.cpp">
+      <Filter>FBGUI\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gbFontManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gbTextureCodecEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gbTextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gbUIRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IUIRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUI.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIBase.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUICanvas.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUICodePage.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIDef.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIFont.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIFontManager.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIFontVertex.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIGlyphData.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIMemory.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIPoint.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIRect.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUIRenderDriver.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUISingleton.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUISize.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUISystem.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FBGui\FBGUITexture.h">
+      <Filter>FBGUI\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

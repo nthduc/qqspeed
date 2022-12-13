@@ -1,0 +1,197 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "winver.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 2,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "Comment", "De Oppresso Liber"
+            VALUE "CompanyName", "Debugging Applications for Microsoft .NET and Windows Applications"
+            VALUE "FileDescription", "Generates modified MAP files"
+            VALUE "FileVersion", "2.0.000"
+            VALUE "InternalName", "PDB2MAP"
+            VALUE "LegalCopyright", "Copyright © 1997-2003 by John Robbins"
+            VALUE "OriginalFilename", "PDB2MAP.EXE"
+            VALUE "ProductVersion", "2.0.000"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""winver.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_LOGO                "PDB2MAP Version %d.%02d - Copyright (c) 2000-2003 by John Robbins\n\n"
+    IDS_USAGE1              "\nPDB2MAP generates readable MAP-type files (.P2M) for an application already\n"
+    IDS_USAGE2              "compiled with debug symbols.\n"
+    IDS_USAGE3              "\n"
+    IDS_USAGE4              "\n"
+    IDS_USAGE5              "Usage:  PDB2MAP [[/|-]?|u|v|nologo] <Module>\n\n"
+    IDS_USAGE6              "Options:\n"
+    IDS_USAGE7              "/?      - Display this help.\n"
+    IDS_USAGE8              "/u      - Undecorate symbol names Default is off.\n"
+    IDS_USAGE9              "/v      - Verbose output.\n"
+    IDS_USAGE10             "/nologo - Do not show the logo.\n"
+    IDS_USAGE11             "Module  - The binary file, compiled with symbols, to process.\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_USAGE12             "          <Module>.P2M is written to the current directory.\n"
+    IDS_P2MEXT              ".P2M"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_GETSIZEFAILED       "Unable to find symbol size"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INVALIDCMDLINE      "Invalid command line\n"
+    IDS_FAILEDSYMINIT       "The symbol engine failed to initialize.\n"
+    IDS_NOOPENFILE          "Unable to open %s.\n"
+    IDS_NOLOADSYMBOLS       "Unable to load symbols for %s.\n"
+    IDS_NOMODINFO           "Unable to get the module information for %s out of the symbol engine.\n"
+    IDS_WRONGSYMTYPE        "'%s' does not have C7 (CodeView), PDB, or DIA symbols.\n"
+    IDS_NOOPENOUTPUT        "Unable to open %s as the output file.\n"
+    IDS_WRITEFAILED         "Writing to %s failed.\n"
+    IDS_FUNCENUMFAILED      "Function enumeration failed.\n"
+    IDS_NOFUNCTIONINFO      "No function information found.\n"
+    IDS_NOLINEINFO          "No line information found.\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VB_INITSYMENG       "Initializing the symbol engine.\n"
+    IDS_VB_OPENINGFILE      "Preparing to open the input file.\n"
+    IDS_VB_LOADINGSYMS      "Loading the symbols.\n"
+    IDS_VB_GETMODULEINFO    "Getting the module information from the symbol engine.\n"
+    IDS_VB_WRITINGHEADER    "Writing out header information.\n"
+    IDS_VB_STARTENUM        "Starting to enumerate functions.\n"
+    IDS_VBS_HASSRCLINE      "  Addr has src/line Line: %5d  Source: %s\n"
+    IDS_VBS_ADDINGLINE      "  Adding line: %5d\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VBS_NEWRANGE        "  A new source range!\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HEADERINFO64        "PDB2MAP Generated Map File\n\nImage: %s\n\nTimestamp is %X -> %s\nPreferred load address is %016I64X\n\n"
+    IDS_FUNCTIONHEADER64    "Address             Size  Function\n"
+    IDS_FUNCTFORMAT64       "0x%016I64X   %5d  %s\n"
+    IDS_SPACERS64           "\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SRCHEADER64         "\n\nLine numbers for %s\n"
+    IDS_LINEFORMAT64        "%5d : 0x%016I64X  "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HEADERINFO32        "PDB2MAP Generated Map File\n\nImage: %s\n\nTimestamp is %X -> %s\nPreferred load address is %08X\n\n"
+    IDS_FUNCTIONHEADER32    "Address      Size  Function\n"
+    IDS_FUNCTFORMAT32       "0x%08X  %5d  %s\n"
+    IDS_SPACERS32           "\n"
+    IDS_SRCHEADER32         "\n\nLine numbers for %s\n"
+    IDS_LINEFORMAT32        "%5d : 0x%08X  "
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

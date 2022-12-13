@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeadlockDetection", "DeadlockDetection\DeadlockDetection.vcproj", "{030CD165-03DC-42A1-948A-BC9F3CF2E691}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextFileDDExt", "TextFileDDExt\TextFileDDExt.vcproj", "{9A3A0CA6-206F-4E5C-9B00-4C36EB780F8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{030CD165-03DC-42A1-948A-BC9F3CF2E691}.0 = {9A3A0CA6-206F-4E5C-9B00-4C36EB780F8D}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{030CD165-03DC-42A1-948A-BC9F3CF2E691}.Debug.ActiveCfg = Debug|Win32
+		{030CD165-03DC-42A1-948A-BC9F3CF2E691}.Debug.Build.0 = Debug|Win32
+		{030CD165-03DC-42A1-948A-BC9F3CF2E691}.Release.ActiveCfg = Release|Win32
+		{030CD165-03DC-42A1-948A-BC9F3CF2E691}.Release.Build.0 = Release|Win32
+		{9A3A0CA6-206F-4E5C-9B00-4C36EB780F8D}.Debug.ActiveCfg = Debug|Win32
+		{9A3A0CA6-206F-4E5C-9B00-4C36EB780F8D}.Debug.Build.0 = Debug|Win32
+		{9A3A0CA6-206F-4E5C-9B00-4C36EB780F8D}.Release.ActiveCfg = Release|Win32
+		{9A3A0CA6-206F-4E5C-9B00-4C36EB780F8D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

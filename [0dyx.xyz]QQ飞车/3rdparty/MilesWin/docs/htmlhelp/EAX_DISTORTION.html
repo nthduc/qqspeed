@@ -1,0 +1,72 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>EAX_DISTORTION</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="used to control the distortion filter in the EAX 4 3D provider">
+<meta name="ms-hkwd" content="EAX_DISTORTION">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>EAX_DISTORTION</h1>
+<p>The structure  <b>EAX_DISTORTION</b> used to control the distortion filter in the EAX 4 3D provider</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b>struct <a href="EAX_DISTORTION.html" class=trn>EAX_DISTORTION</a>
+{
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Slot</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Volume</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> Edge</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Gain</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> LowPassCutOff</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> EQCenter</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> EQBandwidth</i><b>;
+};</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Members</h4>
+<dl>
+<dt><i>Slot</i></dt>
+<dd>specifies the slot to query or set. Distortion can use slot 2 and/or 3.</dd>
+<dt><i>Volume</i></dt>
+<dd>specifies the volume of this slot in standard EAX attenuation units (-10000 to 0 fixed point millibels, default 0.0).</dd>
+<dt><i>Edge</i></dt>
+<dd>controls the shape of the distortion (0.0 to 1.0, default 0.2).</dd>
+<dt><i>Gain</i></dt>
+<dd>specifies the low gain of this slot in standard EAX attenuation units (-6000 to 0 fixed point millibels, default -2600).</dd>
+<dt><i>LowPassCutOff</i></dt>
+<dd>specifies the cut-off of the filter pre-distortion in hertz (80.0 to 24000.0, default 8000).</dd>
+<dt><i>EQCenter</i></dt>
+<dd>specifies the center frequency of the EQ post-distortion in hertz (80.0 to 24000.0, default 3600).</dd>
+<dt><i>EQBandwidth</i></dt>
+<dd>specifies the bandwidth of the EQ post-distortion in hertz (80.0 to 24000.0, default 3600).</dd>
+</dl>
+<h4>Discussion</h4>
+<p>See the EAX 4 documentation for technical details on this filter.</p>
+<p>
+<br>
+<b>Group:</b>
+<a href="3D Digital Audio Services.html">3D Digital Audio Services</a><br>
+<b>Related Sections:</b>
+<a href="Creative's EAX 4 Pre4368aa.html">Creative's EAX 4 Preferences</a><br>
+<b>Related Basic Types:</b>
+<a href="F32.html">F32</a>, <a href="S32.html">S32</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

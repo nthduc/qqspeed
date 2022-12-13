@@ -1,0 +1,28 @@
+; Do some menu plays.
+%H
+:Sleep
+{ESC}
+{ESC}
+:Sleep
+%h
+:Sleep
+{ESC}
+{ESC}
+:Sleep
+%hA
+:Sleep
+~
+:Sleep
+Some Text
+%FS
+:Sleep
+{TAB}
+:Sleep
+{TAB}
+:Sleep
+{TAB}
+:Sleep
+{TAB}
+:Sleep
+{ESC}
+

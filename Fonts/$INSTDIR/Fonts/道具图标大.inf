@@ -1,0 +1,5 @@
+[CustomFont]
+Texture=Textures/道具图标大.tga
+CellX=78
+CellY=74
+Text="ABCDEFGHIJKLMNOPQRSTUVWXYZabc"

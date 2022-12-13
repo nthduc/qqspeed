@@ -1,0 +1,72 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>EAX_SAMPLE_SLOT_VOLUME</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="used to control the sound levels for a slot that the sample should play to">
+<meta name="ms-hkwd" content="EAX_SAMPLE_SLOT_VOLUME">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>EAX_SAMPLE_SLOT_VOLUME</h1>
+<p>The structure  <b>EAX_SAMPLE_SLOT_VOLUME</b> used to control the sound levels for a slot that the sample should play to</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b>struct <a href="EAX_SAMPLE_SLOT_VOLUME.html" class=trn>EAX_SAMPLE_SLOT_VOLUME</a>
+{
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Slot</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Send</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> SendHF</i><b>;
+&nbsp;&nbsp;<a href="S32.html" class=trn>S32</a></b><i> Occlusion</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> OcclusionLFRatio</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> OcclusionRoomRatio</i><b>;
+&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a></b><i> OcclusionDirectRatio</i><b>;
+};</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Members</h4>
+<dl>
+<dt><i>Slot</i></dt>
+<dd>specifies the slot for this volume control. EAX 4 currently supports 4 slots (so 0, 1, 2 or 3).</dd>
+<dt><i>Send</i></dt>
+<dd>specifies the volume of this sample for this slot in standard EAX attenuation units (-10000 to 0 fixed point millibels, default 0.0).</dd>
+<dt><i>SendHF</i></dt>
+<dd>specifies additional attenuation for this slot for high frequencies in standard EAX attenuation units (-10000 to 0 fixed point millibels, default 0.0).</dd>
+<dt><i>Occlusion</i></dt>
+<dd>specifies the occlusion level of this sample for this slot in standard EAX attenuation units (-10000 to 0 fixed point millibels, default 0.0).</dd>
+<dt><i>OcclusionLFRatio</i></dt>
+<dd>specifies the occlusion attenuation at low frequencies relative to high frequencies (0.0 to 1.0, default 0.25).</dd>
+<dt><i>OcclusionRoomRatio</i></dt>
+<dd>specifies the occlusion attenuation for the reflected (wet) sound path (0.0 to 10.0, default 1.5).</dd>
+<dt><i>OcclusionDirectRatio</i></dt>
+<dd>specifies the occlusion attenuation for the direct (dry) sound path (0.0 to 10.0, default 1.0).</dd>
+</dl>
+<h4>Discussion</h4>
+<p>In EAX 4, you can only send a particular sound sample to two slots at once.</p>
+<p>
+<br>
+<b>Group:</b>
+<a href="3D Digital Audio Services.html">3D Digital Audio Services</a><br>
+<b>Related Basic Types:</b>
+<a href="F32.html">F32</a>, <a href="S32.html">S32</a><br>
+<b>Related Structures:</b>
+<a href="EAX_SAMPLE_SLOT_VOLUMES.html">EAX_SAMPLE_SLOT_VOLUMES</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

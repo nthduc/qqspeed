@@ -1,0 +1,14 @@
+;-----------------------------------------------------------------------
+; Debugging Applications for Microsoft .NET and Microsoft Windows
+; Copyright © 1997-2003 John Robbins -- All rights reserved.
+;-----------------------------------------------------------------------
+LIBRARY         DeadlockDetection
+; DESCRIPTION     'MSJ Bugslayer & Debugging MS Windows Apps'
+EXPORTS
+    CloseDeadlockDetection
+    GetDeadlockDetectionOptions
+    OpenDeadlockDetection
+    ResumeDeadlockDetection
+    SetDeadlockDetectionOptions
+    SuspendDeadlockDetection
+    WriteToDeadlockDetectionLog

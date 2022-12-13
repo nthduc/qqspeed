@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWSTestDll1", "SWSDll1\SWSDll1.vcproj", "{BDA4AE0E-D2A2-4F49-9DF0-22270456A988}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWSTestDll2", "SWSDll2\SWSDll2.vcproj", "{4090253B-CB70-4474-A36F-1A917B19085B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWSDllTest", "SWSDllTest\SWSDllTest.vcproj", "{C807848C-A129-4C30-B4C7-02CC8A9F8F6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{C807848C-A129-4C30-B4C7-02CC8A9F8F6B}.0 = {4090253B-CB70-4474-A36F-1A917B19085B}
+		{C807848C-A129-4C30-B4C7-02CC8A9F8F6B}.1 = {BDA4AE0E-D2A2-4F49-9DF0-22270456A988}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BDA4AE0E-D2A2-4F49-9DF0-22270456A988}.Debug.ActiveCfg = Debug|Win32
+		{BDA4AE0E-D2A2-4F49-9DF0-22270456A988}.Debug.Build.0 = Debug|Win32
+		{BDA4AE0E-D2A2-4F49-9DF0-22270456A988}.Release.ActiveCfg = Release|Win32
+		{BDA4AE0E-D2A2-4F49-9DF0-22270456A988}.Release.Build.0 = Release|Win32
+		{4090253B-CB70-4474-A36F-1A917B19085B}.Debug.ActiveCfg = Debug|Win32
+		{4090253B-CB70-4474-A36F-1A917B19085B}.Debug.Build.0 = Debug|Win32
+		{4090253B-CB70-4474-A36F-1A917B19085B}.Release.ActiveCfg = Release|Win32
+		{4090253B-CB70-4474-A36F-1A917B19085B}.Release.Build.0 = Release|Win32
+		{C807848C-A129-4C30-B4C7-02CC8A9F8F6B}.Debug.ActiveCfg = Debug|Win32
+		{C807848C-A129-4C30-B4C7-02CC8A9F8F6B}.Debug.Build.0 = Debug|Win32
+		{C807848C-A129-4C30-B4C7-02CC8A9F8F6B}.Release.ActiveCfg = Release|Win32
+		{C807848C-A129-4C30-B4C7-02CC8A9F8F6B}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

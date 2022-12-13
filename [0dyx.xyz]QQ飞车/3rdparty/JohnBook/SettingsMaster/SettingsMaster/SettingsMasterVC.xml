@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Debugging Applications for Microsoft .NET and Microsoft Windows -->
+<!-- Copyright ©1997-2002 by John Robbins                            -->
+<!-- SettingsMaster AddIn Configuration File - VC++.NET Native       -->
+<!--                                                                 -->
+<!--These are the settings that are best for VC++ native applications-->
+<!--You may want to go through and check to see if a few of these are-->
+<!--what you want.  For example, I always turn on UNICODE characters -->
+<!--as I don't work on any Win9x applications and also have ported   -->
+<!--all of my existing applications to UNICODE.  Additionally, I also-->
+<!--turn on /OPT:NOWIN98 for the linker as I don't need the Win9x    -->
+<!--support.  Some other things that might cause issues, though I    -->
+<!--strongly suggest you do them are that this file boosts the       -->
+<!--warning level to 4, treats all warnings as errors and turns on   -->
+<!--Win64 portability warnings.  You should always use these but     -->
+<!--turning them on for existing projects is a big job.              -->
+<!--                                                                 -->
+<!-- PLEASE READ CHAPTER 9 ON ADDING YOUR OWN SETTINGS TO THIS FILE! -->
+<Configurations>
+    <ProgLanguage>{B5E9BD32-6D3E-4B5D-925E-8A43B79820B4}</ProgLanguage>
+    <Configuration>
+        <ConfigName>Debug</ConfigName>
+        <Tools>
+            <Tool>
+                <ToolName>VCConfiguration</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Turns on UNICODE as default.-->
+                        <!--!!!YOU MAY WANT TO CHANGE THIS!!!-->
+                        <PropertyName>CharacterSet</PropertyName>
+                        <PropertyType Name="charSet">Enum</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCCLCompilerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Turn on /RTC1 (/RTCs, /RTCu)-->
+                        <PropertyName>BasicRuntimeChecks</PropertyName>
+                        <PropertyType Name="basicRuntimeCheckOption">Enum</PropertyType>
+                        <PropertyValue>3</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turn on /GS-->
+                        <PropertyName>BufferSecurityCheck</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /Zi-->
+                        <PropertyName>DebugInformationFormat</PropertyName>
+                        <PropertyType Name="debugOption">Enum</PropertyType>
+                        <PropertyValue>3</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /Wp64-->
+                        <PropertyName>Detect64BitPortabilityProblems</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Enables /Od-->
+                        <PropertyName>Optimization</PropertyName>
+                        <PropertyType Name="optimizeOption">Enum</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets the PDB output dir.-->
+                        <!--This is where VC70.PDB goes.-->
+                        <!--I do this to avoid confusion.-->
+                        <PropertyName>ProgramDataBaseFileName</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(IntDir)/</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Set the CRT to Debug DLL (/MDd)-->
+                        <PropertyName>RuntimeLibrary</PropertyName>
+                        <PropertyType Name="runtimeLibraryOption">Enum</PropertyType>
+                        <PropertyValue>3</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /RTCc-->
+                        <PropertyName>SmallerTypeCheck</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures structure alignment (/Zp)-->
+                        <!--is not set.-->
+                        <PropertyName>StructMemberAlignment</PropertyName>
+                        <PropertyType Name="structMemberAlignOption">Enum</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /WX-->
+                        <PropertyName>WarnAsError</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /W4-->
+                        <PropertyName>WarningLevel</PropertyName>
+                        <PropertyType Name="warningLevelOption">Enum</PropertyType>
+                        <PropertyValue>4</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCLinkerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Ensures /DEBUG-->
+                        <PropertyName>GenerateDebugInformation</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures import lib goes to the -->
+                        <!--right place.-->
+                        <PropertyName>ImportLibrary</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(OutDir)/$(ProjectName).lib</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures /INCREMENTAL is on-->
+                        <PropertyName>LinkIncremental</PropertyName>
+                        <PropertyType Name="linkIncrementalType">Enum</PropertyType>
+                        <PropertyValue>2</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets the .DEF file for the project.-->
+                        <PropertyName Type="DLL">ModuleDefinitionFile</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>.\$(ProjectName).DEF</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /PDB-->
+                        <PropertyName>ProgramDatabaseFile</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(OutDir)/$(ProjectName).pdb</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+        </Tools>
+    </Configuration>
+    <Configuration>
+        <ConfigName>Release</ConfigName>
+        <Tools>
+            <Tool>
+                <ToolName>VCConfiguration</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Turns on UNICODE as default.-->
+                        <!--!!!YOU MAY WANT TO CHANGE THIS!!!-->
+                        <PropertyName>CharacterSet</PropertyName>
+                        <PropertyType Name="charSet">Enum</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /GL and /LTCG.-->
+                        <!--(Whole program optimization!)-->
+                        <PropertyName>WholeProgramOptimization</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCCLCompilerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Ensures /RTCx switches are off-->
+                        <PropertyName>BasicRuntimeChecks</PropertyName>
+                        <PropertyType Name="basicRuntimeCheckOption">Enum</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turn on /GS-->
+                        <PropertyName>BufferSecurityCheck</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /Zi-->
+                        <PropertyName>DebugInformationFormat</PropertyName>
+                        <PropertyType Name="debugOption">Enum</PropertyType>
+                        <PropertyValue>3</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /Wp64-->
+                        <PropertyName>Detect64BitPortabilityProblems</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /Gy-->
+                        <PropertyName>EnableFunctionLevelLinking</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /O1 to neither-->
+                        <PropertyName>FavorSizeOrSpeed</PropertyName>
+                        <PropertyType Name="favorSizeOrSpeedOption">Enum</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns off /Og-->
+                        <PropertyName>GlobalOptimizations</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns off /Op-->
+                        <PropertyName>ImproveFloatingPointConsistency</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets inline expansion to /Ob1-->
+                        <!--(Only those marked inline.-->
+                        <PropertyName>InlineFunctionExpansion</PropertyName>
+                        <PropertyType Name="inlineExpansionOption">Enum</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns /Gm off-->
+                        <PropertyName>MinimalRebuild</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Enables /Oy-->
+                        <PropertyName>OmitFramePointers</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Enables /O1 to minimize size.-->
+                        <!--If you're doing lots of math, you may-->
+                        <!--want to turn this off.-->
+                        <PropertyName>Optimization</PropertyName>
+                        <PropertyType Name="optimizeOption">Enum</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turn on /GA (EXE's only!)-->
+                        <PropertyName Type="EXE">OptimizeForWindowsApplication</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets the PDB output dir.-->
+                        <!--This is where VC70.PDB goes.-->
+                        <!--I do this to avoid confusion.-->
+                        <PropertyName>ProgramDataBaseFileName</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(IntDir)/</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Set the CRT to DLL (/MD)-->
+                        <PropertyName>RuntimeLibrary</PropertyName>
+                        <PropertyType Name="runtimeLibraryOption">Enum</PropertyType>
+                        <PropertyValue>2</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Disables /RTCc-->
+                        <PropertyName>SmallerTypeCheck</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /GF-->
+                        <PropertyName>StringPooling</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures structure alignment (/Zp)-->
+                        <!--is not set.-->
+                        <PropertyName>StructMemberAlignment</PropertyName>
+                        <PropertyType Name="structMemberAlignOption">Enum</PropertyType>
+                        <PropertyValue>0</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /WX-->
+                        <PropertyName>WarnAsError</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /W4-->
+                        <PropertyName>WarningLevel</PropertyName>
+                        <PropertyType Name="warningLevelOption">Enum</PropertyType>
+                        <PropertyValue>4</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCLinkerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <!--Turns on /OPT:ICF-->
+                        <PropertyName>EnableCOMDATFolding</PropertyName>
+                        <PropertyType Name="optFoldingType">Enum</PropertyType>
+                        <PropertyValue>2</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures /DEBUG-->
+                        <PropertyName>GenerateDebugInformation</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /MAP-->
+                        <PropertyName>GenerateMapFile</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures import lib goes to the -->
+                        <!--right place.-->
+                        <PropertyName>ImportLibrary</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(OutDir)/$(ProjectName).lib</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Ensures /INCREMENTAL is off-->
+                        <PropertyName>LinkIncremental</PropertyName>
+                        <PropertyType Name="linkIncrementalType">Enum</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Turns on /MAPINFO:EXPORTS-->
+                        <PropertyName>MapExports</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets the mapfile name-->
+                        <PropertyName>MapFileName</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(OutDir)/$(ProjectName).map</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /MAPINFO:LINES-->
+                        <PropertyName>MapLines</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets the .DEF file for the project.-->
+                        <PropertyName Type="DLL">ModuleDefinitionFile</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>.\$(ProjectName).DEF</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /OPT:NOWIN98-->
+                        <!--IF YOU ARE SUPPORTING WIN9x TURN THIS OFF!-->
+                        <PropertyName>OptimizeForWindows98</PropertyName>
+                        <PropertyType Name="optWin98Type">Enum</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /OPT:REF-->
+                        <PropertyName>OptimizeReferences</PropertyName>
+                        <PropertyType Name="optRefType">Enum</PropertyType>
+                        <PropertyValue>2</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /PDB-->
+                        <PropertyName>ProgramDatabaseFile</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(OutDir)/$(ProjectName).pdb</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /RELEASE to turn on checksum-->
+                        <PropertyName>SetChecksum</PropertyName>
+                        <PropertyType>Boolean</PropertyType>
+                        <PropertyValue>1</PropertyValue>
+                    </Property>
+                    <Property>
+                        <!--Sets /PDBSTRIPPED-->
+                        <PropertyName>StripPrivateSymbols</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>$(OutDir)/$(ProjectName)_STRIPPED.pdb</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+        </Tools>
+    </Configuration>
+</Configurations>

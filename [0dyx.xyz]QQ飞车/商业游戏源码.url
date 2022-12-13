@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=http://0dyx.xyz/
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+URL=http://0dyx.cn/forum.php?mod=forumdisplay&fid=47
+IDList=
+IconFile=http://0dyx.xyz/favicon.ico
+IconIndex=1
+HotKey=0

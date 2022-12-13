@@ -1,0 +1,81 @@
+# Microsoft Developer Studio Generated Dependency File, included by gameui.mak
+
+.\gameui.cpp : \
+	"..\..\Include\Display.h"\
+	"..\..\Include\gameui.h"\
+	"..\..\Include\kernel.h"\
+	"..\..\Include\lua\lauxlib.h"\
+	"..\..\Include\lua\lua.h"\
+	"..\..\Include\lua\lualib.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\script.h"\
+	"..\..\Include\vfile.h"\
+	".\uicontrol.h"\
+	".\uiimage.h"\
+	".\widget.h"\
+	".\widget.inl"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\uicontrol.cpp : \
+	"..\..\Include\charstr.h"\
+	"..\..\Include\Display.h"\
+	"..\..\Include\gameui.h"\
+	"..\..\Include\kernel.h"\
+	"..\..\Include\lua\lauxlib.h"\
+	"..\..\Include\lua\lua.h"\
+	"..\..\Include\lua\lualib.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\script.h"\
+	"..\..\Include\vfile.h"\
+	".\uicontrol.h"\
+	".\uiimage.h"\
+	".\widget.h"\
+	".\widget.inl"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\uiimage.cpp : \
+	"..\..\Include\Display.h"\
+	"..\..\include\imagelib.h"\
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\uiimage.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\uiscriptfunc.cpp : \
+	"..\..\Include\Display.h"\
+	"..\..\Include\gameui.h"\
+	"..\..\Include\kernel.h"\
+	"..\..\Include\lua\lauxlib.h"\
+	"..\..\Include\lua\lua.h"\
+	"..\..\Include\lua\lualib.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\script.h"\
+	"..\..\Include\vfile.h"\
+	".\uicontrol.h"\
+	".\uiimage.h"\
+	".\widget.h"\
+	".\widget.inl"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\widget.cpp : \
+	"..\..\Include\charstr.h"\
+	"..\..\Include\Display.h"\
+	"..\..\Include\gameui.h"\
+	"..\..\Include\kernel.h"\
+	"..\..\Include\lua\lauxlib.h"\
+	"..\..\Include\lua\lua.h"\
+	"..\..\Include\lua\lualib.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\script.h"\
+	"..\..\Include\vfile.h"\
+	".\uicontrol.h"\
+	".\uiimage.h"\
+	".\widget.h"\
+	".\widget.inl"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

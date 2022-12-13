@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.69.20110329" ColorLib="">
+    <UIObject Type="Dialog" Name="SystemSettingDlg">
+        <Properties>
+            <Property Name="XOffset" Value="0" />
+            <Property Name="YOffset" Value="0" />
+            <Property Name="Width" Value="335" />
+            <Property Name="Height" Value="237" />
+            <Property Name="Background" Value="ONEIMAGE:back\SystemSetting\下载器设定底图.png;Tile;0;" />
+            <Property Name="RegionSet" Value="FROMBGIMAGES:0x0000ff" />
+        </Properties>
+        <Children>
+            <UIObject Type="Button" Name="Btn_Close">
+                <Properties StylePath="Editor.xml/Button/DlgClose">
+                    <Property Name="XOffset" Value="289" />
+                    <Property Name="YOffset" Value="13" />
+                    <Property Name="Width" Value="25" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Background" Value="ONEIMAGE:back\按钮\关闭_3_正常.png;Tile;null;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:back\按钮\关闭_2_经过.png;Tile;null;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:back\按钮\关闭_1_按下.png;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Edit" Name="Edit_SpeedLimit">
+                <Properties>
+                    <Property Name="XOffset" Value="179" />
+                    <Property Name="YOffset" Value="92" />
+                    <Property Name="Width" Value="83" />
+                    <Property Name="Height" Value="24" />
+                    <Property Name="TextColor" Value="RGB:222,222,222" />
+                    <Property Name="Caption" Value="111" />
+                    <Property Name="EditMargin" Value="4,5,0,0" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_OK">
+                <Properties StylePath="IIPS.xml/Button/OKCANCEL">
+                    <Property Name="XOffset" Value="133" />
+                    <Property Name="YOffset" Value="194" />
+                    <Property Name="Width" Value="65" />
+                    <Property Name="Height" Value="25" />
+                    <Property Name="Caption" Value="OK" />
+                    <Property Name="TextColor" Value="RGB:199,199,199" />
+                    <Property Name="TextOffsetY" Value="5" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Container" Name="RadioBox">
+                <Properties>
+                    <Property Name="XOffset" Value="71" />
+                    <Property Name="YOffset" Value="64" />
+                    <Property Name="Width" Value="36" />
+                    <Property Name="Height" Value="53" />
+                </Properties>
+                <Children>
+                    <UIObject Type="Excluder" Name="Excluder1">
+                        <Properties>
+                            <Property Name="XOffset" Value="4" />
+                            <Property Name="YOffset" Value="20" />
+                            <Property Name="Width" Value="1" />
+                            <Property Name="Height" Value="1" />
+                            <Property Name="ExcludeItemList" Value="chk_SpeedLimit,chk_NoSpeedLimit" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="CheckBox" Name="chk_NoSpeedLimit">
+                        <Properties StylePath="IIPS.xml/CheckBox/Radio">
+                            <Property Name="XOffset" Value="5" />
+                            <Property Name="YOffset" Value="6" />
+                            <Property Name="Width" Value="24" />
+                            <Property Name="Height" Value="24" />
+                            <Property Name="UnReserved" Value="true" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="CheckBox" Name="chk_SpeedLimit">
+                        <Properties StylePath="IIPS.xml/CheckBox/Radio">
+                            <Property Name="XOffset" Value="5" />
+                            <Property Name="YOffset" Value="28" />
+                            <Property Name="Width" Value="24" />
+                            <Property Name="Height" Value="24" />
+                            <Property Name="Checked" Value="true" />
+                            <Property Name="UnReserved" Value="true" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="CheckBox" Name="chk_DownWhenIdle">
+                <Properties>
+                    <Property Name="XOffset" Value="78" />
+                    <Property Name="YOffset" Value="135" />
+                    <Property Name="Width" Value="23" />
+                    <Property Name="Height" Value="23" />
+                    <Property Name="Image" Value="back\SystemSetting\check.png?0,0,23,23" />
+                    <Property Name="ImageChecked" Value="back\SystemSetting\check.png?46,0,69,23" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="CheckBox" Name="chk_DownWhenQuit">
+                <Properties>
+                    <Property Name="XOffset" Value="78" />
+                    <Property Name="YOffset" Value="159" />
+                    <Property Name="Width" Value="23" />
+                    <Property Name="Height" Value="23" />
+                    <Property Name="Image" Value="back\SystemSetting\check.png?0,0,23,23" />
+                    <Property Name="ImageChecked" Value="back\SystemSetting\check.png?46,0,69,23" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

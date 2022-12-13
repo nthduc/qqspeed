@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.69.20110329" ColorLib="">
+    <UIObject Type="Dialog" Name="Dlg_Login">
+        <Properties StylePath="Editor.xml/Dialog/Common">
+            <Property Name="XOffset" Value="77" />
+            <Property Name="YOffset" Value="149" />
+            <Property Name="Width" Value="309" />
+            <Property Name="Height" Value="217" />
+            <Property Name="CreateType" Value="winless" />
+            <Property Name="DisableMoveOut" Value="true" />
+        </Properties>
+        <Children>
+            <UIObject Type="Static" Name="Stc_ID">
+                <Properties>
+                    <Property Name="XOffset" Value="40" />
+                    <Property Name="YOffset" Value="60" />
+                    <Property Name="Width" Value="60" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="VerticalAlignMode" Value="Center" />
+                    <Property Name="Caption_LID" Value="7" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Edit" Name="Edt_ID">
+                <Properties>
+                    <Property Name="XOffset" Value="100" />
+                    <Property Name="YOffset" Value="61" />
+                    <Property Name="Width" Value="150" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="CustomID" Value="10002" />
+                    <Property Name="EditMargin" Value="2,2,2,2" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="Stc_PSW">
+                <Properties>
+                    <Property Name="XOffset" Value="40" />
+                    <Property Name="YOffset" Value="85" />
+                    <Property Name="Width" Value="60" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="VerticalAlignMode" Value="Center" />
+                    <Property Name="Caption_LID" Value="8" />
+                    <Property Name="LogFont_LID" Value="5" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Edit" Name="Edt_PSW">
+                <Properties>
+                    <Property Name="XOffset" Value="100" />
+                    <Property Name="YOffset" Value="85" />
+                    <Property Name="Width" Value="150" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="CustomID" Value="10003" />
+                    <Property Name="Password" Value="true" />
+                    <Property Name="EditMargin" Value="2,2,2,2" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_Login">
+                <Properties StylePath="Editor.xml/Button/OKCANCEL">
+                    <Property Name="XOffset" Value="75" />
+                    <Property Name="YOffset" Value="151" />
+                    <Property Name="Width" Value="64" />
+                    <Property Name="Height" Value="21" />
+                    <Property Name="OnClick" Value="TPFUI.OK" />
+                    <Property Name="Caption_LID" Value="9" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="Btn_Quit">
+                <Properties StylePath="Editor.xml/Button/OKCANCEL">
+                    <Property Name="XOffset" Value="164" />
+                    <Property Name="YOffset" Value="152" />
+                    <Property Name="Width" Value="65" />
+                    <Property Name="Height" Value="21" />
+                    <Property Name="OnClick" Value="TPFUI.Cancel" />
+                    <Property Name="Caption_LID" Value="10" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="CheckBox" Name="CheckBox1">
+                <Properties>
+                    <Property Name="XOffset" Value="40" />
+                    <Property Name="YOffset" Value="116" />
+                    <Property Name="Width" Value="209" />
+                    <Property Name="Height" Value="21" />
+                    <Property Name="CursorID" Value="3" />
+                    <Property Name="Tip" Value="ff" />
+                    <Property Name="TextTip" Value="ff" />
+                    <Property Name="TipName" Value="ff" />
+                    <Property Name="FadeInTime" Value="3333" />
+                    <Property Name="FadeOutTime" Value="33333" />
+                    <Property Name="Image" Value="checkbox\Radio1.tga" />
+                    <Property Name="ImageHover" Value="checkbox\Radio1.tga" />
+                    <Property Name="ImageChecked" Value="checkbox\Radio2.tga" />
+                    <Property Name="ImageDisable" Value="checkbox\Radio1.tga" />
+                    <Property Name="ImageDisableChecked" Value="checkbox\Radio2.tga" />
+                    <Property Name="ImageHoverChecked" Value="checkbox\Radio2.tga" />
+                    <Property Name="ImagePressed" Value="checkbox\Radio2.tga" />
+                    <Property Name="ImagePressedChecked" Value="checkbox\Radio2.tga" />
+                    <Property Name="TextColor" Value="0x00000f" />
+                    <Property Name="TextColorHover" Value="0x00000f" />
+                    <Property Name="TextColorPressed" Value="0x00000f" />
+                    <Property Name="TextColorDisable" Value="0x00000f" />
+                    <Property Name="Caption_LID" Value="11" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Container" Name="Container1">
+                <Properties>
+                    <Property Name="XOffset" Value="244" />
+                    <Property Name="YOffset" Value="172" />
+                    <Property Name="Width" Value="59" />
+                    <Property Name="Height" Value="37" />
+                    <Property Name="Background" Value="ONEIMAGE:flag.bmp;Stretch;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Static" Name="Stc_Info">
+                <Properties>
+                    <Property Name="XOffset" Value="13" />
+                    <Property Name="YOffset" Value="8" />
+                    <Property Name="Width" Value="283" />
+                    <Property Name="Height" Value="20" />
+                    <Property Name="CustomID" Value="10001" />
+                    <Property Name="FadeOutTime" Value="3000" />
+                    <Property Name="TextColor" Value="0xffffff" />
+                    <Property Name="AlignMode" Value="CENTER" />
+                    <Property Name="VerticalAlignMode" Value="Center" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

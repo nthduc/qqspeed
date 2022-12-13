@@ -1,0 +1,10 @@
+; All characters on the keyboard.
+
+abcdefghijklmnopqrstuvwxyz~
+ABCDEFGHIJKLMNOPQRSTUVWXYZ~
+1234567890~
+!@#${%}{^}&*{(}{)}~
+,./;'{[}{]}\\-=~
+<>?:\"{{}{}}|_{+}~
+`{~}~
+

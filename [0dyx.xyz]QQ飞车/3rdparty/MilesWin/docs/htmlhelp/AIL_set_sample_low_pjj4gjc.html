@@ -1,0 +1,60 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>AIL_set_sample_low_pass_cut_off</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="applies a low pass filter to the digital audio sample.">
+<meta name="ms-hkwd" content="AIL_set_sample_low_pass_cut_off">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>AIL_set_sample_low_pass_cut_off</h1>
+<p>The function  <b>AIL_set_sample_low_pass_cut_off</b> applies a low pass filter to the digital audio sample.</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b><a href="void.html" class=trn>void</a> <a href="AIL_set_sample_low_pjj4gjc.html" class=trn>AIL_set_sample_low_pass_cut_off</a>(</b>
+<b>&nbsp;&nbsp;<a href="HSAMPLE.html" class=trn>HSAMPLE</a>&nbsp;</b><i>sample</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>cut_off</i>
+<b>);</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Parameters</h4>
+<dl>
+<dt><i>sample</i></dt>
+<dd>specifies the digital sample that you wish to control.</dd>
+<dt><i>cut_off</i></dt>
+<dd>specifies the low pass filter cut-off level. The range is 0.0 to 1.0 as a scale of the sample's nyquist rate.</dd>
+</dl>
+<h4>Discussion</h4>
+<p>This function allows you to set a low pass filter on any digital sample (whether uncompressed or compressed). A low pass filter only lets frequencies below the cut-off frequency to be heard. </p><p>The default low pass cut-off is 1.0 (allowing all frequencies to pass). </p><p>The range is 0.0 to 1.0 as a scale of the sample's nyquist rate (which is half the sample rate). For example, if you have a 44100 Hz sample, then the nyquist rate is 22050 Hz. If you then set a 0.5 cut off, only frequencies under 11025 Hz will be heard. </p><p>There is almost no CPU hit at all with this filter. There is no CPU hit at all on the Xbox, but the hardware low pass filter only supports frequencies from 30 to 8000 Hz.</p>
+<p>
+<br>
+<b>Group:</b>
+<a href="2D Digital Audio Services.html">2D Digital Audio Services</a><br>
+<b>Related Sections:</b>
+<a href="Low-Pass Filter.html">Low-Pass Filter</a><br>
+<b>Related Functions:</b>
+<a href="AIL_sample_low_pass_zf8daa.html">AIL_sample_low_pass_cut_off</a>, <a href="AIL_set_sample_volumolliaa.html">AIL_set_sample_volume_levels</a>, <a href="AIL_set_sample_volume_pan.html">AIL_set_sample_volume_pan</a><br>
+<b>Related Basic Types:</b>
+<a href="F32.html">F32</a>, <a href="HSAMPLE.html">HSAMPLE</a>, <a href="void.html">void</a><br>
+<b>Related FAQs:</b>
+<a href="How do I apply a low58e4ti.html">How do I apply a low pass filter?</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TPFLocalization>
+    <LanPackage ActiveLang="Chinese">
+        <Language Name="Chinese" Path="Chinese.xml" />
+        <Language Name="ChineseFang" Path="ChineseFang.xml" />
+        <Language Name="English" Path="English.xml" />
+        <Language Name="TaiWang" Path="TaiWang.xml" />
+    </LanPackage>
+    <ItemSet MaxID="15">
+        <Item ID="1" StrID="ID_SELECTLANG" Describing="LangSelect.tpf" />
+        <Item ID="2" StrID="ID_CHINESE" Describing="LangSelect.tpf" />
+        <Item ID="3" StrID="ID_ENGLISH" Describing="LangSelect.tpf" />
+        <Item ID="4" StrID="ID_GO_ON" Describing="LangSelect.tpf" />
+        <Item ID="5" StrID="ID_LF_NORMAL" Describing="LangSelect.tpf" />
+        <Item ID="6" StrID="ID_LF_BIG" Describing="No Describing" />
+        <Item ID="7" StrID="ID_LOGINID" Describing="No Describing" />
+        <Item ID="8" StrID="ID_LOGINPSW" Describing="No Describing" />
+        <Item ID="9" StrID="ID_LONGIN" Describing="No Describing" />
+        <Item ID="10" StrID="ID_QUIT" Describing="No Describing" />
+        <Item ID="11" StrID="ID_REMEMBERID" Describing="No Describing" />
+        <Item ID="12" StrID="ID_IDWARNING" Describing="No Describing" />
+        <Item ID="13" StrID="ID_PSWWARNING" Describing="No Describing" />
+        <Item ID="15" StrID="ID_MyID" Describing="No Describing" />
+    </ItemSet>
+</TPFLocalization>

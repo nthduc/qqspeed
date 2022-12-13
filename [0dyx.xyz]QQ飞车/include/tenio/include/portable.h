@@ -1,0 +1,25 @@
+#ifndef __PORTABLE_H__
+#define __PORTABLE_H__
+
+//////////////////////////////////////////////////////////////////////////
+//                                                                      //
+//      protable definations for compile under both VC6 & VC.NET        //
+//                                                                      //
+//////////////////////////////////////////////////////////////////////////
+
+#if _MSC_VER > 1200
+//////////////////////////////////////////////////////////////////////////
+// Definations used under morden C++ compiler
+
+#define TYPENAME typename
+
+#else
+//////////////////////////////////////////////////////////////////////////
+// Definations used under VC6
+
+#define TYPENAME
+#define for if(true) for
+
+#endif // _MSC_VER > 1200
+
+#endif

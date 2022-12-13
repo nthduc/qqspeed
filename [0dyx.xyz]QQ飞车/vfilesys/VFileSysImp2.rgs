@@ -1,0 +1,26 @@
+HKCR
+{
+	Vfilesys.VFileSysImp.1 = s 'VFileSysImp Class'
+	{
+		CLSID = s '{D5162801-84C9-485C-A5FA-C36802909025}'
+	}
+	Vfilesys.VFileSysImp = s 'VFileSysImp Class'
+	{
+		CLSID = s '{D5162801-84C9-485C-A5FA-C36802909025}'
+		CurVer = s 'Vfilesys.VFileSysImp.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D5162801-84C9-485C-A5FA-C36802909025} = s 'VFileSysImp Class'
+		{
+			ProgID = s 'Vfilesys.VFileSysImp.1'
+			VersionIndependentProgID = s 'Vfilesys.VFileSysImp'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{2B78C7B6-6FF9-4337-9027-72FB9A3C97B8}'
+		}
+	}
+}

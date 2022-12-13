@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWS", "SWS\SWS.vcproj", "{EE6C4CC9-0941-4FBA-86A1-9EAE271F00C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWSDLL", "SWSDLL\SWSDLL.vcproj", "{E18983B6-E1B4-473B-A704-D77229E15D3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{EE6C4CC9-0941-4FBA-86A1-9EAE271F00C9}.0 = {E18983B6-E1B4-473B-A704-D77229E15D3D}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EE6C4CC9-0941-4FBA-86A1-9EAE271F00C9}.Debug.ActiveCfg = Debug|Win32
+		{EE6C4CC9-0941-4FBA-86A1-9EAE271F00C9}.Debug.Build.0 = Debug|Win32
+		{EE6C4CC9-0941-4FBA-86A1-9EAE271F00C9}.Release.ActiveCfg = Release|Win32
+		{EE6C4CC9-0941-4FBA-86A1-9EAE271F00C9}.Release.Build.0 = Release|Win32
+		{E18983B6-E1B4-473B-A704-D77229E15D3D}.Debug.ActiveCfg = Debug|Win32
+		{E18983B6-E1B4-473B-A704-D77229E15D3D}.Debug.Build.0 = Debug|Win32
+		{E18983B6-E1B4-473B-A704-D77229E15D3D}.Release.ActiveCfg = Release|Win32
+		{E18983B6-E1B4-473B-A704-D77229E15D3D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

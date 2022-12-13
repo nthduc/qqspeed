@@ -1,0 +1,50 @@
+// VSNetToolHostShim.idl : IDL source for VSNetToolHostShim
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (VSNetToolHostShim.tlb) and marshalling code.
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(3A5D66E9-BFE1-4006-A8CF-22D75A82467A),
+	dual,
+	nonextensible,
+	helpstring("IVSNetToolWinShim Interface"),
+	pointer_default(unique)
+]
+interface IVSNetToolWinShim : IDispatch{
+    [id(1), helpstring("Host a .NET User Control within a Tool Window.")]
+    HRESULT HostUserControl(BSTR Assembly, BSTR Class, [out,retval] IDispatch** ppControlObject);
+
+    [id(2), helpstring("Host a .NET User Control within a Tool Window, and apply a picture to the tool window tab.")]
+    HRESULT HostUserControl2(IUnknown *pToolWindow, BSTR Assembly, BSTR Class, BSTR SatelliteDLL, int ResourceID, [out,retval] IUnknown** ppControlObject);
+};
+
+[
+	uuid(9706C53E-76B5-4E31-890C-42A3C3BAE719),
+	version(1.0),
+	helpstring("VSNetToolHostShim 1.0 Type Library")
+]
+library VSNetToolHostShimLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(458AB8A2-A1EA-4D7B-8EBE-DEE5D3D9442C)
+	]
+	interface IWin32Window : IUnknown
+	{
+		HRESULT get_Handle([out, retval] long *pHWnd);
+	};
+	[
+		uuid(066B8DE9-9F7B-4B37-900F-F7EF7558E719),
+		helpstring("VSNetToolWinShim Class")
+	]
+	coclass VSNetToolWinShim
+	{
+		[default] interface IVSNetToolWinShim;
+	};
+};

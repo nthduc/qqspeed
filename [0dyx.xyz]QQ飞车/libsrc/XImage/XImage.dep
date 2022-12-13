@@ -1,0 +1,70 @@
+# Microsoft Developer Studio Generated Dependency File, included by XImage.mak
+
+.\gif89a.cpp : \
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\gif89a.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\xBmp.cpp : \
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\Engine.h"\
+	".\xBmp.h"\
+	".\xImage.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\xFlic.cpp : \
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\Engine.h"\
+	".\xFlic.h"\
+	".\xImage.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\xGif.cpp : \
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\Engine.h"\
+	".\gif89a.h"\
+	".\xGif.h"\
+	".\xImage.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\xPcx.cpp : \
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\Engine.h"\
+	".\xImage.h"\
+	".\xPcx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\xPsd.cpp : \
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\Engine.h"\
+	".\xImage.h"\
+	".\xPsd.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\xTga.cpp : \
+	"..\..\Include\kernel.h"\
+	"..\..\Include\profile.h"\
+	"..\..\Include\vfile.h"\
+	".\Engine.h"\
+	".\xImage.h"\
+	".\xTga.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

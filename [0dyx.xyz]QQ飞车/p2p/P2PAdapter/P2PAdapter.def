@@ -1,0 +1,9 @@
+; P2PAdapter.def : Declares the module parameters.
+
+LIBRARY      "P2PAdapter.DLL"
+
+EXPORTS
+	DllCanUnloadNow      PRIVATE
+	DllGetClassObject    PRIVATE
+	DllRegisterServer    PRIVATE
+	DllUnregisterServer	 PRIVATE

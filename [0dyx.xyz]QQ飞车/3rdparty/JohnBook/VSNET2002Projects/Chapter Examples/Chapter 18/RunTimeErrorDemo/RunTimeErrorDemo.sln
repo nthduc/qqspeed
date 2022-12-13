@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RunTimeErrorDemo", "RunTimeErrorDemo.vcproj", "{CD3D60FE-4DD5-4B87-B329-08E4DE4BD49E}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CD3D60FE-4DD5-4B87-B329-08E4DE4BD49E}.Debug.ActiveCfg = Debug|Win32
+		{CD3D60FE-4DD5-4B87-B329-08E4DE4BD49E}.Debug.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

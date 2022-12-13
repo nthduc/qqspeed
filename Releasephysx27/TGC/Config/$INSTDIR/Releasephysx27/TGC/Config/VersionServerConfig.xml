@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Server>
+    <versionserver version="1" count="1" SuccessfulServerID="1" SuccessfulPort="9080">
+        <server1 host="update.tgc.qq.com" />
+        <portlist count="1" port1="9080" />
+    </versionserver>
+</Server>
+ 

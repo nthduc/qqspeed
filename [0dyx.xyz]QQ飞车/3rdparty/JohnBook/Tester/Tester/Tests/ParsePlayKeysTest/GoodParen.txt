@@ -1,0 +1,17 @@
+; Good paren test.
+; Should see AB
++(ab)
+~
+
+; See an 'A', the CTRL+B will beep.
++(a^(b))
+~
+
+; Big recursion test.  Should see ABCDEFGHIJ
++(a+(b+(c+(d+(e+(f+(g+(h+(i+(j))))))))))
+~
+
+; Two lines should be selected.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
++({HOME}{UP})
+

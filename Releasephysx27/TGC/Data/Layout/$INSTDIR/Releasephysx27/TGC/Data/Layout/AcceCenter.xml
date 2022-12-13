@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110223" ColorLib="">
+    <UIObject Type="Dialog" Name="DlgMain">
+        <Properties>
+            <Property Name="XOffset" Value="0" />
+            <Property Name="YOffset" Value="0" />
+            <Property Name="Width" Value="854" />
+            <Property Name="Height" Value="703" />
+            <Property Name="Background" Value="ONEIMAGE:AcceCenter\bg.png;Tile;null;" />
+            <Property Name="CaptionHeight" Value="854" />
+            <Property Name="Caption" Value="腾讯游戏加速中心" />
+            <Property Name="InitPosition" Value="center" />
+            <Property Name="LayeredWindow" Value="true" />
+        </Properties>
+        <Children>
+            <UIObject Type="Container" Name="Container1">
+                <Properties>
+                    <Property Name="XOffset" Value="5" />
+                    <Property Name="YOffset" Value="17" />
+                    <Property Name="Width" Value="843" />
+                    <Property Name="Height" Value="662" />
+                </Properties>
+                <Children>
+                    <UIObject Type="SignaledSwitch" Name="SignalSwitch1">
+                        <Properties>
+                            <Property Name="XOffset" Value="0" />
+                            <Property Name="YOffset" Value="0" />
+                            <Property Name="Width" Value="0" />
+                            <Property Name="Height" Value="0" />
+                            <Property Name="SourceItem" Value="Excluder1" />
+                            <Property Name="Adapter" Value="Button1:OverlapContainer1:Container1,Button2:OverlapContainer1:Container2,Button3:OverlapContainer1:Container3,Button4:OverlapContainer1:Container4,Button5:OverlapContainer1:Container5" />
+                        </Properties>
+                        <Children />
+                    </UIObject>
+                    <UIObject Type="Container" Name="ButtonGroup">
+                        <Properties>
+                            <Property Name="XOffset" Value="153" />
+                            <Property Name="YOffset" Value="0" />
+                            <Property Name="Width" Value="556" />
+                            <Property Name="Height" Value="87" />
+                        </Properties>
+                        <Children>
+                            <UIObject Type="Excluder" Name="Excluder1">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="0" />
+                                    <Property Name="Height" Value="0" />
+                                    <Property Name="CustomID" Value="10000" />
+                                    <Property Name="ExcludeItemList" Value="Button1,Button2,Button3,Button4,Button5" />
+                                </Properties>
+                                <Children />
+                            </UIObject>
+                            <UIObject Type="Button" Name="Button1">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="68" />
+                                    <Property Name="Height" Value="87" />
+                                    <Property Name="CustomID" Value="10010" />
+                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\acc_norm.png;Tile;null;" />
+                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\acc_hover.png;Tile;null;" />
+                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\acc_press.png;Tile;null;" />
+                                    <Property Name="BackgroundDisable" Value="ONEIMAGE:AcceCenter\acc_disable.png;Tile;null;" />
+                                    <Property Name="ButtonType" Value="UnreversedButton" />
+                                    <Property Name="Checked" Value="true" />
+                                </Properties>
+                                <Children />
+                            </UIObject>
+                            <UIObject Type="Button" Name="Button2">
+                                <Properties>
+                                    <Property Name="XOffset" Value="90" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="68" />
+                                    <Property Name="Height" Value="87" />
+                                    <Property Name="CustomID" Value="10011" />
+                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\detect_norm.png;Tile;null;" />
+                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\detect_hover.png;Tile;null;" />
+                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\detect_press.png;Tile;null;" />
+                                    <Property Name="ButtonType" Value="UnreversedButton" />
+                                </Properties>
+                                <Children />
+                            </UIObject>
+                            <UIObject Type="Button" Name="Button3">
+                                <Properties>
+                                    <Property Name="XOffset" Value="180" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="68" />
+                                    <Property Name="Height" Value="87" />
+                                    <Property Name="CustomID" Value="10012" />
+                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\node_norm.png;Tile;null;" />
+                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\node_hover.png;Tile;null;" />
+                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\node_press.png;Tile;null;" />
+                                    <Property Name="ButtonType" Value="UnreversedButton" />
+                                </Properties>
+                                <Children />
+                            </UIObject>
+                            <UIObject Type="Button" Name="Button4">
+                                <Properties>
+                                    <Property Name="XOffset" Value="270" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="68" />
+                                    <Property Name="Height" Value="87" />
+                                    <Property Name="CustomID" Value="10013" />
+                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\log_norm.png;Tile;null;" />
+                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\log_hover.png;Tile;null;" />
+                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\log_press.png;Tile;null;" />
+                                    <Property Name="ButtonType" Value="UnreversedButton" />
+                                </Properties>
+                                <Children />
+                            </UIObject>
+                            <UIObject Type="Button" Name="Button5">
+                                <Properties>
+                                    <Property Name="XOffset" Value="360" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="68" />
+                                    <Property Name="Height" Value="87" />
+                                    <Property Name="CustomID" Value="10014" />
+                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\repair_norm.png;Tile;null;" />
+                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\repair_hover.png;Tile;null;" />
+                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\repair_press.png;Tile;null;" />
+                                    <Property Name="ButtonType" Value="UnreversedButton" />
+                                </Properties>
+                                <Children />
+                            </UIObject>
+                        </Children>
+                    </UIObject>
+                    <UIObject Type="OverlapContainer" Name="OverlapContainer1">
+                        <Properties>
+                            <Property Name="XOffset" Value="4" />
+                            <Property Name="YOffset" Value="107" />
+                            <Property Name="Width" Value="834" />
+                            <Property Name="Height" Value="554" />
+                        </Properties>
+                        <Children>
+                            <UIObject Type="Container" Name="Container1">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="834" />
+                                    <Property Name="Height" Value="554" />
+                                    <Property Name="CustomID" Value="10001" />
+                                </Properties>
+                                <Children>
+                                    <UIObject Type="TinyContainer" Name="TinyContainer4">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="3" />
+                                            <Property Name="YOffset" Value="61" />
+                                            <Property Name="Width" Value="128" />
+                                            <Property Name="Height" Value="7" />
+                                            <Property Name="Background" Value="ONEIMAGE:AcceCenter\hori_line.png;Tile;null;" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="TinyContainer3">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="127" />
+                                            <Property Name="YOffset" Value="33" />
+                                            <Property Name="Width" Value="11" />
+                                            <Property Name="Height" Value="519" />
+                                            <Property Name="Background" Value="ONEIMAGE:AcceCenter\vert_line.png;Tile;null;" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="TinyContainer2">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="-2" />
+                                            <Property Name="YOffset" Value="32" />
+                                            <Property Name="Width" Value="11" />
+                                            <Property Name="Height" Value="519" />
+                                            <Property Name="Background" Value="ONEIMAGE:AcceCenter\vert_line.png;Tile;null;" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="TinyContainer1">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="2" />
+                                            <Property Name="YOffset" Value="28" />
+                                            <Property Name="Width" Value="825" />
+                                            <Property Name="Height" Value="8" />
+                                            <Property Name="Background" Value="ONEIMAGE:AcceCenter\hori_line.png;Tile;null;" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic1">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="9" />
+                                            <Property Name="YOffset" Value="7" />
+                                            <Property Name="Width" Value="95" />
+                                            <Property Name="Height" Value="16" />
+                                            <Property Name="Caption" Value="TGC总计为您加速" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic2">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="150" />
+                                            <Property Name="YOffset" Value="7" />
+                                            <Property Name="Width" Value="75" />
+                                            <Property Name="Height" Value="16" />
+                                            <Property Name="Caption" Value="次，加速时间" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic3">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="261" />
+                                            <Property Name="YOffset" Value="7" />
+                                            <Property Name="Width" Value="26" />
+                                            <Property Name="Height" Value="16" />
+                                            <Property Name="Caption" Value="小时" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic4">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="115" />
+                                            <Property Name="YOffset" Value="7" />
+                                            <Property Name="Width" Value="26" />
+                                            <Property Name="Height" Value="16" />
+                                            <Property Name="Caption" Value="1000" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic5">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="227" />
+                                            <Property Name="YOffset" Value="7" />
+                                            <Property Name="Width" Value="26" />
+                                            <Property Name="Height" Value="16" />
+                                            <Property Name="Caption" Value="1000" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="ctnLeft">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="5" />
+                                            <Property Name="YOffset" Value="35" />
+                                            <Property Name="Width" Value="150" />
+                                            <Property Name="Height" Value="372" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="TinyStatic" Name="TinyStatic1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="-3" />
+                                                    <Property Name="YOffset" Value="7" />
+                                                    <Property Name="Width" Value="129" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="游戏名称" />
+                                                    <Property Name="AlignMode" Value="CENTER" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="ctnMain">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="161" />
+                                            <Property Name="YOffset" Value="47" />
+                                            <Property Name="Width" Value="568" />
+                                            <Property Name="Height" Value="372" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="TinyStatic" Name="TinyStatic1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="9" />
+                                                    <Property Name="YOffset" Value="7" />
+                                                    <Property Name="Width" Value="67" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="TGC正在为" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="txtName">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="63" />
+                                                    <Property Name="YOffset" Value="7" />
+                                                    <Property Name="Width" Value="67" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="飞车" />
+                                                    <Property Name="AlignMode" Value="CENTER" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="TinyStatic7">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="127" />
+                                                    <Property Name="YOffset" Value="7" />
+                                                    <Property Name="Width" Value="96" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="提供加速服务" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Button" Name="btnStopAcc">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="297" />
+                                                    <Property Name="YOffset" Value="3" />
+                                                    <Property Name="Width" Value="76" />
+                                                    <Property Name="Height" Value="25" />
+                                                    <Property Name="Background" Value="ONEIMAGE:Login\btn_norm.png;Tile;0;" />
+                                                    <Property Name="BackgroundHover" Value="ONEIMAGE:Login\btn_hover.png;Tile;0;" />
+                                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:Login\btn_press.png;Tile;0;" />
+                                                    <Property Name="Caption" Value="停止加速" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="TinyStatic8">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="9" />
+                                                    <Property Name="YOffset" Value="53" />
+                                                    <Property Name="Width" Value="67" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="节点" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="txtProxyName">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="56" />
+                                                    <Property Name="YOffset" Value="53" />
+                                                    <Property Name="Width" Value="67" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="广东节点" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="TinyStatic10">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="164" />
+                                                    <Property Name="YOffset" Value="53" />
+                                                    <Property Name="Width" Value="67" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="当前ping值" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="txtTime">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="232" />
+                                                    <Property Name="YOffset" Value="53" />
+                                                    <Property Name="Width" Value="67" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="55ms" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="TinyStatic12">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="9" />
+                                                    <Property Name="YOffset" Value="98" />
+                                                    <Property Name="Width" Value="140" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="您的游戏当前速度提升" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="txtPromote">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="140" />
+                                                    <Property Name="YOffset" Value="98" />
+                                                    <Property Name="Width" Value="140" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="12%" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="TinyStatic14">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="9" />
+                                                    <Property Name="YOffset" Value="138" />
+                                                    <Property Name="Width" Value="192" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="您当前速度击败了全国" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="txtRank">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="132" />
+                                                    <Property Name="YOffset" Value="138" />
+                                                    <Property Name="Width" Value="30" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="50%" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="TinyStatic3">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="157" />
+                                                    <Property Name="YOffset" Value="138" />
+                                                    <Property Name="Width" Value="41" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Caption" Value="的玩家" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyContainer" Name="ctnRank">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="245" />
+                                                    <Property Name="YOffset" Value="128" />
+                                                    <Property Name="Width" Value="96" />
+                                                    <Property Name="Height" Value="32" />
+                                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\rank.png;Tile;null;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                </Children>
+                            </UIObject>
+                            <UIObject Type="Container" Name="Container2">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="834" />
+                                    <Property Name="Height" Value="554" />
+                                    <Property Name="CustomID" Value="10002" />
+                                </Properties>
+                                <Children>
+                                    <UIObject Type="Container" Name="ctnRegion">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="0" />
+                                            <Property Name="YOffset" Value="0" />
+                                            <Property Name="Width" Value="728" />
+                                            <Property Name="Height" Value="54" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="TinyStatic" Name="txtGameName">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="5" />
+                                                    <Property Name="YOffset" Value="15" />
+                                                    <Property Name="Width" Value="104" />
+                                                    <Property Name="Height" Value="23" />
+                                                    <Property Name="TextColor" Value="RGB:76,165,195" />
+                                                    <Property Name="Caption" Value="游戏名称" />
+                                                    <Property Name="LogFont" Value="-16;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                                                    <Property Name="AlignMode" Value="RIGHT" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyContainer" Name="TinyContainer1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="111" />
+                                                    <Property Name="YOffset" Value="11" />
+                                                    <Property Name="Width" Value="105" />
+                                                    <Property Name="Height" Value="30" />
+                                                    <Property Name="Background" Value="ONEIMAGE:Detail\combo_bg.png;Tile;null;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="ComboBox" Name="cbRegion">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="143" />
+                                                    <Property Name="YOffset" Value="12" />
+                                                    <Property Name="Width" Value="75" />
+                                                    <Property Name="Height" Value="27" />
+                                                    <Property Name="TextColor" Value="RGB:41,99,140" />
+                                                    <Property Name="ListBoxBackground" Value="3VIMAGES:Lobby\listbox.png?0,0,75,10;Lobby\listbox.png?0,10,75,20;Lobby\listbox.png?0,100,75,107;Stretch;0;" />
+                                                    <Property Name="HasBorder" Value="false" />
+                                                    <Property Name="ButtonBg" Value="ONEIMAGE:Detail\combo_norm.png;Tile;null;" />
+                                                    <Property Name="ButtonBgHover" Value="ONEIMAGE:Detail\combo_hover.png;Tile;null;" />
+                                                    <Property Name="ButtonBgPressed" Value="ONEIMAGE:Detail\combo_press.png;Tile;null;" />
+                                                    <Property Name="ItemHeight" Value="30" />
+                                                    <Property Name="Droplist" Value="true" />
+                                                    <Property Name="ButtonWidth" Value="17" />
+                                                    <Property Name="ButtonHeight" Value="27" />
+                                                    <Property Name="ListBoxBorder" Value="false" />
+                                                    <Property Name="ListBoxMargin" Value="1,8,1,5" />
+                                                    <Property Name="ListBoxTextOffset" Value="14" />
+                                                    <Property Name="SelectBackground" Value="ONEIMAGE:Lobby\list_hover.png;Stretch;0;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Static" Name="sttNameAndServer">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="76" />
+                                                    <Property Name="YOffset" Value="21" />
+                                                    <Property Name="Width" Value="67" />
+                                                    <Property Name="Height" Value="17" />
+                                                    <Property Name="Visible" Value="false" />
+                                                    <Property Name="Caption" Value="电信区" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Button" Name="btnChangeServer">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="158" />
+                                                    <Property Name="YOffset" Value="20" />
+                                                    <Property Name="Width" Value="62" />
+                                                    <Property Name="Height" Value="21" />
+                                                    <Property Name="Visible" Value="false" />
+                                                    <Property Name="Background" Value="ONEIMAGE:S普通_1.png;Stretch;0;" />
+                                                    <Property Name="BackgroundHover" Value="ONEIMAGE:S滑过_1.png;Stretch;0;" />
+                                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:S按下_1.png;Tile;0;" />
+                                                    <Property Name="Caption" Value="更换区服" />
+                                                    <Property Name="TextColor" Value="RGB:128,255,128" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyContainer" Name="ctnClient">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="40" />
+                                                    <Property Name="Width" Value="708" />
+                                                    <Property Name="Height" Value="120" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Static" Name="sttIP">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="353" />
+                                                    <Property Name="YOffset" Value="19" />
+                                                    <Property Name="Width" Value="156" />
+                                                    <Property Name="Height" Value="22" />
+                                                    <Property Name="TipPosition" Value="Bottom" />
+                                                    <Property Name="TextColor" Value="RGB:76,165,195" />
+                                                    <Property Name="Caption" Value="100.100.100.100" />
+                                                    <Property Name="LogFont" Value="-16;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="ctnBefore">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="10" />
+                                            <Property Name="YOffset" Value="52" />
+                                            <Property Name="Width" Value="711" />
+                                            <Property Name="Height" Value="341" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="Button" Name="btnStart">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="290" />
+                                                    <Property Name="YOffset" Value="93" />
+                                                    <Property Name="Width" Value="165" />
+                                                    <Property Name="Height" Value="42" />
+                                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\speed_norm.png;Tile;0;" />
+                                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\speed_hover.png;Tile;0;" />
+                                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\speed._press.png;Tile;0;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="ctnRunning">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="33" />
+                                            <Property Name="YOffset" Value="100" />
+                                            <Property Name="Width" Value="708" />
+                                            <Property Name="Height" Value="120" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="Level" Name="lvlProgress">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="105" />
+                                                    <Property Name="YOffset" Value="27" />
+                                                    <Property Name="Width" Value="462" />
+                                                    <Property Name="Height" Value="13" />
+                                                    <Property Name="LevelTopImage" Value="ONEIMAGE:Detail\lvl_front.png;Stretch;0;" />
+                                                    <Property Name="LevelBottomImage" Value="ONEIMAGE:Detail\lvl_bg.png;Stretch;0;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Level" Name="lvlProgress2">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="104" />
+                                                    <Property Name="YOffset" Value="57" />
+                                                    <Property Name="Width" Value="467" />
+                                                    <Property Name="Height" Value="50" />
+                                                    <Property Name="LevelTopImage" Value="ONEIMAGE:Acc\DetectingNodesHighlight.png;Tile;0;" />
+                                                    <Property Name="LevelBottomImage" Value="ONEIMAGE:Acc\DetectingNodes.png;Tile;0;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyContainer" Name="TinyContainer1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="13" />
+                                                    <Property Name="YOffset" Value="25" />
+                                                    <Property Name="Width" Value="81" />
+                                                    <Property Name="Height" Value="82" />
+                                                    <Property Name="Background" Value="ONEIMAGE:Detail\pc.png;Tile;0;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyContainer" Name="TinyContainer2">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="569" />
+                                                    <Property Name="YOffset" Value="25" />
+                                                    <Property Name="Width" Value="63" />
+                                                    <Property Name="Height" Value="89" />
+                                                    <Property Name="Background" Value="ONEIMAGE:Detail\serv.png;Tile;0;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="ctnResult">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="39" />
+                                            <Property Name="YOffset" Value="81" />
+                                            <Property Name="Width" Value="749" />
+                                            <Property Name="Height" Value="214" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="TinyStatic" Name="sttAccRate">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="237" />
+                                                    <Property Name="YOffset" Value="106" />
+                                                    <Property Name="Width" Value="116" />
+                                                    <Property Name="Height" Value="36" />
+                                                    <Property Name="TextColor" Value="RGB:85,187,42" />
+                                                    <Property Name="Caption" Value="60%" />
+                                                    <Property Name="LogFont" Value="-25;0;0;0;700;0;0;0;134;3;2;1;2;宋体" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyStatic" Name="sttTip">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="17" />
+                                                    <Property Name="YOffset" Value="107" />
+                                                    <Property Name="Width" Value="442" />
+                                                    <Property Name="Height" Value="27" />
+                                                    <Property Name="TextColor" Value="RGB:76,165,195" />
+                                                    <Property Name="Caption" Value="预计提升你的游戏连接速度" />
+                                                    <Property Name="LogFont" Value="-16;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Button" Name="btnReStart">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="460" />
+                                                    <Property Name="YOffset" Value="4" />
+                                                    <Property Name="Width" Value="165" />
+                                                    <Property Name="Height" Value="42" />
+                                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\respeed_norm.png;Tile;0;" />
+                                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\respeed_hover.png;Tile;0;" />
+                                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\respeed_press.png;Tile;0;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Button" Name="btnLaunch">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="460" />
+                                                    <Property Name="YOffset" Value="91" />
+                                                    <Property Name="Width" Value="165" />
+                                                    <Property Name="Height" Value="42" />
+                                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\launch_norm.png;Tile;0;" />
+                                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\launch_hover.png;Tile;0;" />
+                                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\launch_press.png;Tile;0;" />
+                                                    <Property Name="BackgroundDisable" Value="ONEIMAGE:AcceCenter\launch_disable.png;Tile;null;" />
+                                                    <Property Name="TextColorDisable" Value="RGB:128,128,128" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="TinyContainer" Name="ctnBefore">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="1" />
+                                                    <Property Name="YOffset" Value="1" />
+                                                    <Property Name="Width" Value="243" />
+                                                    <Property Name="Height" Value="32" />
+                                                </Properties>
+                                                <Children>
+                                                    <UIObject Type="Static" Name="Static7">
+                                                        <Properties>
+                                                            <Property Name="XOffset" Value="15" />
+                                                            <Property Name="YOffset" Value="8" />
+                                                            <Property Name="Width" Value="69" />
+                                                            <Property Name="Height" Value="18" />
+                                                            <Property Name="Caption" Value="加速前:" />
+                                                            <Property Name="LogFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                                                        </Properties>
+                                                        <Children />
+                                                    </UIObject>
+                                                    <UIObject Type="Static" Name="sttBefore">
+                                                        <Properties>
+                                                            <Property Name="XOffset" Value="106" />
+                                                            <Property Name="YOffset" Value="8" />
+                                                            <Property Name="Width" Value="139" />
+                                                            <Property Name="Height" Value="19" />
+                                                            <Property Name="TextColor" Value="RGB:153,111,68" />
+                                                            <Property Name="Caption" Value="略有延迟  100ms" />
+                                                            <Property Name="LogFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                                                        </Properties>
+                                                        <Children />
+                                                    </UIObject>
+                                                    <UIObject Type="TinyContainer" Name="icon_before">
+                                                        <Properties>
+                                                            <Property Name="XOffset" Value="74" />
+                                                            <Property Name="YOffset" Value="3" />
+                                                            <Property Name="Width" Value="20" />
+                                                            <Property Name="Height" Value="19" />
+                                                        </Properties>
+                                                        <Children />
+                                                    </UIObject>
+                                                </Children>
+                                            </UIObject>
+                                            <UIObject Type="TinyContainer" Name="ctnAfter">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="1" />
+                                                    <Property Name="YOffset" Value="40" />
+                                                    <Property Name="Width" Value="279" />
+                                                    <Property Name="Height" Value="35" />
+                                                </Properties>
+                                                <Children>
+                                                    <UIObject Type="Static" Name="sttAfter">
+                                                        <Properties>
+                                                            <Property Name="XOffset" Value="105" />
+                                                            <Property Name="YOffset" Value="12" />
+                                                            <Property Name="Width" Value="139" />
+                                                            <Property Name="Height" Value="17" />
+                                                            <Property Name="TextColor" Value="RGB:121,133,35" />
+                                                            <Property Name="Caption" Value="严重延迟  50ms" />
+                                                            <Property Name="LogFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                                                        </Properties>
+                                                        <Children />
+                                                    </UIObject>
+                                                    <UIObject Type="Static" Name="Static9">
+                                                        <Properties>
+                                                            <Property Name="XOffset" Value="16" />
+                                                            <Property Name="YOffset" Value="11" />
+                                                            <Property Name="Width" Value="79" />
+                                                            <Property Name="Height" Value="18" />
+                                                            <Property Name="Caption" Value="加速后:" />
+                                                            <Property Name="LogFont" Value="-14;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                                                        </Properties>
+                                                        <Children />
+                                                    </UIObject>
+                                                    <UIObject Type="TinyContainer" Name="icon_after">
+                                                        <Properties>
+                                                            <Property Name="XOffset" Value="74" />
+                                                            <Property Name="YOffset" Value="7" />
+                                                            <Property Name="Width" Value="20" />
+                                                            <Property Name="Height" Value="19" />
+                                                        </Properties>
+                                                        <Children />
+                                                    </UIObject>
+                                                </Children>
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                    <UIObject Type="TinyContainer" Name="ctnFailed">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="39" />
+                                            <Property Name="YOffset" Value="62" />
+                                            <Property Name="Width" Value="708" />
+                                            <Property Name="Height" Value="120" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="TinyStatic" Name="sttInfo">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="119" />
+                                                    <Property Name="YOffset" Value="61" />
+                                                    <Property Name="Width" Value="329" />
+                                                    <Property Name="Height" Value="23" />
+                                                    <Property Name="TextColor" Value="RGB:76,165,195" />
+                                                    <Property Name="Caption" Value="当前网络状况不佳，请重试几次" />
+                                                    <Property Name="LogFont" Value="-16;0;0;0;400;0;0;0;134;3;2;1;34;微软雅黑" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Button" Name="btnReStart">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="393" />
+                                                    <Property Name="YOffset" Value="52" />
+                                                    <Property Name="Width" Value="165" />
+                                                    <Property Name="Height" Value="42" />
+                                                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\respeed_norm.png;Tile;0;" />
+                                                    <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\respeed_hover.png;Tile;0;" />
+                                                    <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\respeed_press.png;Tile;0;" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                </Children>
+                            </UIObject>
+                            <UIObject Type="Container" Name="Container3">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="834" />
+                                    <Property Name="Height" Value="554" />
+                                    <Property Name="CustomID" Value="10003" />
+                                </Properties>
+                                <Children>
+                                    <UIObject Type="TinyStatic" Name="txtInfo">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="13" />
+                                            <Property Name="YOffset" Value="11" />
+                                            <Property Name="Width" Value="409" />
+                                            <Property Name="Height" Value="20" />
+                                            <Property Name="Caption" Value="广东节点" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="ListView" Name="ListView1">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="10" />
+                                            <Property Name="YOffset" Value="33" />
+                                            <Property Name="Width" Value="820" />
+                                            <Property Name="Height" Value="520" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="ScrollView" Name="ScrollView1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="0" />
+                                                    <Property Name="Width" Value="820" />
+                                                    <Property Name="Height" Value="520" />
+                                                    <Property Name="VScrollImagePath" Value="ScrollBarV\" />
+                                                    <Property Name="ScrollBarImagePostfixName" Value="bmp" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Header" Name="Header1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="0" />
+                                                    <Property Name="Width" Value="820" />
+                                                    <Property Name="Height" Value="20" />
+                                                    <Property Name="TextColor" Value="RGB:76,165,195" />
+                                                    <Property Name="LogFont" Value="-14;0;0;0;700;0;0;0;134;3;2;1;2;宋体" />
+                                                    <Property Name="HeaderInitParam" Value=" , ,0,20,Center,0,0,节点, ,0,200,Center,0,0,本机到节点延迟, ,0,300,Center,0,0,丢包率, ,0,300,Center,0,0" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                            <UIObject Type="Table" Name="Table1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="20" />
+                                                    <Property Name="Width" Value="820" />
+                                                    <Property Name="Height" Value="500" />
+                                                    <Property Name="GridColor" Value="RGB:225,239,246" />
+                                                    <Property Name="HoverBackground" Value="COLOR:RGB:220,237,245;" />
+                                                    <Property Name="SelectBackground" Value="NONE:" />
+                                                    <Property Name="GridMode" Value="HoriGrid" />
+                                                    <Property Name="TableInitParam" Value="20,200,300,300:—,,广东节点,,50ms,,50%," />
+                                                    <Property Name="TableRowHeight" Value="30" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                </Children>
+                            </UIObject>
+                            <UIObject Type="Container" Name="Container4">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="834" />
+                                    <Property Name="Height" Value="554" />
+                                    <Property Name="CustomID" Value="10004" />
+                                </Properties>
+                                <Children>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic19">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="15" />
+                                            <Property Name="YOffset" Value="13" />
+                                            <Property Name="Width" Value="93" />
+                                            <Property Name="Height" Value="23" />
+                                            <Property Name="Caption" Value="TGC总计为您加速" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic20">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="105" />
+                                            <Property Name="YOffset" Value="13" />
+                                            <Property Name="Width" Value="93" />
+                                            <Property Name="Height" Value="23" />
+                                            <Property Name="Caption" Value="100" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic21">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="133" />
+                                            <Property Name="YOffset" Value="13" />
+                                            <Property Name="Width" Value="93" />
+                                            <Property Name="Height" Value="23" />
+                                            <Property Name="Caption" Value="次，加速时间" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic22">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="208" />
+                                            <Property Name="YOffset" Value="13" />
+                                            <Property Name="Width" Value="93" />
+                                            <Property Name="Height" Value="23" />
+                                            <Property Name="Caption" Value="200" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="TinyStatic" Name="TinyStatic23">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="234" />
+                                            <Property Name="YOffset" Value="13" />
+                                            <Property Name="Width" Value="29" />
+                                            <Property Name="Height" Value="23" />
+                                            <Property Name="Caption" Value="小时" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                    <UIObject Type="ScrollView" Name="ScrollView2">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="11" />
+                                            <Property Name="YOffset" Value="33" />
+                                            <Property Name="Width" Value="810" />
+                                            <Property Name="Height" Value="466" />
+                                            <Property Name="VScrollImagePath" Value="ScrollBarV\" />
+                                            <Property Name="ScrollBarImagePostfixName" Value="bmp" />
+                                        </Properties>
+                                        <Children>
+                                            <UIObject Type="RichTextBox" Name="RichTextBox1">
+                                                <Properties>
+                                                    <Property Name="XOffset" Value="0" />
+                                                    <Property Name="YOffset" Value="0" />
+                                                    <Property Name="Width" Value="810" />
+                                                    <Property Name="Height" Value="466" />
+                                                    <Property Name="CustomID" Value="40001" />
+                                                </Properties>
+                                                <Children />
+                                            </UIObject>
+                                        </Children>
+                                    </UIObject>
+                                    <UIObject Type="TinyButton" Name="btnCopy">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="17" />
+                                            <Property Name="YOffset" Value="514" />
+                                            <Property Name="Width" Value="76" />
+                                            <Property Name="Height" Value="25" />
+                                            <Property Name="Background" Value="ONEIMAGE:Login\btn_norm.png;Tile;0;" />
+                                            <Property Name="BackgroundHover" Value="ONEIMAGE:Login\btn_hover.png;Tile;0;" />
+                                            <Property Name="BackgroundPressed" Value="ONEIMAGE:Login\btn_press.png;Tile;0;" />
+                                            <Property Name="Caption" Value="复制加速日志" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                </Children>
+                            </UIObject>
+                            <UIObject Type="Container" Name="Container5">
+                                <Properties>
+                                    <Property Name="XOffset" Value="0" />
+                                    <Property Name="YOffset" Value="0" />
+                                    <Property Name="Width" Value="834" />
+                                    <Property Name="Height" Value="554" />
+                                    <Property Name="CustomID" Value="10005" />
+                                </Properties>
+                                <Children>
+                                    <UIObject Type="TinyButton" Name="TinyButton4">
+                                        <Properties>
+                                            <Property Name="XOffset" Value="299" />
+                                            <Property Name="YOffset" Value="128" />
+                                            <Property Name="Width" Value="165" />
+                                            <Property Name="Height" Value="42" />
+                                            <Property Name="Background" Value="ONEIMAGE:AcceCenter\lsp_norm.png;Tile;null;" />
+                                            <Property Name="BackgroundHover" Value="ONEIMAGE:AcceCenter\lsp_hover.png;Tile;null;" />
+                                            <Property Name="BackgroundPressed" Value="ONEIMAGE:AcceCenter\lsp_press.png;Tile;null;" />
+                                            <Property Name="TextFont" Value="-20;0;0;0;400;0;0;0;134;3;2;1;2;宋体" />
+                                        </Properties>
+                                        <Children />
+                                    </UIObject>
+                                </Children>
+                            </UIObject>
+                        </Children>
+                    </UIObject>
+                </Children>
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="TinyStatic15">
+                <Properties>
+                    <Property Name="XOffset" Value="24" />
+                    <Property Name="YOffset" Value="685" />
+                    <Property Name="Width" Value="44" />
+                    <Property Name="Height" Value="19" />
+                    <Property Name="TextColor" Value="0xFFFFFF" />
+                    <Property Name="Caption" Value="正在为" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="TinyStatic16">
+                <Properties>
+                    <Property Name="XOffset" Value="72" />
+                    <Property Name="YOffset" Value="685" />
+                    <Property Name="Width" Value="44" />
+                    <Property Name="Height" Value="19" />
+                    <Property Name="TextColor" Value="0xFFFFFF" />
+                    <Property Name="Caption" Value="1234" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyStatic" Name="TinyStatic17">
+                <Properties>
+                    <Property Name="XOffset" Value="111" />
+                    <Property Name="YOffset" Value="685" />
+                    <Property Name="Width" Value="69" />
+                    <Property Name="Height" Value="19" />
+                    <Property Name="TextColor" Value="0xFFFFFF" />
+                    <Property Name="Caption" Value="人提供加速" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="btnClose">
+                <Properties>
+                    <Property Name="XOffset" Value="812" />
+                    <Property Name="YOffset" Value="0" />
+                    <Property Name="Width" Value="40" />
+                    <Property Name="Height" Value="20" />
+                    <Property Name="Background" Value="ONEIMAGE:main\close_norm.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:main\close_hover.png;Tile;0;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:main\close_press.png;Tile;0;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="Button" Name="btnMin">
+                <Properties>
+                    <Property Name="XOffset" Value="772" />
+                    <Property Name="YOffset" Value="0" />
+                    <Property Name="Width" Value="40" />
+                    <Property Name="Height" Value="20" />
+                    <Property Name="Background" Value="ONEIMAGE:main\min_norm.png;Tile;0;" />
+                    <Property Name="BackgroundHover" Value="ONEIMAGE:main\min_hover.png;Tile;0;" />
+                    <Property Name="BackgroundPressed" Value="ONEIMAGE:main\min_press.png;Tile;0;" />
+                </Properties>
+                <Children />
+            </UIObject>
+            <UIObject Type="TinyContainer" Name="TinyContainer1">
+                <Properties>
+                    <Property Name="XOffset" Value="10" />
+                    <Property Name="YOffset" Value="7" />
+                    <Property Name="Width" Value="122" />
+                    <Property Name="Height" Value="18" />
+                    <Property Name="Background" Value="ONEIMAGE:AcceCenter\logo.png;Tile;null;" />
+                </Properties>
+                <Children />
+            </UIObject>
+        </Children>
+    </UIObject>
+</TenioUILayout>

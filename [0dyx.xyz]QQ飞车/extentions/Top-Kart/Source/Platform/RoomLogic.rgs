@@ -1,0 +1,26 @@
+HKCR
+{
+	KartClient.RoomLogic.1 = s 'KartClient Class'
+	{
+		CLSID = s '{4DF142AB-28C7-46d1-942F-1232ABA38B5D}'
+	}
+	KartClient.RoomLogic = s 'KartClient Class'
+	{
+		CLSID = s '{4DF142AB-28C7-46d1-942F-1232ABA38B5D}'
+		CurVer = s 'KartClient.RoomLogic.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {4DF142AB-28C7-46d1-942F-1232ABA38B5D} = s 'KartClient Class'
+		{
+			ProgID = s 'KartClient.RoomLogic.1'
+			VersionIndependentProgID = s 'KartClient.RoomLogic'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{68EFA553-31A1-4930-9415-0DC6AF12892F}'
+		}
+	}
+}

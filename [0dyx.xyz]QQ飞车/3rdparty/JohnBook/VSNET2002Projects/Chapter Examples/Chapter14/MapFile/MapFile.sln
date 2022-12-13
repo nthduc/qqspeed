@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapDLL", "MapDLL\MapDLL.vcproj", "{0540D660-C18C-4A93-BD20-1D311CC5C827}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapEXE", "MapEXE\MapEXE.vcproj", "{B45F8671-3BD7-446F-B28F-E9EDCD404532}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{B45F8671-3BD7-446F-B28F-E9EDCD404532}.0 = {0540D660-C18C-4A93-BD20-1D311CC5C827}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0540D660-C18C-4A93-BD20-1D311CC5C827}.Debug.ActiveCfg = Debug|Win32
+		{0540D660-C18C-4A93-BD20-1D311CC5C827}.Debug.Build.0 = Debug|Win32
+		{0540D660-C18C-4A93-BD20-1D311CC5C827}.Release.ActiveCfg = Release|Win32
+		{0540D660-C18C-4A93-BD20-1D311CC5C827}.Release.Build.0 = Release|Win32
+		{B45F8671-3BD7-446F-B28F-E9EDCD404532}.Debug.ActiveCfg = Debug|Win32
+		{B45F8671-3BD7-446F-B28F-E9EDCD404532}.Debug.Build.0 = Debug|Win32
+		{B45F8671-3BD7-446F-B28F-E9EDCD404532}.Release.ActiveCfg = Release|Win32
+		{B45F8671-3BD7-446F-B28F-E9EDCD404532}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+; TopKart.def : Declares the module parameters.
+
+LIBRARY      "Top-Kart.dll"
+
+EXPORTS
+	DllCanUnloadNow      PRIVATE
+	DllGetClassObject    PRIVATE
+	DllRegisterServer    PRIVATE
+	DllUnregisterServer	 PRIVATE

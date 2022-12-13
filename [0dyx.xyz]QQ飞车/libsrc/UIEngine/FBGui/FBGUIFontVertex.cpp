@@ -1,0 +1,3 @@
+#include "FBGUIFontVertex.h"
+
+const unsigned long FONT2DVERTEX::FVF_2D=D3DFVF_XYZRHW|D3DFVF_DIFFUSE|D3DFVF_TEX1;

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TenioUILayout Version="V1.67.20110223" ColorLib="">
+    <UIObject Type="Menu" Name="Menu1">
+        <Properties>
+            <Property Name="XOffset" Value="202" />
+            <Property Name="YOffset" Value="258" />
+            <Property Name="Width" Value="136" />
+            <Property Name="Height" Value="55" />
+            <Property Name="ItemHeight" Value="25" />
+            <Property Name="TextRect" Value="5,5,20,20" />
+            <Property Name="Background" Value="9IMAGES:main\menu\menu_1.png;main\menu\menu_2.png;main\menu\menu_3.png;main\menu\menu_4.png;main\menu\menu_5.png;main\menu\menu_6.png;main\menu\menu_7.png;main\menu\menu_8.png;main\menu\menu_9.png;Tile;null;" />
+            <Property Name="CreateType" Value="win" />
+            <Property Name="ItemBgHover" Value="COLOR:RGB:74,160,233;" />
+            <Property Name="ItemTextColorHover" Value="0xFFFFFF" />
+            <Property Name="ItemSeparatorBg" Value="3HIMAGES:main\menu\separator_l.png;main\menu\separator_m.png;main\menu\separator_r.png;Tile;null;" />
+            <Property Name="ItemSet" Value="Str:隐藏悬浮窗口;Sep;Str:退出" />
+        </Properties>
+        <Children />
+    </UIObject>
+</TenioUILayout>

@@ -1,0 +1,35 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(23F98A6C-5CDB-43A6-BF32-123456141476),
+	pointer_default(unique)
+]
+interface IPingSink : IUnknown
+{
+	HRESULT NotifyPingResult(int nIndex, int nTTL, float fLossRate, int nAverageime);
+}
+
+[
+	object,
+	uuid(A986B5C9-71A3-44d0-98BA-E4321F123456),
+	pointer_default(unique)
+]
+
+interface IPingMgr : IUnknown
+{
+	HRESULT PingServer(unsigned long ulSvrIP, unsigned short usPort, int *pnIndex, int nLimitTime);
+	HRESULT CancelPing(int nIndex);
+	HRESULT Initialize(IPingSink *pPingSink);
+}
+
+[
+	uuid(EDCD6AE4-0A21-4d19-A1DD-878360654321),
+]
+
+coclass CPingMgr
+{
+	[default] interface IPingMgr;
+};
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Server>
+    <config projectid="QQSpeed" sectiontimeout="0" totaltimeout="0" autoupdateInterval="0" valid="3" />
+    <verifyserver version="1" count="2" SuccessfulServerID="2" SuccessfulPort="443">
+        <server1 host="219.133.62.157" />
+        <server2 host="219.133.62.158" />
+        <portlist count="4" port1="80" port2="443" port3="8000" port4="8080" />
+    </verifyserver>
+   <controllist version="0">
+        <classid count="0" versionvalid="0">
+        </classid>
+        <dll count="0">
+        </dll>
+    </controllist>
+</Server>

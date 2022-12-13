@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Debugging Applications for Microsoft .NET and Microsoft Windows -->
+<!-- Copyright ©1997-2002 by John Robbins                            -->
+<!-- Sets the settings I want on all utility projects for this book  -->
+<!--                                                                 -->
+<Configurations>
+    <ProgLanguage>{B5E9BD32-6D3E-4B5D-925E-8A43B79820B4}</ProgLanguage>
+    <Configuration>
+        <ConfigName>Debug</ConfigName>
+        <Tools>
+            <Tool>
+                <ToolName>VCConfiguration</ToolName>
+                <Properties>
+                    <Property>
+                        <PropertyName>OutputDirectory</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>..\..\Output</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCCLCompilerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <PropertyName>AdditionalIncludeDirectories</PropertyName>
+                        <PropertyType OpType="Append">String</PropertyType>
+                        <PropertyValue>;..\..\Include;</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCLinkerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <PropertyName>AdditionalLibraryDirectories</PropertyName>
+                        <PropertyType OpType="Append">String</PropertyType>
+                        <PropertyValue>;$(OutDir);</PropertyValue>
+                    </Property>
+                    <Property>
+                        <PropertyName>AdditionalDependencies</PropertyName>
+                        <PropertyType OpType="Append">String</PropertyType>
+                        <PropertyValue> BugslayerUtil.LIB</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+        </Tools>
+    </Configuration>
+    <Configuration>
+        <ConfigName>Release</ConfigName>
+        <Tools>
+            <Tool>
+                <ToolName>VCConfiguration</ToolName>
+                <Properties>
+                    <Property>
+                        <PropertyName>OutputDirectory</PropertyName>
+                        <PropertyType OpType="Overwrite">String</PropertyType>
+                        <PropertyValue>..\..\Release</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCCLCompilerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <PropertyName>AdditionalIncludeDirectories</PropertyName>
+                        <PropertyType OpType="Append">String</PropertyType>
+                        <PropertyValue>;..\..\Include;</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+            <Tool>
+                <ToolName>VCLinkerTool</ToolName>
+                <Properties>
+                    <Property>
+                        <PropertyName>AdditionalLibraryDirectories</PropertyName>
+                        <PropertyType OpType="Append">String</PropertyType>
+                        <PropertyValue>;$(OutDir);</PropertyValue>
+                    </Property>
+                    <Property>
+                        <PropertyName>AdditionalDependencies</PropertyName>
+                        <PropertyType OpType="Append">String</PropertyType>
+                        <PropertyValue> BugslayerUtil.LIB</PropertyValue>
+                    </Property>
+                </Properties>
+            </Tool>
+        </Tools>
+    </Configuration>
+</Configurations>

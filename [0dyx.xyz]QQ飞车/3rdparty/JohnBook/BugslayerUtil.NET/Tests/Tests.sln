@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSUNStackTraceTest", "BSUNStackTraceTest\BSUNStackTraceTest.csproj", "{34E383B3-068B-430C-9C78-49F8D4BD6FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSUNBTWTLTest", "BSUNBTWTLTest\BSUNBTWTLTest.csproj", "{536933D3-DCA8-4BE1-85CD-A432EE7DE70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSUNELTLTest", "BSUNELTLTest\BSUNELTLTest.csproj", "{5E74B5DE-E35A-4350-831E-F9C50EA72A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSUNAssertTest", "http://localhost/BSUNAssertTest/BSUNAssertTest.csproj", "{D7E74CAB-4342-40BF-8810-E7ED2ABE022D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{34E383B3-068B-430C-9C78-49F8D4BD6FE3}.0 = {5E74B5DE-E35A-4350-831E-F9C50EA72A68}
+		{34E383B3-068B-430C-9C78-49F8D4BD6FE3}.1 = {D7E74CAB-4342-40BF-8810-E7ED2ABE022D}
+		{34E383B3-068B-430C-9C78-49F8D4BD6FE3}.2 = {536933D3-DCA8-4BE1-85CD-A432EE7DE70E}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{34E383B3-068B-430C-9C78-49F8D4BD6FE3}.Debug.ActiveCfg = Debug|.NET
+		{34E383B3-068B-430C-9C78-49F8D4BD6FE3}.Debug.Build.0 = Debug|.NET
+		{34E383B3-068B-430C-9C78-49F8D4BD6FE3}.Release.ActiveCfg = Release|.NET
+		{34E383B3-068B-430C-9C78-49F8D4BD6FE3}.Release.Build.0 = Release|.NET
+		{536933D3-DCA8-4BE1-85CD-A432EE7DE70E}.Debug.ActiveCfg = Debug|.NET
+		{536933D3-DCA8-4BE1-85CD-A432EE7DE70E}.Debug.Build.0 = Debug|.NET
+		{536933D3-DCA8-4BE1-85CD-A432EE7DE70E}.Release.ActiveCfg = Release|.NET
+		{536933D3-DCA8-4BE1-85CD-A432EE7DE70E}.Release.Build.0 = Release|.NET
+		{5E74B5DE-E35A-4350-831E-F9C50EA72A68}.Debug.ActiveCfg = Debug|.NET
+		{5E74B5DE-E35A-4350-831E-F9C50EA72A68}.Debug.Build.0 = Debug|.NET
+		{5E74B5DE-E35A-4350-831E-F9C50EA72A68}.Release.ActiveCfg = Release|.NET
+		{5E74B5DE-E35A-4350-831E-F9C50EA72A68}.Release.Build.0 = Release|.NET
+		{D7E74CAB-4342-40BF-8810-E7ED2ABE022D}.Debug.ActiveCfg = Debug|.NET
+		{D7E74CAB-4342-40BF-8810-E7ED2ABE022D}.Debug.Build.0 = Debug|.NET
+		{D7E74CAB-4342-40BF-8810-E7ED2ABE022D}.Release.ActiveCfg = Release|.NET
+		{D7E74CAB-4342-40BF-8810-E7ED2ABE022D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

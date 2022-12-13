@@ -1,0 +1,10 @@
+0	16:53:19	[P2816][T4344][M383][Trace]InstallHooks
+1	16:53:30	[P2816][T4344][M1185][Trace]SecurityVerifier VerityControlID d27cdb6e-ae6d-11cf-96b8-444553540000 100318315 Flash10za.ocx, result : 2 
+2	16:53:30	[P2816][T4344][M1185][Trace]SecurityVerifier VerityControlID d27cdb6e-ae6d-11cf-96b8-444553540000 100318315 Flash10za.ocx, result : 2 
+3	16:53:30	[P2816][T4344][M1185][Trace]SecurityVerifier VerityControlID d27cdb6e-ae6d-11cf-96b8-444553540000 100318315 Flash10za.ocx, result : 2 
+4	16:53:30	[P2816][T4344][M1185][Trace]SecurityVerifier VerityControlID d27cdb6e-ae6d-11cf-96b8-444553540000 100318315 Flash10za.ocx, result : 2 
+5	16:53:30	[P2816][T4344][M1185][Trace]SecurityVerifier VerityControlID d27cdb6e-ae6d-11cf-96b8-444553540000 100318315 Flash10za.ocx, result : 2 
+6	16:53:30	[P2816][T4344][M1185][Trace]SecurityVerifier VerityControlID d27cdb6e-ae6d-11cf-96b8-444553540000 100318315 Flash10za.ocx, result : 2 
+7	16:53:48	[P2816][T4344][M383][Trace]CTenWebBrowser::UnInstallTenioHook
+8	16:53:48	[P2816][T4344][M383][Trace]CTenWebBrowser::UnInstallTenioHook
+9	16:53:48	[P2816][T4344][M383][Trace]UninstallHooks

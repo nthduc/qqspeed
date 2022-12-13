@@ -1,0 +1,22 @@
+ SuperSaverResources
+
+ Timestamp is 3e4e585a (Sat Feb 15 10:10:18 2003)
+
+ Preferred load address is 66100000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000001cH .rdata                  DATA
+ 0001:0000001c 00000000H .edata                  DATA
+ 0001:0000001c 00000051H .rdata$debug            DATA
+ 0002:00000000 000001d8H .rsrc$01                DATA
+ 0002:000001e0 00000c40H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+
+ entry point at        0000:00000000
+
+ Static symbols
+

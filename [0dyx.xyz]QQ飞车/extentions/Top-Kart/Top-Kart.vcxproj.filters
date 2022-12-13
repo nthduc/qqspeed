@@ -1,0 +1,1362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{17ffc5f1-10e9-426c-81a9-6fb8728f1be4}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d6f897c9-e909-45df-bfcb-64da069c2210}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{6b41bf35-61b5-4cf8-b157-dab1d0a3b544}</UniqueIdentifier>
+      <Extensions>inl</Extensions>
+    </Filter>
+    <Filter Include="NiMenu">
+      <UniqueIdentifier>{6b9bda91-81e7-4244-ab2a-7db08c59c358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phys">
+      <UniqueIdentifier>{b04d4e1c-a42b-445e-9704-80ca4041f98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Track">
+      <UniqueIdentifier>{3abb7914-4c09-4669-b5fb-862f3d3d7794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{513491e9-13bd-421d-8798-f67feed0b444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display">
+      <UniqueIdentifier>{6be249e2-07ef-4cbd-a557-027fc61a1c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{040af052-2eb7-4222-b62c-6c1adf797274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{e5d4381b-bce3-466c-8d3d-77c6e7c6190b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{fe9e7163-4b58-49cb-b273-18875b4def62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{c01154d8-d172-4272-8e5e-a66245802da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GP">
+      <UniqueIdentifier>{228e3a15-ee53-4361-ba10-d9997a02efbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIFace">
+      <UniqueIdentifier>{c0f189f3-e19a-4ca7-a8b0-445918020946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Avatar">
+      <UniqueIdentifier>{dbff47ff-73c9-478e-a54f-4bc02d003407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FMOD">
+      <UniqueIdentifier>{b4d7e62e-bfc6-48ac-96c4-d290ed716298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{3e75ab9f-adb8-4e88-8dbf-5f2aeb5d4a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NifLoader">
+      <UniqueIdentifier>{2b6e61e7-2012-4414-a440-52c2894b6768}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AcceleratePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AminEventMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BarItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseTerrainEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BlinkItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CarAccel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\changeColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConsServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConsSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataCollecter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DescConstant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EffectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FenceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameEffectMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStatusManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPFlyingCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPLiftCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPLockKeyAffact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPMagnetCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPReverseKeyAffact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JointCloth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KartCrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyEventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\l_ScripFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MirrorManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MommaTasks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Monster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NifAnimationInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NO2Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PerspectiveMirror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysXManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\PlayerPosUpdateTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerRank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PowerController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PowerUpManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Profiling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProilingController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScreenOverlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScreenTextManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScriptVM .cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShadowGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundSystemSpecificInitialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpeedLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Swoosh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TCSence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainEffectMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Top-KartPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Win32SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\MenuManager.cpp">
+      <Filter>NiMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenu.cpp">
+      <Filter>NiMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItem.cpp">
+      <Filter>NiMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItemBooleanData.cpp">
+      <Filter>NiMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItemFloatData.cpp">
+      <Filter>NiMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItemIntData.cpp">
+      <Filter>NiMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiMenuItemScaleData.cpp">
+      <Filter>NiMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NiMenu\NiScreenText.cpp">
+      <Filter>NiMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CarCarCollision.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CarFenceCollision.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CarMotorControl.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\ChassisSimulator.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\CollisionBase.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\DriftCenter.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\DriftMath.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\kart.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\NitoNxTools.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\Stream.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\Suspension.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\TencentCar.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysKart\TencentCarCollision.cpp">
+      <Filter>Phys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\3DLines.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\3DLinesManager.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\CheckEditor.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\CountDownTask.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\EagleEye.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\GlobalMap.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\KartPlayback.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\KartStatusManager.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Track\StopElement.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Setting.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\d3d9warpper.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\d3dmath.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\d3dutil.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\Display.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\FlashRenderer.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\FlashScreen.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\IDisplayD3D9.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\IDisplayD3D91.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\IShockwaveFlash.c">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\RenderD3D9.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\Texture9.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XBmp.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFont.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFontGl.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFontInf.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFontLib.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDisplayD3D9\XFont\XFontTex.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ui\BubbleMgr.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ui\GUIImpl.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ui\ImageEx.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actor.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\customculler.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameAward.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameMain.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameOverCDTast.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\levelmanager.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MessageHouse.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MovePkgMgr.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NifAlloc.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\nifop.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NxPlayMgr.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NxSceneMgr.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Play.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RMOperator.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\roadmap.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\scene.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\screenobjects.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Module.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Top-Kart.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\AntibotImpl.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\GlobalInterface.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\LoginLogic.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\MsgDataCache.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderBase.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\RoomLogic.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\sc.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\sc_uicallback.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\ScriptEvent.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\UIMiscMgr.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPColumnMgr.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gpcontrol.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gpcreate.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gpeffect.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPEvilCtrl.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPJetAffect.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPMissileCtrl.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPNetIntercommn.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPNo2Affect.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPPoint.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gprender.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GPSettings.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gptarget.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\play_gptarget.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\soundmgr.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIFace.cpp">
+      <Filter>UIFace</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIFaceElement.cpp">
+      <Filter>UIFace</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ATAlgorithmBase.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ATAnimBehave.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ATBehaveBase.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ATEffectBehave.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ATSoundBehave.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ATTransferAlg.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ATWearer.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\AvatarBase.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\AvatarMgr.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\AvatarNet.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ItemDataMgr.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ItemDefine.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ItemUpdateMgr.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Avatar\ShopMgr.cpp">
+      <Filter>Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fmod\csound.cpp">
+      <Filter>FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fmod\FMODSystem.cpp">
+      <Filter>FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\AtomBase.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\AtomLevel.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\AtomProducer.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\AwardMgr.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\BlinkTex_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\BNPress_Det.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\BnPressTime_Det.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\CDTime_Det.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\CDTimerShow_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\DetectorBase.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\DetectorProducer.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\Drift_Det.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\Esc_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\ExecuteCount_Det.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\Executor.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\GarbagePool.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\KeyBlink_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\LockKey_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\Observer.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\ScreenEff_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\ScreenFont_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\ScreenFontMgr.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\ScreenTex_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\ScreenTexMgr.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\Sound_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\StartNo2_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\SubTask.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\SwitchTex_Atom.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\TaskDefine.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\TaskMgr.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\TaskNet.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\TaskSys.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Task\Timer_Det.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CallbackStream.cpp">
+      <Filter>NifLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NifLoader.cpp">
+      <Filter>NifLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\BarItem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseTerrainEffect.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BlinkItem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DataCollecter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GPMagnetCtrl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ITerrainEffect.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JointCloth.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerRank.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\statistics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TerrainEffectDef.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TerrainEffectMgr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AcceleratePanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysKart\AccelTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysKart\CarAccel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConsServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConsSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EffectAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EffectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FenceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStatusManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HUDTasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\left_Anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelTasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MommaTasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Monster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NifAnimationInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\one_Anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysXManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysXUserData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Play.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PowerController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PowerUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PowerUpManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PowerUpTasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Profiling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProilingController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScreenElementsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScreenOverlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScreenOverlayTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScreenTextManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScriptVM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShadowGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundSystemSpecificInitialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundTasks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpeedLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TCSence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TerrainManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Top-Kart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Top-KartPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Win32SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\MenuManager.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\NiMenu.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\NiMenuDefs.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\NiMenuItem.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\NiMenuItemBooleanData.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\NiMenuItemFloatData.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\NiMenuItemIntData.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\NiMenuItemScaleData.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NiMenu\NiScreenText.h">
+      <Filter>NiMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysKart\ChassisSimulator.h">
+      <Filter>Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysKart\DriftMath.h">
+      <Filter>Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysKart\NitoNxTools.h">
+      <Filter>Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysKart\Stream.h">
+      <Filter>Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysKart\Suspension.h">
+      <Filter>Phys</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\3DLines.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\3DLinesManager.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\CheckEditor.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\CountDownTask.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\EagleEye.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\GlobalMap.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\KartPlayback.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\KartStatusManager.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\PlayerPosUpdateTask.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Track\StopElement.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Setting.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\TrackResource.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IDisplayD3D9\FlashRenderer.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IDisplayD3D9\FlashScreen.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IDisplayD3D9\IShockwaveFlash.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ui\BubbleMgr.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\framework\gui_i.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ui\GUIImpl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ui\ImageEx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\customculler.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\levelmanager.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MovePkgMgr.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NifAlloc.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\nifop.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NxSceneMgr.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\physxtask.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RMOperator.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\roadmap.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\scene.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\screenobjects.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Swoosh.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\datadef.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\GlobalInterface.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\MsgToLua.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\sc_err.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gpaffectbase.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GPColumnMgr.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gpcontrol.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gpcreate.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gpdefine.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gpeffect.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GPEvilCtrl.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gpmath.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GPNo2Affect.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GPPoint.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gprender.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gpscript.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GPSettings.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gptarget.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\idgen.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\soundmgr.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\AavatarScript.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ATAlgorithmBase.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ATAnimBehave.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ATBehaveBase.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ATEffectBehave.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ATSoundBehave.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ATTransferAlg.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ATWearer.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\AvatarBase.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\AvatarMgr.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\AvatarNet.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ItemDataMgr.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ItemDefine.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ItemUpdateMgr.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Avatar\ShopMgr.h">
+      <Filter>Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\fmod\csound.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\fmod\FMODSystem.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\AtomBase.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\AtomLevel.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\AtomProducer.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\AwardMgr.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\BlinkTex_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\BNPress_Det.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\BnPressTime_Det.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\CDTime_Det.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\CDTimerShow_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\DetectorBase.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\DetectorProducer.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\Drift_Det.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\Esc_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\ExecuteCount_Det.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\Executor.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\GarbagePool.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\KeyBlink_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\LockKey_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\Observer.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\ScreenEff_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\ScreenFont_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\ScreenFontMgr.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\ScreenTex_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\ScreenTexMgr.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\Sound_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\StartNo2_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\SubTask.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\SwitchTex_Atom.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\TaskDefine.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\TaskMgr.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\TaskNet.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\TaskScript.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\TaskSys.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Task\Timer_Det.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CallbackStream.h">
+      <Filter>NifLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NifLoader.h">
+      <Filter>NifLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\strhash.h">
+      <Filter>NifLoader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Actor.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\CameraController.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\Clock.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\CollisionManager.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\EventContainer.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\GameMain.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\GameStatusManager.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\HUDTasks.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\InputManager.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\LevelManager.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\LevelTasks.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\MommaTasks.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\ParticleEffect.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\PhysXUserData.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\Play.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\PowerUpTasks.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\Scheduler.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\ScreenOverlay.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\ScreenOverlayTask.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\ShadowGeometry.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\SoundTasks.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\Task.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\TerrainManager.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Source\NiMenu\MenuManager.inl">
+      <Filter>NiMenu</Filter>
+    </None>
+    <None Include="Source\Track\CheckEditor.inl">
+      <Filter>Track</Filter>
+    </None>
+    <None Include="Source\Track\PlayerPosUpdateTask.inl">
+      <Filter>Track</Filter>
+    </None>
+    <None Include="Top-Kart.def">
+      <Filter>Module</Filter>
+    </None>
+    <None Include="gui.rgs" />
+    <None Include="VTune\Top-Kart.vpj" />
+    <None Include="TopKart.rgs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\..\include\network\PingMgr.idl">
+      <Filter>Module</Filter>
+    </Midl>
+    <Midl Include="..\..\include\network\QQTppp.idl">
+      <Filter>Module</Filter>
+    </Midl>
+    <Midl Include="TopKart.idl">
+      <Filter>Module</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Top-Kart.rc">
+      <Filter>Module</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

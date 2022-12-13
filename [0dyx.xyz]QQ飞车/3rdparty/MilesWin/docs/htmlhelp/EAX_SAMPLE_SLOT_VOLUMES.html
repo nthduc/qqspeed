@@ -1,0 +1,59 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>EAX_SAMPLE_SLOT_VOLUMES</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="used to control the sound levels for each the two possible slots that the sample can play into">
+<meta name="ms-hkwd" content="EAX_SAMPLE_SLOT_VOLUMES">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>EAX_SAMPLE_SLOT_VOLUMES</h1>
+<p>The structure  <b>EAX_SAMPLE_SLOT_VOLUMES</b> used to control the sound levels for each the two possible slots that the sample can play into</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b>struct <a href="EAX_SAMPLE_SLOT_VOLUMES.html" class=trn>EAX_SAMPLE_SLOT_VOLUMES</a>
+{
+&nbsp;&nbsp;<a href="U32.html" class=trn>U32</a></b><i> NumVolumes</i><b>;
+&nbsp;&nbsp;<a href="EAX_SAMPLE_SLOT_VOLUME.html" class=trn>EAX_SAMPLE_SLOT_VOLUME</a></b><i> volumes[2]</i><b>;
+};</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Members</h4>
+<dl>
+<dt><i>NumVolumes</i></dt>
+<dd>specifies the number of slots that you want to send this sound to. This can be 0, 1 or 2 slots.</dd>
+<dt><i>volumes</i></dt>
+<dd>specifies settings for each of the slots that you want to point this sound into.</dd>
+</dl>
+<h4>Discussion</h4>
+<p>In EAX 4, you can only send a particular sound sample to two slots at once.</p>
+<p>
+<br>
+<b>Group:</b>
+<a href="3D Digital Audio Services.html">3D Digital Audio Services</a><br>
+<b>Related Sections:</b>
+<a href="Creative's EAX 4 Pre4368aa.html">Creative's EAX 4 Preferences</a><br>
+<b>Related Basic Types:</b>
+<a href="U32.html">U32</a><br>
+<b>Related Structures:</b>
+<a href="EAX_SAMPLE_SLOT_VOLUME.html">EAX_SAMPLE_SLOT_VOLUME</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

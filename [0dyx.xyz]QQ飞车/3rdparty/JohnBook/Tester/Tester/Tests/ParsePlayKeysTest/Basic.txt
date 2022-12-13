@@ -1,0 +1,15 @@
+; Basic tests!!
+AaBb~
+~A~
+{+}A~
+a~
+@#$~
+{~}~
+{{}~
+A{%}~
+{}}
+{TAB}~
+0123456789~
+; Doesn't everyone type this when learning to type?
+Now is the time for all good men to come to the aid of their country!~
+

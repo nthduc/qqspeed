@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[ImageLib.dsp]
+SCC_Aux_Path = "\\192.168.64.38\QQKart\"
+SCC_Project_Name = "$/05 程序/5.1 Client源代码/libsrc/ImageLib", VKDAAAAA
+
+[ImageLib.mak]
+SCC_Aux_Path = "\\192.168.64.38\QQKart\"
+SCC_Project_Name = "$/05 程序/5.1 Client源代码/libsrc/ImageLib", VKDAAAAA
+
+[ImageLib.vcproj]
+SCC_Aux_Path = "\\192.168.64.38\QQKart\"
+SCC_Project_Name = "$/05 程序/5.1 Client源代码/libsrc/ImageLib", VKDAAAAA

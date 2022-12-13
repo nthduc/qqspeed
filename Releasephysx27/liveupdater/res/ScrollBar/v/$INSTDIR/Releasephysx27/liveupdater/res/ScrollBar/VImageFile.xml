@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ScrollBarImage>
+
+	<ImageFile Name = "ScrollBar/uiImageSet" />
+
+	<Images>
+		<Image State = "PreButton_Normal"   left = "0" top = "64" right = "15" bottom = "79" />
+		<Image State = "PreButton_Hover"    left = "0" top = "79" right = "15" bottom = "94" />
+		<Image State = "PreButton_Press"	left = "0" top = "94" right = "15" bottom = "109" />
+		<Image State = "PreButton_Disable"	left = "0" top = "109" right = "15" bottom = "124" />
+		
+		<Image State = "NextButton_Normal"  left = "15" top = "64" right = "30" bottom = "79" />
+		<Image State = "NextButton_Hover"  left = "15" top = "79" right = "30" bottom = "94" />
+		<Image State = "NextButton_Press"  left = "15" top = "94" right = "30" bottom = "109" />
+		<Image State = "NextButton_Disable"	left = "15" top = "109" right = "30" bottom = "124" />
+
+		<Image State = "ThumbCenter_Normal"  left = "60" top = "64" right = "75" bottom = "96" />
+		<Image State = "ThumbCenter_Hover"  left = "75" top = "64" right = "90" bottom = "96" />
+		<Image State = "ThumbCenter_Press"  left = "60" top = "96" right = "75" bottom = "128" />
+		<Image State = "ThumbCenter_Disable"  left = "75" top = "96" right = "90" bottom = "128" />
+
+		<Image State = "SlippedChannel_Normal_First"  left = "122" top = "64" right = "137" bottom = "66" />
+		<Image State = "SlippedChannel_Normal_Center"  left = "122" top = "66" right = "137" bottom = "77" />
+		<Image State = "SlippedChannel_Normal_Last"  left = "122" top = "77" right = "137" bottom = "79" />
+		
+		<Image State = "UnslippedChannel_Normal_First"  left = "122" top = "64" right = "137" bottom = "66"/>
+		<Image State = "UnslippedChannel_Normal_Center"  left = "122" top = "66" right = "137" bottom = "77" />
+		<Image State = "UnslippedChannel_Normal_Last"  left = "122" top = "77" right = "137" bottom = "79" />
+	</Images>
+
+</ScrollBarImage>

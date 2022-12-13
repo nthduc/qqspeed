@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SymLookup", "SymLookup.vcproj", "{DD525CDC-4E04-4BEC-A09B-BC9B2ABEDACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DD525CDC-4E04-4BEC-A09B-BC9B2ABEDACA}.Debug.ActiveCfg = Debug|Win32
+		{DD525CDC-4E04-4BEC-A09B-BC9B2ABEDACA}.Debug.Build.0 = Debug|Win32
+		{DD525CDC-4E04-4BEC-A09B-BC9B2ABEDACA}.Release.ActiveCfg = Release|Win32
+		{DD525CDC-4E04-4BEC-A09B-BC9B2ABEDACA}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

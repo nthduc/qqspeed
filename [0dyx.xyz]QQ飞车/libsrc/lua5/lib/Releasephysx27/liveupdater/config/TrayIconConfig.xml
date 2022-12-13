@@ -1,0 +1,6 @@
+<TenioTrayIcon>
+    <Animate Name="TrayIcon" PlayTime="" StopFrame="">
+		<Frame Index="1" IconFile="Minimize1.ico" DelayTime="300" NextFrame="2"/>
+		<Frame Index="2" IconFile="Minimize2.ico" DelayTime="300" NextFrame="1"/>
+	</Animate>
+</TenioTrayIcon>

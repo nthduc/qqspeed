@@ -1,0 +1,70 @@
+<!-- This page was created with the RAD auto-doc generator. -->
+<!doctype html public "-//w3c//dtd html 3.2 final//en">
+<html>
+<head>
+<title>AIL_set_sample_51_volume_pan</title>
+<meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+<meta name="ms.locale" content="en-us">
+<meta name="description" content="controls a sample's playback 5.1 volume levels and pan on the Xbox.">
+<meta name="ms-hkwd" content="AIL_set_sample_51_volume_pan">
+<link rel="stylesheet" title="default" href="reference.css" type="text/css" media="screen">
+</head>
+<body topmargin="0">
+<table cellspacing=0 cellpadding=0 class=bar width=100% height=25>
+<tr class=bar>
+<td class=bar>
+<i>&nbsp;<a href="index.html" class=trn>Miles Sound System SDK 6.6h</a></i>
+</td>
+</tr>
+</table>
+<h1>AIL_set_sample_51_volume_pan</h1>
+<p>The function  <b>AIL_set_sample_51_volume_pan</b> controls a sample's playback 5.1 volume levels and pan on the Xbox.</p>
+<table width=100% cellspacing=0 class=pre>
+<tr class=pre>
+<td class=pre>
+<pre><b><a href="void.html" class=trn>void</a> <a href="AIL_set_sample_51_vonel4aa.html" class=trn>AIL_set_sample_51_volume_pan</a>(</b>
+<b>&nbsp;&nbsp;<a href="HSAMPLE.html" class=trn>HSAMPLE</a>&nbsp;</b><i>S</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>volume</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>pan</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>fb_pan</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>center_scale</i><b>,</b>
+<b>&nbsp;&nbsp;<a href="F32.html" class=trn>F32</a>&nbsp;</b><i>sub_scale</i>
+<b>);</b></pre>
+</td>
+</tr>
+</table>
+<h4>In Parameters</h4>
+<dl>
+<dt><i>S</i></dt>
+<dd>indicates the sample whose volume is to be set.</dd>
+<dt><i>volume</i></dt>
+<dd>is a volume level from 0 (minimum) to 1.0 (maximum) in loudness (0.5 is 10 dB down).</dd>
+<dt><i>pan</i></dt>
+<dd>is a power pan level from 0 (hard-left) to 1.0 (hard-right).</dd>
+<dt><i>fb_pan</i></dt>
+<dd>is a front to back power pan level from 0 (front) to 1.0 (back).</dd>
+<dt><i>center_scale</i></dt>
+<dd>is a volume multipler for the center channel from 0 (minimum) to 1.0 (maximum) - this is multiplied by the volume level above.</dd>
+<dt><i>sub_scale</i></dt>
+<dd>is a volume multipler for the subwoofer channel from 0 (minimum) to 1.0 (maximum) - this is multiplied by the volume level above.</dd>
+</dl>
+<h4>Discussion</h4>
+<p> This function is currently only available on Xbox. The volume setting is linear in loudness (not amplitude) - using 0.5 is equivalent to 10 dB down. Use <a href="AIL_set_sample_51_voc8298l.html">AIL_set_sample_51_volume_levels</a> to set volumes linear in amplitude. </p><p> All sample volume scaling occurs at full sample precision. </p><p> When a sample handle is initialized by <a href="AIL_init_sample.html">AIL_init_sample</a>, the sample's volume value is set to 1.0 and the pan values are set to 0.5. </p><p> The pan setting are a power pan (DLS standard). Sliding the pan from left to right adjusts the internal volume as well, such that the sound feels like it remains at the same power as it pans across the speakers. </p><p> Example files that use this function: SSTEST.C</p>
+<p>
+<br>
+<b>Group:</b>
+<a href="2D Digital Audio Services.html">2D Digital Audio Services</a><br>
+<b>Related Sections:</b>
+<a href="Sound under Xbox.html">Sound under Xbox</a><br>
+<b>Related Functions:</b>
+<a href="AIL_init_sample.html">AIL_init_sample</a>, <a href="AIL_sample_51_volume_pan.html">AIL_sample_51_volume_pan</a>, <a href="AIL_sample_volume_pan.html">AIL_sample_volume_pan</a>, <a href="AIL_set_sample_51_voc8298l.html">AIL_set_sample_51_volume_levels</a>, <a href="AIL_set_sample_reverolliaa.html">AIL_set_sample_reverb_levels</a>, <a href="AIL_set_sample_volume_pan.html">AIL_set_sample_volume_pan</a><br>
+<b>Related Basic Types:</b>
+<a href="F32.html">F32</a>, <a href="HSAMPLE.html">HSAMPLE</a>, <a href="void.html">void</a></p>
+<p align=center>
+<a href="mailto:Miles3@radgametools.com">For technical support, e-mail Miles3@radgametools.com</a>
+<br>
+<a href="http://www.radgametools.com/miles.htm?from=help6.6h">&#169; Copyright 1991-2004 RAD Game Tools, Inc. All Rights Reserved.</a>
+</p>
+<br>
+</body>
+</html>

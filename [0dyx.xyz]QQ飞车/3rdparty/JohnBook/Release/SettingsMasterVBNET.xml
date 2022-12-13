@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Debugging Applications for Microsoft .NET and Microsoft Windows -->
+<!-- Copyright ©1997-2002 by John Robbins                            -->
+<!-- SettingsMaster AddIn Configuration File - VB.NET                -->
+<!--                                                                 -->
+<!--                                                                 -->
+<!-- PLEASE READ CHAPTER 9 ON ADDING YOUR OWN SETTINGS TO THIS FILE! -->
+<Configurations>
+    <ProgLanguage>{B5E9BD33-6D3E-4B5D-925E-8A43B79820B4}</ProgLanguage>
+    <Configuration>
+        <ConfigName>Debug</ConfigName>
+        <Properties>
+            <Property>
+                <!--Defined DEUBG=1-->
+                <PropertyName>DefineDebug</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Defined TRACE=1-->
+                <PropertyName>DefineTrace</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn on /debug:full-->
+                <PropertyName>DebugSymbols</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn on (/incremental+)-->
+                <PropertyName>IncrementalBuild</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn off -->
+                <PropertyName>Optimize</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>0</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turns integer checking on-->
+                <PropertyName>RemoveIntegerChecks</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>0</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn on -->
+                <PropertyName>TreatWarningsAsErrors</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn on to level 1 (the only one)-->
+                <PropertyName>WarningLevel</PropertyName>
+                <PropertyType Name="prjWarningLevel">Enum</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+        </Properties>
+    </Configuration>
+    <Configuration>
+        <ConfigName>Release</ConfigName>
+        <Properties>
+            <Property>
+                <!--Turns off DEUBG=1-->
+                <PropertyName>DefineDebug</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>0</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turns off TRACE=1-->
+                <PropertyName>DefineTrace</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn on /debug:full-->
+                <PropertyName>DebugSymbols</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn off (/incremental-)-->
+                <PropertyName>IncrementalBuild</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>0</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn on -->
+                <PropertyName>Optimize</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turns integer checking off-->
+                <PropertyName>RemoveIntegerChecks</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn on -->
+                <PropertyName>TreatWarningsAsErrors</PropertyName>
+                <PropertyType>Boolean</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+            <Property>
+                <!--Turn on to level 1 (the only one)-->
+                <PropertyName>WarningLevel</PropertyName>
+                <PropertyType Name="prjWarningLevel">Enum</PropertyType>
+                <PropertyValue>1</PropertyValue>
+            </Property>
+        </Properties>
+    </Configuration>
+</Configurations>
